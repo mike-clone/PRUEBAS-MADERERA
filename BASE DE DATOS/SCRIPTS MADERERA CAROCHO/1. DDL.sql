@@ -142,14 +142,14 @@ CREATE TABLE DETALLE_COMPRA(
 GO
 
 
-------------------------------------------RESTRICCIONES---------------------------------------------
---USUARIO
-ALTER TABLE USUARIO ADD CONSTRAINT uq_Usuario_userName UNIQUE(userName);
-ALTER TABLE USUARIO ADD CONSTRAINT uq_Usuario_correo UNIQUE(correo);
+--------------------------------------------RESTRICCIONES---------------------------------------------
+
 --CLIENTE
 ALTER TABLE CLIENTE ADD CONSTRAINT UQ_CLIENTE_dni UNIQUE(dni);
-ALTER TABLE CLIENTE ADD	CONSTRAINT CHK_CLIENTE_telefono CHECK(telefono LIKE '9[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]' or telefono = '' or telefono LIKE '0[0-9][0-9][0-9][0-9][0-9][0-9][0-9]')
+ALTER TABLE CLIENTE ADD	CONSTRAINT CHK_CLIENTE_telefono CHECK(telefono LIKE '9[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]' or telefono = '' or telefono LIKE '0[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]')
 ALTER TABLE CLIENTE ADD	CONSTRAINT CHK_CLIENTE_dni CHECK(dni LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]')
+ALTER TABLE CLIENTE ADD CONSTRAINT uq_Cliente_userName UNIQUE(userName);
+ALTER TABLE CLIENTE ADD CONSTRAINT uq_Cliente_correo UNIQUE(correo);
 --PROVEEDOR
 ALTER TABLE PROVEEDOR ADD CONSTRAINT  UQ_PROVEEDOR_dni UNIQUE(dni);
 ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_PROVEEDOR_telefono CHECK(telefono LIKE '9[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]' or telefono = '' or telefono LIKE '0[0-9][0-9][0-9][0-9][0-9][0-9][0-9]')
@@ -158,6 +158,6 @@ ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_estProveedor CHECK(estProveedor LIKE '[
 --EMPLEADO
 ALTER TABLE EMPLEADO ADD CONSTRAINT UQ_EMPLEADO_dni UNIQUE(dni);
 ALTER TABLE EMPLEADO ADD CONSTRAINT CHK_EMPLEADO_dni CHECK(dni LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]')
-ALTER TABLE EMPLEADO ADD CONSTRAINT CHK_EMPLEADO_telefono CHECK(telefono LIKE '9[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]' or telefono = '' or telefono LIKE '0[0-9][0-9][0-9][0-9][0-9][0-9][0-9]')
+ALTER TABLE EMPLEADO ADD CONSTRAINT CHK_EMPLEADO_telefono CHECK(telefono LIKE '9[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]' or telefono = '' or telefono LIKE '0[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]')
 GO
 
