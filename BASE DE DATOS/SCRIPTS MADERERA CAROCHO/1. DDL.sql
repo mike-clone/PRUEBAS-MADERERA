@@ -28,6 +28,24 @@ CREATE TABLE PROVEEDOR(
 )
 GO
 
+CREATE TABLE TIPO_PRODUCTO(
+	idTipo_Producto int primary key identity,
+	nombre varchar(30) not null,
+)
+GO
+CREATE TABLE PRODUCTO(
+	idProducto int primary key identity,
+	nombre varchar(40) not null,
+	longitud float not null,
+	diametro float not null,
+	precioVenta float not null,
+	stock int default 0,
+	idTipo_Producto int not null
+
+	constraint fk_Producto_Tipo foreign key (idTipo_Producto) references TIPO_PRODUCTO (idTipo_Producto)
+)
+GO
+
 CREATE TABLE PROOVEDOR_PRODUCTO
 (
   idProvedoor_producto int primary key identity,
@@ -140,7 +158,6 @@ CREATE TABLE DETALLE_COMPRA(
 	constraint fk_detCompra_Producto foreign key (idProducto) references PRODUCTO (idProducto)
 )
 GO
-
 
 --------------------------------------------RESTRICCIONES---------------------------------------------
 
