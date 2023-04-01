@@ -1,9 +1,9 @@
 USE MASTER 
 GO
-alter database [BD_MADERERA_CAROCHO] set single_user with rollback immediate
-DROP DATABASE [BD_MADERERA_CAROCHO]
-CREATE DATABASE BD_MADERERA_CAROCHO
-USE BD_MADERERA_CAROCHO
+alter database [BD_PRUEBAS_MADERERA] set single_user with rollback immediate
+DROP DATABASE [BD_PRUEBAS_MADERERA]
+CREATE DATABASE [BD_PRUEBAS_MADERERA]
+USE [BD_PRUEBAS_MADERERA]
 GO
 
 CREATE TABLE UBIGEO(
@@ -28,23 +28,19 @@ CREATE TABLE PROVEEDOR(
 )
 GO
 
-CREATE TABLE TIPO_PRODUCTO(
-	idTipo_Producto int primary key identity,
-	nombre varchar(30) not null,
-)
-GO
-CREATE TABLE PRODUCTO(
-	idProducto int primary key identity,
-	nombre varchar(40) not null,
-	longitud float not null,
-	precioCompra float not null,
-	precioVenta float not null,
-	stock int default 0,
-	idTipo_Producto int not null
+CREATE TABLE PROOVEDOR_PRODUCTO
+(
+  idProvedoor_producto int primary key identity,
+  idProveedor int not null,
+  idProducto int not null,
+  precioCompra float not null,
+ 
 
-	constraint fk_Producto_Tipo foreign key (idTipo_Producto) references TIPO_PRODUCTO (idTipo_Producto)
+  constraint fk_proveedor_producto_producto foreign key (idProducto) references PRODUCTO (idProducto),
+  constraint fk_proveedor_producto_proveedor foreign key (idProveedor) references PROVEEDOR (idProveedor)
 )
 GO
+
 
 CREATE TABLE ROL(
 	idRol int primary key identity,
@@ -86,24 +82,17 @@ CREATE TABLE CLIENTE(
 	telefono varchar(9),
 	direccion varchar(60),
 	idUbigeo VARCHAR(6),
-
-	constraint fk_Cliente_Ubigeo foreign key (idUbigeo) references Ubigeo (idUbigeo)
-)
-GO
-
-CREATE TABLE USUARIO(
-	idUsuario int primary key IDENTITY,
-	idCliente int null,
 	fecCreacion datetime default getdate(),
-	userName varchar (20) not null,
 	correo varchar(40),
+	userName varchar (20) not null,
 	pass varchar(200) null,
 	idRol int,
 	activo bit default 1,
 
-	constraint fk_usuario_cliente foreign key(idCliente) references Cliente (idCliente),
+	constraint fk_Cliente_Ubigeo foreign key (idUbigeo) references Ubigeo (idUbigeo),
 	constraint fk_usuario_rol foreign key(idRol) references Rol (idRol)
- )
+)
+GO
 
 CREATE TABLE VENTA(
 	idVenta int primary key identity,
@@ -151,6 +140,7 @@ CREATE TABLE DETALLE_COMPRA(
 	constraint fk_detCompra_Producto foreign key (idProducto) references PRODUCTO (idProducto)
 )
 GO
+
 
 ------------------------------------------RESTRICCIONES---------------------------------------------
 --USUARIO
