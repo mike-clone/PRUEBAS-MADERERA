@@ -1858,16 +1858,7 @@ INSERT INTO PROVEEDOR VALUES
 	('SAC SAC' , '79359127', 'sac@sac.pe', '943423497',  'Proveedor de PARADOR(2X1)', 1, '010109'),
 	('jack SAC' , '79359128', 'jack@jk.pe', '943423497',  'Proveedor de PARANTILLO', 1, '010109'),
 	('orlando SAC' , '79359129', 'orlando@or.pe', '943423497',  'Proveedor de PELO', 1, '010109');
-
-
-
-
-
-
-
 GO
---select * from PROVEEDOR p inner join UBIGEO u on 
---p.idUbigeo=u.idUbigeo
 
 --INSERT TIPO PRODUCTO
 INSERT INTO TIPO_PRODUCTO VALUES
@@ -1942,11 +1933,7 @@ INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VA
 GO
 
 		
---SELECT prov.idProveedor,prov.razonSocial,prov.descripcion,p.idproducto,prod.nombre,prod.longitud,p.precioCompra
---FROM PROVEEDOR PROV INNER JOIN PROVEEDOR_PRODUCTO P ON PROV.idProveedor=P.idProveedor
---inner join PRODUCTO prod on p.idproducto=prod.idProducto
- 
-
+--INSERT  PROVEEDOR_PRODUCTO
 INSERT INTO PROVEEDOR_PRODUCTO VALUES 
 (1,1,20),
 (1,7,17),
@@ -2032,40 +2019,34 @@ INSERT INTO PROVEEDOR_PRODUCTO VALUES
 (15,44,0.3),
 (15,51,0.2),
 (15,56,1);
+GO
+ --SELECT prov.idProveedor,prov.razonSocial,prov.descripcion,p.idproducto,prod.nombre,prod.longitud,p.precioCompra
+ --FROM PROVEEDOR PROV INNER JOIN PROVEEDOR_PRODUCTO P ON PROV.idProveedor=P.idProveedor
+ --inner join PRODUCTO prod on p.idproducto=prod.idProducto
 
-
+ --INSERT ROL
+INSERT INTO ROL VALUES
+	('ADMINISTRADOR'),
+	('CLIENTE'),
+	('EMPLEADO');
+GO
+--INSERT CLIENTE 256
+INSERT INTO CLIENTE(razonSocial,dni,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES ('cesar', '74359211', '945613221','Mz20Lote34-Av. Ricardo Palma', '010109','cesar@gmail.com','cesar#255','7932b2e116b076a54f452848eaabd5857f61bd957fe8a218faf216f24c9885bb',1);
+INSERT INTO CLIENTE(razonSocial,dni,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES	('omar', '70790019', '933423291', 'santiago mariños 1618', '010109','omar@gmail.com','omar#345','7932b2e116b076a54f452848eaabd5857f61bd957fe8a218faf216f24c9885bb',1);
+INSERT INTO CLIENTE(razonSocial,dni,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES	('ximena', '58791234', '999067966', 'MZA. 1-A LOTE. 3', '120102','ximena@gmailcom','ximena#1','7932b2e116b076a54f452848eaabd5857f61bd957fe8a218faf216f24c9885bb',2);
+INSERT INTO CLIENTE(razonSocial,dni,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES	('daniel', '74399141','913423491','Mz20Lote34-Av.5556',  '010109','daniel@gmail.com','daniel#222','7932b2e116b076a54f452848eaabd5857f61bd957fe8a218faf216f24c9885bb',2);
 GO
 
---==================== FALTA AREGLAR SEGUN A LA NUEVA ESTRUCTURA DE LA BD
-
-----INSERT CLIENTE
---INSERT INTO CLIENTE VALUES
---	('Cesar Ruben', '74359211', '945613221','Mz20Lote34-Av. Ricardo Palma', '010109'),
---	('Omar Lujan', '74359121', '933423291', 'Mz20Lote34-Av. Ricardo Palma', '010109'),
---	('Miguel Anthony', '78786766', '999067966', 'MZA. 1-A LOTE. 3', '120102'),
---	('Ariana Butera', '74399141','913423491','Mz20Lote34-Av. Ricardo Palma',  '010109');
---GO
-----INSERT ROL
---INSERT INTO ROL VALUES
---	('ADMINISTRADOR'),
---	('CLIENTE'),
---	('EMPLEADO');
---GO
-----INSERT USUARIO
---INSERT INTO USUARIO (idCliente, userName, correo, pass, idRol) VALUES
---	(3,'Miguel','admin@gmail.com', '7932b2e116b076a54f452848eaabd5857f61bd957fe8a218faf216f24c9885bb', 1),
---	(1,'Cesar','cesar@gmail.com', '7932b2e116b076a54f452848eaabd5857f61bd957fe8a218faf216f24c9885bb', 2)
---GO
-----INSERT TIPO EMPLEADO
---INSERT INTO TIPO_EMPLEADO VALUES
---	('AYUDANTE'),
---	('CONDUCTOR'),
---	('OPERARIO');
---GO
-----INSERT EMPLEADO
---INSERT INTO EMPLEADO VALUES
---	('VLADIMIRO MONTESINOS', '74253221', '946832167', 'Mz20Lote34-Av. Ricardo Palma', '2022-12-12', '2022-12-11', 1300.50, 'COVID', 1, 1,'080304'),
---	('TONGO GIGANTE', '74319122', '941832131', 'Mz20Lote34-Av. CIELO', '2022-12-11','2022-12-12', 1200.50, 'CANCER', 1, 2, '080304'),
---	('ALAN GARCIA', '74352133', '946892141', 'Mz20Lote34-Av. LA LUNA','2022-12-11', '2022-12-12', 2500.50, 'TIFOIDEA', 1, 3, '080304'),
---	('HOMERO SIMPSON', '71399144', '941832151', 'Mz20Lote34-Av. EL SOL','2022-12-11', '2022-12-12',  1300.58, 'FIEBRE', 1, 2, '080304');
---GO
+--INSERT TIPO EMPLEADO
+INSERT INTO TIPO_EMPLEADO VALUES
+	('AYUDANTE'),
+	('CONDUCTOR'),
+	('OPERARIO');
+GO
+--INSERT EMPLEADO
+INSERT INTO EMPLEADO VALUES
+	('VLADIMIRO MONTESINOS', '74253221', '946832167', 'Mz20Lote34-Av. Ricardo Palma', '2022-12-12', '2022-12-11', 1300.50, 'COVID', 1, 1,'080304'),
+	('TONGO GIGANTE', '74319122', '941832131', 'Mz20Lote34-Av. CIELO', '2022-12-11','2022-12-12', 1200.50, 'CANCER', 1, 2, '080304'),
+	('ALAN GARCIA', '74352133', '946892141', 'Mz20Lote34-Av. LA LUNA','2022-12-11', '2022-12-12', 2500.50, 'TIFOIDEA', 1, 3, '080304'),
+	('HOMERO SIMPSON', '71399144', '941832151', 'Mz20Lote34-Av. EL SOL','2022-12-11', '2022-12-12',  1300.58, 'FIEBRE', 1, 2, '080304');
+GO
