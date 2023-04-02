@@ -1843,11 +1843,28 @@ GO
 
 --INSERT PROVEEDOR
 INSERT INTO PROVEEDOR VALUES
-	('Juan SAC', '73359111', 'juan@jn.pe', '943423491',  'Proveedor de ...', 1, '010109'),
-	('Carmen SAC', '71359112', 'carmen@crm.pe', '943423492',  'Proveedor de ...', 1, '010109'),
-	('keyla SAC ', '72759138', 'keyla@ky.pe', '943423493',  'Proveedor de ...', 1, '010109'),
-	('Antonio SAC', '78359114', 'antonio@ant.pe', '943423594',  'Proveedor de ...', 1, '010109'),
-	('Luis SAC' , '79359119', 'luis@ls.pe', '943423491',  'Proveedor de ...', 1, '010109');
+	('Juan SAC', '73359111', 'juan@jn.pe', '943423491',  'Proveedor de VIGA', 1, '010109'),
+	('Carmen SAC', '71359112', 'carmen@crm.pe', '943423492',  'Proveedor de SUPER ', 1, '010109'),
+	('keyla SAC ', '72759138', 'keyla@ky.pe', '943423493',  'Proveedor de MANDALLON', 1, '010109'),
+	('Antonio SAC', '78359114', 'antonio@ant.pe', '943423594',  'Proveedor de MANDANA', 1, '010109'),
+	('Luis SAC' , '79359119', 'luis@ls.pe', '943423491',  'Proveedor de MANDANILLA', 1, '010109'),
+	('Angel SAC' , '79359120', 'angel@an.pe', '943423497',  'Proveedor de VARA', 1, '010109'),
+	('Deniss SAC' , '79359121', 'deniss@dss.pe', '943423499',  'Proveedor de VARA PAQUETE', 1, '010109'),
+	('Nixi SAC' , '79359122', 'nixi@nx.pe', '943423497',  'Proveedor de CHACLA', 1, '010109'),
+	('Michael SAC' , '79359123', 'michael@mc.pe', '943423697',  'Proveedor de POSTES', 1, '010109'),
+	('Macarena SAC' , '79359124', 'macarena@mac.pe', '943323497',  'Proveedor de PARANTE', 1, '010109'),
+	('Jazmin SAC' , '79359125', 'jazmin@jz.pe', '943423495',  'Proveedor de PARANTE(2X1)', 1, '010109'),
+	('Rambo SAC' , '79359126', 'rambo@rmb.pe', '943422497',  'Proveedor de PARADOR', 1, '010109'),
+	('SAC SAC' , '79359127', 'sac@sac.pe', '943423497',  'Proveedor de PARADOR(2X1)', 1, '010109'),
+	('jack SAC' , '79359128', 'jack@jk.pe', '943423497',  'Proveedor de PARANTILLO', 1, '010109'),
+	('orlando SAC' , '79359129', 'orlando@or.pe', '943423497',  'Proveedor de PELO', 1, '010109');
+
+
+
+
+
+
+
 GO
 --select * from PROVEEDOR p inner join UBIGEO u on 
 --p.idUbigeo=u.idUbigeo
@@ -1871,7 +1888,7 @@ INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VA
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('MANDALLON',7,4,21,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('MANDANA',7,3.5,14,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('MANDANILLA',7,3,12,1);
-INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('VARAS',7,2.5,6,1);
+INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('VARA',7,2.5,6,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('VARA PAQUETE',7,2,5,1);
 
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('VIGA',6,5 ,22,1);
@@ -1879,7 +1896,7 @@ INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VA
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('MANDALLON',6,4 ,13,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('MANDANA',6,3.5 ,11,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('MANDANILLA',6,3 ,7.50,1);
-INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('VARAS',6, 3.5,5,1);
+INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('VARA',6, 3.5,5,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('VARA PAQUETE',6,2 ,3.80,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('CHACLA',6, 1.5,2,1);
 
@@ -1888,7 +1905,7 @@ INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VA
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('MANDALLON',5, 4,11.5,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('MANDANA',5,3.5 ,7.5,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('MANDANILLA',5,3 ,6,1);
-INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('VARAS',5,2.5 ,2.20,1);
+INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('VARA',5,2.5 ,2.20,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('VARA PAQUETE',5,2 ,1.5,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('CHACLA',5,1.5 ,1,1);
 
@@ -1897,7 +1914,7 @@ INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VA
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('MANDALLON',4,4,7.20,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('MANDANA',4,3.5,5.5,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('MANDANILLA',4,3,4.5,1);
-INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('VARAS',4,2.5,2,1);
+INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('VARA',4,2.5,2,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('VARA PAQUETE',4,2,1.20,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('CHACLA',4,1.5,0.70,1);
 
@@ -1923,6 +1940,102 @@ INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VA
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('PARANTILLO',2,1.5,0.5,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('TORCIDOS',1.50,1.5,1,1);
 GO
+
+		
+--SELECT prov.idProveedor,prov.razonSocial,prov.descripcion,p.idproducto,prod.nombre,prod.longitud,p.precioCompra
+--FROM PROVEEDOR PROV INNER JOIN PROVEEDOR_PRODUCTO P ON PROV.idProveedor=P.idProveedor
+--inner join PRODUCTO prod on p.idproducto=prod.idProducto
+ 
+
+INSERT INTO PROVEEDOR_PRODUCTO VALUES 
+(1,1,20),
+(1,7,17),
+(1,14,12),
+(1,22,10),
+(1,30,5.5),
+(1,56,1),
+
+(2,2,25),
+(2,8,18),
+(2,15,12),
+(2,23,11),
+(2,31,5),
+(2,56,1),
+
+(3,3,26),
+(3,9,20),
+(3,16,11),
+(3,24,9),
+(3,32,5),
+(3,56,1),
+
+(4,4,15),
+(4,10,12),
+(4,17,10),
+(4,25,6),
+(4,33,5),
+(4,56,1),
+
+(5,5,12),
+(5,11,11),
+(5,18,7),
+(5,26,6),
+(5,34,3),
+(5,56,1),
+
+(6,6,20),
+(6,12,20),
+(6,19,20),
+(6,27,20),
+(6,35,20),
+(6,56,1),
+
+(7,13,3),
+(7,20,2),
+(7,28,1),
+(7,36,0.5),
+(7,56,1),
+
+(8,21,1),
+(8,29,1),
+(8,37,0.5),
+(8,56,1),
+
+(9,38,5),
+(9,45,3),
+(9,56,1),
+
+(10,39,4),
+(10,46,2),
+(10,56,1),
+
+(11,40,5),
+(11,47,2),
+(11,53,0.5),
+(11,56,1),
+
+(12,41,4),
+(12,48,2),
+(12,52,1),
+(12,56,1),
+
+(13,42,3),
+(13,49,2),
+(13,54,1),
+(13,56,1),
+
+(14,43,1),
+(14,50,1),
+(14,55,0.2),
+(14,56,1),
+
+(15,44,0.3),
+(15,51,0.2),
+(15,56,1);
+
+
+GO
+
 --==================== FALTA AREGLAR SEGUN A LA NUEVA ESTRUCTURA DE LA BD
 
 ----INSERT CLIENTE
