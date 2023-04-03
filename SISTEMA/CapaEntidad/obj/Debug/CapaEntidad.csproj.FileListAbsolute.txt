@@ -25,3 +25,9 @@ C:\Users\mike\Desktop\DIARS-MADERERA+BD\SISTEMA\CapaEntidad\obj\Debug\CapaEntida
 C:\Users\mike\Desktop\DIARS-MADERERA+BD\SISTEMA\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\mike\Desktop\DIARS-MADERERA+BD\SISTEMA\CapaEntidad\obj\Debug\CapaEntidad.pdb
 >>>>>>> parent of f6e3dc7 (Agregar los roles del cliente)
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\obj\Debug\CapaEntidad.pdb

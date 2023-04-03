@@ -16,3 +16,7 @@ C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaAcc
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CopyComplete
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.AssemblyReference.cache
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb

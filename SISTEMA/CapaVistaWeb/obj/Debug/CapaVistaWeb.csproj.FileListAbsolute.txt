@@ -182,3 +182,7 @@ C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaVis
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\obj\Debug\CapaVistaWeb.csproj.CopyComplete
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\obj\Debug\MadereraCarocho.dll
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\obj\Debug\MadereraCarocho.pdb
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\obj\Debug\CapaVistaWeb.csproj.AssemblyReference.cache
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\obj\Debug\CapaVistaWeb.csproj.CoreCompileInputs.cache
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\obj\Debug\MadereraCarocho.dll
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\obj\Debug\MadereraCarocho.pdb

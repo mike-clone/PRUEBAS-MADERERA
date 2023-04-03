@@ -20,3 +20,7 @@ C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaLog
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.pdb
