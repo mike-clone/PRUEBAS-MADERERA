@@ -80,16 +80,18 @@
                 <th>
                     TELEFONO
                 </th>
-
+                <th>
+                    DESCRIPCION
+                </th>
                 <th>
                     DEPARTAMENTO
                 </th>
-                <th>
+                @*<th>
                     PRIVICIA
                 </th>
                 <th>
                     DISTRITO
-                </th>
+                </th>*@
                 <th>
                     ESTADO
                 </th>
@@ -106,44 +108,53 @@
         <tbody>
             @foreach (var item in Model)
             {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.IdProveedor)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.RazonSocial)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Dni)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Correo)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Telefono)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Ubigeo.Departamento)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Ubigeo.Provincia)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Ubigeo.Distrito)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.EstProveedor)
-                    </td>
-                    <td>
-                        <button class="btn btn-warning" type="button">
-                            @Html.ActionLink("Edit", "EditarProveedor", new { idprov = item.IdProveedor })
-                            <i class="bi bi-pencil-square"></i>
-                        </button>
-                    </td>
-                    <td>
-                        <a onclick="return Eliminar(this)" href="/Proveedor/EliminarProveedor?idc=@item.IdProveedor" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
-                    </td>
-                </tr>
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdProveedor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RazonSocial)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dni)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Correo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ubigeo.Departamento)
+                </td>
+                @*<td>
+            @Html.DisplayFor(modelItem => item.Ubigeo.Provincia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ubigeo.Distrito)
+        </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.EstProveedor)
+                </td>
+                <td>
+                    <button class="btn btn-info bi bi-stickies-fill" type="button">
+                        @Html.ActionLink("Detalle", "DetalleProveedor", new { idprov = item.IdProveedor })
+
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-warning bi bi-pencil-square" type="button">
+                        @Html.ActionLink("Edit", "EditarProveedor", new { idprov = item.IdProveedor })
+
+                    </button>
+                </td>
+                <td>
+                    <a onclick="return Eliminar(this)" href="/Proveedor/EliminarProveedor?idc=@item.IdProveedor" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
+                </td>
+            </tr>
             }
         </tbody>
     </table>

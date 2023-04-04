@@ -46,6 +46,8 @@ BEGIN
 	order by distrito;
 END
 GO
+
+
 ----========ROL======---
 --CREATE OR ALTER PROCEDURE spListarRol
 --AS
@@ -155,15 +157,7 @@ GO
 --	INSERT INTO PROVEEDOR values (@razonSocial, @dni, @correo, @telefono, @descripcion, @estProveedor, @idUbigeo);
 --END
 --GO
---CREATE OR ALTER PROCEDURE spListarProveedor
---AS
---BEGIN
---	select p.idProveedor, p.razonSocial, p.dni, p.correo, p.telefono, p.descripcion, p.estProveedor,
---	u.departamento,u.provincia, u.distrito from  PROVEEDOR p 
---	inner join ubigeo u on p.idUbigeo = u.idUbigeo
---	where p.estProveedor = 1;
---END
---GO
+
 
 --CREATE OR ALTER PROCEDURE spActualizarProveedor(
 --	@idProveedor int,	

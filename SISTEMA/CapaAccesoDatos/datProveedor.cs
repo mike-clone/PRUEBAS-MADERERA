@@ -136,7 +136,7 @@ namespace CapaAccesoDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spDeshabilitarProveedor", cn);
+                cmd = new SqlCommand("spEliminarProveedor", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@idProveedor", idProveedor);
                 cn.Open();
@@ -223,7 +223,8 @@ namespace CapaAccesoDatos
                     pro.Descripcion = dr["descripcion"].ToString();
                     pro.EstProveedor = Convert.ToBoolean(dr["estProveedor"]);
                     entUbigeo ubi = new entUbigeo();
-                    ubi.IdUbigeo = dr["idUbigeo"].ToString();
+                    ubi.Departamento = dr["departamento"].ToString();
+                    ubi.Provincia = dr["provincia"].ToString();
                     ubi.Distrito = dr["distrito"].ToString();
                     pro.Ubigeo = ubi;
                 }
