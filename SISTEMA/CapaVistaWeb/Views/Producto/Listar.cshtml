@@ -66,22 +66,25 @@
                     ID
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Nombre)
-                </th>
-                <th>
-                    METRAJE
-                </th>
-                <th>
-                    PRE.COMPRA
-                </th>
-                <th>
-                    PRE.VENTA
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Stock)
+                    NOMBRE
                 </th>
                 <th>
                     TIPO
+                </th>
+                <th>
+                    LONGITUD
+                </th>
+                <th>
+                    PROVEEDOR
+                </th>
+                <th>
+                    STOCK
+                </th>
+                <th>
+                    PRECIO COMPRA
+                </th>
+                <th>
+                    PRECIO VENTA
                 </th>
                 <th>EDITAR</th>
                 <th>ELIMINAR</th>
@@ -98,19 +101,22 @@
                         @Html.DisplayFor(modelItem => item.Nombre)
                     </td>
                     <td>
+                        @Html.DisplayFor(modelItem => item.Tipo.Nombre)
+                    </td>
+                    <td>
                         @Html.DisplayFor(modelItem => item.Longitud)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NomProv.RazonSocial)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Stock)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.PrecioCompra)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.PrecioVenta)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Stock)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Tipo.Nombre)
                     </td>
                     <td>
                         <button class="btn btn-warning" type="button">
@@ -144,7 +150,7 @@
                         <div class="form-group">
                             Tipo de producto:
                             <div class="col-md-10">
-                                @Html.DropDownList("cTipo", (SelectList)ViewBag.listaTipo, "Seleccionar")
+                                <!--a@Html.DropDownList("cTipo", (SelectList)ViewBag.listaTipo, "Seleccionar")-->
                             </div>
                         </div>
                     </div>

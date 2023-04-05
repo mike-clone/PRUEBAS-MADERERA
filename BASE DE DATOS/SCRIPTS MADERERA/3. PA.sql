@@ -815,3 +815,16 @@ GO
 --	order by count(2) desc; 
 --END
 --GO
+
+CREATE OR ALTER PROCEDURE spListarProductoAdmin
+AS
+BEGIN
+	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
+	FROM PROVEEDOR pr inner join PROVEEDOR_PRODUCTO pp on pr.idProveedor = pp.idProveedor
+	inner join PRODUCTO p on pp.idProducto = p.idProducto
+	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto = p.idTipo_Producto
+END
+GO
+
+--INSERT INTO PROVEEDOR_PRODUCTO VALUES (2,1,25)
+

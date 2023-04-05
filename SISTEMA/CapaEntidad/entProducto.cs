@@ -15,6 +15,7 @@ namespace CapaEntidad
         private double precioVenta;
         private entTipoProducto tipo;
         private int stock;
+        private entProveedor nomProv;
 
         #region Get and Set
         public int IdProducto
@@ -51,6 +52,11 @@ namespace CapaEntidad
         {
             get { return stock; }
             set { stock = value; }
+        }
+        public entProveedor NomProv
+        {
+            get { return nomProv;  }
+            set { nomProv = value;  }
         }
         #endregion Get and Set
     }
