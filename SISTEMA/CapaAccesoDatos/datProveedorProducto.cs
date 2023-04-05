@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace CapaAccesoDatos
 {
@@ -36,6 +37,7 @@ namespace CapaAccesoDatos
                     det.IdProveedorProducto = Convert.ToInt32(dr["idProvedoor_producto"]);
 
                     entProveedor pro = new entProveedor();
+                    pro.IdProveedor = Convert.ToInt32(dr["idProveedor"]);
                     pro.RazonSocial = dr["razonSocial"].ToString();
                     pro.Descripcion = dr["descripcion"].ToString();
 
@@ -57,6 +59,37 @@ namespace CapaAccesoDatos
             { throw e; }
             finally { cmd.Connection.Close(); }
             return list;
+        }
+
+        public bool CrearDetalleProveedor(entProveedorProducto pro)
+        {
+            SqlCommand cmd = null;
+            bool creado = false;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spCrearDetalleProveedor", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@idProveedor", pro.Proveedor.IdProveedor);
+                cmd.Parameters.AddWithValue("@idProducto", pro.Producto.IdProducto);
+                cmd.Parameters.AddWithValue("@precioCompra", pro.PrecioCompra);
+                cn.Open();
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    creado = true;
+                }
+            }
+            catch (Exception e)
+            {
+
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return creado;
         }
     }
 }

@@ -65,18 +65,23 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProveedor pro = new entProveedor();
-                    entUbigeo ubi = new entUbigeo();
-                    pro.IdProveedor = Convert.ToInt32(dr["idProveedor"]);
-                    pro.RazonSocial = dr["razonSocial"].ToString();
-                    pro.Dni = dr["dni"].ToString();
-                    pro.Correo = dr["correo"].ToString();
-                    pro.Telefono = dr["telefono"].ToString();
-                    pro.Descripcion = dr["descripcion"].ToString();
-                    pro.EstProveedor = Convert.ToBoolean(dr["estProveedor"]);
-                    ubi.Departamento = dr["departamento"].ToString();
-                    ubi.Provincia = dr["provincia"].ToString();
-                    ubi.Distrito = dr["distrito"].ToString();
+                    entProveedor pro = new entProveedor {
+                    IdProveedor = Convert.ToInt32(dr["idProveedor"]),
+                    RazonSocial = dr["razonSocial"].ToString(),
+                    Dni = dr["dni"].ToString(),
+                    Correo = dr["correo"].ToString(),
+                    Telefono = dr["telefono"].ToString(),
+                    Descripcion = dr["descripcion"].ToString(),
+                    EstProveedor = Convert.ToBoolean(dr["estProveedor"])
+                    };
+                    
+                    entUbigeo ubi = new entUbigeo
+                    {
+                    Departamento = dr["departamento"].ToString(),
+                    Provincia = dr["provincia"].ToString(),
+                    Distrito = dr["distrito"].ToString()
+                    };
+                    
                     pro.Ubigeo = ubi;
                     list.Add(pro);
                 }

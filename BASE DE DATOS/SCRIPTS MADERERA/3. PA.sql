@@ -130,7 +130,7 @@ GO
 CREATE OR ALTER PROCEDURE spEliminarProveedor(@idProveedor int)
 AS
 BEGIN
-    delete PROVEEDOR_PRODUCTO where @idProveedor=@idProveedor;
+    delete PROVEEDOR_PRODUCTO where idProveedor=@idProveedor;
 	delete PROVEEDOR where idProveedor = @idProveedor;
 END
 GO
@@ -143,7 +143,7 @@ CREATE OR ALTER PROCEDURE spMostrarDetalleProveedorId
  )
  AS
  BEGIN
- SELECT p.idProvedoor_producto, prov.razonSocial,prov.descripcion,p.idproducto,prod.nombre,prod.longitud,prod.stock,p.precioCompra
+ SELECT p.idProvedoor_producto,prov.idProveedor, prov.razonSocial,prov.descripcion,p.idproducto,prod.nombre,prod.longitud,prod.stock,p.precioCompra
  FROM PROVEEDOR PROV INNER JOIN PROVEEDOR_PRODUCTO P ON PROV.idProveedor=P.idProveedor
  inner join PRODUCTO prod on p.idproducto=prod.idProducto
  where p.idProveedor=@idProveedor

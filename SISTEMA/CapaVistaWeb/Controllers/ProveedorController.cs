@@ -13,7 +13,7 @@ namespace MadereraCarocho.Controllers
     [Authorize]// No puede si es que no esta autorizado
     public class ProveedorController : Controller
     {
-      
+        public int ID= 0;
         //[HttpGet]
         public ActionResult Listar( string dato)//listar y buscar 
         {
@@ -119,17 +119,50 @@ namespace MadereraCarocho.Controllers
         public ActionResult MostrarDetalle(int idp)
         {
             List<entProveedorProducto> lista;
-            if (idp==0)
+            if (idp == 0)
             {
                 lista = logProveedorProducto.Instancia.MostrarDetalleProvedorId(1);
+                ID = 1;
             }
             else
             {
                 lista = logProveedorProducto.Instancia.MostrarDetalleProvedorId(idp);
-
+                ID = idp;
             }
+            List<entProducto> listaProducto = logProducto.Instancia.ListarProducto();
+            var lsProducto = new SelectList(listaProducto, "idProducto", "nombre");
+
             ViewBag.lista = lista;
+            ViewBag.listaProducto = lsProducto;
             return View(lista);
+        }
+
+        [HttpPost]
+        public ActionResult CrearDetalle(double pprecio , FormCollection frm)
+        {
+            try
+            {
+                entProducto prod = logProducto.Instancia.BuscarProductoId(Convert.ToInt32(frm["Prod"]));
+                entProveedor prov = new entProveedor {
+                    IdProveedor = ID
+                };
+                entProveedorProducto entp = new entProveedorProducto {
+                    Proveedor = prov,
+                    Producto = prod,
+                    PrecioCompra=pprecio
+                };
+
+                bool inserta = logProveedorProducto.Instancia.CrearDetalleProvedor(entp);
+                if (inserta)
+                {
+                    return RedirectToAction("Listar");
+                }
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction("Listar", new { mesjExeption = ex.Message });
+            }
+            return RedirectToAction("Listar");
         }
     }
 }

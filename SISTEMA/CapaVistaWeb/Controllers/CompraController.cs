@@ -13,6 +13,7 @@ namespace MadereraCarocho.Controllers
     [PermisosRol(entRol.Administrador)]
     public class CompraController : Controller
     {
+
         // GET: Compra
         public ActionResult Index()
         {
