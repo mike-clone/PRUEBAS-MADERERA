@@ -17,7 +17,7 @@ namespace CapaLogica
             get { return _instancia; }
         }
 
-        public entProveedorProducto MostrarDetalleProvedorId(int idProveedor)
+        public List<entProveedorProducto> MostrarDetalleProvedorId(int idProveedor)
         {
             return  datProveedorProducto.Instancia.MostarDetalleProveedorId(idProveedor);
         }

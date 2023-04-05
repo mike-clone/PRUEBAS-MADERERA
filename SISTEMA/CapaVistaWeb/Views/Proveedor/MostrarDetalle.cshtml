@@ -1,4 +1,4 @@
-﻿@model CapaEntidad.entProveedorProducto
+﻿@model IEnumerable<CapaEntidad.entProveedorProducto>
 
 @{
     ViewBag.Title = "MostrarDetalle";
@@ -6,43 +6,70 @@
 
 <h2>MostrarDetalle</h2>
 
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            #
+        </th>
+        <th>
+            Razon social
+        </th>
+        <th>
+            Descripcion
+        </th>
+        <th>
+            IdProducto
+        </th>
+        <th>
+            Producto
+        </th>
+        <th>
+            Longitud
+        </th>
+        <th>
+            stock
+        </th>
+        <th>
+            precioCompra
+        </th>
+        <th></th>
+    </tr>
 
-@using (Html.BeginForm())
-{
-    @Html.AntiForgeryToken()
-    
-    <div class="form-horizontal">
-        <h4>entProveedorProducto</h4>
-        <hr />
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        <div class="form-group">
-            @Html.LabelFor(model => model.IdProveedorProducto, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.IdProveedorProducto, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.IdProveedorProducto, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.PrecioCompra, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.PrecioCompra, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.PrecioCompra, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" />
-            </div>
-        </div>
-    </div>
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.IdProveedorProducto)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Proveedor.RazonSocial)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Proveedor.Descripcion)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Producto.IdProducto)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Producto.Nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Producto.Longitud)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Producto.Stock)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Producto.PrecioCompra)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+    </td>
+</tr>
 }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
-
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}
+</table>

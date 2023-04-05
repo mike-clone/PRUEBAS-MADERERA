@@ -18,10 +18,10 @@ namespace CapaAccesoDatos
             get { return _instance; }
         }
 
-        public entProveedorProducto MostarDetalleProveedorId(int idProveedor)
+        public List<entProveedorProducto> MostarDetalleProveedorId(int idProveedor)
         {
             SqlCommand cmd = null;
-            entProveedorProducto det = new entProveedorProducto();
+            List<entProveedorProducto> list = new List<entProveedorProducto>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -32,6 +32,8 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
+                    entProveedorProducto det = new entProveedorProducto();
+                    det.IdProveedorProducto = Convert.ToInt32(dr["idProvedoor_producto"]);
 
                     entProveedor pro = new entProveedor();
                     pro.RazonSocial = dr["razonSocial"].ToString();
@@ -41,16 +43,19 @@ namespace CapaAccesoDatos
                     prod.IdProducto = Convert.ToInt32(dr["idProducto"]);
                     prod.Nombre = dr["nombre"].ToString();
                     prod.Longitud = Convert.ToDouble(dr["longitud"]);
+                    prod.Longitud = Convert.ToInt32(dr["stock"]);
 
                     det.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
                     det.Proveedor = pro;
                     det.Producto = prod;
+
+                    list.Add(det);
                 }
             }
             catch (Exception e)
             { throw e; }
             finally { cmd.Connection.Close(); }
-            return det;
+            return list;
         }
     }
 }

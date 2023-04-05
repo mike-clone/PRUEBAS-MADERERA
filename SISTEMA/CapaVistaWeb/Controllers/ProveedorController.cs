@@ -115,12 +115,21 @@ namespace MadereraCarocho.Controllers
             return RedirectToAction("Listar");
         }
 
-        [HttpGet]
-        public ActionResult MostrarDetalles(int idp)
+       // [HttpGet]
+        public ActionResult MostrarDetalle(int idp)
         {
-            entProveedorProducto provp = new entProveedorProducto();
-            provp = logProveedorProducto.Instancia.MostrarDetalleProvedorId(idp);
-            return View(provp);
+            List<entProveedorProducto> lista;
+            if (idp==0)
+            {
+                lista = logProveedorProducto.Instancia.MostrarDetalleProvedorId(1);
+            }
+            else
+            {
+                lista = logProveedorProducto.Instancia.MostrarDetalleProvedorId(idp);
+
+            }
+            ViewBag.lista = lista;
+            return View(lista);
         }
     }
 }
