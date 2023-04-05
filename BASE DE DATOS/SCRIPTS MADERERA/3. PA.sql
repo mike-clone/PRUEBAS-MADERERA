@@ -148,7 +148,7 @@ GO
 --==== BUSCAR PRODUCTOS===
 CREATE OR ALTER PROCEDURE spBuscarProducto
 	@campo varchar(40)
-)
+
 AS
 BEGIN
 	SELECT p.idProducto, p.nombre, p.longitud, p.precioVenta, p.stock, t.nombre as tipo from PRODUCTO p
