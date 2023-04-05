@@ -20,3 +20,14 @@ C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaLog
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.pdb
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\bin\Debug\CapaLogica.dll
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\bin\Debug\CapaLogica.pdb
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\bin\Debug\CapaAccesoDatos.dll
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\bin\Debug\CapaEntidad.dll
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\bin\Debug\CapaAccesoDatos.pdb
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\bin\Debug\CapaEntidad.pdb
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.dll
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\obj\Debug\CapaLogica.pdb

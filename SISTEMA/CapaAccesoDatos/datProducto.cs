@@ -71,14 +71,13 @@ namespace CapaAccesoDatos
                     Prod.IdProducto = Convert.ToInt32(dr["idproducto"]);
                     Prod.Nombre = dr["nombre"].ToString();
                     Prod.Longitud = Convert.ToDouble(dr["longitud"]);
-                    Prod.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
+                    //Prod.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
                     Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
                     Prod.Stock = Convert.ToInt32(dr["stock"]);
                     entTipoProducto tipo = new entTipoProducto();
-                    tipo.IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]);
+                    //tipo.IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]);
                     tipo.Nombre = dr["tipo"].ToString();
                     Prod.Tipo = tipo;
-
                     lista.Add(Prod);
                 }
 

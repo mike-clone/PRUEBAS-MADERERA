@@ -16,3 +16,12 @@ C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaAcc
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CopyComplete
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
 C:\Users\mike\Desktop\CALIDAD Y PRUEBAS OFFLINE\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\bin\Debug\CapaEntidad.dll
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\bin\Debug\CapaEntidad.pdb
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.AssemblyReference.cache
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CoreCompileInputs.cache
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CopyComplete
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
