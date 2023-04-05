@@ -81,27 +81,27 @@
         <tbody>
             @foreach (var item in Model)
             {
-<tr>
-    <td>
-        @Html.DisplayFor(modelItem => item.IdProducto)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Nombre)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Longitud)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.PrecioVenta)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Stock)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Tipo.Nombre)
-    </td>
-
-</tr>            }
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdProducto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Longitud)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PrecioVenta)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Stock)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tipo.Nombre)
+                    </td>
+                </tr>            
+            }
         <tbody>
     </table>
 </div>
