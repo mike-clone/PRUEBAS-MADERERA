@@ -47,7 +47,114 @@ BEGIN
 END
 GO
 
+--======LISTA DEPARTAMENTO===========
 
+
+CREATE OR ALTER PROCEDURE sp_ListaDepartamento
+AS
+BEGIN
+    Select  distinct (Departamento) from Ubigeo;
+END
+GO
+
+--=====LISTA PROVINCIA=========
+CREATE OR ALTER PROCEDURE sp_ListaProvincia(@departamento varchar(32))
+As
+BEGIN
+    Select distinct(Provincia) from Ubigeo
+    where Departamento = @departamento;
+END
+GO
+
+--==PROCEDIMIENTOS PARA PROVEEDOR =======
+
+---====LISTAR PROVEEDOR====
+CREATE OR ALTER PROCEDURE spListarProveedor
+AS
+BEGIN
+	select p.idProveedor, p.razonSocial, p.dni, p.correo, p.telefono, p.descripcion, p.estProveedor,
+	u.departamento,u.provincia, u.distrito from  PROVEEDOR p 
+	inner join ubigeo u on p.idUbigeo = u.idUbigeo
+	where p.estProveedor=1
+END
+GO
+--=== BUSCAR PROVEEDOR======
+CREATE OR ALTER PROCEDURE spBuscarProveedor(
+	@Campo varchar(40)
+)
+AS
+BEGIN
+	Select p.idProveedor, p.razonSocial, p.dni, p.correo, p.telefono, p.descripcion, p.estProveedor,
+	u.departamento,u.provincia, u.distrito from PROVEEDOR p 
+	inner join ubigeo u on p.idUbigeo = u.idUbigeo
+	where razonSocial like @Campo+'%'
+	or dni like @Campo+'%'	
+END
+GO
+
+CREATE OR ALTER PROCEDURE spBuscarIdProveedor(
+	@idProveedor int
+)
+AS
+BEGIN
+	Select p.idProveedor, p.razonSocial, p.dni, p.correo, p.telefono, p.descripcion, p.estProveedor,
+	u.departamento,u.provincia, u.distrito from PROVEEDOR p 
+	inner join ubigeo u on p.idUbigeo = u.idUbigeo
+	where idProveedor= @idProveedor;
+	
+END
+GO
+
+--======EDITAR PROVEEDOR ========
+
+CREATE OR ALTER PROCEDURE spActualizarProveedor(
+	@idProveedor int,	
+	@razonSocial varchar(40),
+	@dni varchar(8),
+	@correo varchar(40),
+	@telefono varchar(9),
+	@descripcion varchar (80),
+	@estProveedor bit,
+	@idUbigeo VARCHAR(6) null
+)
+AS
+BEGIN
+	update PROVEEDOR set razonSocial = @razonSocial, dni = @dni, correo = @correo,
+	telefono = @telefono, descripcion = @descripcion, estProveedor = @estProveedor, idUbigeo = @idUbigeo
+	where idProveedor = @idProveedor;
+END
+GO
+
+----==== ELIMINAR PROVEEDOR=== 
+
+CREATE OR ALTER PROCEDURE spEliminarProveedor(@idProveedor int)
+AS
+BEGIN
+    delete PROVEEDOR_PRODUCTO where @idProveedor=@idProveedor;
+	delete PROVEEDOR where idProveedor = @idProveedor;
+END
+GO
+
+--==== PROCEDIMINTOS PARA PRODUCTOS ====
+
+---====LISTAR PRODUCTOS ============
+CREATE OR ALTER PROCEDURE spListarProducto
+AS
+BEGIN
+	SELECT p.idProducto, p.nombre, p.longitud, p.precioVenta, p.stock, t.nombre as tipo from PRODUCTO p
+	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto;
+END
+GO
+--==== BUSCAR PRODUCTOS===
+CREATE OR ALTER PROCEDURE spBuscarProducto
+	@campo varchar(40)
+)
+AS
+BEGIN
+	SELECT p.idProducto, p.nombre, p.longitud, p.precioVenta, p.stock, t.nombre as tipo from PRODUCTO p
+	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto where CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR t.nombre LIKE @campo;
+END
+GO
 ----========ROL======---
 --CREATE OR ALTER PROCEDURE spListarRol
 --AS
