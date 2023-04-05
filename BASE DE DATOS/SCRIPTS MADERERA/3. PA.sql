@@ -168,7 +168,7 @@ CREATE OR ALTER PROCEDURE spBuscarProducto
 AS
 BEGIN
 	SELECT p.idProducto, p.nombre, p.longitud, p.precioVenta, p.stock, t.nombre as tipo from PRODUCTO p
-	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto where CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR t.nombre LIKE @campo;
+	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto where CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR t.nombre LIKE '%'+@campo+'%';
 END
 GO
 
@@ -180,6 +180,20 @@ BEGIN
 	FROM PROVEEDOR pr inner join PROVEEDOR_PRODUCTO pp on pr.idProveedor = pp.idProveedor
 	inner join PRODUCTO p on pp.idProducto = p.idProducto
 	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto = p.idTipo_Producto
+END
+GO
+
+--==== BUSCAR PRODUCTOS ADMIN===
+CREATE OR ALTER PROCEDURE spBuscarProductoAdmin
+	@campo varchar(40)
+
+AS
+BEGIN
+	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
+	FROM PROVEEDOR pr inner join PROVEEDOR_PRODUCTO pp on pr.idProveedor = pp.idProveedor
+	inner join PRODUCTO p on pp.idProducto = p.idProducto
+	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto = p.idTipo_Producto
+	WHERE CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR tp.nombre LIKE '%'+@campo+'%';
 END
 GO
 

@@ -212,13 +212,58 @@ namespace CapaAccesoDatos
                     Prod.IdProducto = Convert.ToInt32(dr["idproducto"]);
                     Prod.Nombre = dr["nombre"].ToString();
                     Prod.Longitud = Convert.ToDouble(dr["longitud"]);
-                    //Prod.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
                     Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
                     Prod.Stock = Convert.ToInt32(dr["stock"]);
                     entTipoProducto tipo = new entTipoProducto();
-                    //tipo.IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]);
                     tipo.Nombre = dr["tipo"].ToString();
                     Prod.Tipo = tipo;
+                    lista.Add(Prod);
+                }
+            }
+            catch (Exception e)
+            {
+
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return lista;
+        }
+
+        public List<entProducto> BuscarProductoAdmin(string busqueda)
+        {
+            List<entProducto> lista = new List<entProducto>();
+            SqlCommand cmd = null;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spBuscarProductoAdmin", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@campo", busqueda);
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    entProducto Prod = new entProducto();
+                    Prod.IdProducto = Convert.ToInt32(dr["idproducto"]);
+                    Prod.Nombre = dr["nombre"].ToString();
+
+                    entTipoProducto tipo = new entTipoProducto();
+                    tipo.Nombre = dr["tipo"].ToString();
+                    Prod.Tipo = tipo;
+
+                    Prod.Longitud = Convert.ToDouble(dr["longitud"]);
+
+                    entProveedor prov = new entProveedor();
+                    prov.RazonSocial = dr["razonsocial"].ToString();
+                    Prod.NomProv = prov;
+
+                    Prod.Stock = Convert.ToInt32(dr["stock"]);
+                    Prod.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
+                    Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
+
                     lista.Add(Prod);
                 }
             }

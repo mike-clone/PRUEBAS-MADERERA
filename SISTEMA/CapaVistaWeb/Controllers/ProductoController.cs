@@ -23,7 +23,7 @@ namespace MadereraCarocho.Controllers
             List<entProducto> lista;
             if (!String.IsNullOrEmpty(dato))
             {
-                lista = logProducto.Instancia.BuscarProducto(dato);
+                lista = logProducto.Instancia.BuscarProductoAdmin(dato);
             }
             else
             {

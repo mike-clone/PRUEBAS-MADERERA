@@ -48,6 +48,11 @@ namespace CapaLogica
             return datProducto.Instancia.BuscarProducto(busqueda);
         }
 
+        public List<entProducto> BuscarProductoAdmin(string busqueda)
+        {
+            return datProducto.Instancia.BuscarProductoAdmin(busqueda);
+        }
+
         public entProducto BuscarProductoId(int prod)
         {
             return datProducto.Instancia.BuscarProductoId(prod);
