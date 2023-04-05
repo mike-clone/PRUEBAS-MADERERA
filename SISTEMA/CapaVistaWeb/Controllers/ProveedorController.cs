@@ -13,7 +13,7 @@ namespace MadereraCarocho.Controllers
     [Authorize]// No puede si es que no esta autorizado
     public class ProveedorController : Controller
     {
-        // GET: Proveedor
+      
         //[HttpGet]
         public ActionResult Listar( string dato)//listar y buscar 
         {
@@ -113,6 +113,14 @@ namespace MadereraCarocho.Controllers
                 return RedirectToAction("Listar", new { mesjExeption = ex.Message });
             }
             return RedirectToAction("Listar");
+        }
+
+        [HttpGet]
+        public ActionResult MostrarDetalles(int idp)
+        {
+            entProveedorProducto provp = new entProveedorProducto();
+            provp = logProveedorProducto.Instancia.MostrarDetalleProvedorId(idp);
+            return View(provp);
         }
     }
 }

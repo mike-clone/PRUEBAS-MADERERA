@@ -49,6 +49,7 @@
     <Compile Include="entEmpleado.cs" />
     <Compile Include="entProducto.cs" />
     <Compile Include="entProveedor.cs" />
+    <Compile Include="entProveedorProducto.cs" />
     <Compile Include="entReporteCompra.cs" />
     <Compile Include="entReporteVenta.cs" />
     <Compile Include="entRol.cs" />
