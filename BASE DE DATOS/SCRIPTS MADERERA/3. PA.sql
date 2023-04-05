@@ -135,6 +135,21 @@ BEGIN
 END
 GO
 
+---===mostrar detalle 
+
+CREATE OR ALTER PROCEDURE spMostrarDetalleProveedorId
+ (
+ @idProveedor int
+ )
+ AS
+ BEGIN
+ SELECT p.idProvedoor_producto, prov.razonSocial,prov.descripcion,p.idproducto,prod.nombre,prod.longitud,prod.stock,p.precioCompra
+ FROM PROVEEDOR PROV INNER JOIN PROVEEDOR_PRODUCTO P ON PROV.idProveedor=P.idProveedor
+ inner join PRODUCTO prod on p.idproducto=prod.idProducto
+ where p.idProveedor=@idProveedor
+ END
+ GO
+
 --==== PROCEDIMINTOS PARA PRODUCTOS ====
 
 ---====LISTAR PRODUCTOS ============
@@ -145,6 +160,7 @@ BEGIN
 	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto;
 END
 GO
+
 --==== BUSCAR PRODUCTOS===
 CREATE OR ALTER PROCEDURE spBuscarProducto
 	@campo varchar(40)
