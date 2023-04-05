@@ -1,2 +1,42 @@
 
 SISTEMA/CapaAccesoDatos/Conexion.cs
+
+# Carpeta bin y obj
+bin/
+obj/
+
+# Archivos de configuración del proyecto
+*.dll.config
+*.exe.config
+*.pdb
+
+# Archivos generados por Visual Studio
+*.user
+*.suo
+*.cache
+*.vs/
+*.csproj.user
+*.xaml.user
+*.sln.docstates
+
+# Archivos de respaldo y temporales
+*~
+*.bak
+*.tmp
+*.log
+
+# Carpeta de publicación
+_PublishedWebsites/
+
+# Carpeta de NuGet
+packages/
+
+# Archivos de compilación
+*.dll
+*.exe
+*.pdb
+*.dll.config
+
+# Archivos de registro
+*.log
+*.log.*
