@@ -1,8 +1,7 @@
-﻿@model IEnumerable<CapaEntidad.entProducto>
+﻿@using System.Collections.Generic;
+@model IEnumerable<CapaEntidad.entProducto>
 
-@{
-    ViewBag.Title = "Listar";
-}
+@{ ViewBag.Title = "Listar"; }
 <!-- ======= Header cliente======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
@@ -62,7 +61,7 @@
                     ID
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Nombre)
+                    NOMBRE
                 </th>
                 <th>
                     METRAJE
@@ -71,7 +70,7 @@
                     PRECIO
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Stock)
+                    STOCK
                 </th>
                 <th>
                     TIPO
@@ -93,7 +92,7 @@
                         @Html.DisplayFor(modelItem => item.Longitud)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.PrecioCompra)
+                        @Html.DisplayFor(modelItem => item.PrecioVenta)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Stock)
@@ -101,8 +100,7 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.Tipo.Nombre)
                     </td>
-
-                </tr>
+                </tr>            
             }
         <tbody>
     </table>
