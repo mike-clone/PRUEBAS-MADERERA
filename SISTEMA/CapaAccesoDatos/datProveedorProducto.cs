@@ -43,9 +43,10 @@ namespace CapaAccesoDatos
                     prod.IdProducto = Convert.ToInt32(dr["idProducto"]);
                     prod.Nombre = dr["nombre"].ToString();
                     prod.Longitud = Convert.ToDouble(dr["longitud"]);
-                    prod.Longitud = Convert.ToInt32(dr["stock"]);
+                    prod.Stock= Convert.ToInt32(dr["stock"]);
 
                     det.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
+
                     det.Proveedor = pro;
                     det.Producto = prod;
 
