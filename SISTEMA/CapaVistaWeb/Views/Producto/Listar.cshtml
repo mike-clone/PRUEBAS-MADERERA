@@ -147,12 +147,8 @@
                 </div>
                 <div class="modal-body">
                     <div class="form-floating mb-3">
-                        <div class="form-group">
-                            Tipo de producto:
-                            <div class="col-md-10">
-                                <!--a@Html.DropDownList("cTipo", (SelectList)ViewBag.listaTipo, "Seleccionar")-->
-                            </div>
-                        </div>
+                        @Html.DropDownList("cTipo", (SelectList)ViewBag.listaTipo, "Seleccionar", new { @class = "form-select", @id = "tipo" })
+                        <label for="tipo" class="form-label">Tipo de Producto: </label>
                     </div>
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" name="cNombreP" id="nombre" placeholder="Nombre" required>

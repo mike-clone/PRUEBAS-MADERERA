@@ -219,7 +219,6 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\forms\Readme.txt" />
     <Content Include="Content\index.html" />
     <Content Include="Content\inner-page.html" />
     <Content Include="Content\portfolio-details.html" />
@@ -268,7 +267,6 @@
     <Content Include="Content\assets\vendor\remixicon\remixicon.woff" />
     <Content Include="Content\assets\vendor\remixicon\remixicon.woff2" />
     <Content Include="Content\assets\vendor\swiper\swiper-bundle.min.js.map" />
-    <Content Include="Content\forms\contact.php" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -313,6 +311,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\forms\" />
     <Folder Include="Filters\" />
     <Folder Include="Models\" />
   </ItemGroup>
