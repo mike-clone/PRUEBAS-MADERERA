@@ -108,7 +108,7 @@
                     <div class="form-floating mb-3">
                         @foreach (var item in Model)
                         {
-                            <input type="text" class="form-control" name="ipr" id="vacio1" value=@item.Proveedor.IdProveedor>
+                            <input type="hidden" class="form-control" name="ipr" id="idProveedor" value=@item.Proveedor.IdProveedor>
                             break;
                         }
                         <input type="hidden" class="form-control" id="vacio2" value="vacio">
@@ -116,7 +116,7 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button onclick="return Registrar('pprecio', 'vacio1', 'vacio2', 'detalleproveedor')" type="submit" class="btn btn-dark">Registrar</button>
+                    <button onclick="return Registrar('pprecio', 'idProveedor', 'vacio2', 'detalleproveedor')" type="submit" class="btn btn-dark">Registrar</button>
                     <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
                 </div>
             </form>
