@@ -51,11 +51,7 @@ namespace MadereraCarocho.Controllers
             {
                 lista = logProducto.Instancia.ListarProducto();
             }
-            //List<entTipoProducto> listaTipoProducto = logTipoProducto.Instancia.ListarTipoProducto();
-            //var lsTipoProducto = new SelectList(listaTipoProducto, "idTipo_producto", "nombre");
-
             ViewBag.lista = lista;
-            //ViewBag.listaTipo = lsTipoProducto;
             return View(lista);
         }
 

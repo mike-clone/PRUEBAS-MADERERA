@@ -187,7 +187,7 @@ CREATE OR ALTER PROCEDURE spMostrarDetalleProveedorId
 CREATE OR ALTER PROCEDURE spListarProducto
 AS
 BEGIN
-	SELECT p.idProducto, p.nombre, p.longitud, p.precioVenta, p.stock, t.nombre as tipo from PRODUCTO p
+	SELECT p.idProducto, p.nombre, p.longitud, p.diametro, p.precioVenta, p.stock, t.nombre as tipo from PRODUCTO p
 	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto;
 END
 GO
@@ -198,7 +198,7 @@ CREATE OR ALTER PROCEDURE spBuscarProducto
 
 AS
 BEGIN
-	SELECT p.idProducto, p.nombre, p.longitud, p.precioVenta, p.stock, t.nombre as tipo from PRODUCTO p
+	SELECT p.idProducto, p.nombre, p.longitud, p.diametro, p.precioVenta, p.stock, t.nombre as tipo from PRODUCTO p
 	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto where CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR t.nombre LIKE '%'+@campo+'%';
 END
 GO
@@ -207,7 +207,7 @@ GO
 CREATE OR ALTER PROCEDURE spListarProductoAdmin
 AS
 BEGIN
-	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
+	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
 	FROM PROVEEDOR pr inner join PROVEEDOR_PRODUCTO pp on pr.idProveedor = pp.idProveedor
 	inner join PRODUCTO p on pp.idProducto = p.idProducto
 	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto = p.idTipo_Producto
@@ -228,7 +228,7 @@ CREATE OR ALTER PROCEDURE spBuscarProductoAdmin
 
 AS
 BEGIN
-	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
+	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
 	FROM PROVEEDOR pr inner join PROVEEDOR_PRODUCTO pp on pr.idProveedor = pp.idProveedor
 	inner join PRODUCTO p on pp.idProducto = p.idProducto
 	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto = p.idTipo_Producto

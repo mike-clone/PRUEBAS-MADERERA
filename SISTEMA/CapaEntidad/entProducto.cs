@@ -11,16 +11,16 @@ namespace CapaEntidad
         private int idProducto;
         private string nombre;
         private double longitud;
+        private double diametro;
         private double precioCompra;
         private double precioVenta;
         private entTipoProducto tipo;
         private int stock;
         private entProveedor nomProv;
-        //crear diametro
 
         public string nombreCompleto
         {
-            get { return nombre + " " + longitud; } //pasar diametro tmb
+            get { return nombre + " - " + longitud + "MT - " + diametro + "Ø"; }
         }
 
         #region Get and Set
@@ -34,11 +34,17 @@ namespace CapaEntidad
             get { return nombre; }
             set { nombre = value; }
         }
+        public double Diametro
+        {
+            get { return diametro; }
+            set { diametro = value; }
+        }
         public double Longitud
         {
             get { return longitud; }
             set { longitud = value; }
         }
+
         public double PrecioCompra
         {
             get { return precioCompra; }

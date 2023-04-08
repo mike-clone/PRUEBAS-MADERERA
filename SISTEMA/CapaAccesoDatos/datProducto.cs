@@ -71,6 +71,7 @@ namespace CapaAccesoDatos
                     Prod.IdProducto = Convert.ToInt32(dr["idproducto"]);
                     Prod.Nombre = dr["nombre"].ToString();
                     Prod.Longitud = Convert.ToDouble(dr["longitud"]);
+                    Prod.Diametro = Convert.ToDouble(dr["diametro"]);
                     Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
                     Prod.Stock = Convert.ToInt32(dr["stock"]);
                     entTipoProducto tipo = new entTipoProducto();
@@ -112,6 +113,7 @@ namespace CapaAccesoDatos
                     Prod.Tipo = tipo;
 
                     Prod.Longitud = Convert.ToDouble(dr["longitud"]);
+                    Prod.Diametro = Convert.ToDouble(dr["diametro"]);
 
                     entProveedor prov = new entProveedor();
                     prov.RazonSocial = dr["razonsocial"].ToString();
@@ -212,6 +214,7 @@ namespace CapaAccesoDatos
                     Prod.IdProducto = Convert.ToInt32(dr["idproducto"]);
                     Prod.Nombre = dr["nombre"].ToString();
                     Prod.Longitud = Convert.ToDouble(dr["longitud"]);
+                    Prod.Diametro = Convert.ToDouble(dr["diametro"]);
                     Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
                     Prod.Stock = Convert.ToInt32(dr["stock"]);
                     entTipoProducto tipo = new entTipoProducto();
@@ -255,6 +258,7 @@ namespace CapaAccesoDatos
                     Prod.Tipo = tipo;
 
                     Prod.Longitud = Convert.ToDouble(dr["longitud"]);
+                    Prod.Diametro = Convert.ToDouble(dr["diametro"]);
 
                     entProveedor prov = new entProveedor();
                     prov.RazonSocial = dr["razonsocial"].ToString();
