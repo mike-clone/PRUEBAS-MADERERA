@@ -106,9 +106,12 @@
                         <label for="floatingInput">Precio de compra</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="hidden" class="form-control"  id="vacio1" value="vacio">
-                        <input type="hidden" class="form-control"  id="vacio2" value ="vacio">
-                        
+                        @foreach (var item in Model)
+                        {
+                            <input type="text" class="form-control" name="ipr" id="vacio1" value=@item.Proveedor.IdProveedor>
+                            break;
+                        }
+                        <input type="hidden" class="form-control" id="vacio2" value="vacio">
                     </div>
 
                 </div>

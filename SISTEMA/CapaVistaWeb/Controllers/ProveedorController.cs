@@ -138,13 +138,16 @@ namespace MadereraCarocho.Controllers
         }
 
         [HttpPost]
-        public ActionResult CrearDetalle(double pprecio , FormCollection frm)
+        public ActionResult CrearDetalle(double pprecio , FormCollection frm,int ipr)
         {
             try
             {
-                entProducto prod = logProducto.Instancia.BuscarProductoId(Convert.ToInt32(frm["Prod"]));
+                entProducto prod = new entProducto
+                {
+                    IdProducto = Convert.ToInt32(frm["Prod"])
+                };
                 entProveedor prov = new entProveedor {
-                    IdProveedor = ID
+                    IdProveedor = ipr
                 };
                 entProveedorProducto entp = new entProveedorProducto {
                     Proveedor = prov,
