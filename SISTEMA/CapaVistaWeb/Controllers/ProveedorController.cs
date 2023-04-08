@@ -13,8 +13,7 @@ namespace MadereraCarocho.Controllers
     [Authorize]// No puede si es que no esta autorizado
     public class ProveedorController : Controller
     {
-        public int ID= 0;
-        //[HttpGet]
+     
         public ActionResult Listar( string dato)//listar y buscar 
         {
             List<entProveedor> lista;
@@ -74,6 +73,7 @@ namespace MadereraCarocho.Controllers
 
             return View(prov);
         }
+       
         [HttpPost]
         public ActionResult EditarProveedor(entProveedor p, FormCollection frm)
         {
@@ -115,26 +115,27 @@ namespace MadereraCarocho.Controllers
             return RedirectToAction("Listar");
         }
 
-       // [HttpGet]
+        [HttpGet]
+        [ValidateInput(false)]
         public ActionResult MostrarDetalle(int idp)
         {
-            List<entProveedorProducto> lista;
-            if (idp == 0)
+            try
             {
-                lista = logProveedorProducto.Instancia.MostrarDetalleProvedorId(1);
-                ID = 1;
-            }
-            else
-            {
-                lista = logProveedorProducto.Instancia.MostrarDetalleProvedorId(idp);
-                ID = idp;
-            }
-            List<entProducto> listaProducto = logProducto.Instancia.ListarProducto();
-            var lsProducto = new SelectList(listaProducto, "idProducto", "nombreCompleto");
+                List<entProveedorProducto> lista;
 
-            ViewBag.lista = lista;
-            ViewBag.listaProducto = lsProducto;
-            return View(lista);
+                lista = logProveedorProducto.Instancia.MostrarDetalleProvedorId(idp);
+
+                List<entProducto> listaProducto = logProducto.Instancia.ListarProducto();
+                var lsProducto = new SelectList(listaProducto, "idProducto", "nombreCompleto");
+
+                ViewBag.lista = lista;
+                ViewBag.listaProducto = lsProducto;
+                return View(lista);
+            }
+            catch(Exception ex)
+            {
+                return RedirectToAction("Listar", new { mesjExeption = ex.Message });
+            }
         }
 
         [HttpPost]
@@ -156,15 +157,35 @@ namespace MadereraCarocho.Controllers
                 };
 
                 bool inserta = logProveedorProducto.Instancia.CrearDetalleProvedor(entp);
-                if (inserta)
-                {
-                    return RedirectToAction("Listar");
-                }
+                //if (inserta)
+                //{
+                //    return RedirectToAction("Listar");
+                //}
             }
             catch (Exception ex)
             {
                 return RedirectToAction("Listar", new { mesjExeption = ex.Message });
             }
+            return RedirectToAction("Listar");
+        }
+
+        [HttpGet]
+        
+        public ActionResult EliminarDetalle(int idp)
+        {
+            try
+            {
+                bool elimina = logProveedorProducto.Instancia.EliminarDetalle(idp);
+                //if (elimina)
+                //{
+                //    return RedirectToAction("Listar");
+                //}
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction("Listar", new { mesjExeption = ex.Message });
+            }
+
             return RedirectToAction("Listar");
         }
     }

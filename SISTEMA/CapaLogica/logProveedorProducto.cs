@@ -25,5 +25,9 @@ namespace CapaLogica
         {
             return datProveedorProducto.Instancia.CrearDetalleProveedor(pro);
         }
+        public bool EliminarDetalle(int pro)
+        {
+            return datProveedorProducto.Instancia.EliminarDetalle(pro);
+        }
     }
 }

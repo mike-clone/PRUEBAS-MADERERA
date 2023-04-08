@@ -91,5 +91,35 @@ namespace CapaAccesoDatos
             }
             return creado;
         }
+
+        public bool EliminarDetalle(int entp)
+        {
+            SqlCommand cmd = null;
+            bool eliminado = false;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spEliminarDetalleProveedor", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@idProveedor", entp);
+                cn.Open();
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    eliminado = true;
+                }
+            }
+            catch (Exception e)
+            {
+
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return eliminado;
+            
+        }
     }
 }

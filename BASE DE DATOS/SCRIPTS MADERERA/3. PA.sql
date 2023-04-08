@@ -166,8 +166,7 @@ BEGIN
 END
 GO
 
----===mostrar detalle 
-
+---===MOSTRAR DETALLE =================
 CREATE OR ALTER PROCEDURE spMostrarDetalleProveedorId
  (
  @idProveedor int
@@ -178,6 +177,14 @@ CREATE OR ALTER PROCEDURE spMostrarDetalleProveedorId
  FROM PROVEEDOR PROV INNER JOIN PROVEEDOR_PRODUCTO P ON PROV.idProveedor=P.idProveedor
  inner join PRODUCTO prod on p.idproducto=prod.idProducto
  where p.idProveedor=@idProveedor
+ END
+ GO
+
+ CREATE OR ALTER PROCEDURE spEliminarDetalleProveedor(@idproveedor int)
+ AS
+ BEGIN
+	Delete from PROVEEDOR_PRODUCTO 
+	WHERE PROVEEDOR_PRODUCTO.idProvedoor_producto=@idproveedor 
  END
  GO
 
