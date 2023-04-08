@@ -16,6 +16,12 @@ namespace CapaEntidad
         private entTipoProducto tipo;
         private int stock;
         private entProveedor nomProv;
+        //crear diametro
+
+        public string nombreCompleto
+        {
+            get { return nombre + " " + longitud; } //pasar diametro tmb
+        }
 
         #region Get and Set
         public int IdProducto

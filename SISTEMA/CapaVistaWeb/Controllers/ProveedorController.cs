@@ -130,7 +130,7 @@ namespace MadereraCarocho.Controllers
                 ID = idp;
             }
             List<entProducto> listaProducto = logProducto.Instancia.ListarProducto();
-            var lsProducto = new SelectList(listaProducto, "idProducto", "nombre");
+            var lsProducto = new SelectList(listaProducto, "idProducto", "nombreCompleto");
 
             ViewBag.lista = lista;
             ViewBag.listaProducto = lsProducto;
