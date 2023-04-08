@@ -86,14 +86,14 @@ namespace MadereraCarocho.Controllers
             return View(emp);
         }
         [HttpPost]
-        public ActionResult EditarEmpleado(entEmpleado e, FormCollection frm)
+        public ActionResult EditarEmpleado(entEmpleado e, FormCollection tipo,FormCollection ubi)
         {
             e.Tipo = new entTipoEmpleado();
-            e.Tipo.IdTipo_Empleado = Convert.ToInt32(frm["cTipo"]);
-            e.Tipo.Nombre = frm["cTipoE"];
+            e.Tipo.IdTipo_Empleado = Convert.ToInt32(tipo["cTipo"]);
+
             e.Ubigeo = new entUbigeo();
-            e.Ubigeo.IdUbigeo = frm["cDistrito"];
-            e.Ubigeo.Distrito = frm["cDistritoE"];
+            e.Ubigeo.IdUbigeo = ubi["cUbigeo"];
+           
             try
             {
                 Boolean edita = logEmpleado.Instancia.ActualizarEmpleado(e);

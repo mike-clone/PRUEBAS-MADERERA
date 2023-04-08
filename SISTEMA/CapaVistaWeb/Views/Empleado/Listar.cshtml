@@ -64,7 +64,7 @@
         <thead class="table-dark">
             <tr>
                 <th>
-                    ID
+                    #
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Nombres)
@@ -162,7 +162,7 @@
                         <div class="form-group">
                             Distrito:
                             <div class="col-md-10">
-                                @Html.DropDownList("cDistrito", (SelectList)ViewBag.listaUbigeo, "Seleccionar")
+                                @Html.DropDownList("cUbigeo", (SelectList)ViewBag.listaUbigeo, "Seleccionar")
                             </div>
                         </div>
                     </div>
@@ -211,3 +211,4 @@
         </div>
     </div>
 </div>
+
