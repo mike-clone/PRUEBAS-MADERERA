@@ -419,7 +419,7 @@ BEGIN
 	Insert into TIPO_EMPLEADO VALUES(@nombre);
 END
 GO
-
+--===listar tipo empleado====
 CREATE OR ALTER PROCEDURE spListarTipoEmpleado
 AS
 BEGIN

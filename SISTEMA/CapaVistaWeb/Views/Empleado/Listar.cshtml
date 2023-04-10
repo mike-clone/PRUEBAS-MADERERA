@@ -47,10 +47,11 @@
 <br>
 <div class="container">
     <br><h2 style="text-align: center">LISTADO DE EMPLEADOS</h2>
-    <!-- Agregar producto -->
-
+    <!-- Agregar empleado -->
     <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#ModInsertarEmpleado"><i class="bi bi-plus-square"></i> Agregar Empleado</button>
+    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#ModInsertarTipoEmpleado"><i class="bi bi-plus-square"></i> Agregar TipoEmpleado</button>
     <hr>
+    <!-- Agregar tipo empleado -->
     <!-- Ordenar -->
     <a onclick="return Ordenar(this)" aria-current="page" type="button" class="btn btn-primary btn-lg" id="ASC" th:href="@*@{productoAsc}*@#"><i class="bi bi-sort-up"></i></a>
     <a onclick="return Ordenar(this)" aria-current="page" type="button" class="btn btn-secondary btn-lg" id="DESC" th:href="@*@{productoDesc}*@#"><i class="bi bi-sort-down"></i></a>
@@ -100,48 +101,48 @@
         <tbody>
             @foreach (var item in Model)
             {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.IdEmpleado)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nombres)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Dni)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Telefono)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Direccion)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Salario)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Descripcion)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Tipo.Nombre)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Ubigeo.Distrito)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.EstEmpleado)
-                </td>
-                <td>
-                    <button class="btn btn-warning" type="button">
-                        @Html.ActionLink("Edit", "EditarEmpleado", new { idemp = item.IdEmpleado })
-                        <i class="bi bi-pencil-square"></i>
-                    </button>
-                </td>
-                <td>
-                    <a onclick="return Eliminar(this)" href="/Empleado/EliminarEmpleado?idE=@item.IdEmpleado" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
-                </td>
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdEmpleado)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombres)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Dni)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Telefono)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Direccion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Salario)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tipo.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ubigeo.Distrito)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EstEmpleado)
+                    </td>
+                    <td>
+                        <button class="btn btn-warning" type="button">
+                            @Html.ActionLink("Edit", "EditarEmpleado", new { idemp = item.IdEmpleado })
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <a onclick="return Eliminar(this)" href="/Empleado/EliminarEmpleado?idE=@item.IdEmpleado" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
+                    </td>
 
-            </tr>
+                </tr>
             }
         <tbody>
     </table>
@@ -218,3 +219,32 @@
     </div>
 </div>
 
+<!--Agregar Tipoempleado-->
+<div class="modal" tabindex="-1" id="ModInsertarTipoEmpleado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <form action="/Empleado/CrerarTipoEmpleado" method="POST" id="Templeado">
+                <div class="modal-header ">
+                    <h5 class="modal-title">Ingresar Tipo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" name="Tipo" id="Tipo" placeholder="Tipo" required>
+                        <label for="floatingInput">Tipo</label>
+                    </div>
+                    <div>
+                        <input type="hidden" value="rellenarParametro" id="parametro1">
+                        <input type="hidden" value="rellenarParametro" id="parametro2">
+
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button onclick="return Registrar('Tipo', 'parametro1', 'parametro2', 'Templeado')" type="submit" class="btn btn-dark">Registrar</button>
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

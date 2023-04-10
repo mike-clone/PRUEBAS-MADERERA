@@ -70,7 +70,24 @@ namespace MadereraCarocho.Controllers
             }
             return RedirectToAction("Listar");
         }
+        [HttpPost]
+        public ActionResult CrerarTipoEmpleado(string Tipo)
+        {
+            try
+            {
+                entTipoEmpleado tip = new entTipoEmpleado
+                {
+                    Nombre = Tipo
+                };
+                bool crea = logTipoEmpleado.Instancia.CrearTipoEmpleado(tip);
+               
+            }catch( Exception ex)
+            {
+                return RedirectToAction("Listar", new { mesjExeption = ex.Message });
+            }
 
+            return RedirectToAction("Listar");
+        }
         [HttpGet]
         public ActionResult EditarEmpleado(int idemp)
         {
@@ -131,5 +148,7 @@ namespace MadereraCarocho.Controllers
             }
             return RedirectToAction("Listar");
         }
+
+
     }
 }
