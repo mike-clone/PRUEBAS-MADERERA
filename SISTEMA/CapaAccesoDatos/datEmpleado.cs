@@ -86,6 +86,7 @@ namespace CapaAccesoDatos
                         Direccion = dr["direccion"].ToString(),
                         Salario = Convert.ToDouble(dr["salario"]),
                         Descripcion = dr["descripcion"].ToString(),
+                        EstEmpleado = Convert.ToBoolean(dr["estEmpleado"]),
                         Tipo = tipo,
                         Ubigeo = ubi
                     };
@@ -197,6 +198,7 @@ namespace CapaAccesoDatos
                         Telefono = dr["telefono"].ToString(),
                         Direccion = dr["direccion"].ToString(),
                         Salario = Convert.ToDouble(dr["salario"]),
+                        EstEmpleado = Convert.ToBoolean(dr["estEmpleado"]),
                         Descripcion = dr["descripcion"].ToString(),
                         Tipo = tipo,
                         Ubigeo = ubi
@@ -240,12 +242,15 @@ namespace CapaAccesoDatos
                     emp.Salario = Convert.ToDouble(dr["salario"]);
                     emp.Descripcion = dr["descripcion"].ToString();
                     emp.EstEmpleado = Convert.ToBoolean(dr["estEmpleado"]);
-                    entTipoEmpleado tipo = new entTipoEmpleado();
-
-                    tipo.Nombre = dr["tipo"].ToString();
+                    entTipoEmpleado tipo = new entTipoEmpleado
+                    {
+                        Nombre = dr["tipo"].ToString()
+                    };
                     emp.Tipo = tipo;
-                    entUbigeo ubi = new entUbigeo();
-                    ubi.Distrito = dr["distrito"].ToString();
+                    entUbigeo ubi = new entUbigeo
+                    {
+                        Distrito = dr["distrito"].ToString()
+                    };
                     emp.Ubigeo = ubi;
                 }
             }

@@ -106,7 +106,7 @@ BEGIN
 	select p.idProveedor, p.razonSocial, p.dni, p.correo, p.telefono, p.descripcion, p.estProveedor,
 	u.departamento,u.provincia, u.distrito from  PROVEEDOR p 
 	inner join ubigeo u on p.idUbigeo = u.idUbigeo
-	where p.estProveedor=1
+	order by estProveedor desc;
 END
 GO
 --=== BUSCAR PROVEEDOR======
@@ -153,6 +153,7 @@ BEGIN
 	update PROVEEDOR set razonSocial = @razonSocial, dni = @dni, correo = @correo,
 	telefono = @telefono, descripcion = @descripcion, estProveedor = @estProveedor, idUbigeo = @idUbigeo
 	where idProveedor = @idProveedor;
+
 END
 GO
 
@@ -438,6 +439,7 @@ GO
 --GO
 
 --===== PROCEDIMIENTO PARA EMPLEADO=====================
+--==== crear empleado=======
 CREATE OR ALTER PROCEDURE spCrearEmpleado
 (
 	@nombres varchar(40),
@@ -455,18 +457,17 @@ BEGIN
 	values          (@nombres, @dni, @telefono, @direccion, @salario, @descripcion, @idTipo_Empleado, @idUbigeo);
 END
 GO
-
+--=== listar Empleado===
 CREATE OR ALTER PROCEDURE spListarEmpleado
 AS
 BEGIN
-    SELECT e.idEmpleado, e.nombres, e.dni, e.telefono, e.direccion, e.salario, e.descripcion, t.nombre as tipo, u.distrito  FROM EMPLEADO e 
+    SELECT e.idEmpleado, e.nombres, e.dni, e.telefono, e.direccion, e.salario, e.descripcion, t.nombre as tipo,e.estEmpleado, u.distrito  FROM EMPLEADO e 
     inner join Ubigeo u on e.idUbigeo = u.idUbigeo
     inner join TIPO_EMPLEADO t on e.idTipo_Empleado = t.idTipo_Empleado
-    where estEmpleado = 1
-    order by nombres;
+    order by estEmpleado desc;
 END
 GO
-
+--=====actualizr empleado===========
 CREATE OR ALTER PROCEDURE spActualizarEmpleado(
 	@idEmpleado int,
 	@nombres varchar(40),
@@ -483,30 +484,41 @@ CREATE OR ALTER PROCEDURE spActualizarEmpleado(
 )
 AS
 BEGIN
+
+	
 	update EMPLEADO set nombres = @nombres, dni = @dni, telefono = @telefono,
 	direccion = @direccion, f_inicio = @f_inicio, f_fin = @f_fin, salario = @salario, descripcion = @descripcion,
 	estEmpleado = @estEmpleado, idTipo_Empleado = @idTipo_Empleado, idUbigeo = @idUbigeo
 	where idEmpleado = @idEmpleado;
+
+	IF @estEmpleado=0
+	BEGIN
+    update EMPLEADO set f_fin= GETDATE()
+	where idEmpleado = @idEmpleado;
+	END
 END
 GO
-
-CREATE OR ALTER PROCEDURE spDeshabilitarEmpleado(@idEmpleado bit)
+----Eliminar empleado==============
+CREATE OR ALTER PROCEDURE spEliminarEmpleado(@idEmpleado int)
 AS
 BEGIN
-	update EMPLEADO set estEmpleado = 0 where idEmpleado = @idEmpleado;
+	delete EMPLEADO where idEmpleado = @idEmpleado;
 END
 GO
-
+--========buscar empleado=====
 CREATE OR ALTER PROCEDURE spBuscarEmpleado(
 	@Campo varchar(40)
 )
 AS
 BEGIN
-	Select *from EMPLEADO where NOMBRES like @Campo+'%'
-	or dni like @Campo+'%'	
+	SELECT e.idEmpleado, e.nombres, e.dni, e.telefono, e.direccion, e.salario, e.descripcion, t.nombre as tipo,e.estEmpleado, u.distrito  FROM EMPLEADO e 
+    inner join Ubigeo u on e.idUbigeo = u.idUbigeo
+    inner join TIPO_EMPLEADO t on e.idTipo_Empleado = t.idTipo_Empleado
+	where NOMBRES like @Campo+'%'
+	or dni like @Campo+'%'	or telefono like @Campo+'%'
 END
 GO
-
+---==buscar id Empleado=======
 CREATE OR ALTER PROCEDURE spBuscarIdEmpleado(
     @idEmpleado int
 )

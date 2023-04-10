@@ -52,7 +52,7 @@
         <div class="mb-3 row">
             <label for="staticEmail" class="col-sm-2 col-form-label">Tipo de empleado</label>
             <div class="col-md-10">
-                @Html.DropDownList("cTipo", (SelectList)ViewBag.listaTipo, new { @class = "formcontrol", required = "required"})
+                @Html.DropDownList("cTipo", (SelectList)ViewBag.listaTipo, new { @class = "formcontrol", required = "required" })
             </div>
         </div>
 
@@ -65,10 +65,9 @@
         </div>
 
         <div class="mb-3 row">
-            <label for="staticEmail" class="col-sm-2 col-form-label">IdEmpleado</label>
             <div class="col-md-10">
-                @Html.EditorFor(model => model.IdEmpleado, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.IdEmpleado, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.IdEmpleado, new { htmlAttributes = new { @class = "form-control", @type="hidden" } })
+                @Html.ValidationMessageFor(model => model.IdEmpleado, "", new { @class = "text-danger", @type = "hidden" })
             </div>
         </div>
 

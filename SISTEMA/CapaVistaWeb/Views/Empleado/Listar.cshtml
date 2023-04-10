@@ -85,10 +85,13 @@
                     DESCRIPCION
                 </th>
                 <th>
-                    TIPO EMPLEADO
+                    TIPO
                 </th>
                 <th>
                     UBIGEO
+                </th>
+                <th>
+                    ACTIVO
                 </th>
                 <th>EDITAR</th>
                 <th>ELIMINAR</th>
@@ -97,45 +100,48 @@
         <tbody>
             @foreach (var item in Model)
             {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.IdEmpleado)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Nombres)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Dni)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Telefono)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Direccion)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Salario)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Descripcion)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Tipo.Nombre)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Ubigeo.Distrito)
-                    </td>
-                    <td>
-                        <button class="btn btn-warning" type="button">
-                            @Html.ActionLink("Edit", "EditarEmpleado", new { idemp = item.IdEmpleado })
-                            <i class="bi bi-pencil-square"></i>
-                        </button>
-                    </td>
-                    <td>
-                        <a onclick="return Eliminar(this)" href="/Empleado/EliminarEmpleado?idE=@item.IdEmpleado" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
-                    </td>
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdEmpleado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombres)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dni)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Salario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tipo.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ubigeo.Distrito)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EstEmpleado)
+                </td>
+                <td>
+                    <button class="btn btn-warning" type="button">
+                        @Html.ActionLink("Edit", "EditarEmpleado", new { idemp = item.IdEmpleado })
+                        <i class="bi bi-pencil-square"></i>
+                    </button>
+                </td>
+                <td>
+                    <a onclick="return Eliminar(this)" href="/Empleado/EliminarEmpleado?idE=@item.IdEmpleado" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
+                </td>
 
-                </tr>
+            </tr>
             }
         <tbody>
     </table>
