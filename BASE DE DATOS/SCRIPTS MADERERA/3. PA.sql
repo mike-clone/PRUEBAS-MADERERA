@@ -40,7 +40,7 @@ AS
 BEGIN
 	select c.idCliente,c.razonSocial, c.dni,c.telefono, c.correo,c.userName,c.pass,c.direccion, u.provincia,c.activo from cliente C 
 	inner join UBIGEO u on c.idUbigeo=u.idUbigeo
-	where c.idCliente=2
+	where c.idRol=2
 	order by c.activo desc;
 	
 END
@@ -68,16 +68,18 @@ BEGIN
 	
 END
 GO
-----====buscar cliente por id======
---CREATE OR ALTER PROCEDURE spBuscarIdCliente(
---	@IdCliente int
---)
---AS
---BEGIN
---	Select *from Cliente where idCliente = @IdCliente;
+--====buscar cliente por id======
+CREATE OR ALTER PROCEDURE spBuscarIdCliente(
+	@IdCliente int
+)
+AS
+BEGIN
+	select c.idCliente,c.razonSocial, c.dni,c.telefono, c.correo,c.userName,c.pass,c.direccion, u.distrito,c.activo from cliente C 
+	inner join UBIGEO u on c.idUbigeo=u.idUbigeo
+	where idCliente = @IdCliente;
 	
---END
---GO
+END
+GO
 
 --===PROCEDIMIENTOS PARA UBIGEO======
 
@@ -288,12 +290,12 @@ GO
 --INSERT INTO PROVEEDOR_PRODUCTO VALUES (2,1,25)
 
 ----========ROL======---
---CREATE OR ALTER PROCEDURE spListarRol
---AS
---BEGIN
---select * from rol where idRol=1 or idRol=3;
---END
---GO
+CREATE OR ALTER PROCEDURE spListarRol
+AS
+BEGIN
+select * from rol;
+END
+GO
 ----Actualizar Usuario
 --CREATE OR ALTER PROCEDURE spActualizarUsuario(
 --	@newUsuario varchar(40),
