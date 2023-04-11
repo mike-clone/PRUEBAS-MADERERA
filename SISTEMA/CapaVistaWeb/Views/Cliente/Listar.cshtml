@@ -59,7 +59,7 @@
         <thead class="table-dark">
             <tr>
                 <th>
-                   #
+                    #
                 </th>
                 <th>
                     Nombre
@@ -71,10 +71,22 @@
                     @Html.DisplayNameFor(model => model.Telefono)
                 </th>
                 <th>
+                    Correo
+                </th>
+                <th>
+                    Username
+                </th>
+                @*<th>
+                    Password
+                </th>*@
+                <th>
                     @Html.DisplayNameFor(model => model.Direccion)
                 </th>
                 <th>
                     Provincia
+                </th>
+                <th>
+                   Activo
                 </th>
                 <th>
                     Eliminar
@@ -85,35 +97,52 @@
 
             @foreach (var item in Model)
             {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.IdCliente)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.RazonSocial)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Dni)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Telefono)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Direccion)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Ubigeo.Provincia)
-                    </td>
-                    @*<td>
-                            <button class="btn btn-warning" type="button">
-                                <i class="bi bi-pencil-square"></i>
-                                @Html.ActionLink("Edit", "EditarProducto", new { idprod = item.IdCliente })
-                            </button>
-                        </td>*@
-                    <td>
-                        <a onclick="return Eliminar(this)" href="/Cliente/EliminarCliente?idP=@item.IdCliente" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
-                    </td>
-                </tr>
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdCliente)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RazonSocial)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dni)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Correo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.Pass)
+                </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ubigeo.Provincia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Activo)
+                </td>
+                @*<td>
+            <button class="btn btn-warning" type="button">
+                <i class="bi bi-pencil-square"></i>
+                @Html.ActionLink("Edit", "EditarProducto", new { idprod = item.IdCliente })
+            </button>
+        </td>*@
+            <td>
+                <button class="btn btn-warning bi bi-pencil-square" type="button">
+                    @Html.ActionLink("Edit", "EditarCliente", new { c = item.IdCliente })
+                </button>
+            </td>
+                <td>
+                    <a onclick="return Eliminar(this)" href="/Cliente/EliminarCliente?idP=@item.IdCliente" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
+                </td>
+            </tr>
             }
         <tbody>
     </table>

@@ -236,7 +236,7 @@ namespace CapaAccesoDatos
                     };
                     entUbigeo u = new entUbigeo
                     {
-                        IdUbigeo = dr["idUbigeo"].ToString()
+                        Provincia = dr["provincia"].ToString(),
                     };
                     Cli.Ubigeo = u;
                     lista.Add(Cli);
@@ -272,6 +272,22 @@ namespace CapaAccesoDatos
                     c.RazonSocial = dr["razonsocial"].ToString();
                     c.Dni = dr["dni"].ToString();
                     c.Telefono = dr["telefono"].ToString();
+                    c.Direccion = dr["direccion"].ToString();
+                    c.Correo = dr["correo"].ToString();
+                    c.UserName = dr["userName"].ToString();
+                    c.Pass = dr["pass"].ToString();
+                    c.Activo = Convert.ToBoolean(dr["activo"]);
+
+                    entUbigeo ubi = new entUbigeo
+                    {
+                        Distrito = dr["distrito"].ToString()
+                    };
+                    //entRoll roll = new entRoll
+                    //{
+                    //    Descripcion = dr["descripcion"].ToString()
+                    //};
+                    //c.Roll = roll;
+                    c.Ubigeo = ubi;
                 }
             }
             catch (Exception e)

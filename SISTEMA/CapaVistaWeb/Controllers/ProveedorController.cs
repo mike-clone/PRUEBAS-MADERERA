@@ -64,8 +64,7 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult EditarProveedor(int idprov)
         {
-            entProveedor prov = new entProveedor();
-            prov = logProveedor.Instancia.BuscarIdProveedor(idprov);
+            entProveedor prov = logProveedor.Instancia.BuscarIdProveedor(idprov);
 
             List<entUbigeo> listaUbigeo = logUbigeo.Instancia.ListarDistrito();
             var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
@@ -77,8 +76,10 @@ namespace MadereraCarocho.Controllers
         [HttpPost]
         public ActionResult EditarProveedor(entProveedor p, FormCollection frm)
         {
-            p.Ubigeo = new entUbigeo();
-            p.Ubigeo.IdUbigeo =frm["Ubi"];
+            p.Ubigeo = new entUbigeo
+            {
+                IdUbigeo = frm["Ubi"]
+            };
             try
             {
                 Boolean edita = logProveedor.Instancia.ActualizarProveedor(p);

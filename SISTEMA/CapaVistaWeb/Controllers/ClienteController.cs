@@ -78,7 +78,14 @@ namespace MadereraCarocho.Controllers
             }
             return RedirectToAction("ListarAdmin");
         }*/
-
+        [HttpGet]
+        public ActionResult EditarCliente(int c)
+        {
+            List<entRoll> listaRoll = logRoll.Instancia.ListarRol();
+            var lsroll = new SelectList(listaRoll, "idRoll", "descripcion");
+            ViewBag.listaRoll = lsroll;
+            return View(_ = logCliente.Instancia.BuscarIdCliente(c));
+        }
 
         [HttpGet]
         public ActionResult EliminarCliente(int idP)

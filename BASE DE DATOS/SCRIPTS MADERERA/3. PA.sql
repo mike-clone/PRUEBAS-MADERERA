@@ -4,6 +4,9 @@ GO
 
 --====PROCEDIMIENTOS PARA EL SISTEMA =============
 
+
+
+---===== PROCEDIMINETOS PARA CLIENTE===========
 ----===INICIAR SESION========
 CREATE OR ALTER PROCEDURE spIniciarSesion(@dato varchar(40), @contra varchar(200))
 AS
@@ -13,9 +16,6 @@ BEGIN
 	where (userName = @dato or correo = @dato) and pass = @contra
 END
 GO
-
----===== PROCEDIMINETOS PARA CLIENTE===========
-
 --====CREAL CLIENTE===========
 CREATE OR ALTER PROCEDURE spCrearCliente(
     @razonSocial varchar(40),
@@ -40,9 +40,45 @@ AS
 BEGIN
 	select c.idCliente,c.razonSocial, c.dni,c.telefono, c.correo,c.userName,c.pass,c.direccion, u.provincia,c.activo from cliente C 
 	inner join UBIGEO u on c.idUbigeo=u.idUbigeo
+	where c.idCliente=2
+	order by c.activo desc;
 	
 END
 GO
+---===eliminar clienta===========
+CREATE OR ALTER PROCEDURE spEliminarCliente(
+	@idCliente int
+)
+AS
+BEGIN
+	delete CLIENTE where idCliente = @idCliente;
+END
+GO
+--====buscar cleiente ===
+
+CREATE OR ALTER PROCEDURE spBuscarCliente(
+	@Campo varchar(40)
+)
+AS
+BEGIN
+	select c.idCliente,c.razonSocial, c.dni,c.telefono, c.correo,c.userName,c.pass,c.direccion, u.provincia,c.activo from cliente C 
+	inner join UBIGEO u on c.idUbigeo=u.idUbigeo
+	where c.razonSocial like @Campo+'%'
+	or c.dni like @Campo+'%' 
+	
+END
+GO
+----====buscar cliente por id======
+--CREATE OR ALTER PROCEDURE spBuscarIdCliente(
+--	@IdCliente int
+--)
+--AS
+--BEGIN
+--	Select *from Cliente where idCliente = @IdCliente;
+	
+--END
+--GO
+
 --===PROCEDIMIENTOS PARA UBIGEO======
 
 ---===LISTAR DISTRITOS====
@@ -311,109 +347,7 @@ GO
 --END
 --GO
 
---CREATE OR ALTER PROCEDURE spEliminarUsuario
---(
--- @usuario int 
---)
---AS
---BEGIN
---   delete from usuario where idCliente=@usuario; 
---   delete from cliente where idCliente=@usuario;
---END
---GO
 
---------------------------------------UBIGEO
--------------------------------------
-
---LISTA DEPARTAMENTO
---CREATE OR ALTER PROCEDURE sp_ListaDepartamento
---AS
---BEGIN
---    Select  distinct (Departamento) from Ubigeo;
---END
---GO
--------------------------------------
---LISTA PROVINCIA
---CREATE OR ALTER PROCEDURE sp_ListaProvincia(@departamento varchar(32))
---As
---BEGIN
---    Select distinct(Provincia) from Ubigeo
---    where Departamento = @departamento;
---END
---GO
--------------------------------------
-
-
---------------------------------------PROVEEDOR
---CREATE OR ALTER PROCEDURE spCrearProveedor
---(
---	@razonSocial varchar(40),
---	@dni varchar(8),
---	@correo varchar(40),
---	@telefono varchar(9),
---	@descripcion varchar (80),
---	@estProveedor bit,
---	@idUbigeo VARCHAR(6) null
---)
---AS
---BEGIN
---	INSERT INTO PROVEEDOR values (@razonSocial, @dni, @correo, @telefono, @descripcion, @estProveedor, @idUbigeo);
---END
---GO
-
-
---CREATE OR ALTER PROCEDURE spActualizarProveedor(
---	@idProveedor int,	
---	@razonSocial varchar(40),
---	@dni varchar(8),
---	@correo varchar(40),
---	@telefono varchar(9),
---	@descripcion varchar (80),
---	@estProveedor bit,
---	@idUbigeo VARCHAR(6) null
---)
---AS
---BEGIN
---	update PROVEEDOR set razonSocial = @razonSocial, dni = @dni, correo = @correo,
---	telefono = @telefono, descripcion = @descripcion, estProveedor = @estProveedor, idUbigeo = @idUbigeo
---	where idProveedor = @idProveedor;
---END
---GO
-
---CREATE OR ALTER PROCEDURE spEliminarProveedor(@idProveedor int)
---AS
---BEGIN
---	delete PROVEEDOR where idProveedor = @idProveedor;
---END
---GO
-
---CREATE OR ALTER PROCEDURE spDeshabilitarProveedor(@idProveedor bit)
---AS
---BEGIN
---	update PROVEEDOR set estProveedor = 1 where idProveedor = @idProveedor;
---END
---GO
-
---CREATE OR ALTER PROCEDURE spBuscarProveedor(
---	@Campo varchar(40)
---)
---AS
---BEGIN
---	Select *from PROVEEDOR where razonSocial like @Campo+'%'
---	or dni like @Campo+'%'	
---END
---GO
-
---CREATE OR ALTER PROCEDURE spBuscarIdProveedor(
---	@idProveedor int
---)
---AS
---BEGIN
---	Select p.idProveedor,p.razonSocial,p.dni,p.correo,p.telefono,p.descripcion,p.estProveedor,u.idUbigeo,u.distrito from PROVEEDOR p INNER JOIN UBIGEO u
---	ON p.idUbigeo=u.idUbigeo where idProveedor= @idProveedor;
-	
---END
---GO
 
 --=======PROCEDIMIENTOS PARA TIPO_EMPLEADO==============
 CREATE OR ALTER PROCEDURE spCrearTipoEmpleado(
@@ -656,34 +590,9 @@ GO
 --END
 --GO
 
---CREATE OR ALTER PROCEDURE spEliminarCliente(
---	@idCliente int
---)
---AS
---BEGIN
---	delete CLIENTE where idCliente = @idCliente;
---END
---GO
 
---CREATE OR ALTER PROCEDURE spBuscarCliente(
---	@Campo varchar(40)
---)
---AS
---BEGIN
---	Select *from Cliente where razonSocial like @Campo+'%'
---	or dni like @Campo+'%'
-	
---END
---GO
---CREATE OR ALTER PROCEDURE spBuscarIdCliente(
---	@IdCliente int
---)
---AS
---BEGIN
---	Select *from Cliente where idCliente = @IdCliente;
-	
---END
---GO
+
+
 --------------------------------------VENTA
 --CREATE OR ALTER PROCEDURE spCrearVenta(
 --	@idventa int out,

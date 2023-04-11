@@ -308,6 +308,7 @@
     <Content Include="Views\Empleado\EditarEmpleado.cshtml" />
     <Content Include="Views\Proveedor\EditarProveedor.cshtml" />
     <Content Include="Views\Proveedor\MostrarDetalle.cshtml" />
+    <Content Include="Views\Cliente\EditarCliente.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
