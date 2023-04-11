@@ -85,13 +85,9 @@ namespace CapaAccesoDatos
                     };
                     entUbigeo u = new entUbigeo
                     {
-                        Departamento = dr["departamento"].ToString(),
+                        Provincia = dr["provincia"].ToString(),
                     };
-                    entRoll r = new entRoll
-                    {
-                        Descripcion = dr["descripcion"].ToString()
-                    };
-                    Cli.Roll = r;
+                   
                     Cli.Ubigeo = u;
                     lista.Add(Cli);
                 }

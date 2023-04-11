@@ -34,11 +34,18 @@ BEGIN
     INSERT INTO CLIENTE (razonSocial,dni,telefono,direccion,idUbigeo,correo,userName,pass, idRol) values (@razonSocial, @dni, @telefono, @direccion, @idUbigeo, @correo, @userName, @pass, @idRol);
 END
 GO
-
+--===LISTAR CLIENTE==
+CREATE OR ALTER PROCEDURE spListarCliente
+AS
+BEGIN
+	select c.idCliente,c.razonSocial, c.dni,c.telefono, c.correo,c.userName,c.pass,c.direccion, u.provincia,c.activo from cliente C 
+	inner join UBIGEO u on c.idUbigeo=u.idUbigeo
+	
+END
+GO
 --===PROCEDIMIENTOS PARA UBIGEO======
 
 ---===LISTAR DISTRITOS====
-
 CREATE OR ALTER PROCEDURE sp_ListaDistrito
 As
 BEGIN
@@ -48,8 +55,6 @@ END
 GO
 
 --======LISTA DEPARTAMENTO===========
-
-
 CREATE OR ALTER PROCEDURE sp_ListaDepartamento
 AS
 BEGIN
@@ -633,14 +638,7 @@ GO
 --------------------------------------CLIENTE
 
 
---CREATE OR ALTER PROCEDURE spListarCliente
---AS
---BEGIN
---	select c.idCliente,c.razonSocial, c.dni,c.telefono,c.direccion,c.idUbigeo from cliente c inner join usuario u
---	on c.idCliente=u.idCliente inner join
---	rol r on r.idRol=u.idRol where u.idRol=2
---END
---GO
+
 
 
 --CREATE OR ALTER PROCEDURE spActualizarCliente(

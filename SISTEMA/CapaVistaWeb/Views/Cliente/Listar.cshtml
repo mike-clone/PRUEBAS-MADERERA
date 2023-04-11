@@ -59,13 +59,13 @@
         <thead class="table-dark">
             <tr>
                 <th>
-                    @Html.DisplayNameFor(model => model.IdCliente)
+                   #
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.RazonSocial)
+                    Nombre
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Dni)
+                    DNI
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Telefono)
@@ -74,7 +74,7 @@
                     @Html.DisplayNameFor(model => model.Direccion)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Ubigeo.IdUbigeo)
+                    Provincia
                 </th>
                 <th>
                     Eliminar
@@ -102,7 +102,7 @@
                         @Html.DisplayFor(modelItem => item.Direccion)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Ubigeo.IdUbigeo)
+                        @Html.DisplayFor(modelItem => item.Ubigeo.Provincia)
                     </td>
                     @*<td>
                             <button class="btn btn-warning" type="button">
