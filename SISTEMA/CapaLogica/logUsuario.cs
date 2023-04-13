@@ -9,44 +9,44 @@ using System.Windows.Forms;
 
 namespace CapaLogica
 {
-    public class logCliente
+    public class logUsuario
     {
-        private static readonly logCliente _instancia = new logCliente();
-        public static logCliente Instancia
+        private static readonly logUsuario _instancia = new logUsuario();
+        public static logUsuario Instancia
         {
             get { return _instancia; }
         }
         #region CRUD
-        public bool CrearCliente(entCliente c)
+        public bool CrearCliente(entUsuario c)
         {
-            return datCliente.Instacia.CrearCliente(c);
+            return datUsuario.Instacia.CrearCliente(c);
         }
-        public List<entCliente> ListarCliente()
+        public List<entUsuario> ListarCliente()
         {
-            return datCliente.Instacia.ListarCliente();
+            return datUsuario.Instacia.ListarCliente();
         }
-        public bool ActualizarCliente(entCliente c)
+        public bool ActualizarCliente(entUsuario c)
         {
-            return datCliente.Instacia.ActualizarCliente(c);
+            return datUsuario.Instacia.ActualizarCliente(c);
         }
         public bool EliminarCliente(int id)
         {
-            return datCliente.Instacia.EliminarCliente(id);
+            return datUsuario.Instacia.EliminarCliente(id);
         }
         #endregion CRUD
 
-        public List<entCliente> BuscarCliente(string dato)
+        public List<entUsuario> BuscarCliente(string dato)
         {
-            return datCliente.Instacia.BuscarCliente(dato);
+            return datUsuario.Instacia.BuscarCliente(dato);
         }
-        public entCliente BuscarIdCliente(int idCliente)
+        public entUsuario BuscarIdCliente(int idCliente)
         {
-            return datCliente.Instacia.BuscarIdCliente(idCliente);
+            return datUsuario.Instacia.BuscarIdCliente(idCliente);
         }
 
-        public entCliente IniciarSesion(string dato, string contra)
+        public entUsuario IniciarSesion(string dato, string contra)
         {
-            entCliente u = null;
+            entUsuario u = null;
             try
             {
                 if (DateTime.Now.Hour > 24)
@@ -55,7 +55,7 @@ namespace CapaLogica
                 }
                 else
                 {
-                    u = datCliente.Instacia.IniciarSesion(dato, contra);
+                    u = datUsuario.Instacia.IniciarSesion(dato, contra);
                     if (u != null)
                     {
                         if (!u.Activo)

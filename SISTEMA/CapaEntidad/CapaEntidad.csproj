@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="entCarrito.cs" />
-    <Compile Include="entCliente.cs" />
+    <Compile Include="entUsuario.cs" />
     <Compile Include="entCompra.cs" />
     <Compile Include="entDetCompra.cs" />
     <Compile Include="entDetVenta.cs" />

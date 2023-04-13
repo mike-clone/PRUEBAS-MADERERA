@@ -11,17 +11,17 @@ using System.Windows.Forms;
 
 namespace CapaAccesoDatos
 {
-    public class datCliente
+    public class datUsuario
     {
-        private static readonly datCliente _instacia = new datCliente();
+        private static readonly datUsuario _instacia = new datUsuario();
 
-        public static datCliente Instacia
+        public static datUsuario Instacia
         {
             get { return _instacia; }
         }
         #region CRUD
         //Crear
-        public bool CrearCliente(entCliente Cli)
+        public bool CrearCliente(entUsuario Cli)
         {
             SqlCommand cmd = null;
             bool creado = false;
@@ -29,7 +29,7 @@ namespace CapaAccesoDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spCrearCliente", cn);
+                cmd = new SqlCommand("spCrearUsuario", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@razonSocial", Cli.RazonSocial);
                 cmd.Parameters.AddWithValue("@dni", Cli.Dni);
@@ -58,10 +58,10 @@ namespace CapaAccesoDatos
         }
 
         //Leer
-        public List<entCliente> ListarCliente()
+        public List<entUsuario> ListarCliente()
         {
             SqlCommand cmd = null;
-            List<entCliente> lista = new List<entCliente>();
+            List<entUsuario> lista = new List<entUsuario>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -71,9 +71,9 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entCliente Cli = new entCliente
+                    entUsuario Cli = new entUsuario
                     {
-                        IdCliente = Convert.ToInt32(dr["idCliente"]),
+                        IdUsuario = Convert.ToInt32(dr["idUsuario"]),
                         RazonSocial = dr["razonsocial"].ToString(),
                         Dni = dr["dni"].ToString(),
                         Telefono = dr["telefono"].ToString(),
@@ -106,7 +106,7 @@ namespace CapaAccesoDatos
         }
         //Actualizar
 
-        public bool ActualizarCliente(entCliente Cli)
+        public bool ActualizarCliente(entUsuario Cli)
         {
             SqlCommand cmd = null;
             bool actualiza = false;
@@ -115,7 +115,7 @@ namespace CapaAccesoDatos
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spActualizarCliente", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idCliente", Cli.IdCliente);
+                cmd.Parameters.AddWithValue("@idCliente", Cli.IdUsuario);
                 cmd.Parameters.AddWithValue("@razonSocial", Cli.RazonSocial);
                 cmd.Parameters.AddWithValue("@dni", Cli.Dni);
                 cmd.Parameters.AddWithValue("@telefono", Cli.Telefono);
@@ -145,9 +145,9 @@ namespace CapaAccesoDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spEliminarCliente", cn);
+                cmd = new SqlCommand("spEliminarUsuario", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idCliente", id);
+                cmd.Parameters.AddWithValue("@idUsuario", id);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
@@ -166,10 +166,10 @@ namespace CapaAccesoDatos
         #endregion CRUD
 
         #region OTROS
-        public entCliente IniciarSesion(string campo, string contra)
+        public entUsuario IniciarSesion(string campo, string contra)
         {
             SqlCommand cmd = null;
-            entCliente c = null;
+            entUsuario c = null;
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -182,9 +182,9 @@ namespace CapaAccesoDatos
                 {
                     if (dr.Read())
                     {
-                        c = new entCliente
+                        c = new entUsuario
                         {
-                            IdCliente = Convert.ToInt16(dr["idCliente"]),
+                            IdUsuario = Convert.ToInt16(dr["idUsuario"]),
                             UserName = dr["userName"].ToString(),
                             Correo = dr["correo"].ToString(),
                             Rol = (entRol)dr["idRol"],//Convertir (castearlo) a objeto de tipo entRol
@@ -208,23 +208,23 @@ namespace CapaAccesoDatos
             return c;
         }
 
-        public List<entCliente> BuscarCliente(string busqueda)
+        public List<entUsuario> BuscarCliente(string busqueda)
         {
-            List<entCliente> lista = new List<entCliente>();
+            List<entUsuario> lista = new List<entUsuario>();
             SqlCommand cmd = null;
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spBuscarCliente", cn);
+                cmd = new SqlCommand("spBuscarUsuario", cn);
                 cmd.CommandType= CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@Campo", busqueda );
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entCliente Cli = new entCliente
+                    entUsuario Cli = new entUsuario
                     {
-                        IdCliente = Convert.ToInt32(dr["idCliente"]),
+                        IdUsuario = Convert.ToInt32(dr["idUsuario"]),
                         RazonSocial = dr["razonsocial"].ToString(),
                         Dni = dr["dni"].ToString(),
                         Telefono = dr["telefono"].ToString(),
@@ -254,21 +254,21 @@ namespace CapaAccesoDatos
             return lista;
         }
 
-        public entCliente BuscarIdCliente(int busqueda)
+        public entUsuario BuscarIdCliente(int busqueda)
         {
             SqlCommand cmd = null;
-            entCliente c = new entCliente();
+            entUsuario c = new entUsuario();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spBuscarIdCliente", cn);
+                cmd = new SqlCommand("spBuscarIdUsuario", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@IdCliente", busqueda);
+                cmd.Parameters.AddWithValue("@IdUsuario", busqueda);
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    c.IdCliente = Convert.ToInt32(dr["idCliente"]);
+                    c.IdUsuario = Convert.ToInt32(dr["idUsuario"]);
                     c.RazonSocial = dr["razonsocial"].ToString();
                     c.Dni = dr["dni"].ToString();
                     c.Telefono = dr["telefono"].ToString();

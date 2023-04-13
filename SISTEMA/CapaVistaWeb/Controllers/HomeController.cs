@@ -46,18 +46,18 @@ namespace MadereraCarocho.Controllers
         public ActionResult VerificarAcceso(string dato, string contra)
         {
             //entUsuario ousuario = logUsuario.Instancia.ObtenerUsuarios().Where(u => u.Correo == dato && u.Pass == Encriptar.GetSHA256(contra)).FirstOrDefault();
-            entCliente objCliente = logCliente.Instancia.IniciarSesion(dato, contra);
-            if (objCliente != null)
+            entUsuario objUsuario = logUsuario.Instancia.IniciarSesion(dato, contra);
+            if (objUsuario != null)
             {
-                FormsAuthentication.SetAuthCookie(objCliente.Correo, false); //Almacenar autenticacion dentro de una cokkie (segundo parametro es que el obj no sera persistente)
-                Session["Usuario"] = objCliente;// Una sesión puede almacenar cualquier tipo de dato
-                if (objCliente.Rol == entRol.Administrador)
+                FormsAuthentication.SetAuthCookie(objUsuario.Correo, false); //Almacenar autenticacion dentro de una cokkie (segundo parametro es que el obj no sera persistente)
+                Session["Usuario"] = objUsuario;// Una sesión puede almacenar cualquier tipo de dato
+                if (objUsuario.Rol == entRol.Administrador)
                 {
                     return RedirectToAction("Admin"); 
                 }
                 else
                 {
-                    if (objCliente.Rol == entRol.Cliente)
+                    if (objUsuario.Rol == entRol.Cliente)
                     {
                         return RedirectToAction("Cliente");
                     }
@@ -71,7 +71,7 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                entCliente c = new entCliente();
+                entUsuario c = new entUsuario();
                 c.RazonSocial = cNombre;
                 c.Dni = cdni;
                 c.Telefono = ctelefono;
@@ -84,7 +84,7 @@ namespace MadereraCarocho.Controllers
                 entRoll rol = new entRoll();
                 rol.IdRoll = 2;
                 c.Roll = rol;
-                bool creado = logCliente.Instancia.CrearCliente(c);
+                bool creado = logUsuario.Instancia.CrearCliente(c);
                 if (creado)
                 {
                     return RedirectToAction("Index");

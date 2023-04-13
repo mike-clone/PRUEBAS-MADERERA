@@ -13,20 +13,20 @@ namespace MadereraCarocho.Controllers
 {
     [PermisosRol(entRol.Administrador)]// No puede acceder si es que no es administrador
     [Authorize]// No puede si es que no esta autorizado
-    public class ClienteController : Controller
+    public class UsuarioController : Controller
     {
         private string mensaje;
         // GET: Cliente
         public ActionResult Listar(string dato)//listar y buscar en el mismo
         {
-            List<entCliente> lista;
+            List<entUsuario> lista;
             if (!String.IsNullOrEmpty(dato))
             {
-                lista = logCliente.Instancia.BuscarCliente(dato); 
+                lista = logUsuario.Instancia.BuscarCliente(dato); 
             }
             else
             {
-                lista = logCliente.Instancia.ListarCliente();
+                lista = logUsuario.Instancia.ListarCliente();
             }
             List<entUbigeo> listaUbigeo = logUbigeo.Instancia.ListarDistrito();
             var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
@@ -84,7 +84,7 @@ namespace MadereraCarocho.Controllers
             List<entRoll> listaRoll = logRoll.Instancia.ListarRol();
             var lsroll = new SelectList(listaRoll, "idRoll", "descripcion");
             ViewBag.listaRoll = lsroll;
-            return View(_ = logCliente.Instancia.BuscarIdCliente(c));
+            return View(_ = logUsuario.Instancia.BuscarIdCliente(c));
         }
 
         [HttpGet]
@@ -92,7 +92,7 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                bool elimina = logCliente.Instancia.EliminarCliente(idP);
+                bool elimina = logUsuario.Instancia.EliminarCliente(idP);
                 if (elimina)
                 {
                     mensaje = "Cliente eliminado correctamente";
