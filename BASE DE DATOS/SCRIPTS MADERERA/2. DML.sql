@@ -2030,23 +2030,11 @@ INSERT INTO ROL VALUES
 	('CLIENTE'),
 	('EMPLEADO');
 GO
---INSERT CLIENTE 256
-INSERT INTO CLIENTE(razonSocial,dni,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES ('cesar', '74359211', '945613221','Mz20Lote34-Av. Ricardo Palma', '010109','cesar@gmail.com','cesar#255','a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3',1);
-INSERT INTO CLIENTE(razonSocial,dni,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES	('omar', '70790019', '933423291', 'santiago mariños 1618', '010109','omar@gmail.com','omar#345','a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3',1);
-INSERT INTO CLIENTE(razonSocial,dni,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES	('ximena', '58791234', '999067966', 'MZA. 1-A LOTE. 3', '120102','ximena@gmailcom','ximena#1','a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3',2);
-INSERT INTO CLIENTE(razonSocial,dni,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES	('daniel', '74399141','913423491','Mz20Lote34-Av.5556',  '010109','daniel@gmail.com','daniel#222','a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3',2);
+--INSERT USUARIO 256
+INSERT INTO USUARIO(razonSocial,dni,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES ('cesar', '74359211', '945613221','Mz20Lote34-Av. Ricardo Palma', '010109','cesar@gmail.com','cesar#255','a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3',1);
+INSERT INTO USUARIO(razonSocial,dni,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES	('omar', '70790019', '933423291', 'santiago mariños 1618', '010109','omar@gmail.com','omar#345','a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3',1);
+INSERT INTO USUARIO(razonSocial,dni,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES	('ximena', '58791234', '999067966', 'MZA. 1-A LOTE. 3', '120102','ximena@gmailcom','ximena#1','a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3',2);
+INSERT INTO USUARIO(razonSocial,dni,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES	('daniel', '74399141','913423491','Mz20Lote34-Av.5556',  '010109','daniel@gmail.com','daniel#222','a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3',2);
 GO
 
---INSERT TIPO EMPLEADO
-INSERT INTO TIPO_EMPLEADO VALUES
-	('AYUDANTE'),
-	('CONDUCTOR'),
-	('OPERARIO');
-GO
---INSERT EMPLEADO
-INSERT INTO EMPLEADO VALUES
-	('VLADIMIRO MONTESINOS', '74253221', '946832167', 'Mz20Lote34-Av. Ricardo Palma', '2022-12-12', '2022-12-11', 1300.50, 'COVID', 1, 1,'080304'),
-	('TONGO GIGANTE', '74319122', '941832131', 'Mz20Lote34-Av. CIELO', '2022-12-11','2022-12-12', 1200.50, 'CANCER', 1, 2, '080304'),
-	('ALAN GARCIA', '74352133', '946892141', 'Mz20Lote34-Av. LA LUNA','2022-12-11', '2022-12-12', 2500.50, 'TIFOIDEA', 1, 3, '080304'),
-	('HOMERO SIMPSON', '71399144', '941832151', 'Mz20Lote34-Av. EL SOL','2022-12-11', '2022-12-12',  1300.58, 'FIEBRE', 1, 2, '080304');
-GO
+
