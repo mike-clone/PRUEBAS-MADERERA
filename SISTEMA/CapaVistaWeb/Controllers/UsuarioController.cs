@@ -16,17 +16,18 @@ namespace MadereraCarocho.Controllers
     public class UsuarioController : Controller
     {
         private string mensaje;
-        // GET: Cliente
-        public ActionResult Listar(string dato)//listar y buscar en el mismo
+
+        #region CLIENTES
+        public ActionResult ListarClientes(string dato)//listar y buscar en el mismo
         {
             List<entUsuario> lista;
             if (!String.IsNullOrEmpty(dato))
             {
-                lista = logUsuario.Instancia.BuscarCliente(dato); 
+                lista = logUsuario.Instancia.BuscarClientes(dato); 
             }
             else
             {
-                lista = logUsuario.Instancia.ListarCliente();
+                lista = logUsuario.Instancia.ListarClientes();
             }
             List<entUbigeo> listaUbigeo = logUbigeo.Instancia.ListarDistrito();
             var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
@@ -37,17 +38,19 @@ namespace MadereraCarocho.Controllers
             return View(lista);
         }
 
-        //[HttpGet]
-        /*public ActionResult ListarAdmin(string dato)
+        #endregion
+
+        #region ADMINISTRADORES
+        public ActionResult ListarAdministradores(string dato)
         {
             List<entUsuario> lista;
             if (!String.IsNullOrEmpty(dato))
             {
-                lista = logUsuario.Instancia.BuscarUsuarioAdmin(dato);
+                lista = logUsuario.Instancia.BuscarAdministradores(dato);
             }
             else
             {
-                lista = logUsuario.Instancia.ListarUsuarioAdmin();
+                lista = logUsuario.Instancia.ListarAdministradores();
             }
             List<entRoll> listaRol = logRoll.Instancia.ListarRol();
             var lsRol = new SelectList(listaRol, "idRol", "descripcion");
@@ -59,7 +62,11 @@ namespace MadereraCarocho.Controllers
             ViewBag.listaUbigeo = lsUbigeo;
             ViewBag.listaRoll = lsRol;
             return View(lista);
-        }*/
+        }
+        #endregion
+
+        //[HttpGet]
+
 
         /*[HttpGet]
         public ActionResult EliminarUsuarioAdmin(int idu)

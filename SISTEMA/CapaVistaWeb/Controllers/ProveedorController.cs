@@ -38,15 +38,17 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                entProveedor p = new entProveedor();
-                p.RazonSocial = uNombre;
-                p.Dni = uRuc;
-                p.Correo = uCorreo;
-                p.Telefono = uTelefono;
-                p.Descripcion = uDescripcion;
-                p.EstProveedor = true;
-                p.Ubigeo = new entUbigeo();
+                entProveedor p = new entProveedor
+                {
+                    RazonSocial = uNombre,
+                    Dni = uRuc,
+                    Correo = uCorreo,
+                    Telefono = uTelefono,
+                    Descripcion = uDescripcion,
+                    EstProveedor = true,
+                };
                 p.Ubigeo.IdUbigeo =frm["Ubi"].ToString();
+
                 bool inserta = logProveedor.Instancia.CrearProveedor(p);
                 if (inserta)
                 {

@@ -22,7 +22,7 @@
                     <ul>
                         <li><a href="/Cliente/ListarAdmin">Administradores</a></li>
                         <li><a href="/Producto/Listar">Productos</a></li>
-                        <li><a href="/Cliente/Listar">Clientes</a></li>
+                        <li><a href="/Usuario/ListarClientes">Clientes</a></li>
                         <li><a href="/Proveedor/Listar">Proveedores</a></li>
                         <li><a href="/Empleado/Listar">Empleados</a></li>
                         <li><a href="/Home/CerrarSesion">Cerrar Sesión</a></li>
@@ -53,7 +53,7 @@
     <a onclick="return Ordenar(this)" aria-current="page" type="button" class="btn btn-secondary btn-lg" id="DESC" th:href="@*@{productoDesc}*@#"><i class="bi bi-sort-down"></i></a>
     <hr>
     <!-- Buscar -->
-    <form class="d-flex mb-4" role="search" action="ListarAdmin" method="POST" id="Badmin">
+    <form class="d-flex mb-4" role="search" action="/Usuario/ListarClientes" method="POST" id="Badmin">
         <input class="form-control me-2" type="search" placeholder="Buscar" name="dato" aria-label="Search">
         <button onclick="return Buscar('Badmin')" class="btn btn-outline-success" type="submit">Buscar</button>
     </form>
@@ -61,31 +61,34 @@
     <table class="table">
         <tr>
             <th>
-                ID
+                #
             </th>
             <th>
-                NOMBRE
+                Nombre
             </th>
             <th>
-                DNI
+                Telefono
             </th>
             <th>
-                TELEFONO
+                Correo
             </th>
             <th>
-                DIRECCION
+                Username
             </th>
             <th>
-                USER
+                Direccion
             </th>
             <th>
-                CORREO
+                Provincia
             </th>
             <th>
-                DESC
+                Activo
             </th>
             <th>
-                ACTIVO
+                Editar
+            </th>
+            <th>
+                Eliminar
             </th>
             <th></th>
         </tr>
@@ -94,34 +97,31 @@
         {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Cliente.IdCliente)
+            @Html.DisplayFor(modelItem => item.IdUsuario)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Cliente.RazonSocial)
+            @Html.DisplayFor(modelItem => item.RazonSocial)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Cliente.Dni)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Cliente.Telefono)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Cliente.Direccion)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.UserName)
+            @Html.DisplayFor(modelItem => item.Telefono)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Correo)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Roll.Descripcion)
+            @Html.DisplayFor(modelItem => item.UserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Direccion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ubigeo.Provincia)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Activo)
         </td>
         <td>
-            <a onclick="return Eliminar(this)" href="/Cliente/EliminarUsuarioAdmin?idu=@item.Cliente.IdCliente" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
+            <a onclick="return Eliminar(this)" href="/Cliente/EliminarUsuarioAdmin?idA=@item.IdUsuario" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
         </td>
     </tr>
         }
@@ -129,7 +129,7 @@
     </table>
 
 </div>
-<div class="modal" tabindex="-1" id="ModInsertarCuenta" aria-hidden="true">
+@*<div class="modal" tabindex="-1" id="ModInsertarCuenta" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <form action="/Cliente/CrearCuenta" method="POST" id="admin">
@@ -195,7 +195,7 @@
             </form>
         </div>
     </div>
-</div>
+</div>*@
 <br>
 <br>
 <br>

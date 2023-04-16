@@ -16,17 +16,16 @@ namespace MadereraCarocho.Controllers
     {
         public ActionResult Index()
         {
-            List<entUbigeo> listUbigeo = logUbigeo.Instancia.ListarDistrito();
-            var lsUbigeo = new SelectList(listUbigeo, "idUbigeo", "distrito");
-            ViewBag.listUbigeo = lsUbigeo;
-            return View(listUbigeo);
+            return View();
         }
+
         [PermisosRol(entRol.Administrador)]
         [Authorize]// No puede si es que no esta autorizado //Almacena la info en la memoria del navegador
         public ActionResult Admin()
         {
             return View();
         }
+
         [PermisosRol(entRol.Cliente)]
         [Authorize]// No puede si es que no esta autorizado
         public ActionResult Cliente()
@@ -42,6 +41,7 @@ namespace MadereraCarocho.Controllers
             ViewBag.Message = "Usted no tiene permisos para acceder a esta pagina";
             return View();
         }
+
         [HttpPost]
         public ActionResult VerificarAcceso(string dato, string contra)
         {
@@ -64,27 +64,27 @@ namespace MadereraCarocho.Controllers
                 }
             }
 
-            return RedirectToAction("Index"); //Si es que hay otro tipo igual que te recargue la pagina
+            return RedirectToAction("Index"); //Si es que hay otro tipo  que te recargue la pagina
         }
+
         [HttpPost]
-        public ActionResult SingUp(string cNombre, string cdni, string ctelefono, string cdireccion, string cusername, string ccorreo, string cpassword, FormCollection frmub, FormCollection frm)
+        public ActionResult SingUp(string cNombre, string cusername, string ccorreo, string cpassword)
         {
             try
             {
-                entUsuario c = new entUsuario();
-                c.RazonSocial = cNombre;
-                c.Dni = cdni;
-                c.Telefono = ctelefono;
-                c.Direccion = cdireccion;
-                c.Ubigeo = new entUbigeo();
-                c.Ubigeo.IdUbigeo = frmub["cUbi"].ToString();
-                c.UserName = cusername;
-                c.Correo = ccorreo;
-                c.Pass = Encriptar.GetSHA256(cpassword);
-                entRoll rol = new entRoll();
-                rol.IdRoll = 2;
+                entUsuario c = new entUsuario
+                {
+                    RazonSocial = cNombre,
+                    UserName = cusername,
+                    Correo = ccorreo,
+                    Pass = Encriptar.GetSHA256(cpassword)
+                };
+                entRoll rol = new entRoll
+                {
+                    IdRoll = 2
+                };
                 c.Roll = rol;
-                bool creado = logUsuario.Instancia.CrearCliente(c);
+                bool creado = logUsuario.Instancia.CrearClientes(c);
                 if (creado)
                 {
                     return RedirectToAction("Index");
@@ -96,9 +96,9 @@ namespace MadereraCarocho.Controllers
             }
             catch (Exception ex)
             {
-                return RedirectToAction("ListarAdmin", new { mesjExeption = ex.Message });
+                return RedirectToAction("Index", new { mesjExeption = ex.Message });
             }
-            return RedirectToAction("ListarAdmin");
+            return RedirectToAction("Index");
         }       
         public ActionResult CerrarSesion()
         {

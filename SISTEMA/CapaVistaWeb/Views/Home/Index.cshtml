@@ -1,5 +1,4 @@
-﻿@model IEnumerable<CapaEntidad.entUbigeo>
-
+﻿
 <!-- ======= Header index ======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
@@ -647,7 +646,7 @@
 
 </main><!-- End #main -->
 
-<!--Registrar Cliente-->
+<!--Sing Up-->
 <div class="modal" tabindex="-1" id="ModInsertarCliente" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -658,31 +657,9 @@
                 </div>
                 <div class="modal-body">
                     <div class="form-floating mb-3">
-                        <div class="form-group">
-                            Departamento:
-                            <div class="col-md-10">
-                                @Html.DropDownList("cUbi", (SelectList)ViewBag.listUbigeo, "Seleccionar")
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-floating mb-3">
                         <input type="text" class="form-control" name="cNombre" id="cnombre" placeholder="Nombre" required>
                         <label for="floatingInput">Nombre</label>
                     </div>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="cdni" id="cdni" placeholder="Dni" required>
-                        <label for="floatingInput">DNI</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="ctelefono" placeholder="Telefono" required>
-                        <label for="floatingInput">Telefono</label>
-                    </div>
-
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="cdireccion" id="cdireccion" placeholder="direccion" required>
-                        <label for="floatingInput">direccion</label>
-                    </div>
-
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" name="cusername" id="cusername" placeholder="Username" required>
                         <label for="floatingInput">Username</label>

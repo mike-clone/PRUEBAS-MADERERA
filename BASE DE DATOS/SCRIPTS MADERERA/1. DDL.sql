@@ -17,9 +17,9 @@ GO
 CREATE TABLE PROVEEDOR(
 	idProveedor int primary key identity,
 	razonSocial varchar(40) not null,
-	dni varchar(8) not null,
+	dni varchar(8) null,
 	correo varchar(40),
-	telefono varchar(9) default null,
+	telefono varchar(9) null,
 	descripcion varchar (80),
 	estProveedor bit default 1,
 	idUbigeo VARCHAR(6) null
@@ -70,17 +70,17 @@ GO
 CREATE TABLE Usuario(
 	idUsuario int primary key identity,
 	razonSocial varchar(40) not null,
-	dni varchar(8) not null,
-	telefono varchar(9),
-	direccion varchar(60),
-	idUbigeo VARCHAR(6),
+    --dni varchar(8) null,
+	telefono varchar(9) null,
+	direccion varchar(60) null,
+	idUbigeo VARCHAR(6)null,
 	fecCreacion datetime default getdate(),
 	f_inicio date default getdate(),
-    f_fin date default getdate(),
-    salario float,
-	correo varchar(40),
+    f_fin date NULL,
+    salario float null,
+	correo varchar(40) not null,
 	userName varchar (20) not null,
-	pass varchar(200) null,
+	pass varchar(200) not null,
 	idRol int,
 	activo bit default 1,
 
@@ -139,16 +139,16 @@ GO
 --------------------------------------------RESTRICCIONES---------------------------------------------
 
 --Usuario
-ALTER TABLE Usuario ADD CONSTRAINT UQ_Usuario_dni UNIQUE(dni);
-ALTER TABLE Usuario ADD	CONSTRAINT CHK_Usuario_telefono CHECK(telefono LIKE '9[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]' or telefono = '' or telefono LIKE '0[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]')
-ALTER TABLE Usuario ADD	CONSTRAINT CHK_Usuario_dni CHECK(dni LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]')
+CREATE  UNIQUE INDEX idx_UsuarioTelefono ON USUARIO (telefono) WHERE telefono IS NOT NULL;
+ALTER TABLE Usuario ADD	CONSTRAINT CHK_Usuario_telefono CHECK(telefono LIKE '9[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]' or telefono = '' or telefono LIKE '0[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]');
 ALTER TABLE Usuario ADD CONSTRAINT uq_Usuario_userName UNIQUE(userName);
 ALTER TABLE Usuario ADD CONSTRAINT uq_Usuario_correo UNIQUE(correo);
 --PROVEEDOR
-ALTER TABLE PROVEEDOR ADD CONSTRAINT  UQ_PROVEEDOR_dni UNIQUE(dni);
-ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_PROVEEDOR_telefono CHECK(telefono LIKE '9[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]' or telefono = '' or telefono LIKE '0[0-9][0-9][0-9][0-9][0-9][0-9][0-9]')
-ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_PROVEEDOR_dni CHECK(dni LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]')
-ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_estProveedor CHECK(estProveedor LIKE '[0-2]') 
+CREATE  UNIQUE INDEX idx_ProveedorDni ON PROVEEDOR (dni) WHERE dni IS NOT NULL;
+CREATE  UNIQUE INDEX idx_ProveedorTelefono ON PROVEEDOR (telefono) WHERE telefono IS NOT NULL;
+ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_PROVEEDOR_telefono CHECK(telefono LIKE '9[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]' or telefono = '' or telefono LIKE '0[0-9][0-9][0-9][0-9][0-9][0-9][0-9]');
+ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_PROVEEDOR_dni CHECK(dni LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]');
+ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_estProveedor CHECK(estProveedor LIKE '[0-2]');
 
 GO
 

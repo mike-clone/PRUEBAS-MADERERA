@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CapaEntidad.entCliente>
+﻿@model IEnumerable<CapaEntidad.entUsuario>
 
 <!-- ======= Header admin======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
@@ -22,7 +22,7 @@
                     <ul>
                         <li><a href="#">Administradores</a></li>
                         <li><a href="/Producto/Listar">Productos</a></li>
-                        <li><a href="/Cliente/Listar">Clientes</a></li>
+                        <li><a href="/Cliente/ListarClientes">Clientes</a></li>
                         <li><a href="/Proveedor/Listar">Proveedores</a></li>
                         <li><a href="/Empleado/Listar">Empleados</a></li>
                         <li><a href="/Home/CerrarSesion">Cerrar Sesión</a></li>
@@ -48,7 +48,7 @@
     <a onclick="return Ordenar(this)" aria-current="page" type="button" class="btn btn-secondary btn-lg" id="DESC" th:href="@*@{productoDesc}*@#"><i class="bi bi-sort-down"></i></a>
     <hr>
     <!-- Buscar -->
-    <form class="d-flex mb-4" role="search" action="/Cliente/Listar" method="POST" id="bCliente">
+    <form class="d-flex mb-4" role="search" action="/Usuario/ListarClientes" method="POST" id="bCliente">
         <input class="form-control me-2" type="search" placeholder="Buscar" name="dato" aria-label="Search">
         <button onclick="return Buscar('bCliente')" class="btn btn-outline-success" type="submit">Buscar</button>
     </form>
@@ -65,10 +65,7 @@
                     Nombre
                 </th>
                 <th>
-                    DNI
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Telefono)
+                    Telefono
                 </th>
                 <th>
                     Correo
@@ -77,16 +74,19 @@
                     Username
                 </th>
                 @*<th>
-                    Password
-                </th>*@
+                        Password
+                    </th>*@
                 <th>
-                    @Html.DisplayNameFor(model => model.Direccion)
+                    Dirección
                 </th>
                 <th>
                     Provincia
                 </th>
                 <th>
-                   Activo
+                    Activo
+                </th>
+                <th>
+                    Editar
                 </th>
                 <th>
                     Eliminar
@@ -97,52 +97,44 @@
 
             @foreach (var item in Model)
             {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.IdCliente)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.RazonSocial)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Dni)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Telefono)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Correo)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.UserName)
-                </td>
-                @*<td>
-                    @Html.DisplayFor(modelItem => item.Pass)
-                </td>*@
-                <td>
-                    @Html.DisplayFor(modelItem => item.Direccion)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Ubigeo.Provincia)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Activo)
-                </td>
-                @*<td>
-            <button class="btn btn-warning" type="button">
-                <i class="bi bi-pencil-square"></i>
-                @Html.ActionLink("Edit", "EditarProducto", new { idprod = item.IdCliente })
-            </button>
-        </td>*@
-            <td>
-                <button class="btn btn-warning bi bi-pencil-square" type="button">
-                    @Html.ActionLink("Edit", "EditarCliente", new { c = item.IdCliente })
-                </button>
-            </td>
-                <td>
-                    <a onclick="return Eliminar(this)" href="/Cliente/EliminarCliente?idP=@item.IdCliente" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
-                </td>
-            </tr>
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IdUsuario)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RazonSocial)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Telefono)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Correo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserName)
+                    </td>
+                    @*<td>
+                            @Html.DisplayFor(modelItem => item.Pass)
+                        </td>*@
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Direccion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ubigeo.Provincia)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Activo)
+                    </td>
+
+                    <td>
+                        <button class="btn btn-warning bi bi-pencil-square" type="button">
+                            @Html.ActionLink("Edit", "EditarCliente", new { c = item.IdUsuario })
+                        </button>
+                    </td>
+                    <td>
+                        <a onclick="return Eliminar(this)" href="/Cliente/EliminarCliente?idP=@item.IdUsuario" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
+                    </td>
+                </tr>
             }
         <tbody>
     </table>

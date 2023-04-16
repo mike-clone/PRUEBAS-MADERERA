@@ -11,40 +11,47 @@ GO
 CREATE OR ALTER PROCEDURE spIniciarSesion(@dato varchar(40), @contra varchar(200))
 AS
 BEGIN
-	SELECT *from USUARIO c 
-	inner join Rol r on r.idRol = c.idRol
+	SELECT idUsuario,razonSocial,correo,userName,pass,idRol,activo from USUARIO
 	where (userName = @dato or correo = @dato) and pass = @contra
 END
 GO
+
 --====CREAL USUARIO===========
-CREATE OR ALTER PROCEDURE spCrearUsuario(
+CREATE OR ALTER PROCEDURE spCrearCliente(
     @razonSocial varchar(40),
-    @dni varchar(8),
-    @telefono varchar(9),
-    @direccion varchar(60),
-    @idUbigeo VARCHAR(6),
 	@correo varchar(40),
 	@userName varchar(20),
 	@pass varchar(200),
 	@idRol int
-
 )
 AS
 BEGIN
-    INSERT INTO USUARIO (razonSocial,dni,telefono,direccion,idUbigeo,correo,userName,pass, idRol) values (@razonSocial, @dni, @telefono, @direccion, @idUbigeo, @correo, @userName, @pass, @idRol);
+    INSERT INTO USUARIO (razonSocial,correo,userName,pass, idRol) values (@razonSocial, @correo, @userName, @pass, @idRol);
 END
 GO
+
 --===LISTAR USUARIO==
-CREATE OR ALTER PROCEDURE spListarUsuario
+CREATE OR ALTER PROCEDURE spListarClientes
 AS
 BEGIN
-	select c.idUsuario,c.razonSocial, c.dni,c.telefono, c.correo,c.userName,c.pass,c.direccion, u.provincia,c.activo from USUARIO C 
-	inner join UBIGEO u on c.idUbigeo=u.idUbigeo
+	select c.idUsuario,c.razonSocial,c.telefono, c.correo,c.userName,c.pass,c.direccion, u.provincia,c.activo from USUARIO C 
+	left join UBIGEO u on c.idUbigeo=u.idUbigeo
 	where c.idRol=2
 	order by c.activo desc;
 	
 END
 GO
+
+CREATE OR ALTER PROCEDURE spListarAdministradores
+AS
+BEGIN
+	select c.idUsuario,c.razonSocial,c.telefono, c.correo,c.userName,c.pass,c.direccion, u.provincia,c.activo from USUARIO C 
+	left join UBIGEO u on c.idUbigeo=u.idUbigeo
+	where c.idRol=1
+	order by c.activo desc;
+END
+GO
+
 ---===eliminar usuario===========
 CREATE OR ALTER PROCEDURE spEliminarUsuario(
 	@idusuario int
@@ -56,25 +63,38 @@ END
 GO
 --====buscar cleiente ===
 
-CREATE OR ALTER PROCEDURE spBuscarusuario(
+CREATE OR ALTER PROCEDURE spBuscarClientes(
 	@Campo varchar(40)
 )
 AS
 BEGIN
-	select c.idUsuario,c.razonSocial, c.dni,c.telefono, c.correo,c.userName,c.pass,c.direccion, u.provincia,c.activo from USUARIO C 
-	inner join UBIGEO u on c.idUbigeo=u.idUbigeo
+	select c.idUsuario,c.razonSocial,c.telefono, c.correo,c.userName,c.pass,c.direccion, u.provincia,c.activo from USUARIO C 
+	left join UBIGEO u on c.idUbigeo=u.idUbigeo
 	where c.razonSocial like @Campo+'%'
-	or c.dni like @Campo+'%' 
+	or c.userName like @Campo+'%' or c.correo like @Campo+'%' 
+	AND c.idRol=2;
 	
 END
 GO
+
+CREATE OR ALTER PROCEDURE spBuscarAdministradores(@campo varchar(40))
+as
+begin
+	select c.idUsuario,c.razonSocial,c.telefono, c.correo,c.userName,c.pass,c.direccion, u.provincia,c.activo from USUARIO C 
+	left join UBIGEO u on c.idUbigeo=u.idUbigeo
+	where c.razonSocial like @Campo+'%'
+	or c.userName like @Campo+'%' or c.correo like @Campo+'%'
+	and C.idRol=1;
+end
+go
+
 --====buscar USUARIO por id======
 CREATE OR ALTER PROCEDURE spBuscarIdUsuario(
 	@IdUsuario int
 )
 AS
 BEGIN
-	select c.idUSUARIO,c.razonSocial, c.dni,c.telefono, c.correo,c.userName,c.pass,c.direccion, u.distrito,c.activo from USUARIO C 
+	select c.idUSUARIO,c.razonSocial,c.telefono, c.correo,c.userName,c.pass,c.direccion, u.distrito,c.activo from USUARIO C 
 	inner join UBIGEO u on c.idUbigeo=u.idUbigeo
 	where idUSUARIO = @IdUsuario;
 	

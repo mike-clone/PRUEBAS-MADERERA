@@ -16,15 +16,33 @@ namespace CapaLogica
         {
             get { return _instancia; }
         }
-        #region CRUD
-        public bool CrearCliente(entUsuario c)
+        #region CLIENTES
+        public bool CrearClientes(entUsuario c)
         {
             return datUsuario.Instacia.CrearCliente(c);
         }
-        public List<entUsuario> ListarCliente()
+        public List<entUsuario> ListarClientes()
         {
             return datUsuario.Instacia.ListarCliente();
         }
+
+        public List<entUsuario> BuscarClientes(string dato)
+        {
+            return datUsuario.Instacia.BuscarCliente(dato);
+        }
+
+        #endregion
+
+        #region ADMINISTRADORES
+        public List<entUsuario> ListarAdministradores()
+        {
+            return datUsuario.Instacia.ListarAdministradores();
+        }
+        public List<entUsuario>BuscarAdministradores(string dato)
+        {
+            return datUsuario.Instacia.BuscaraAdministradores(dato);
+        }
+        #endregion
         public bool ActualizarCliente(entUsuario c)
         {
             return datUsuario.Instacia.ActualizarCliente(c);
@@ -33,12 +51,8 @@ namespace CapaLogica
         {
             return datUsuario.Instacia.EliminarCliente(id);
         }
-        #endregion CRUD
+        
 
-        public List<entUsuario> BuscarCliente(string dato)
-        {
-            return datUsuario.Instacia.BuscarCliente(dato);
-        }
         public entUsuario BuscarIdCliente(int idCliente)
         {
             return datUsuario.Instacia.BuscarIdCliente(idCliente);
