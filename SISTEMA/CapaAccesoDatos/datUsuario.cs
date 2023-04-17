@@ -59,7 +59,7 @@ namespace CapaAccesoDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spListarCliente", cn);
+                cmd = new SqlCommand("spListarClientes", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
@@ -81,7 +81,7 @@ namespace CapaAccesoDatos
                         Provincia = dr["provincia"].ToString(),
                     };
 
-                    Cli.Ubigeo = u;
+                    
                     lista.Add(Cli);
                 }
 
@@ -143,7 +143,36 @@ namespace CapaAccesoDatos
             return lista;
         }
 
-        
+        public bool EditarCliente(entUsuario u)
+        {
+            SqlCommand cmd = null;
+            bool actualiza = false;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spActualizarCliente", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@idUsuario", u.IdUsuario);
+                cmd.Parameters.AddWithValue("@razonSocial", u.RazonSocial);
+                cmd.Parameters.AddWithValue("@userName", u.UserName);
+                cmd.Parameters.AddWithValue("@activo", u.Activo);
+                cmd.Parameters.AddWithValue("@idrol", u.Roll.IdRoll);
+                cn.Open();
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    actualiza = true;
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            finally { cmd.Connection.Close(); }
+
+            return actualiza;
+
+        }
         #endregion
 
         #region Administradores
@@ -239,42 +268,7 @@ namespace CapaAccesoDatos
         }
         #endregion
 
-
-        public bool ActualizarCliente(entUsuario Cli)
-        {
-            SqlCommand cmd = null;
-            bool actualiza = false;
-            try
-            {
-                SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spActualizarCliente", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idCliente", Cli.IdUsuario);
-                cmd.Parameters.AddWithValue("@razonSocial", Cli.RazonSocial);
-                cmd.Parameters.AddWithValue("@dni", Cli.Dni);
-                cmd.Parameters.AddWithValue("@telefono", Cli.Telefono);
-                cn.Open();
-                int i = cmd.ExecuteNonQuery();
-                if (i > 0)
-                {
-                    actualiza = true;
-                }
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show(e.Message, "Error al modificar Cliente procedimiento spActualizarCliente", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally { 
-                cmd.Connection.Close(); 
-            }
-            return actualiza;
-        }
-
-        //Eliminar - Deshabilitar
-
-      
-    
-
+        
         #region COMPARTIDO
         public entUsuario IniciarSesion(string campo, string contra)
         {
@@ -363,6 +357,16 @@ namespace CapaAccesoDatos
                     c.UserName = dr["userName"].ToString();
                     c.Pass = dr["pass"].ToString();
                     c.Activo = Convert.ToBoolean(dr["activo"]); 
+                    c.Roll= new entRoll()
+                    {
+                        Descripcion = dr["descripcion"].ToString(),
+                    };
+                    c.Ubigeo = new entUbigeo()
+                    {
+                        Departamento = dr["departamento"].ToString(),
+                        Provincia = dr["provincia"].ToString(),
+                        Distrito = dr["distrito"].ToString()
+                    };
                 }
             }
             catch (Exception e)
@@ -373,6 +377,8 @@ namespace CapaAccesoDatos
             finally { cmd.Connection.Close(); }
             return c;
         }
+
+        
         #endregion
     }
 

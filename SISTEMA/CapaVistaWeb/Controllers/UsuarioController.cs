@@ -59,10 +59,38 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult EditarCliente(int c)
         {
+            var usuario =logUsuario.Instancia.BuscarIdUsuario(c);
             List<entRoll> listaRoll = logRoll.Instancia.ListarRol();
             var lsroll = new SelectList(listaRoll, "idRoll", "descripcion");
             ViewBag.listaRoll = lsroll;
-            return View(_ = logUsuario.Instancia.BuscarIdUsuario(c));
+            ViewBag.OldUbigeo=usuario.Ubigeo.Departamento+"  "+usuario.Ubigeo.Provincia+"  "+usuario.Ubigeo.Distrito;
+            return View(usuario);
+        }
+
+        [HttpPost]
+        public ActionResult EditarCliente(entUsuario u ,FormCollection frm)
+        {
+            u.Roll = new entRoll()
+            {
+                IdRoll = Convert.ToInt32(frm["roll"])
+            };
+
+            try
+            {
+                Boolean edita = logUsuario.Instancia.EditarCliente(u);
+                if (edita)
+                {
+                    return RedirectToAction("ListarClientes");
+                }
+                else
+                {
+                    return View(u);
+                }
+            }
+            catch (ApplicationException ex)
+            {
+                return RedirectToAction("ListarClientes", new { mesjExceptio = ex.Message });
+            }
         }
         #endregion
 

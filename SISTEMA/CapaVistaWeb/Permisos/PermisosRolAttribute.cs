@@ -11,11 +11,11 @@ namespace MadereraCarocho.Permisos
     //      Valida que al momento que se ejecute una accion valida cierta acción.
     public class PermisosRolAttribute: ActionFilterAttribute //Le decimos que va a heredar de action filter
     {
-        private entRol idRol;
+        private readonly entRol Rol;
 
-        public PermisosRolAttribute(entRol idRol)
+        public PermisosRolAttribute(entRol Rol)
         {
-            this.idRol = idRol;
+            this.Rol = Rol;
         }
 
         public override void OnActionExecuted(ActionExecutedContext filterContext)
@@ -25,7 +25,7 @@ namespace MadereraCarocho.Permisos
             {
                // Convertimos la sesion que contiene la info del usuario se convierta al tipo usuario
                 var usuario = HttpContext.Current.Session["Usuario"] as entUsuario;
-                if (usuario.Rol != idRol)
+                if (usuario.Rol != Rol)
                 {
                     filterContext.Result = new RedirectResult("~/Home/SinPermisos");
                     //Con ~ le decimos que se rediriga a la ubicación del proyecto

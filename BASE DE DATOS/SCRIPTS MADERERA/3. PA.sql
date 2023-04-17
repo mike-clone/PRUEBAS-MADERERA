@@ -41,7 +41,19 @@ BEGIN
 	
 END
 GO
-
+CREATE OR ALTER PROCEDURE spActualizarCliente(
+	@idUsuario int,
+	@razonSocial varchar(40),
+	@userName varchar(40),
+	@Activo bit,
+	@idrol int
+)
+AS
+BEGIN
+	update USUARIO set razonSocial = @razonSocial,userName=@userName,activo=@Activo,idRol=@idrol
+	where idUsuario=@idUsuario;
+END
+GO
 CREATE OR ALTER PROCEDURE spListarAdministradores
 AS
 BEGIN
@@ -94,7 +106,9 @@ CREATE OR ALTER PROCEDURE spBuscarIdUsuario(
 )
 AS
 BEGIN
-	select idUsuario,razonSocial,telefono, correo,userName,pass,direccion,activo from USUARIO 
+	select u.idUsuario,u.razonSocial,u.telefono, u.correo,u.userName,u.pass,u.direccion,u.activo ,r.descripcion,ub.departamento,ub.provincia,ub.distrito from USUARIO u
+	inner join ROL r on u.idRol=r.idRol
+	inner join UBIGEO ub on u.idUbigeo=ub.idUbigeo
 	where idUSUARIO = @IdUsuario;
 	
 END
@@ -596,20 +610,7 @@ GO
 
 
 
---CREATE OR ALTER PROCEDURE spActualizarUSUARIO(
---	@idUSUARIO int,
---	@razonSocial varchar(40),
---	@dni varchar(8),
---	@telefono varchar(9),
---	@direccion varchar(60),
---	@idUbigeo VARCHAR(6)
---)
---AS
---BEGIN
---	update USUARIO set razonSocial = @razonSocial, dni = @dni,
---	 telefono = @telefono, direccion = @direccion, idUbigeo = @idUbigeo where idUSUARIO = @idUSUARIO;
---END
---GO
+
 
 
 

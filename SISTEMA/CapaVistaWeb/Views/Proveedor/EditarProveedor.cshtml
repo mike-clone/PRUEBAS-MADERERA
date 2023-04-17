@@ -54,7 +54,7 @@
         <div class="mb-3 row">
             <label for="staticEmail" class="col-sm-2 col-form-label">Ciudad</label>
             <div class="col-md-10">
-                @Html.DropDownList("Ubi", (SelectList)ViewBag.listaUbigeo, new { @class = "formcontrol", required = "required" })
+                @Html.DropDownList("Ubi", (SelectList)ViewBag.listaUbigeo,"seleccionar", new { @class = "formcontrol", required = "required" })
             </div>
         </div>
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
