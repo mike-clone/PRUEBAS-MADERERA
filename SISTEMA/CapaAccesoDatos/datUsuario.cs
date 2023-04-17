@@ -142,6 +142,8 @@ namespace CapaAccesoDatos
             }
             return lista;
         }
+
+        
         #endregion
 
         #region Administradores
@@ -270,34 +272,10 @@ namespace CapaAccesoDatos
 
         //Eliminar - Deshabilitar
 
-        public bool EliminarCliente(int id)
-        {
-            SqlCommand cmd = null;
-            bool eliminado = false;
-            try
-            {
-                SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spEliminarUsuario", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idUsuario", id);
-                cn.Open();
-                int i = cmd.ExecuteNonQuery();
-                if (i > 0)
-                {
-                    eliminado = true;
-                }
-            }
-            catch (Exception e)
-            {
-               
-                MessageBox.Show(e.Message, "Error al Eliminar Cliente procedimiento spEliminarCliente", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally { cmd.Connection.Close(); }
-            return eliminado;
-        }
+      
     
 
-        #region OTROS
+        #region COMPARTIDO
         public entUsuario IniciarSesion(string campo, string contra)
         {
             SqlCommand cmd = null;
@@ -336,9 +314,34 @@ namespace CapaAccesoDatos
             return c;
         }
 
-       
+        public bool EliminarUsuarios(int id)
+        {
+            SqlCommand cmd = null;
+            bool eliminado = false;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spEliminarUsuarios", cn)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                cmd.Parameters.AddWithValue("@idCliente", id);
+                cn.Open();
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    eliminado = true;
+                }
+            }
+            catch (Exception e)
+            {
 
-        public entUsuario BuscarIdCliente(int busqueda)
+                MessageBox.Show(e.Message, "Error al Eliminar Cliente procedimiento spEliminarCliente", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally { cmd.Connection.Close(); }
+            return eliminado;
+        }
+        public entUsuario BuscarIdUsuario(int busqueda)
         {
             SqlCommand cmd = null;
             entUsuario c = new entUsuario();
@@ -354,31 +357,23 @@ namespace CapaAccesoDatos
                 {
                     c.IdUsuario = Convert.ToInt32(dr["idUsuario"]);
                     c.RazonSocial = dr["razonsocial"].ToString();
-                    c.Dni = dr["dni"].ToString();
                     c.Telefono = dr["telefono"].ToString();
                     c.Direccion = dr["direccion"].ToString();
                     c.Correo = dr["correo"].ToString();
                     c.UserName = dr["userName"].ToString();
                     c.Pass = dr["pass"].ToString();
-                    c.Activo = Convert.ToBoolean(dr["activo"]);
-
-                    entUbigeo ubi = new entUbigeo
-                    {
-                        Distrito = dr["distrito"].ToString()
-                    };
-                    //entRoll roll = new entRoll
-                    //{
-                    //    Descripcion = dr["descripcion"].ToString()
-                    //};
-                    //c.Roll = roll;
-                    c.Ubigeo = ubi;
+                    c.Activo = Convert.ToBoolean(dr["activo"]); 
                 }
             }
             catch (Exception e)
-            { throw e; }
+            {
+                MessageBox.Show(e.Message, "Error al buscar usuarios procedimiento spBuscarIDUsuario", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                
+            }
             finally { cmd.Connection.Close(); }
             return c;
         }
+        #endregion
     }
-    #endregion OTROS
+
 }

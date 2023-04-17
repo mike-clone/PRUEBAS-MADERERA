@@ -15,7 +15,7 @@ namespace MadereraCarocho.Controllers
     [Authorize]// No puede si es que no esta autorizado
     public class UsuarioController : Controller
     {
-        private string mensaje;
+    
 
         #region CLIENTES
         public ActionResult ListarClientes(string dato)//listar y buscar en el mismo
@@ -34,10 +34,36 @@ namespace MadereraCarocho.Controllers
 
             ViewBag.lista = lista;
             ViewBag.listaUbigeo = lsUbigeo;
-            ViewBag.Mensaje = mensaje;
+            ViewBag.Error = "listando";
             return View(lista);
         }
 
+        [HttpGet]
+        public ActionResult EliminarClientes(int idc)
+        {
+            try
+            {
+                bool elimina = logUsuario.Instancia.EliminarUsuarios(idc);
+
+                ViewBag.Error="Cliente eliminado correctamente";
+  
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = "No se pudo eliminar";
+                return RedirectToAction("ListarClientes", new { mesjExeption = ex.Message });
+            }
+            return RedirectToAction("ListarClientes");
+        }
+
+        [HttpGet]
+        public ActionResult EditarCliente(int c)
+        {
+            List<entRoll> listaRoll = logRoll.Instancia.ListarRol();
+            var lsroll = new SelectList(listaRoll, "idRoll", "descripcion");
+            ViewBag.listaRoll = lsroll;
+            return View(_ = logUsuario.Instancia.BuscarIdUsuario(c));
+        }
         #endregion
 
         #region ADMINISTRADORES
@@ -63,8 +89,32 @@ namespace MadereraCarocho.Controllers
             ViewBag.listaRoll = lsRol;
             return View(lista);
         }
+
+        [HttpGet]
+        public ActionResult EliminarAdministradores(int idA)
+        {
+            try
+            {
+                bool elimina = logUsuario.Instancia.EliminarUsuarios(idA);
+
+                ViewBag.Error = "adminsitrador eliminado correctamente";
+
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = "No se pudo eliminar";
+                return RedirectToAction("ListarAdministradores", new { mesjExeption = ex.Message });
+            }
+            return RedirectToAction("ListarAdministradores");
+        }
         #endregion
 
+        #region EMPLEADOS
+        #endregion
+
+        #region REGION COMPARTIDA
+
+        #endregion
         //[HttpGet]
 
 
@@ -85,33 +135,11 @@ namespace MadereraCarocho.Controllers
             }
             return RedirectToAction("ListarAdmin");
         }*/
-        [HttpGet]
-        public ActionResult EditarCliente(int c)
-        {
-            List<entRoll> listaRoll = logRoll.Instancia.ListarRol();
-            var lsroll = new SelectList(listaRoll, "idRoll", "descripcion");
-            ViewBag.listaRoll = lsroll;
-            return View(_ = logUsuario.Instancia.BuscarIdCliente(c));
-        }
 
-        [HttpGet]
-        public ActionResult EliminarCliente(int idP)
-        {
-            try
-            {
-                bool elimina = logUsuario.Instancia.EliminarCliente(idP);
-                if (elimina)
-                {
-                    mensaje = "Cliente eliminado correctamente";
-                    return RedirectToAction("Listar");
-                }
-            }
-            catch (Exception ex)
-            {
-                return RedirectToAction("Listar", new { mesjExeption = ex.Message });
-            }
-            return RedirectToAction("Listar");
-        }
+       
+        
+
+       
 
     }
 }

@@ -53,7 +53,7 @@ END
 GO
 
 ---===eliminar usuario===========
-CREATE OR ALTER PROCEDURE spEliminarUsuario(
+CREATE OR ALTER PROCEDURE spEliminarUsuarios(
 	@idusuario int
 )
 AS
@@ -94,8 +94,7 @@ CREATE OR ALTER PROCEDURE spBuscarIdUsuario(
 )
 AS
 BEGIN
-	select c.idUSUARIO,c.razonSocial,c.telefono, c.correo,c.userName,c.pass,c.direccion, u.distrito,c.activo from USUARIO C 
-	inner join UBIGEO u on c.idUbigeo=u.idUbigeo
+	select idUsuario,razonSocial,telefono, correo,userName,pass,direccion,activo from USUARIO 
 	where idUSUARIO = @IdUsuario;
 	
 END

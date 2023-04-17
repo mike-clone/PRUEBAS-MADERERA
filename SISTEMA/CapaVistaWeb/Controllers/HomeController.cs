@@ -85,20 +85,16 @@ namespace MadereraCarocho.Controllers
                 };
                 c.Roll = rol;
                 bool creado = logUsuario.Instancia.CrearClientes(c);
-                if (creado)
-                {
-                    return RedirectToAction("Index");
-                }
-                else
-                {
-                    ViewBag.Error = "No se pudo crear";
-                }
+                 ViewBag.Error = "Creado";
+                 return RedirectToAction("Index");
             }
             catch (Exception ex)
             {
+                ViewBag.Error = "No se pudo crear";
                 return RedirectToAction("Index", new { mesjExeption = ex.Message });
+
             }
-            return RedirectToAction("Index");
+            
         }       
         public ActionResult CerrarSesion()
         {

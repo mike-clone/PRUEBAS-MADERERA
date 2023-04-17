@@ -42,6 +42,7 @@
 <br>
 <div class="container">
     <br><h2 style="text-align: center">LISTADO DE CLIENTES</h2>
+    @ViewBag.Error;
     <hr>
     <!-- Ordenar -->
     <a onclick="return Ordenar(this)" aria-current="page" type="button" class="btn btn-primary btn-lg" id="ASC" th:href="@*@{productoAsc}*@#"><i class="bi bi-sort-up"></i></a>
@@ -132,7 +133,7 @@
                         </button>
                     </td>
                     <td>
-                        <a onclick="return Eliminar(this)" href="/Cliente/EliminarCliente?idP=@item.IdUsuario" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
+                        <a onclick="return Eliminar(this)" href="/Usuario/EliminarClientes?idc=@item.IdUsuario" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
                     </td>
                 </tr>
             }

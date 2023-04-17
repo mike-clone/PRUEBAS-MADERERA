@@ -31,6 +31,10 @@ namespace CapaLogica
             return datUsuario.Instacia.BuscarCliente(dato);
         }
 
+        public bool EliminarUsuarios(int id)
+        {
+            return datUsuario.Instacia.EliminarUsuarios(id);
+        }
         #endregion
 
         #region ADMINISTRADORES
@@ -47,15 +51,12 @@ namespace CapaLogica
         {
             return datUsuario.Instacia.ActualizarCliente(c);
         }
-        public bool EliminarCliente(int id)
-        {
-            return datUsuario.Instacia.EliminarCliente(id);
-        }
+       
         
 
-        public entUsuario BuscarIdCliente(int idCliente)
+        public entUsuario BuscarIdUsuario(int idCliente)
         {
-            return datUsuario.Instacia.BuscarIdCliente(idCliente);
+            return datUsuario.Instacia.BuscarIdUsuario(idCliente);
         }
 
         public entUsuario IniciarSesion(string dato, string contra)

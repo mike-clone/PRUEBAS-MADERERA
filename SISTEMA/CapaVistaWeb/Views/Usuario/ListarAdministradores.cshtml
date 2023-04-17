@@ -121,7 +121,7 @@
             @Html.DisplayFor(modelItem => item.Activo)
         </td>
         <td>
-            <a onclick="return Eliminar(this)" href="/Cliente/EliminarUsuarioAdmin?idA=@item.IdUsuario" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
+            <a onclick="return Eliminar(this)" href="/Usuario/EliminarAdministradores?idA=@item.IdUsuario" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
         </td>
     </tr>
         }
