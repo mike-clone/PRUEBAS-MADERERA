@@ -45,12 +45,11 @@ CREATE OR ALTER PROCEDURE spActualizarCliente(
 	@idUsuario int,
 	@razonSocial varchar(40),
 	@userName varchar(40),
-	@Activo bit,
-	@idrol int
+	@Activo bit
 )
 AS
 BEGIN
-	update USUARIO set razonSocial = @razonSocial,userName=@userName,activo=@Activo,idRol=@idrol
+	update USUARIO set razonSocial = @razonSocial,userName=@userName,activo=@Activo
 	where idUsuario=@idUsuario;
 END
 GO

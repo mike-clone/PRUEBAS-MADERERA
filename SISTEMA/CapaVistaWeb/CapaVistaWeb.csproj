@@ -300,7 +300,7 @@
     <Content Include="Views\Empleado\Listar.cshtml" />
     <Content Include="Views\Home\SinPermisos.cshtml" />
     <Content Include="Views\Home\Empleado.cshtml" />
-    <Content Include="Views\Usuario\ListarAdministradores.cshtml" />
+    <Content Include="Views\Usuario\EditarDatosAdministrador.cshtml" />
     <Content Include="Views\Venta\Detalle.cshtml" />
     <Content Include="Views\Venta\Listar.cshtml" />
     <Content Include="Views\Compra\Index.cshtml" />

@@ -156,7 +156,6 @@ namespace CapaAccesoDatos
                 cmd.Parameters.AddWithValue("@razonSocial", u.RazonSocial);
                 cmd.Parameters.AddWithValue("@userName", u.UserName);
                 cmd.Parameters.AddWithValue("@activo", u.Activo);
-                cmd.Parameters.AddWithValue("@idrol", u.Roll.IdRoll);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)

@@ -60,21 +60,14 @@ namespace MadereraCarocho.Controllers
         public ActionResult EditarCliente(int c)
         {
             var usuario =logUsuario.Instancia.BuscarIdUsuario(c);
-            List<entRoll> listaRoll = logRoll.Instancia.ListarRol();
-            var lsroll = new SelectList(listaRoll, "idRoll", "descripcion");
-            ViewBag.listaRoll = lsroll;
+            ViewBag.OldRoll = usuario.Roll.Descripcion;
             ViewBag.OldUbigeo=usuario.Ubigeo.Departamento+"  "+usuario.Ubigeo.Provincia+"  "+usuario.Ubigeo.Distrito;
             return View(usuario);
         }
 
         [HttpPost]
-        public ActionResult EditarCliente(entUsuario u ,FormCollection frm)
+        public ActionResult EditarCliente(entUsuario u)
         {
-            u.Roll = new entRoll()
-            {
-                IdRoll = Convert.ToInt32(frm["roll"])
-            };
-
             try
             {
                 Boolean edita = logUsuario.Instancia.EditarCliente(u);
@@ -97,8 +90,10 @@ namespace MadereraCarocho.Controllers
         #region ADMINISTRADORES
         public ActionResult EditarDatosAdministrador()
         {
-            var administrador = HttpContext.Session["Usuario"] as entUsuario;
-
+            var administrador =Session["Usuario"] as entUsuario;
+            var listaUbigeo=logUbigeo.Instancia.ListarDistrito();
+            var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
+            ViewBag.listaUbigeo = lsUbigeo;
             return View(administrador);
         }
 
