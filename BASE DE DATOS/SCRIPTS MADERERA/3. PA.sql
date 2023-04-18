@@ -11,7 +11,7 @@ GO
 CREATE OR ALTER PROCEDURE spIniciarSesion(@dato varchar(40), @contra varchar(200))
 AS
 BEGIN
-	SELECT idUsuario,razonSocial,correo,userName,pass,idRol,activo from USUARIO
+	SELECT idUsuario,razonSocial,telefono,direccion,correo,userName,pass,idRol,activo from USUARIO
 	where (userName = @dato or correo = @dato) and pass = @contra
 END
 GO

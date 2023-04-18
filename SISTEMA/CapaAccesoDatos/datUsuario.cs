@@ -291,6 +291,8 @@ namespace CapaAccesoDatos
                             RazonSocial = dr["razonSocial"].ToString(),
                             UserName = dr["userName"].ToString(),
                             Correo = dr["correo"].ToString(),
+                            Telefono = dr["telefono"].ToString(),
+                            Direccion = dr["direccion"].ToString(),
                             Rol = (entRol)dr["idRol"],//Convertir (castearlo) a objeto de tipo entRol
                             Activo = Convert.ToBoolean(dr["activo"]),                               
                         };
