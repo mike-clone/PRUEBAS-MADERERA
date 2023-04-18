@@ -95,27 +95,11 @@ namespace MadereraCarocho.Controllers
         #endregion
 
         #region ADMINISTRADORES
-        public ActionResult ListarAdministradores(string dato)
+        public ActionResult EditarDatosAdministrador()
         {
-            List<entUsuario> lista;
-            if (!String.IsNullOrEmpty(dato))
-            {
-                lista = logUsuario.Instancia.BuscarAdministradores(dato);
-            }
-            else
-            {
-                lista = logUsuario.Instancia.ListarAdministradores();
-            }
-            List<entRoll> listaRol = logRoll.Instancia.ListarRol();
-            var lsRol = new SelectList(listaRol, "idRol", "descripcion");
+            var administrador = HttpContext.Session["Usuario"] as entUsuario;
 
-            List<entUbigeo> listaUbigeo = logUbigeo.Instancia.ListarDistrito();
-            var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
-
-            ViewBag.lista = lista;
-            ViewBag.listaUbigeo = lsUbigeo;
-            ViewBag.listaRoll = lsRol;
-            return View(lista);
+            return View(administrador);
         }
 
         [HttpGet]
