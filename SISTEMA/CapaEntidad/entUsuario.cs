@@ -6,7 +6,6 @@ namespace CapaEntidad
     {
         private int idUsuario;
         private string razonSocial;
-        private string dni;
         private string telefono;
         private string direccion;
         private entUbigeo ubigeo;
