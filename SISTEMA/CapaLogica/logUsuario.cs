@@ -47,6 +47,10 @@ namespace CapaLogica
         {
             return datUsuario.Instacia.ListarAdministradores();
         }
+        public bool ActualizarAdministrador(entUsuario ad)
+        {
+            return datUsuario.Instacia.ActualizarAdministrador(ad);
+        }
         public List<entUsuario>BuscarAdministradores(string dato)
         {
             return datUsuario.Instacia.BuscaraAdministradores(dato);

@@ -221,6 +221,40 @@ namespace CapaAccesoDatos
             return lista;
         }
 
+        public bool ActualizarAdministrador(entUsuario ad)
+        {
+            SqlCommand cmd = null;
+            bool actualizado = false;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spActualizarAdministrador", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@idUsuario", ad.IdUsuario);
+                cmd.Parameters.AddWithValue("@razonSocial", ad.RazonSocial);
+                cmd.Parameters.AddWithValue("@userName", ad.UserName);
+                cmd.Parameters.AddWithValue("@telefono", ad.Telefono);
+                cmd.Parameters.AddWithValue("@direccion", ad.Direccion);
+                cmd.Parameters.AddWithValue("@activo", ad.Activo);
+                cn.Open();
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    actualizado = true;
+                }
+            }
+            catch (Exception e)
+            {
+
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return actualizado;
+        }
+
         public List<entUsuario> BuscaraAdministradores(string busqueda)
         {
             List<entUsuario> lista = new List<entUsuario>();

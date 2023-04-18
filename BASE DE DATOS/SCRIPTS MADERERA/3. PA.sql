@@ -63,6 +63,8 @@ BEGIN
 END
 GO
 
+
+
 ---===eliminar usuario===========
 CREATE OR ALTER PROCEDURE spEliminarUsuarios(
 	@idusuario int
@@ -98,6 +100,27 @@ begin
 	and C.idRol=1;
 end
 go
+
+--====ACTUALIZAR USUARIO====== --falta ubigeo
+CREATE OR ALTER PROCEDURE spActualizarAdministrador( 
+	@idUsuario int,
+	@razonSocial varchar(40),
+	@userName varchar(20),
+	@telefono varchar(9),
+	@direccion varchar (60),
+	@activo bit
+)
+AS
+BEGIN
+	UPDATE USUARIO set razonSocial = @razonSocial, userName = @userName,
+	telefono = @telefono, direccion = @direccion, activo = @activo 
+	where idUsuario = @idUsuario;
+
+END
+GO
+
+SELECT * FROM USUARIO 
+
 
 --====buscar USUARIO por id======
 CREATE OR ALTER PROCEDURE spBuscarIdUsuario(
