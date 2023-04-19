@@ -30,8 +30,10 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult EditarDatosAdministrador()
         {
+            var usuario = Session["Usuario"] as entUsuario;
             ViewBag.listaUbigeo = new SelectList(logUbigeo.Instancia.ListarDistrito(), "idUbigeo", "distrito");
-            return View(Session["Usuario"] as entUsuario);
+            ViewBag.Ubigeo = usuario.Ubigeo.Distrito;
+            return View(usuario);
 
         }
         [HttpPost]

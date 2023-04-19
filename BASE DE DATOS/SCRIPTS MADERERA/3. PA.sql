@@ -3,15 +3,13 @@ USE BD_PRUEBAS_MADERERA
 GO
 
 --====PROCEDIMIENTOS PARA EL SISTEMA =============
-
-
-
 ---===== PROCEDIMINETOS PARA USUARIO===========
 ----===INICIAR SESION========
 CREATE OR ALTER PROCEDURE spIniciarSesion(@dato varchar(40), @contra varchar(200))
 AS
 BEGIN
-	SELECT idUsuario,razonSocial,telefono,direccion,correo,userName,pass,idRol,activo from USUARIO
+	SELECT u.idUsuario,u.razonSocial,u.telefono,u.direccion,u.correo,u.userName,u.pass,u.idRol,u.activo, ub.distrito from USUARIO u
+	INNER JOIN UBIGEO ub on u.idUbigeo = ub.idUbigeo
 	where (userName = @dato or correo = @dato) and pass = @contra
 END
 GO
@@ -140,7 +138,7 @@ GO
 CREATE OR ALTER PROCEDURE sp_ListaDistrito
 As
 BEGIN
-    Select idUbigeo, distrito from Ubigeo where departamento='La Libertad'
+    Select idUbigeo, distrito from Ubigeo where departamento='La Libertad' or departamento = 'Lima'
 	order by distrito;
 END
 GO

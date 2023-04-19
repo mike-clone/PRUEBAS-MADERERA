@@ -329,8 +329,13 @@ namespace CapaAccesoDatos
                             Telefono = dr["telefono"].ToString(),
                             Direccion = dr["direccion"].ToString(),
                             Rol = (entRol)dr["idRol"],//Convertir (castearlo) a objeto de tipo entRol
-                            Activo = Convert.ToBoolean(dr["activo"]),                               
+                            Activo = Convert.ToBoolean(dr["activo"]),
                         };
+                        entUbigeo ubigeo = new entUbigeo
+                        {
+                            Distrito = dr["distrito"].ToString()
+                        };
+                        c.Ubigeo = ubigeo;
                     }
                 }
             }
