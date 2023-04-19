@@ -236,6 +236,7 @@ namespace CapaAccesoDatos
                 cmd.Parameters.AddWithValue("@telefono", ad.Telefono);
                 cmd.Parameters.AddWithValue("@direccion", ad.Direccion);
                 cmd.Parameters.AddWithValue("@activo", ad.Activo);
+                cmd.Parameters.AddWithValue("@idUbigeo", ad.Ubigeo.IdUbigeo);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)

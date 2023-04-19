@@ -88,54 +88,6 @@ namespace MadereraCarocho.Controllers
         #endregion
 
         #region ADMINISTRADORES
-        public ActionResult EditarDatosAdministrador() //MOSTRAR DATOS DEL ADMINISTRADOR, NO EDITA
-        {
-            var administrador =Session["Usuario"] as entUsuario;
-            var listaUbigeo=logUbigeo.Instancia.ListarDistrito();
-            var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
-            ViewBag.listaUbigeo = lsUbigeo;
-            return View(administrador);
-        }
-
-        [HttpPost]
-        public ActionResult ActualizarDatosAdministrador() //EDITA LOS DATOS
-        {
-            var administrador = Session["Usuario"] as entUsuario;
-            try
-            {
-                Boolean edita = logUsuario.Instancia.ActualizarAdministrador(administrador);
-                if (edita)
-                {
-                    return RedirectToAction("Listar");
-                }
-                else
-                {
-                    return View(administrador);
-                }
-            }
-            catch (ApplicationException ex)
-            {
-                return RedirectToAction("Listar", new { mesjExceptio = ex.Message });
-            }
-        }
-
-        [HttpGet]
-        public ActionResult EliminarAdministradores(int idA)
-        {
-            try
-            {
-                bool elimina = logUsuario.Instancia.EliminarUsuarios(idA);
-
-                ViewBag.Error = "adminsitrador eliminado correctamente";
-
-            }
-            catch (Exception ex)
-            {
-                ViewBag.Error = "No se pudo eliminar";
-                return RedirectToAction("ListarAdministradores", new { mesjExeption = ex.Message });
-            }
-            return RedirectToAction("ListarAdministradores");
-        }
         #endregion
 
         #region EMPLEADOS

@@ -108,19 +108,17 @@ CREATE OR ALTER PROCEDURE spActualizarAdministrador(
 	@userName varchar(20),
 	@telefono varchar(9),
 	@direccion varchar (60),
+	@idUbigeo varchar(10),
 	@activo bit
 )
 AS
 BEGIN
 	UPDATE USUARIO set razonSocial = @razonSocial, userName = @userName,
-	telefono = @telefono, direccion = @direccion, activo = @activo 
+	telefono = @telefono, direccion = @direccion,idUbigeo=@idUbigeo,activo = @activo 
 	where idUsuario = @idUsuario;
 
 END
 GO
-
-SELECT * FROM USUARIO 
-
 
 --====buscar USUARIO por id======
 CREATE OR ALTER PROCEDURE spBuscarIdUsuario(

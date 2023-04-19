@@ -9,6 +9,7 @@ using System.Text;
 using MadereraCarocho.Utilidades;
 using System.Web.Security;//FormsAutenticathion
 using MadereraCarocho.Permisos;//Para los permisos
+using Microsoft.Ajax.Utilities;
 
 namespace MadereraCarocho.Controllers
 {
@@ -25,6 +26,41 @@ namespace MadereraCarocho.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public ActionResult EditarDatosAdministrador()
+        {
+            ViewBag.listaUbigeo = new SelectList(logUbigeo.Instancia.ListarDistrito(), "idUbigeo", "distrito");
+            return View(Session["Usuario"] as entUsuario);
+
+        }
+        [HttpPost]
+        public ActionResult EditarDatosAdministrador(entUsuario usu,FormCollection frm) //EDITA LOS DATOS
+        {
+          
+            usu.Ubigeo = new entUbigeo
+            {
+                IdUbigeo = frm["Ubig"]
+            };
+            try
+            {
+                Boolean edita = logUsuario.Instancia.ActualizarAdministrador(usu);
+                if (edita)
+                {
+                    CerrarSesion();
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return View(usu);
+                }
+            }
+            catch (ApplicationException ex)
+            {
+                return RedirectToAction("Admin", new { mesjExceptio = ex.Message });
+            }
+        }
+
 
         [PermisosRol(entRol.Cliente)]
         [Authorize]// No puede si es que no esta autorizado
