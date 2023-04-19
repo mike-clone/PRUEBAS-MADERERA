@@ -20,6 +20,7 @@ namespace MadereraCarocho.Controllers
             return View();
         }
 
+        #region ADMINISTRADOR
         [PermisosRol(entRol.Administrador)]
         [Authorize]// No puede si es que no esta autorizado //Almacena la info en la memoria del navegador
         public ActionResult Admin()
@@ -62,7 +63,43 @@ namespace MadereraCarocho.Controllers
                 return RedirectToAction("Admin", new { mesjExceptio = ex.Message });
             }
         }
+        #endregion
 
+        [HttpGet]
+        public ActionResult EditarDatosCliente()
+        {
+            var usuario = Session["Usuario"] as entUsuario;
+            ViewBag.listaUbigeo = new SelectList(logUbigeo.Instancia.ListarDistrito(), "idUbigeo", "distrito");
+            ViewBag.Ubigeo = usuario.Ubigeo.Distrito;
+            return View(usuario);
+
+        }
+        [HttpPost]
+        public ActionResult EditarDatosCliente(entUsuario usu, FormCollection frm) //EDITA LOS DATOS
+        {
+
+            usu.Ubigeo = new entUbigeo
+            {
+                IdUbigeo = frm["Ubig"]
+            };
+            try
+            {
+                Boolean edita = logUsuario.Instancia.ActualizarAdministrador(usu);
+                if (edita)
+                {
+                    CerrarSesion();
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return View(usu);
+                }
+            }
+            catch (ApplicationException ex)
+            {
+                return RedirectToAction("Admin", new { mesjExceptio = ex.Message });
+            }
+        }
 
         [PermisosRol(entRol.Cliente)]
         [Authorize]// No puede si es que no esta autorizado
