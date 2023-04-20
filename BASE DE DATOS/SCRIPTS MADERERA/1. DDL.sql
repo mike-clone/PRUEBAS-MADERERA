@@ -38,7 +38,7 @@ CREATE TABLE PRODUCTO(
 	nombre varchar(40) not null,
 	longitud float not null,
 	diametro float not null,
-	precioVenta float not null,
+	precioVenta float default 0,
 	stock int default 0,
 	idTipo_Producto int not null
 

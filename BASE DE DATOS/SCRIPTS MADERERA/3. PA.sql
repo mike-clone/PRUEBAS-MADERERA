@@ -294,17 +294,18 @@ CREATE OR ALTER PROCEDURE spMostrarDetalleProveedorId
 --END
 --GO
 
---==== BUSCAR PRODUCTOS===
-CREATE OR ALTER PROCEDURE spBuscarProducto
-	@campo varchar(40)
-
+------------------------------------PRODUCTO
+CREATE OR ALTER PROCEDURE spCrearProducto(
+	@nombre varchar(40),
+	@longitud float,
+	@diametro float,
+	@idTipo_Producto int
+)
 AS
 BEGIN
-	SELECT p.idProducto, p.nombre, p.longitud, p.diametro, p.precioVenta, p.stock, t.nombre as tipo from PRODUCTO p
-	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto where CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR t.nombre LIKE '%'+@campo+'%';
+	INSERT INTO PRODUCTO(nombre,longitud,diametro,idTipo_Producto) values (@nombre, @longitud,@diametro, @idTipo_Producto);
 END
 GO
-
 ---====LISTAR PRODUCTOS ADMIN============
 CREATE OR ALTER PROCEDURE spListarProducto
 AS
@@ -312,9 +313,24 @@ BEGIN
 	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
 	FROM PROVEEDOR pr inner join PROVEEDOR_PRODUCTO pp on pr.idProveedor = pp.idProveedor
 	inner join PRODUCTO p on pp.idProducto = p.idProducto
-	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto = p.idTipo_Producto
+	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto = p.idTipo_Producto order by p.nombre
 END
 GO
+
+CREATE OR ALTER PROCEDURE spListarTodosProductos
+as
+BEGIN
+SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
+from producto p left join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
+left join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
+left join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
+
+   order by pr.razonSocial
+
+END
+GO
+exec spListarTodosProductos
+
 CREATE OR ALTER PROCEDURE spBuscarProductoid(
 @prmintidProducto int
 )
@@ -325,6 +341,22 @@ SELECT p.idProducto, p.nombre, p.longitud,p.diametro, p.precioVenta, p.stock, t.
 END
 GO
 
+CREATE OR ALTER PROCEDURE spActualizarProducto
+(
+	@idproducto int,
+	@nombre varchar(20),
+	@longitud float,
+	@diametro float,
+	@precioVenta float,
+	@idTipo_producto int
+)
+AS
+BEGIN
+update PRODUCTO set nombre=@nombre,longitud=@longitud,diametro=@diametro,precioVenta=@precioVenta,@idTipo_producto=@idTipo_producto
+where idProducto=@idproducto
+END
+GO
+
 ---====LISTAR TIPO PRODUCTO ============
 CREATE OR ALTER PROCEDURE spListarTipoProducto
 AS
@@ -332,14 +364,20 @@ BEGIN
 	SELECT *FROM TIPO_PRODUCTO;
 END
 GO
-
+CREATE OR ALTER PROCEDURE spEliminarProducto(@idProducto int)
+AS
+BEGIN
+    delete PROVEEDOR_PRODUCTO where idProducto=@idProducto;
+	delete PRODUCTO  where idProducto = @idProducto;
+END
+GO
 --==== BUSCAR PRODUCTOS ADMIN===
-CREATE OR ALTER PROCEDURE spBuscarProductoAdmin
+CREATE OR ALTER PROCEDURE spBuscarProducto
 	@campo varchar(40)
 
 AS
 BEGIN
-	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
+	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock,p.precioVenta
 	FROM PROVEEDOR pr inner join PROVEEDOR_PRODUCTO pp on pr.idProveedor = pp.idProveedor
 	inner join PRODUCTO p on pp.idProducto = p.idProducto
 	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto = p.idTipo_Producto
@@ -436,20 +474,7 @@ GO
 --	update TIPO_PRODUCTO set nombre = @nombre where idTipo_Producto = @idTipo_Producto
 --END
 --GO
---------------------------------------PRODUCTO
---CREATE OR ALTER PROCEDURE spCrearProducto(
---	@nombre varchar(40),
---	@longitud int,
---	@precioCompra float,
---	@precioVenta float,
---	@stock int,
---	@idTipo_Producto int
---)
---AS
---BEGIN
---	INSERT INTO PRODUCTO values (@nombre, @longitud, @precioCompra,@precioVenta, @stock, @idTipo_Producto);
---END
---GO
+
 
 --CREATE OR ALTER PROCEDURE spListarProducto
 --AS
@@ -484,12 +509,7 @@ GO
 --END
 --GO
 
---CREATE OR ALTER PROCEDURE spEliminarProducto(@idProducto int)
---AS
---BEGIN
---	delete PRODUCTO  where idProducto = @idProducto;
---END
---GO
+
 
 --CREATE OR ALTER PROCEDURE spBuscarProducto(
 --	@Campo varchar(40)

@@ -31,9 +31,7 @@ namespace CapaAccesoDatos
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@nombre", prod.Nombre);
                 cmd.Parameters.AddWithValue("@longitud", prod.Longitud);
-                cmd.Parameters.AddWithValue("@precioCompra", prod.PrecioCompra);
-                cmd.Parameters.AddWithValue("@precioVenta", prod.PrecioVenta);
-                cmd.Parameters.AddWithValue("@stock", prod.Stock);
+                cmd.Parameters.AddWithValue("@diametro", prod.Diametro);
                 cmd.Parameters.AddWithValue("@idTipo_Producto", prod.Tipo.IdTipo_producto);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
@@ -94,6 +92,66 @@ namespace CapaAccesoDatos
             catch (Exception e)
             {
                 MessageBox.Show(e.Message,"EROR AL MOSTRAR LOS PRODUCTOS", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return lista;
+        }
+
+        public List<entProducto> ListarTodosProducto()
+        {
+            SqlCommand cmd = null;
+            List<entProducto> lista = new List<entProducto>();
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spListarTodosProductos", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    entProducto Prod = new entProducto
+                    {
+                        IdProducto = Convert.ToInt32(dr["idproducto"]),
+                        Nombre = dr["nombre"].ToString(),
+                        Longitud = Convert.ToDouble(dr["longitud"]),
+                        Diametro = Convert.ToDouble(dr["diametro"]),
+                        Stock = Convert.ToInt32(dr["stock"]),
+                        
+                    };
+                    entTipoProducto tipo = new entTipoProducto
+                    {
+                        Nombre = dr["tipo"].ToString()
+                    };
+                    Prod.Tipo = tipo;
+
+                    entProveedor prov = new entProveedor();
+                    if (dr["razonsocial"] != null)
+                        prov.RazonSocial = dr["razonsocial"].ToString();
+                    else
+                       prov. RazonSocial ="desconocido";
+
+
+                    if (dr["precioCompra"] != null)
+                        Prod.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
+                    else
+                        Prod.PrecioCompra = 0;
+                    if (dr["precioVenta"] != null)
+                        Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
+                    else
+                        Prod.PrecioVenta = 0;
+
+                    Prod.NomProv = prov;
+                    lista.Add(Prod);
+                }
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message, "EROR AL MOSTRAR LOS PRODUCTOS", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -181,7 +239,6 @@ namespace CapaAccesoDatos
                         Longitud = Convert.ToDouble(dr["longitud"]),
                         Diametro = Convert.ToDouble(dr["diametro"]),
                         Stock = Convert.ToInt32(dr["stock"]),
-                        PrecioCompra = Convert.ToDouble(dr["precioCompra"]),
                         PrecioVenta = Convert.ToDouble(dr["precioVenta"])
                     };
 
@@ -190,8 +247,6 @@ namespace CapaAccesoDatos
                         Nombre = dr["tipo"].ToString()
                     };
                     Prod.Tipo = tipo;
-
-
 
                     entProveedor prov = new entProveedor
                     {

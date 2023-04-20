@@ -1866,7 +1866,9 @@ INSERT INTO TIPO_PRODUCTO VALUES
 	('PINO'),
 	('ARCE');
 GO
+
 --INSERT PRODUCTO
+begin
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('VIGA',8,5,30,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('SUPER',8,4.5,28,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('MANDALLON',8,4,27,1);
@@ -1930,6 +1932,7 @@ INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VA
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('PARADOR(2X1)',2,2,1,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('PARANTILLO',2,1.5,0.5,1);
 INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VALUES ('TORCIDOS',1.50,1.5,1,1);
+end
 GO
 
 		
