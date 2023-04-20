@@ -16,6 +16,7 @@ namespace MadereraCarocho.Controllers
     [Authorize]// No puede si es que no esta autorizado
     public class ProductoController : Controller
     {
+        String mensaje = "";
         // GET: Producto
         [PermisosRol(entRol.Administrador)]
         public ActionResult Listar(string dato)//listar y buscar
@@ -23,23 +24,22 @@ namespace MadereraCarocho.Controllers
             List<entProducto> lista;
             if (!String.IsNullOrEmpty(dato))
             {
-                lista = logProducto.Instancia.BuscarProductoAdmin(dato);
+                lista = logProducto.Instancia.BuscarProducto(dato);
             }
             else
             {
-                lista = logProducto.Instancia.ListarProductoAdmin();
+                lista = logProducto.Instancia.ListarProducto();
             }
             List<entTipoProducto> listaTipoProducto = logTipoProducto.Instancia.ListarTipoProducto();
             var lsTipoProducto = new SelectList(listaTipoProducto, "idTipo_producto", "nombre");
 
             ViewBag.lista = lista;
             ViewBag.listaTipo = lsTipoProducto;
+            ViewBag.Error = mensaje;
             return View(lista);
         }
         
         [PermisosRol(entRol.Cliente)]
-        //pra la vista de clientes
-        //[HttpGet]
         public ActionResult Productos(string data)
         {
             List<entProducto> lista;
@@ -54,7 +54,6 @@ namespace MadereraCarocho.Controllers
             ViewBag.lista = lista;
             return View(lista);
         }
-
 
         [PermisosRol(entRol.Administrador)]
         [HttpPost]
@@ -87,22 +86,23 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult EditarProducto(int idprod)
         {
-            entProducto prod = new entProducto();
-            prod = logProducto.Instancia.BuscarProductoId(idprod);
+           
+            var prod = logProducto.Instancia.BuscarProductoId(idprod);
 
-            List<entTipoProducto> listaTipoProducto = logTipoProducto.Instancia.ListarTipoProducto();
+            var listaTipoProducto = logTipoProducto.Instancia.ListarTipoProducto();
             var lsTipoProducto = new SelectList(listaTipoProducto, "idTipo_producto", "nombre");
             ViewBag.listaTipo = lsTipoProducto;
             return View(prod);
         }
+
         [PermisosRol(entRol.Administrador)]
-
-
         [HttpPost]
         public ActionResult EditarProducto(entProducto p, FormCollection frm)
         {
-            p.Tipo = new entTipoProducto();
-            p.Tipo.IdTipo_producto = Convert.ToInt32( frm["cTipoU"]);
+            p.Tipo = new entTipoProducto
+            {
+                IdTipo_producto = Convert.ToInt32(frm["cTipoU"])
+            };
             try
             {
                 Boolean edita = logProducto.Instancia.ActualizarProducto(p);
@@ -128,13 +128,10 @@ namespace MadereraCarocho.Controllers
             try
             {
                 bool elimina = logProducto.Instancia.EliminarProducto(idP);
-                if (elimina)
-                {
-                    return RedirectToAction("Listar");
-                }
             }
             catch (Exception ex)
             {
+                mensaje="error al eliminar";
                 return RedirectToAction("Listar", new { mesjExeption = ex.Message });
             }
             return RedirectToAction("Listar");

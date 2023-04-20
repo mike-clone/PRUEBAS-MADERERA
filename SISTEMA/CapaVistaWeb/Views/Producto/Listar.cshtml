@@ -72,31 +72,31 @@
         <thead class="table-dark">
             <tr>
                 <th>
-                    ID
+                    #
                 </th>
                 <th>
-                    NOMBRE
+                    Nombre
                 </th>
                 <th>
-                    TIPO
+                    Tipo
                 </th>
                 <th>
-                    LONGITUD
+                    Longitud
                 </th>
                 <th>
-                    DIAMETRO
+                    Diamtro
                 </th>
                 <th>
-                    PROVEEDOR
+                    Proveedor
                 </th>
                 <th>
-                    STOCK
+                    Stock
                 </th>
                 <th>
-                    PRECIO COMPRA
+                    Precio compra
                 </th>
                 <th>
-                    PRECIO VENTA
+                    Pprecio venta
                 </th>
                 <th>EDITAR</th>
                 <th>ELIMINAR</th>
@@ -141,6 +141,7 @@
                     </td>
                     <td>
                         <a onclick="return Eliminar(this)" href="/Producto/EliminarProducto?idP=@item.IdProducto" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
+                        @ViewBag.Error
                     </td>
 
                 </tr>

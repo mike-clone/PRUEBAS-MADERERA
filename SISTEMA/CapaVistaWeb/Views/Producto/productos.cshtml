@@ -75,25 +75,28 @@
         <thead class="table-dark">
             <tr>
                 <th>
-                    ID
+                    #
                 </th>
                 <th>
-                    NOMBRE
+                    Nombre
                 </th>
                 <th>
-                    METRAJE
+                    Tipo
                 </th>
                 <th>
-                    DIAMETRO
+                    Longitud
                 </th>
                 <th>
-                    PRECIO
+                    Diametro
                 </th>
                 <th>
-                    STOCK
+                    Proveedor
                 </th>
                 <th>
-                    TIPO
+                    Stock
+                </th>
+                <th>
+                    Precio
                 </th>
 
             </tr>
@@ -109,19 +112,22 @@
                         @Html.DisplayFor(modelItem => item.Nombre)
                     </td>
                     <td>
+                        @Html.DisplayFor(modelItem => item.Tipo.Nombre)
+                    </td>
+                    <td>
                         @Html.DisplayFor(modelItem => item.Longitud)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Diametro)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.PrecioVenta)
+                        @Html.DisplayFor(modelItem => item.NomProv.RazonSocial)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Stock)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Tipo.Nombre)
+                        @Html.DisplayFor(modelItem => item.PrecioVenta)
                     </td>
                 </tr>
 

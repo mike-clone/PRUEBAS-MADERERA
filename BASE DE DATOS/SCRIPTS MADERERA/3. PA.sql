@@ -286,13 +286,13 @@ CREATE OR ALTER PROCEDURE spMostrarDetalleProveedorId
 --==== PROCEDIMINTOS PARA PRODUCTOS ====
 
 ---====LISTAR PRODUCTOS ============
-CREATE OR ALTER PROCEDURE spListarProducto
-AS
-BEGIN
-	SELECT p.idProducto, p.nombre, p.longitud, p.diametro, p.precioVenta, p.stock, t.nombre as tipo from PRODUCTO p
-	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto;
-END
-GO
+--CREATE OR ALTER PROCEDURE spListarProducto
+--AS
+--BEGIN
+--	SELECT p.idProducto, p.nombre, p.longitud, p.diametro, p.precioVenta, p.stock, t.nombre as tipo from PRODUCTO p
+--	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto;
+--END
+--GO
 
 --==== BUSCAR PRODUCTOS===
 CREATE OR ALTER PROCEDURE spBuscarProducto
@@ -306,13 +306,22 @@ END
 GO
 
 ---====LISTAR PRODUCTOS ADMIN============
-CREATE OR ALTER PROCEDURE spListarProductoAdmin
+CREATE OR ALTER PROCEDURE spListarProducto
 AS
 BEGIN
 	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
 	FROM PROVEEDOR pr inner join PROVEEDOR_PRODUCTO pp on pr.idProveedor = pp.idProveedor
 	inner join PRODUCTO p on pp.idProducto = p.idProducto
 	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto = p.idTipo_Producto
+END
+GO
+CREATE OR ALTER PROCEDURE spBuscarProductoid(
+@prmintidProducto int
+)
+AS
+BEGIN
+SELECT p.idProducto, p.nombre, p.longitud,p.diametro, p.precioVenta, p.stock, t.idTipo_Producto, t.nombre as tipo from PRODUCTO p
+	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto where p.idProducto=@prmintidProducto;
 END
 GO
 
@@ -402,126 +411,13 @@ GO
 
 
 
---=======PROCEDIMIENTOS PARA TIPO_EMPLEADO==============
-CREATE OR ALTER PROCEDURE spCrearTipoEmpleado(
-	@nombre varchar(30)
-)
-AS
-BEGIN
-	Insert into TIPO_EMPLEADO VALUES(@nombre);
-END
-GO
---===listar tipo empleado====
-CREATE OR ALTER PROCEDURE spListarTipoEmpleado
-AS
-BEGIN
-	select *from tipo_empleado;
-END
-GO
 
---CREATE OR ALTER PROCEDURE spActualizarTipoEmpleado(
---	@idTipo_Empleado int,
---	@nombre varchar(30)
---)
---AS
---BEGIN
---	update TIPO_EMPLEADO set nombre = @nombre
---	where idTipo_Empleado = @idTipo_Empleado
---END
---GO
 
---===== PROCEDIMIENTO PARA EMPLEADO=====================
---==== crear empleado=======
-CREATE OR ALTER PROCEDURE spCrearEmpleado
-(
-	@nombres varchar(40),
-	@dni varchar(8),
-	@telefono varchar(9),
-	@direccion varchar(60),
-	@salario float,
-	@descripcion varchar(50),
-	@idTipo_Empleado int,
-	@idUbigeo VARCHAR(6)
-)
-AS
-BEGIN
-	insert empleado (nombres,dni, telefono, direccion, salario, descripcion, idTipo_Empleado, idUbigeo) 
-	values          (@nombres, @dni, @telefono, @direccion, @salario, @descripcion, @idTipo_Empleado, @idUbigeo);
-END
-GO
---=== listar Empleado===
-CREATE OR ALTER PROCEDURE spListarEmpleado
-AS
-BEGIN
-    SELECT e.idEmpleado, e.nombres, e.dni, e.telefono, e.direccion, e.salario, e.descripcion, t.nombre as tipo,e.estEmpleado, u.distrito  FROM EMPLEADO e 
-    inner join Ubigeo u on e.idUbigeo = u.idUbigeo
-    inner join TIPO_EMPLEADO t on e.idTipo_Empleado = t.idTipo_Empleado
-    order by estEmpleado desc;
-END
-GO
---=====actualizr empleado===========
-CREATE OR ALTER PROCEDURE spActualizarEmpleado(
-	@idEmpleado int,
-	@nombres varchar(40),
-	@dni varchar(8),
-	@telefono varchar(9),
-	@direccion varchar(60),
-	@f_inicio date,
-	@f_fin date,
-	@salario float,
-	@descripcion varchar(50),
-	@estEmpleado bit,
-	@idTipo_Empleado int,
-	@idUbigeo VARCHAR(6)
-)
-AS
-BEGIN
 
-	
-	update EMPLEADO set nombres = @nombres, dni = @dni, telefono = @telefono,
-	direccion = @direccion, f_inicio = @f_inicio, f_fin = @f_fin, salario = @salario, descripcion = @descripcion,
-	estEmpleado = @estEmpleado, idTipo_Empleado = @idTipo_Empleado, idUbigeo = @idUbigeo
-	where idEmpleado = @idEmpleado;
 
-	IF @estEmpleado=0
-	BEGIN
-    update EMPLEADO set f_fin= GETDATE()
-	where idEmpleado = @idEmpleado;
-	END
-END
-GO
-----Eliminar empleado==============
-CREATE OR ALTER PROCEDURE spEliminarEmpleado(@idEmpleado int)
-AS
-BEGIN
-	delete EMPLEADO where idEmpleado = @idEmpleado;
-END
-GO
---========buscar empleado=====
-CREATE OR ALTER PROCEDURE spBuscarEmpleado(
-	@Campo varchar(40)
-)
-AS
-BEGIN
-	SELECT e.idEmpleado, e.nombres, e.dni, e.telefono, e.direccion, e.salario, e.descripcion, t.nombre as tipo,e.estEmpleado, u.distrito  FROM EMPLEADO e 
-    inner join Ubigeo u on e.idUbigeo = u.idUbigeo
-    inner join TIPO_EMPLEADO t on e.idTipo_Empleado = t.idTipo_Empleado
-	where NOMBRES like @Campo+'%'
-	or dni like @Campo+'%'	or telefono like @Campo+'%'
-END
-GO
----==buscar id Empleado=======
-CREATE OR ALTER PROCEDURE spBuscarIdEmpleado(
-    @idEmpleado int
-)
-AS
-BEGIN
-    Select e.idEmpleado ,e.nombres ,e.dni,e.telefono,e.direccion,e.f_inicio,e.f_fin, e.salario, e.descripcion, e.estEmpleado,t.nombre as tipo,u.distrito from empleado e 
-    INNER JOIN UBIGEO u ON e.idUbigeo=u.idUbigeo
-    inner join tipo_empleado t on e.idTipo_Empleado = t.idTipo_Empleado
-    where idEmpleado= @IdEmpleado;
-END
-GO
+
+
+
 --------------------------------------TIPO_PRODUCTO
 --CREATE OR ALTER PROCEDURE spCrearTipoProducto(
 --	@nombre varchar(30)

@@ -16,7 +16,7 @@ namespace CapaLogica
         {
             get { return _instancia; }
         }
-        #region CRUD
+        #region Administrador
         public bool CrearProducto(entProducto prod)
         {
             return datProducto.Instancia.CrearProducto(prod);
@@ -24,10 +24,6 @@ namespace CapaLogica
         public List<entProducto> ListarProducto()
         {
             return datProducto.Instancia.ListarProducto();
-        }
-        public List<entProducto> ListarProductoAdmin()
-        {
-            return datProducto.Instancia.ListarProductoAdmin();
         }
         public List<entProducto>Ordenar(int dato)
         {
@@ -41,16 +37,11 @@ namespace CapaLogica
         {
             return datProducto.Instancia.EliminarProducto(id);
         }
-        #endregion CRUD
+        #endregion 
 
         public List<entProducto> BuscarProducto(string busqueda)
         {
             return datProducto.Instancia.BuscarProducto(busqueda);
-        }
-
-        public List<entProducto> BuscarProductoAdmin(string busqueda)
-        {
-            return datProducto.Instancia.BuscarProductoAdmin(busqueda);
         }
 
         public entProducto BuscarProductoId(int prod)

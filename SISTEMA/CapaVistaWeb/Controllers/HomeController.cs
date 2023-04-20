@@ -17,7 +17,7 @@ namespace MadereraCarocho.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View(_ = logProducto.Instancia.ListarProducto());
         }
 
         #region ADMINISTRADOR
@@ -120,7 +120,7 @@ namespace MadereraCarocho.Controllers
         [HttpPost]
         public ActionResult VerificarAcceso(string dato, string contra)
         {
-            //entUsuario ousuario = logUsuario.Instancia.ObtenerUsuarios().Where(u => u.Correo == dato && u.Pass == Encriptar.GetSHA256(contra)).FirstOrDefault();
+            
             entUsuario objUsuario = logUsuario.Instancia.IniciarSesion(dato, contra);
             if (objUsuario != null)
             {

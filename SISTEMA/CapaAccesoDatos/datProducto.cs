@@ -67,16 +67,26 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProducto Prod = new entProducto();
-                    Prod.IdProducto = Convert.ToInt32(dr["idproducto"]);
-                    Prod.Nombre = dr["nombre"].ToString();
-                    Prod.Longitud = Convert.ToDouble(dr["longitud"]);
-                    Prod.Diametro = Convert.ToDouble(dr["diametro"]);
-                    Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
-                    Prod.Stock = Convert.ToInt32(dr["stock"]);
-                    entTipoProducto tipo = new entTipoProducto();
-                    tipo.Nombre = dr["tipo"].ToString();
+                    entProducto Prod = new entProducto
+                    {
+                        IdProducto = Convert.ToInt32(dr["idproducto"]),
+                        Nombre = dr["nombre"].ToString(),
+                        Longitud = Convert.ToDouble(dr["longitud"]),
+                        Diametro = Convert.ToDouble(dr["diametro"]),
+                        Stock = Convert.ToInt32(dr["stock"]),
+                        PrecioCompra = Convert.ToDouble(dr["precioCompra"]),
+                        PrecioVenta = Convert.ToDouble(dr["precioVenta"])
+                    };
+                    entTipoProducto tipo = new entTipoProducto
+                    {
+                        Nombre = dr["tipo"].ToString()
+                    };
                     Prod.Tipo = tipo;
+                    entProveedor prov = new entProveedor
+                    {
+                        RazonSocial = dr["razonsocial"].ToString()
+                    };
+                    Prod.NomProv = prov;
                     lista.Add(Prod);
                 }
 
@@ -91,54 +101,6 @@ namespace CapaAccesoDatos
             }
             return lista;
         }
-        public List<entProducto> ListarProductoAdmin()
-        {
-            SqlCommand cmd = null;
-            List<entProducto> lista = new List<entProducto>();
-            try
-            {
-                SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spListarProductoAdmin", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cn.Open();
-                SqlDataReader dr = cmd.ExecuteReader();
-                while (dr.Read())
-                {
-                    entProducto Prod = new entProducto();
-                    Prod.IdProducto = Convert.ToInt32(dr["idproducto"]);
-                    Prod.Nombre = dr["nombre"].ToString();
-
-                    entTipoProducto tipo = new entTipoProducto();
-                    tipo.Nombre = dr["tipo"].ToString();
-                    Prod.Tipo = tipo;
-
-                    Prod.Longitud = Convert.ToDouble(dr["longitud"]);
-                    Prod.Diametro = Convert.ToDouble(dr["diametro"]);
-
-                    entProveedor prov = new entProveedor();
-                    prov.RazonSocial = dr["razonsocial"].ToString();
-                    Prod.NomProv = prov;
-
-                    Prod.Stock = Convert.ToInt32(dr["stock"]);
-                    Prod.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
-                    Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
-
-                    lista.Add(Prod);
-                }
-
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show(e.Message, "EROR AL MOSTRAR LOS PRODUCTOS", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                cmd.Connection.Close();
-            }
-            return lista;
-        }
-        //Actualizar
-
         public bool ActualizarProducto(entProducto Prod)
         {
             SqlCommand cmd = null;
@@ -151,7 +113,7 @@ namespace CapaAccesoDatos
                 cmd.Parameters.AddWithValue("@idproducto", Prod.IdProducto);
                 cmd.Parameters.AddWithValue("@nombre", Prod.Nombre);
                 cmd.Parameters.AddWithValue("@longitud", Prod.Longitud);
-                cmd.Parameters.AddWithValue("@precioCompra", Prod.PrecioCompra);
+                cmd.Parameters.AddWithValue("@diametro", Prod.Diametro);
                 cmd.Parameters.AddWithValue("@precioVenta", Prod.PrecioVenta);
                 cmd.Parameters.AddWithValue("@idTipo_producto", Prod.Tipo.IdTipo_producto);
                 cn.Open();
@@ -177,8 +139,10 @@ namespace CapaAccesoDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spEliminarProducto", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
+                cmd = new SqlCommand("spEliminarProducto", cn)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
                 cmd.Parameters.AddWithValue("@idProducto", id);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
@@ -210,63 +174,30 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProducto Prod = new entProducto();
-                    Prod.IdProducto = Convert.ToInt32(dr["idproducto"]);
-                    Prod.Nombre = dr["nombre"].ToString();
-                    Prod.Longitud = Convert.ToDouble(dr["longitud"]);
-                    Prod.Diametro = Convert.ToDouble(dr["diametro"]);
-                    Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
-                    Prod.Stock = Convert.ToInt32(dr["stock"]);
-                    entTipoProducto tipo = new entTipoProducto();
-                    tipo.Nombre = dr["tipo"].ToString();
-                    Prod.Tipo = tipo;
-                    lista.Add(Prod);
-                }
-            }
-            catch (Exception e)
-            {
+                    entProducto Prod = new entProducto
+                    {
+                        IdProducto = Convert.ToInt32(dr["idproducto"]),
+                        Nombre = dr["nombre"].ToString(),
+                        Longitud = Convert.ToDouble(dr["longitud"]),
+                        Diametro = Convert.ToDouble(dr["diametro"]),
+                        Stock = Convert.ToInt32(dr["stock"]),
+                        PrecioCompra = Convert.ToDouble(dr["precioCompra"]),
+                        PrecioVenta = Convert.ToDouble(dr["precioVenta"])
+                    };
 
-                MessageBox.Show(e.Message);
-            }
-            finally
-            {
-                cmd.Connection.Close();
-            }
-            return lista;
-        }
-
-        public List<entProducto> BuscarProductoAdmin(string busqueda)
-        {
-            List<entProducto> lista = new List<entProducto>();
-            SqlCommand cmd = null;
-            try
-            {
-                SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spBuscarProductoAdmin", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@campo", busqueda);
-                cn.Open();
-                SqlDataReader dr = cmd.ExecuteReader();
-                while (dr.Read())
-                {
-                    entProducto Prod = new entProducto();
-                    Prod.IdProducto = Convert.ToInt32(dr["idproducto"]);
-                    Prod.Nombre = dr["nombre"].ToString();
-
-                    entTipoProducto tipo = new entTipoProducto();
-                    tipo.Nombre = dr["tipo"].ToString();
+                    entTipoProducto tipo = new entTipoProducto
+                    {
+                        Nombre = dr["tipo"].ToString()
+                    };
                     Prod.Tipo = tipo;
 
-                    Prod.Longitud = Convert.ToDouble(dr["longitud"]);
-                    Prod.Diametro = Convert.ToDouble(dr["diametro"]);
 
-                    entProveedor prov = new entProveedor();
-                    prov.RazonSocial = dr["razonsocial"].ToString();
+
+                    entProveedor prov = new entProveedor
+                    {
+                        RazonSocial = dr["razonsocial"].ToString()
+                    };
                     Prod.NomProv = prov;
-
-                    Prod.Stock = Convert.ToInt32(dr["stock"]);
-                    Prod.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
-                    Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
 
                     lista.Add(Prod);
                 }
@@ -323,8 +254,6 @@ namespace CapaAccesoDatos
             return lista;
         }
 
-
-
         public entProducto BuscarProductoId(int idprod)
         {
             SqlCommand cmd = null;
@@ -332,8 +261,10 @@ namespace CapaAccesoDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spBuscarProductoid", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
+                cmd = new SqlCommand("spBuscarProductoid", cn)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
                 cmd.Parameters.AddWithValue("@prmintidProducto", idprod);
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
@@ -343,12 +274,14 @@ namespace CapaAccesoDatos
                     Prod.IdProducto = Convert.ToInt32(dr["idproducto"]);
                     Prod.Nombre = dr["nombre"].ToString();
                     Prod.Longitud = Convert.ToDouble(dr["longitud"]);
-                    Prod.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
+                    Prod.Diametro = Convert.ToDouble(dr["diametro"]);
                     Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
                     Prod.Stock = Convert.ToInt32(dr["stock"]);
-                    entTipoProducto tipo = new entTipoProducto();
-                    tipo.IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]);
-                    tipo.Nombre = dr["tipo"].ToString();
+                    var tipo = new entTipoProducto
+                    {
+                        IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]),
+                        Nombre = dr["tipo"].ToString()
+                    };
                     Prod.Tipo = tipo;
                 }
             }
