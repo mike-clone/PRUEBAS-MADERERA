@@ -100,14 +100,14 @@ namespace CapaAccesoDatos
             return lista;
         }
 
-        public List<entProducto> ListarTodosProducto()
+        public List<entProducto> ListarProductoParaVender()
         {
             SqlCommand cmd = null;
             List<entProducto> lista = new List<entProducto>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spListarTodosProductos", cn);
+                cmd = new SqlCommand("spListarProductoParaVender", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
@@ -120,30 +120,18 @@ namespace CapaAccesoDatos
                         Longitud = Convert.ToDouble(dr["longitud"]),
                         Diametro = Convert.ToDouble(dr["diametro"]),
                         Stock = Convert.ToInt32(dr["stock"]),
-                        
+                        PrecioCompra = Convert.ToDouble(dr["precioCompra"]),
+                        PrecioVenta = Convert.ToDouble(dr["precioVenta"])
                     };
                     entTipoProducto tipo = new entTipoProducto
                     {
                         Nombre = dr["tipo"].ToString()
                     };
                     Prod.Tipo = tipo;
-
-                    entProveedor prov = new entProveedor();
-                    if (dr["razonsocial"] != null)
-                        prov.RazonSocial = dr["razonsocial"].ToString();
-                    else
-                       prov. RazonSocial ="desconocido";
-
-
-                    if (dr["precioCompra"] != null)
-                        Prod.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
-                    else
-                        Prod.PrecioCompra = 0;
-                    if (dr["precioVenta"] != null)
-                        Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
-                    else
-                        Prod.PrecioVenta = 0;
-
+                    entProveedor prov = new entProveedor
+                    {
+                        RazonSocial = dr["razonsocial"].ToString()
+                    };
                     Prod.NomProv = prov;
                     lista.Add(Prod);
                 }
@@ -268,7 +256,56 @@ namespace CapaAccesoDatos
             }
             return lista;
         }
+        public List<entProducto> BuscarProductoParaVender(string busqueda)
+        {
+            List<entProducto> lista = new List<entProducto>();
+            SqlCommand cmd = null;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spBuscarProductoParaVender", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@campo", busqueda);
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    entProducto Prod = new entProducto
+                    {
+                        IdProducto = Convert.ToInt32(dr["idproducto"]),
+                        Nombre = dr["nombre"].ToString(),
+                        Longitud = Convert.ToDouble(dr["longitud"]),
+                        Diametro = Convert.ToDouble(dr["diametro"]),
+                        Stock = Convert.ToInt32(dr["stock"]),
+                        PrecioVenta = Convert.ToDouble(dr["precioVenta"])
+                    };
 
+                    entTipoProducto tipo = new entTipoProducto
+                    {
+                        Nombre = dr["tipo"].ToString()
+                    };
+                    Prod.Tipo = tipo;
+
+                    entProveedor prov = new entProveedor
+                    {
+                        RazonSocial = dr["razonsocial"].ToString()
+                    };
+                    Prod.NomProv = prov;
+
+                    lista.Add(Prod);
+                }
+            }
+            catch (Exception e)
+            {
+
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return lista;
+        }
         public List<entProducto> Ordenar(int dato)
         {
             List<entProducto> lista = new List<entProducto>();

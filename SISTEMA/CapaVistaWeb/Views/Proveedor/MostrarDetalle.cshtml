@@ -48,13 +48,17 @@
 <h2>MostrarDetalle</h2>
 <hr>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#ModalDetalleProveedor"><i class="bi bi-plus-square"></i> Agregar productos</button>
-<br>
-<br>
 <hr>
 
-<table table class="table table-dark table-hover">
+<table table class="table table-hover">
     <tr>
         <th>
             #
@@ -111,13 +115,12 @@
                 @Html.DisplayFor(modelItem => item.PrecioCompra)
             </td>
             <td>
-                <a onclick="return Eliminar(this)" href="/Proveedor/EliminarDetalle?idp=@item.IdProveedorProducto" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
+                <a onclick="return Eliminar(this)" href="/Proveedor/EliminarDetalle?idpp=@item.IdProveedorProducto" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
 
             </td>
 
         </tr>
     }
-
 </table>
 <br>
 <br>
@@ -126,44 +129,4 @@
 <br>
 <br>
 <br>
-<div class="modal" tabindex="-1" id="ModalDetalleProveedor" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <form action="/Proveedor/CrearDetalle" method="POST" id="detalleproveedor">
-                <div class="modal-header ">
-                    <h5 class="modal-title">Ingresar Proveedor</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="form-floating mb-3">
-                        <div class="form-group">
-                            Producto:
-                            <div class="col-md-10">
-                                @Html.DropDownList("Prod", (SelectList)ViewBag.listaProducto, "Seleccionar")
-                            </div>
-                        </div>
-                    </div>
 
-
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="pprecio" id="pprecio" placeholder="Precio de compra" required>
-                        <label for="floatingInput">Precio de compra</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        @foreach (var item in Model)
-                        {
-                            <input type="text" class="form-control" name="ipr" id="idProveedor" value=@item.Proveedor.IdProveedor>
-                            break;
-                        }
-                        <input type="hidden" class="form-control" id="vacio2" value="vacio">
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button onclick="return Registrar('pprecio', 'idProveedor', 'vacio2', 'detalleproveedor')" type="submit" class="btn btn-dark">Registrar</button>
-                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>

@@ -9,11 +9,10 @@ CREATE OR ALTER PROCEDURE spIniciarSesion(@dato varchar(40), @contra varchar(200
 AS
 BEGIN
 	SELECT u.idUsuario,u.razonSocial,u.telefono,u.direccion,u.correo,u.userName,u.pass,u.idRol,u.activo, ub.distrito from USUARIO u
-	INNER JOIN UBIGEO ub on u.idUbigeo = ub.idUbigeo
+	left JOIN UBIGEO ub on u.idUbigeo = ub.idUbigeo
 	where (userName = @dato or correo = @dato) and pass = @contra
 END
 GO
-
 --====CREAL USUARIO===========
 CREATE OR ALTER PROCEDURE spCrearCliente(
     @razonSocial varchar(40),
@@ -178,7 +177,7 @@ GO
 CREATE OR ALTER PROCEDURE spCrearProveedor
 (
 	@razonSocial varchar(40),
-	@dni varchar(8),
+	@ruc varchar(11),
 	@correo varchar(40),
 	@telefono varchar(9),
 	@descripcion varchar (80),
@@ -187,29 +186,18 @@ CREATE OR ALTER PROCEDURE spCrearProveedor
 )
 AS
 BEGIN
-	INSERT INTO PROVEEDOR values (@razonSocial, @dni, @correo, @telefono, @descripcion, @estProveedor, @idUbigeo);
+	INSERT INTO PROVEEDOR values (@razonSocial, @ruc, @correo, @telefono, @descripcion, @estProveedor, @idUbigeo);
 END
 GO
 
 --=====PROCEDIMIENTOS PARA PROVEEDOR_PRODUCTO================
-CREATE OR ALTER PROCEDURE spCrearDetalleProveedor
-(
-	@idProveedor int,
-	@idProducto int,
-	@precioCompra float
-)
-AS
-BEGIN
-	INSERT INTO PROVEEDOR_PRODUCTO VALUES (@idProveedor,@idProducto,@precioCompra);
-END
-GO
 
 
 ---====LISTAR PROVEEDOR====
 CREATE OR ALTER PROCEDURE spListarProveedor
 AS
 BEGIN
-	select p.idProveedor, p.razonSocial, p.dni, p.correo, p.telefono, p.descripcion, p.estProveedor,
+	select p.idProveedor, p.razonSocial, p.ruc, p.correo, p.telefono, p.descripcion, p.estProveedor,
 	u.departamento,u.provincia, u.distrito from  PROVEEDOR p 
 	inner join ubigeo u on p.idUbigeo = u.idUbigeo
 	order by estProveedor desc;
@@ -221,11 +209,11 @@ CREATE OR ALTER PROCEDURE spBuscarProveedor(
 )
 AS
 BEGIN
-	Select p.idProveedor, p.razonSocial, p.dni, p.correo, p.telefono, p.descripcion, p.estProveedor,
+	Select p.idProveedor, p.razonSocial, p.ruc, p.correo, p.telefono, p.descripcion, p.estProveedor,
 	u.departamento,u.provincia, u.distrito from PROVEEDOR p 
 	inner join ubigeo u on p.idUbigeo = u.idUbigeo
 	where razonSocial like @Campo+'%'
-	or dni like @Campo+'%'	
+	or ruc like @Campo+'%'	
 END
 GO
 
@@ -234,7 +222,7 @@ CREATE OR ALTER PROCEDURE spBuscarIdProveedor(
 )
 AS
 BEGIN
-	Select p.idProveedor, p.razonSocial, p.dni, p.correo, p.telefono, p.descripcion, p.estProveedor,
+	Select p.idProveedor, p.razonSocial, p.ruc, p.correo, p.telefono, p.descripcion, p.estProveedor,
 	u.departamento,u.provincia, u.distrito from PROVEEDOR p 
 	inner join ubigeo u on p.idUbigeo = u.idUbigeo
 	where idProveedor= @idProveedor;
@@ -247,7 +235,7 @@ GO
 CREATE OR ALTER PROCEDURE spActualizarProveedor(
 	@idProveedor int,	
 	@razonSocial varchar(40),
-	@dni varchar(8),
+	@ruc varchar(11),
 	@correo varchar(40),
 	@telefono varchar(9),
 	@descripcion varchar (80),
@@ -256,7 +244,7 @@ CREATE OR ALTER PROCEDURE spActualizarProveedor(
 )
 AS
 BEGIN
-	update PROVEEDOR set razonSocial = @razonSocial, dni = @dni, correo = @correo,
+	update PROVEEDOR set razonSocial = @razonSocial, ruc = @ruc, correo = @correo,
 	telefono = @telefono, descripcion = @descripcion, estProveedor = @estProveedor, idUbigeo = @idUbigeo
 	where idProveedor = @idProveedor;
 
@@ -286,25 +274,14 @@ CREATE OR ALTER PROCEDURE spMostrarDetalleProveedorId
  where p.idProveedor=@idProveedor
  END
  GO
-
- CREATE OR ALTER PROCEDURE spEliminarDetalleProveedor(@idproveedor int)
+ CREATE OR ALTER PROCEDURE spEliminarDetalleProveedor(@idproveedorp int)
  AS
  BEGIN
 	Delete from PROVEEDOR_PRODUCTO 
-	WHERE PROVEEDOR_PRODUCTO.idProvedoor_producto=@idproveedor 
+	WHERE PROVEEDOR_PRODUCTO.idProvedoor_producto=@idproveedorp 
  END
  GO
 
---==== PROCEDIMINTOS PARA PRODUCTOS ====
-
----====LISTAR PRODUCTOS ============
---CREATE OR ALTER PROCEDURE spListarProducto
---AS
---BEGIN
---	SELECT p.idProducto, p.nombre, p.longitud, p.diametro, p.precioVenta, p.stock, t.nombre as tipo from PRODUCTO p
---	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto;
---END
---GO
 
 ------------------------------------PRODUCTO
 CREATE OR ALTER PROCEDURE spCrearProducto(
@@ -325,22 +302,35 @@ BEGIN
 	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
 	FROM PROVEEDOR pr inner join PROVEEDOR_PRODUCTO pp on pr.idProveedor = pp.idProveedor
 	inner join PRODUCTO p on pp.idProducto = p.idProducto
-	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto = p.idTipo_Producto order by p.nombre
+	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto = p.idTipo_Producto 
 END
 GO
 
-CREATE OR ALTER PROCEDURE spListarTodosProductos
+CREATE OR ALTER PROCEDURE spListarProductoParaVender
 as
 BEGIN
 SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
-from producto p left join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
-left join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
-left join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
-
-   order by pr.razonSocial
-
+from producto p inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
+inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
+inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
+where p.activo=1
 END
 GO
+
+CREATE OR ALTER PROCEDURE spBuscarProductoParaVender
+	@campo varchar(40)
+AS
+BEGIN
+	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
+	from producto p inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
+	inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
+	inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
+	WHERE (CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR tp.nombre LIKE '%'+@campo+'%')
+	and
+	p.activo=1
+END
+GO
+
 
 CREATE OR ALTER PROCEDURE spBuscarProductoid(
 @prmintidProducto int

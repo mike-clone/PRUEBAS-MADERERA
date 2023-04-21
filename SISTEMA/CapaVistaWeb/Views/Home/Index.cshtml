@@ -28,14 +28,10 @@
             @ViewBag.Error
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto " href="/Home/Index">Inicio</a></li>
-                    <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
-                    <li><a class="nav-link scrollto " href="#portfolio">Portafolio</a></li>
-                    <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
+                    <li><a class="nav-link scrollto " href="#hero">Inicio</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
-                    <li><a class="nav-link scrollto" href="#">Productos</a></li>
-                    <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#ModInsertarCliente">Crear Cuenta</a></li>
+                    <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#ModLogin">LogIn</a></li>
+                    <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#ModInsertarCliente">SingIn</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -58,7 +54,6 @@
                             <div class="carousel-content">
                                 <h2 class="animate__animated animate__fadeInDown">Bienvenido a <span>Maderera Carocho</span></h2>
                                 <p class="animate__animated animate__fadeInUp">Nuestros precios son los mejores de todo Huanchaquito.</p>
-                                <button type="button" class="btn-get-started scrollto animate__animated animate__fadeInUp" data-bs-toggle="modal" data-bs-target="#ModLogin">Iniciar Sesión</button>
                             </div>
                         </div>
                     </div>
@@ -69,7 +64,6 @@
                             <div class="carousel-content">
                                 <h2 class="animate__animated animate__fadeInDown">MADERERA CAROCHO</h2>
                                 <p class="animate__animated animate__fadeInUp">Nuestros clientes mas infelices son nuestra mayor fuente de aprendizaje.</p>
-                                <button type="button" class="btn-get-started scrollto animate__animated animate__fadeInUp" data-bs-toggle="modal" data-bs-target="#ModLogin">Iniciar Sesión</button>
                             </div>
                         </div>
                     </div>
@@ -80,7 +74,6 @@
                             <div class="carousel-content">
                                 <h2 class="animate__animated animate__fadeInDown">MADERERA CAROCHO</h2>
                                 <p class="animate__animated animate__adeInUp">Preferimos intentarlo y fracasar que fracasar sin haberlo intentado.</p>
-                                <button type="button" class="btn-get-started scrollto animate__animated animate__fadeInUp" data-bs-toggle="modal" data-bs-target="#ModLogin">Iniciar Sesión</button>
                             </div>
                         </div>
                     </div>
@@ -99,8 +92,8 @@
         </div>
     </section><!-- End Hero -->
 
-    <main id="main">
-        <section id="productos">
+    <main id="products">
+        <section>
             <div class="container">
                 <br><h2 style="text-align: center">PRODUCTOS</h2>
                 <!-- Ordenar -->
@@ -108,12 +101,12 @@
                 <a onclick="return Ordenar(this)" aria-current="page" class="btn btn-secondary btn-lg" id="DESC" @*href="Ordenar?dato=0"*@><i class="bi bi-sort-down"></i></a>
                 <hr>
                 <!-- Buscar -->
-                <form class="d-flex mb-4" role="search" action="Listar" method="POST" id="Bproducto">
+                <form class="d-flex mb-4" role="search" action="Index#products" method="POST" id="Bproducto">
                     <input class="form-control me-2" type="search" placeholder="Buscar" name="dato" aria-label="Search">
                     <button onclick="return Buscar('Bproducto')" class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
                 <table class="table">
-                    <thead class="table-dark">
+                    <thead class="table table-hover">
                         <tr>
                             <th>
                                 #

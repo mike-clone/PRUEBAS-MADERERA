@@ -61,37 +61,6 @@ namespace CapaAccesoDatos
             return list;
         }
 
-        public bool CrearDetalleProveedor(entProveedorProducto pro)
-        {
-            SqlCommand cmd = null;
-            bool creado = false;
-            try
-            {
-                SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spCrearDetalleProveedor", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idProveedor", pro.Proveedor.IdProveedor);
-                cmd.Parameters.AddWithValue("@idProducto", pro.Producto.IdProducto);
-                cmd.Parameters.AddWithValue("@precioCompra", pro.PrecioCompra);
-                cn.Open();
-                int i = cmd.ExecuteNonQuery();
-                if (i > 0)
-                {
-                    creado = true;
-                }
-            }
-            catch (Exception e)
-            {
-
-                MessageBox.Show(e.Message);
-            }
-            finally
-            {
-                cmd.Connection.Close();
-            }
-            return creado;
-        }
-
         public bool EliminarDetalle(int entp)
         {
             SqlCommand cmd = null;
@@ -101,7 +70,7 @@ namespace CapaAccesoDatos
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spEliminarDetalleProveedor", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idProveedor", entp);
+                cmd.Parameters.AddWithValue("@idProveedorp", entp);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)

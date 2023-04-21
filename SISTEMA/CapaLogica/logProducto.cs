@@ -25,9 +25,13 @@ namespace CapaLogica
         {
             return datProducto.Instancia.ListarProducto();
         }
-        public List<entProducto> ListarTodosProducto()
+        public List<entProducto> ListarProductoParaVender()
         {
-            return datProducto.Instancia.ListarTodosProducto();
+            return datProducto.Instancia.ListarProductoParaVender();
+        }
+        public List<entProducto>BuscarProductoParaVender(string buscar)
+        {
+            return datProducto.Instancia.BuscarProductoParaVender(buscar);
         }
         public List<entProducto>Ordenar(int dato)
         {

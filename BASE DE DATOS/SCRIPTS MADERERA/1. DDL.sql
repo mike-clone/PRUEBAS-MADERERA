@@ -17,7 +17,7 @@ GO
 CREATE TABLE PROVEEDOR(
 	idProveedor int primary key identity,
 	razonSocial varchar(40) not null,
-	dni varchar(8) null,
+	ruc varchar(11) null,
 	correo varchar(40),
 	telefono varchar(9) null,
 	descripcion varchar (80),
@@ -40,7 +40,8 @@ CREATE TABLE PRODUCTO(
 	diametro float not null,
 	precioVenta float default 0,
 	stock int default 0,
-	idTipo_Producto int not null
+	idTipo_Producto int not null,
+	Activo bit default 1,
 
 	constraint fk_Producto_Tipo foreign key (idTipo_Producto) references TIPO_PRODUCTO (idTipo_Producto)
 )
@@ -70,7 +71,6 @@ GO
 CREATE TABLE Usuario(
 	idUsuario int primary key identity,
 	razonSocial varchar(40) not null,
-    --dni varchar(8) null,
 	telefono varchar(9) null,
 	direccion varchar(60) null,
 	idUbigeo VARCHAR(6)null,
@@ -144,10 +144,10 @@ ALTER TABLE Usuario ADD	CONSTRAINT CHK_Usuario_telefono CHECK(telefono LIKE '9[0
 ALTER TABLE Usuario ADD CONSTRAINT uq_Usuario_userName UNIQUE(userName);
 ALTER TABLE Usuario ADD CONSTRAINT uq_Usuario_correo UNIQUE(correo);
 --PROVEEDOR
-CREATE  UNIQUE INDEX idx_ProveedorDni ON PROVEEDOR (dni) WHERE dni IS NOT NULL;
+CREATE  UNIQUE INDEX idx_ProveedorRuc ON PROVEEDOR (ruc) WHERE ruc IS NOT NULL;
 CREATE  UNIQUE INDEX idx_ProveedorTelefono ON PROVEEDOR (telefono) WHERE telefono IS NOT NULL;
 ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_PROVEEDOR_telefono CHECK(telefono LIKE '9[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]' or telefono = '' or telefono LIKE '0[0-9][0-9][0-9][0-9][0-9][0-9][0-9]');
-ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_PROVEEDOR_dni CHECK(dni LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]');
+ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_PROVEEDOR_ruc CHECK(ruc LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]');
 ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_estProveedor CHECK(estProveedor LIKE '[0-2]');
 
 GO

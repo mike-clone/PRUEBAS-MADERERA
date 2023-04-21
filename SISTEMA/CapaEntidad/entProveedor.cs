@@ -10,7 +10,7 @@ namespace CapaEntidad
     {
         private int idProveedor;
         private string razonSocial;
-        private  string dni;
+        private  string ruc;
         private  string correo;
         private  string telefono;
         private  string descripcion;
@@ -30,10 +30,10 @@ namespace CapaEntidad
             get { return razonSocial; }
             set { razonSocial = value; }
         }
-        public string Dni
+        public string Ruc
         {
-            get { return dni; }
-            set { dni = value; }
+            get { return ruc; }
+            set { ruc = value; }
         }
 
         public string Correo

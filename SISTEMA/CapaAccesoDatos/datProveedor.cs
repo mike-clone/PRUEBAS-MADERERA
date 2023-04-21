@@ -15,7 +15,7 @@ namespace CapaAccesoDatos
             get { return _instance; }
         }
 
-        #region CRUD
+   
         //Crear
         public bool CrearProveedor(entProveedor pro)
         {
@@ -27,7 +27,7 @@ namespace CapaAccesoDatos
                 cmd = new SqlCommand("spCrearProveedor", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@razonSocial", pro.RazonSocial);
-                cmd.Parameters.AddWithValue("@dni", pro.Dni);
+                cmd.Parameters.AddWithValue("@ruc", pro.Ruc);
                 cmd.Parameters.AddWithValue("@correo", pro.Correo);
                 cmd.Parameters.AddWithValue("@telefono", pro.Telefono);
                 cmd.Parameters.AddWithValue("@descripcion", pro.Descripcion);
@@ -68,7 +68,7 @@ namespace CapaAccesoDatos
                     entProveedor pro = new entProveedor {
                     IdProveedor = Convert.ToInt32(dr["idProveedor"]),
                     RazonSocial = dr["razonSocial"].ToString(),
-                    Dni = dr["dni"].ToString(),
+                    Ruc = dr["ruc"].ToString(),
                     Correo = dr["correo"].ToString(),
                     Telefono = dr["telefono"].ToString(),
                     Descripcion = dr["descripcion"].ToString(),
@@ -109,7 +109,7 @@ namespace CapaAccesoDatos
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@idProveedor", pro.IdProveedor);
                 cmd.Parameters.AddWithValue("@razonSocial", pro.RazonSocial);
-                cmd.Parameters.AddWithValue("@dni", pro.Dni);
+                cmd.Parameters.AddWithValue("@ruc", pro.Ruc);
                 cmd.Parameters.AddWithValue("@correo", pro.Correo);
                 cmd.Parameters.AddWithValue("@telefono", pro.Telefono);
                 cmd.Parameters.AddWithValue("@descripcion", pro.Descripcion);
@@ -162,9 +162,9 @@ namespace CapaAccesoDatos
             }
             return eliminado;
         }
-        #endregion CRUD
+   
 
-        #region OTROS
+     
         public List<entProveedor> BuscarProveedor(string busqueda)
         {
             List<entProveedor> list = new List<entProveedor>();
@@ -182,7 +182,7 @@ namespace CapaAccesoDatos
                     entProveedor pro = new entProveedor();
                     pro.IdProveedor = Convert.ToInt32(dr["idProveedor"]);
                     pro.RazonSocial = dr["razonSocial"].ToString();
-                    pro.Dni = dr["dni"].ToString();
+                    pro.Ruc = dr["ruc"].ToString();
                     pro.Correo = dr["correo"].ToString();
                     pro.Telefono = dr["telefono"].ToString();
                     pro.Descripcion = dr["descripcion"].ToString();
@@ -222,7 +222,7 @@ namespace CapaAccesoDatos
                 {
                     pro.IdProveedor = Convert.ToInt32(dr["idProveedor"]);
                     pro.RazonSocial = dr["razonSocial"].ToString();
-                    pro.Dni = dr["dni"].ToString();
+                    pro.Ruc = dr["ruc"].ToString();
                     pro.Correo = dr["correo"].ToString();
                     pro.Telefono = dr["telefono"].ToString();
                     pro.Descripcion = dr["descripcion"].ToString();
@@ -240,6 +240,6 @@ namespace CapaAccesoDatos
             return pro;
         }
 
-        #endregion
+        
     }
 }

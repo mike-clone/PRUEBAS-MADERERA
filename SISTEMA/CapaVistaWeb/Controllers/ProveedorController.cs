@@ -39,17 +39,17 @@ namespace MadereraCarocho.Controllers
                 entProveedor p = new entProveedor
                 {
                     RazonSocial = uNombre,
-                    Dni = uRuc,
+                    Ruc = uRuc,
                     Correo = uCorreo,
                     Telefono = uTelefono,
                     Descripcion = uDescripcion,
                     EstProveedor = true,
+                    Ubigeo = new entUbigeo
+                    {
+                        IdUbigeo = frm["Ubi"].ToString()
+                    }
                 };
-                p.Ubigeo = new entUbigeo
-                {
-                 IdUbigeo=frm["Ubi"].ToString()
-                 };
-            
+
 
                 bool inserta = logProveedor.Instancia.CrearProveedor(p);
                 if (inserta)
@@ -121,21 +121,11 @@ namespace MadereraCarocho.Controllers
         }
 
         [HttpGet]
-        [ValidateInput(false)]
         public ActionResult MostrarDetalle(int idp)
         {
             try
             {
-                List<entProveedorProducto> lista;
-
-                lista = logProveedorProducto.Instancia.MostrarDetalleProvedorId(idp);
-
-                List<entProducto> listaProducto = logProducto.Instancia.ListarProducto();
-                var lsProducto = new SelectList(listaProducto, "idProducto", "nombreCompleto");
-
-                ViewBag.lista = lista;
-                ViewBag.listaProducto = lsProducto;
-                return View(lista);
+                return View(_ = logProveedorProducto.Instancia.MostrarDetalleProvedorId(idp));
             }
             catch(Exception ex)
             {
@@ -143,48 +133,13 @@ namespace MadereraCarocho.Controllers
             }
         }
 
-        [HttpPost]
-        public ActionResult CrearDetalle(double pprecio , FormCollection frm,int ipr)
-        {
-            try
-            {
-                entProducto prod = new entProducto
-                {
-                    IdProducto = Convert.ToInt32(frm["Prod"])
-                };
-                entProveedor prov = new entProveedor {
-                    IdProveedor = ipr
-                };
-                entProveedorProducto entp = new entProveedorProducto {
-                    Proveedor = prov,
-                    Producto = prod,
-                    PrecioCompra=pprecio
-                };
-
-                bool inserta = logProveedorProducto.Instancia.CrearDetalleProvedor(entp);
-                //if (inserta)
-                //{
-                //    return RedirectToAction("Listar");
-                //}
-            }
-            catch (Exception ex)
-            {
-                return RedirectToAction("Listar", new { mesjExeption = ex.Message });
-            }
-            return RedirectToAction("Listar");
-        }
-
+   
         [HttpGet]
-        
-        public ActionResult EliminarDetalle(int idp)
+        public ActionResult EliminarDetalle(int idpp)
         {
             try
             {
-                bool elimina = logProveedorProducto.Instancia.EliminarDetalle(idp);
-                //if (elimina)
-                //{
-                //    return RedirectToAction("Listar");
-                //}
+                bool elimina = logProveedorProducto.Instancia.EliminarDetalle(idpp);
             }
             catch (Exception ex)
             {

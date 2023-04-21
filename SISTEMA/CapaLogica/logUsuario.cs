@@ -76,7 +76,7 @@ namespace CapaLogica
                 else
                 {
                     u = datUsuario.Instacia.IniciarSesion(dato, contra);
-                    if (u != null)
+                    if (u!=null)
                     {
                         if (!u.Activo)
                         {

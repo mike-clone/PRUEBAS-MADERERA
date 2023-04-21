@@ -15,9 +15,15 @@ namespace MadereraCarocho.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult Index(string dato)
         {
-            return View(_ = logProducto.Instancia.ListarProducto());
+           var lista=new List<entProducto>();
+            if (string.IsNullOrEmpty(dato))
+                lista = logProducto.Instancia.ListarProductoParaVender();
+            else
+                lista = logProducto.Instancia.BuscarProductoParaVender(dato);
+
+            return View(lista);
         }
 
         #region ADMINISTRADOR
