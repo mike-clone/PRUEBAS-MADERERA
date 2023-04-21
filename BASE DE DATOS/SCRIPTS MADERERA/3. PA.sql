@@ -143,6 +143,18 @@ BEGIN
 END
 GO
 
+
+CREATE OR ALTER PROCEDURE sp_ListaDistrito1(@idUbigeo int)
+As
+BEGIN
+    select idUbigeo,distrito from ubigeo where idUbigeo=@idUbigeo
+	union all
+    Select idUbigeo, distrito from Ubigeo where departamento='La Libertad' or departamento = 'Lima'
+
+END
+GO
+
+
 --======LISTA DEPARTAMENTO===========
 CREATE OR ALTER PROCEDURE sp_ListaDepartamento
 AS
@@ -329,7 +341,6 @@ left join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
 
 END
 GO
-exec spListarTodosProductos
 
 CREATE OR ALTER PROCEDURE spBuscarProductoid(
 @prmintidProducto int

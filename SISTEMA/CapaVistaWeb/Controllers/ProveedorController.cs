@@ -45,7 +45,11 @@ namespace MadereraCarocho.Controllers
                     Descripcion = uDescripcion,
                     EstProveedor = true,
                 };
-                p.Ubigeo.IdUbigeo =frm["Ubi"].ToString();
+                p.Ubigeo = new entUbigeo
+                {
+                 IdUbigeo=frm["Ubi"].ToString()
+                 };
+            
 
                 bool inserta = logProveedor.Instancia.CrearProveedor(p);
                 if (inserta)

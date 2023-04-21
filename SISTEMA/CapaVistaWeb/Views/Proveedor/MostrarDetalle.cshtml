@@ -152,7 +152,7 @@
                     <div class="form-floating mb-3">
                         @foreach (var item in Model)
                         {
-                            <input type="hidden" class="form-control" name="ipr" id="idProveedor" value=@item.Proveedor.IdProveedor>
+                            <input type="text" class="form-control" name="ipr" id="idProveedor" value=@item.Proveedor.IdProveedor>
                             break;
                         }
                         <input type="hidden" class="form-control" id="vacio2" value="vacio">

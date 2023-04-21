@@ -11,7 +11,7 @@ namespace CapaEntidad
     {
         private int idProducto;
         [Required(ErrorMessage = "El Nombre es obligatorio")]
-        [MinLength(4, ErrorMessage = "El Nombre de usuario debe tener al menos 40 caracteres")]
+        [MinLength(4, ErrorMessage = "El Nombre de producto debe tener al menos 40 caracteres")]
         private string nombre;
         private double longitud;
         private double diametro;
