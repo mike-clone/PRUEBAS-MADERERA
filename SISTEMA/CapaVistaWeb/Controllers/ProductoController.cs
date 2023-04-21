@@ -45,11 +45,11 @@ namespace MadereraCarocho.Controllers
             List<entProducto> lista;
             if (!String.IsNullOrEmpty(data))
             {
-                lista = logProducto.Instancia.BuscarProducto(data);
+                lista = logProducto.Instancia.BuscarProductoParaVender(data);
             }
             else
             {
-                lista = logProducto.Instancia.ListarProducto();
+                lista = logProducto.Instancia.ListarProductoParaVender();
             }
             ViewBag.lista = lista;
             return View(lista);

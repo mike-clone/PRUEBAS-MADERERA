@@ -309,7 +309,6 @@
     <Content Include="Views\Proveedor\EditarProveedor.cshtml" />
     <Content Include="Views\Proveedor\MostrarDetalle.cshtml" />
     <Content Include="Views\Usuario\EditarCliente.cshtml" />
-    <Content Include="Views\Home\EditarDatosCliente.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -17,7 +17,7 @@ namespace MadereraCarocho.Controllers
     {
         public ActionResult Index(string dato)
         {
-           var lista=new List<entProducto>();
+            List<entProducto> lista;
             if (string.IsNullOrEmpty(dato))
                 lista = logProducto.Instancia.ListarProductoParaVender();
             else
@@ -103,7 +103,7 @@ namespace MadereraCarocho.Controllers
             }
             catch (ApplicationException ex)
             {
-                return RedirectToAction("Admin", new { mesjExceptio = ex.Message });
+                return RedirectToAction("Cliente", new { mesjExceptio = ex.Message });
             }
         }
 
