@@ -73,7 +73,8 @@ namespace CapaAccesoDatos
                         Diametro = Convert.ToDouble(dr["diametro"]),
                         Stock = Convert.ToInt32(dr["stock"]),
                         PrecioCompra = Convert.ToDouble(dr["precioCompra"]),
-                        PrecioVenta = Convert.ToDouble(dr["precioVenta"])
+                        PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
+                        Activo = Convert.ToBoolean(dr["Activo"])
                     };
                     entTipoProducto tipo = new entTipoProducto
                     {
@@ -227,7 +228,8 @@ namespace CapaAccesoDatos
                         Longitud = Convert.ToDouble(dr["longitud"]),
                         Diametro = Convert.ToDouble(dr["diametro"]),
                         Stock = Convert.ToInt32(dr["stock"]),
-                        PrecioVenta = Convert.ToDouble(dr["precioVenta"])
+                        PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
+                        Activo = Convert.ToBoolean(dr["Activo"])
                     };
 
                     entTipoProducto tipo = new entTipoProducto

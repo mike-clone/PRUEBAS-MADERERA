@@ -13,7 +13,7 @@ using System.Web.Services.Description;
 namespace MadereraCarocho.Controllers
 {
     
-    [Authorize]// No puede si es que no esta autorizado
+    [Authorize]
     public class ProductoController : Controller
     {
         String mensaje = "";
@@ -39,22 +39,6 @@ namespace MadereraCarocho.Controllers
             return View(lista);
         }
         
-        [PermisosRol(entRol.Cliente)]
-        public ActionResult Productos(string data)
-        {
-            List<entProducto> lista;
-            if (!String.IsNullOrEmpty(data))
-            {
-                lista = logProducto.Instancia.BuscarProductoParaVender(data);
-            }
-            else
-            {
-                lista = logProducto.Instancia.ListarProductoParaVender();
-            }
-            ViewBag.lista = lista;
-            return View(lista);
-        }
-
         [PermisosRol(entRol.Administrador)]
         [HttpPost]
         public ActionResult CrearProducto(string cNombreP, string cLongitudP, string cdiametro, FormCollection frm)

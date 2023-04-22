@@ -299,10 +299,11 @@ GO
 CREATE OR ALTER PROCEDURE spListarProducto
 AS
 BEGIN
-	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
+	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta,p.Activo
 	FROM PROVEEDOR pr inner join PROVEEDOR_PRODUCTO pp on pr.idProveedor = pp.idProveedor
 	inner join PRODUCTO p on pp.idProducto = p.idProducto
 	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto = p.idTipo_Producto 
+	order by p.Activo desc
 END
 GO
 
@@ -315,8 +316,18 @@ inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
 inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
 where p.activo=1
 END
+Go
+CREATE OR ALTER PROCEDURE spBuscarProducto
+	@campo varchar(40)
+AS
+BEGIN
+	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta,p.Activo
+	from producto p inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
+	inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
+	inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
+	WHERE CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR tp.nombre LIKE '%'+@campo+'%'
+END
 GO
-
 CREATE OR ALTER PROCEDURE spBuscarProductoParaVender
 	@campo varchar(40)
 AS
@@ -373,18 +384,7 @@ BEGIN
 END
 GO
 --==== BUSCAR PRODUCTOS ADMIN===
-CREATE OR ALTER PROCEDURE spBuscarProducto
-	@campo varchar(40)
 
-AS
-BEGIN
-	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock,p.precioVenta
-	FROM PROVEEDOR pr inner join PROVEEDOR_PRODUCTO pp on pr.idProveedor = pp.idProveedor
-	inner join PRODUCTO p on pp.idProducto = p.idProducto
-	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto = p.idTipo_Producto
-	WHERE CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR tp.nombre LIKE '%'+@campo+'%';
-END
-GO
 
 --INSERT INTO PROVEEDOR_PRODUCTO VALUES (2,1,25)
 

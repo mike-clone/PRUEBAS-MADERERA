@@ -3,7 +3,6 @@
 @{
     ViewBag.Title = "Listar";
 }
-<!-- ======= Top Bar ======= -->
 <section id="topbar" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
@@ -15,7 +14,7 @@
             <a href="https://www.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/" class="instagram"><i class="bi bi-instagram"></i></a>
             <a href="https://pe.linkedin.com/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            <a href="/Home/EditarDatosAdministrador" class="linkedin"><i class="bi bi-person-circle"></i></a>
+            <a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#EditarDatos"><i class="bi bi-person-circle"></i></a>
         </div>
     </div>
 </section>
@@ -24,7 +23,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
         <div class="logo">
-            <h1><a href="/Home/Admin">Maderera<span>Carocho</span></a></h1>
+            <h1><a href="#hero">Maderera<span>Carocho</span></a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html"><img src="~/Content/assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
@@ -32,9 +31,6 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto " href="#hero">Inicio</a></li>
-                <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
-                <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
-                <li><a class="nav-link scrollto " href="#portfolio">Portafolio</a></li>
                 <li><a href="/Producto/Listar">Productos</a></li>
                 <li><a href="/Usuario/ListarClientes">Clientes</a></li>
                 <li><a href="/Proveedor/Listar">Proveedores</a></li>
@@ -48,7 +44,6 @@
 
     </div>
 </header><!-- End Header -->
-<!-- ======= Contenido ======= -->
 <br>
 <br>
 <br>
@@ -96,7 +91,10 @@
                     Precio compra
                 </th>
                 <th>
-                    Pprecio venta
+                    Precio venta
+                </th>
+                <th>
+                    Activo
                 </th>
                 <th>EDITAR</th>
                 <th>ELIMINAR</th>
@@ -132,6 +130,9 @@
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.PrecioVenta)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Activo)
                     </td>
                     <td>
                         <button class="btn btn-warning" type="button">
@@ -178,7 +179,7 @@
                         <input type="text" class="form-control" name="cdiametro" id="diametro" placeholder="Diametro" required>
                         <label for="floatingInput">Diametro</label>
                     </div>
-                 
+
                 </div>
                 <div class="modal-footer">
                     <button onclick="return Registrar('nombre', 'longitud', 'diametro', 'producto')" type="submit" class="btn btn-dark">Registrar</button>

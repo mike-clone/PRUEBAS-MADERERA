@@ -136,35 +136,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\assets\css\style.css" />
-    <Content Include="Content\assets\img\about-list-img.jpg" />
-    <Content Include="Content\assets\img\apple-touch-icon.png" />
-    <Content Include="Content\assets\img\counts-bg.jpg" />
-    <Content Include="Content\assets\img\favicon.png" />
-    <Content Include="Content\assets\img\portfolio\portfolio-1.jpg" />
-    <Content Include="Content\assets\img\portfolio\portfolio-2.jpg" />
-    <Content Include="Content\assets\img\portfolio\portfolio-3.jpg" />
-    <Content Include="Content\assets\img\portfolio\portfolio-4.jpg" />
-    <Content Include="Content\assets\img\portfolio\portfolio-5.jpg" />
-    <Content Include="Content\assets\img\portfolio\portfolio-6.jpg" />
-    <Content Include="Content\assets\img\portfolio\portfolio-7.jpg" />
-    <Content Include="Content\assets\img\portfolio\portfolio-8.jpg" />
-    <Content Include="Content\assets\img\portfolio\portfolio-9.jpg" />
-    <Content Include="Content\assets\img\portfolio\portfolio-details-1.jpg" />
-    <Content Include="Content\assets\img\portfolio\portfolio-details-2.jpg" />
-    <Content Include="Content\assets\img\portfolio\portfolio-details-3.jpg" />
     <Content Include="Content\assets\img\slide\slide-1.jpg" />
     <Content Include="Content\assets\img\slide\slide-2.jpg" />
     <Content Include="Content\assets\img\slide\slide-3.jpg" />
-    <Content Include="Content\assets\img\team\team1.jpg" />
-    <Content Include="Content\assets\img\team\team2.jpg" />
-    <Content Include="Content\assets\img\team\team3.jpg" />
-    <Content Include="Content\assets\img\team\team4.jpg" />
-    <Content Include="Content\assets\img\testimonials-bg.jpg" />
-    <Content Include="Content\assets\img\testimonials\testimonials-1.jpg" />
-    <Content Include="Content\assets\img\testimonials\testimonials-2.jpg" />
-    <Content Include="Content\assets\img\testimonials\testimonials-3.jpg" />
-    <Content Include="Content\assets\img\testimonials\testimonials-4.jpg" />
-    <Content Include="Content\assets\img\testimonials\testimonials-5.jpg" />
     <Content Include="Content\assets\js\alertas.js" />
     <Content Include="Content\assets\js\main.js" />
     <Content Include="Content\assets\scss\Readme.txt" />
@@ -309,6 +283,7 @@
     <Content Include="Views\Proveedor\EditarProveedor.cshtml" />
     <Content Include="Views\Proveedor\MostrarDetalle.cshtml" />
     <Content Include="Views\Usuario\EditarCliente.cshtml" />
+    <Content Include="Views\Home\EditarDatosCliente.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

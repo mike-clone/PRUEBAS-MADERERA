@@ -19,6 +19,7 @@ namespace CapaEntidad
         private double precioVenta;
         private entTipoProducto tipo;
         private int stock;
+        private bool activo;
         private entProveedor nomProv;
 
         public string nombreCompleto
@@ -73,6 +74,8 @@ namespace CapaEntidad
             get { return nomProv;  }
             set { nomProv = value;  }
         }
+
+        public bool Activo { get => activo; set => activo = value; }
         #endregion Get and Set
     }
 }
