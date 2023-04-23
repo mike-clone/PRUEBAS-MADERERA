@@ -18,12 +18,12 @@ namespace CapaAccesoDatos
             get { return _instancia; }
         }
 
-        #region CRUD
+       
         //Crear
-        public bool CrearProducto(entProducto prod)
+        public int CrearProducto(entProducto prod)
         {
             SqlCommand cmd = null;
-            bool creado = false;
+            int idproducto = -1;
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -32,12 +32,21 @@ namespace CapaAccesoDatos
                 cmd.Parameters.AddWithValue("@nombre", prod.Nombre);
                 cmd.Parameters.AddWithValue("@longitud", prod.Longitud);
                 cmd.Parameters.AddWithValue("@diametro", prod.Diametro);
+                cmd.Parameters.AddWithValue("@precioVenta", prod.PrecioVenta);
                 cmd.Parameters.AddWithValue("@idTipo_Producto", prod.Tipo.IdTipo_producto);
+                SqlParameter idp = new SqlParameter("@id", 0);
+                idp.Direction = ParameterDirection.Output;
+                cmd.Parameters.Add(idp);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
-                if (i != 0)
+
+                if (i == 1)
                 {
-                    creado = true;
+                    idproducto = Convert.ToInt32(cmd.Parameters["@id"].Value);
+                }
+                if (idproducto == -1)
+                {
+                    MessageBox.Show("Id INVALIDO");
                 }
             }
             catch (Exception e)
@@ -48,7 +57,7 @@ namespace CapaAccesoDatos
             {
                 cmd.Connection.Close();
             }
-            return creado;
+            return idproducto;
 
         }
         //Leer
@@ -205,7 +214,6 @@ namespace CapaAccesoDatos
             finally { cmd.Connection.Close(); }
             return eliminado;
         }
-        #endregion CRUD
 
         public List<entProducto> BuscarProducto(string busqueda)
         {

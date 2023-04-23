@@ -10,8 +10,6 @@ namespace CapaEntidad
     public class entProducto
     {
         private int idProducto;
-        [Required(ErrorMessage = "El Nombre es obligatorio")]
-        [MinLength(4, ErrorMessage = "El Nombre de producto debe tener al menos 40 caracteres")]
         private string nombre;
         private double longitud;
         private double diametro;
@@ -22,7 +20,7 @@ namespace CapaEntidad
         private bool activo;
         private entProveedor nomProv;
 
-        public string nombreCompleto
+        public string NombreCompleto
         {
             get { return nombre + " - " + longitud + "MT - " + diametro + "Ø"; }
         }

@@ -152,3 +152,31 @@ function Buscar(opcion) {
         }
     });
 }
+
+function ActualizarProvedor() {
+    const MdActualizarProvedor = document.getElementById('ModActualizarProvedor');
+    MdActualizarProducto.addEventListener('show.bs.modal', event => {
+
+        const button = event.relatedTarget;
+
+        const id = button.getAttribute('data-bs-idP');
+  
+        const campoid = document.getElementById('idProducto');
+        const campoidProveedor = document.getElementById('proveedorX');
+        const campoidCategoriaProducto = document.getElementById('categoriaX');
+        const campoNombre = document.getElementById('uNombreP');
+        const campoDiametro = document.getElementById('uDiametroP');
+        const campoLongitud = document.getElementById('uLongitudP');
+        const campoPreCompra = document.getElementById('uPreCompraP');
+        const campoPreVenta = document.getElementById('uPreVentaP');
+
+        campoid.value = id;
+        campoidProveedor.value = proveedorid;
+        campoidCategoriaProducto.value = categoriaproductoid;
+        campoNombre.value = nombre;
+        campoDiametro.value = diametro;
+        campoLongitud.value = longitud;
+        campoPreCompra.value = preCompra;
+        campoPreVenta.value = preVenta;
+    });
+}

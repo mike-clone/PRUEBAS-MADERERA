@@ -285,16 +285,42 @@ CREATE OR ALTER PROCEDURE spMostrarDetalleProveedorId
 
 ------------------------------------PRODUCTO
 CREATE OR ALTER PROCEDURE spCrearProducto(
+    @id int out,
 	@nombre varchar(40),
 	@longitud float,
 	@diametro float,
+	@precioVenta float,
 	@idTipo_Producto int
 )
 AS
-BEGIN
-	INSERT INTO PRODUCTO(nombre,longitud,diametro,idTipo_Producto) values (@nombre, @longitud,@diametro, @idTipo_Producto);
-END
+BEGIN TRY
+	begin transaction
+		INSERT INTO PRODUCTO(nombre,longitud,diametro,precioVenta,idTipo_Producto) values (@nombre, @longitud,@diametro,@precioVenta, @idTipo_Producto);
+	commit transaction
+END TRY
+BEGIN CATCH
+	ROLLBACK TRANSACTION
+	Set @id=-1;
+END CATCH
 GO
+select * from PROVEEDOR_PRODUCTO
+--CREATE OR ALTER PROCEDURE spCrearCompra(
+--	@id int out,
+--	@total float,
+--	@idProveedor int
+--)
+--AS
+--BEGIN TRY
+--	BEGIN TRANSACTION
+--		INSERT INTO COMPRA (total,idProveedor)values (@total,@idProveedor);
+--		Set @id=@@identity;
+--	COMMIT TRANSACTION
+--END TRY
+--BEGIN CATCH
+--	ROLLBACK TRANSACTION
+--		Set @id=-1;
+--END CATCH
+--GO
 ---====LISTAR PRODUCTOS ADMIN============
 CREATE OR ALTER PROCEDURE spListarProducto
 AS
@@ -376,6 +402,8 @@ BEGIN
 	SELECT *FROM TIPO_PRODUCTO;
 END
 GO
+
+
 CREATE OR ALTER PROCEDURE spEliminarProducto(@idProducto int)
 AS
 BEGIN

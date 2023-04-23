@@ -19,6 +19,34 @@ namespace CapaAccesoDatos
             get { return _instance; }
         }
 
+        public bool CrearProveedorProducto(entProveedorProducto prod)
+        {
+            SqlCommand cmd = null;
+            bool crear=false;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spCrearProveedorProducto", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@idProveedor", prod.Proveedor.IdProveedor);
+                cmd.Parameters.AddWithValue("@idProducto", prod.Producto.IdProducto);
+                cmd.Parameters.AddWithValue("@precioCompra",prod.PrecioCompra);
+                cn.Open();
+                int i = cmd.ExecuteNonQuery();
+                if (i!=0)
+                crear = true;
+               
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message, "ERROR AL INSERTAR UN PRODUCTO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return crear;
+        }
         public List<entProveedorProducto> MostarDetalleProveedorId(int idProveedor)
         {
             SqlCommand cmd = null;

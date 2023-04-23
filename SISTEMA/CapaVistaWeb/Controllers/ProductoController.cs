@@ -39,29 +39,29 @@ namespace MadereraCarocho.Controllers
             return View(lista);
         }
         
-        [PermisosRol(entRol.Administrador)]
-        [HttpPost]
-        public ActionResult CrearProducto(string cNombreP, string cLongitudP, string cdiametro, FormCollection frm)
-        {
-            try
-            {
-                entProducto p = new entProducto
-                {
-                    Nombre = cNombreP,
-                    Longitud = Double.Parse(cLongitudP),
-                    Diametro = Double.Parse(cdiametro),
-                    Tipo = new entTipoProducto()
-                };
+        //[PermisosRol(entRol.Administrador)]
+        //[HttpPost]
+        //public ActionResult CrearProducto(string cNombreP, string cLongitudP, string cdiametro,string cPrecioVenta,string precioCompra, FormCollection Tipo ,FormCollection Prov)
+        //{
+        //    try
+        //    {
+        //        entProducto p = new entProducto
+        //        {
+        //            Nombre = cNombreP,
+        //            Longitud = Double.Parse(cLongitudP),
+        //            Diametro = Double.Parse(cdiametro),
+        //            Tipo = new entTipoProducto()
+        //        };
 
-                p.Tipo.IdTipo_producto = Convert.ToInt32(frm["cTipo"]);
-                bool inserta = logProducto.Instancia.CrearProducto(p);
-            }
-            catch (Exception ex)
-            {
-                return RedirectToAction("Listar", new { mesjExeption = ex.Message });
-            }
-            return RedirectToAction("Listar");
-        }
+        //        p.Tipo.IdTipo_producto = Convert.ToInt32(Tipo["cTipo"]);
+        //        bool inserta = logProducto.Instancia.CrearProducto(p);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return RedirectToAction("Listar", new { mesjExeption = ex.Message });
+        //    }
+        //    return RedirectToAction("Listar");
+        //}
        
         
         [PermisosRol(entRol.Administrador)]

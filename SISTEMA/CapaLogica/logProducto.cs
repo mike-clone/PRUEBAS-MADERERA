@@ -17,7 +17,7 @@ namespace CapaLogica
             get { return _instancia; }
         }
         #region Administrador
-        public bool CrearProducto(entProducto prod)
+        public int CrearProducto(entProducto prod)
         {
             return datProducto.Instancia.CrearProducto(prod);
         }

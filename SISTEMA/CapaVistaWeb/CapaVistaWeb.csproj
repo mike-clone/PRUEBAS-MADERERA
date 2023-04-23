@@ -268,7 +268,6 @@
     <Content Include="Views\Home\Admin.cshtml" />
     <Content Include="Views\Home\Cliente.cshtml" />
     <Content Include="Views\Producto\EditarProducto.cshtml" />
-    <Content Include="Views\Producto\productos.cshtml" />
     <Content Include="Views\Proveedor\Listar.cshtml" />
     <Content Include="Views\Usuario\ListarClientes.cshtml" />
     <Content Include="Views\Empleado\Listar.cshtml" />

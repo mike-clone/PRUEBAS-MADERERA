@@ -124,7 +124,7 @@
                         @Html.DisplayFor(modelItem => item.IdProveedor)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.RazonSocial)
+                        @Html.DisplayFor(modelItem => item.RazonSocial, new { htmlAttributes = new { @class = "form-control", id="raz" } })
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Ruc)
@@ -157,7 +157,7 @@
                     </td>
                     <td>
                         <button class="btn btn-warning bi bi-pencil-square" type="button">
-                            @Html.ActionLink("Edit", "EditarProveedor", new { idprov = item.IdProveedor })
+                            @Html.ActionLink("Edit", "EditarProveedor", new { idprov = item.IdProveedor})
 
                         </button>
                     </td>

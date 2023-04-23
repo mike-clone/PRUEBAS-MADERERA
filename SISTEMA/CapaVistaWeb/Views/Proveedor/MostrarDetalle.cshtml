@@ -115,7 +115,7 @@
                 @Html.DisplayFor(modelItem => item.PrecioCompra)
             </td>
             <td>
-                <a onclick="return Eliminar(this)" href="/Proveedor/EliminarDetalle?idpp=@item.IdProveedorProducto" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
+                <a onclick="return Eliminar(this)" href="/Proveedor/EliminarDetalle?idpp=@item.IdProveedorProducto idp=@item.IdProveedorProducto" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
 
             </td>
 
