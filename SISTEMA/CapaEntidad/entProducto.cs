@@ -13,13 +13,11 @@ namespace CapaEntidad
         private string nombre;
         private double longitud;
         private double diametro;
-        private double precioCompra;
         private double precioVenta;
         private entTipoProducto tipo;
         private int stock;
         private bool activo;
-        private entProveedor nomProv;
-
+        private entProveedorProducto proveedorProducto;
         public string NombreCompleto
         {
             get { return nombre + " - " + longitud + "MT - " + diametro + "Ø"; }
@@ -47,11 +45,6 @@ namespace CapaEntidad
             set { longitud = value; }
         }
 
-        public double PrecioCompra
-        {
-            get { return precioCompra; }
-            set { precioCompra = value; }
-        }
         public double PrecioVenta
         {
             get { return precioVenta; }
@@ -67,13 +60,11 @@ namespace CapaEntidad
             get { return stock; }
             set { stock = value; }
         }
-        public entProveedor NomProv
-        {
-            get { return nomProv;  }
-            set { nomProv = value;  }
-        }
+        
 
         public bool Activo { get => activo; set => activo = value; }
+        public entProveedorProducto ProveedorProducto { get => proveedorProducto; set => proveedorProducto = value; }
+
         #endregion Get and Set
     }
 }

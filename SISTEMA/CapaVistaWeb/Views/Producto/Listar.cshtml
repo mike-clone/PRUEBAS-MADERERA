@@ -120,13 +120,13 @@
                         @Html.DisplayFor(modelItem => item.Diametro)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.NomProv.RazonSocial)
+                        @Html.DisplayFor(modelItem => item.ProveedorProducto.Proveedor.RazonSocial)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Stock)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.PrecioCompra)
+                        @Html.DisplayFor(modelItem => item.ProveedorProducto.PrecioCompra)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.PrecioVenta)

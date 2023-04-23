@@ -63,12 +63,12 @@
         <th>
             #
         </th>
-        <th>
+        @*<th>
             Razon social
         </th>
         <th>
             Descripcion
-        </th>
+        </th>*@
         <th>
             IdProducto
         </th>
@@ -86,19 +86,28 @@
         </th>
         <th></th>
     </tr>
-
+    @{ 
+        int count = 0;
+    }
+      
     @foreach (var item in Model)
     {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.IdProveedorProducto)
+               @{
+                   count++;
+                }
+                @count
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.Proveedor.IdProveedor)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Proveedor.RazonSocial)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Proveedor.Descripcion)
-            </td>
+            </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.Producto.IdProducto)
             </td>
@@ -115,7 +124,7 @@
                 @Html.DisplayFor(modelItem => item.PrecioCompra)
             </td>
             <td>
-                <a onclick="return Eliminar(this)" href="/Proveedor/EliminarDetalle?idpp=@item.IdProveedorProducto idp=@item.IdProveedorProducto" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
+                <a onclick="return Eliminar(this)" href="/Proveedor/EliminarDetalle?idprov=@item.Proveedor.IdProveedor&idprod=@item.Producto.IdProducto" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
 
             </td>
 

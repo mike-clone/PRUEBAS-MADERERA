@@ -135,11 +135,11 @@ namespace MadereraCarocho.Controllers
 
    
         [HttpGet]
-        public ActionResult EliminarDetalle(int idpp)
+        public ActionResult EliminarDetalle(int idprov,int idprod)
         {
             try
             {
-                bool elimina = logProveedorProducto.Instancia.EliminarDetalle(idpp);
+                bool elimina = logProveedorProducto.Instancia.EliminarDetalle(idprov,idprod);
             }
             catch (Exception ex)
             {

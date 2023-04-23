@@ -98,6 +98,42 @@ namespace CapaAccesoDatos
             return list;
         }
         //Actualizar
+        public List<entProveedor> SelectListProveedor()
+        {
+            SqlCommand cmd = null;
+            var list = new List<entProveedor>();
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spSelectListProveedor", cn)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    entProveedor pro = new entProveedor
+                    {
+                        IdProveedor = Convert.ToInt32(dr["idProveedor"]),
+                        RazonSocial = dr["razonSocial"].ToString(),
+                        Descripcion = dr["descripcion"].ToString(),
+                    };
+                    list.Add(pro);
+                }
+            }
+            catch (Exception e)
+            {
+
+                MessageBox.Show(e.Message + "aqui es el error");
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return list;
+
+        }
         public bool ActualizarProveedor(entProveedor pro)
         {
             SqlCommand cmd = null;

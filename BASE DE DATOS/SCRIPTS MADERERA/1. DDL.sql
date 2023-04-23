@@ -49,12 +49,11 @@ GO
 
 CREATE TABLE PROVEEDOR_PRODUCTO
 (
-  idProvedoor_producto int primary key identity,
   idProveedor int not null,
   idProducto int not null,
   precioCompra float not null,
  
-
+  constraint pk_proveedor_producto primary key (idProveedor,idProducto),
   constraint fk_proveedor_producto_producto foreign key (idProducto) references PRODUCTO (idProducto),
   constraint fk_proveedor_producto_proveedor foreign key (idProveedor) references PROVEEDOR (idProveedor)
 )

@@ -81,20 +81,25 @@ namespace CapaAccesoDatos
                         Longitud = Convert.ToDouble(dr["longitud"]),
                         Diametro = Convert.ToDouble(dr["diametro"]),
                         Stock = Convert.ToInt32(dr["stock"]),
-                        PrecioCompra = Convert.ToDouble(dr["precioCompra"]),
                         PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
-                        Activo = Convert.ToBoolean(dr["Activo"])
+                        Activo = Convert.ToBoolean(dr["Activo"]),
+                        
+                        Tipo=new entTipoProducto    
+                        {
+                            Nombre = dr["tipo"].ToString()
+
+                        },
+                        ProveedorProducto=new entProveedorProducto
+                        {
+                            PrecioCompra = Convert.ToDouble(dr["precioCompra"]),
+                            Proveedor = new entProveedor
+                            {
+                                RazonSocial = dr["razonsocial"].ToString()
+                            } 
+                        }
+
                     };
-                    entTipoProducto tipo = new entTipoProducto
-                    {
-                        Nombre = dr["tipo"].ToString()
-                    };
-                    Prod.Tipo = tipo;
-                    entProveedor prov = new entProveedor
-                    {
-                        RazonSocial = dr["razonsocial"].ToString()
-                    };
-                    Prod.NomProv = prov;
+                
                     lista.Add(Prod);
                 }
 
@@ -130,19 +135,21 @@ namespace CapaAccesoDatos
                         Longitud = Convert.ToDouble(dr["longitud"]),
                         Diametro = Convert.ToDouble(dr["diametro"]),
                         Stock = Convert.ToInt32(dr["stock"]),
-                        PrecioCompra = Convert.ToDouble(dr["precioCompra"]),
-                        PrecioVenta = Convert.ToDouble(dr["precioVenta"])
-                    };
-                    entTipoProducto tipo = new entTipoProducto
-                    {
-                        Nombre = dr["tipo"].ToString()
-                    };
-                    Prod.Tipo = tipo;
-                    entProveedor prov = new entProveedor
-                    {
-                        RazonSocial = dr["razonsocial"].ToString()
-                    };
-                    Prod.NomProv = prov;
+                        PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
+                        Tipo = new entTipoProducto
+                        {
+                            Nombre = dr["tipo"].ToString() 
+                        },
+                        ProveedorProducto= new entProveedorProducto
+                        {
+                            Proveedor = new entProveedor
+                            {
+                                RazonSocial = dr["razonsocial"].ToString()
+                            }
+                        }
+                       
+                };
+                    
                     lista.Add(Prod);
                 }
 
@@ -237,21 +244,20 @@ namespace CapaAccesoDatos
                         Diametro = Convert.ToDouble(dr["diametro"]),
                         Stock = Convert.ToInt32(dr["stock"]),
                         PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
-                        Activo = Convert.ToBoolean(dr["Activo"])
-                    };
+                        Activo = Convert.ToBoolean(dr["Activo"]),
+                        Tipo=new entTipoProducto
+                        {
+                            Nombre = dr["tipo"].ToString()
+                        },
+                        ProveedorProducto= new entProveedorProducto
+                        {
+                            Proveedor=new entProveedor
+                            {
+                                RazonSocial = dr["razonsocial"].ToString()
+                            }
+                        }
 
-                    entTipoProducto tipo = new entTipoProducto
-                    {
-                        Nombre = dr["tipo"].ToString()
                     };
-                    Prod.Tipo = tipo;
-
-                    entProveedor prov = new entProveedor
-                    {
-                        RazonSocial = dr["razonsocial"].ToString()
-                    };
-                    Prod.NomProv = prov;
-
                     lista.Add(Prod);
                 }
             }
@@ -287,20 +293,20 @@ namespace CapaAccesoDatos
                         Longitud = Convert.ToDouble(dr["longitud"]),
                         Diametro = Convert.ToDouble(dr["diametro"]),
                         Stock = Convert.ToInt32(dr["stock"]),
-                        PrecioVenta = Convert.ToDouble(dr["precioVenta"])
-                    };
+                        PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
+                        Tipo= new entTipoProducto
+                        {
+                            Nombre = dr["tipo"].ToString()
+                        },
+                        ProveedorProducto= new entProveedorProducto
+                        {
+                            Proveedor = new entProveedor
+                            {
+                                RazonSocial = dr["razonsocial"].ToString()
+                            }
+                        }
 
-                    entTipoProducto tipo = new entTipoProducto
-                    {
-                        Nombre = dr["tipo"].ToString()
                     };
-                    Prod.Tipo = tipo;
-
-                    entProveedor prov = new entProveedor
-                    {
-                        RazonSocial = dr["razonsocial"].ToString()
-                    };
-                    Prod.NomProv = prov;
 
                     lista.Add(Prod);
                 }
@@ -334,14 +340,19 @@ namespace CapaAccesoDatos
                     Prod.IdProducto = Convert.ToInt32(dr["idproducto"]);
                     Prod.Nombre = dr["nombre"].ToString();
                     Prod.Longitud = Convert.ToDouble(dr["longitud"]);
-                    Prod.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
                     Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
                     Prod.Stock = Convert.ToInt32(dr["stock"]);
-                    entTipoProducto tipo = new entTipoProducto();
-                    tipo.IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]);
-                    tipo.Nombre = dr["tipo"].ToString();
-                    Prod.Tipo = tipo;
-                    lista.Add(Prod);
+                    Prod.Tipo = new entTipoProducto
+                    {
+                        IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]),
+                        Nombre = dr["tipo"].ToString()
+                    };
+                    Prod.ProveedorProducto = new entProveedorProducto
+                    {
+                        PrecioCompra = Convert.ToDouble(dr["precioCompra"])
+                    };
+
+                lista.Add(Prod);
                 }
             }
             catch (Exception e)

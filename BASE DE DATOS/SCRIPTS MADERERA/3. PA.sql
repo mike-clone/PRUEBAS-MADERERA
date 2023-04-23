@@ -203,6 +203,22 @@ BEGIN
 	order by estProveedor desc;
 END
 GO
+
+CREATE OR ALTER PROCEDURE spSelectListProveedordat(@idproveedor int)
+As
+BEGIN
+    select idProveedor,razonSocial,descripcion from PROVEEDOR where idProveedor=@idproveedor and estProveedor=1
+	union all
+   select idProveedor,razonSocial,descripcion from PROVEEDOR where estProveedor=1
+END
+GO
+
+CREATE OR ALTER PROCEDURE spSelectListProveedor
+AS
+BEGIN
+	select idProveedor,razonSocial,descripcion from PROVEEDOR 
+END
+GO
 --=== BUSCAR PROVEEDOR======
 CREATE OR ALTER PROCEDURE spBuscarProveedor(
 	@Campo varchar(40)
@@ -261,6 +277,13 @@ BEGIN
 END
 GO
 
+CREATE Or ALTER PROCEDURE spCrearProveedorProducto(@idprovedor int,@idproducto int,@precioCompra float)
+AS
+BEGIN
+	INSERT INTO PROVEEDOR_PRODUCTO values (@idprovedor,@idproducto,@precioCompra)
+END
+GO
+
 ---===MOSTRAR DETALLE =================
 CREATE OR ALTER PROCEDURE spMostrarDetalleProveedorId
  (
@@ -268,17 +291,17 @@ CREATE OR ALTER PROCEDURE spMostrarDetalleProveedorId
  )
  AS
  BEGIN
- SELECT p.idProvedoor_producto,prov.idProveedor, prov.razonSocial,prov.descripcion,p.idproducto,prod.nombre,prod.longitud,prod.stock,p.precioCompra
+ SELECT prov.idProveedor, prov.razonSocial,prov.descripcion,p.idproducto,prod.nombre,prod.longitud,prod.stock,p.precioCompra
  FROM PROVEEDOR PROV INNER JOIN PROVEEDOR_PRODUCTO P ON PROV.idProveedor=P.idProveedor
  inner join PRODUCTO prod on p.idproducto=prod.idProducto
  where p.idProveedor=@idProveedor
  END
  GO
- CREATE OR ALTER PROCEDURE spEliminarDetalleProveedor(@idproveedorp int)
+CREATE OR ALTER PROCEDURE spEliminarDetalleProveedor(@idproveedor int,@idproducto int)
  AS
  BEGIN
 	Delete from PROVEEDOR_PRODUCTO 
-	WHERE PROVEEDOR_PRODUCTO.idProvedoor_producto=@idproveedorp 
+	WHERE idProveedor=@idproveedor and idProducto=@idproducto 
  END
  GO
 
@@ -303,25 +326,7 @@ BEGIN CATCH
 	Set @id=-1;
 END CATCH
 GO
-select * from PROVEEDOR_PRODUCTO
---CREATE OR ALTER PROCEDURE spCrearCompra(
---	@id int out,
---	@total float,
---	@idProveedor int
---)
---AS
---BEGIN TRY
---	BEGIN TRANSACTION
---		INSERT INTO COMPRA (total,idProveedor)values (@total,@idProveedor);
---		Set @id=@@identity;
---	COMMIT TRANSACTION
---END TRY
---BEGIN CATCH
---	ROLLBACK TRANSACTION
---		Set @id=-1;
---END CATCH
---GO
----====LISTAR PRODUCTOS ADMIN============
+
 CREATE OR ALTER PROCEDURE spListarProducto
 AS
 BEGIN
@@ -336,7 +341,7 @@ GO
 CREATE OR ALTER PROCEDURE spListarProductoParaVender
 as
 BEGIN
-SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
+SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, p.precioVenta
 from producto p inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
 inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
 inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto

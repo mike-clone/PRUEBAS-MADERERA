@@ -39,7 +39,7 @@ namespace CapaAccesoDatos
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.Message, "ERROR AL INSERTAR UN PRODUCTO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(e.Message, "ERROR AL INSERTAR EL DETALLE", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -62,7 +62,6 @@ namespace CapaAccesoDatos
                 while (dr.Read())
                 {
                     entProveedorProducto det = new entProveedorProducto();
-                    det.IdProveedorProducto = Convert.ToInt32(dr["idProvedoor_producto"]);
 
                     entProveedor pro = new entProveedor();
                     pro.IdProveedor = Convert.ToInt32(dr["idProveedor"]);
@@ -89,7 +88,7 @@ namespace CapaAccesoDatos
             return list;
         }
 
-        public bool EliminarDetalle(int entp)
+        public bool EliminarDetalle(int prov,int prod)
         {
             SqlCommand cmd = null;
             bool eliminado = false;
@@ -98,7 +97,8 @@ namespace CapaAccesoDatos
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spEliminarDetalleProveedor", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idProveedorp", entp);
+                cmd.Parameters.AddWithValue("@idproveedor", prov);
+                cmd.Parameters.AddWithValue("@idproducto", prod);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)

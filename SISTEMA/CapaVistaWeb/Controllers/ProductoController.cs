@@ -33,37 +33,62 @@ namespace MadereraCarocho.Controllers
             List<entTipoProducto> listaTipoProducto = logTipoProducto.Instancia.ListarTipoProducto();
             var lsTipoProducto = new SelectList(listaTipoProducto, "idTipo_producto", "nombre");
 
-            ViewBag.lista = lista;
             ViewBag.listaTipo = lsTipoProducto;
-            ViewBag.Error = mensaje;
+            ViewBag.listaProveedor = new SelectList(logProveedor.Instancia.SelectListProveedor(), "idProveedor", "NombreCompleto");
             return View(lista);
         }
-        
-        //[PermisosRol(entRol.Administrador)]
-        //[HttpPost]
-        //public ActionResult CrearProducto(string cNombreP, string cLongitudP, string cdiametro,string cPrecioVenta,string precioCompra, FormCollection Tipo ,FormCollection Prov)
-        //{
-        //    try
-        //    {
-        //        entProducto p = new entProducto
-        //        {
-        //            Nombre = cNombreP,
-        //            Longitud = Double.Parse(cLongitudP),
-        //            Diametro = Double.Parse(cdiametro),
-        //            Tipo = new entTipoProducto()
-        //        };
 
-        //        p.Tipo.IdTipo_producto = Convert.ToInt32(Tipo["cTipo"]);
-        //        bool inserta = logProducto.Instancia.CrearProducto(p);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return RedirectToAction("Listar", new { mesjExeption = ex.Message });
-        //    }
-        //    return RedirectToAction("Listar");
-        //}
-       
-        
+        [PermisosRol(entRol.Administrador)]
+        [HttpPost]
+        public ActionResult CrearProducto(string cNombreP, string cLongitudP, string cdiametro, string cPrecioVenta, string cprecioCompra, FormCollection frmTipo, FormCollection frmProv)
+        {
+            try
+            {
+                entProducto p = new entProducto
+                {
+                    Nombre = cNombreP,
+                    Longitud = Double.Parse(cLongitudP),
+                    Diametro = Double.Parse(cdiametro),
+                    PrecioVenta=Double.Parse(cPrecioVenta),
+                    Tipo = new entTipoProducto
+                    {
+                        IdTipo_producto = Convert.ToInt32(frmTipo["cTipo"])
+                    },
+                    ProveedorProducto= new entProveedorProducto
+                    {
+                        Proveedor = new entProveedor
+                        {
+                           IdProveedor = Convert.ToInt32(frmProv["cProv"])
+                        }
+                    }
+                   
+                    
+                };
+
+                int idProducto=logProducto.Instancia.CrearProducto(p);
+                entProveedorProducto pp = new entProveedorProducto
+                {
+                    Proveedor = new entProveedor
+                    {
+                        IdProveedor = Convert.ToInt32(frmProv["cProv"])
+                    },
+                    Producto=new entProducto
+                    {
+                        IdProducto= idProducto
+                    },
+                    PrecioCompra = Double.Parse(cprecioCompra)
+                };
+
+                _=logProveedorProducto.Instancia.CrearDetalle(pp);
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction("Listar", new { mesjExeption = ex.Message });
+            }
+            return RedirectToAction("Listar");
+        }
+
+
         [PermisosRol(entRol.Administrador)]
         [HttpGet]
         public ActionResult EditarProducto(int idprod)
