@@ -164,7 +164,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="form-floating mb-3">
-                        @Html.DropDownList("cTipo", (SelectList)ViewBag.listaTipo, "Seleccionar", new { @class = "form-select", @id = "tipo" })
+                        @Html.DropDownList("cTipo", (SelectList)ViewBag.listaTipo, "Seleccionar", new { @class = "form-select", required = "required" })
                         <label for="tipo" class="form-label">Tipo de Producto: </label>
                     </div>
                     <div class="form-floating mb-3">
@@ -172,12 +172,25 @@
                         <label for="floatingInput">Nombre</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="cLongitudP" id="longitud" placeholder="Longitud" required>
+                        <input type="number" class="form-control" name="cLongitudP" id="longitud" placeholder="Longitud" required>
                         <label for="floatingInput">Longitud</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="cdiametro" id="diametro" placeholder="Diametro" required>
+                        <input type="number" class="form-control" name="cdiametro" id="diametro" placeholder="Diametro" required>
                         <label for="floatingInput">Diametro</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        @Html.DropDownList("cProv", (SelectList)ViewBag.listaProveedor, "Seleccionar", new { @class = "form-select", required = "required" })
+                        <label for="tipo" class="form-label">Provedor de este producto: </label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" name="cprecioCompra" id="precioventa"  required>
+                        <label for="floatingInput">Precio de compra de este producto</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" name="cprecioVenta" id="precioventa"  required>
+                        <label for="floatingInput">Precio al que vendera este producto</label>
                     </div>
 
                 </div>

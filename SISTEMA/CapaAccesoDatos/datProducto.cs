@@ -34,20 +34,18 @@ namespace CapaAccesoDatos
                 cmd.Parameters.AddWithValue("@diametro", prod.Diametro);
                 cmd.Parameters.AddWithValue("@precioVenta", prod.PrecioVenta);
                 cmd.Parameters.AddWithValue("@idTipo_Producto", prod.Tipo.IdTipo_producto);
-                SqlParameter idp = new SqlParameter("@id", 0);
-                idp.Direction = ParameterDirection.Output;
+                SqlParameter idp = new SqlParameter("@id", 0)
+                {
+                    Direction = ParameterDirection.Output
+                };
                 cmd.Parameters.Add(idp);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
 
-                if (i == 1)
-                {
+                if (i > 0)
                     idproducto = Convert.ToInt32(cmd.Parameters["@id"].Value);
-                }
-                if (idproducto == -1)
-                {
-                    MessageBox.Show("Id INVALIDO");
-                }
+               else
+                    MessageBox.Show("no se recupero el id del producto al insertar");
             }
             catch (Exception e)
             {

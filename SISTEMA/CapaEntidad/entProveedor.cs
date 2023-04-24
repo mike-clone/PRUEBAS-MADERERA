@@ -20,6 +20,10 @@ namespace CapaEntidad
        
 
         #region Get and Set
+
+        public string NombreCompleto {
+            get { return razonSocial+"=>"+descripcion; }
+        }
         public int IdProveedor
         {
             get { return idProveedor; }

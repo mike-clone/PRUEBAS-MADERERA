@@ -277,10 +277,10 @@ BEGIN
 END
 GO
 
-CREATE Or ALTER PROCEDURE spCrearProveedorProducto(@idprovedor int,@idproducto int,@precioCompra float)
+CREATE Or ALTER PROCEDURE spCrearProveedorProducto(@idProveedor int,@idProducto int,@precioCompra float)
 AS
 BEGIN
-	INSERT INTO PROVEEDOR_PRODUCTO values (@idprovedor,@idproducto,@precioCompra)
+	INSERT INTO PROVEEDOR_PRODUCTO values (@idproveedor,@idproducto,@precioCompra)
 END
 GO
 
@@ -305,7 +305,7 @@ CREATE OR ALTER PROCEDURE spEliminarDetalleProveedor(@idproveedor int,@idproduct
  END
  GO
 
-
+ 
 ------------------------------------PRODUCTO
 CREATE OR ALTER PROCEDURE spCrearProducto(
     @id int out,
@@ -319,6 +319,7 @@ AS
 BEGIN TRY
 	begin transaction
 		INSERT INTO PRODUCTO(nombre,longitud,diametro,precioVenta,idTipo_Producto) values (@nombre, @longitud,@diametro,@precioVenta, @idTipo_Producto);
+		set @id=@@IDENTITY
 	commit transaction
 END TRY
 BEGIN CATCH

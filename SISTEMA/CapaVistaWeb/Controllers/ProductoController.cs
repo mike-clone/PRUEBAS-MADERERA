@@ -16,7 +16,7 @@ namespace MadereraCarocho.Controllers
     [Authorize]
     public class ProductoController : Controller
     {
-        String mensaje = "";
+    
         // GET: Producto
         [PermisosRol(entRol.Administrador)]
         public ActionResult Listar(string dato)//listar y buscar
@@ -34,7 +34,7 @@ namespace MadereraCarocho.Controllers
             var lsTipoProducto = new SelectList(listaTipoProducto, "idTipo_producto", "nombre");
 
             ViewBag.listaTipo = lsTipoProducto;
-            ViewBag.listaProveedor = new SelectList(logProveedor.Instancia.SelectListProveedor(), "idProveedor", "NombreCompleto");
+            ViewBag.listaProveedor = new SelectList(logProveedor.Instancia.SelectListProveedor(),"idProveedor", "NombreCompleto");
             return View(lista);
         }
 
@@ -42,6 +42,7 @@ namespace MadereraCarocho.Controllers
         [HttpPost]
         public ActionResult CrearProducto(string cNombreP, string cLongitudP, string cdiametro, string cPrecioVenta, string cprecioCompra, FormCollection frmTipo, FormCollection frmProv)
         {
+            
             try
             {
                 entProducto p = new entProducto
@@ -66,6 +67,7 @@ namespace MadereraCarocho.Controllers
                 };
 
                 int idProducto=logProducto.Instancia.CrearProducto(p);
+
                 entProveedorProducto pp = new entProveedorProducto
                 {
                     Proveedor = new entProveedor
@@ -138,7 +140,7 @@ namespace MadereraCarocho.Controllers
             }
             catch (Exception ex)
             {
-                mensaje="error al eliminar";
+             
                 return RedirectToAction("Listar", new { mesjExeption = ex.Message });
             }
             return RedirectToAction("Listar");
