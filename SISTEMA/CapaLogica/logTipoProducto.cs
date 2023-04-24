@@ -21,9 +21,13 @@ namespace CapaLogica
         {
             return datTipoProducto.Instancia.CrearTipoProducto(tipoProducto);
         }
-        public List<entTipoProducto> ListarTipoProducto()
+        public List<entTipoProducto> SelectListTipoProducto()
         {
-            return datTipoProducto.Instancia.ListarTipoProducto();
+            return datTipoProducto.Instancia.SelectListTipoProducto();
+        }
+        public List<entTipoProducto> SelectListTipoProductodat(int id)
+        {
+            return datTipoProducto.Instancia.SelectListTipoProductodat(id);
         }
         public bool ActualizarTipoProducto(entTipoProducto tipoProducto)
         {

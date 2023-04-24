@@ -46,14 +46,14 @@ namespace CapaAccesoDatos
 
         }
         //Leer
-        public List<entTipoProducto> ListarTipoProducto()
+        public List<entTipoProducto>SelectListTipoProducto()
         {
             SqlCommand cmd = null;
             List<entTipoProducto> lista = new List<entTipoProducto>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spListarTipoProducto", cn);
+                cmd = new SqlCommand("spSelectListTipoProducto", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
@@ -77,7 +77,39 @@ namespace CapaAccesoDatos
             return lista;
         }
         //Actualizar
+        public List<entTipoProducto> SelectListTipoProductodat(int id)
+        {
+            SqlCommand cmd = null;
+            List<entTipoProducto> lista = new List<entTipoProducto>();
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spSelectListTipoProductodat", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@id",id);
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    entTipoProducto tip = new entTipoProducto
+                    {
+                        IdTipo_producto = Convert.ToInt32(dr["idTipo_Producto"]),
+                        Nombre = dr["nombre"].ToString()
+                    };
+                    lista.Add(tip);
+                }
 
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message, "EROR AL MOSTRAR LOS TIPOS", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return lista;
+        }
         public bool ActualizarTipoProducto(entTipoProducto tip)
         {
             SqlCommand cmd = null;

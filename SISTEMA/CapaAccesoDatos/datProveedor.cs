@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Security.Cryptography;
 using System.Windows.Forms;
 
 namespace CapaAccesoDatos
@@ -134,6 +135,43 @@ namespace CapaAccesoDatos
             return list;
 
         }
+        public List<entProveedor> SelectListProveedordat(int idprov)
+        {
+            SqlCommand cmd = null;
+            var list = new List<entProveedor>();
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spSelectListProveedordat", cn)
+                {
+                    CommandType = CommandType.StoredProcedure,
+                };
+                cmd.Parameters.AddWithValue("@idproveedor", idprov);
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    entProveedor pro = new entProveedor
+                    {
+                        IdProveedor = Convert.ToInt32(dr["idProveedor"]),
+                        RazonSocial = dr["razonSocial"].ToString(),
+                        Descripcion = dr["descripcion"].ToString(),
+                    };
+                    list.Add(pro);
+                }
+            }
+            catch (Exception e)
+            {
+
+                MessageBox.Show(e.Message + "aqui es el error");
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return list;
+
+        }
         public bool ActualizarProveedor(entProveedor pro)
         {
             SqlCommand cmd = null;
@@ -141,8 +179,10 @@ namespace CapaAccesoDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spActualizarProveedor", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
+                cmd = new SqlCommand("spActualizarProveedor", cn)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
                 cmd.Parameters.AddWithValue("@idProveedor", pro.IdProveedor);
                 cmd.Parameters.AddWithValue("@razonSocial", pro.RazonSocial);
                 cmd.Parameters.AddWithValue("@ruc", pro.Ruc);

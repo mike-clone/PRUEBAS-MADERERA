@@ -22,7 +22,7 @@ namespace CapaEntidad
         #region Get and Set
 
         public string NombreCompleto {
-            get { return razonSocial+"=>"+descripcion; }
+            get { return razonSocial+"::"+descripcion; }
         }
         public int IdProveedor
         {

@@ -27,6 +27,7 @@ BEGIN
 END
 GO
 
+
 --===LISTAR USUARIO==
 CREATE OR ALTER PROCEDURE spListarClientes
 AS
@@ -357,7 +358,7 @@ BEGIN
 	from producto p inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
 	inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
 	inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
-	WHERE CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR tp.nombre LIKE '%'+@campo+'%'
+	WHERE CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR tp.nombre LIKE '%'+@campo+'%' or pr.razonSocial like '%'+@campo+'%'
 END
 GO
 CREATE OR ALTER PROCEDURE spBuscarProductoParaVender
@@ -380,8 +381,9 @@ CREATE OR ALTER PROCEDURE spBuscarProductoid(
 )
 AS
 BEGIN
-SELECT p.idProducto, p.nombre, p.longitud,p.diametro, p.precioVenta, p.stock, t.idTipo_Producto, t.nombre as tipo from PRODUCTO p
-	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto where p.idProducto=@prmintidProducto;
+SELECT p.idProducto, p.nombre, p.diametro,p.longitud,p.precioVenta,p.idTipo_Producto,p.Activo, pp.precioCompra,pp.idProveedor
+	from producto p inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
+	where p.idProducto=@prmintidProducto;
 END
 GO
 
@@ -402,13 +404,21 @@ END
 GO
 
 ---====LISTAR TIPO PRODUCTO ============
-CREATE OR ALTER PROCEDURE spListarTipoProducto
+CREATE OR ALTER PROCEDURE spSelectListTipoProducto
 AS
 BEGIN
 	SELECT *FROM TIPO_PRODUCTO;
 END
 GO
 
+CREATE OR ALTER PROCEDURE spSelectListTipoProductodat(@id int)
+AS
+BEGIN
+	SELECT *FROM TIPO_PRODUCTO where idTipo_Producto=@id
+	union all
+	SELECT*FROM TIPO_PRODUCTO
+END
+GO
 
 CREATE OR ALTER PROCEDURE spEliminarProducto(@idProducto int)
 AS

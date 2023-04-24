@@ -30,11 +30,9 @@ namespace MadereraCarocho.Controllers
             {
                 lista = logProducto.Instancia.ListarProducto();
             }
-            List<entTipoProducto> listaTipoProducto = logTipoProducto.Instancia.ListarTipoProducto();
-            var lsTipoProducto = new SelectList(listaTipoProducto, "idTipo_producto", "nombre");
 
-            ViewBag.listaTipo = lsTipoProducto;
-            ViewBag.listaProveedor = new SelectList(logProveedor.Instancia.SelectListProveedor(),"idProveedor", "NombreCompleto");
+            ViewBag.listaTipo = new SelectList(logTipoProducto.Instancia.SelectListTipoProductodat(0), "idTipo_producto", "nombre");
+            ViewBag.listaProveedor = new SelectList(logProveedor.Instancia.SelectListProveedordat(0), "idProveedor", "NombreCompleto");
             return View(lista);
         }
 
@@ -97,10 +95,8 @@ namespace MadereraCarocho.Controllers
         {
            
             var prod = logProducto.Instancia.BuscarProductoId(idprod);
-
-            var listaTipoProducto = logTipoProducto.Instancia.ListarTipoProducto();
-            var lsTipoProducto = new SelectList(listaTipoProducto, "idTipo_producto", "nombre");
-            ViewBag.listaTipo = lsTipoProducto;
+            ViewBag.listaTipo = new SelectList(logTipoProducto.Instancia.SelectListTipoProductodat(prod.Tipo.IdTipo_producto), "idTipo_producto", "nombre");
+            ViewBag.listaProveedor = new SelectList(logProveedor.Instancia.SelectListProveedordat(prod.ProveedorProducto.Proveedor.IdProveedor), "idProveedor", "NombreCompleto");
             return View(prod);
         }
 
@@ -150,7 +146,7 @@ namespace MadereraCarocho.Controllers
         public ActionResult Ordenar(int dato)
         {
             List <entProducto> lista= logProducto.Instancia.Ordenar(dato);
-            List<entTipoProducto> listaTipoProducto = logTipoProducto.Instancia.ListarTipoProducto();
+            List<entTipoProducto> listaTipoProducto = logTipoProducto.Instancia.SelectListTipoProductodat(0);
             var lsTipoProducto = new SelectList(listaTipoProducto, "idTipo_producto", "nombre");
 
             ViewBag.listaTipo = lsTipoProducto;

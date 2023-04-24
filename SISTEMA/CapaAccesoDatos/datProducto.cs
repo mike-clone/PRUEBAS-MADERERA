@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace CapaAccesoDatos
 {
@@ -387,13 +388,21 @@ namespace CapaAccesoDatos
                     Prod.Longitud = Convert.ToDouble(dr["longitud"]);
                     Prod.Diametro = Convert.ToDouble(dr["diametro"]);
                     Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
-                    Prod.Stock = Convert.ToInt32(dr["stock"]);
-                    var tipo = new entTipoProducto
+                    Prod.Activo = Convert.ToBoolean(dr["Activo"]);
+                    Prod.Tipo = new entTipoProducto
                     {
                         IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]),
-                        Nombre = dr["tipo"].ToString()
                     };
-                    Prod.Tipo = tipo;
+                    Prod.ProveedorProducto = new entProveedorProducto
+                    {
+                        Proveedor=new entProveedor
+                        {
+                            IdProveedor = Convert.ToInt32(dr["idProveedor"]),
+                        },
+                        PrecioCompra = Convert.ToDouble(dr["precioCompra"])
+
+                    };
+                    
                 }
             }
             catch (Exception e)

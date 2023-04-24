@@ -30,6 +30,10 @@ namespace CapaLogica
         {
             return datProveedor.Instancia.SelectListProveedor();
         }
+        public List<entProveedor> SelectListProveedordat(int id)
+        {
+            return datProveedor.Instancia.SelectListProveedordat(id);
+        }
         public bool ActualizarProveedor(entProveedor pro)
         {
             return datProveedor.Instancia.ActualizarProveedor(pro);
