@@ -394,15 +394,22 @@ CREATE OR ALTER PROCEDURE spActualizarProducto
 	@longitud float,
 	@diametro float,
 	@precioVenta float,
-	@idTipo_producto int
+	@idTipo_producto int,
+	@Activo bit,
+	@idProveedor int,
+	@precioCompra float
+	
 )
 AS
 BEGIN
-update PRODUCTO set nombre=@nombre,longitud=@longitud,diametro=@diametro,precioVenta=@precioVenta,@idTipo_producto=@idTipo_producto
+update PRODUCTO set nombre=@nombre,longitud=@longitud,diametro=@diametro,precioVenta=@precioVenta,@idTipo_producto=@idTipo_producto,Activo=@Activo
 where idProducto=@idproducto
+update PROVEEDOR_PRODUCTO set idProveedor=@idProveedor,precioCompra=@precioCompra where idProducto=@idproducto
 END
 GO
 
+select* from PROVEEDOR_PRODUCTO
+select * from PRODUCTO
 ---====LISTAR TIPO PRODUCTO ============
 CREATE OR ALTER PROCEDURE spSelectListTipoProducto
 AS

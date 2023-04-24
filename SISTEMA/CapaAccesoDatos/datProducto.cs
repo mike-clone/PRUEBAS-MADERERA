@@ -170,14 +170,19 @@ namespace CapaAccesoDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spActualizarProducto", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idproducto", Prod.IdProducto);
+                cmd = new SqlCommand("spActualizarProducto", cn)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                cmd.Parameters.AddWithValue("@idProducto", Prod.IdProducto);
                 cmd.Parameters.AddWithValue("@nombre", Prod.Nombre);
                 cmd.Parameters.AddWithValue("@longitud", Prod.Longitud);
                 cmd.Parameters.AddWithValue("@diametro", Prod.Diametro);
                 cmd.Parameters.AddWithValue("@precioVenta", Prod.PrecioVenta);
                 cmd.Parameters.AddWithValue("@idTipo_producto", Prod.Tipo.IdTipo_producto);
+                cmd.Parameters.AddWithValue("@Activo", Prod.Activo);
+                cmd.Parameters.AddWithValue("@idProveedor", Prod.ProveedorProducto.Proveedor.IdProveedor);
+                cmd.Parameters.AddWithValue("@precioCompra", Prod.ProveedorProducto.PrecioCompra);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)

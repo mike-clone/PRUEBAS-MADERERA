@@ -102,11 +102,18 @@ namespace MadereraCarocho.Controllers
 
         [PermisosRol(entRol.Administrador)]
         [HttpPost]
-        public ActionResult EditarProducto(entProducto p, FormCollection frm)
+        public ActionResult EditarProducto(entProducto p, FormCollection frm,FormCollection prov)
         {
             p.Tipo = new entTipoProducto
             {
-                IdTipo_producto = Convert.ToInt32(frm["cTipoU"])
+                IdTipo_producto = Convert.ToInt32(frm["tipo"])
+            };
+            p.ProveedorProducto = new entProveedorProducto
+            {
+                Proveedor=new entProveedor
+                {
+                    IdProveedor = Convert.ToInt32(prov["prov"])
+                }
             };
             try
             {
