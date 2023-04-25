@@ -4,16 +4,13 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Data;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace CapaAccesoDatos
 {
     public class datDetCompra
     {
-        List<entDetCompra> detCompra = new List<entDetCompra>();//Sirve para guardar temporalmente productos al carrito
+        List<entDetCompra> DetCompra = new List<entDetCompra>();//IR GUARDANDO LOS PRODUCOS QUE IRAN EN LA COMPRA
         private static readonly datDetCompra _instancia = new datDetCompra();
         public static datDetCompra Instancia
         {

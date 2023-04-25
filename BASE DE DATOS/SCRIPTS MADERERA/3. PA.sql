@@ -214,12 +214,12 @@ BEGIN
 END
 GO
 
-CREATE OR ALTER PROCEDURE spSelectListProveedor
-AS
-BEGIN
-	select idProveedor,razonSocial,descripcion from PROVEEDOR 
-END
-GO
+--CREATE OR ALTER PROCEDURE spSelectListProveedor
+--AS
+--BEGIN
+--	select idProveedor,razonSocial,descripcion from PROVEEDOR 
+--END
+--GO
 --=== BUSCAR PROVEEDOR======
 CREATE OR ALTER PROCEDURE spBuscarProveedor(
 	@Campo varchar(40)
@@ -408,15 +408,13 @@ update PROVEEDOR_PRODUCTO set idProveedor=@idProveedor,precioCompra=@precioCompr
 END
 GO
 
-select* from PROVEEDOR_PRODUCTO
-select * from PRODUCTO
 ---====LISTAR TIPO PRODUCTO ============
-CREATE OR ALTER PROCEDURE spSelectListTipoProducto
-AS
-BEGIN
-	SELECT *FROM TIPO_PRODUCTO;
-END
-GO
+--CREATE OR ALTER PROCEDURE spSelectListTipoProducto
+--AS
+--BEGIN
+--	SELECT *FROM TIPO_PRODUCTO;
+--END
+--GO
 
 CREATE OR ALTER PROCEDURE spSelectListTipoProductodat(@id int)
 AS
@@ -436,66 +434,11 @@ END
 GO
 --==== BUSCAR PRODUCTOS ADMIN===
 
-
---INSERT INTO PROVEEDOR_PRODUCTO VALUES (2,1,25)
-
 ----========ROL======---
-CREATE OR ALTER PROCEDURE spListarRol
-AS
-BEGIN
-select * from rol;
-END
-GO
-----Actualizar Usuario
---CREATE OR ALTER PROCEDURE spActualizarUsuario(
---	@newUsuario varchar(40),
---	@contra varchar(200),
---	@oldUsuario varchar(40)
---)
+--CREATE OR ALTER PROCEDURE spListarRol
 --AS
 --BEGIN
---	update ADMINISTRADOR set usuario = @newUsuario
---	where usuario = @oldUsuario and contra = @contra;
---END
---GO
-----Actualizar Contraseña
---CREATE OR ALTER PROCEDURE spActualizarContra(
---	@usuario varchar(40),
---	@oldContra varchar(200),
---	@newContra varchar(200)
---)
---AS
---BEGIN
---	update ADMINISTRADOR set contra = @newContra
---	where usuario = @usuario and contra = @oldContra;
---END
---GO
-
---CREATE OR ALTER procedure spObtenerUsuario
---AS 
---BEGIN
---	SELECT u.idUsuario, u.userName, u.correo, u.pass from USUARIO u
---END
---GO
----------USUARIO CON ROL ADMINISTRADOR OR EMPLEADO------
---CREATE OR ALTER PROCEDURE spListarUSUARIOAdmin
---AS
---BEGIN
---	select c.idUSUARIO,c.razonSocial, c.dni,c.telefono,c.direccion,u.userName,u.correo,r.descripcion,u.activo from USUARIO c inner join usuario u
---	on c.idUSUARIO=u.idUSUARIO inner join
---	rol r on r.idRol=u.idRol where u.idRol=1 or u.idRol=3
---END
---GO
-
---CREATE OR ALTER PROCEDURE spBuscarUSUARIOAdmin
---(
---@Campo varchar(20)
---)
---AS
---BEGIN
---select c.idUSUARIO,c.razonSocial, c.dni,c.telefono,c.direccion,u.userName,u.correo,r.descripcion,u.activo from USUARIO c inner join usuario u
---	on c.idUSUARIO=u.idUSUARIO inner join
---	rol r on r.idRol=u.idRol where (u.idRol=1 or u.idRol=3 )and c.razonSocial like '%'+@Campo+'%';
+--select * from rol;
 --END
 --GO
 
@@ -508,89 +451,6 @@ GO
 
 
 
---------------------------------------TIPO_PRODUCTO
---CREATE OR ALTER PROCEDURE spCrearTipoProducto(
---	@nombre varchar(30)
---)
---AS
---BEGIN
---	INSERT INTO TIPO_PRODUCTO VALUES(@nombre);
---END
---GO
-
---CREATE OR ALTER PROCEDURE spActualizarTipoProducto
---	@idTipo_Producto int,
---	@nombre varchar(30)
---AS
---BEGIN
---	update TIPO_PRODUCTO set nombre = @nombre where idTipo_Producto = @idTipo_Producto
---END
---GO
-
-
---CREATE OR ALTER PROCEDURE spListarProducto
---AS
---BEGIN
---	SELECT p.idProducto, p.nombre, p.longitud, p.precioCompra, p.precioVenta, p.stock, t.idTipo_Producto, t.nombre as tipo from PRODUCTO p
---	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto;
---END
---GO
-
---CREATE OR ALTER PROCEDURE spBuscarProductoid(
---@prmintidProducto int
---)
---AS
---BEGIN
---SELECT p.idProducto, p.nombre, p.longitud, p.precioCompra, p.precioVenta, p.stock, t.idTipo_Producto, t.nombre as tipo from PRODUCTO p
---	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto where p.idProducto=@prmintidProducto;
---END
---GO
---CREATE OR ALTER PROCEDURE spActualizarProducto(
---	@idProducto int,
---	@nombre varchar(40),
---	@longitud int,
---	@precioCompra float,
---	@precioVenta float,
---	@idTipo_Producto int
---)
---AS
---BEGIN
---	update PRODUCTO set nombre = @nombre, longitud = @longitud, precioCompra = @precioCompra,precioVenta=@precioVenta,
---	idTipo_Producto = @idTipo_Producto
---	where idProducto = @idProducto;
---END
---GO
-
-
-
---CREATE OR ALTER PROCEDURE spBuscarProducto(
---	@Campo varchar(40)
---)
---AS
---BEGIN
---SELECT p.idProducto, p.nombre, p.longitud, p.precioCompra, p.precioVenta, p.stock, t.idTipo_Producto, t.nombre as tipo from PRODUCTO p
---	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto where p.nombre LIKE '%'+@campo+'%' OR P.longitud LIKE @Campo;
- 
---END
---GO
-
---CREATE OR ALTER PROCEDURE spOrdenarProducto
---(
---@dato int
---)
---AS
---BEGIN
-
---IF(@dato=1)
---SELECT p.idProducto, p.nombre, p.longitud, p.precioCompra, p.precioVenta, p.stock, t.idTipo_Producto, t.nombre as tipo from PRODUCTO p
---	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto ORDER BY p.nombre ASC;
---else
-
---	SELECT p.idProducto, p.nombre, p.longitud, p.precioCompra, p.precioVenta, p.stock, t.idTipo_Producto, t.nombre as tipo from PRODUCTO p
---	inner join TIPO_PRODUCTO t on p.idTipo_Producto = t.idTipo_Producto ORDER BY p.nombre DESC;
---END
---GO
---------------------------------------USUARIO
 
 
 
@@ -664,32 +524,145 @@ GO
 --	update VENTA set estado = @estado where idVenta = @idVenta;
 --END
 --GO
---------------------------------------COMPRA
---CREATE OR ALTER PROCEDURE spCrearCompra(
---	@id int out,
---	@total float,
---	@idProveedor int
---)
---AS
---BEGIN TRY
---	BEGIN TRANSACTION
---		INSERT INTO COMPRA (total,idProveedor)values (@total,@idProveedor);
---		Set @id=@@identity;
---	COMMIT TRANSACTION
---END TRY
---BEGIN CATCH
---	ROLLBACK TRANSACTION
---		Set @id=-1;
---END CATCH
---GO
 
---CREATE OR ALTER PROCEDURE spListarCompra
---AS
---BEGIN
---	Select c.idCompra, c.fecha, c.total, c.idProveedor, p.razonSocial from COMPRA c 
---	inner join PROVEEDOR p on p.idProveedor = c.idProveedor
---END
---GO
+------------------------------------COMPRA
+CREATE OR ALTER PROCEDURE spCrearCompra(
+	@id int out,
+	@total float,
+	@idUsuario int
+)
+AS
+BEGIN TRY
+	BEGIN TRANSACTION
+		INSERT INTO COMPRA (total,idUsuario)values (@total,@idUsuario);
+		Set @id=@@identity;
+	COMMIT TRANSACTION
+END TRY
+BEGIN CATCH
+	ROLLBACK TRANSACTION
+		Set @id=-1;
+END CATCH
+GO
+CREATE OR ALTER PROCEDURE spCrearDetCompra(
+	@idCompra int,
+	@idProducto int,
+	@cantidad int,
+	@subTotal float
+	
+)
+AS
+BEGIN
+    --declare @estado varchar(10)='vacio'
+	INSERT INTO DETALLE_COMPRA values (@idCompra, @idProducto, @cantidad,@subTotal);
+   -- select @estado=estado from compra where idCompra=@idCompra;
+	--if @estado='entregado'
+	--begin
+	--end
+END
+GO
+
+CREATE OR ALTER PROCEDURE spListarCompra
+AS
+BEGIN
+	Select idCompra, fecha,total,estado from COMPRA 
+END
+GO
+
+CREATE OR ALTER PROCEDURE spCrearTemporaryProducts
+(
+	@idProducto int,
+	@idUsuario int,
+	@cantidad int,
+	@subtotal float
+)
+AS
+BEGIN
+	insert into Temporary_products values(@idProducto,@idProducto,@cantidad,@subtotal);
+END
+GO
+
+CREATE OR ALTER PROCEDURE spListarTemporaryProducts
+(
+	@idUsuario int
+)
+as
+begin
+    select temp.idtemp,temp.idproducto,temp.cantidad,temp.subtotal,pr.razonSocial,pr.descripcion from Temporary_products temp
+	inner join PRODUCTO p on temp.idProducto=p.idProducto
+	inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
+	inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
+	where temp.idUsuario=@idUsuario
+end
+go
+
+CREATE OR ALTER PROCEDURE spEliminarTemporaryProducts
+(
+	@idtemp int
+)
+as
+begin
+ delete from Temporary_products where idtemp=@idtemp;
+end
+go
+
+CREATE OR ALTER procedure spEditarTemporaryProducts(@idtemp int,@cantidad int)
+as
+begin
+	update Temporary_products set cantidad=@cantidad where idtemp=@idtemp;
+end
+go
+
+CREATE OR ALTER TRIGGER tgInsertarCompra
+	on Compra
+after insert
+as
+begin
+	declare @idusuario int;
+	select @idusuario=inserted.idUsuario from inserted
+	--inner join compra on inserted.idCompra=compra.idCompra;
+	delete from Temporary_products where Temporary_products.idUsuario=@idusuario;
+end
+go
+
+
+CREATE OR ALTER TRIGGER tgUpdateCompra
+on compra
+after update
+as
+begin
+	declare @estado varchar(10)
+	declare @idcompra int
+	DECLARE @idc INT
+	declare @idp int
+    DECLARE @stock_origen int
+    DECLARE @stock_destino int
+
+	select @estado=inserted.estado,@idcompra=inserted.idCompra from inserted
+	
+	if @estado='entregado'
+	begin
+		DECLARE cursor_actualizar CURSOR FOR
+		SELECT idProducto,cantidad
+		FROM DETALLE_COMPRA
+		where idCompra=@idcompra
+
+		OPEN cursor_actualizar
+
+		FETCH NEXT FROM cursor_actualizar INTO @idp, @stock_origen
+
+		WHILE @@FETCH_STATUS = 0
+		BEGIN
+		   UPDATE PRODUCTO
+		   SET stock +=@stock_origen
+		   WHERE idProducto = @idp
+		   FETCH NEXT FROM cursor_actualizar INTO @idp, @stock_origen
+		END
+		CLOSE cursor_actualizar
+		DEALLOCATE cursor_actualizar
+	 end
+end
+go
+
 
 --/*CREATE OR ALTER PROCEDURE spReporteCompra
 --AS
@@ -723,20 +696,7 @@ GO
 --GO
 
 --------------------------------------DETALLE_COMPRA
---CREATE OR ALTER PROCEDURE spCrearDetCompra(
---	@idCompra int,
---	@idProducto int,
---	@cantidad int,
---	@subTotal float
-	
---)
---AS
---BEGIN
---	INSERT INTO DETALLE_COMPRA values (@idCompra, @idProducto, @cantidad,@subTotal)
---	update Producto set stock += @cantidad 
---	where idProducto = @idProducto 
---END
---GO
+
 
 --/*CREATE OR ALTER PROCEDURE spMostrarReporteCompra(
 --	@idCompra int	

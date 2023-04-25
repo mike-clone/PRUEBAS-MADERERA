@@ -33,8 +33,11 @@ namespace CapaAccesoDatos
                 };
                 cmd.Parameters.AddWithValue("@total", comp.Total);
                 cmd.Parameters.AddWithValue("@idProveedor", comp.Proveedor.IdProveedor);
-                SqlParameter id = new SqlParameter("@id", 0);
-                id.Direction = ParameterDirection.Output;
+                cmd.Parameters.AddWithValue("@estado", comp.Estado);
+                SqlParameter id = new SqlParameter("@id", 0)
+                {
+                    Direction = ParameterDirection.Output
+                };
                 cmd.Parameters.Add(id);
 
                 cn.Open();
@@ -77,22 +80,20 @@ namespace CapaAccesoDatos
                     {
                         IdCompra = Convert.ToInt32(dr["idCompra"]),
                         Fecha = Convert.ToDateTime(dr["fecha"]),
-                        Total = Convert.ToDouble(dr["total"])
+                        Total = Convert.ToDouble(dr["total"]),
+                        Estado = dr["@estado"].ToString(),
+                        Proveedor=new entProveedor
+                        {
+                            RazonSocial = dr["razonSocial"].ToString()
+                        }
                     };
-                    entProveedor pro = new entProveedor
-                    {
-                        IdProveedor = Convert.ToInt32(dr["idProveedor"]),
-                        RazonSocial = dr["razonSocial"].ToString()
-
-                    };
-                    objCompra.Proveedor = pro;
 
                     lista.Add(objCompra);
                 }
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.Message, "spCrearCompra", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(e.Message, "spListarcompra", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -128,34 +129,6 @@ namespace CapaAccesoDatos
         }
 
         #region OTROS
-        public int GenerarID(string tipo)
-        {
-            SqlCommand cmd = null;
-            int id = 0;
-            try
-            {
-                SqlConnection cn = Conexion.Instancia.Conectar();
-
-                cmd = new SqlCommand("spReturnID", cn)
-                {
-                    CommandType = CommandType.StoredProcedure
-                };
-                cmd.Parameters.AddWithValue("@tipo", tipo);
-                cn.Open();
-                cmd.ExecuteNonQuery();
-                id = Convert.ToInt16(cmd.ExecuteScalar());
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show(e.Message);
-            }
-            finally
-            {
-                cmd.Connection.Close();
-            }
-            return id;
-
-        }
         public List<entCompra> BuscarCompra(string busqueda)
         {
             List<entCompra> lista = new List<entCompra>();

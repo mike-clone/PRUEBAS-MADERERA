@@ -116,25 +116,36 @@ CREATE TABLE COMPRA(
 	idCompra int primary key identity,
 	fecha date default getdate(),
 	total float not null,
-	idProveedor int not null
-
-	constraint fk_Compra_Proveedor foreign key (idProveedor) references PROVEEDOR (idProveedor)
+	idUsuario int not null,
+	estado varchar(10) default 'en proceso',
+	constraint fk_compra_usuario foreign key (idUsuario) references usuario (idUsuario)
 )
 GO
 
 CREATE TABLE DETALLE_COMPRA(
-	idDetCompra int identity,
 	idCompra int not null,
 	idProducto int not null,
 	cantidad int not null,
-	subTotal float not null
+	subTotal float not null,
 
-	constraint pk_detCompra primary key (idDetCompra),
+
+	constraint pk_detCompra primary key (idCompra,idProducto),
 	constraint fk_detCompra_Compra foreign key (idCompra) references COMPRA (idCompra),
 	constraint fk_detCompra_Producto foreign key (idProducto) references PRODUCTO (idProducto)
 )
 GO
 
+CREATE TABLE Temporary_products(
+   idTemp int primary key identity,
+   idProducto int not null,
+   idUsuario int not null,
+   cantidad int not null,
+   subtotal float,
+   constraint fk_temporals_products_producto foreign key (idProducto) references PRODUCTO (idProducto),
+   constraint fk_temporals_products_usuario foreign key (idUsuario) references usuario (idUsuario)
+
+)
+go
 --------------------------------------------RESTRICCIONES---------------------------------------------
 
 --Usuario
@@ -148,6 +159,7 @@ CREATE  UNIQUE INDEX idx_ProveedorTelefono ON PROVEEDOR (telefono) WHERE telefon
 ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_PROVEEDOR_telefono CHECK(telefono LIKE '9[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]' or telefono = '' or telefono LIKE '0[0-9][0-9][0-9][0-9][0-9][0-9][0-9]');
 ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_PROVEEDOR_ruc CHECK(ruc LIKE '[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]');
 ALTER TABLE PROVEEDOR ADD CONSTRAINT CHK_estProveedor CHECK(estProveedor LIKE '[0-2]');
-
+--COMPRA
+ALTER TABLE COMPRA ADD CONSTRAINT chk_compra_estado CHECK(estado='en proceso' or estado='cancelado' or estado='entregado');
 GO
 
