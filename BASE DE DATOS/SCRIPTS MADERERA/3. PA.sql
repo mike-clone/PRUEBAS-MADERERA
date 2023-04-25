@@ -587,13 +587,26 @@ CREATE OR ALTER PROCEDURE spListarTemporaryProducts
 )
 as
 begin
-    select temp.idtemp,temp.idproducto,temp.cantidad,temp.subtotal,pr.razonSocial,pr.descripcion from Temporary_products temp
+    select temp.idtemp,p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,pp.precioCompra,pr.razonSocial,pr.descripcion,temp.subtotal from Temporary_products temp
 	inner join PRODUCTO p on temp.idProducto=p.idProducto
+	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idProducto 
 	inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
 	inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
 	where temp.idUsuario=@idUsuario
 end
 go
+
+CREATE OR ALTER PROCEDURE spBuscarTemporaryProductsId(@idtemp int)
+AS
+BEGIN
+select temp.idtemp,p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,pp.precioCompra,pr.razonSocial,pr.descripcion,temp.subtotal from Temporary_products temp
+	inner join PRODUCTO p on temp.idProducto=p.idProducto
+	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idProducto 
+	inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
+	inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
+	where temp.idUsuario=@idtemp
+END
+GO
 
 CREATE OR ALTER PROCEDURE spEliminarTemporaryProducts
 (
@@ -611,6 +624,7 @@ begin
 	update Temporary_products set cantidad=@cantidad where idtemp=@idtemp;
 end
 go
+
 
 CREATE OR ALTER TRIGGER tgInsertarCompra
 	on Compra

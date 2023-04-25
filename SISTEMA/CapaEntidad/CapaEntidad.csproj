@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="entCarrito.cs" />
+    <Compile Include="EntTemporaryProducts.cs" />
     <Compile Include="entUsuario.cs" />
     <Compile Include="entCompra.cs" />
     <Compile Include="entDetCompra.cs" />

@@ -29,10 +29,10 @@ namespace CapaLogica
         {
             return datCompra.Instancia.EliminarCompra(comp);
         }
-        public int DevolverID(string tipo)
-        {
-            return datCompra.Instancia.GenerarID(tipo);
-        }
+        //public int DevolverID(string tipo)
+        //{
+        //    return datCompra.Instancia.GenerarID(tipo);
+        //}
         public List<entCompra> BuscarCompra(string busqueda)
         {
             return datCompra.Instancia.BuscarCompra(busqueda);

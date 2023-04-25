@@ -50,46 +50,45 @@ namespace CapaAccesoDatos
             return creado;
         }
 
-        #region CarritoCompra
-        public void AgregarProductoCarrito(entDetCompra det)
-        {
-            detCompra.Add(det);
-        }
+        //public void AgregarProductoCarrito(entDetCompra det)
+        //{
+        //    detCompra.Add(det);
+        //}
 
-        public List<entDetCompra> MostrarDetCarrito()
-        {
-            var lista = new List<entDetCompra>();
-            for (int i = 0; i < detCompra.Count(); i++)
-            {
-                entDetCompra dv = new entDetCompra();
-                dv = detCompra[i];//Obs
-                lista.Add(dv);
-            }
-            return lista;
-        }
+        //public List<entDetCompra> MostrarDetCarrito()
+        //{
+        //    var lista = new List<entDetCompra>();
+        //    for (int i = 0; i < detCompra.Count(); i++)
+        //    {
+        //        entDetCompra dv = new entDetCompra();
+        //        dv = detCompra[i];//Obs
+        //        lista.Add(dv);
+        //    }
+        //    return lista;
+        //}
 
-        public bool EliminarDetCarrito(int id)
-        {
-            bool eliminado = false;
-            try
-            {
-                for (int i = 0; i < detCompra.Count(); i++)
-                {
-                    if (detCompra[i].Producto.IdProducto.Equals(id))
-                    {
-                        detCompra.RemoveAt(i);
-                    }
-                }
-                eliminado= true;
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("El elemento esta fuera del indice o no existe", "Maderera carocho", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            return eliminado;
+        //public bool EliminarDetCarrito(int id)
+        //{
+        //    bool eliminado = false;
+        //    try
+        //    {
+        //        for (int i = 0; i < detCompra.Count(); i++)
+        //        {
+        //            if (detCompra[i].Producto.IdProducto.Equals(id))
+        //            {
+        //                detCompra.RemoveAt(i);
+        //            }
+        //        }
+        //        eliminado= true;
+        //    }
+        //    catch (Exception)
+        //    {
+        //        MessageBox.Show("El elemento esta fuera del indice o no existe", "Maderera carocho", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //    }
+        //    return eliminado;
 
-        }
-        #endregion CarritoCompra
+        //}
+        //#endregion CarritoCompra
 
         public List<entReporteCompra> MostrarReporteCompra(int idCompra)
         {
