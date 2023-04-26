@@ -267,7 +267,6 @@
     <Content Include="Views\Producto\Listar.cshtml" />
     <Content Include="Views\Home\Admin.cshtml" />
     <Content Include="Views\Home\Cliente.cshtml" />
-    <Content Include="Views\Producto\EditarProducto.cshtml" />
     <Content Include="Views\Proveedor\Listar.cshtml" />
     <Content Include="Views\Usuario\ListarClientes.cshtml" />
     <Content Include="Views\Empleado\Listar.cshtml" />
@@ -277,12 +276,13 @@
     <Content Include="Views\Venta\Detalle.cshtml" />
     <Content Include="Views\Venta\Listar.cshtml" />
     <Content Include="Views\Compra\Index.cshtml" />
-    <Content Include="Views\Compra\DetalleCarrito.cshtml" />
+    <Content Include="Views\Compra\ListarTempProduct.cshtml" />
     <Content Include="Views\Empleado\EditarEmpleado.cshtml" />
     <Content Include="Views\Proveedor\EditarProveedor.cshtml" />
     <Content Include="Views\Proveedor\MostrarDetalle.cshtml" />
     <Content Include="Views\Usuario\EditarCliente.cshtml" />
     <Content Include="Views\Home\EditarDatosCliente.cshtml" />
+    <Content Include="Views\Producto\EditarProductos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Security.Cryptography;
 using System.Windows.Forms;
 
 namespace CapaAccesoDatos
@@ -16,7 +15,7 @@ namespace CapaAccesoDatos
             get { return _instance; }
         }
 
-   
+
         //Crear
         public bool CrearProveedor(entProveedor pro)
         {
@@ -66,23 +65,24 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProveedor pro = new entProveedor {
-                    IdProveedor = Convert.ToInt32(dr["idProveedor"]),
-                    RazonSocial = dr["razonSocial"].ToString(),
-                    Ruc = dr["ruc"].ToString(),
-                    Correo = dr["correo"].ToString(),
-                    Telefono = dr["telefono"].ToString(),
-                    Descripcion = dr["descripcion"].ToString(),
-                    EstProveedor = Convert.ToBoolean(dr["estProveedor"])
+                    entProveedor pro = new entProveedor
+                    {
+                        IdProveedor = Convert.ToInt32(dr["idProveedor"]),
+                        RazonSocial = dr["razonSocial"].ToString(),
+                        Ruc = dr["ruc"].ToString(),
+                        Correo = dr["correo"].ToString(),
+                        Telefono = dr["telefono"].ToString(),
+                        Descripcion = dr["descripcion"].ToString(),
+                        EstProveedor = Convert.ToBoolean(dr["estProveedor"])
                     };
-                    
+
                     entUbigeo ubi = new entUbigeo
                     {
-                    Departamento = dr["departamento"].ToString(),
-                    Provincia = dr["provincia"].ToString(),
-                    Distrito = dr["distrito"].ToString()
+                        Departamento = dr["departamento"].ToString(),
+                        Provincia = dr["provincia"].ToString(),
+                        Distrito = dr["distrito"].ToString()
                     };
-                    
+
                     pro.Ubigeo = ubi;
                     list.Add(pro);
                 }
@@ -90,7 +90,7 @@ namespace CapaAccesoDatos
             catch (Exception e)
             {
 
-                MessageBox.Show(e.Message+"aqui es el error");
+                MessageBox.Show(e.Message + "aqui es el error");
             }
             finally
             {
@@ -238,9 +238,9 @@ namespace CapaAccesoDatos
             }
             return eliminado;
         }
-   
 
-     
+
+
         public List<entProveedor> BuscarProveedor(string busqueda)
         {
             List<entProveedor> list = new List<entProveedor>();
@@ -316,6 +316,6 @@ namespace CapaAccesoDatos
             return pro;
         }
 
-        
+
     }
 }

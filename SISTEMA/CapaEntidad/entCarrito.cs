@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace CapaEntidad
 {
@@ -22,7 +18,7 @@ namespace CapaEntidad
         //public void llenarcarrito(entDetVenta vn)
         //{
         //    Detalle.Add(vn);
-            
+
         //}
         //public List<entDetVenta> listarcarrito()
         //{
@@ -30,10 +26,10 @@ namespace CapaEntidad
         //    for (int i=0;i< detalle.Count();i++)
         //    {
         //        vn = detalle[i];
-                
+
         //    }
         //}
-           
+
 
     }
 }

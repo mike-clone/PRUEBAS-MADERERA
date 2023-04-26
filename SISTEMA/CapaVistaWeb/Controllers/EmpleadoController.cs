@@ -3,8 +3,6 @@ using CapaLogica;
 using MadereraCarocho.Permisos;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace MadereraCarocho.Controllers
@@ -37,8 +35,8 @@ namespace MadereraCarocho.Controllers
 
 
         [HttpPost]
-        public ActionResult CrearEmpleado(string cNombreE, string cDniE, string cTelefonoE, string cDireccionE, 
-            /*DateTime cF_inicioE, DateTime cf_finE,*/ double cSalarioE, string cDescripcionE, 
+        public ActionResult CrearEmpleado(string cNombreE, string cDniE, string cTelefonoE, string cDireccionE,
+            /*DateTime cF_inicioE, DateTime cf_finE,*/ double cSalarioE, string cDescripcionE,
             /*bool cEstEmpleadoE,*/ FormCollection frm)
         {
             try
@@ -82,8 +80,9 @@ namespace MadereraCarocho.Controllers
                     Nombre = Tipo
                 };
                 bool crea = logTipoEmpleado.Instancia.CrearTipoEmpleado(tip);
-               
-            }catch( Exception ex)
+
+            }
+            catch (Exception ex)
             {
                 return RedirectToAction("Listar", new { mesjExeption = ex.Message });
             }
@@ -105,14 +104,14 @@ namespace MadereraCarocho.Controllers
             return View(emp);
         }
         [HttpPost]
-        public ActionResult EditarEmpleado(entEmpleado e, FormCollection tipo,FormCollection ubi)
+        public ActionResult EditarEmpleado(entEmpleado e, FormCollection tipo, FormCollection ubi)
         {
             e.Tipo = new entTipoEmpleado();
             e.Tipo.IdTipo_Empleado = Convert.ToInt32(tipo["cTipo"]);
 
             e.Ubigeo = new entUbigeo();
             e.Ubigeo.IdUbigeo = ubi["cUbigeo"];
-           
+
             try
             {
                 Boolean edita = logEmpleado.Instancia.ActualizarEmpleado(e);

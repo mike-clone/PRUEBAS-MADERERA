@@ -1,10 +1,6 @@
 ﻿using CapaAccesoDatos;
 using CapaEntidad;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CapaLogica
 {
@@ -14,7 +10,7 @@ namespace CapaLogica
 
         public static logProveedor Instancia
         {
-            get { return _instancia;}
+            get { return _instancia; }
         }
 
         #region CRUD

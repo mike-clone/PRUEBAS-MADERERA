@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
-
-namespace CapaEntidad
+﻿namespace CapaEntidad
 {
     public class entProducto
     {
@@ -17,7 +10,6 @@ namespace CapaEntidad
         private entTipoProducto tipo;
         private int stock;
         private bool activo;
-        private entProveedorProducto proveedorProducto;
         public string NombreCompleto
         {
             get { return nombre + " - " + longitud + "MT - " + diametro + "Ø"; }
@@ -60,10 +52,9 @@ namespace CapaEntidad
             get { return stock; }
             set { stock = value; }
         }
-        
+
 
         public bool Activo { get => activo; set => activo = value; }
-        public entProveedorProducto ProveedorProducto { get => proveedorProducto; set => proveedorProducto = value; }
 
         #endregion Get and Set
     }

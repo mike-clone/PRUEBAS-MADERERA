@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CapaEntidad
+﻿namespace CapaEntidad
 {
     public class entUbigeo
     {
-        string  idUbigeo;
+        string idUbigeo;
         string departamento;
         string provincia;
         string distrito;

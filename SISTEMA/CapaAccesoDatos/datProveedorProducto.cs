@@ -3,14 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CapaAccesoDatos
 {
-  public  class datProveedorProducto
+    public class datProveedorProducto
     {
         private static readonly datProveedorProducto _instance = new datProveedorProducto();
 
@@ -22,7 +19,7 @@ namespace CapaAccesoDatos
         public bool CrearProveedorProducto(entProveedorProducto prod)
         {
             SqlCommand cmd = null;
-            bool crear=false;
+            bool crear = false;
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -30,12 +27,12 @@ namespace CapaAccesoDatos
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@idProveedor", prod.Proveedor.IdProveedor);
                 cmd.Parameters.AddWithValue("@idProducto", prod.Producto.IdProducto);
-                cmd.Parameters.AddWithValue("@precioCompra",prod.PrecioCompra);
+                cmd.Parameters.AddWithValue("@precioCompra", prod.PrecioCompra);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
-                if (i!=0)
-                crear = true;
-               
+                if (i != 0)
+                    crear = true;
+
             }
             catch (Exception e)
             {
@@ -72,7 +69,7 @@ namespace CapaAccesoDatos
                     prod.IdProducto = Convert.ToInt32(dr["idProducto"]);
                     prod.Nombre = dr["nombre"].ToString();
                     prod.Longitud = Convert.ToDouble(dr["longitud"]);
-                    prod.Stock= Convert.ToInt32(dr["stock"]);
+                    prod.Stock = Convert.ToInt32(dr["stock"]);
 
                     det.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
 
@@ -88,7 +85,7 @@ namespace CapaAccesoDatos
             return list;
         }
 
-        public bool EliminarDetalle(int prov,int prod)
+        public bool EliminarDetalle(int prov, int prod)
         {
             SqlCommand cmd = null;
             bool eliminado = false;
@@ -116,7 +113,7 @@ namespace CapaAccesoDatos
                 cmd.Connection.Close();
             }
             return eliminado;
-            
+
         }
     }
 }

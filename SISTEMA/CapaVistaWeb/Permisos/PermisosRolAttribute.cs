@@ -1,7 +1,4 @@
 ﻿using CapaEntidad;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.Mvc;//Para ActionFilterAttribute
 
@@ -9,7 +6,7 @@ namespace MadereraCarocho.Permisos
 {
     // Resumen:
     //      Valida que al momento que se ejecute una accion valida cierta acción.
-    public class PermisosRolAttribute: ActionFilterAttribute //Le decimos que va a heredar de action filter
+    public class PermisosRolAttribute : ActionFilterAttribute //Le decimos que va a heredar de action filter
     {
         private readonly entRol Rol;
 
@@ -23,7 +20,7 @@ namespace MadereraCarocho.Permisos
             //Primero validamos que exista una sesión
             if (HttpContext.Current.Session["Usuario"] != null)
             {
-               // Convertimos la sesion que contiene la info del usuario se convierta al tipo usuario
+                // Convertimos la sesion que contiene la info del usuario se convierta al tipo usuario
                 var usuario = HttpContext.Current.Session["Usuario"] as entUsuario;
                 if (usuario.Rol != Rol)
                 {

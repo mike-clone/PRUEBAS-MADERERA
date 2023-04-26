@@ -1,14 +1,12 @@
 ﻿using CapaEntidad;
 using CapaLogica;
 using MadereraCarocho.Permisos;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Web.Mvc;
 
 namespace MadereraCarocho.Controllers
 {
-    
+
     [Authorize]
     [PermisosRol(entRol.Administrador)]
     public class CompraController : Controller
@@ -21,11 +19,11 @@ namespace MadereraCarocho.Controllers
             List<entCompra> detCompra = logCompra.Instancia.ListarCompra();
             return View(detCompra);
         }
-        public ActionResult ListarTempProduct()
-        {
-            var usuario = Session["Usuario"] as entUsuario;
-            return View(LogTemporaryProducts.Instancia.MostrarTemporaryProducts(usuario.IdUsuario));
-        }
+        //public ActionResult ListarTempProduct()
+        //{
+        //    var usuario = Session["Usuario"] as entUsuario;
+        //    return View(LogTemporaryProducts.Instancia.MostrarTemporaryProducts(usuario.IdUsuario));
+        //}
         //[HttpPost]
         //public ActionResult AgregarDetCarrito(int pvCantidad, FormCollection frm)
         //{

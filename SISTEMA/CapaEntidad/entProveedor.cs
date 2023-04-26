@@ -1,28 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CapaEntidad
+﻿namespace CapaEntidad
 {
     public class entProveedor
     {
         private int idProveedor;
         private string razonSocial;
-        private  string ruc;
-        private  string correo;
-        private  string telefono;
-        private  string descripcion;
-        private  bool estProveedor;
+        private string ruc;
+        private string correo;
+        private string telefono;
+        private string descripcion;
+        private bool estProveedor;
         private entUbigeo ubigeo;
 
-       
+
 
         #region Get and Set
 
-        public string NombreCompleto {
-            get { return razonSocial+"::"+descripcion; }
+        public string NombreCompleto
+        {
+            get { return razonSocial + "::" + descripcion; }
         }
         public int IdProveedor
         {
@@ -64,8 +59,9 @@ namespace CapaEntidad
             set { estProveedor = value; }
         }
 
-        public entUbigeo Ubigeo {
-            get {return  ubigeo; }
+        public entUbigeo Ubigeo
+        {
+            get { return ubigeo; }
             set { ubigeo = value; }
         }
         #endregion Get and Set

@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CapaAccesoDatos
@@ -35,7 +31,7 @@ namespace CapaAccesoDatos
                     NombreMadera.Add(dr.GetString(0));
                     CantMadera.Add(dr.GetInt16(1));
                 }
-                
+
             }
             catch (Exception e)
             {

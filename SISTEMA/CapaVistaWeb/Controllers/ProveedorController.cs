@@ -11,13 +11,13 @@ namespace MadereraCarocho.Controllers
     [Authorize]// No puede si es que no esta autorizado
     public class ProveedorController : Controller
     {
-     
-        public ActionResult Listar( string dato)//listar y buscar 
+
+        public ActionResult Listar(string dato)//listar y buscar 
         {
             List<entProveedor> lista;
             if (!string.IsNullOrEmpty(dato))
             {
-                 lista = logProveedor.Instancia.BuscarProveedor(dato);
+                lista = logProveedor.Instancia.BuscarProveedor(dato);
             }
             else
             {
@@ -26,7 +26,6 @@ namespace MadereraCarocho.Controllers
             }
             List<entUbigeo> listaUbigeo = logUbigeo.Instancia.ListarDistrito();
             var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
-            ViewBag.lista = lista;
             ViewBag.listaUbigeo = lsUbigeo;
             return View(lista);
         }
@@ -76,7 +75,7 @@ namespace MadereraCarocho.Controllers
 
             return View(prov);
         }
-       
+
         [HttpPost]
         public ActionResult EditarProveedor(entProveedor p, FormCollection frm)
         {
@@ -127,19 +126,19 @@ namespace MadereraCarocho.Controllers
             {
                 return View(_ = logProveedorProducto.Instancia.MostrarDetalleProvedorId(idp));
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return RedirectToAction("Listar", new { mesjExeption = ex.Message });
             }
         }
 
-   
+
         [HttpGet]
-        public ActionResult EliminarDetalle(int idprov,int idprod)
+        public ActionResult EliminarDetalle(int idprov, int idprod)
         {
             try
             {
-                bool elimina = logProveedorProducto.Instancia.EliminarDetalle(idprov,idprod);
+                bool elimina = logProveedorProducto.Instancia.EliminarDetalle(idprov, idprod);
             }
             catch (Exception ex)
             {

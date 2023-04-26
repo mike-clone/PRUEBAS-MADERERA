@@ -3,9 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CapaAccesoDatos
@@ -34,7 +31,7 @@ namespace CapaAccesoDatos
                 cmd.Parameters.Add(id);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
-                if (i==1)
+                if (i == 1)
                 {
                     idcompra = Convert.ToInt32(cmd.Parameters["@idventa"].Value);
                 }
@@ -50,7 +47,7 @@ namespace CapaAccesoDatos
             return idcompra;
         }
         //Leer
-        public List<entVenta> ListarVenta( int id)
+        public List<entVenta> ListarVenta(int id)
         {
             SqlCommand cmd = null;
             List<entVenta> lista = new List<entVenta>();
@@ -81,11 +78,12 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message);
             }
-            finally { 
-                cmd.Connection.Close(); 
+            finally
+            {
+                cmd.Connection.Close();
             }
             return lista;
-        }                    
+        }
         //Leer ventas Pagadas
         public List<entVenta> ListarVentaPagada(DateTime fecha)
         {

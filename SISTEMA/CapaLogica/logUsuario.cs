@@ -2,9 +2,6 @@
 using CapaEntidad;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CapaLogica
@@ -51,12 +48,12 @@ namespace CapaLogica
         {
             return datUsuario.Instacia.ActualizarAdministrador(ad);
         }
-        public List<entUsuario>BuscarAdministradores(string dato)
+        public List<entUsuario> BuscarAdministradores(string dato)
         {
             return datUsuario.Instacia.BuscaraAdministradores(dato);
         }
         #endregion
-       
+
 
         #region COMPARTIDO
         public entUsuario BuscarIdUsuario(int idCliente)
@@ -76,7 +73,7 @@ namespace CapaLogica
                 else
                 {
                     u = datUsuario.Instacia.IniciarSesion(dato, contra);
-                    if (u!=null)
+                    if (u != null)
                     {
                         if (!u.Activo)
                         {

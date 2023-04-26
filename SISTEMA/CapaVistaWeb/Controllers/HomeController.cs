@@ -1,15 +1,11 @@
 ﻿using CapaEntidad;
 using CapaLogica;
+using MadereraCarocho.Permisos;//Para los permisos
+using MadereraCarocho.Utilidades;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using System.Text;
-using MadereraCarocho.Utilidades;
 using System.Web.Security;//FormsAutenticathion
-using MadereraCarocho.Permisos;//Para los permisos
-using Microsoft.Ajax.Utilities;
 
 namespace MadereraCarocho.Controllers
 {
@@ -18,7 +14,7 @@ namespace MadereraCarocho.Controllers
         #region PUBLICA
         public ActionResult Index(string dato)
         {
-            List<entProducto> lista;
+            List<entProveedorProducto> lista;
             if (string.IsNullOrEmpty(dato))
                 lista = logProducto.Instancia.ListarProductoParaVender();
             else
@@ -99,7 +95,7 @@ namespace MadereraCarocho.Controllers
         {
             if (Session["Usuario"] != null)
             {
-                List<entProducto> lista;
+                List<entProveedorProducto> lista;
                 if (string.IsNullOrEmpty(dato))
                     lista = logProducto.Instancia.ListarProductoParaVender();
                 else
@@ -168,9 +164,9 @@ namespace MadereraCarocho.Controllers
 
         }
         [HttpPost]
-        public ActionResult EditarDatosAdministrador(entUsuario usu,FormCollection frm) //EDITA LOS DATOS
+        public ActionResult EditarDatosAdministrador(entUsuario usu, FormCollection frm) //EDITA LOS DATOS
         {
-          
+
             usu.Ubigeo = new entUbigeo
             {
                 IdUbigeo = frm["Ubig"]
@@ -194,7 +190,7 @@ namespace MadereraCarocho.Controllers
             }
         }
         #endregion
-        
+
 
     }
 

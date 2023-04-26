@@ -1,12 +1,9 @@
-﻿using System;
+﻿using CapaEntidad;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using CapaEntidad;
 namespace CapaAccesoDatos
 {
     public class datTipoProducto
@@ -46,7 +43,7 @@ namespace CapaAccesoDatos
 
         }
         //Leer
-        public List<entTipoProducto>SelectListTipoProducto()
+        public List<entTipoProducto> SelectListTipoProducto()
         {
             SqlCommand cmd = null;
             List<entTipoProducto> lista = new List<entTipoProducto>();
@@ -86,7 +83,7 @@ namespace CapaAccesoDatos
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spSelectListTipoProductodat", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@id",id);
+                cmd.Parameters.AddWithValue("@id", id);
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())

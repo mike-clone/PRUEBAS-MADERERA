@@ -1,12 +1,8 @@
 ﻿using CapaEntidad;
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Security.Cryptography;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace CapaAccesoDatos
@@ -82,7 +78,7 @@ namespace CapaAccesoDatos
                         Fecha = Convert.ToDateTime(dr["fecha"]),
                         Total = Convert.ToDouble(dr["total"]),
                         Estado = dr["@estado"].ToString(),
-                        Proveedor=new entProveedor
+                        Proveedor = new entProveedor
                         {
                             RazonSocial = dr["razonSocial"].ToString()
                         }

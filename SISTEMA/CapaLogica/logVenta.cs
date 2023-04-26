@@ -2,9 +2,6 @@
 using CapaEntidad;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CapaLogica
 {
@@ -23,7 +20,7 @@ namespace CapaLogica
         }
         public List<entVenta> ListarVenta(int id)
         {
-            return datVenta.Instancia.ListarVenta( id);
+            return datVenta.Instancia.ListarVenta(id);
         }
         public List<entVenta> ListarVentaPagada(DateTime fecha)
         {

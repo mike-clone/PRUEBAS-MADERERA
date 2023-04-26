@@ -2,26 +2,21 @@
 using CapaLogica;
 using MadereraCarocho.Permisos;
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using System.Web.Services.Description;
 
 namespace MadereraCarocho.Controllers
 {
-    
+
     [Authorize]
     public class ProductoController : Controller
     {
-    
+
         // GET: Producto
         [PermisosRol(entRol.Administrador)]
         public ActionResult Listar(string dato)//listar y buscar
         {
-            List<entProducto> lista;
+            List<entProveedorProducto> lista;
             if (!String.IsNullOrEmpty(dato))
             {
                 lista = logProducto.Instancia.BuscarProducto(dato);
@@ -40,7 +35,7 @@ namespace MadereraCarocho.Controllers
         [HttpPost]
         public ActionResult CrearProducto(string cNombreP, string cLongitudP, string cdiametro, string cPrecioVenta, string cprecioCompra, FormCollection frmTipo, FormCollection frmProv)
         {
-            
+
             try
             {
                 entProducto p = new entProducto
@@ -48,23 +43,13 @@ namespace MadereraCarocho.Controllers
                     Nombre = cNombreP,
                     Longitud = Double.Parse(cLongitudP),
                     Diametro = Double.Parse(cdiametro),
-                    PrecioVenta=Double.Parse(cPrecioVenta),
+                    PrecioVenta = Double.Parse(cPrecioVenta),
                     Tipo = new entTipoProducto
                     {
                         IdTipo_producto = Convert.ToInt32(frmTipo["cTipo"])
                     },
-                    ProveedorProducto= new entProveedorProducto
-                    {
-                        Proveedor = new entProveedor
-                        {
-                           IdProveedor = Convert.ToInt32(frmProv["cProv"])
-                        }
-                    }
-                   
-                    
                 };
-
-                int idProducto=logProducto.Instancia.CrearProducto(p);
+                int idProducto = logProducto.Instancia.CrearProducto(p);
 
                 entProveedorProducto pp = new entProveedorProducto
                 {
@@ -72,14 +57,14 @@ namespace MadereraCarocho.Controllers
                     {
                         IdProveedor = Convert.ToInt32(frmProv["cProv"])
                     },
-                    Producto=new entProducto
+                    Producto = new entProducto
                     {
-                        IdProducto= idProducto
+                        IdProducto = idProducto
                     },
                     PrecioCompra = Double.Parse(cprecioCompra)
                 };
 
-                _=logProveedorProducto.Instancia.CrearDetalle(pp);
+                _ = logProveedorProducto.Instancia.CrearDetalle(pp);
             }
             catch (Exception ex)
             {
@@ -91,32 +76,41 @@ namespace MadereraCarocho.Controllers
 
         [PermisosRol(entRol.Administrador)]
         [HttpGet]
-        public ActionResult EditarProducto(int idprod)
+        public ActionResult EditarProductos(int idprod)
         {
-           
             var prod = logProducto.Instancia.BuscarProductoId(idprod);
-            ViewBag.listaTipo = new SelectList(logTipoProducto.Instancia.SelectListTipoProductodat(prod.Tipo.IdTipo_producto), "idTipo_producto", "nombre");
-            ViewBag.listaProveedor = new SelectList(logProveedor.Instancia.SelectListProveedordat(prod.ProveedorProducto.Proveedor.IdProveedor), "idProveedor", "NombreCompleto");
+            var lstipo = logTipoProducto.Instancia.SelectListTipoProductodat(prod.Producto.Tipo.IdTipo_producto);
+            var lsprov = logProveedor.Instancia.SelectListProveedordat(prod.Proveedor.IdProveedor);
+            ViewBag.listaTipos = new SelectList(lstipo, "idTipo_producto", "nombre");
+            ViewBag.listaProveedores = new SelectList(lsprov, "idProveedor", "NombreCompleto");
             return View(prod);
         }
 
         [PermisosRol(entRol.Administrador)]
         [HttpPost]
-        public ActionResult EditarProducto(entProducto p, FormCollection frm,FormCollection prov)
+        public ActionResult EditarProductos(entProveedorProducto p, FormCollection frm, FormCollection prov)
         {
-            p.Tipo = new entTipoProducto
+            entProducto product = new entProducto
             {
-                IdTipo_producto = Convert.ToInt32(frm["tipo"])
-            };
-            p.ProveedorProducto = new entProveedorProducto
-            {
-                Proveedor=new entProveedor
+                IdProducto = p.Producto.IdProducto,
+                Nombre = p.Producto.Nombre,
+                Longitud = p.Producto.Longitud,
+                Diametro = p.Producto.Diametro,
+                Activo = p.Producto.Activo,
+                Tipo = new entTipoProducto
                 {
-                    IdProveedor = Convert.ToInt32(prov["prov"])
+                    IdTipo_producto = Convert.ToInt32(frm["Stip"])
                 }
             };
+            p.Proveedor = new entProveedor
+            {
+                IdProveedor = Convert.ToInt32(prov["Prv"])
+            };
+            p.Producto = product;
+
             try
             {
+              
                 Boolean edita = logProducto.Instancia.ActualizarProducto(p);
                 if (edita)
                 {
@@ -132,7 +126,7 @@ namespace MadereraCarocho.Controllers
                 return RedirectToAction("Listar", new { mesjExceptio = ex.Message });
             }
         }
-    
+
 
         [HttpGet]
         public ActionResult EliminarProducto(int idP)
@@ -143,7 +137,7 @@ namespace MadereraCarocho.Controllers
             }
             catch (Exception ex)
             {
-             
+
                 return RedirectToAction("Listar", new { mesjExeption = ex.Message });
             }
             return RedirectToAction("Listar");
@@ -152,7 +146,7 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult Ordenar(int dato)
         {
-            List <entProducto> lista= logProducto.Instancia.Ordenar(dato);
+            List<entProveedorProducto> lista = logProducto.Instancia.Ordenar(dato);
             List<entTipoProducto> listaTipoProducto = logTipoProducto.Instancia.SelectListTipoProductodat(0);
             var lsTipoProducto = new SelectList(listaTipoProducto, "idTipo_producto", "nombre");
 

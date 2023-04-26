@@ -1,10 +1,6 @@
-﻿using CapaEntidad;
-using CapaAccesoDatos;
-using System;
+﻿using CapaAccesoDatos;
+using CapaEntidad;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CapaLogica
 {
@@ -37,7 +33,7 @@ namespace CapaLogica
         {
             return datTipoProducto.Instancia.EliminarTipoProducto(id);
         }
-        
+
         #endregion CRUD
     }
 }

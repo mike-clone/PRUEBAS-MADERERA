@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CapaEntidad.entProducto>
+﻿@model IEnumerable<CapaEntidad.entProveedorProducto>
     <!-- ======= Top Bar ======= -->
     <section id="topbar" class="fixed-top d-flex align-items-center">
         <div class="container d-flex justify-content-center justify-content-md-between">
@@ -138,28 +138,28 @@
                         {
                             <tr>
                                 <td>
-                                    @Html.DisplayFor(modelItem => item.IdProducto)
+                                    @Html.DisplayFor(modelItem => item.Producto.IdProducto)
                                 </td>
                                 <td>
-                                    @Html.DisplayFor(modelItem => item.Nombre)
+                                    @Html.DisplayFor(modelItem => item.Producto.Nombre)
                                 </td>
                                 <td>
-                                    @Html.DisplayFor(modelItem => item.Tipo.Nombre)
+                                    @Html.DisplayFor(modelItem => item.Producto.Tipo.Nombre)
                                 </td>
                                 <td>
-                                    @Html.DisplayFor(modelItem => item.Longitud)
+                                    @Html.DisplayFor(modelItem => item.Producto.Longitud)
                                 </td>
                                 <td>
-                                    @Html.DisplayFor(modelItem => item.Diametro)
+                                    @Html.DisplayFor(modelItem => item.Producto.Diametro)
                                 </td>
                                 <td>
-                                    @Html.DisplayFor(modelItem => item.ProveedorProducto.Proveedor.RazonSocial)
+                                    @Html.DisplayFor(modelItem => item.Proveedor.RazonSocial)
                                 </td>
                                 <td>
-                                    @Html.DisplayFor(modelItem => item.Stock)
+                                    @Html.DisplayFor(modelItem => item.Producto.Stock)
                                 </td>
                                 <td>
-                                    @Html.DisplayFor(modelItem => item.PrecioVenta)
+                                    @Html.DisplayFor(modelItem => item.Producto.PrecioVenta)
                                 </td>
                             </tr>
                         }

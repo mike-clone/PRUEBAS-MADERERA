@@ -1,14 +1,10 @@
 ﻿using CapaAccesoDatos;
 using CapaEntidad;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CapaLogica
 {
-   public class logProducto
+    public class logProducto
     {
         private static readonly logProducto _instancia = new logProducto();
 
@@ -21,23 +17,23 @@ namespace CapaLogica
         {
             return datProducto.Instancia.CrearProducto(prod);
         }
-        public List<entProducto> ListarProducto()
+        public List<entProveedorProducto> ListarProducto()
         {
             return datProducto.Instancia.ListarProducto();
         }
-        public List<entProducto> ListarProductoParaVender()
+        public List<entProveedorProducto> ListarProductoParaVender()
         {
             return datProducto.Instancia.ListarProductoParaVender();
         }
-        public List<entProducto>BuscarProductoParaVender(string buscar)
+        public List<entProveedorProducto> BuscarProductoParaVender(string buscar)
         {
             return datProducto.Instancia.BuscarProductoParaVender(buscar);
         }
-        public List<entProducto>Ordenar(int dato)
+        public List<entProveedorProducto> Ordenar(int dato)
         {
             return datProducto.Instancia.Ordenar(dato);
         }
-        public bool ActualizarProducto(entProducto prod)
+        public bool ActualizarProducto(entProveedorProducto prod)
         {
             return datProducto.Instancia.ActualizarProducto(prod);
         }
@@ -47,12 +43,12 @@ namespace CapaLogica
         }
         #endregion 
 
-        public List<entProducto> BuscarProducto(string busqueda)
+        public List<entProveedorProducto> BuscarProducto(string busqueda)
         {
             return datProducto.Instancia.BuscarProducto(busqueda);
         }
 
-        public entProducto BuscarProductoId(int prod)
+        public entProveedorProducto BuscarProductoId(int prod)
         {
             return datProducto.Instancia.BuscarProductoId(prod);
         }

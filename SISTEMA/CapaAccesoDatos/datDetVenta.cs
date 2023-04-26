@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CapaAccesoDatos
@@ -20,7 +18,7 @@ namespace CapaAccesoDatos
         }
 
         //Crear
-        public bool CrearDetVenta(entDetVenta  Det)
+        public bool CrearDetVenta(entDetVenta Det)
         {
             SqlCommand cmd = null;
             bool creado = false;
@@ -69,7 +67,7 @@ namespace CapaAccesoDatos
         public List<entDetVenta> Mostrardetventa()
         {
             var lista = new List<entDetVenta>();
-            for(int i=0; i < detalle.Count(); i++)
+            for (int i = 0; i < detalle.Count(); i++)
             {
                 entDetVenta dv = new entDetVenta();
                 dv = detalle[i];
@@ -79,7 +77,7 @@ namespace CapaAccesoDatos
             return lista;
         }
 
-        public bool Eliminardetalle( int id)
+        public bool Eliminardetalle(int id)
         {
             bool eliminado = false;
             try
@@ -90,10 +88,10 @@ namespace CapaAccesoDatos
                     {
                         detalle.RemoveAt(i);
                     }
-                    
+
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 MessageBox.Show(e.Message);
             }
@@ -140,7 +138,7 @@ namespace CapaAccesoDatos
             }
             return lista;
         }
-        
+
         //Actualizar
         //Eliminar - Deshabilitar
     }

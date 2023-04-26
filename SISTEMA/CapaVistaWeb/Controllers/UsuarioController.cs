@@ -1,12 +1,8 @@
 ﻿using CapaEntidad;
 using CapaLogica;
 using MadereraCarocho.Permisos;
-using MadereraCarocho.Utilidades;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Web;
 using System.Web.Mvc;
 
 namespace MadereraCarocho.Controllers
@@ -15,7 +11,7 @@ namespace MadereraCarocho.Controllers
     [Authorize]// No puede si es que no esta autorizado
     public class UsuarioController : Controller
     {
-    
+
 
         #region CLIENTES
         public ActionResult ListarClientes(string dato)//listar y buscar en el mismo
@@ -23,7 +19,7 @@ namespace MadereraCarocho.Controllers
             List<entUsuario> lista;
             if (!String.IsNullOrEmpty(dato))
             {
-                lista = logUsuario.Instancia.BuscarClientes(dato); 
+                lista = logUsuario.Instancia.BuscarClientes(dato);
             }
             else
             {
@@ -45,8 +41,8 @@ namespace MadereraCarocho.Controllers
             {
                 bool elimina = logUsuario.Instancia.EliminarUsuarios(idc);
 
-                ViewBag.Error="Cliente eliminado correctamente";
-  
+                ViewBag.Error = "Cliente eliminado correctamente";
+
             }
             catch (Exception ex)
             {
@@ -59,9 +55,9 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult EditarCliente(int c)
         {
-            var usuario =logUsuario.Instancia.BuscarIdUsuario(c);
+            var usuario = logUsuario.Instancia.BuscarIdUsuario(c);
             ViewBag.OldRoll = usuario.Roll.Descripcion;
-            ViewBag.OldUbigeo=usuario.Ubigeo.Departamento+"  "+usuario.Ubigeo.Provincia+"  "+usuario.Ubigeo.Distrito;
+            ViewBag.OldUbigeo = usuario.Ubigeo.Departamento + "  " + usuario.Ubigeo.Provincia + "  " + usuario.Ubigeo.Distrito;
             return View(usuario);
         }
 
@@ -117,10 +113,10 @@ namespace MadereraCarocho.Controllers
             return RedirectToAction("ListarAdmin");
         }*/
 
-       
-        
 
-       
+
+
+
 
     }
 }

@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CapaAccesoDatos;
 using CapaEntidad;
-using CapaAccesoDatos;
+using System.Collections.Generic;
 namespace CapaLogica
 {
-   public class logTipoEmpleado
+    public class logTipoEmpleado
     {
         private static readonly logTipoEmpleado _instancia = new logTipoEmpleado();
 

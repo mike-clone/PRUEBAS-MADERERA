@@ -30,7 +30,7 @@ namespace CapaEntidad
             get { return razonSocial; }
             set { razonSocial = value; }
         }
-       
+
         public string Telefono
         {
             get { return telefono; }

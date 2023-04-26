@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
@@ -23,7 +19,8 @@ namespace CapaEntidad
         #endregion Constructores
 
         #region Get and Set
-        public int IdCompra { 
+        public int IdCompra
+        {
             get { return idCompra; }
             set { idCompra = value; }
         }

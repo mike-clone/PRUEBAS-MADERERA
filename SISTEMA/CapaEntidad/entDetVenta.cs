@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
@@ -12,7 +8,7 @@ namespace CapaEntidad
         private entVenta venta;
         private entProducto producto;
         private int cantidad;
-	    private double subTotal;
+        private double subTotal;
 
 
         #region Get and Set
@@ -32,14 +28,14 @@ namespace CapaEntidad
             get { return cantidad; }
             set { cantidad = value; }
         }
-      
+
         public Double SubTotal
         {
             get { return subTotal; }
             set { subTotal = value; }
         }
 
-        
+
         #endregion Get and Set
 
     }

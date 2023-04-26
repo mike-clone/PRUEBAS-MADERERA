@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CapaEntidad.entProducto>
+﻿@model IEnumerable<CapaEntidad.entProveedorProducto>
 
 @{
     ViewBag.Title = "Listar";
@@ -63,7 +63,7 @@
         <input class="form-control me-2" type="search" placeholder="Buscar" name="dato" aria-label="Search">
         <button onclick="return Buscar('Bproducto')" class="btn btn-outline-success" type="submit">Buscar</button>
     </form>
-    <table class="table">
+    <table  table class="table table-hover">
         <thead class="table-dark">
             <tr>
                 <th>
@@ -79,7 +79,7 @@
                     Longitud
                 </th>
                 <th>
-                    Diamtro
+                    Diametro
                 </th>
                 <th>
                     Proveedor
@@ -96,8 +96,8 @@
                 <th>
                     Activo
                 </th>
-                <th>EDITAR</th>
-                <th>ELIMINAR</th>
+                <th>Editar</th>
+                <th>Eliminar</th>
             </tr>
         </thead>
         <tbody>
@@ -105,49 +105,43 @@
             {
                 <tr>
                     <td>
-                        @Html.DisplayFor(modelItem => item.IdProducto)
+                        @Html.DisplayFor(modelItem => item.Producto.IdProducto)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Nombre)
+                        @Html.DisplayFor(modelItem => item.Producto.Nombre)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Tipo.Nombre)
+                        @Html.DisplayFor(modelItem => item.Producto.Tipo.Nombre)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Longitud)
+                        @Html.DisplayFor(modelItem => item.Producto.Longitud)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Diametro)
+                        @Html.DisplayFor(modelItem => item.Producto.Diametro)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.ProveedorProducto.Proveedor.RazonSocial)
+                        @Html.DisplayFor(modelItem => item.Proveedor.RazonSocial)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Stock)
+                        @Html.DisplayFor(modelItem => item.Producto.Stock)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.ProveedorProducto.PrecioCompra)
+                        @Html.DisplayFor(modelItem => item.PrecioCompra)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.PrecioVenta)
+                        @Html.DisplayFor(modelItem => item.Producto.PrecioVenta)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Activo)
+                        @Html.DisplayFor(modelItem => item.Producto.Activo)
                     </td>
                     <td>
                         <button class="btn btn-warning" type="button">
-                            @Html.ActionLink("Edit", "EditarProducto", new { idprod = item.IdProducto })
+                            @Html.ActionLink("Edit", "EditarProductos", new { idprod = item.Producto.IdProducto })
                             <i class="bi bi-pencil-square"></i>
                         </button>
                     </td>
                     <td>
-                        <button class="btn btn-warning" type="button">
-                            @Html.ActionLink("Edit", "EditarProducto", new { idprod = item.IdProducto })
-                            <i class="bi bi-pencil-square"></i>
-                        </button>
-                    </td>
-                    <td>
-                        <a onclick="return Eliminar(this)" href="/Producto/EliminarProducto?idP=@item.IdProducto" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
+                        <a onclick="return Eliminar(this)" href="/Producto/EliminarProducto?idP=@item.Producto.IdProducto" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
                         @ViewBag.Error
                     </td>
 

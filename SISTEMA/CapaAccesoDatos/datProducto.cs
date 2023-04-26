@@ -1,13 +1,9 @@
 ﻿using CapaEntidad;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
 
 namespace CapaAccesoDatos
 {
@@ -19,7 +15,7 @@ namespace CapaAccesoDatos
             get { return _instancia; }
         }
 
-       
+
         //Crear
         public int CrearProducto(entProducto prod)
         {
@@ -45,7 +41,7 @@ namespace CapaAccesoDatos
 
                 if (i > 0)
                     idproducto = Convert.ToInt32(cmd.Parameters["@id"].Value);
-               else
+                else
                     MessageBox.Show("no se recupero el id del producto al insertar");
             }
             catch (Exception e)
@@ -60,95 +56,52 @@ namespace CapaAccesoDatos
 
         }
         //Leer
-        public List<entProducto> ListarProducto()
+        public List<entProveedorProducto> ListarProducto()
         {
             SqlCommand cmd = null;
-            List<entProducto> lista = new List<entProducto>();
+            List<entProveedorProducto> lista = new List<entProveedorProducto>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spListarProducto", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
+                cmd = new SqlCommand("spListarProducto", cn)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProducto Prod = new entProducto
+                    entProveedorProducto Prod = new entProveedorProducto
                     {
-                        IdProducto = Convert.ToInt32(dr["idproducto"]),
-                        Nombre = dr["nombre"].ToString(),
-                        Longitud = Convert.ToDouble(dr["longitud"]),
-                        Diametro = Convert.ToDouble(dr["diametro"]),
-                        Stock = Convert.ToInt32(dr["stock"]),
-                        PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
-                        Activo = Convert.ToBoolean(dr["Activo"]),
-                        
-                        Tipo=new entTipoProducto    
-                        {
-                            Nombre = dr["tipo"].ToString()
 
-                        },
-                        ProveedorProducto=new entProveedorProducto
+                        Producto = new entProducto
                         {
-                            PrecioCompra = Convert.ToDouble(dr["precioCompra"]),
-                            Proveedor = new entProveedor
+                            IdProducto = Convert.ToInt32(dr["idproducto"]),
+                            Nombre = dr["nombre"].ToString(),
+                            Longitud = Convert.ToDouble(dr["longitud"]),
+                            Diametro = Convert.ToDouble(dr["diametro"]),
+                            Stock = Convert.ToInt32(dr["stock"]),
+                            PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
+                            Activo = Convert.ToBoolean(dr["Activo"]),
+
+                            Tipo = new entTipoProducto
                             {
-                                RazonSocial = dr["razonsocial"].ToString()
-                            } 
-                        }
+                                Nombre = dr["tipo"].ToString()
 
-                    };
-                
-                    lista.Add(Prod);
-                }
-
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show(e.Message,"EROR AL MOSTRAR LOS PRODUCTOS", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                cmd.Connection.Close();
-            }
-            return lista;
-        }
-
-        public List<entProducto> ListarProductoParaVender()
-        {
-            SqlCommand cmd = null;
-            List<entProducto> lista = new List<entProducto>();
-            try
-            {
-                SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spListarProductoParaVender", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cn.Open();
-                SqlDataReader dr = cmd.ExecuteReader();
-                while (dr.Read())
-                {
-                    entProducto Prod = new entProducto
-                    {
-                        IdProducto = Convert.ToInt32(dr["idproducto"]),
-                        Nombre = dr["nombre"].ToString(),
-                        Longitud = Convert.ToDouble(dr["longitud"]),
-                        Diametro = Convert.ToDouble(dr["diametro"]),
-                        Stock = Convert.ToInt32(dr["stock"]),
-                        PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
-                        Tipo = new entTipoProducto
-                        {
-                            Nombre = dr["tipo"].ToString() 
-                        },
-                        ProveedorProducto= new entProveedorProducto
-                        {
-                            Proveedor = new entProveedor
-                            {
-                                RazonSocial = dr["razonsocial"].ToString()
                             }
                         }
-                       
-                };
-                    
+                    };
+                    if (dr["razonsocial"] != DBNull.Value)
+                    {
+                        Prod.Proveedor = new entProveedor
+                        {
+                            RazonSocial = dr["razonsocial"].ToString()
+                        };
+                    }
+
+                    if (dr["precioCompra"] != DBNull.Value)
+                        Prod.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
+
                     lista.Add(Prod);
                 }
 
@@ -163,7 +116,56 @@ namespace CapaAccesoDatos
             }
             return lista;
         }
-        public bool ActualizarProducto(entProducto Prod)
+
+        public List<entProveedorProducto> ListarProductoParaVender()
+        {
+            SqlCommand cmd = null;
+            List<entProveedorProducto> lista = new List<entProveedorProducto>();
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spListarProductoParaVender", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    entProveedorProducto Prod = new entProveedorProducto
+                    {
+                        Producto = new entProducto
+                        {
+                            IdProducto = Convert.ToInt32(dr["idproducto"]),
+                            Nombre = dr["nombre"].ToString(),
+                            Longitud = Convert.ToDouble(dr["longitud"]),
+                            Diametro = Convert.ToDouble(dr["diametro"]),
+                            Stock = Convert.ToInt32(dr["stock"]),
+                            PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
+                            Tipo = new entTipoProducto
+                            {
+                                Nombre = dr["tipo"].ToString()
+                            }
+                        },
+                        Proveedor = new entProveedor
+                        {
+                            RazonSocial = dr["razonsocial"].ToString()
+                        }
+                    };
+
+                    lista.Add(Prod);
+                }
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message, "EROR AL MOSTRAR LOS PRODUCTOS", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return lista;
+        }
+        public bool ActualizarProducto(entProveedorProducto Prod)
         {
             SqlCommand cmd = null;
             bool actualiza = false;
@@ -174,15 +176,15 @@ namespace CapaAccesoDatos
                 {
                     CommandType = CommandType.StoredProcedure
                 };
-                cmd.Parameters.AddWithValue("@idProducto", Prod.IdProducto);
-                cmd.Parameters.AddWithValue("@nombre", Prod.Nombre);
-                cmd.Parameters.AddWithValue("@longitud", Prod.Longitud);
-                cmd.Parameters.AddWithValue("@diametro", Prod.Diametro);
-                cmd.Parameters.AddWithValue("@precioVenta", Prod.PrecioVenta);
-                cmd.Parameters.AddWithValue("@idTipo_producto", Prod.Tipo.IdTipo_producto);
-                cmd.Parameters.AddWithValue("@Activo", Prod.Activo);
-                cmd.Parameters.AddWithValue("@idProveedor", Prod.ProveedorProducto.Proveedor.IdProveedor);
-                cmd.Parameters.AddWithValue("@precioCompra", Prod.ProveedorProducto.PrecioCompra);
+                cmd.Parameters.AddWithValue("@idProducto", Prod.Producto.IdProducto);
+                cmd.Parameters.AddWithValue("@nombre", Prod.Producto.Nombre);
+                cmd.Parameters.AddWithValue("@longitud", Prod.Producto.Longitud);
+                cmd.Parameters.AddWithValue("@diametro", Prod.Producto.Diametro);
+                cmd.Parameters.AddWithValue("@precioVenta", Prod.Producto.PrecioVenta);
+                cmd.Parameters.AddWithValue("@idTipo_producto", Prod.Producto.Tipo.IdTipo_producto);
+                cmd.Parameters.AddWithValue("@Activo", Prod.Producto.Activo);
+                cmd.Parameters.AddWithValue("@idProveedor", Prod.Proveedor.IdProveedor);
+                cmd.Parameters.AddWithValue("@precioCompra", Prod.PrecioCompra);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
@@ -192,7 +194,7 @@ namespace CapaAccesoDatos
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.Message);
+                MessageBox.Show("el error esta aqui" + e.Message);
             }
             finally { cmd.Connection.Close(); }
             return actualiza;
@@ -226,9 +228,9 @@ namespace CapaAccesoDatos
             return eliminado;
         }
 
-        public List<entProducto> BuscarProducto(string busqueda)
+        public List<entProveedorProducto> BuscarProducto(string busqueda)
         {
-            List<entProducto> lista = new List<entProducto>();
+            List<entProveedorProducto> lista = new List<entProveedorProducto>();
             SqlCommand cmd = null;
             try
             {
@@ -240,28 +242,33 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProducto Prod = new entProducto
+                    entProveedorProducto Prod = new entProveedorProducto
                     {
-                        IdProducto = Convert.ToInt32(dr["idproducto"]),
-                        Nombre = dr["nombre"].ToString(),
-                        Longitud = Convert.ToDouble(dr["longitud"]),
-                        Diametro = Convert.ToDouble(dr["diametro"]),
-                        Stock = Convert.ToInt32(dr["stock"]),
-                        PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
-                        Activo = Convert.ToBoolean(dr["Activo"]),
-                        Tipo=new entTipoProducto
+                        Producto = new entProducto
                         {
-                            Nombre = dr["tipo"].ToString()
-                        },
-                        ProveedorProducto= new entProveedorProducto
-                        {
-                            Proveedor=new entProveedor
+                            IdProducto = Convert.ToInt32(dr["idproducto"]),
+                            Nombre = dr["nombre"].ToString(),
+                            Longitud = Convert.ToDouble(dr["longitud"]),
+                            Diametro = Convert.ToDouble(dr["diametro"]),
+                            Stock = Convert.ToInt32(dr["stock"]),
+                            PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
+                            Activo = Convert.ToBoolean(dr["Activo"]),
+                            Tipo = new entTipoProducto
                             {
-                                RazonSocial = dr["razonsocial"].ToString()
-                            }
-                        }
-
+                                Nombre = dr["tipo"].ToString()
+                            },
+                        },
                     };
+
+                    if (dr["razonsocial"] != DBNull.Value)
+                    {
+                        Prod.Proveedor = new entProveedor
+                        {
+                            RazonSocial = dr["razonsocial"].ToString()
+                        };
+                    }
+                    if (dr["precioCompra"] != DBNull.Value)
+                        Prod.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
                     lista.Add(Prod);
                 }
             }
@@ -276,37 +283,39 @@ namespace CapaAccesoDatos
             }
             return lista;
         }
-        public List<entProducto> BuscarProductoParaVender(string busqueda)
+        public List<entProveedorProducto> BuscarProductoParaVender(string busqueda)
         {
-            List<entProducto> lista = new List<entProducto>();
+            List<entProveedorProducto> lista = new List<entProveedorProducto>();
             SqlCommand cmd = null;
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spBuscarProductoParaVender", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
+                cmd = new SqlCommand("spBuscarProductoParaVender", cn)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
                 cmd.Parameters.AddWithValue("@campo", busqueda);
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProducto Prod = new entProducto
+                    entProveedorProducto Prod = new entProveedorProducto
                     {
-                        IdProducto = Convert.ToInt32(dr["idproducto"]),
-                        Nombre = dr["nombre"].ToString(),
-                        Longitud = Convert.ToDouble(dr["longitud"]),
-                        Diametro = Convert.ToDouble(dr["diametro"]),
-                        Stock = Convert.ToInt32(dr["stock"]),
-                        PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
-                        Tipo= new entTipoProducto
+                        Proveedor = new entProveedor
                         {
-                            Nombre = dr["tipo"].ToString()
+                            RazonSocial = dr["razonsocial"].ToString()
                         },
-                        ProveedorProducto= new entProveedorProducto
+                        Producto = new entProducto
                         {
-                            Proveedor = new entProveedor
+                            IdProducto = Convert.ToInt32(dr["idproducto"]),
+                            Nombre = dr["nombre"].ToString(),
+                            Longitud = Convert.ToDouble(dr["longitud"]),
+                            Diametro = Convert.ToDouble(dr["diametro"]),
+                            Stock = Convert.ToInt32(dr["stock"]),
+                            PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
+                            Tipo = new entTipoProducto
                             {
-                                RazonSocial = dr["razonsocial"].ToString()
+                                Nombre = dr["tipo"].ToString()
                             }
                         }
 
@@ -326,37 +335,43 @@ namespace CapaAccesoDatos
             }
             return lista;
         }
-        public List<entProducto> Ordenar(int dato)
+        public List<entProveedorProducto> Ordenar(int dato)
         {
-            List<entProducto> lista = new List<entProducto>();
+            List<entProveedorProducto> lista = new List<entProveedorProducto>();
             SqlCommand cmd = null;
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spOrdenarProducto", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
+                cmd = new SqlCommand("spOrdenarProducto", cn)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
                 cmd.Parameters.AddWithValue("@dato", dato);
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProducto Prod = new entProducto();
-                    Prod.IdProducto = Convert.ToInt32(dr["idproducto"]);
-                    Prod.Nombre = dr["nombre"].ToString();
-                    Prod.Longitud = Convert.ToDouble(dr["longitud"]);
-                    Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
-                    Prod.Stock = Convert.ToInt32(dr["stock"]);
-                    Prod.Tipo = new entTipoProducto
+                    entProveedorProducto Prod = new entProveedorProducto
                     {
-                        IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]),
-                        Nombre = dr["tipo"].ToString()
-                    };
-                    Prod.ProveedorProducto = new entProveedorProducto
-                    {
-                        PrecioCompra = Convert.ToDouble(dr["precioCompra"])
+                        PrecioCompra = Convert.ToDouble(dr["precioCompra"]),
+
+                        Producto = new entProducto
+                        {
+                            IdProducto = Convert.ToInt32(dr["idproducto"]),
+                            Nombre = dr["nombre"].ToString(),
+                            Longitud = Convert.ToDouble(dr["longitud"]),
+                            PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
+                            Stock = Convert.ToInt32(dr["stock"]),
+                            Tipo = new entTipoProducto
+                            {
+                                IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]),
+                                Nombre = dr["tipo"].ToString()
+                            }
+                        }
                     };
 
-                lista.Add(Prod);
+
+                    lista.Add(Prod);
                 }
             }
             catch (Exception e)
@@ -371,10 +386,10 @@ namespace CapaAccesoDatos
             return lista;
         }
 
-        public entProducto BuscarProductoId(int idprod)
+        public entProveedorProducto BuscarProductoId(int idprod)
         {
             SqlCommand cmd = null;
-            entProducto Prod = new entProducto();
+            entProveedorProducto Prod = new entProveedorProducto();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -387,33 +402,40 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
+                    Prod.Producto = new entProducto
+                    {
+                        IdProducto = Convert.ToInt32(dr["idproducto"]),
+                        Nombre = dr["nombre"].ToString(),
+                        Longitud = Convert.ToDouble(dr["longitud"]),
+                        Diametro = Convert.ToDouble(dr["diametro"]),
+                        PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
+                        Activo = Convert.ToBoolean(dr["Activo"]),
+                        Tipo = new entTipoProducto
+                        {
+                            IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]),
+                            Nombre = dr["tipo"].ToString()
 
-                    Prod.IdProducto = Convert.ToInt32(dr["idproducto"]);
-                    Prod.Nombre = dr["nombre"].ToString();
-                    Prod.Longitud = Convert.ToDouble(dr["longitud"]);
-                    Prod.Diametro = Convert.ToDouble(dr["diametro"]);
-                    Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
-                    Prod.Activo = Convert.ToBoolean(dr["Activo"]);
-                    Prod.Tipo = new entTipoProducto
-                    {
-                        IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]),
+                        }
                     };
-                    Prod.ProveedorProducto = new entProveedorProducto
+
+                    if (dr["razonsocial"] != DBNull.Value)
                     {
-                        Proveedor=new entProveedor
+                        Prod.Proveedor = new entProveedor
                         {
                             IdProveedor = Convert.ToInt32(dr["idProveedor"]),
-                        },
-                        PrecioCompra = Convert.ToDouble(dr["precioCompra"])
+                            RazonSocial = dr["razonsocial"].ToString()
+                        };
+                    }
+                    if (dr["precioCompra"] != DBNull.Value)
+                        Prod.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
 
-                    };
-                    
+
                 }
             }
             catch (Exception e)
             {
 
-                throw e;
+                MessageBox.Show(e.Message);
             }
             finally { cmd.Connection.Close(); }
             return Prod;

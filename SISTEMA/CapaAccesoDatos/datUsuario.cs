@@ -1,12 +1,8 @@
 ﻿using CapaEntidad;
-using System.Data;
-using System.Data.SqlClient;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections;
+using System.Data;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace CapaAccesoDatos
@@ -39,7 +35,7 @@ namespace CapaAccesoDatos
 
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
-                if (i >0 )
+                if (i > 0)
                     creado = true;
             }
             catch (Exception e)
@@ -81,7 +77,7 @@ namespace CapaAccesoDatos
                         Provincia = dr["provincia"].ToString(),
                     };
 
-                    
+
                     lista.Add(Cli);
                 }
 
@@ -302,7 +298,7 @@ namespace CapaAccesoDatos
         }
         #endregion
 
-        
+
         #region COMPARTIDO
         public entUsuario IniciarSesion(string campo, string contra)
         {
@@ -343,8 +339,9 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message);
             }
-            finally { 
-                cmd.Connection.Close(); 
+            finally
+            {
+                cmd.Connection.Close();
             }
             return c;
         }
@@ -397,8 +394,8 @@ namespace CapaAccesoDatos
                     c.Correo = dr["correo"].ToString();
                     c.UserName = dr["userName"].ToString();
                     c.Pass = dr["pass"].ToString();
-                    c.Activo = Convert.ToBoolean(dr["activo"]); 
-                    c.Roll= new entRoll()
+                    c.Activo = Convert.ToBoolean(dr["activo"]);
+                    c.Roll = new entRoll()
                     {
                         Descripcion = dr["descripcion"].ToString(),
                     };
@@ -413,13 +410,13 @@ namespace CapaAccesoDatos
             catch (Exception e)
             {
                 MessageBox.Show(e.Message, "Error al buscar usuarios procedimiento spBuscarIDUsuario", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                
+
             }
             finally { cmd.Connection.Close(); }
             return c;
         }
 
-        
+
         #endregion
     }
 
