@@ -92,7 +92,7 @@ CREATE TABLE VENTA(
 	idVenta int primary key identity,
 	fecha datetime default getdate(),
 	total float not null,
-	estado bit default 1,--Pagado -En espera
+	estado varchar (10) default 'en proceso',
 	idUsuario int not null
 
 	constraint fk_Venta_Usuario foreign key (idUsuario) references Usuario (idUsuario)
@@ -100,15 +100,15 @@ CREATE TABLE VENTA(
 GO
 
 CREATE TABLE DETALLE_VENTA(
-	idDetVenta int identity,
 	idVenta int not null,
-	idProducto int not null,
+	idProveedor int,
+	IdProducto int,
 	cantidad int not null,
 	subTotal float not null
 	
-	constraint pk_detVenta primary key (idDetVenta), 
+	constraint pk_detVenta primary key (idVenta,idProveedor,IdProducto), 
 	constraint fk_detVenta_Venta foreign key (idVenta) references VENTA (idVenta),
-	constraint fk_detVenta_Producto foreign key (idProducto) references PRODUCTO (idProducto)
+	constraint fk_detVenta_Prveedor_producto foreign key (idProveedor,IdProducto) references PROVEEDOR_PRODUCTO (idProveedor,idProducto)
 )
 GO
 

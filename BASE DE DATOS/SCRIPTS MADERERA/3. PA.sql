@@ -634,23 +634,35 @@ go
 
 
 ------------------------------------VENTA
-CREATE OR ALTER PROCEDURE spMostrarCarrito
-(
-	@idUsuario int
-)
-as
-begin
-	select temp.idTemp, TEMP.idUsuario, p.idProducto, p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,temp.subtotal 
-	from Temporary_products temp
-	inner join PRODUCTO p on temp.idProducto=p.idProducto
-	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idTipo_Producto
-	inner join Usuario u on temp.idUsuario=u.idUsuario
-	where temp.idUsuario=@idUsuario and u.idRol = 2
-end
-go
+--CREATE OR ALTER PROCEDURE spMostrarCarrito
+--(
+--	@idUsuario int
+--)
+--as
+--begin
+--	select temp.idTemp, TEMP.idUsuario, p.idProducto, p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,temp.subtotal 
+--	from Temporary_products temp
+--	inner join PRODUCTO p on temp.idProducto=p.idProducto
+--	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idTipo_Producto
+--	inner join Usuario u on temp.idUsuario=u.idUsuario
+--	where temp.idUsuario=@idUsuario and u.idRol = 2
+--end
+--go
 
 CREATE OR ALTER TRIGGER tgInsertarCompra
 	on Compra
+after insert
+as
+begin
+	declare @idusuario int;
+	select @idusuario=inserted.idUsuario from inserted
+	--inner join compra on inserted.idCompra=compra.idCompra;
+	delete from Temporary_products where Temporary_products.idUsuario=@idusuario;
+end
+go
+
+CREATE OR ALTER TRIGGER tgInsertarVenta
+	on Venta
 after insert
 as
 begin
@@ -700,7 +712,43 @@ begin
 end
 go
 
+CREATE OR ALTER TRIGGER tgUpdateVenta
+on venta
+after update
+as
+begin
+	declare @estado varchar(10)
+	declare @idventa int
+	DECLARE @idc INT
+	declare @idp int
+    DECLARE @stock_origen int
+    DECLARE @stock_destino int
 
+	select @estado=inserted.estado,@idventa=inserted.idVenta from inserted
+	
+	if @estado='entregado'
+	begin
+		DECLARE cursor_actualizar1 CURSOR FOR
+		SELECT idProducto,cantidad
+		FROM DETALLE_VENTA
+		where idVenta=@idventa
+
+		OPEN cursor_actualizar1
+
+		FETCH NEXT FROM cursor_actualizar1 INTO @idp, @stock_origen
+
+		WHILE @@FETCH_STATUS = 0
+		BEGIN
+		   UPDATE PRODUCTO
+		   SET stock -=@stock_origen
+		   WHERE idProducto = @idp
+		   FETCH NEXT FROM cursor_actualizar1 INTO @idp, @stock_origen
+		END
+		CLOSE cursor_actualizar1
+		DEALLOCATE cursor_actualizar1
+	 end
+end
+go
 --/*CREATE OR ALTER PROCEDURE spReporteCompra
 --AS
 --BEGIN
