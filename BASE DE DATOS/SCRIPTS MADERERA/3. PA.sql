@@ -560,13 +560,8 @@ BEGIN
  
 END
 GO
---exec spListarCompra
-----select * from temporary_products
---delete from compra
-select * from DETALLE_COMPRA
 
-select * from DETALLE_COMPRA det inner join producto p 
-on det.idproducto=p.idProducto
+
 CREATE OR ALTER PROCEDURE spListarCompra
 AS
 BEGIN

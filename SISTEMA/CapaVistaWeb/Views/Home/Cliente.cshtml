@@ -126,45 +126,45 @@
                             Diametro
                         </th>
                         <th>
-                            Proveedor
-                        </th>
-                        <th>
                             Stock
                         </th>
                         <th>
                             Precio
+                        </th>
+                        <th>
+                            Agregar
                         </th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var item in Model)
                     {
-                        <tr>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Producto.IdProducto)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Producto.Nombre)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Producto.Tipo.Nombre)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Producto.Longitud)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Producto.Diametro)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Proveedor.RazonSocial)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Producto.Stock)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Producto.PrecioVenta)
-                            </td>
-                        </tr>
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Producto.IdProducto)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Producto.Nombre)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Producto.Tipo.Nombre)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Producto.Longitud)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Producto.Diametro)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Producto.Stock)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Producto.PrecioVenta)
+                        </td>
+                        <td>
+                            <a onclick="return Agregar(this)" href="/Home/AgregarTempPrductCliente?idprod=@item.Producto.IdProducto" class="btn btn-success" type="button"><i class="bi bi-cart-plus"></i></a>
+                        </td>
+                    </tr>
                     }
                 <tbody>
             </table>

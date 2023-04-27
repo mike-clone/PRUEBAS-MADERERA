@@ -150,6 +150,30 @@ namespace MadereraCarocho.Controllers
                 return RedirectToAction("Cliente", new { mesjExceptio = ex.Message });
             }
         }
+
+        [PermisosRol(entRol.Cliente)]
+        [HttpGet]
+        public ActionResult AgregarTempPrductCliente(int idprod)
+        {
+            entUsuario usuario = Session["Usuario"] as entUsuario;
+            var prod = logProducto.Instancia.BuscarProductoId(idprod);
+            EntTemporaryProducts temporaryProducts = new EntTemporaryProducts
+            {
+                ProveedorProducto = prod,
+                Usuario = usuario,
+                Cantidad = 1,
+                Subtotal = prod.PrecioCompra
+            };
+            try
+            {
+                LogTemporaryProducts.Instancia.CreaarTemporaryProducts(temporaryProducts);
+                return RedirectToAction("Cliente");
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction("Error", "Home", new { mesjExeption = ex.Message });
+            }
+        }
         #endregion 
         #region ADMINISTRADOR
         [PermisosRol(entRol.Administrador)]
