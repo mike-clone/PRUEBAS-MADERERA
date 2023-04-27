@@ -162,7 +162,7 @@ namespace MadereraCarocho.Controllers
                 ProveedorProducto = prod,
                 Usuario = usuario,
                 Cantidad = 1,
-                Subtotal = prod.PrecioCompra
+                Subtotal = prod.Producto.PrecioVenta
             };
             try
             {
