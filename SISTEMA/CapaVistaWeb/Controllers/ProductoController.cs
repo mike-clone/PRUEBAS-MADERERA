@@ -162,13 +162,7 @@ namespace MadereraCarocho.Controllers
             ViewBag.lista = lista;
             return RedirectToAction("Listar");
         }
-        public ActionResult ListarTempProduct()
-        {
-            entUsuario usuario = new entUsuario();
-             usuario= Session["Usuario"] as entUsuario;
-            return View(LogTemporaryProducts.Instancia.MostrarTemporaryProducts(usuario.IdUsuario));
-        }
-
+        
         [HttpGet]
         public ActionResult AgregarTempPrduct(int idprod)
         {
@@ -191,22 +185,6 @@ namespace MadereraCarocho.Controllers
                 return RedirectToAction("Error", "Home", new { mesjExeption = ex.Message });
             }
         }
-
-        [HttpGet]
-        public ActionResult EliminarTempPrduct(int idtemp)
-        {
-            try
-            {
-                bool elimina = LogTemporaryProducts.Instancia.EliminarTemporaryProducts(idtemp);
-            }
-            catch (Exception ex)
-            {
-
-                return RedirectToAction("Error","Home", new { mesjExeption = ex.Message });
-            }
-            return RedirectToAction("ListarTempProduct");
-        }
-
 
     }
 }
