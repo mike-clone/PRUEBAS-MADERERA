@@ -139,7 +139,6 @@
     <Content Include="Content\assets\img\slide\slide-1.jpg" />
     <Content Include="Content\assets\img\slide\slide-2.jpg" />
     <Content Include="Content\assets\img\slide\slide-3.jpg" />
-    <Content Include="Content\assets\js\alertas.js" />
     <Content Include="Content\assets\js\main.js" />
     <Content Include="Content\assets\scss\Readme.txt" />
     <Content Include="Content\assets\vendor\animate.css\animate.compat.css" />
@@ -275,14 +274,15 @@
     <Content Include="Views\Home\EditarDatosAdministrador.cshtml" />
     <Content Include="Views\Venta\Detalle.cshtml" />
     <Content Include="Views\Venta\Listar.cshtml" />
-    <Content Include="Views\Compra\Index.cshtml" />
-    <Content Include="Views\Compra\ListarTempProduct.cshtml" />
+    <Content Include="Views\Compra\ListarCompra.cshtml" />
+    <Content Include="Views\Producto\ListarTempProduct.cshtml" />
     <Content Include="Views\Empleado\EditarEmpleado.cshtml" />
     <Content Include="Views\Proveedor\EditarProveedor.cshtml" />
     <Content Include="Views\Proveedor\MostrarDetalle.cshtml" />
     <Content Include="Views\Usuario\EditarCliente.cshtml" />
     <Content Include="Views\Home\EditarDatosCliente.cshtml" />
     <Content Include="Views\Producto\EditarProductos.cshtml" />
+    <Content Include="Views\Home\Error.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

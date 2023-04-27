@@ -9,7 +9,7 @@
             icon: 'Error',
             title: 'Oops...',
             text: 'Algo salió mal!',
-            footer: 'Campos requeridos'
+            footer: 'Campos' + ' ' + ' requeridos'
         })
     } else {
         Swal.fire({
@@ -97,6 +97,34 @@ function Eliminar(opc) {
                     location.href = opc.href;
                 }
             });
+        }
+    });
+}
+function Agregarcompra() {
+    event.preventDefault();
+    Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'agregado',
+        showConfirmButton: false,
+        timer: 800
+    }).then((result) => {
+        if (result.dismiss === Swal.DismissReason.timer) {
+            location.href =href;
+        }
+    });
+}
+function Agregar(opcion) {
+    event.preventDefault();
+    Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'agregado',
+        showConfirmButton: false,
+        timer: 800
+    }).then((result) => {
+        if (result.dismiss === Swal.DismissReason.timer) {
+            location.href = opcion.href;
         }
     });
 }

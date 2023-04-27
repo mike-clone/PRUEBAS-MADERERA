@@ -1,4 +1,8 @@
-﻿namespace CapaLogica
+﻿using CapaAccesoDatos;
+using CapaEntidad;
+using System.Collections.Generic;
+
+namespace CapaLogica
 {
     public class LogTemporaryProducts
     {
@@ -9,26 +13,26 @@
             get { return _instance; }
         }
 
-        //public bool CreaarTemporaryProducts(EntTemporaryProducts temp)
-        //{
-        //    return DatTemporaryProducts.Instance.CreaarTemporaryProducts(temp);
-        //}
+        public bool CreaarTemporaryProducts(EntTemporaryProducts temp)
+        {
+            return DatTemporaryProducts.Instance.CreaarTemporaryProducts(temp);
+        }
 
-        //public List<EntTemporaryProducts> MostrarTemporaryProducts(int idUsuario)
-        //{
-        //    return DatTemporaryProducts.Instance.MostrarTemporaryProducts(idUsuario);
-        //}
-        //public bool EliminarTemporaryProducts(int id)
-        //{
-        //    return DatTemporaryProducts.Instance.EliminarTemporaryProducts(id);
-        //}
-        //public bool ActualizarTemporaryProducts(EntTemporaryProducts temp)
-        //{
-        //    return DatTemporaryProducts.Instance.ActualizarTemporaryProducts(temp);
-        //}
-        //public EntTemporaryProducts BuscarTemporaryProductsId(int idProveedor)
-        //{
-        //    return DatTemporaryProducts.Instance.BuscarTemporaryProductsId(idProveedor);
-        //}
+        public List<EntTemporaryProducts> MostrarTemporaryProducts(int idUsuario)
+        {
+            return DatTemporaryProducts.Instance.MostrarTemporaryProducts(idUsuario);
+        }
+        public bool EliminarTemporaryProducts(int id)
+        {
+            return DatTemporaryProducts.Instance.EliminarTemporaryProducts(id);
+        }
+        public bool ActualizarTemporaryProducts(EntTemporaryProducts temp)
+        {
+            return DatTemporaryProducts.Instance.ActualizarTemporaryProducts(temp);
+        }
+        public EntTemporaryProducts BuscarTemporaryProductsId(int id)
+        {
+            return DatTemporaryProducts.Instance.BuscarTemporaryProductsId(id);
+        }
     }
 }

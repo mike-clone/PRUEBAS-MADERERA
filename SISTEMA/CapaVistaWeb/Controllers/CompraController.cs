@@ -1,7 +1,9 @@
 ﻿using CapaEntidad;
 using CapaLogica;
 using MadereraCarocho.Permisos;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Web.Mvc;
 
 namespace MadereraCarocho.Controllers
@@ -13,92 +15,71 @@ namespace MadereraCarocho.Controllers
     {
 
         // GET: Compra
-        public ActionResult Index()
+        public ActionResult ListarCompra()
         {
-            //entUsuario user = Session["Usuario"] as entUsuario;
-            List<entCompra> detCompra = logCompra.Instancia.ListarCompra();
-            return View(detCompra);
+            List<entCompra> lsCompra = logCompra.Instancia.ListarCompra();
+            return View(lsCompra);
         }
-        //public ActionResult ListarTempProduct()
-        //{
-        //    var usuario = Session["Usuario"] as entUsuario;
-        //    return View(LogTemporaryProducts.Instancia.MostrarTemporaryProducts(usuario.IdUsuario));
-        //}
-        //[HttpPost]
-        //public ActionResult AgregarDetCarrito(int pvCantidad, FormCollection frm)
-        //{
 
-        //    try
-        //    {
-        //        entDetCompra detCompra = new entDetCompra();
-        //        entProducto prod = logProducto.Instancia.BuscarProductoId(Convert.ToInt32(frm["Prd"]));
-        //        detCompra.Producto = prod;
-        //        detCompra.Cantidad = pvCantidad;
-        //        detCompra.Subtotal = (pvCantidad * prod.ProveedorProducto.PrecioCompra);
-        //        logDetCompra.Instancia.AgregarProductoCarrito(detCompra);
-        //        return RedirectToAction("DetalleCarrito");
-        //    }
-        //    catch
-        //    {
-        //        return RedirectToAction("DetalleCarrito");
-        //    }
-        //}
-        //public ActionResult EliminarDetalle(int ids)
-        //{
-        //    try
-        //    {
-        //        logDetCompra.Instancia.EliminarDetCarrito(ids);
-        //        return RedirectToAction("DetalleCarrito");
-        //    }
-        //    catch
-        //    {
-        //        return RedirectToAction("DetalleCarrito");
-        //    }
 
-        //}
+    
+        public ActionResult ConfirmarCompra()
+        {
+            try
+            {
+                //obtenemos el usuario que esta realizando la compra
+                entUsuario usuario=new entUsuario();
+                usuario = Session["Usuario"] as entUsuario;
+                //Obtenemos los productos temprales del usuario que estan en el carrito
+                List<EntTemporaryProducts> list = new List<EntTemporaryProducts>();
+                list = LogTemporaryProducts.Instancia.MostrarTemporaryProducts(usuario.IdUsuario);
+                
+                //calculamos el total
+                double total = 0;
+                for (int i = 0; i <list.Count(); i++)
+                {
+                    total +=list[i].Subtotal;
+                }
+                //CREAMOS EL PEDIDO
+                entCompra Pedido = new entCompra
+                {
+                    Usuario = usuario,
+                    Total = total
+                };
 
-        //[HttpPost]
-        //public ActionResult ConfirmarCompra(FormCollection frm)
-        //{
-        //    try
-        //    {
-        //        //Obtenemos la lista del detalle
-        //        var detalle = logDetCompra.Instancia.MostrarDetCarrito();
+                //Obtenemos el id del pedido  creada
+                int idCompra = logCompra.Instancia.CrearCompra(Pedido);
+                //seteamos el id delpedido
+                Pedido.IdCompra = idCompra;
 
-        //        //Calculamos el total de toda la compra
-        //        double total = 0;
-        //        for (int i = 0; i < detalle.Count(); i++)
-        //        {
-        //            total += detalle[i].Subtotal;
-        //        }
+                entDetCompra det = new entDetCompra();
+                for (int i = 0; i <list.Count; i++)
+                {
+                    det.Compra = Pedido;
+                    det.ProveedorProducto = new entProveedorProducto
+                    {
+                        Proveedor = new entProveedor
+                        {
+                            IdProveedor = list[i].ProveedorProducto.Proveedor.IdProveedor
+                        },
+                        Producto=new entProducto
+                        {
+                            IdProducto = list[i].ProveedorProducto.Producto.IdProducto
+                        }
+                    };
+                    det.Cantidad = list[i].Cantidad;
+                    det.Subtotal = list[i].Subtotal;
+                   
+                    logDetCompra.Instancia.CrearDetCompra(det);
+                }
+                return RedirectToAction("ListarCompra");
 
-        //        entProveedor proveedor = logProveedor.Instancia.BuscarIdProveedor(Convert.ToInt32(frm["Prov"]));
+            }
+            catch
+            {
+                return RedirectToAction("Error","Home");
 
-        //        entCompra compra = new entCompra
-        //        {
-        //            Proveedor = proveedor,
-        //            Total = total
-        //        };
-        //        //Obtenemos el id de la compra creada
-        //        int idCompra = logCompra.Instancia.CrearCompra(compra);
-        //        compra.IdCompra = idCompra;
-
-        //        entDetCompra det = new entDetCompra();
-        //        for (int i = 0; i < detalle.Count; i++)
-        //        {
-        //            det = detalle[i];
-        //            det.Compra = compra;
-        //            logDetCompra.Instancia.CrearDetCompra(det);
-        //        }
-        //        detalle.Clear();
-        //        return RedirectToAction("Index");
-
-        //    }
-        //    catch
-        //    {
-        //        return RedirectToAction("Index");
-
-        //    }
-        //}
+            }
+        }
     }
 }

@@ -135,43 +135,7 @@ namespace CapaAccesoDatos
             return list;
 
         }
-        public List<entProveedor> SelectListProveedordat(int idprov)
-        {
-            SqlCommand cmd = null;
-            var list = new List<entProveedor>();
-            try
-            {
-                SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spSelectListProveedordat", cn)
-                {
-                    CommandType = CommandType.StoredProcedure,
-                };
-                cmd.Parameters.AddWithValue("@idproveedor", idprov);
-                cn.Open();
-                SqlDataReader dr = cmd.ExecuteReader();
-                while (dr.Read())
-                {
-                    entProveedor pro = new entProveedor
-                    {
-                        IdProveedor = Convert.ToInt32(dr["idProveedor"]),
-                        RazonSocial = dr["razonSocial"].ToString(),
-                        Descripcion = dr["descripcion"].ToString(),
-                    };
-                    list.Add(pro);
-                }
-            }
-            catch (Exception e)
-            {
-
-                MessageBox.Show(e.Message + "aqui es el error");
-            }
-            finally
-            {
-                cmd.Connection.Close();
-            }
-            return list;
-
-        }
+        
         public bool ActualizarProveedor(entProveedor pro)
         {
             SqlCommand cmd = null;
@@ -239,7 +203,43 @@ namespace CapaAccesoDatos
             return eliminado;
         }
 
+        public List<entProveedor> SelectListProveedordat(int idprov)
+        {
+            SqlCommand cmd = null;
+            var list = new List<entProveedor>();
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spSelectListProveedordat", cn)
+                {
+                    CommandType = CommandType.StoredProcedure,
+                };
+                cmd.Parameters.AddWithValue("@idpr",idprov);
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    entProveedor pro = new entProveedor
+                    {
+                        IdProveedor = Convert.ToInt32(dr["idProveedor"]),
+                        RazonSocial = dr["razonSocial"].ToString(),
+                        Descripcion = dr["descripcion"].ToString(),
+                    };
+                    list.Add(pro);
+                }
+            }
+            catch (Exception e)
+            {
 
+                MessageBox.Show(e.Message + "aqui es el error");
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return list;
+
+        }
 
         public List<entProveedor> BuscarProveedor(string busqueda)
         {

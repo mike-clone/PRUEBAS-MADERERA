@@ -27,6 +27,11 @@ namespace MadereraCarocho.Controllers
             ViewBag.Message = "Usted no tiene permisos para acceder a esta pagina";
             return View();
         }
+        public ActionResult Error()
+        {
+            return View();
+        }
+
         [HttpPost]
         public ActionResult VerificarAcceso(string dato, string contra)
         {

@@ -78,9 +78,17 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult EditarProductos(int idprod)
         {
+            List<entProveedor> lsprov;
+            List<entTipoProducto> lstipo;
             var prod = logProducto.Instancia.BuscarProductoId(idprod);
-            var lstipo = logTipoProducto.Instancia.SelectListTipoProductodat(prod.Producto.Tipo.IdTipo_producto);
-            var lsprov = logProveedor.Instancia.SelectListProveedordat(prod.Proveedor.IdProveedor);
+            if(prod.Producto.Tipo==null)
+            lstipo = logTipoProducto.Instancia.SelectListTipoProductodat(0);
+            else
+            lstipo = logTipoProducto.Instancia.SelectListTipoProductodat(prod.Producto.Tipo.IdTipo_producto);
+            if (prod.Proveedor==null)
+                lsprov = logProveedor.Instancia.SelectListProveedordat(0);
+            else
+                lsprov = logProveedor.Instancia.SelectListProveedordat(prod.Proveedor.IdProveedor);
             ViewBag.listaTipos = new SelectList(lstipo, "idTipo_producto", "nombre");
             ViewBag.listaProveedores = new SelectList(lsprov, "idProveedor", "NombreCompleto");
             return View(prod);
@@ -154,6 +162,51 @@ namespace MadereraCarocho.Controllers
             ViewBag.lista = lista;
             return RedirectToAction("Listar");
         }
+        public ActionResult ListarTempProduct()
+        {
+            entUsuario usuario = new entUsuario();
+             usuario= Session["Usuario"] as entUsuario;
+            return View(LogTemporaryProducts.Instancia.MostrarTemporaryProducts(usuario.IdUsuario));
+        }
+
+        [HttpGet]
+        public ActionResult AgregarTempPrduct(int idprod)
+        {
+            entUsuario usuario = Session["Usuario"] as entUsuario;
+            var proprod = logProducto.Instancia.BuscarProductoId(idprod);
+            EntTemporaryProducts temporaryProducts = new EntTemporaryProducts
+            {
+                ProveedorProducto = proprod,
+                Usuario = usuario,
+                Cantidad = 1,
+                Subtotal = proprod.PrecioCompra
+            };
+            try
+            {
+                LogTemporaryProducts.Instancia.CreaarTemporaryProducts(temporaryProducts);
+                return RedirectToAction("Listar");
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction("Error", "Home", new { mesjExeption = ex.Message });
+            }
+        }
+
+        [HttpGet]
+        public ActionResult EliminarTempPrduct(int idtemp)
+        {
+            try
+            {
+                bool elimina = LogTemporaryProducts.Instancia.EliminarTemporaryProducts(idtemp);
+            }
+            catch (Exception ex)
+            {
+
+                return RedirectToAction("Error","Home", new { mesjExeption = ex.Message });
+            }
+            return RedirectToAction("ListarTempProduct");
+        }
+
 
     }
 }

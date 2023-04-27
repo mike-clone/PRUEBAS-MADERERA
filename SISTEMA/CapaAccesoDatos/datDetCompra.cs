@@ -9,7 +9,7 @@ namespace CapaAccesoDatos
 {
     public class datDetCompra
     {
-        List<entDetCompra> DetCompra = new List<entDetCompra>();//IR GUARDANDO LOS PRODUCOS QUE IRAN EN LA COMPRA
+       
         private static readonly datDetCompra _instancia = new datDetCompra();
         public static datDetCompra Instancia
         {
@@ -28,7 +28,8 @@ namespace CapaAccesoDatos
                 cmd = new SqlCommand("spCrearDetCompra", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@idCompra", Det.Compra.IdCompra);
-                cmd.Parameters.AddWithValue("@idProducto", Det.Producto.IdProducto);//revisar si se llena el obj completo
+                cmd.Parameters.AddWithValue("@idProveedor", Det.ProveedorProducto.Proveedor.IdProveedor);
+                cmd.Parameters.AddWithValue("@idProducto", Det.ProveedorProducto.Producto.IdProducto);//revisar si se llena el obj completo
                 cmd.Parameters.AddWithValue("@cantidad", Det.Cantidad);
                 cmd.Parameters.AddWithValue("@subTotal", Det.Subtotal);
                 cn.Open();

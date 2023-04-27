@@ -7,16 +7,12 @@ namespace CapaEntidad
         private int idCompra;
         private DateTime fecha;
         private double total;
-        private entProveedor proveedor;
+        private entUsuario usuario;
         private string estado;
 
 
-        #region Constructores
-        public entCompra()
-        {
-        }
+     
 
-        #endregion Constructores
 
         #region Get and Set
         public int IdCompra
@@ -35,13 +31,9 @@ namespace CapaEntidad
             set { total = value; }
         }
 
-        public entProveedor Proveedor
-        {
-            get { return proveedor; }
-            set { proveedor = value; }
-        }
-
+      
         public string Estado { get => estado; set => estado = value; }
+        public entUsuario Usuario { get => usuario; set => usuario = value; }
         #endregion Get and Set
     }
 }

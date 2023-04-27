@@ -205,10 +205,10 @@ BEGIN
 END
 GO
 
-CREATE OR ALTER PROCEDURE spSelectListProveedordat(@idproveedor int)
+CREATE OR ALTER PROCEDURE spSelectListProveedordat(@idpr int)
 As
 BEGIN
-    select idProveedor,razonSocial,descripcion from PROVEEDOR where idProveedor=@idproveedor and estProveedor=1
+    select idProveedor,razonSocial,descripcion from PROVEEDOR where idProveedor=@idpr and estProveedor=1
 	union all
    select idProveedor,razonSocial,descripcion from PROVEEDOR where estProveedor=1
 END
@@ -303,6 +303,7 @@ CREATE OR ALTER PROCEDURE spEliminarDetalleProveedor(@idproveedor int,@idproduct
  BEGIN
 	Delete from PROVEEDOR_PRODUCTO 
 	WHERE idProveedor=@idproveedor and idProducto=@idproducto 
+	update producto set activo=0 where idproducto=@idproducto and @idproveedor=null;
  END
  GO
 
@@ -388,16 +389,6 @@ END
 GO
 
 
-CREATE OR ALTER PROCEDURE spSelectListProveedordat(
-@prmintidProducto int
-)
-AS
-BEGIN
-SELECT p.idProducto, p.nombre, p.diametro,p.longitud,p.precioVenta,p.idTipo_Producto,p.Activo, pp.precioCompra,pp.idProveedor
-	from producto p inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
-	where p.idProducto=@prmintidProducto;
-END
-GO
 
 CREATE OR ALTER PROCEDURE spActualizarProducto
 (
@@ -557,6 +548,7 @@ END CATCH
 GO
 CREATE OR ALTER PROCEDURE spCrearDetCompra(
 	@idCompra int,
+	@idProveedor int,
 	@idProducto int,
 	@cantidad int,
 	@subTotal float
@@ -564,22 +556,26 @@ CREATE OR ALTER PROCEDURE spCrearDetCompra(
 )
 AS
 BEGIN
-    --declare @estado varchar(10)='vacio'
-	INSERT INTO DETALLE_COMPRA values (@idCompra, @idProducto, @cantidad,@subTotal);
-   -- select @estado=estado from compra where idCompra=@idCompra;
-	--if @estado='entregado'
-	--begin
-	--end
+	INSERT INTO DETALLE_COMPRA values (@idCompra,@idProveedor, @idProducto, @cantidad,@subTotal);
+ 
 END
 GO
+--exec spListarCompra
+----select * from temporary_products
+--delete from compra
+select * from DETALLE_COMPRA
 
+select * from DETALLE_COMPRA det inner join producto p 
+on det.idproducto=p.idProducto
 CREATE OR ALTER PROCEDURE spListarCompra
 AS
 BEGIN
-	Select idCompra, fecha,total,estado from COMPRA 
+	Select idCompra, fecha,total,u.username,estado from COMPRA c
+	inner join Usuario u on c.idUsuario=u.idUsuario
 END
 GO
-
+--update compra set estado='entregado' where idcompra=3
+--select * from producto where idproducto=1 or idproducto=2 or idproducto=3 or idproducto=4 or idproducto=5
 CREATE OR ALTER PROCEDURE spCrearTemporaryProducts
 (
 	@idProducto int,
@@ -589,7 +585,7 @@ CREATE OR ALTER PROCEDURE spCrearTemporaryProducts
 )
 AS
 BEGIN
-	insert into Temporary_products values(@idProducto,@idProducto,@cantidad,@subtotal);
+	insert into Temporary_products values(@idProducto,@idUsuario,@cantidad,@subtotal);
 END
 GO
 
@@ -599,15 +595,20 @@ CREATE OR ALTER PROCEDURE spListarTemporaryProducts
 )
 as
 begin
-    select temp.idtemp,p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,pp.precioCompra,pr.razonSocial,pr.descripcion,temp.subtotal from Temporary_products temp
+    select temp.idtemp,TEMP.idUsuario,p.idProducto,pr.idProveedor,p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,pp.precioCompra,pr.razonSocial,pr.descripcion,temp.subtotal 
+	from Temporary_products temp
 	inner join PRODUCTO p on temp.idProducto=p.idProducto
-	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idProducto 
+		inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idTipo_Producto 
 	inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
 	inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
 	where temp.idUsuario=@idUsuario
 end
 go
 
+----select* from usuario
+--select* from Temporary_products 
+--delete from Temporary_products
+--exec spListarTemporaryProducts 2
 CREATE OR ALTER PROCEDURE spBuscarTemporaryProductsId(@idtemp int)
 AS
 BEGIN
@@ -620,16 +621,15 @@ select temp.idtemp,p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantida
 END
 GO
 
-CREATE OR ALTER PROCEDURE spEliminarTemporaryProducts
-(
-	@idtemp int
-)
+CREATE OR ALTER PROCEDURE spEliminarTemporaryProducts(@ids int)
 as
 begin
- delete from Temporary_products where idtemp=@idtemp;
+ delete from Temporary_products where idtemp=@ids;
 end
 go
 
+--select * from Temporary_products
+--exec spEliminarTemporaryProducts 4
 CREATE OR ALTER procedure spEditarTemporaryProducts(@idtemp int,@cantidad int)
 as
 begin

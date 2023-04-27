@@ -124,15 +124,15 @@ GO
 
 CREATE TABLE DETALLE_COMPRA(
 	idCompra int not null,
-	idProducto int not null,
+	idProveedor int,
+	IdProducto int,
 	cantidad int not null,
 	subTotal float not null,
 
-
-	constraint pk_detCompra primary key (idCompra,idProducto),
+	constraint pk_detCompra primary key (idCompra,idProveedor,IdProducto),
 	constraint fk_detCompra_Compra foreign key (idCompra) references COMPRA (idCompra),
-	constraint fk_detCompra_Producto foreign key (idProducto) references PRODUCTO (idProducto)
-)
+	constraint fk_detCompra_Prveedor_producto foreign key (idProveedor,IdProducto) references PROVEEDOR_PRODUCTO (idProveedor,idProducto)
+)																						
 GO
 
 CREATE TABLE Temporary_products(

@@ -28,8 +28,7 @@ namespace CapaAccesoDatos
                     CommandType = CommandType.StoredProcedure
                 };
                 cmd.Parameters.AddWithValue("@total", comp.Total);
-                cmd.Parameters.AddWithValue("@idProveedor", comp.Proveedor.IdProveedor);
-                cmd.Parameters.AddWithValue("@estado", comp.Estado);
+                cmd.Parameters.AddWithValue("@idUsuario", comp.Usuario.IdUsuario);
                 SqlParameter id = new SqlParameter("@id", 0)
                 {
                     Direction = ParameterDirection.Output
@@ -38,7 +37,7 @@ namespace CapaAccesoDatos
 
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
-                if (i == 1)
+                if (i>1)
                 {
                     idCompra = Convert.ToInt32(cmd.Parameters["@id"].Value);
                 }
@@ -77,11 +76,11 @@ namespace CapaAccesoDatos
                         IdCompra = Convert.ToInt32(dr["idCompra"]),
                         Fecha = Convert.ToDateTime(dr["fecha"]),
                         Total = Convert.ToDouble(dr["total"]),
-                        Estado = dr["@estado"].ToString(),
-                        Proveedor = new entProveedor
+                        Usuario=new entUsuario
                         {
-                            RazonSocial = dr["razonSocial"].ToString()
-                        }
+                            UserName = dr["username"].ToString(),
+                        },
+                        Estado = dr["estado"].ToString()
                     };
 
                     lista.Add(objCompra);

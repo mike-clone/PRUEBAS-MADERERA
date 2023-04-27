@@ -57,10 +57,13 @@
                 @Html.DisplayNameFor(model => model.Fecha)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Proveedor.RazonSocial)
+                @Html.DisplayNameFor(model => model.Usuario.UserName)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Total)
+            </th>
+            <th>
+                Estado@*@Html.DisplayFor(model=>model.Estado)*@
             </th>
         </tr>
 
@@ -74,10 +77,13 @@
                     @Html.DisplayFor(modelItem => item.Fecha)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Proveedor.RazonSocial)
+                    @Html.DisplayFor(modelItem => item.Usuario.UserName)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Total)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Estado)
                 </td>
                 <td>
                     @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |

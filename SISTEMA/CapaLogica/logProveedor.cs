@@ -28,6 +28,7 @@ namespace CapaLogica
         }
         public List<entProveedor> SelectListProveedordat(int id)
         {
+            
             return datProveedor.Instancia.SelectListProveedordat(id);
         }
         public bool ActualizarProveedor(entProveedor pro)
