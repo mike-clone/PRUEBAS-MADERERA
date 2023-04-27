@@ -34,7 +34,9 @@ namespace CapaLogica
             return datDetVenta.Instancia.Eliminardetalle(id);
         }
 
-
-
+        public List<EntTemporaryProducts> MostrarCarrito(int idUsuario)
+        {
+            return datDetVenta.Instancia.MostrarCarrito(idUsuario);
+        }
     }
 }

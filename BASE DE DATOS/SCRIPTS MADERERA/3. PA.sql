@@ -633,6 +633,22 @@ end
 go
 
 
+------------------------------------VENTA
+CREATE OR ALTER PROCEDURE spMostrarCarrito
+(
+	@idUsuario int
+)
+as
+begin
+	select temp.idTemp, TEMP.idUsuario, p.idProducto, p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,temp.subtotal 
+	from Temporary_products temp
+	inner join PRODUCTO p on temp.idProducto=p.idProducto
+	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idTipo_Producto
+	inner join Usuario u on temp.idUsuario=u.idUsuario
+	where temp.idUsuario=@idUsuario and u.idRol = 2
+end
+go
+
 CREATE OR ALTER TRIGGER tgInsertarCompra
 	on Compra
 after insert

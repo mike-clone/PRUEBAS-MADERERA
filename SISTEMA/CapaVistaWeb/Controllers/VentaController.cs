@@ -10,6 +10,13 @@ namespace MadereraCarocho.Controllers
     [Authorize]// No puede si es que no esta autorizado
     public class VentaController : Controller
     {
+        public ActionResult Detalle()
+        {
+            entUsuario usuario = new entUsuario();
+            usuario = Session["Usuario"] as entUsuario;
+            return View(logDetVenta.Instancia.MostrarCarrito(usuario.IdUsuario));
+        }
+
         [PermisosRol(entRol.Cliente)]
         public ActionResult Listar()
         {
@@ -18,6 +25,7 @@ namespace MadereraCarocho.Controllers
             ViewBag.lista = lista;
             return View(lista);
         }
+
         [PermisosRol(entRol.Cliente)]
         [HttpPost]
         public ActionResult CrearVenta()
