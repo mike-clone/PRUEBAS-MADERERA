@@ -101,14 +101,13 @@ GO
 
 CREATE TABLE DETALLE_VENTA(
 	idVenta int not null,
-	idProveedor int,
 	IdProducto int,
 	cantidad int not null,
 	subTotal float not null
 	
-	constraint pk_detVenta primary key (idVenta,idProveedor,IdProducto), 
+	constraint pk_detVenta primary key (idVenta,IdProducto), 
 	constraint fk_detVenta_Venta foreign key (idVenta) references VENTA (idVenta),
-	constraint fk_detVenta_Prveedor_producto foreign key (idProveedor,IdProducto) references PROVEEDOR_PRODUCTO (idProveedor,idProducto)
+	constraint fk_detVenta_Producto foreign key (IdProducto) references Producto (idProducto)
 )
 GO
 
