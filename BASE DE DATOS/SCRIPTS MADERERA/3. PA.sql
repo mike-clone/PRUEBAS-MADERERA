@@ -464,35 +464,36 @@ GO
 
 
 
---------------------------------------VENTA
---CREATE OR ALTER PROCEDURE spCrearVenta(
---	@idventa int out,
---	@total float,
---	@idUSUARIO int
---)
---AS
---BEGIN TRY
---	BEGIN TRANSACTION
---	INSERT INTO VENTA (total,idUSUARIO)values (@total,@idUSUARIO);
---	Set @idventa=@@identity;
---	COMMIT TRANSACTION
---END TRY
---BEGIN CATCH
---	ROLLBACK TRANSACTION
---	Set @idventa=-1;
---END CATCH
---GO
+----------------------------------------VENTA
+CREATE OR ALTER PROCEDURE spCrearVenta(
+	@idventa int out,
+	@total float,
+	@idUsuario int
+)
+AS
+BEGIN TRY
+	BEGIN TRANSACTION
+	INSERT INTO VENTA (total,idUsuario)values (@total,@idUsuario);
+	Set @idventa=@@identity;
+	COMMIT TRANSACTION
+END TRY
+BEGIN CATCH
+	ROLLBACK TRANSACTION
+	Set @idventa=-1;
+END CATCH
+GO
 
---CREATE OR ALTER PROCEDURE spListarVenta
---(
---	@id int
---)
---AS
---BEGIN
---	 SELECT  v.idVenta,v.fecha,v.total,v.estado,c.idUSUARIO,c.razonSocial FROM Venta v inner join USUARIO c
---	 on v.idUSUARIO=c.idUSUARIO where v.idUSUARIO=@id;	
---END
---GO
+CREATE OR ALTER PROCEDURE spListarVenta
+(
+	@id int
+)
+AS
+BEGIN
+	 SELECT * FROM Venta where idUsuario=@id;
+END
+GO
+
+
 
 --CREATE OR ALTER PROCEDURE spListarVentaPagada
 --(

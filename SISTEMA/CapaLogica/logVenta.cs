@@ -22,17 +22,17 @@ namespace CapaLogica
         {
             return datVenta.Instancia.ListarVenta(id);
         }
-        public List<entVenta> ListarVentaPagada(DateTime fecha)
-        {
-            return datVenta.Instancia.ListarVentaPagada(fecha);
-        }
-        public List<entVenta> ListarVentaNoPagada(DateTime fecha)
-        {
-            return datVenta.Instancia.ListarVentaNoPagada(fecha);
-        }
-        public bool ActualizarVenta(int idVenta, bool estado)
-        {
-            return datVenta.Instancia.ActualizarVenta(idVenta, estado);
-        }
+        //public List<entVenta> ListarVentaPagada(DateTime fecha)
+        //{
+        //    return datVenta.Instancia.ListarVentaPagada(fecha);
+        //}
+        //public List<entVenta> ListarVentaNoPagada(DateTime fecha)
+        //{
+        //    return datVenta.Instancia.ListarVentaNoPagada(fecha);
+        //}
+        //public bool ActualizarVenta(int idVenta, bool estado)
+        //{
+        //    return datVenta.Instancia.ActualizarVenta(idVenta, estado);
+        //}
     }
 }

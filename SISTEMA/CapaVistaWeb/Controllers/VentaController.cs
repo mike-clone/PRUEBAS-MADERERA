@@ -62,6 +62,53 @@ namespace MadereraCarocho.Controllers
 
             }
         }
+
+        public ActionResult ConfirmarVenta()
+        {
+            try
+            {
+                entUsuario usuario = new entUsuario();
+                usuario = Session["Usuario"] as entUsuario;
+                List<EntTemporaryProducts> list = new List<EntTemporaryProducts>();
+                list = LogTemporaryProducts.Instancia.MostrarTemporaryProducts(usuario.IdUsuario);
+
+                double total = 0;
+                for (int i = 0; i < list.Count(); i++)
+                {
+                    total += list[i].Subtotal;
+                }
+                
+                entVenta venta = new entVenta
+                {
+                    Cliente = usuario,
+                    Total = total
+                };
+
+                int idVenta = logVenta.Instancia.CrearVenta(venta);
+                venta.IdVenta = idVenta;
+
+                entDetVenta det = new entDetVenta();
+                for (int i = 0; i < list.Count; i++)
+                {
+                    det.Venta = venta;
+                    det.Producto = new entProducto
+                    {
+                        IdProducto = list[i].ProveedorProducto.Producto.IdProducto
+                    };
+                    det.Cantidad = list[i].Cantidad;
+                    det.SubTotal = list[i].Subtotal;
+
+                    logDetVenta.Instancia.CrearDetVenta(det);
+                }
+                return RedirectToAction("ListarVenta");
+
+            }
+            catch
+            {
+                return RedirectToAction("Error", "Home");
+
+            }
+        }
         //[PermisosRol(entRol.Cliente)]
         //[HttpPost]
         //public ActionResult LlenarDetalle(int pCantidad, FormCollection frm)
