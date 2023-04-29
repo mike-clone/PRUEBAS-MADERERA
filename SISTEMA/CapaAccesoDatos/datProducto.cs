@@ -73,7 +73,7 @@ namespace CapaAccesoDatos
                 {
                     entProveedorProducto Prod = new entProveedorProducto
                     {
-
+                        
                         Producto = new entProducto
                         {
                             IdProducto = Convert.ToInt32(dr["idproducto"]),
@@ -91,10 +91,12 @@ namespace CapaAccesoDatos
                             }
                         }
                     };
+
                     if (dr["razonsocial"] != DBNull.Value)
                     {
                         Prod.Proveedor = new entProveedor
                         {
+                            IdProveedor = Convert.ToInt32(dr["idProveedor"]),
                             RazonSocial = dr["razonsocial"].ToString()
                         };
                     }
@@ -385,6 +387,62 @@ namespace CapaAccesoDatos
                     CommandType = CommandType.StoredProcedure
                 };
                 cmd.Parameters.AddWithValue("@prmintidProducto", idprod);
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    Prod.Producto = new entProducto
+                    {
+                        IdProducto = Convert.ToInt32(dr["idproducto"]),
+                        Nombre = dr["nombre"].ToString(),
+                        Longitud = Convert.ToDouble(dr["longitud"]),
+                        Diametro = Convert.ToDouble(dr["diametro"]),
+                        PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
+                        Activo = Convert.ToBoolean(dr["Activo"]),
+                        Tipo = new entTipoProducto
+                        {
+                            IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]),
+                            Nombre = dr["tipo"].ToString()
+
+                        }
+                    };
+
+                    if (dr["razonsocial"] != DBNull.Value)
+                    {
+                        Prod.Proveedor = new entProveedor
+                        {
+                            IdProveedor = Convert.ToInt32(dr["idProveedor"]),
+                            RazonSocial = dr["razonsocial"].ToString()
+                        };
+                    }
+                    if (dr["precioCompra"] != DBNull.Value)
+                        Prod.PrecioCompra = Convert.ToDouble(dr["precioCompra"]);
+
+
+                }
+            }
+            catch (Exception e)
+            {
+
+                MessageBox.Show(e.Message);
+            }
+            finally { cmd.Connection.Close(); }
+            return Prod;
+        }
+
+        public entProveedorProducto BuscarProductoIdTemp(int idprod, int idprov)
+        {
+            SqlCommand cmd = null;
+            entProveedorProducto Prod = new entProveedorProducto();
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spBuscarProductoidTemp", cn)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                cmd.Parameters.AddWithValue("@prmintidProducto", idprod);
+                cmd.Parameters.AddWithValue("@prmintidProveedor", idprov);
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())

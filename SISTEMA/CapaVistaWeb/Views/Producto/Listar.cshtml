@@ -140,7 +140,7 @@
                         @Html.DisplayFor(modelItem => item.Producto.Activo)
                     </td>
                     <td>
-                        <a onclick="return Agregar(this)" href="/Producto/AgregarTempPrduct?idprod=@item.Producto.IdProducto" class="btn btn-success" type="button"><i class="bi bi-cart-plus"></i></a>
+                        <a onclick="return Agregar(this)" href="/Producto/AgregarTempPrduct?idprod=@item.Producto.IdProducto&idprov=@item.Proveedor.IdProveedor" class="btn btn-success" type="button"><i class="bi bi-cart-plus"></i></a>
                     </td>
                     <td>
                         <a href="/Producto/EditarProductos?idprod=@item.Producto.IdProducto" class="btn btn-warning" type="button"><i class="bi bi-pencil-square"></i></a>

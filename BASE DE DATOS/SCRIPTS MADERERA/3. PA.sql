@@ -333,7 +333,7 @@ GO
 CREATE OR ALTER PROCEDURE spListarProducto
 AS
 BEGIN
-	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta,p.Activo
+	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro,pr.idProveedor, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta,p.Activo
 	from producto p left join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
     left join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
     inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto 
@@ -348,7 +348,18 @@ SELECT p.idProducto, p.nombre, tp.nombre AS tipo,tp.idTipo_Producto ,p.longitud,
 	from producto p inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
     inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
     inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto 
-	where p.idProducto=@prmintidProducto
+	where p.idProducto=@prmintidProducto 
+END
+GO
+
+CREATE OR ALTER PROCEDURE spBuscarProductoidTemp(@prmintidProducto int , @prmintidProveedor int)
+AS
+BEGIN
+SELECT p.idProducto, p.nombre, tp.nombre AS tipo,tp.idTipo_Producto ,p.longitud, p.diametro, pr.razonSocial,pr.idProveedor,  p.stock, pp.precioCompra, p.precioVenta,p.Activo
+	from producto p inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
+    inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
+    inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto 
+	where p.idProducto=@prmintidProducto and pr.idProveedor=@prmintidProveedor
 END
 GO
 
@@ -580,6 +591,12 @@ BEGIN
 END
 GO
 
+--EXEC spListarTemporaryProducts 2
+--EXEC spCrearTemporaryProducts 1 , 2, 1 , 10
+
+--SELECT * FROM Temporary_products
+--DELETE FROM Temporary_products
+
 CREATE OR ALTER PROCEDURE spListarTemporaryProducts
 (
 	@idUsuario int
@@ -591,10 +608,19 @@ begin
 	inner join PRODUCTO p on temp.idProducto=p.idProducto
 	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idTipo_Producto 
 	inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
-	inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
+	inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor and p.idProducto=pp.idProveedor
 	where temp.idUsuario=@idUsuario
 end
 go
+
+--select temp.idtemp,TEMP.idUsuario,p.idProducto,pr.idProveedor,p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,pp.precioCompra,pr.razonSocial,pr.descripcion,temp.subtotal 
+--from Temporary_products temp
+--inner join PRODUCTO p on temp.idProducto=p.idProducto
+--inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idTipo_Producto 
+--inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
+--inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor and pr.idProveedor=pp.idProveedor
+--where temp.idUsuario=2
+
 
 CREATE OR ALTER PROCEDURE spListarTemporaryProductsCli
 (

@@ -52,5 +52,10 @@ namespace CapaLogica
         {
             return datProducto.Instancia.BuscarProductoId(prod);
         }
+
+        public entProveedorProducto BuscarProductoIdTemp(int idprod, int idprov)
+        {
+            return datProducto.Instancia.BuscarProductoIdTemp(idprod, idprov);
+        }
     }
 }
