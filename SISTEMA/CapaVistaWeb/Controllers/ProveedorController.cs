@@ -124,6 +124,7 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
+                ViewBag.producto = new SelectList(logProducto.Instancia.ListarProducto(),"idProducto", "NombreCompleto");
                 return View(_ = logProveedorProducto.Instancia.MostrarDetalleProvedorId(idp));
             }
             catch (Exception ex)
@@ -133,12 +134,32 @@ namespace MadereraCarocho.Controllers
         }
 
 
+        [HttpPost]
+        public ActionResult ElegirProductos(int proveedor, double precio, FormCollection frm)
+        {
+            entProveedorProducto PP = new entProveedorProducto
+            {
+                Proveedor = new entProveedor
+                {
+                    IdProveedor = proveedor,
+                },
+                Producto = new entProducto
+                {
+                    IdProducto = Convert.ToInt32(frm["Pr"])
+                },
+                PrecioCompra=precio
+                
+            };
+            logProveedorProducto.Instancia.CrearProveedorProducto(PP);
+            return RedirectToAction("Listar");
+        }
+
         [HttpGet]
         public ActionResult EliminarDetalle(int idprov, int idprod)
         {
             try
             {
-                bool elimina = logProveedorProducto.Instancia.EliminarDetalle(idprov, idprod);
+                bool elimina = logProveedorProducto.Instancia.EliminarDetalleProveedor(idprov, idprod);
             }
             catch (Exception ex)
             {

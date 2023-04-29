@@ -1,4 +1,8 @@
-﻿@model IEnumerable<CapaEntidad.entUsuario>
+﻿@model IEnumerable<CapaEntidad.entProveedorProducto>
+
+@{
+    ViewBag.Title = "Listar";
+}
 <!-- ======= Top Bar ======= -->
 <section id="topbar" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
@@ -20,20 +24,20 @@
     <div class="container d-flex align-items-center justify-content-between">
 
         <div class="logo">
-            <h1><a href="#hero">Maderera<span>Carocho</span></a></h1>
+            <h1><a href="/Home/Admin">Maderera<span>Carocho</span></a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html"><img src="~/Content/assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto " href="#hero">Inicio</a></li>
+                <li><a class="nav-link scrollto " href="/Home/Admin#hero">Inicio</a></li>
                 <li><a class="nav-link scrollto" href="/Producto/ListarParaComprar">Productos</a></li>
                 <li><a class="nav-link scrollto" href="/Usuario/ListarClientes">Clientes</a></li>
                 <li><a class="nav-link scrollto" href="/Proveedor/Listar">Proveedores</a></li>
                 <li><a class="nav-link scrollto" href="/Empleado/Listar">Empleados</a></li>
                 <li><a class="nav-link scrollto" href="/Compra/ListarCompra">Ver compras</a></li>
-                <li><a class="nav-link scrollto" href="/Producto/ListarTempProduct"><i class="bi bi-cart3">Carrito</i></a></li>
+                <li><a class="nav-link scrollto" href="/TemporaryProduct/ListarTempProduct"><i class="bi bi-cart3">Carrito</i></a></li>
                 <li><a class="nav-link scrollto" href="/Home/admin#contact">Contacto</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -47,23 +51,21 @@
 <br>
 <br>
 <div class="container">
-    <br><h2 style="text-align: center">LISTADO DE CLIENTES</h2>
-    @ViewBag.Error;
+    <br><h2 style="text-align: center">LISTADO DE PRODUCTOS</h2>
+    <!-- Agregar producto -->
+
     <hr>
     <!-- Ordenar -->
-    <a onclick="return Ordenar(this)" aria-current="page" type="button" class="btn btn-primary btn-lg" id="ASC" th:href="@*@{productoAsc}*@#"><i class="bi bi-sort-up"></i></a>
-    <a onclick="return Ordenar(this)" aria-current="page" type="button" class="btn btn-secondary btn-lg" id="DESC" th:href="@*@{productoDesc}*@#"><i class="bi bi-sort-down"></i></a>
+    <a onclick="return Ordenar(this)" aria-current="page" class="btn btn-primary btn-lg" id="ASC" @*href="Ordenar?dato=1"*@><i class="bi bi-sort-up"></i></a>
+    <a onclick="return Ordenar(this)" aria-current="page" class="btn btn-secondary btn-lg" id="DESC" @*href="Ordenar?dato=0"*@><i class="bi bi-sort-down"></i></a>
     <hr>
     <!-- Buscar -->
-    <form class="d-flex mb-4" role="search" action="/Usuario/ListarClientes" method="POST" id="bCliente">
+    <form class="d-flex mb-4" role="search" action="ListarParaComprar" method="POST" id="Bproducto">
         <input class="form-control me-2" type="search" placeholder="Buscar" name="dato" aria-label="Search">
-        <button onclick="return Buscar('bCliente')" class="btn btn-outline-success" type="submit">Buscar</button>
+        <button onclick="return Buscar('Bproducto')" class="btn btn-outline-success" type="submit">Buscar</button>
     </form>
-    @*<h2>@ViewBag.Mensaje</h2>
-        <h2>@ViewBag.Lista</h2>*@
-    <!-- Listar -->
-    <table class="table">
-        <thead class="table-dark">
+    <table table class="table table-hover">
+        <thead>
             <tr>
                 <th>
                     #
@@ -72,75 +74,76 @@
                     Nombre
                 </th>
                 <th>
-                    Telefono
+                    Tipo
                 </th>
                 <th>
-                    Correo
+                    Longitud
                 </th>
                 <th>
-                    Username
-                </th>
-                @*<th>
-                        Password
-                    </th>*@
-                <th>
-                    Dirección
+                    Diametro
                 </th>
                 <th>
-                    Provincia
+                    Proveedor
+                </th>
+                <th>
+                    Stock
+                </th>
+                <th>
+                    P compra
+                </th>
+                <th>
+                    P venta
                 </th>
                 <th>
                     Activo
                 </th>
                 <th>
-                    Editar
+                    Agregar
                 </th>
-                <th>
-                    Eliminar
-                </th>
+                <th>Eliminar</th>
             </tr>
         </thead>
         <tbody>
-
             @foreach (var item in Model)
             {
                 <tr>
                     <td>
-                        @Html.DisplayFor(modelItem => item.IdUsuario)
+                        @Html.DisplayFor(modelItem => item.Producto.IdProducto)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.RazonSocial)
+                        @Html.DisplayFor(modelItem => item.Producto.Nombre)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Telefono)
+                        @Html.DisplayFor(modelItem => item.Producto.Tipo.Nombre)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Correo)
+                        @Html.DisplayFor(modelItem => item.Producto.Longitud)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.UserName)
-                    </td>
-                    @*<td>
-                            @Html.DisplayFor(modelItem => item.Pass)
-                        </td>*@
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Direccion)
+                        @Html.DisplayFor(modelItem => item.Producto.Diametro)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Ubigeo.Provincia)
+                        @Html.DisplayFor(modelItem => item.Proveedor.RazonSocial)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Activo)
+                        @Html.DisplayFor(modelItem => item.Producto.Stock)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PrecioCompra)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Producto.PrecioVenta)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Producto.Activo)
+                    </td>
+                    <td>
+                        <a onclick="return Agregar(this)" href="/Producto/AgregarTempPrduct?idprod=@item.Producto.IdProducto&idprov=@item.Proveedor.IdProveedor" class="btn btn-success" type="button"><i class="bi bi-cart-plus"></i></a>
+                    </td>
+                    <td>
+                        <a onclick="return Eliminar(this)" href="/Producto/EliminarDetalle?idprov=@item.Proveedor.IdProveedor &idprod=@item.Producto.IdProducto" class="btn btn-danger" type="button"><i class="bi bi-trash3"></i></a>
                     </td>
 
-                    <td>
-                        <button class="btn btn-warning bi bi-pencil-square" type="button">
-                            @Html.ActionLink("Edit", "EditarCliente", new { c = item.IdUsuario })
-                        </button>
-                    </td>
-                    <td>
-                        <a onclick="return Eliminar(this)" href="/Usuario/EliminarClientes?idc=@item.IdUsuario" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
-                    </td>
                 </tr>
             }
         <tbody>
@@ -149,5 +152,3 @@
 <br>
 <br>
 <br>
-<br>
-

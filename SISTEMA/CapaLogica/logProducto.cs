@@ -1,6 +1,7 @@
 ﻿using CapaAccesoDatos;
 using CapaEntidad;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace CapaLogica
 {
@@ -13,49 +14,35 @@ namespace CapaLogica
             get { return _instancia; }
         }
         #region Administrador
-        public int CrearProducto(entProducto prod)
+        public bool CrearProducto(entProducto prod)
         {
             return datProducto.Instancia.CrearProducto(prod);
         }
-        public List<entProveedorProducto> ListarProducto()
+        public List<entProducto> ListarProducto()
         {
             return datProducto.Instancia.ListarProducto();
         }
-        public List<entProducto> ListarProductoParaVender()
+        public bool ActualizarProducto(entProducto Prod)
         {
-            return datProducto.Instancia.ListarProductoParaVender();
+            return datProducto.Instancia.ActualizarProducto(Prod);
         }
-        public List<entProducto> BuscarProductoParaVender(string buscar)
-        {
-            return datProducto.Instancia.BuscarProductoParaVender(buscar);
-        }
-        public List<entProveedorProducto> Ordenar(int dato)
-        {
-            return datProducto.Instancia.Ordenar(dato);
-        }
-        public bool ActualizarProducto(entProveedorProducto prod)
-        {
-            return datProducto.Instancia.ActualizarProducto(prod);
-        }
+
         public bool EliminarProducto(int id)
         {
             return datProducto.Instancia.EliminarProducto(id);
         }
-        #endregion 
-
-        public List<entProveedorProducto> BuscarProducto(string busqueda)
+        public List<entProducto> BuscarProducto(string busqueda)
         {
             return datProducto.Instancia.BuscarProducto(busqueda);
         }
-
-        public entProveedorProducto BuscarProductoId(int prod)
+        public entProducto BuscarProductoId(int idprod)
         {
-            return datProducto.Instancia.BuscarProductoId(prod);
+            return datProducto.Instancia.BuscarProductoId((int)idprod);
         }
+        #endregion
 
-        public entProveedorProducto BuscarProductoIdTemp(int idprod, int idprov)
-        {
-            return datProducto.Instancia.BuscarProductoIdTemp(idprod, idprov);
-        }
+
+
+
     }
 }

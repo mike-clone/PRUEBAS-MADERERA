@@ -13,17 +13,39 @@ namespace CapaLogica
             get { return _instancia; }
         }
 
+        public bool CrearProveedorProducto(entProveedorProducto prod)
+        {
+            return datProveedorProducto.Instancia.CrearProveedorProducto(prod);
+
+        }
+        public List<entProveedorProducto> ListarProductoParaComprar()
+        {
+            return datProveedorProducto.Instancia.ListarProductoParaComprar();
+        }
+
         public List<entProveedorProducto> MostrarDetalleProvedorId(int idProveedor)
         {
             return datProveedorProducto.Instancia.MostarDetalleProveedorId(idProveedor);
         }
-        public bool CrearDetalle(entProveedorProducto pp)
+
+        public List<entProveedorProducto> MostarDetalleProveedorId(int idProveedor)
         {
-            return datProveedorProducto.Instancia.CrearProveedorProducto(pp);
+            return datProveedorProducto.Instancia.MostarDetalleProveedorId(idProveedor);
         }
-        public bool EliminarDetalle(int prov, int prod)
+        public List<entProveedorProducto> BuscarProductoParaComprar(string busqueda)
         {
-            return datProveedorProducto.Instancia.EliminarDetalle(prov, prod);
+            return datProveedorProducto.Instancia.BuscarProductoParaComprar(busqueda);
         }
+
+        public entProveedorProducto BuscarProvedorProductoId(int idprod, int idprov)
+        {
+            return datProveedorProducto.Instancia.BuscarProvedorProductoId(idprod, idprov);
+        }
+        public bool EliminarDetalleProveedor(int prov, int prod)
+        {
+            return datProveedorProducto.Instancia.EliminarDetalleProveedor(prov, prod);
+        }
+
+
     }
 }

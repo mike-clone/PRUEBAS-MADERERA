@@ -28,7 +28,7 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto " href="/Home/Admin#hero">Inicio</a></li>
-                <li><a class="nav-link scrollto" href="/Producto/Listar">Productos</a></li>
+                <li><a class="nav-link scrollto" href="/Producto/ListarParaComprar">Productos</a></li>
                 <li><a class="nav-link scrollto" href="/Usuario/ListarClientes">Clientes</a></li>
                 <li><a class="nav-link scrollto" href="/Proveedor/Listar">Proveedores</a></li>
                 <li><a class="nav-link scrollto" href="/Empleado/Listar">Empleados</a></li>
@@ -47,25 +47,16 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 <hr>
-
+<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#ModElegirProducto"><i class="bi bi-plus-square"></i> Agregar Proveedor</button>
+<br>
+<br>
+<br>
 <table table class="table table-hover">
     <tr>
         <th>
             #
         </th>
-        @*<th>
-                Razon social
-            </th>
-            <th>
-                Descripcion
-            </th>*@
         <th>
             IdProducto
         </th>
@@ -85,6 +76,7 @@
     </tr>
     @{
         int count = 0;
+        int idProo = 0;
     }
 
     @foreach (var item in Model)
@@ -93,18 +85,10 @@
             <td>
                 @{
                     count++;
+                    idProo = item.Proveedor.IdProveedor;
                 }
                 @count
             </td>
-            @*<td>
-                    @Html.DisplayFor(modelItem => item.Proveedor.IdProveedor)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Proveedor.RazonSocial)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Proveedor.Descripcion)
-                </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.Producto.IdProducto)
             </td>
@@ -132,7 +116,37 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
+
+<div class="modal" tabindex="-1" id="ModElegirProducto" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <form action="/Proveedor/ElegirProductos" method="POST" id="mdproveedor">
+                <div class="modal-header ">
+                    <h5 class="modal-title">Ingresar Proveedor</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating mb-3">
+                        @Html.DropDownList("Pr", (SelectList)ViewBag.producto, "Seleccionar", new { @class = "form-select", required = "required" })
+                        <label for="tipo" class="form-label">Producto: </label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" name="precio" id="precio" placeholder="Precio de compra" required>
+                        <label for="floatingInput">PrecioDeCompra</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="hidden" class="form-control" name="proveedor" id="proveedor" placeholder="proveedor" value=@idProo required>   
+                    </div>
+                    <div>
+                        <input type="hidden" id="llenarparametro" value="lleno" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button onclick="return Registrar('precio', 'proveedor', 'llenarparametro', 'mdproveedor')" type="submit" class="btn btn-dark">Registrar</button>
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 

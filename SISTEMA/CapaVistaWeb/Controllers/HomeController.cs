@@ -4,6 +4,7 @@ using MadereraCarocho.Permisos;//Para los permisos
 using MadereraCarocho.Utilidades;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity.Infrastructure;
 using System.Web.Mvc;
 using System.Web.Security;//FormsAutenticathion
 
@@ -16,9 +17,9 @@ namespace MadereraCarocho.Controllers
         {
             List<entProducto> lista;
             if (string.IsNullOrEmpty(dato))
-                lista = logProducto.Instancia.ListarProductoParaVender();
+                lista = logProducto.Instancia.ListarProducto();
             else
-                lista = logProducto.Instancia.BuscarProductoParaVender(dato);
+                lista = logProducto.Instancia.BuscarProducto(dato);
 
             return View(lista);
         }
@@ -102,9 +103,9 @@ namespace MadereraCarocho.Controllers
             {
                 List<entProducto> lista;
                 if (string.IsNullOrEmpty(dato))
-                    lista = logProducto.Instancia.ListarProductoParaVender();
+                    lista = logProducto.Instancia.ListarProducto();
                 else
-                    lista = logProducto.Instancia.BuscarProductoParaVender(dato);
+                    lista = logProducto.Instancia.BuscarProducto(dato);
                 return View(lista);
             }
             return RedirectToAction("Index");
@@ -159,10 +160,13 @@ namespace MadereraCarocho.Controllers
             var prod = logProducto.Instancia.BuscarProductoId(idprod);
             EntTemporaryProducts temporaryProducts = new EntTemporaryProducts
             {
-                ProveedorProducto = prod,
+                ProveedorProducto = new entProveedorProducto
+                {
+                    Producto = prod,
+                },
                 Usuario = usuario,
                 Cantidad = 1,
-                Subtotal = prod.Producto.PrecioVenta
+                Subtotal = prod.PrecioVenta
             };
             try
             {

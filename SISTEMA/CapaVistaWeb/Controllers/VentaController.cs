@@ -20,60 +20,7 @@ namespace MadereraCarocho.Controllers
             return View(lista);
         }
 
-        //[PermisosRol(entRol.Cliente)]
-        //[HttpPost]
-        //public ActionResult CrearVenta()
-        //{
-        //    try
-        //    {
-        //        entUsuario usu = new entUsuario();
-        //        usu = Session["Usuario"] as entUsuario;
-
-        //        var detalle = LogTemporaryProducts.Instancia.MostrarTemporaryProductsCli(usu.IdUsuario);
-                
-        //        double total = 0;
-
-        //        for (int i = 0; i < detalle.Count(); i++)
-        //        {
-        //            total += detalle[i].Subtotal;
-        //        }
-
-        //        entVenta venta = new entVenta
-        //        {
-        //            Cliente = usu,
-        //            Total = total
-        //        };
-
-        //        int idventa = logVenta.Instancia.CrearVenta(venta);
-        //        venta.IdVenta = idventa;
-
-        //        entDetVenta det = new entDetVenta();
-
-        //        for (int i = 0; i < detalle.Count; i++)
-        //        {
-        //            det.ProveedorProducto = new entProveedorProducto
-        //            {
-        //                Producto = new entProducto
-        //                {
-        //                    IdProducto = detalle[i].ProveedorProducto.Producto.IdProducto
-        //                }
-        //            };
-        //            det.Venta = venta;
-        //            det.Cantidad = detalle[i].Cantidad;
-        //            det.SubTotal = detalle[i].Subtotal;
-        //            logDetVenta.Instancia.CrearDetVenta(det);
-        //        }
-        //        detalle.Clear();
-        //        return RedirectToAction("Listar");
-
-        //    }
-        //    catch
-        //    {
-        //        return RedirectToAction("Listar");
-
-        //    }
-        //}
-
+    
         public ActionResult ConfirmarVenta()
         {
             try

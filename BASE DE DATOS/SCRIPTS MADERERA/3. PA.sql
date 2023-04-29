@@ -27,7 +27,7 @@ BEGIN
 END
 GO
 
-
+--select * from venta v inner join DETALLE_VENTA dt on v.idVenta=dt.idVenta 
 --===LISTAR USUARIO==
 CREATE OR ALTER PROCEDURE spListarClientes
 AS
@@ -298,19 +298,17 @@ CREATE OR ALTER PROCEDURE spMostrarDetalleProveedorId
  where p.idProveedor=@idProveedor
  END
  GO
+
 CREATE OR ALTER PROCEDURE spEliminarDetalleProveedor(@idproveedor int,@idproducto int)
  AS
  BEGIN
 	Delete from PROVEEDOR_PRODUCTO 
 	WHERE idProveedor=@idproveedor and idProducto=@idproducto 
-	update producto set activo=0 where idproducto=@idproducto and @idproveedor=null;
  END
  GO
 
- 
 ------------------------------------PRODUCTO
 CREATE OR ALTER PROCEDURE spCrearProducto(
-    @id int out,
 	@nombre varchar(40),
 	@longitud float,
 	@diametro float,
@@ -318,24 +316,17 @@ CREATE OR ALTER PROCEDURE spCrearProducto(
 	@idTipo_Producto int
 )
 AS
-BEGIN TRY
-	begin transaction
-		INSERT INTO PRODUCTO(nombre,longitud,diametro,precioVenta,idTipo_Producto) values (@nombre, @longitud,@diametro,@precioVenta, @idTipo_Producto);
-		set @id=@@IDENTITY
-	commit transaction
-END TRY
-BEGIN CATCH
-	ROLLBACK TRANSACTION
-	Set @id=-1;
-END CATCH
+BEGIN 
+	INSERT INTO PRODUCTO(nombre,longitud,diametro,precioVenta,idTipo_Producto) values (@nombre, @longitud,@diametro,@precioVenta, @idTipo_Producto);
+END 
 GO
 
-CREATE OR ALTER PROCEDURE spListarProducto
+CREATE OR ALTER PROCEDURE spListarProductoParaComprar
 AS
 BEGIN
 	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro,pr.idProveedor, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta,p.Activo
 	from producto p left join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
-    left join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
+    inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
     inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto 
 	order by p.Activo desc,p.idProducto
 END
@@ -352,7 +343,7 @@ SELECT p.idProducto, p.nombre, tp.nombre AS tipo,tp.idTipo_Producto ,p.longitud,
 END
 GO
 
-CREATE OR ALTER PROCEDURE spBuscarProductoidTemp(@prmintidProducto int , @prmintidProveedor int)
+CREATE OR ALTER PROCEDURE spBuscarProvedorProductoId(@prmintidProducto int , @prmintidProveedor int)
 AS
 BEGIN
 SELECT p.idProducto, p.nombre, tp.nombre AS tipo,tp.idTipo_Producto ,p.longitud, p.diametro, pr.razonSocial,pr.idProveedor,  p.stock, pp.precioCompra, p.precioVenta,p.Activo
@@ -364,30 +355,31 @@ END
 GO
 
 
-CREATE OR ALTER PROCEDURE spListarProductoParaVender
+CREATE OR ALTER PROCEDURE spListarProducto
 as
 BEGIN
-SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro,  p.stock, p.precioVenta
+SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro,  p.stock, p.precioVenta,p.Activo
 from producto p inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
-where p.activo=1
+order by p.Activo desc
 END
 Go
-CREATE OR ALTER PROCEDURE spBuscarProducto
+
+CREATE OR ALTER PROCEDURE spBuscarProductoParaComprar
 	@campo varchar(40)
 AS
 BEGIN
-	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta,p.Activo
+	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro,pr.idProveedor, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta,p.Activo
 	from producto p left join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
-	left join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
+	inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
 	inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
 	WHERE CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR tp.nombre LIKE '%'+@campo+'%' or pr.razonSocial like '%'+@campo+'%'
 END
 GO
-CREATE OR ALTER PROCEDURE spBuscarProductoParaVender
+CREATE OR ALTER PROCEDURE spBuscarProducto
 	@campo varchar(40)
 AS
 BEGIN
-	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro,  p.stock, p.precioVenta
+	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro,  p.stock, p.precioVenta,p.Activo
 	from producto p inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
 	WHERE (CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR tp.nombre LIKE '%'+@campo+'%')
 	and p.activo=1
@@ -404,26 +396,23 @@ CREATE OR ALTER PROCEDURE spActualizarProducto
 	@diametro float,
 	@precioVenta float,
 	@idTipo_producto int,
-	@Activo bit,
-	@idProveedor int,
-	@precioCompra float
-	
+	@Activo bit
 )
 AS
 BEGIN
 update PRODUCTO set nombre=@nombre,longitud=@longitud,diametro=@diametro,precioVenta=@precioVenta,idTipo_producto=@idTipo_producto,Activo=@Activo
 where idProducto=@idproducto
-update PROVEEDOR_PRODUCTO set idProveedor=@idProveedor,precioCompra=@precioCompra where idProducto=@idproducto
 END
 GO
 
----====LISTAR TIPO PRODUCTO ============
---CREATE OR ALTER PROCEDURE spSelectListTipoProducto
---AS
---BEGIN
---	SELECT *FROM TIPO_PRODUCTO;
---END
---GO
+--====LISTAR TIPO PRODUCTO ============
+CREATE OR ALTER PROCEDURE spSelectListTipoProducto
+AS
+BEGIN
+	SELECT *FROM TIPO_PRODUCTO;
+END
+GO
+
 
 CREATE OR ALTER PROCEDURE spSelectListTipoProductodat(@id int)
 AS
@@ -594,8 +583,13 @@ GO
 --EXEC spListarTemporaryProducts 2
 --EXEC spCrearTemporaryProducts 1 , 2, 1 , 10
 
---SELECT * FROM Temporary_products
+--SELECT * FROM Temporary_products where idusuario=2
 --DELETE FROM Temporary_products
+
+--spBuscarProductoidTemp 5,5
+
+--select * from PROVEEDOR_PRODUCTO
+--insert into PROVEEDOR_PRODUCTO values(2,5,50)
 
 CREATE OR ALTER PROCEDURE spListarTemporaryProducts
 (

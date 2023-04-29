@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CapaEntidad.entProveedorProducto>
+﻿@model IEnumerable<CapaEntidad.entProducto>
 
 @{
     ViewBag.Title = "Listar";
@@ -32,7 +32,7 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto " href="/Home/Admin#hero">Inicio</a></li>
-                <li><a class="nav-link scrollto" href="/Producto/Listar">Productos</a></li>
+                <li><a class="nav-link scrollto" href="/Producto/ListarParaComprar">Productos</a></li>
                 <li><a class="nav-link scrollto" href="/Usuario/ListarClientes">Clientes</a></li>
                 <li><a class="nav-link scrollto" href="/Proveedor/Listar">Proveedores</a></li>
                 <li><a class="nav-link scrollto" href="/Empleado/Listar">Empleados</a></li>
@@ -54,14 +54,14 @@
     <br><h2 style="text-align: center">LISTADO DE PRODUCTOS</h2>
     <!-- Agregar producto -->
 
-    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#ModInsertarProducto"><i class="bi bi-plus-square"></i> Agregar Producto</button>
+   <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#ModInsertarProducto"><i class="bi bi-plus-square"></i> Agregar Producto</button>
     <hr>
     <!-- Ordenar -->
-    <a onclick="return Ordenar(this)" aria-current="page" class="btn btn-primary btn-lg" id="ASC" href="Ordenar?dato=1"><i class="bi bi-sort-up"></i></a>
+    <a onclick="return Ordenar(this)" aria-current="page" class="btn btn-primary btn-lg" id="ASC" @*href="Ordenar?dato=1"*@><i class="bi bi-sort-up"></i></a>
     <a onclick="return Ordenar(this)" aria-current="page" class="btn btn-secondary btn-lg" id="DESC" @*href="Ordenar?dato=0"*@><i class="bi bi-sort-down"></i></a>
     <hr>
     <!-- Buscar -->
-    <form class="d-flex mb-4" role="search" action="Listar" method="POST" id="Bproducto">
+    <form class="d-flex mb-4" role="search" action="ListarProducto" method="POST" id="Bproducto">
         <input class="form-control me-2" type="search" placeholder="Buscar" name="dato" aria-label="Search">
         <button onclick="return Buscar('Bproducto')" class="btn btn-outline-success" type="submit">Buscar</button>
     </form>
@@ -84,22 +84,13 @@
                     Diametro
                 </th>
                 <th>
-                    Proveedor
-                </th>
-                <th>
                     Stock
-                </th>
-                <th>
-                    P compra
                 </th>
                 <th>
                     P venta
                 </th>
                 <th>
                     Activo
-                </th>
-                <th>
-                    Agregar
                 </th>
                 <th>Edit</th>
                 <th>Eliminar</th>
@@ -110,44 +101,34 @@
             {
                 <tr>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Producto.IdProducto)
+                        @Html.DisplayFor(modelItem => item.IdProducto)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Producto.Nombre)
+                        @Html.DisplayFor(modelItem => item.Nombre)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Producto.Tipo.Nombre)
+                        @Html.DisplayFor(modelItem => item.Tipo.Nombre)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Producto.Longitud)
+                        @Html.DisplayFor(modelItem => item.Longitud)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Producto.Diametro)
+                        @Html.DisplayFor(modelItem => item.Diametro)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Proveedor.RazonSocial)
+                        @Html.DisplayFor(modelItem => item.Stock)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Producto.Stock)
+                        @Html.DisplayFor(modelItem => item.PrecioVenta)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.PrecioCompra)
+                        @Html.DisplayFor(modelItem => item.Activo)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Producto.PrecioVenta)
+                        <a href="/Producto/EditarProducto?idprod=@item.IdProducto" class="btn btn-warning" type="button"><i class="bi bi-pencil-square"></i></a>
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Producto.Activo)
-                    </td>
-                    <td>
-                        <a onclick="return Agregar(this)" href="/Producto/AgregarTempPrduct?idprod=@item.Producto.IdProducto&idprov=@item.Proveedor.IdProveedor" class="btn btn-success" type="button"><i class="bi bi-cart-plus"></i></a>
-                    </td>
-                    <td>
-                        <a href="/Producto/EditarProductos?idprod=@item.Producto.IdProducto" class="btn btn-warning" type="button"><i class="bi bi-pencil-square"></i></a>
-                    </td>
-                    <td>
-                        <a onclick="return Eliminar(this)" href="/Producto/EliminarProducto?idP=@item.Producto.IdProducto" class="btn btn-danger" type="button"><i class="bi bi-trash3"></i></a>
-                        @ViewBag.Error
+                        <a onclick="return Eliminar(this)" href="/Producto/EliminarProducto?idP=@item.IdProducto" class="btn btn-danger" type="button"><i class="bi bi-trash3"></i></a>
                     </td>
 
                 </tr>
@@ -158,7 +139,7 @@
 <br>
 <br>
 <br>
-<!--Agregar Producto-->
+@*Agregar Producto*@
 <div class="modal" tabindex="-1" id="ModInsertarProducto" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -183,15 +164,6 @@
                     <div class="form-floating mb-3">
                         <input type="number" class="form-control" name="cdiametro" id="diametro" placeholder="Diametro" required>
                         <label for="floatingInput">Diametro</label>
-                    </div>
-
-                    <div class="form-floating mb-3">
-                        @Html.DropDownList("cProv", (SelectList)ViewBag.listaProveedor, "Seleccionar", new { @class = "form-select", required = "required" })
-                        <label for="tipo" class="form-label">Provedor de este producto: </label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="number" class="form-control" name="cprecioCompra" id="precioventa" required>
-                        <label for="floatingInput">Precio de compra de este producto</label>
                     </div>
                     <div class="form-floating mb-3">
                         <input type="number" class="form-control" name="cprecioVenta" id="precioventa" required>
