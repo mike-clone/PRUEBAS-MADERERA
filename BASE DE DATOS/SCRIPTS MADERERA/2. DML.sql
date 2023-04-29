@@ -1934,6 +1934,8 @@ INSERT INTO PRODUCTO  (nombre,longitud,diametro,precioVenta, idTipo_Producto) VA
 end
 GO
 
+UPDATE PRODUCTO SET STOCK = 50;
+
 --INSERT  PROVEEDOR_PRODUCTO
 INSERT INTO PROVEEDOR_PRODUCTO VALUES 
 (1,1,20),
@@ -2022,5 +2024,7 @@ INSERT INTO USUARIO(razonSocial,telefono,direccion,idUbigeo,correo,userName,pass
 INSERT INTO USUARIO(razonSocial,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES	('omar',933423291, 'santiago mariños 1618', '010109','omar@gmail.com','omar#345','a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3',1);
 INSERT INTO USUARIO(razonSocial,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES	('ximena', 999067966, 'MZA. 1-A LOTE. 3', '120102','ximena@gmailcom','ximena#1','a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3',2);
 INSERT INTO USUARIO(razonSocial,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES	('daniel',913423491,'Mz20Lote34-Av.5556',  '010109','daniel@gmail.com','daniel#222','a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3',2);
+INSERT INTO USUARIO(razonSocial,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES	('nistx',946487158,'Mz20Lote34-Av.5556',  '010109','nist1@gmail.com','nistx#1','03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4',1);
+INSERT INTO USUARIO(razonSocial,telefono,direccion,idUbigeo,correo,userName,pass,idRol) VALUES	('nistx',946487158,'Mz20Lote34-Av.5556',  '010109','nist2@gmail.com','nistx#2','03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4',2);
 GO
 
