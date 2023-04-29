@@ -356,10 +356,8 @@ GO
 CREATE OR ALTER PROCEDURE spListarProductoParaVender
 as
 BEGIN
-SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, p.precioVenta
-from producto p inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
-inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
-inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
+SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro,  p.stock, p.precioVenta
+from producto p inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
 where p.activo=1
 END
 Go
@@ -378,13 +376,10 @@ CREATE OR ALTER PROCEDURE spBuscarProductoParaVender
 	@campo varchar(40)
 AS
 BEGIN
-	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro, pr.razonSocial,  p.stock, pp.precioCompra, p.precioVenta
-	from producto p inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
-	inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
-	inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
-	WHERE (CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR tp.nombre LIKE '%'+@campo+'%' or pr.razonSocial like '%'+@campo+'%')
-	and
-	p.activo=1
+	SELECT p.idProducto, p.nombre, tp.nombre AS tipo ,p.longitud, p.diametro,  p.stock, p.precioVenta
+	from producto p inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
+	WHERE (CONCAT(p.nombre, ' ',p.longitud) LIKE '%'+@campo+'%' OR tp.nombre LIKE '%'+@campo+'%')
+	and p.activo=1
 END
 GO
 
@@ -585,7 +580,7 @@ BEGIN
 END
 GO
 
-CREATE OR ALTER PROCEDURE spListarTemporaryProducts --AQUI
+CREATE OR ALTER PROCEDURE spListarTemporaryProducts
 (
 	@idUsuario int
 )
@@ -594,9 +589,23 @@ begin
     select temp.idtemp,TEMP.idUsuario,p.idProducto,pr.idProveedor,p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,pp.precioCompra,pr.razonSocial,pr.descripcion,temp.subtotal 
 	from Temporary_products temp
 	inner join PRODUCTO p on temp.idProducto=p.idProducto
-		inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idTipo_Producto 
+	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idTipo_Producto 
 	inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
 	inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
+	where temp.idUsuario=@idUsuario
+end
+go
+
+CREATE OR ALTER PROCEDURE spListarTemporaryProductsCli
+(
+	@idUsuario int
+)
+as
+begin
+    select temp.idtemp,TEMP.idUsuario,p.idProducto,p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,temp.subtotal 
+	from Temporary_products temp
+	inner join PRODUCTO p on temp.idProducto=p.idProducto
+	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idTipo_Producto 
 	where temp.idUsuario=@idUsuario
 end
 go

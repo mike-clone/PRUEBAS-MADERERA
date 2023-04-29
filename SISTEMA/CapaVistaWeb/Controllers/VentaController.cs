@@ -20,48 +20,59 @@ namespace MadereraCarocho.Controllers
             return View(lista);
         }
 
-        [PermisosRol(entRol.Cliente)]
-        [HttpPost]
-        public ActionResult CrearVenta()
-        {
-            try
-            {
-                var detalle = logDetVenta.Instancia.Mostrardetventa();
-                double total = 0;
+        //[PermisosRol(entRol.Cliente)]
+        //[HttpPost]
+        //public ActionResult CrearVenta()
+        //{
+        //    try
+        //    {
+        //        entUsuario usu = new entUsuario();
+        //        usu = Session["Usuario"] as entUsuario;
 
-                for (int i = 0; i < detalle.Count(); i++)
-                {
-                    total += detalle[i].SubTotal;
-                }
+        //        var detalle = LogTemporaryProducts.Instancia.MostrarTemporaryProductsCli(usu.IdUsuario);
+                
+        //        double total = 0;
 
-                entUsuario usu = Session["Usuario"] as entUsuario;
+        //        for (int i = 0; i < detalle.Count(); i++)
+        //        {
+        //            total += detalle[i].Subtotal;
+        //        }
 
-                entUsuario cliente = new entUsuario();
-                cliente.IdUsuario = usu.IdUsuario;
+        //        entVenta venta = new entVenta
+        //        {
+        //            Cliente = usu,
+        //            Total = total
+        //        };
 
-                entVenta venta = new entVenta();
-                venta.Cliente = cliente;
-                venta.Total = total;
-                int idventa = logVenta.Instancia.CrearVenta(venta);
-                venta.IdVenta = idventa;
-                entDetVenta det = new entDetVenta();
+        //        int idventa = logVenta.Instancia.CrearVenta(venta);
+        //        venta.IdVenta = idventa;
 
-                for (int i = 0; i < detalle.Count; i++)
-                {
-                    det = detalle[i];
-                    det.Venta = venta;
-                    logDetVenta.Instancia.CrearDetVenta(det);
-                }
-                detalle.Clear();
-                return RedirectToAction("Listar");
+        //        entDetVenta det = new entDetVenta();
 
-            }
-            catch
-            {
-                return RedirectToAction("Listar");
+        //        for (int i = 0; i < detalle.Count; i++)
+        //        {
+        //            det.ProveedorProducto = new entProveedorProducto
+        //            {
+        //                Producto = new entProducto
+        //                {
+        //                    IdProducto = detalle[i].ProveedorProducto.Producto.IdProducto
+        //                }
+        //            };
+        //            det.Venta = venta;
+        //            det.Cantidad = detalle[i].Cantidad;
+        //            det.SubTotal = detalle[i].Subtotal;
+        //            logDetVenta.Instancia.CrearDetVenta(det);
+        //        }
+        //        detalle.Clear();
+        //        return RedirectToAction("Listar");
 
-            }
-        }
+        //    }
+        //    catch
+        //    {
+        //        return RedirectToAction("Listar");
+
+        //    }
+        //}
 
         public ActionResult ConfirmarVenta()
         {
@@ -70,7 +81,7 @@ namespace MadereraCarocho.Controllers
                 entUsuario usuario = new entUsuario();
                 usuario = Session["Usuario"] as entUsuario;
                 List<EntTemporaryProducts> list = new List<EntTemporaryProducts>();
-                list = LogTemporaryProducts.Instancia.MostrarTemporaryProducts(usuario.IdUsuario);
+                list = LogTemporaryProducts.Instancia.MostrarTemporaryProductsCli(usuario.IdUsuario);
 
                 double total = 0;
                 for (int i = 0; i < list.Count(); i++)

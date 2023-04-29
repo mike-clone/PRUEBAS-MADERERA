@@ -22,6 +22,10 @@ namespace CapaLogica
         {
             return DatTemporaryProducts.Instance.MostrarTemporaryProducts(idUsuario);
         }
+        public List<EntTemporaryProducts> MostrarTemporaryProductsCli(int idUsuario)
+        {
+            return DatTemporaryProducts.Instance.MostrarTemporaryProductsCli(idUsuario);
+        }
         public bool EliminarTemporaryProducts(int id)
         {
             return DatTemporaryProducts.Instance.EliminarTemporaryProducts(id);

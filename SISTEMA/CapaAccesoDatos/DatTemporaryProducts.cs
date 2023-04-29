@@ -105,7 +105,57 @@ namespace CapaAccesoDatos
             return list;
         }
 
-  
+        public List<EntTemporaryProducts> MostrarTemporaryProductsCli(int idUsuario)
+        {
+            SqlCommand cmd = null;
+            List<EntTemporaryProducts> list = new List<EntTemporaryProducts>();
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spListarTemporaryProductsCli", cn);
+                cmd.Parameters.AddWithValue("@idUsuario", idUsuario);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    EntTemporaryProducts temp = new EntTemporaryProducts
+                    {
+                        IdTemp = Convert.ToInt32(dr["idtemp"]),
+                        ProveedorProducto = new entProveedorProducto
+                        {
+                            Producto = new entProducto
+                            {
+                                IdProducto = Convert.ToInt32(dr["idProducto"]),
+                                Nombre = dr["nombre"].ToString(),
+                                Longitud = Convert.ToDouble(dr["longitud"]),
+                                Diametro = Convert.ToDouble(dr["diametro"]),
+                                PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
+                                Tipo = new entTipoProducto
+                                {
+                                    Nombre = dr["tipo"].ToString()
+                                }
+                            },
+                        },
+                        Cantidad = Convert.ToInt32(dr["cantidad"]),
+                        Subtotal = Convert.ToDouble(dr["subtotal"])
+                    };
+                    list.Add(temp);
+                }
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return list;
+        }
+
+
         public bool EliminarTemporaryProducts(int idtemp)
         {
             SqlCommand cmd = null;

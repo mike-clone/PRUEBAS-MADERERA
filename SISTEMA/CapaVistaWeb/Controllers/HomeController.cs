@@ -14,7 +14,7 @@ namespace MadereraCarocho.Controllers
         #region PUBLICA
         public ActionResult Index(string dato)
         {
-            List<entProveedorProducto> lista;
+            List<entProducto> lista;
             if (string.IsNullOrEmpty(dato))
                 lista = logProducto.Instancia.ListarProductoParaVender();
             else
@@ -100,7 +100,7 @@ namespace MadereraCarocho.Controllers
         {
             if (Session["Usuario"] != null)
             {
-                List<entProveedorProducto> lista;
+                List<entProducto> lista;
                 if (string.IsNullOrEmpty(dato))
                     lista = logProducto.Instancia.ListarProductoParaVender();
                 else

@@ -26,7 +26,7 @@ namespace MadereraCarocho.Controllers
         {
             entUsuario usuario = new entUsuario();
             usuario = Session["Usuario"] as entUsuario;
-            return View(LogTemporaryProducts.Instancia.MostrarTemporaryProducts(usuario.IdUsuario));
+            return View(LogTemporaryProducts.Instancia.MostrarTemporaryProductsCli(usuario.IdUsuario));
         }
 
         [PermisosRol(entRol.Administrador)]

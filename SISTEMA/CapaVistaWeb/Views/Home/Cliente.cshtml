@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CapaEntidad.entProveedorProducto>
+﻿@model IEnumerable<CapaEntidad.entProducto>
 <!-- ======= Top Bar ======= -->
 <section id="topbar" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
@@ -141,28 +141,28 @@
                     {
                     <tr>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Producto.IdProducto)
+                            @Html.DisplayFor(modelItem => item.IdProducto)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Producto.Nombre)
+                            @Html.DisplayFor(modelItem => item.Nombre)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Producto.Tipo.Nombre)
+                            @Html.DisplayFor(modelItem => item.Tipo.Nombre)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Producto.Longitud)
+                            @Html.DisplayFor(modelItem => item.Longitud)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Producto.Diametro)
+                            @Html.DisplayFor(modelItem => item.Diametro)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Producto.Stock)
+                            @Html.DisplayFor(modelItem => item.Stock)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Producto.PrecioVenta)
+                            @Html.DisplayFor(modelItem => item.PrecioVenta)
                         </td>
                         <td>
-                            <a onclick="return Agregar(this)" href="/Home/AgregarTempPrductCliente?idprod=@item.Producto.IdProducto" class="btn btn-success" type="button"><i class="bi bi-cart-plus"></i></a>
+                            <a onclick="return Agregar(this)" href="/Home/AgregarTempPrductCliente?idprod=@item.IdProducto" class="btn btn-success" type="button"><i class="bi bi-cart-plus"></i></a>
                         </td>
                     </tr>
                     }
