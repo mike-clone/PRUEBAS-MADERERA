@@ -25,9 +25,9 @@ namespace CapaLogica
         {
             return datDetVenta.Instancia.Llenardetventa(det);
         }
-        public List<entDetVenta> Mostrardetventa()
+        public List<entDetVenta> Mostrardetventa(int idVenta)
         {
-            return datDetVenta.Instancia.Mostrardetventa();
+            return datDetVenta.Instancia.Mostrardetventa(idVenta);
         }
         public bool EliminarDetalle(int id)
         {

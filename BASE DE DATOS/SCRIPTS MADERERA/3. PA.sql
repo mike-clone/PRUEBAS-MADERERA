@@ -720,6 +720,19 @@ BEGIN
 END
 GO
 
+--------------------DETALLE PRODUCTOS DE UNA VENTA
+CREATE OR ALTER PROCEDURE spMostrarDetalleVentaId
+(
+	@idVenta int
+)
+AS
+BEGIN
+	SELECT dv.idVenta, p.nombre, tp.nombre as tipo, p.longitud, p.diametro, p.precioVenta ,dv.cantidad, dv.subTotal
+	FROM DETALLE_VENTA dv INNER JOIN PRODUCTO p on dv.idProducto = p.idProducto
+	INNER JOIN TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto
+	WHERE dv.idVenta=@idVenta
+END
+GO
 
 CREATE OR ALTER TRIGGER tgUpdateCompra
 on compra

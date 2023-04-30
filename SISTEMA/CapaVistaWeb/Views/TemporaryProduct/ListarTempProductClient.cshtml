@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<CapaEntidad.EntTemporaryProducts>
 
+<!-- ======= Top Bar ======= -->
 <section id="topbar" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
@@ -28,9 +29,9 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto " href="/Home/Cliente#hero">Inicio</a></li>
-                <li><a href="/Producto/Productos">Productos</a></li>
-                <li><a href="/Venta/Listar">Mis compras</a></li>
-                <li><a href="/TemporaryProduct/ListarTempProductClient">COMPRAR<i class="bi bi-cart4"></i></a></li>
+                <li><a class="nav-link scrollto" href="/Home/Cliente#products">Productos</a></li>
+                <li><a href="/Venta/ListarVenta">Mis compras</a></li>
+                <li><a href="/TemporaryProduct/ListarTempProductClient">Carrito<i class="bi bi-cart4"></i></a></li>
                 <li><a class="nav-link scrollto" href="/Home/Cliente#contact">Contacto</a></li>
                 <li><a href="/Home/CerrarSesion">Cerrar Sesión</a></li>
             </ul>
@@ -45,14 +46,10 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 <div class="container">
     <br>
     <br>
-    <br><h2 style="text-align: center">LISTA DE PEDIDO</h2>
+    <br><h2 style="text-align: center">CARRITO DE COMPRAS</h2>
     <br>
     <br>
     <a href="../Venta/ConfirmarVenta" type="button" class="btn btn-success">
@@ -77,11 +74,11 @@
                     Tipo
                 </th>
                 @*<th>
-                    Proveedor
-                </th>*@
+                        Proveedor
+                    </th>*@
                 @*<th>
-                    Descripcion
-                </th>*@
+                        Descripcion
+                    </th>*@
                 <th>
                     Precio
                 </th>
@@ -97,43 +94,43 @@
         <tbody>
             @foreach (var item in Model)
             {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.IdTemp)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.Nombre)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.Longitud)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.Diametro)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.Tipo.Nombre)
-                    </td>
-                    @*<td>
-                        @Html.DisplayFor(modelItem => item.ProveedorProducto.Proveedor.RazonSocial)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.ProveedorProducto.Proveedor.Descripcion)
-                    </td>*@
-                    <td>
-                        @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.PrecioVenta)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Cantidad)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Subtotal)
-                    </td>
-                    <td>
-                        <a onclick="return Eliminar(this)" href="/TemporaryProduct/EliminarTempPrductClient?idtemp=@item.IdTemp" class="btn btn-danger" type="button"><i class="bi bi-cart-x"></i></a>
-                    </td>
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.IdTemp)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.Nombre)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.Longitud)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.Diametro)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.Tipo.Nombre)
+    </td>
+    @*<td>
+            @Html.DisplayFor(modelItem => item.ProveedorProducto.Proveedor.RazonSocial)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProveedorProducto.Proveedor.Descripcion)
+        </td>*@
+    <td>
+        @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.PrecioVenta)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Cantidad)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Subtotal)
+    </td>
+    <td>
+        <a onclick="return Eliminar(this)" href="/TemporaryProduct/EliminarTempPrductClient?idtemp=@item.IdTemp" class="btn btn-danger" type="button"><i class="bi bi-cart-x"></i></a>
+    </td>
 
-                </tr>
-            }
+</tr>
+       }
         </tbody>
 
     </table>

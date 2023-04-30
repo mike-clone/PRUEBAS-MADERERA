@@ -14,13 +14,26 @@ namespace MadereraCarocho.Controllers
         [PermisosRol(entRol.Cliente)]
         public ActionResult ListarVenta()
         {
-            entUsuario usu = Session["Usuario"] as entUsuario;
-            List<entVenta> lista = logVenta.Instancia.ListarVenta(usu.IdUsuario);
-            ViewBag.lista = lista;
-            return View(lista);
+            entUsuario usuario = new entUsuario();
+            usuario = Session["Usuario"] as entUsuario;
+            return View(logVenta.Instancia.ListarVenta(usuario.IdUsuario));
         }
 
-    
+        public ActionResult MostrarDetalle(int idv)
+        {
+            //try
+            //{
+            //    ViewBag.producto = new SelectList(logProducto.Instancia.ListarProducto(), "idProducto", "NombreCompleto");
+            //    return View(_ = logProveedorProducto.Instancia.MostrarDetalleProvedorId(idp));
+            //}
+            //catch (Exception ex)
+            //{
+            //    return RedirectToAction("Listar", new { mesjExeption = ex.Message });
+            //}
+            return View(_ = logDetVenta.Instancia.Mostrardetventa(idv));
+        }
+
+
         public ActionResult ConfirmarVenta()
         {
             try

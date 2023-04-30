@@ -64,17 +64,47 @@ namespace CapaAccesoDatos
             return creado;
         }
 
-        public List<entDetVenta> Mostrardetventa()
+        public List<entDetVenta> Mostrardetventa(int idVenta)
         {
-            var lista = new List<entDetVenta>();
-            for (int i = 0; i < detalle.Count(); i++)
+            SqlCommand cmd = null;
+            List<entDetVenta> list = new List<entDetVenta>();
+            try
             {
-                entDetVenta dv = new entDetVenta();
-                dv = detalle[i];
-
-                lista.Add(dv);
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spMostrarDetalleVentaId", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@idVenta", idVenta);
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    entDetVenta det = new entDetVenta
+                    {
+                        IdDetventa = Convert.ToInt32(dr["idVenta"]),
+                        Producto = new entProducto
+                        {
+                            Nombre = dr["nombre"].ToString(),
+                            Longitud = Convert.ToDouble(dr["longitud"]),
+                            Diametro = Convert.ToDouble(dr["diametro"]),
+                            PrecioVenta = Convert.ToInt32(dr["precioVenta"]),
+                            
+                            Tipo = new entTipoProducto
+                            {
+                                Nombre = dr["tipo"].ToString()
+                            }
+                        },
+                        Cantidad = Convert.ToInt32(dr["cantidad"]),
+                        SubTotal = Convert.ToDouble(dr["subTotal"])
+                    };
+                    list.Add(det);
+                }
             }
-            return lista;
+            catch (Exception e)
+            { 
+                throw e; 
+            }
+            finally { cmd.Connection.Close(); }
+            return list;
         }
 
         public bool Eliminardetalle(int id)

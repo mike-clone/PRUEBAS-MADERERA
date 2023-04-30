@@ -1,6 +1,4 @@
-﻿@model IEnumerable<CapaEntidad.entVenta>
-
-
+﻿@model IEnumerable<CapaEntidad.entDetVenta>
 <!-- ======= Top Bar ======= -->
 <section id="topbar" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
@@ -48,72 +46,80 @@
 <br>
 <br>
 <div class="container">
-    <br><h2 style="text-align: center">MIS COMPRAS</h2>
-
-    <!-- Ordenar -->
-    <a onclick="return Ordenar(this)" aria-current="page" type="button" class="btn btn-primary btn-lg" id="ASC" th:href="@*@{productoAsc}*@#"><i class="bi bi-sort-up"></i></a>
-    <a onclick="return Ordenar(this)" aria-current="page" type="button" class="btn btn-secondary btn-lg" id="DESC" th:href="@*@{productoDesc}*@#"><i class="bi bi-sort-down"></i></a>
-    <hr>
-    <!-- Buscar -->
-    <form class="d-flex mb-4" role="search" action="#" method="POST" id="Bproveedor">
-        <input class="form-control me-2" type="search" placeholder="Buscar" name="dato" aria-label="Search">
-        <button onclick="return Buscar('Bproveedor')" class="btn btn-outline-success" type="submit">Buscar</button>
-    </form>
+    <br><h2 style="text-align: center">DETALLE</h2>
+    @{
+        var idVenta = Model.FirstOrDefault()?.IdDetventa;
+        double total = 0;
+    }
+    <h3>Pedido No. @idVenta</h3>
+    <br />
     <table class="table">
         <thead class="table-dark">
             <tr>
                 <th>
-                    @Html.DisplayNameFor(model => model.IdVenta)
+                    Producto
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Fecha)
+                    Tipo
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Total)
+                    Longitud
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Estado)
+                    Diametro
                 </th>
                 <th>
-                    Detalle
+                    Precio x Un
+                </th>
+                <th>
+                    Cantidad
+                </th>
+                <th>
+                    Subtotal
                 </th>
             </tr>
         </thead>
+
         <tbody>
             @foreach (var item in Model)
             {
-<tr>
-    <td>
-        @Html.DisplayFor(modelItem => item.IdVenta)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Fecha)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Total)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Estado)
-    </td>
-    <td>
-        <button class="btn btn-info bi bi-stickies-fill" type="button">
-            @Html.ActionLink("Detalle", "MostrarDetalle", new { idv = item.IdVenta })
-        </button>
-    </td>
-</tr>
-       }
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Producto.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Producto.Tipo.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Producto.Longitud)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Producto.Diametro)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Producto.PrecioVenta)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cantidad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SubTotal)
+                    </td>
+                </tr>
+                {
+                    total += item.SubTotal;
+                }
+            }
         </tbody>
     </table>
+    <br />
+    <div class="container d-flex justify-content-end">
+        <h5 class="me-5">TOTAL</h5>
+        <h5>S/.@total</h5>
+    </div>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br />
+<br />
+<br />
+<br />
+<br />
