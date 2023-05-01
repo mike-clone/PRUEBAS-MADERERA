@@ -609,7 +609,7 @@ BEGIN
 	insert into Temporary_products values(@idProducto,@idproveedor,@idUsuario,@cantidad,@subtotal);
 END
 GO
--
+
 
 CREATE OR ALTER PROCEDURE spListarTemporaryProducts
 (
