@@ -488,6 +488,14 @@ BEGIN
 END
 GO
 
+CREATE OR ALTER PROCEDURE spListarTodasLasVenta
+
+AS
+BEGIN
+	 SELECT v.idventa,v.fecha,v.total,v.idusuario,v.estado,u.userName,u.correo FROM Venta v inner join usuario u
+	 on v.idusuario = u.idusuario
+END
+GO
 
 
 --CREATE OR ALTER PROCEDURE spListarVentaPagada
@@ -558,16 +566,24 @@ END
 GO
 
 
-CREATE OR ALTER PROCEDURE spListarCompra
+CREATE OR ALTER PROCEDURE spListarCompra(@id int)
 AS
 BEGIN
 	Select idCompra, fecha,total,u.username,estado from COMPRA c
 	inner join Usuario u on c.idUsuario=u.idUsuario
+	where c.idUsuario=@id
 END
 GO
---update compra set estado='entregado' where idcompra=3
---select * from producto where idproducto=1 or idproducto=2 or idproducto=3 or idproducto=4 or idproducto=5
-CREATE OR ALTER PROCEDURE spCrearTemporaryProducts
+
+CREATE OR ALTER PROCEDURE spListarTodasLasCompra
+AS
+BEGIN
+	Select idCompra, fecha,total,u.username,u.correo,estado from COMPRA c
+	inner join Usuario u on c.idUsuario=u.idUsuario
+END
+GO
+
+CREATE OR ALTER PROCEDURE spCrearTemporaryProductsCli
 (
 	@idProducto int,
 	@idUsuario int,
@@ -576,20 +592,24 @@ CREATE OR ALTER PROCEDURE spCrearTemporaryProducts
 )
 AS
 BEGIN
-	insert into Temporary_products values(@idProducto,@idUsuario,@cantidad,@subtotal);
+	insert into Temporary_products(idProducto,idUsuario,cantidad,subtotal) values(@idProducto,@idUsuario,@cantidad,@subtotal);
 END
 GO
 
---EXEC spListarTemporaryProducts 2
---EXEC spCrearTemporaryProducts 1 , 2, 1 , 10
-
---SELECT * FROM Temporary_products where idusuario=2
---DELETE FROM Temporary_products
-
---spBuscarProductoidTemp 5,5
-
---select * from PROVEEDOR_PRODUCTO
---insert into PROVEEDOR_PRODUCTO values(2,5,50)
+CREATE OR ALTER PROCEDURE spCrearTemporaryProducts
+(
+	@idProducto int,
+	@idProveedor int,
+	@idUsuario int,
+	@cantidad int,
+	@subtotal float
+)
+AS
+BEGIN
+	insert into Temporary_products values(@idProducto,@idproveedor,@idUsuario,@cantidad,@subtotal);
+END
+GO
+-
 
 CREATE OR ALTER PROCEDURE spListarTemporaryProducts
 (
@@ -599,23 +619,14 @@ as
 begin
     select temp.idtemp,TEMP.idUsuario,p.idProducto,pr.idProveedor,p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,pp.precioCompra,pr.razonSocial,pr.descripcion,temp.subtotal 
 	from Temporary_products temp
-	inner join PRODUCTO p on temp.idProducto=p.idProducto
-	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idTipo_Producto 
-	inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
-	inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor and p.idProducto=pp.idProveedor
-	where temp.idUsuario=@idUsuario
+	inner join proveedor_producto pp on temp.idproducto=pp.idproducto and temp.idproveedor=pp.idproveedor
+	inner join producto p on pp.idproducto=p.idproducto
+	inner join TIPO_PRODUCTO tp on p.idTipo_Producto = tp.idTipo_Producto
+	inner join proveedor pr on pp.idproveedor=pr.idproveedor
+	where temp.idusuario=@idUsuario
 end
 go
-
---select temp.idtemp,TEMP.idUsuario,p.idProducto,pr.idProveedor,p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,pp.precioCompra,pr.razonSocial,pr.descripcion,temp.subtotal 
---from Temporary_products temp
---inner join PRODUCTO p on temp.idProducto=p.idProducto
---inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idTipo_Producto 
---inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
---inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor and pr.idProveedor=pp.idProveedor
---where temp.idUsuario=2
-
-
+	
 CREATE OR ALTER PROCEDURE spListarTemporaryProductsCli
 (
 	@idUsuario int
@@ -630,21 +641,31 @@ begin
 end
 go
 
-----select* from usuario
---select* from Temporary_products 
---delete from Temporary_products
---exec spListarTemporaryProducts 2
+CREATE OR ALTER PROCEDURE spBuscarTemporaryProductsIdCli(@idtemp int)
+AS
+BEGIN
+  select temp.idtemp,TEMP.idUsuario,p.idProducto,p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,temp.subtotal 
+	from Temporary_products temp
+	inner join PRODUCTO p on temp.idProducto=p.idProducto
+	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idTipo_Producto 
+	where temp.idTemp=@idtemp
+END
+GO
+
 CREATE OR ALTER PROCEDURE spBuscarTemporaryProductsId(@idtemp int)
 AS
 BEGIN
-select temp.idtemp,p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,pp.precioCompra,pr.razonSocial,pr.descripcion,temp.subtotal from Temporary_products temp
-	inner join PRODUCTO p on temp.idProducto=p.idProducto
-	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idProducto 
-	inner join PROVEEDOR_PRODUCTO pp on p.idProducto=pp.idProducto
-	inner join PROVEEDOR pr on pp.idProveedor=pr.idProveedor
-	where temp.idUsuario=@idtemp
+ select temp.idtemp,TEMP.idUsuario,p.idProducto,pr.idProveedor,p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,pp.precioCompra,pr.razonSocial,pr.descripcion,temp.subtotal 
+	from Temporary_products temp
+	inner join proveedor_producto pp on temp.idproducto=pp.idproducto and temp.idproveedor=pp.idproveedor
+	inner join producto p on pp.idproducto=p.idproducto
+	inner join TIPO_PRODUCTO tp on p.idTipo_Producto = tp.idTipo_Producto
+	inner join proveedor pr on pp.idproveedor=pr.idproveedor
+	where temp.idtemp=@idtemp
 END
 GO
+
+
 
 CREATE OR ALTER PROCEDURE spEliminarTemporaryProducts(@ids int)
 as
@@ -653,8 +674,7 @@ begin
 end
 go
 
---select * from Temporary_products
---exec spEliminarTemporaryProducts 4
+
 CREATE OR ALTER procedure spEditarTemporaryProducts(@idtemp int,@cantidad int)
 as
 begin
@@ -663,22 +683,6 @@ end
 go
 
 
-------------------------------------VENTA
---CREATE OR ALTER PROCEDURE spMostrarCarrito
---(
---	@idUsuario int
---)
---as
---begin
---	select temp.idTemp, TEMP.idUsuario, p.idProducto, p.nombre,tp.nombre as tipo,p.longitud,p.diametro,temp.cantidad,p.precioVenta,temp.subtotal 
---	from Temporary_products temp
---	inner join PRODUCTO p on temp.idProducto=p.idProducto
---	inner join TIPO_PRODUCTO tp on tp.idTipo_Producto=p.idTipo_Producto
---	inner join Usuario u on temp.idUsuario=u.idUsuario
---	where temp.idUsuario=@idUsuario and u.idRol = 2
---end
---go
-
 CREATE OR ALTER TRIGGER tgInsertarCompra
 	on Compra
 after insert
@@ -686,7 +690,6 @@ as
 begin
 	declare @idusuario int;
 	select @idusuario=inserted.idUsuario from inserted
-	--inner join compra on inserted.idCompra=compra.idCompra;
 	delete from Temporary_products where Temporary_products.idUsuario=@idusuario;
 end
 go
@@ -698,7 +701,6 @@ as
 begin
 	declare @idusuario int;
 	select @idusuario=inserted.idUsuario from inserted
-	--inner join compra on inserted.idCompra=compra.idCompra;
 	delete from Temporary_products where Temporary_products.idUsuario=@idusuario;
 end
 go

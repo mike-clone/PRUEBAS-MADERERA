@@ -136,15 +136,17 @@ GO
 
 CREATE TABLE Temporary_products(
    idTemp int primary key identity,
-   idProducto int not null,
+   idProducto int,
+   idProveedor int,
    idUsuario int not null,
    cantidad int not null,
    subtotal float,
    constraint fk_temporals_products_producto foreign key (idProducto) references PRODUCTO (idProducto),
-   constraint fk_temporals_products_usuario foreign key (idUsuario) references usuario (idUsuario)
-
+   constraint fk_temporals_products_usuario foreign key (idUsuario) references usuario (idUsuario),
+   constraint fk_temporals_products_proveedor_producto foreign key(idProveedor,idProducto) references proveedor_producto(idProveedor,idProducto)
 )
 go
+
 --------------------------------------------RESTRICCIONES---------------------------------------------
 
 --Usuario

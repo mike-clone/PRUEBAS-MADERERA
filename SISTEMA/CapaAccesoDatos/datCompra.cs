@@ -58,7 +58,7 @@ namespace CapaAccesoDatos
             return idCompra;
         }
         //Leer
-        public List<entCompra> ListarCompra()
+        public List<entCompra> ListarCompra(int id)
         {
             List<entCompra> lista = new List<entCompra>();
             SqlCommand cmd = null;
@@ -66,6 +66,7 @@ namespace CapaAccesoDatos
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
                 cmd = new SqlCommand("spListarCompra", cn);
+                cmd.Parameters.AddWithValue("@id", id);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
@@ -97,6 +98,45 @@ namespace CapaAccesoDatos
             return lista;
         }
 
+        public List<entCompra> ListarTodasLasCompras()
+        {
+            List<entCompra> lista = new List<entCompra>();
+            SqlCommand cmd = null;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spListarTodasLasCompra", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    entCompra objCompra = new entCompra
+                    {
+                        IdCompra = Convert.ToInt32(dr["idCompra"]),
+                        Fecha = Convert.ToDateTime(dr["fecha"]),
+                        Total = Convert.ToDouble(dr["total"]),
+                        Usuario = new entUsuario
+                        {
+                            Correo = dr["correo"].ToString(),
+                            UserName = dr["username"].ToString()
+                        },
+                        Estado = dr["estado"].ToString()
+                    };
+
+                    lista.Add(objCompra);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message, "spListartodascompra", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return lista;
+        }
         //Eliminar - Deshabilitar
         public bool EliminarCompra(int idcompra)
         {

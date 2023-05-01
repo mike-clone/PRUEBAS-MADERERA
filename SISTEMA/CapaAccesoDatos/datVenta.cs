@@ -76,7 +76,47 @@ namespace CapaAccesoDatos
                         Estado = dr["estado"].ToString(),
                         Cliente = new entUsuario
                         {
-                            UserName = dr["idUsuario"].ToString(),
+                            IdUsuario = Convert.ToInt32(dr["idUsuario"]),
+                        }
+                    };
+                    lista.Add(ven);
+                }
+            }
+            catch (Exception e)
+            {
+
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return lista;
+        }
+
+        public List<entVenta> ListarTodasLasVenta()
+        {
+            SqlCommand cmd = null;
+            List<entVenta> lista = new List<entVenta>();
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spListarTodasLasVenta", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    entVenta ven = new entVenta
+                    {
+                        IdVenta = Convert.ToInt32(dr["idVenta"]),
+                        Fecha = Convert.ToDateTime(dr["fecha"]),
+                        Total = Convert.ToDouble(dr["total"]),
+                        Estado = dr["estado"].ToString(),
+                        Cliente = new entUsuario
+                        {
+                            Correo = dr["correo"].ToString(),
+                            UserName = dr["userName"].ToString()
                         }
                     };
                     lista.Add(ven);

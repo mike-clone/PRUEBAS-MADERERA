@@ -22,6 +22,10 @@ namespace CapaLogica
         {
             return datVenta.Instancia.ListarVenta(id);
         }
+        public List<entVenta> ListarTodasLasVenta()
+        {
+            return datVenta.Instancia.ListarTodasLasVenta();
+        }
         //public List<entVenta> ListarVentaPagada(DateTime fecha)
         //{
         //    return datVenta.Instancia.ListarVentaPagada(fecha);

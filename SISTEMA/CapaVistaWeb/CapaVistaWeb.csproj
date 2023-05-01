@@ -293,6 +293,8 @@
     <Content Include="Views\Home\Error.cshtml" />
     <Content Include="Views\Producto\ListarProducto.cshtml" />
     <Content Include="Views\Venta\MostrarDetalle.cshtml" />
+    <Content Include="Views\Compra\ListarTodasLasVentas.cshtml" />
+    <Content Include="Views\Compra\ListarTodasLasCompras.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -32,7 +32,6 @@ namespace MadereraCarocho.Controllers
         {
             return View();
         }
-
         [HttpPost]
         public ActionResult VerificarAcceso(string dato, string contra)
         {
@@ -170,7 +169,7 @@ namespace MadereraCarocho.Controllers
             };
             try
             {
-                LogTemporaryProducts.Instancia.CreaarTemporaryProducts(temporaryProducts);
+                LogTemporaryProducts.Instancia.CreaarTemporaryProductsCli(temporaryProducts);
                 return RedirectToAction("Cliente");
             }
             catch (Exception ex)
@@ -187,6 +186,8 @@ namespace MadereraCarocho.Controllers
             return View();
         }
 
+        [PermisosRol(entRol.Administrador)]
+        [Authorize]
         [HttpGet]
         public ActionResult EditarDatosAdministrador()
         {
@@ -197,6 +198,9 @@ namespace MadereraCarocho.Controllers
 
         }
         [HttpPost]
+
+        [PermisosRol(entRol.Administrador)]
+        [Authorize]
         public ActionResult EditarDatosAdministrador(entUsuario usu, FormCollection frm) //EDITA LOS DATOS
         {
 
@@ -222,6 +226,8 @@ namespace MadereraCarocho.Controllers
                 return RedirectToAction("Admin", new { mesjExceptio = ex.Message });
             }
         }
+
+       
         #endregion
 
 

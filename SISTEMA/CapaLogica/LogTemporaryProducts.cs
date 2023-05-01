@@ -17,6 +17,10 @@ namespace CapaLogica
         {
             return DatTemporaryProducts.Instance.CreaarTemporaryProducts(temp);
         }
+        public bool CreaarTemporaryProductsCli(EntTemporaryProducts temp)
+        {
+            return DatTemporaryProducts.Instance.CreaarTemporaryProductsCli(temp);
+        }
 
         public List<EntTemporaryProducts> MostrarTemporaryProducts(int idUsuario)
         {
@@ -37,6 +41,10 @@ namespace CapaLogica
         public EntTemporaryProducts BuscarTemporaryProductsId(int id)
         {
             return DatTemporaryProducts.Instance.BuscarTemporaryProductsId(id);
+        }
+        public EntTemporaryProducts BuscarTemporaryProductsIdCli(int id)
+        {
+            return DatTemporaryProducts.Instance.BuscarTemporaryProductsIdCli(id);
         }
     }
 }

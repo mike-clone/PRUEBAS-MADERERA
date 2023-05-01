@@ -53,7 +53,7 @@
 <br>
 <br>
 <div class="container">
-    <br><h2 style="text-align: center">MIS COMPRAS</h2>
+    <br><h2 style="text-align: center">TODAS LAS COMPRAS</h2>
 
     <!-- Ordenar -->
     <a onclick="return Ordenar(this)" aria-current="page" type="button" class="btn btn-primary btn-lg" id="ASC" th:href="@*@{productoAsc}*@#"><i class="bi bi-sort-up"></i></a>
@@ -67,7 +67,7 @@
     <table class="table">
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.IdCompra)
+                #
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Fecha)
@@ -76,10 +76,13 @@
                 @Html.DisplayNameFor(model => model.Usuario.UserName)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Usuario.Correo)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Total)
             </th>
             <th>
-                Estado@*@Html.DisplayFor(model=>model.Estado)*@
+                Estado
             </th>
         </tr>
 
@@ -96,15 +99,16 @@
                     @Html.DisplayFor(modelItem => item.Usuario.UserName)
                 </td>
                 <td>
+                    @Html.DisplayFor(modelItem => item.Usuario.Correo)
+                </td>
+                <td>
                     @Html.DisplayFor(modelItem => item.Total)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Estado)
                 </td>
                 <td>
-                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                    @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                    @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+
                 </td>
             </tr>
         }

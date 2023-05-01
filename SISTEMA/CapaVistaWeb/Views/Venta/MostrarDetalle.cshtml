@@ -57,6 +57,9 @@
         <thead class="table-dark">
             <tr>
                 <th>
+                    #
+                </th>
+                <th>
                     Producto
                 </th>
                 <th>
@@ -79,11 +82,19 @@
                 </th>
             </tr>
         </thead>
-
+        @{ 
+            int count = 0;
+        }
         <tbody>
             @foreach (var item in Model)
             {
                 <tr>
+                    <td>
+                        @{ 
+                            count++;
+                        }
+                        @count
+                    </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Producto.Nombre)
                     </td>

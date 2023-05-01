@@ -14,6 +14,38 @@ namespace CapaAccesoDatos
         {
             get { return _instance; }
         }
+        public bool CreaarTemporaryProductsCli(EntTemporaryProducts temp)
+        {
+            SqlCommand cmd = null;
+            bool creado = false;
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spCrearTemporaryProductsCli", cn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@idProducto", temp.ProveedorProducto.Producto.IdProducto);
+                cmd.Parameters.AddWithValue("@idUsuario", temp.Usuario.IdUsuario);
+                cmd.Parameters.AddWithValue("@cantidad", temp.Cantidad);
+                cmd.Parameters.AddWithValue("@subtotal", temp.Subtotal);
+                cn.Open();
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    creado = true;
+                }
+            }
+            catch (Exception e)
+            {
+
+                MessageBox.Show(e.Message);
+            }
+            finally
+            {
+                cmd.Connection.Close();
+            }
+            return creado;
+
+        }
         public bool CreaarTemporaryProducts(EntTemporaryProducts temp)
         {
             SqlCommand cmd = null;
@@ -24,6 +56,7 @@ namespace CapaAccesoDatos
                 cmd = new SqlCommand("spCrearTemporaryProducts", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@idProducto", temp.ProveedorProducto.Producto.IdProducto);
+                cmd.Parameters.AddWithValue("@idProveedor", temp.ProveedorProducto.Proveedor.IdProveedor);
                 cmd.Parameters.AddWithValue("@idUsuario", temp.Usuario.IdUsuario);
                 cmd.Parameters.AddWithValue("@cantidad", temp.Cantidad);
                 cmd.Parameters.AddWithValue("@subtotal", temp.Subtotal);
@@ -225,7 +258,7 @@ namespace CapaAccesoDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spBuscarTemporaryProductsId", cn)
+                cmd = new SqlCommand("spBuscarTemporaryProducts", cn)
                 {
                     CommandType = CommandType.StoredProcedure
                 };
@@ -239,6 +272,7 @@ namespace CapaAccesoDatos
                     {
                         Proveedor = new entProveedor
                         {
+                            IdProveedor = Convert.ToInt32(dr["idProveedor"]),
                             RazonSocial = dr["razonSocial"].ToString(),
                             Descripcion = dr["descripcion"].ToString()
                         },
@@ -249,6 +283,7 @@ namespace CapaAccesoDatos
                             Diametro = Convert.ToDouble(dr["diametro"]),
                             Tipo = new entTipoProducto
                             {
+                                IdTipo_producto= Convert.ToInt32(dr["idTipo_Producto"]),
                                 Nombre = dr["tipo"].ToString()
                             }
                         },
@@ -266,6 +301,61 @@ namespace CapaAccesoDatos
             catch (Exception e)
             { 
                 MessageBox.Show(e.Message); 
+            }
+            finally { cmd.Connection.Close(); }
+
+            return temp;
+        }
+        public EntTemporaryProducts BuscarTemporaryProductsIdCli(int id)
+        {
+            SqlCommand cmd = null;
+            EntTemporaryProducts temp = new EntTemporaryProducts();
+            try
+            {
+                SqlConnection cn = Conexion.Instancia.Conectar();
+                cmd = new SqlCommand("spBuscarTemporaryProductsCli", cn)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                cmd.Parameters.AddWithValue("@idtemp", id);
+                cn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    temp.IdTemp = Convert.ToInt32(dr["idtemp"]);
+                    temp.ProveedorProducto = new entProveedorProducto
+                    {
+                        Proveedor = new entProveedor
+                        {
+                            IdProveedor = Convert.ToInt32(dr["idProveedor"]),
+                            RazonSocial = dr["razonSocial"].ToString(),
+                            Descripcion = dr["descripcion"].ToString()
+                        },
+                        Producto = new entProducto
+                        {
+                            Nombre = dr["nombre"].ToString(),
+                            Longitud = Convert.ToDouble(dr["longitud"]),
+                            Diametro = Convert.ToDouble(dr["diametro"]),
+                            Tipo = new entTipoProducto
+                            {
+                                IdTipo_producto = Convert.ToInt32(dr["idTipo_Producto"]),
+                                Nombre = dr["tipo"].ToString()
+                            }
+                        },
+                        PrecioCompra = Convert.ToDouble(dr["precioCompra"]),
+
+
+                    };
+
+                    temp.Cantidad = Convert.ToInt32(dr["cantidad"]);
+                    temp.Subtotal = Convert.ToDouble(dr["subtotal"]);
+
+                }
+
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
             }
             finally { cmd.Connection.Close(); }
 

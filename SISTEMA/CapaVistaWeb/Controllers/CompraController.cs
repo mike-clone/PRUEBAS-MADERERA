@@ -17,12 +17,21 @@ namespace MadereraCarocho.Controllers
         // GET: Compra
         public ActionResult ListarCompra()
         {
-            List<entCompra> lsCompra = logCompra.Instancia.ListarCompra();
-            return View(lsCompra);
+            entUsuario usuario = new entUsuario();
+            usuario = Session["Usuario"] as entUsuario;
+            return View(logCompra.Instancia.ListarCompra(usuario.IdUsuario));
         }
 
+        public ActionResult ListarTodasLasCompras()
+        {
+            return View(logCompra.Instancia.ListartodasLasCompras());
+        }
 
-    
+        public ActionResult ListarTodasLasVentas()
+        {
+            return View(logVenta.Instancia.ListarTodasLasVenta());
+        }
+
         public ActionResult ConfirmarCompra()
         {
             try

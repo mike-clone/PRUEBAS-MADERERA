@@ -1,6 +1,7 @@
 ﻿using CapaAccesoDatos;
 using CapaEntidad;
 using System.Collections.Generic;
+using System.Data;
 
 namespace CapaLogica
 {
@@ -17,9 +18,13 @@ namespace CapaLogica
         {
             return datCompra.Instancia.CrearCompra(comp);
         }
-        public List<entCompra> ListarCompra()
+        public List<entCompra> ListarCompra(int id)
         {
-            return datCompra.Instancia.ListarCompra();
+            return datCompra.Instancia.ListarCompra(id);
+        }
+        public List<entCompra> ListartodasLasCompras()
+        {
+            return datCompra.Instancia.ListarTodasLasCompras();
         }
         public bool EliminarCompra(int comp)
         {
