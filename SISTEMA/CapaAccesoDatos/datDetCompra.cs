@@ -67,7 +67,7 @@ namespace CapaAccesoDatos
                     {
                         Compra = new entCompra
                         {
-                            IdCompra = Convert.ToInt32("idCompra")
+                            IdCompra = Convert.ToInt32(dr["idCompra"])
                         },
                         ProveedorProducto = new entProveedorProducto
                         {
@@ -93,7 +93,7 @@ namespace CapaAccesoDatos
                             PrecioCompra = Convert.ToDouble(dr["precioCompra"])
                         },
                         Cantidad = Convert.ToInt32(dr["cantidad"]),
-                        Subtotal = Convert.ToDouble(dr["subtotal"])
+                        Subtotal = Convert.ToDouble(dr["subTotal"])
 
                     };
                     list.Add(detalle);

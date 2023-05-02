@@ -532,8 +532,8 @@ select det.idCompra,det.idProveedor,det.IdProducto,p.nombre,tp.nombre as tipo,p.
 end
 go
 
-DELETE FROM DETALLE_COMPRA
-DELETE FROM COMPRA
+--DELETE FROM DETALLE_COMPRA
+--DELETE FROM COMPRA
 
 CREATE OR ALTER PROCEDURE spListarTodasLasCompra
 AS
