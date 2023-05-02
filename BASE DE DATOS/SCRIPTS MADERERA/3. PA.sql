@@ -214,12 +214,6 @@ BEGIN
 END
 GO
 
---CREATE OR ALTER PROCEDURE spSelectListProveedor
---AS
---BEGIN
---	select idProveedor,razonSocial,descripcion from PROVEEDOR 
---END
---GO
 --=== BUSCAR PROVEEDOR======
 CREATE OR ALTER PROCEDURE spBuscarProveedor(
 	@Campo varchar(40)
@@ -443,22 +437,6 @@ GO
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ----------------------------------------VENTA
 CREATE OR ALTER PROCEDURE spCrearVenta(
 	@idventa int out,
@@ -498,39 +476,6 @@ END
 GO
 
 
---CREATE OR ALTER PROCEDURE spListarVentaPagada
---(
---@fecha date
---)
---AS
---BEGIN
---	 SELECT *FROM Venta v
---	where MONTH(fecha) = MONTH (@fecha) and YEAR(fecha) = YEAR (@fecha) and v.estado=1
---	order by idVenta desc
---END
---GO
-
---CREATE OR ALTER PROCEDURE spListarVentaNoPagada
---(
---@fecha date
---)
---AS
---BEGIN
---	 SELECT *FROM Venta v
---	where MONTH(fecha) = MONTH (@fecha) and YEAR(fecha) = YEAR (@fecha) and v.estado=0
---	order by idVenta desc
---END
---GO
-
---CREATE OR ALTER PROCEDURE spActualizarVenta(
---	@idVenta int,
---	@estado bit
---)
---AS
---BEGIN
---	update VENTA set estado = @estado where idVenta = @idVenta;
---END
---GO
 
 ------------------------------------COMPRA
 CREATE OR ALTER PROCEDURE spCrearCompra(
@@ -574,6 +519,21 @@ BEGIN
 	where c.idUsuario=@id
 END
 GO
+CREATE OR ALTER PROCEDURE spListarDetalleCompraId(@idCompra int )
+as
+begin
+select det.idCompra,det.idProveedor,det.IdProducto,p.nombre,tp.nombre as tipo,p.longitud,p.diametro,pp.precioCompra,pr.razonSocial,pr.descripcion,det.cantidad,det.subTotal from DETALLE_COMPRA det
+	inner join COMPRA c on det.idCompra=c.idCompra
+	INNER JOIN PROVEEDOR_PRODUCTO PP ON det.idProveedor=pp.idProveedor and det.IdProducto=pp.idProducto
+	inner join Proveedor pr on pp.idProveedor=pr.idProveedor
+	inner join producto p on pp.idProducto=p.idProducto
+	inner join TIPO_PRODUCTO tp on p.idTipo_Producto=tp.idTipo_Producto 
+	where c.idCompra=@idCompra
+end
+go
+
+DELETE FROM DETALLE_COMPRA
+DELETE FROM COMPRA
 
 CREATE OR ALTER PROCEDURE spListarTodasLasCompra
 AS
@@ -582,6 +542,12 @@ BEGIN
 	inner join Usuario u on c.idUsuario=u.idUsuario
 END
 GO
+CREATE OR ALTER PROCEDURE spListarDetalleDetodasLasCompra
+as
+begin
+select * from DETALLE_COMPRA
+end
+go
 
 CREATE OR ALTER PROCEDURE spCrearTemporaryProductsCli
 (

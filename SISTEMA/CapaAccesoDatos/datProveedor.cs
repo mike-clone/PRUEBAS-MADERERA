@@ -59,8 +59,10 @@ namespace CapaAccesoDatos
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spListarProveedor", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
+                cmd = new SqlCommand("spListarProveedor", cn)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
@@ -255,19 +257,22 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProveedor pro = new entProveedor();
-                    pro.IdProveedor = Convert.ToInt32(dr["idProveedor"]);
-                    pro.RazonSocial = dr["razonSocial"].ToString();
-                    pro.Ruc = dr["ruc"].ToString();
-                    pro.Correo = dr["correo"].ToString();
-                    pro.Telefono = dr["telefono"].ToString();
-                    pro.Descripcion = dr["descripcion"].ToString();
-                    pro.EstProveedor = Convert.ToBoolean(dr["estProveedor"]);
-                    entUbigeo ubi = new entUbigeo();
-                    ubi.Departamento = dr["departamento"].ToString();
-                    ubi.Provincia = dr["provincia"].ToString();
-                    ubi.Distrito = dr["distrito"].ToString();
-                    pro.Ubigeo = ubi;
+                    entProveedor pro = new entProveedor
+                    {
+                        IdProveedor = Convert.ToInt32(dr["idProveedor"]),
+                        RazonSocial = dr["razonSocial"].ToString(),
+                        Ruc = dr["ruc"].ToString(),
+                        Correo = dr["correo"].ToString(),
+                        Telefono = dr["telefono"].ToString(),
+                        Descripcion = dr["descripcion"].ToString(),
+                        EstProveedor = Convert.ToBoolean(dr["estProveedor"]),
+                        Ubigeo=new entUbigeo {
+                            Departamento = dr["departamento"].ToString(),
+                            Provincia = dr["provincia"].ToString(),
+                            Distrito = dr["distrito"].ToString()
+                        }
+                        
+                    };
                     list.Add(pro);
                 }
             }

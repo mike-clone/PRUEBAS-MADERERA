@@ -49,20 +49,7 @@ namespace CapaAccesoDatos
             return creado;
         }
 
-        public bool Llenardetventa(entDetVenta Det)
-        {
-            bool creado = false;
-            try
-            {
-                detalle.Add(Det);
-                creado = true;
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show(e.Message);
-            }
-            return creado;
-        }
+       
 
         public List<entDetVenta> Mostrardetventa(int idVenta)
         {
@@ -80,13 +67,16 @@ namespace CapaAccesoDatos
                 {
                     entDetVenta det = new entDetVenta
                     {
-                        IdDetventa = Convert.ToInt32(dr["idVenta"]),
+                        Venta=new entVenta
+                        {
+                            IdVenta= Convert.ToInt32(dr["idVenta"])
+                        },
                         Producto = new entProducto
                         {
                             Nombre = dr["nombre"].ToString(),
                             Longitud = Convert.ToDouble(dr["longitud"]),
                             Diametro = Convert.ToDouble(dr["diametro"]),
-                            PrecioVenta = Convert.ToInt32(dr["precioVenta"]),
+                            PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
                             
                             Tipo = new entTipoProducto
                             {
@@ -100,114 +90,42 @@ namespace CapaAccesoDatos
                 }
             }
             catch (Exception e)
-            { 
-                throw e; 
+            {
+                MessageBox.Show(e.Message);
             }
             finally { cmd.Connection.Close(); }
             return list;
         }
 
-        public bool Eliminardetalle(int id)
-        {
-            bool eliminado = false;
-            try
-            {
-                for (int i = 0; i < detalle.Count(); i++)
-                {
-                    if (detalle[i].Producto.IdProducto.Equals(id))
-                    {
-                        detalle.RemoveAt(i);
-                    }
 
-                }
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show(e.Message);
-            }
-            return eliminado;
-
-        }
-
-        public List<entReporteVenta> MostrarReporteVenta(int idVenta)
-        {
-
-            SqlCommand cmd = null;
-            var lista = new List<entReporteVenta>();
-            try
-            {
-                SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spMostrarReporteVentas", cn);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idVenta", idVenta);
-                cn.Open();
-                SqlDataReader dr = cmd.ExecuteReader();
-                while (dr.Read())
-                {
-                    entReporteVenta rpVenta = new entReporteVenta();
-
-                    rpVenta.Codigo = Convert.ToInt32(dr["CODIGO"]);
-                    rpVenta.Cliente = dr["CLIENTE"].ToString().ToUpper();
-                    rpVenta.Fecha = Convert.ToDateTime(dr["FECHA"]);
-                    rpVenta.Descripcion = dr["DESCRIPCIÓN"].ToString().ToUpper();
-                    rpVenta.Longitud = dr["LONGITUD"].ToString();
-                    rpVenta.Cantidad = dr["CANTIDAD"].ToString();
-                    rpVenta.PrecUnitario = dr["PRECIO_UNITARIO"].ToString();
-                    rpVenta.SubTotal = Convert.ToDouble(dr["SUBTOTAL"]);
-
-                    lista.Add(rpVenta);
-                }
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show(e.Message);
-            }
-            finally
-            {
-                cmd.Connection.Close();
-            }
-            return lista;
-        }
-
-        //public List<EntTemporaryProducts> MostrarCarrito(int idUsuario)
+        //public List<entReporteVenta> MostrarReporteVenta(int idVenta)
         //{
+
         //    SqlCommand cmd = null;
-        //    List<EntTemporaryProducts> list = new List<EntTemporaryProducts>();
+        //    var lista = new List<entReporteVenta>();
         //    try
         //    {
         //        SqlConnection cn = Conexion.Instancia.Conectar();
-        //        cmd = new SqlCommand("spMostrarCarrito", cn);
-        //        cmd.Parameters.AddWithValue("@idUsuario", idUsuario);
+        //        cmd = new SqlCommand("spMostrarReporteVentas", cn);
         //        cmd.CommandType = CommandType.StoredProcedure;
+        //        cmd.Parameters.AddWithValue("@idVenta", idVenta);
         //        cn.Open();
         //        SqlDataReader dr = cmd.ExecuteReader();
         //        while (dr.Read())
         //        {
-        //            EntTemporaryProducts temp = new EntTemporaryProducts
-        //            {
-        //                IdTemp = Convert.ToInt32(dr["idtemp"]),
-        //                ProveedorProducto = new entProveedorProducto
-        //                {
-        //                    Producto = new entProducto
-        //                    {
-        //                        IdProducto = Convert.ToInt32(dr["idProducto"]),
-        //                        Nombre = dr["nombre"].ToString(),
-        //                        Longitud = Convert.ToDouble(dr["longitud"]),
-        //                        Diametro = Convert.ToDouble(dr["diametro"]),
-        //                        PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
-        //                        Tipo = new entTipoProducto
-        //                        {
-        //                            Nombre = dr["tipo"].ToString()
-        //                        }
+        //            entReporteVenta rpVenta = new entReporteVenta();
 
-        //                    },
-        //                },
-        //                Cantidad = Convert.ToInt32(dr["cantidad"]),
-        //                Subtotal = Convert.ToDouble(dr["subtotal"])
-        //            };
-        //            list.Add(temp);
+        //            rpVenta.Codigo = Convert.ToInt32(dr["CODIGO"]);
+        //            rpVenta.Cliente = dr["CLIENTE"].ToString().ToUpper();
+        //            rpVenta.Fecha = Convert.ToDateTime(dr["FECHA"]);
+        //            rpVenta.Descripcion = dr["DESCRIPCIÓN"].ToString().ToUpper();
+        //            rpVenta.Longitud = dr["LONGITUD"].ToString();
+        //            rpVenta.Cantidad = dr["CANTIDAD"].ToString();
+        //            rpVenta.PrecUnitario = dr["PRECIO_UNITARIO"].ToString();
+        //            rpVenta.SubTotal = Convert.ToDouble(dr["SUBTOTAL"]);
+
+        //            lista.Add(rpVenta);
         //        }
-
         //    }
         //    catch (Exception e)
         //    {
@@ -217,9 +135,7 @@ namespace CapaAccesoDatos
         //    {
         //        cmd.Connection.Close();
         //    }
-        //    return list;
+        //    return lista;
         //}
-        //Actualizar
-        //Eliminar - Deshabilitar
     }
 }

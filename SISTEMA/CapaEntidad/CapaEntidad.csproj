@@ -42,20 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="entCarrito.cs" />
     <Compile Include="EntTemporaryProducts.cs" />
     <Compile Include="entUsuario.cs" />
     <Compile Include="entCompra.cs" />
     <Compile Include="entDetCompra.cs" />
     <Compile Include="entDetVenta.cs" />
-    <Compile Include="entEmpleado.cs" />
     <Compile Include="entProducto.cs" />
     <Compile Include="entProveedor.cs" />
     <Compile Include="entProveedorProducto.cs" />
     <Compile Include="entReporteCompra.cs" />
     <Compile Include="entReporteVenta.cs" />
     <Compile Include="entRol.cs" />
-    <Compile Include="entTipoEmpleado.cs" />
     <Compile Include="entTipoProducto.cs" />
     <Compile Include="entUbigeo.cs" />
     <Compile Include="entVenta.cs" />

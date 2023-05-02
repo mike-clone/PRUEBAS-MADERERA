@@ -90,5 +90,10 @@ namespace MadereraCarocho.Controllers
 
             }
         }
+
+        public ActionResult MostrarDetalleCompra( int idcompra)
+        {
+            return View(logDetCompra.Instancia.MostrarDetalleCompraId(idcompra));
+        }
     }
 }

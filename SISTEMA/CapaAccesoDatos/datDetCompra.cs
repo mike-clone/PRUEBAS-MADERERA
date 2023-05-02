@@ -16,7 +16,6 @@ namespace CapaAccesoDatos
             get { return _instancia; }
         }
 
-        //Cada Compra tiene su Detalle
         public bool CrearDetCompra(entDetCompra Det)
         {
 
@@ -50,84 +49,66 @@ namespace CapaAccesoDatos
             return creado;
         }
 
-        //public void AgregarProductoCarrito(entDetCompra det)
-        //{
-        //    detCompra.Add(det);
-        //}
-
-        //public List<entDetCompra> MostrarDetCarrito()
-        //{
-        //    var lista = new List<entDetCompra>();
-        //    for (int i = 0; i < detCompra.Count(); i++)
-        //    {
-        //        entDetCompra dv = new entDetCompra();
-        //        dv = detCompra[i];//Obs
-        //        lista.Add(dv);
-        //    }
-        //    return lista;
-        //}
-
-        //public bool EliminarDetCarrito(int id)
-        //{
-        //    bool eliminado = false;
-        //    try
-        //    {
-        //        for (int i = 0; i < detCompra.Count(); i++)
-        //        {
-        //            if (detCompra[i].Producto.IdProducto.Equals(id))
-        //            {
-        //                detCompra.RemoveAt(i);
-        //            }
-        //        }
-        //        eliminado= true;
-        //    }
-        //    catch (Exception)
-        //    {
-        //        MessageBox.Show("El elemento esta fuera del indice o no existe", "Maderera carocho", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //    }
-        //    return eliminado;
-
-        //}
-        //#endregion CarritoCompra
-
-        public List<entReporteCompra> MostrarReporteCompra(int idCompra)
+        public List<entDetCompra> MostrarDetalleCompraId(int id)
         {
-
+            List<entDetCompra> list = new List<entDetCompra>();
             SqlCommand cmd = null;
-            var lista = new List<entReporteCompra>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
-                cmd = new SqlCommand("spMostrarReporteCompra", cn);
+                cmd = new SqlCommand("spListarDetalleCompraId", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@idCompra", idCompra);
+                cmd.Parameters.AddWithValue("@idCompra", id);
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entReporteCompra rpCompra = new entReporteCompra();
+                    entDetCompra detalle = new entDetCompra
+                    {
+                        Compra = new entCompra
+                        {
+                            IdCompra = Convert.ToInt32("idCompra")
+                        },
+                        ProveedorProducto = new entProveedorProducto
+                        {
+                            Proveedor = new entProveedor
+                            {
+                                IdProveedor = Convert.ToInt32(dr["idProveedor"]),
+                                RazonSocial = dr["razonSocial"].ToString(),
+                                Descripcion = dr["descripcion"].ToString(),
 
-                    rpCompra.Codigo = Convert.ToInt32(dr["CODIGO"]);
-                    rpCompra.Proveedor = dr["PROVEEDOR"].ToString().ToUpper();
-                    rpCompra.Fecha = Convert.ToDateTime(dr["FECHA"]);
-                    rpCompra.Descripcion = dr["DESCRIPCIÓN"].ToString().ToUpper();
-                    rpCompra.Longitud = dr["LONGITUD"].ToString();
-                    rpCompra.Cantidad = dr["CANTIDAD"].ToString();
-                    rpCompra.PrecUnitario = dr["PRECIO_UNITARIO"].ToString();
-                    rpCompra.SubTotal = Convert.ToDouble(dr["SUBTOTAL"]);
+                            },
+                            Producto = new entProducto
+                            {
+                                IdProducto = Convert.ToInt32(dr["idProducto"]),
+                                Nombre = dr["nombre"].ToString(),
+                                Longitud = Convert.ToDouble(dr["longitud"]),
+                                Diametro = Convert.ToDouble(dr["diametro"]),
+                                Tipo = new entTipoProducto
+                                {
+                                    Nombre = dr["tipo"].ToString()
+                                }
 
-                    lista.Add(rpCompra);
+                            },
+                            PrecioCompra = Convert.ToDouble(dr["precioCompra"])
+                        },
+                        Cantidad = Convert.ToInt32(dr["cantidad"]),
+                        Subtotal = Convert.ToDouble(dr["subtotal"])
+
+                    };
+                    list.Add(detalle);
                 }
             }
             catch (Exception e)
             {
+
                 MessageBox.Show(e.Message);
             }
             finally
             {
                 cmd.Connection.Close();
             }
-            return lista;
+            return list;
         }
     }
 }

@@ -16,24 +16,11 @@ namespace CapaLogica
         {
             return datDetCompra.Instancia.CrearDetCompra(comp);
         }
-        public List<entReporteCompra> MostrarReporteCompra(int idCompra)
+        public List<entDetCompra> MostrarDetalleCompraId(int id)
         {
-            return datDetCompra.Instancia.MostrarReporteCompra(idCompra);
+            return datDetCompra.Instancia.MostrarDetalleCompraId(id);
         }
-        #region Carrito de Compras
-        //public void AgregarProductoCarrito(entDetCompra det)
-        //{
-        //    datDetCompra.Instancia.AgregarProductoCarrito(det);
-        //}
-        //public List<entDetCompra> MostrarDetCarrito()
-        //{
-        //    return datDetCompra.Instancia.MostrarDetCarrito();
-        //}
-        //public bool EliminarDetCarrito(int id)
-        //{
-        //    return datDetCompra.Instancia.EliminarDetCarrito(id);
-        //}
-        #endregion Carrito de Compras
+
 
     }
 }

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CapaEntidad.entVenta>
+﻿@model IEnumerable<CapaEntidad.entDetCompra>
 
 <section id="topbar" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
@@ -78,71 +78,102 @@
         <input class="form-control me-2" type="search" placeholder="Buscar" name="dato" aria-label="Search">
         <button onclick="return Buscar('Bproveedor')" class="btn btn-outline-success" type="submit">Buscar</button>
     </form>
-    <table class="table">
-        <thead class="table-dark">
-            <tr>
-                <th>
-                    #
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Fecha)
-                </th>
-                <th>
-                    Cliente
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Cliente.Correo)
-
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Total)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Estado)
-                </th>
-                <th>
-                    Detalle
-                </th>
-            </tr>
-        </thead>
+    <div class="container">
+        <br><h2 style="text-align: center">DETALLE</h2>
         @{
-            int count = 0;
+            var idCompra = Model.FirstOrDefault()?.Compra.IdCompra;
+            double total = 0;
         }
-        <tbody>
-            @foreach (var item in Model)
-            {
+        <h3>Pedido No. @idCompra</h3>
+        <br />
+        <table class="table">
+            <thead class="table-dark">
                 <tr>
-                    <td>
-                        @{
-                            count++;
-                        }
-                        @count
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Fecha)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Cliente.UserName)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Cliente.Correo)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Total)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Estado)
-                    </td>
-
-                    <td>
-                        <button class="btn btn-info bi bi-stickies-fill" type="button">
-                            @Html.ActionLink("Detalle", "MostrarDetalle", new { idv = item.IdVenta })
-                        </button>
-                    </td>
+                    <th>
+                        #
+                    </th>
+                    <th>
+                        Producto
+                    </th>
+                    <th>
+                        Tipo
+                    </th>
+                    <th>
+                        Longitud
+                    </th>
+                    <th>
+                        Diametro
+                    </th>
+                    <th>
+                        Proveedor
+                    </th>
+                    <th>
+                        Desc
+                    </th>
+                    <th>
+                        Precio x Un
+                    </th>
+                    <th>
+                        Cantidad
+                    </th>
+                    <th>
+                        Subtotal
+                    </th>
                 </tr>
+            </thead>
+            @{
+                int count = 0;
             }
-        </tbody>
-    </table>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @{
+                                count++;
+                            }
+                            @count
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.Nombre)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.Tipo.Nombre)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.Longitud)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.Diametro)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProveedorProducto.Proveedor.RazonSocial)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProveedorProducto.Proveedor.Descripcion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProveedorProducto.PrecioCompra)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Cantidad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Subtotal)
+                        </td>
+                    </tr>
+                    {
+                        total += item.Subtotal;
+                    }
+                }
+            </tbody>
+        </table>
+        <br />
+        <div class="container d-flex justify-content-end">
+            <h5 class="me-5">TOTAL</h5>
+            <h5>S/.@total</h5>
+        </div>
+    </div>
 </div>
 <br>
 <br>
@@ -156,3 +187,8 @@
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+
+

@@ -4,7 +4,6 @@ namespace CapaEntidad
 {
     public class entDetVenta
     {
-        private int idDetventa;
         private entVenta venta;
         private entProducto producto;
         private int cantidad;
@@ -12,7 +11,6 @@ namespace CapaEntidad
 
 
         #region Get and Set
-        public int IdDetventa { get => idDetventa; set => idDetventa = value; }
         public entVenta Venta
         {
             get { return venta; }

@@ -1,5 +1,4 @@
 ﻿@model CapaEntidad.entUsuario
-<!-- ======= Top Bar ======= -->
 <section id="topbar" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
@@ -20,7 +19,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
         <div class="logo">
-            <h1><a href="#hero">Maderera<span>Carocho</span></a></h1>
+            <h1><a href="/Home/admin">Maderera<span>Carocho</span></a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html"><img src="~/Content/assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
@@ -28,12 +27,31 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto " href="#hero">Inicio</a></li>
-                <li><a class="nav-link scrollto" href="/Producto/ListarParaComprar">Productos</a></li>
-                <li><a class="nav-link scrollto" href="/Usuario/ListarClientes">Clientes</a></li>
-                <li><a class="nav-link scrollto" href="/Proveedor/Listar">Proveedores</a></li>
-                <li><a class="nav-link scrollto" href="/Empleado/Listar">Empleados</a></li>
-                <li><a class="nav-link scrollto" href="/Compra/ListarCompra">Ver compras</a></li>
-                <li><a class="nav-link scrollto" href="/Producto/ListarTempProduct"><i class="bi bi-cart3">Carrito</i></a></li>
+                <li class="dropdown">
+                    <a href="#"><span>Productos</span> <i class="bi bi-chevron-double-down"></i></a>
+                    <ul>
+                        <li><a href="/Producto/ListarProducto">Mantenedor De Productos<i class="bi bi-cart4"></i></a></li>
+                        <li><a href="/Producto/ListarParaComprar">Elegir productos para el pedido<i class="bi bi-truck"></i></a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#"><span>Usuarios</span> <i class="bi bi-chevron-double-down"></i></a>
+                    <ul>
+                        <li><a href="#">Administradores<i class="bi bi-person-fill-lock"></i></a></li>
+                        <li><a href="/Usuario/ListarClientes">Clientes<i class="bi bi-person-lines-fill"></i></a></li>
+                        <li><a href="#">Empleados<i class="bi bi-person-badge-fill"></i></a></li>
+                    </ul>
+                </li>
+                <li><a href="/Proveedor/Listar">Proveedores<i class="bi bi-person-lock"></i></a></li>
+                <li class="dropdown">
+                    <a href="#"><span>Ver Compras</span> <i class="bi bi-chevron-double-down"></i></a>
+                    <ul>
+                        <li><a href="/Compra/ListarTodasLasCompras">TodasLasCompras realizadas<i class="bi bi-cart4"></i></a></li>
+                        <li><a href="/Compra/ListarCompra">Mis Compras realizadas<i class="bi bi-truck"></i></a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link scrollto" href="/Compra/ListarTodasLasVentas">Ver ventas</a></li>
+                <li><a class="nav-link scrollto" href="/TemporaryProduct/ListarTempProduct"><i class="bi bi-cart3">Carrito</i></a></li>
                 <li><a class="nav-link scrollto" href="/Home/admin#contact">Contacto</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>

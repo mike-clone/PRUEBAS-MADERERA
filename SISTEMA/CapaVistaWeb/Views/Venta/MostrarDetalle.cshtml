@@ -48,7 +48,7 @@
 <div class="container">
     <br><h2 style="text-align: center">DETALLE</h2>
     @{
-        var idVenta = Model.FirstOrDefault()?.IdDetventa;
+        var idVenta = Model.FirstOrDefault()?.Venta.IdVenta;
         double total = 0;
     }
     <h3>Pedido No. @idVenta</h3>

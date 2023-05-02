@@ -21,19 +21,8 @@ namespace MadereraCarocho.Controllers
 
         public ActionResult MostrarDetalle(int idv)
         {
-            //try
-            //{
-            //    ViewBag.producto = new SelectList(logProducto.Instancia.ListarProducto(), "idProducto", "NombreCompleto");
-            //    return View(_ = logProveedorProducto.Instancia.MostrarDetalleProvedorId(idp));
-            //}
-            //catch (Exception ex)
-            //{
-            //    return RedirectToAction("Listar", new { mesjExeption = ex.Message });
-            //}
             return View(_ = logDetVenta.Instancia.Mostrardetventa(idv));
         }
-
-
         public ActionResult ConfirmarVenta()
         {
             try
@@ -59,6 +48,7 @@ namespace MadereraCarocho.Controllers
                 venta.IdVenta = idVenta;
 
                 entDetVenta det = new entDetVenta();
+
                 for (int i = 0; i < list.Count; i++)
                 {
                     det.Venta = venta;
@@ -80,47 +70,5 @@ namespace MadereraCarocho.Controllers
 
             }
         }
-        //[PermisosRol(entRol.Cliente)]
-        //[HttpPost]
-        //public ActionResult LlenarDetalle(int pCantidad, FormCollection frm)
-        //{
-        //    try
-        //    {
-        //        entDetVenta vn = new entDetVenta();
-        //        entProducto prod = logProducto.Instancia.BuscarProductoId(Convert.ToInt32(frm["pProd"]));
-        //        vn.Producto = prod;
-        //        vn.Cantidad = pCantidad;
-        //        vn.SubTotal = (pCantidad * prod.PrecioVenta);
-        //        logDetVenta.Instancia.LlenarDetventa(vn);
-        //        return RedirectToAction("Detalle");
-        //    }
-        //    catch
-        //    {
-        //        return RedirectToAction("Detalle");
-        //    }
-        //}
-        //[PermisosRol(entRol.Cliente)]
-        //public ActionResult Detalle()
-        //{
-        //    List<entDetVenta> detalle = logDetVenta.Instancia.Mostrardetventa();
-        //    List<entProducto> listaproducto = logProducto.Instancia.ListarProducto();
-        //    var lsproducto = new SelectList(listaproducto, "idProducto", "nombre");
-        //    ViewBag.listaproducto = lsproducto;
-        //    return View(detalle);
-        //}
-        //[PermisosRol(entRol.Cliente)]
-        //public ActionResult EliminarDetalle(int ids)
-        //{
-        //    try
-        //    {
-        //        logDetVenta.Instancia.EliminarDetalle(ids);
-        //        return RedirectToAction("Detalle");
-        //    }
-        //    catch
-        //    {
-        //        return RedirectToAction("Detalle");
-        //    }
-
-        //}
     }
 }

@@ -130,7 +130,6 @@
     <Compile Include="Controllers\TemporaryProductController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Controllers\CompraController.cs" />
-    <Compile Include="Controllers\EmpleadoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductoController.cs" />
     <Compile Include="Controllers\ProveedorController.cs" />
@@ -295,6 +294,7 @@
     <Content Include="Views\Venta\MostrarDetalle.cshtml" />
     <Content Include="Views\Compra\ListarTodasLasVentas.cshtml" />
     <Content Include="Views\Compra\ListarTodasLasCompras.cshtml" />
+    <Content Include="Views\Compra\MostrarDetalleCompra.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
