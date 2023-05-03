@@ -3,6 +3,7 @@ using CapaLogica;
 using MadereraCarocho.Permisos;//Para los permisos
 using MadereraCarocho.Utilidades;
 using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Data.Entity.Infrastructure;
 using System.Web.Mvc;
@@ -183,6 +184,9 @@ namespace MadereraCarocho.Controllers
         [Authorize]// No puede si es que no esta autorizado //Almacena la info en la memoria del navegador
         public ActionResult Admin()
         {
+            entUsuario usuario = new entUsuario();
+            usuario=Session["Usuario"] as entUsuario;
+            ViewBag.correo =usuario.Correo;
             return View();
         }
 

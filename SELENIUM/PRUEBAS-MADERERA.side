@@ -1,0 +1,133 @@
+{
+  "id": "8de00676-c2f6-41ad-8988-9cac319b97ef",
+  "version": "2.0",
+  "name": "PRUEBAS-MADERERA",
+  "url": "https://localhost:44347",
+  "tests": [{
+    "id": "4145dbf4-80ff-4622-966f-6a240eb9681b",
+    "name": "AbrirAplicacionCorrectamente",
+    "commands": [{
+      "id": "b1e7953d-f4db-4736-babc-1d848352194e",
+      "comment": "",
+      "command": "open",
+      "target": "Home/Index",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b5b913c-57ee-4841-8162-4f542b29c7df",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=MadereraCarocho",
+      "targets": [
+        ["linkText=MadereraCarocho", "linkText"],
+        ["css=h1 > a", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/h1/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Home/Index')]", "xpath:href"],
+        ["xpath=//h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MadereraCarocho')]", "xpath:innerText"]
+      ],
+      "value": "MadereraCarocho"
+    }, {
+      "id": "655728a1-1ff8-494e-8556-1db2a2fb241c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a586e9c1-1fc5-4989-9d07-4e7fe92ba1dd",
+    "name": "LoginCorrectoAdministrador",
+    "commands": [{
+      "id": "91f57f0b-3ae7-4d52-9dda-dc69d1ee8f6a",
+      "comment": "",
+      "command": "open",
+      "target": "Home/Index",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0679e196-8782-4d51-8b2a-c9b3e0416d14",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=MadereraCarocho",
+      "targets": [
+        ["linkText=MadereraCarocho", "linkText"],
+        ["css=h1 > a", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/h1/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Home/Index')]", "xpath:href"],
+        ["xpath=//h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MadereraCarocho')]", "xpath:innerText"]
+      ],
+      "value": "MadereraCarocho"
+    }, {
+      "id": "f97223c4-833f-4c06-9061-69ffe5d67e18",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'LogIn')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3daa782-d911-43cb-8390-9ff82ea5d451",
+      "comment": "",
+      "command": "type",
+      "target": "id=nom",
+      "targets": [
+        ["id=nom", "id"],
+        ["css=#nom", "css:finder"],
+        ["xpath=//input[@id='nom']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "omar#345"
+    }, {
+      "id": "d05d15a2-e373-47d8-b431-c0f7e156d572",
+      "comment": "",
+      "command": "type",
+      "target": "id=contr",
+      "targets": [
+        ["id=contr", "id"],
+        ["name=contra", "name"],
+        ["css=#contr", "css:finder"],
+        ["xpath=//input[@id='contr']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/form/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "16cd9834-5385-4217-af0a-606a866ecefa",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login .btn:nth-child(1)",
+      "targets": [
+        ["css=#login .btn:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2060a9bd-9e85-4b8e-a9d2-f05de668a873",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "467fbfa9-e52e-401d-853c-1b2a8ac175d6",
+    "name": "Index",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4145dbf4-80ff-4622-966f-6a240eb9681b"]
+  }],
+  "urls": ["https://localhost:44347/Home", "https://localhost:44347/Home/", "https://localhost:44347/"],
+  "plugins": []
+}

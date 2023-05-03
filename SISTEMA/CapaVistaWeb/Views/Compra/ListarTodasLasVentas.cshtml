@@ -135,9 +135,8 @@
                     </td>
 
                     <td>
-                        <button class="btn btn-info bi bi-stickies-fill" type="button">
-                            @Html.ActionLink("Detalle", "MostrarDetalle", new { idv = item.IdVenta })
-                        </button>
+                        <a class="btn btn-info bi bi-stickies-fill" type="button" href="../Venta/MostrarDetalle?idv=@item.IdVenta">  </a>
+        
                     </td>
                 </tr>
             }

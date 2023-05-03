@@ -19,10 +19,14 @@ namespace MadereraCarocho.Controllers
             return View(logVenta.Instancia.ListarVenta(usuario.IdUsuario));
         }
 
+        [PermisosRol(entRol.Cliente)]
         public ActionResult MostrarDetalle(int idv)
         {
             return View(_ = logDetVenta.Instancia.Mostrardetventa(idv));
         }
+    
+
+        [PermisosRol(entRol.Cliente)]
         public ActionResult ConfirmarVenta()
         {
             try
