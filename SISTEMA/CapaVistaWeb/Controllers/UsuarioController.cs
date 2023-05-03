@@ -92,26 +92,7 @@ namespace MadereraCarocho.Controllers
         #region REGION COMPARTIDA
 
         #endregion
-        //[HttpGet]
-
-
-        /*[HttpGet]
-        public ActionResult EliminarUsuarioAdmin(int idu)
-        {
-            try
-            {
-                bool elimina = logUsuario.Instancia.EliminarUsuaro(idu);
-                if (elimina)
-                {
-                    return RedirectToAction("ListarAdmin");
-                }
-            }
-            catch (Exception ex)
-            {
-                return RedirectToAction("ListarAdmin", new { mesjExeption = ex.Message });
-            }
-            return RedirectToAction("ListarAdmin");
-        }*/
+       
 
 
 

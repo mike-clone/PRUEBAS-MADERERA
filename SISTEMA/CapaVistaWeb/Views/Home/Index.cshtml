@@ -29,7 +29,7 @@
                 <ul>
                     <li><a class="nav-link scrollto " href="#hero">Inicio</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
-                    <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#ModLogin">LogIn</a></li>
+                    <li><a class="nav-link scrollto" href="/Home/Login">LogIn</a></li>
                     <li><a class="nav-link scrollto" data-bs-toggle="modal" data-bs-target="#ModInsertarCliente">SingIn</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -157,6 +157,9 @@
                                 </td>
                             </tr>
                         }
+
+
+
                     <tbody>
                 </table>
             </div>
@@ -255,34 +258,6 @@
                     <div class="modal-footer">
                         <button onclick="return Registrar('cusername', 'ccorreo', 'cpassword', 'cliente')" type="submit" class="btn btn-dark">Registrar</button>
                         <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <!-- ======= Login ======= -->
-    <div class="modal" tabindex="-1" id="ModLogin" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <form action="/Home/VerificarAcceso" method="POST" id="login">
-                    <div class="modal-header ">
-                        <h5 class="modal-title">Login</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control" name="dato" id="nom" placeholder="Ingrese usuario o correo" required>
-                            <label for="floatingInput">Usuario o Correo</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="password" class="form-control" name="contra" id="contr" placeholder="Password" required>
-                            <label for="floatingInput">Password</label>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="submit" class="btn btn-dark">Iniciar Sesión</button>
-                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
-                        @ViewBag.Error
                     </div>
                 </form>
             </div>

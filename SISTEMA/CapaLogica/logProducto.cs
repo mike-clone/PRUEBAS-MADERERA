@@ -1,7 +1,7 @@
 ﻿using CapaAccesoDatos;
 using CapaEntidad;
 using System.Collections.Generic;
-using System.Runtime.InteropServices.WindowsRuntime;
+
 
 namespace CapaLogica
 {
@@ -16,6 +16,8 @@ namespace CapaLogica
         #region Administrador
         public bool CrearProducto(entProducto prod)
         {
+          bool validar= ValidatorHelper.TryValidateEntity(prod);
+
             return datProducto.Instancia.CrearProducto(prod);
         }
         public List<entProducto> ListarProducto()

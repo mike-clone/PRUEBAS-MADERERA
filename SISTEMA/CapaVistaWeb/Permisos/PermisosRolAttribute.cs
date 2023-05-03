@@ -30,7 +30,7 @@ namespace MadereraCarocho.Permisos
             }
             else
             {
-                filterContext.Result = new RedirectResult("~/Home/Index");
+                filterContext.Result = new RedirectResult("~/Home/Login");
             }
             base.OnActionExecuted(filterContext);
         }

@@ -64,11 +64,13 @@ namespace CapaLogica
         public entUsuario IniciarSesion(string dato, string contra)
         {
             entUsuario u = null;
+            var error=string.Empty;
             try
             {
                 if (DateTime.Now.Hour > 24)
                 {
-                    throw new ApplicationException("No puede ingresar a esta hora");
+                    error = "No puede ingresar a esta hora";
+                    throw new Exception();
                 }
                 else
                 {
@@ -77,22 +79,23 @@ namespace CapaLogica
                     {
                         if (!u.Activo)
                         {
-                            throw new ApplicationException("Usuario ha sido dado de baja");
+                            error = "Usuario ha sido dado de baja";
+                            throw new Exception();
                         }
 
                     }
                     else
                     {
-                        throw new ApplicationException("Datos invalidos");
+                        error = "usuario o contraseña incorrectos";
+                        throw new Exception();
                     }
 
                 }
 
             }
-            catch (Exception e)
-            {
-                MessageBox.Show(e.Message);
-
+            catch {
+                
+                throw new Exception(error);
             }
             return u;
         }

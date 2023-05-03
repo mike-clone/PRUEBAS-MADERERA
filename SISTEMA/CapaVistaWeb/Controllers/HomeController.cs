@@ -33,29 +33,51 @@ namespace MadereraCarocho.Controllers
         {
             return View();
         }
-        [HttpPost]
-        public ActionResult VerificarAcceso(string dato, string contra)
+        [HttpGet]
+        public ActionResult Login()
         {
-
-            entUsuario objUsuario = logUsuario.Instancia.IniciarSesion(dato, contra);
-            if (objUsuario != null)
+            return View();
+        }
+        [HttpPost]
+        public ActionResult VerificarAcceso(string user, string pass)
+        {
+            
+            try
             {
-                FormsAuthentication.SetAuthCookie(objUsuario.Correo, false); //Almacenar autenticacion dentro de una cokkie (segundo parametro es que el obj no sera persistente)
-                Session["Usuario"] = objUsuario;// Una sesión puede almacenar cualquier tipo de dato
-                if (objUsuario.Rol == entRol.Administrador)
+                if (!(string.IsNullOrEmpty(user) || string.IsNullOrEmpty(pass)))
                 {
-                    return RedirectToAction("Admin");
+                    entUsuario objUsuario = logUsuario.Instancia.IniciarSesion(user, pass);
+                    if (objUsuario != null)
+                    {
+                        FormsAuthentication.SetAuthCookie(objUsuario.Correo, false); //Almacenar autenticacion dentro de una cokkie (segundo parametro es que el obj no sera persistente)
+                        Session["Usuario"] = objUsuario;// Una sesión puede almacenar cualquier tipo de dato
+                        if (objUsuario.Rol == entRol.Administrador)
+                        {
+                            return RedirectToAction("Admin");
+                        }
+                        else
+                        {
+                            if (objUsuario.Rol == entRol.Cliente)
+                            {
+                                return RedirectToAction("Cliente");
+                            }
+                        }
+                    }
                 }
                 else
                 {
-                    if (objUsuario.Rol == entRol.Cliente)
-                    {
-                        return RedirectToAction("Cliente");
-                    }
+                    TempData["Mensaje"] = "user and password required";
+                    return RedirectToAction("Login");
                 }
+               
             }
+            catch(Exception ex)
+            {
+                TempData["error"]= ex.Message;
+                return RedirectToAction("Error");
 
-            return RedirectToAction("Index"); //Si es que hay otro tipo  que te recargue la pagina
+            }
+            return RedirectToAction("Login");
         }
         [HttpPost]
         public ActionResult SingUp(string cNombre, string cusername, string ccorreo, string cpassword)

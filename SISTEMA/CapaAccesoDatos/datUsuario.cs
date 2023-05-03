@@ -335,9 +335,9 @@ namespace CapaAccesoDatos
                     }
                 }
             }
-            catch (Exception e)
+            catch(Exception ex) 
             {
-                MessageBox.Show(e.Message);
+               throw new Exception("no se encontro un suario"+ex.Message);
             }
             finally
             {

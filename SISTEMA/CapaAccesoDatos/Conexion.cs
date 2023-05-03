@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.SqlClient;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 namespace CapaAccesoDatos
@@ -22,9 +23,9 @@ namespace CapaAccesoDatos
                 cn.Open();
                 cn.Close();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("Error al intentar conectarse al servidor");
+                throw new Exception("no se pudo conectar al servidor"+ex.Message);
             }
             return cn;
         }

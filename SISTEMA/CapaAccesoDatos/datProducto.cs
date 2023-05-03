@@ -85,12 +85,9 @@ namespace CapaAccesoDatos
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.Message, "EROR AL MOSTRAR LOS PRODUCTOS", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                throw new Exception(e.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
+            
             return lista;
         }
         public bool ActualizarProducto(entProducto Prod)
