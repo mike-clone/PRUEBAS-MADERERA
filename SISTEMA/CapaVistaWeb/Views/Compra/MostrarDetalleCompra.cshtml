@@ -67,7 +67,7 @@
 <br>
 <br>
 <div class="container">
-    <br><h2 style="text-align: center">MIS COMPRAS</h2>
+    <br><h2 style="text-align: center">DETALLE</h2>
 
     <!-- Ordenar -->
     <a onclick="return Ordenar(this)" aria-current="page" type="button" class="btn btn-primary btn-lg" id="ASC" th:href="@*@{productoAsc}*@#"><i class="bi bi-sort-up"></i></a>
@@ -79,7 +79,6 @@
         <button onclick="return Buscar('Bproveedor')" class="btn btn-outline-success" type="submit">Buscar</button>
     </form>
     <div class="container">
-        <br><h2 style="text-align: center">DETALLE</h2>
         @{
             var idCompra = Model.FirstOrDefault()?.Compra.IdCompra;
             double total = 0;
