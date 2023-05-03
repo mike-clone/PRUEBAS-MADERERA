@@ -38,6 +38,13 @@ namespace MadereraCarocho.Controllers
         {
             return View();
         }
+        public ActionResult Registro()
+        {
+            List<entUbigeo> listaUbigeo = logUbigeo.Instancia.ListarDistrito();
+            var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
+            ViewBag.listaUbigeo = lsUbigeo;
+            return View();
+        }
         [HttpPost]
         public ActionResult VerificarAcceso(string user, string pass)
         {
@@ -64,49 +71,51 @@ namespace MadereraCarocho.Controllers
                         }
                     }
                 }
-                else
-                {
-                    TempData["Mensaje"] = "user and password required";
-                    return RedirectToAction("Login");
-                }
+                
+          
                
             }
             catch(Exception ex)
             {
                 TempData["error"]= ex.Message;
-                return RedirectToAction("Error");
+                TempData["Mensaje"] = "user or password invalid";
+                return RedirectToAction("Login");
 
             }
             return RedirectToAction("Login");
         }
         [HttpPost]
-        public ActionResult SingUp(string cNombre, string cusername, string ccorreo, string cpassword)
+        public ActionResult SingUp(string nombre, string username, string email, string password,FormCollection ubi)
         {
+            
             try
             {
-                entUsuario c = new entUsuario
-                {
-                    RazonSocial = cNombre,
-                    UserName = cusername,
-                    Correo = ccorreo,
-                    Pass = Encriptar.GetSHA256(cpassword)
-                };
-                entRoll rol = new entRoll
-                {
-                    IdRoll = 2
-                };
-                c.Roll = rol;
-                bool creado = logUsuario.Instancia.CrearClientes(c);
-                ViewBag.Error = "Creado";
-                return RedirectToAction("Index");
+               if(!string.IsNullOrEmpty(nombre) && !string.IsNullOrEmpty(username)  && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(password)) 
+               {
+                    entUsuario c = new entUsuario
+                    {
+                        RazonSocial = nombre,
+                        UserName = username,
+                        Correo = email,
+                        Pass = Encriptar.GetSHA256(password),
+                        Roll = new entRoll
+                        {
+                            IdRoll = 2
+                        },
+                        Ubigeo = new entUbigeo
+                        {
+                            IdUbigeo = ubi["ubigeo"].ToString()
+                        }
+                    };
+                    bool creado = logUsuario.Instancia.CrearClientes(c);
+                }
             }
             catch (Exception ex)
             {
-                ViewBag.Error = "No se pudo crear";
-                return RedirectToAction("Index", new { mesjExeption = ex.Message });
-
+                TempData["error"] =ex.Message ;
+                return RedirectToAction("Error");
             }
-
+            return RedirectToAction("Login");
         }
         public ActionResult CerrarSesion()
         {

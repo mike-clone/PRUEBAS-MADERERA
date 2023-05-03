@@ -16,7 +16,27 @@ namespace CapaLogica
         #region CLIENTES
         public bool CrearClientes(entUsuario c)
         {
-            return datUsuario.Instacia.CrearCliente(c);
+            var error=string.Empty;
+            var creado = false;
+            var validado=ValidatorHelper.TryValidateEntity(c);
+            try
+            {
+                if (validado)
+                {
+                   creado= datUsuario.Instacia.CrearCliente(c);
+                }
+                else
+                {
+                    error = "El formato de entrada no coincide con la base de datos";
+                    throw new Exception(error);
+                }
+                
+            }
+            catch(Exception e)
+            {
+                throw new Exception(error+" "+" detalles"+" "+ e.Message);
+            }
+            return creado;
         }
         public List<entUsuario> ListarClientes()
         {

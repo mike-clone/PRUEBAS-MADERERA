@@ -297,6 +297,7 @@
     <Content Include="Views\Compra\ListarTodasLasCompras.cshtml" />
     <Content Include="Views\Compra\MostrarDetalleCompra.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\Registro.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -53,17 +53,23 @@
 <body>
     <div class="login-container">
         <h1>Login Form</h1>
-        <form method="post" id="idLogin" action="/Home/VerificarAcceso">
-            <label for="username">Username</label>
-            <input type="text" id="username" name="user" placeholder="Enter your username">
-            <div class="alert alert-warning" id="username_alert" style="display:none">
+        <form method="post" id="idLogin" action="/Home/VerificarAcceso" class="row g-3 needs-validation" novalidate>
+            <div>
+                <label for="validationCustom01" class="form-label">Username</label>
+                <input type="text" id="validationCustom02" name="user" placeholder="Enter your username" class="form-control" required>
+                <div class="invalid-feedback">
+                    Please choose a username.
+                </div>
             </div>
-
-            <label for="password">Password</label>
-            <input type="password" id="password" name="pass" placeholder="Enter your password">
-            <div class="alert alert-warning" id="password_alert" style="display:none">
+            
+            <div>
+                <label for="validationCustom01" class="form-label">Password</label>
+                <input type="text" id="validationCustom03" name="pass" placeholder="Enter your username" class="form-control" required>
+                <div class="invalid-feedback">
+                    Please choose a password.
+                </div>
             </div>
-            <button class="btn btn-success" type="submit" onclick="validateLogin('idLogin')">Login</button>
+            <button class="btn btn-success" type="submit">Login</button>
             @if (TempData["Mensaje"] != null)
             {
                 <div class="alert alert-danger">

@@ -32,7 +32,7 @@ namespace CapaAccesoDatos
                 cmd.Parameters.AddWithValue("@userName", Cli.UserName);
                 cmd.Parameters.AddWithValue("@pass", Cli.Pass);
                 cmd.Parameters.AddWithValue("@idRol", Cli.Roll.IdRoll);
-
+                cmd.Parameters.AddWithValue("@idubigeo", Cli.Ubigeo.IdUbigeo);
                 cn.Open();
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
@@ -40,11 +40,7 @@ namespace CapaAccesoDatos
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.Message, "ERROR EL INGRESAR", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                cmd.Connection.Close();
+                throw new Exception(e.Message);
             }
             return creado;
         }

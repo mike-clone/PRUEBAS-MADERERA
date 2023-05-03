@@ -19,11 +19,12 @@ CREATE OR ALTER PROCEDURE spCrearCliente(
 	@correo varchar(40),
 	@userName varchar(20),
 	@pass varchar(200),
-	@idRol int
+	@idRol int,
+	@idubigeo varchar (11)
 )
 AS
 BEGIN
-    INSERT INTO USUARIO (razonSocial,correo,userName,pass, idRol) values (@razonSocial, @correo, @userName, @pass, @idRol);
+    INSERT INTO USUARIO (razonSocial,correo,userName,pass,idUbigeo, idRol) values (@razonSocial, @correo, @userName, @pass,@idubigeo, @idRol);
 END
 GO
 
