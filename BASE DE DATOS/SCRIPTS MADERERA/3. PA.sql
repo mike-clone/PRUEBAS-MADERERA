@@ -531,7 +531,7 @@ select det.idCompra,det.idProveedor,det.IdProducto,p.nombre,tp.nombre as tipo,p.
 	where c.idCompra=@idCompra
 end
 go
-
+exec spListarDetalleCompraId 8
 --DELETE FROM DETALLE_COMPRA
 --DELETE FROM COMPRA
 
