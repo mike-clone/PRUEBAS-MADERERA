@@ -7,7 +7,15 @@ using System.Windows.Forms;
 
 namespace CapaAccesoDatos
 {
-    public class datUsuario
+    public interface IdatUsuario
+    {
+        bool CrearCliente(entUsuario Cli);
+        List<entUsuario> ListarCliente();
+        List<entUsuario> BuscarCliente(string busqueda);
+        bool EditarCliente(entUsuario u);
+        entUsuario IniciarSesion(string campo, string contra);
+    }
+    public class datUsuario: IdatUsuario
     {
         private static readonly datUsuario _instacia = new datUsuario();
 
@@ -15,6 +23,7 @@ namespace CapaAccesoDatos
         {
             get { return _instacia; }
         }
+       
         #region Clientes
         //Crear
         public bool CrearCliente(entUsuario Cli)

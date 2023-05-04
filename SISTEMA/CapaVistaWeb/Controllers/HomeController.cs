@@ -1,4 +1,5 @@
-﻿using CapaEntidad;
+﻿using CapaAccesoDatos;
+using CapaEntidad;
 using CapaLogica;
 using MadereraCarocho.Permisos;//Para los permisos
 using MadereraCarocho.Utilidades;
@@ -11,8 +12,15 @@ using System.Web.Security;//FormsAutenticathion
 
 namespace MadereraCarocho.Controllers
 {
+    
     public class HomeController : Controller
     {
+        logUsuario logusuarioInstancia;
+
+        public HomeController()
+        {
+            logusuarioInstancia = new logUsuario(new datUsuario());
+        }
         #region PUBLICA
         public ActionResult Index(string dato)
         {
@@ -107,7 +115,7 @@ namespace MadereraCarocho.Controllers
                             IdUbigeo = ubi["ubigeo"].ToString()
                         }
                     };
-                    bool creado = logUsuario.Instancia.CrearClientes(c);
+                    bool creado = logusuarioInstancia.CrearClientes(c);
                 }
             }
             catch (Exception ex)

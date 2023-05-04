@@ -13,9 +13,19 @@ namespace CapaLogica
         {
             get { return _instancia; }
         }
+        public logUsuario()
+        {
+            
+        }
+        public logUsuario(IdatUsuario idataUsuario)
+        {
+            datusuarioInstancia = idataUsuario;
+        }
+        private IdatUsuario datusuarioInstancia;
         #region CLIENTES
         public bool CrearClientes(entUsuario c)
         {
+
             var error=string.Empty;
             var creado = false;
             var validado=ValidatorHelper.TryValidateEntity(c);
@@ -23,7 +33,7 @@ namespace CapaLogica
             {
                 if (validado)
                 {
-                   creado= datUsuario.Instacia.CrearCliente(c);
+                   creado= datusuarioInstancia.CrearCliente(c);
                 }
                 else
                 {

@@ -2,6 +2,7 @@
 {
     public class entProducto
     {
+       
         private int idProducto;
         private string nombre;
         private double longitud;
