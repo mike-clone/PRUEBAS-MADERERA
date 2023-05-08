@@ -1,7 +1,9 @@
-﻿using CapaEntidad;
+﻿using CapaAccesoDatos;
+using CapaEntidad;
 using CapaLogica;
 using MadereraCarocho.Permisos;
 using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Web.Mvc;
 
@@ -11,19 +13,23 @@ namespace MadereraCarocho.Controllers
     [Authorize]// No puede si es que no esta autorizado
     public class UsuarioController : Controller
     {
-
+        LogUsuario Usuarioservice;
+        public UsuarioController()
+        {
+            Usuarioservice = new LogUsuario(new DatUsuario());
+        }
 
         #region CLIENTES
         public ActionResult ListarClientes(string dato)//listar y buscar en el mismo
         {
-            List<entUsuario> lista;
+            List<EntUsuario> lista;
             if (!String.IsNullOrEmpty(dato))
             {
-                lista = logUsuario.Instancia.BuscarClientes(dato);
+                lista = Usuarioservice.BuscarClientes(dato);
             }
             else
             {
-                lista = logUsuario.Instancia.ListarClientes();
+                lista = Usuarioservice.ListarClientes();
             }
             List<entUbigeo> listaUbigeo = logUbigeo.Instancia.ListarDistrito();
             var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
@@ -33,13 +39,12 @@ namespace MadereraCarocho.Controllers
             ViewBag.Error = "listando";
             return View(lista);
         }
-
         [HttpGet]
         public ActionResult EliminarClientes(int idc)
         {
             try
             {
-                bool elimina = logUsuario.Instancia.EliminarUsuarios(idc);
+                bool elimina = Usuarioservice.EliminarUsuarios(idc);
 
                 ViewBag.Error = "Cliente eliminado correctamente";
 
@@ -55,18 +60,18 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult EditarCliente(int c)
         {
-            var usuario = logUsuario.Instancia.BuscarIdUsuario(c);
+            var usuario = Usuarioservice.BuscarIdUsuario(c);
             ViewBag.OldRoll = usuario.Roll.Descripcion;
             ViewBag.OldUbigeo = usuario.Ubigeo.Departamento + "  " + usuario.Ubigeo.Provincia + "  " + usuario.Ubigeo.Distrito;
             return View(usuario);
         }
 
         [HttpPost]
-        public ActionResult EditarCliente(entUsuario u)
+        public ActionResult EditarCliente(EntUsuario u)
         {
             try
             {
-                Boolean edita = logUsuario.Instancia.EditarCliente(u);
+                Boolean edita = Usuarioservice.EditarCliente(u);
                 if (edita)
                 {
                     return RedirectToAction("ListarClientes");
@@ -93,11 +98,5 @@ namespace MadereraCarocho.Controllers
 
         #endregion
        
-
-
-
-
-
-
     }
 }

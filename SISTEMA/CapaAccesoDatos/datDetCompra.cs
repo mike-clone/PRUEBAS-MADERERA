@@ -1,4 +1,5 @@
-﻿using CapaEntidad;
+﻿using CapaAccesoDatos.Interfaces;
+using CapaEntidad;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -7,16 +8,10 @@ using System.Windows.Forms;
 
 namespace CapaAccesoDatos
 {
-    public class datDetCompra
-    {
-       
-        private static readonly datDetCompra _instancia = new datDetCompra();
-        public static datDetCompra Instancia
-        {
-            get { return _instancia; }
-        }
 
-        public bool CrearDetCompra(entDetCompra Det)
+    public class DatDetCompra : IDatDetCompra
+    {
+        public bool CrearDetCompra(EntDetCompra Det)
         {
 
             SqlCommand cmd = null;
@@ -49,9 +44,9 @@ namespace CapaAccesoDatos
             return creado;
         }
 
-        public List<entDetCompra> MostrarDetalleCompraId(int id)
+        public List<EntDetCompra> MostrarDetalleCompraId(int id)
         {
-            List<entDetCompra> list = new List<entDetCompra>();
+            List<EntDetCompra> list = new List<EntDetCompra>();
             SqlCommand cmd = null;
             try
             {
@@ -63,9 +58,9 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entDetCompra detalle = new entDetCompra
+                    EntDetCompra detalle = new EntDetCompra
                     {
-                        Compra = new entCompra
+                        Compra = new EntCompra
                         {
                             IdCompra = Convert.ToInt32(dr["idCompra"])
                         },

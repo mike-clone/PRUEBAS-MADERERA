@@ -1,4 +1,5 @@
-﻿using CapaEntidad;
+﻿using CapaAccesoDatos;
+using CapaEntidad;
 using CapaLogica;
 using MadereraCarocho.Permisos;
 using System;
@@ -13,18 +14,25 @@ namespace MadereraCarocho.Controllers
     [PermisosRol(entRol.Administrador)]
     public class CompraController : Controller
     {
-
+        LogCompra CompraService;
+        LogDetCompra DetCompraService;
+        public CompraController()
+        {
+            CompraService = new LogCompra(new DatCompra());
+            DetCompraService = new LogDetCompra(new DatDetCompra());
+        }
+    
         // GET: Compra
         public ActionResult ListarCompra()
         {
-            entUsuario usuario = new entUsuario();
-            usuario = Session["Usuario"] as entUsuario;
-            return View(logCompra.Instancia.ListarCompra(usuario.IdUsuario));
+            _ = new EntUsuario();
+            EntUsuario usuario = Session["Usuario"] as EntUsuario;
+            return View(CompraService.ListarCompra(usuario.IdUsuario));
         }
 
         public ActionResult ListarTodasLasCompras()
         {
-            return View(logCompra.Instancia.ListartodasLasCompras());
+            return View(CompraService.ListartodasLasCompras());
         }
 
         public ActionResult ListarTodasLasVentas()
@@ -37,8 +45,8 @@ namespace MadereraCarocho.Controllers
             try
             {
                 //obtenemos el usuario que esta realizando la compra
-                entUsuario usuario=new entUsuario();
-                usuario = Session["Usuario"] as entUsuario;
+                EntUsuario usuario=new EntUsuario();
+                usuario = Session["Usuario"] as EntUsuario;
                 //Obtenemos los productos temprales del usuario que estan en el carrito
                 List<EntTemporaryProducts> list = new List<EntTemporaryProducts>();
                 list = LogTemporaryProducts.Instancia.MostrarTemporaryProducts(usuario.IdUsuario);
@@ -50,18 +58,18 @@ namespace MadereraCarocho.Controllers
                     total +=list[i].Subtotal;
                 }
                 //CREAMOS EL PEDIDO
-                entCompra Pedido = new entCompra
+                EntCompra Pedido = new EntCompra
                 {
                     Usuario = usuario,
                     Total = total
                 };
 
                 //Obtenemos el id del pedido  creada
-                int idCompra = logCompra.Instancia.CrearCompra(Pedido);
+                int idCompra = CompraService.CrearCompra(Pedido);
                 //seteamos el id delpedido
                 Pedido.IdCompra = idCompra;
 
-                entDetCompra det = new entDetCompra();
+                EntDetCompra det = new EntDetCompra();
                 for (int i = 0; i <list.Count; i++)
                 {
                     det.Compra = Pedido;
@@ -79,7 +87,7 @@ namespace MadereraCarocho.Controllers
                     det.Cantidad = list[i].Cantidad;
                     det.Subtotal = list[i].Subtotal;
                    
-                    logDetCompra.Instancia.CrearDetCompra(det);
+                    DetCompraService.CrearDetCompra(det);
                 }
                 return RedirectToAction("ListarCompra");
 
@@ -93,7 +101,7 @@ namespace MadereraCarocho.Controllers
 
         public ActionResult MostrarDetalleCompra( int idcompra)
         {
-            return View(logDetCompra.Instancia.MostrarDetalleCompraId(idcompra));
+            return View(DetCompraService.MostrarDetalleCompraId(idcompra));
         }
     }
 }

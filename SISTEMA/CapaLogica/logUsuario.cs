@@ -1,29 +1,23 @@
-﻿using CapaAccesoDatos;
+﻿
+using CapaAccesoDatos.Interfaces;
 using CapaEntidad;
 using System;
 using System.Collections.Generic;
-using System.Windows.Forms;
-
 namespace CapaLogica
 {
-    public class logUsuario
+    public class LogUsuario
     {
-        private static readonly logUsuario _instancia = new logUsuario();
-        public static logUsuario Instancia
-        {
-            get { return _instancia; }
-        }
-        public logUsuario()
+        public LogUsuario()
         {
             
         }
-        public logUsuario(IdatUsuario idataUsuario)
+        private IDatUsuario UsuarioService;
+        public LogUsuario(IDatUsuario IUsuario)
         {
-            datusuarioInstancia = idataUsuario;
+            UsuarioService = IUsuario;
         }
-        private IdatUsuario datusuarioInstancia;
         #region CLIENTES
-        public bool CrearClientes(entUsuario c)
+        public bool CrearClientes(EntUsuario c)
         {
 
             var error=string.Empty;
@@ -33,7 +27,7 @@ namespace CapaLogica
             {
                 if (validado)
                 {
-                   creado= datusuarioInstancia.CrearCliente(c);
+                   creado= UsuarioService.CrearCliente(c);
                 }
                 else
                 {
@@ -48,52 +42,52 @@ namespace CapaLogica
             }
             return creado;
         }
-        public List<entUsuario> ListarClientes()
+        public List<EntUsuario> ListarClientes()
         {
-            return datUsuario.Instacia.ListarCliente();
+            return UsuarioService.ListarCliente();
         }
 
-        public List<entUsuario> BuscarClientes(string dato)
+        public List<EntUsuario> BuscarClientes(string dato)
         {
-            return datUsuario.Instacia.BuscarCliente(dato);
+            return UsuarioService.BuscarCliente(dato);
         }
 
         public bool EliminarUsuarios(int id)
         {
-            return datUsuario.Instacia.EliminarUsuarios(id);
+            return UsuarioService.EliminarUsuarios(id);
         }
 
-        public bool EditarCliente(entUsuario u)
+        public bool EditarCliente(EntUsuario u)
         {
-            return datUsuario.Instacia.EditarCliente(u);
+            return UsuarioService.EditarCliente(u);
         }
         #endregion
 
         #region ADMINISTRADORES
-        public List<entUsuario> ListarAdministradores()
+        public List<EntUsuario> ListarAdministradores()
         {
-            return datUsuario.Instacia.ListarAdministradores();
+            return UsuarioService.ListarAdministradores();
         }
-        public bool ActualizarAdministrador(entUsuario ad)
+        public bool ActualizarAdministrador(EntUsuario ad)
         {
-            return datUsuario.Instacia.ActualizarAdministrador(ad);
+            return UsuarioService.ActualizarAdministrador(ad);
         }
-        public List<entUsuario> BuscarAdministradores(string dato)
+        public List<EntUsuario> BuscarAdministradores(string dato)
         {
-            return datUsuario.Instacia.BuscaraAdministradores(dato);
+            return UsuarioService.BuscaraAdministradores(dato);
         }
         #endregion
 
 
         #region COMPARTIDO
-        public entUsuario BuscarIdUsuario(int idCliente)
+        public EntUsuario BuscarIdUsuario(int idCliente)
         {
-            return datUsuario.Instacia.BuscarIdUsuario(idCliente);
+            return UsuarioService.BuscarIdUsuario(idCliente);
         }
 
-        public entUsuario IniciarSesion(string dato, string contra)
+        public EntUsuario IniciarSesion(string dato, string contra)
         {
-            entUsuario u = null;
+            EntUsuario u = null;
             var error=string.Empty;
             try
             {
@@ -104,7 +98,7 @@ namespace CapaLogica
                 }
                 else
                 {
-                    u = datUsuario.Instacia.IniciarSesion(dato, contra);
+                    u = UsuarioService.IniciarSesion(dato, contra);
                     if (u != null)
                     {
                         if (!u.Activo)

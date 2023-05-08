@@ -44,9 +44,9 @@
   <ItemGroup>
     <Compile Include="Conexion.cs" />
     <Compile Include="DatTemporaryProducts.cs" />
-    <Compile Include="datUsuario.cs" />
-    <Compile Include="datCompra.cs" />
-    <Compile Include="datDetCompra.cs" />
+    <Compile Include="DatUsuario.cs" />
+    <Compile Include="DatCompra.cs" />
+    <Compile Include="DatDetCompra.cs" />
     <Compile Include="datDetVenta.cs" />
     <Compile Include="datGrafEst.cs" />
     <Compile Include="datProducto.cs" />
@@ -57,6 +57,9 @@
     <Compile Include="datUbigeo.cs" />
     <Compile Include="datVenta.cs" />
     <Compile Include="encrypt.cs" />
+    <Compile Include="Interfaces\IDatCompra.cs" />
+    <Compile Include="Interfaces\IDatDetCompra.cs" />
+    <Compile Include="Interfaces\IDatUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,5 @@
-﻿using CapaEntidad;
+﻿using CapaAccesoDatos.Interfaces;
+using CapaEntidad;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -7,16 +8,11 @@ using System.Windows.Forms;
 
 namespace CapaAccesoDatos
 {
-    public class datCompra
+    public class DatCompra:IDatCompra
     {
-        private static readonly datCompra _instancia = new datCompra();
-        public static datCompra Instancia
-        {
-            get { return _instancia; }
-        }
-
+        
         //Crear
-        public int CrearCompra(entCompra comp)
+        public int CrearCompra(EntCompra comp)
         {
             SqlCommand cmd = null;
             int idCompra = -1;
@@ -58,9 +54,9 @@ namespace CapaAccesoDatos
             return idCompra;
         }
         //Leer
-        public List<entCompra> ListarCompra(int id)
+        public List<EntCompra> ListarCompra(int id)
         {
-            List<entCompra> lista = new List<entCompra>();
+            List<EntCompra> lista = new List<EntCompra>();
             SqlCommand cmd = null;
             try
             {
@@ -72,12 +68,12 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entCompra objCompra = new entCompra
+                    EntCompra objCompra = new EntCompra
                     {
                         IdCompra = Convert.ToInt32(dr["idCompra"]),
                         Fecha = Convert.ToDateTime(dr["fecha"]),
                         Total = Convert.ToDouble(dr["total"]),
-                        Usuario=new entUsuario
+                        Usuario=new EntUsuario
                         {
                             UserName = dr["username"].ToString(),
                         },
@@ -98,9 +94,9 @@ namespace CapaAccesoDatos
             return lista;
         }
 
-        public List<entCompra> ListarTodasLasCompras()
+        public List<EntCompra> ListarTodasLasCompras()
         {
-            List<entCompra> lista = new List<entCompra>();
+            List<EntCompra> lista = new List<EntCompra>();
             SqlCommand cmd = null;
             try
             {
@@ -111,12 +107,12 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entCompra objCompra = new entCompra
+                    EntCompra objCompra = new EntCompra
                     {
                         IdCompra = Convert.ToInt32(dr["idCompra"]),
                         Fecha = Convert.ToDateTime(dr["fecha"]),
                         Total = Convert.ToDouble(dr["total"]),
-                        Usuario = new entUsuario
+                        Usuario = new EntUsuario
                         {
                             Correo = dr["correo"].ToString(),
                             UserName = dr["username"].ToString()
@@ -163,10 +159,9 @@ namespace CapaAccesoDatos
             return eliminado;
         }
 
-        #region OTROS
-        public List<entCompra> BuscarCompra(string busqueda)
+        public List<EntCompra> BuscarCompra(string busqueda)
         {
-            List<entCompra> lista = new List<entCompra>();
+            List<EntCompra> lista = new List<EntCompra>();
             SqlCommand cmd = null;
             try
             {
@@ -178,7 +173,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entCompra Prod = new entCompra();
+                    EntCompra Prod = new EntCompra();
                     Prod.IdCompra = Convert.ToInt32(dr["idCompra"]);
                     Prod.Fecha = Convert.ToDateTime(dr["fecha"]);
                     Prod.Total = Convert.ToDouble(dr["total"]);
@@ -197,6 +192,5 @@ namespace CapaAccesoDatos
             }
             return lista;
         }
-        #endregion Otros
     }
 }

@@ -48,9 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LogTemporaryProducts.cs" />
-    <Compile Include="logUsuario.cs" />
-    <Compile Include="logCompra.cs" />
-    <Compile Include="logDetCompra.cs" />
+    <Compile Include="LogUsuario.cs" />
+    <Compile Include="LogCompra.cs" />
+    <Compile Include="LogDetCompra.cs" />
     <Compile Include="logDetVenta.cs" />
     <Compile Include="logProducto.cs" />
     <Compile Include="logProveedor.cs" />

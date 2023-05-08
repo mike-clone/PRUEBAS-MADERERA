@@ -2,12 +2,12 @@
 
 namespace CapaEntidad
 {
-    public class entCompra
+    public class EntCompra
     {
         private int idCompra;
         private DateTime fecha;
         private double total;
-        private entUsuario usuario;
+        private EntUsuario usuario;
         private string estado;
 
 
@@ -33,7 +33,7 @@ namespace CapaEntidad
 
       
         public string Estado { get => estado; set => estado = value; }
-        public entUsuario Usuario { get => usuario; set => usuario = value; }
+        public EntUsuario Usuario { get => usuario; set => usuario = value; }
         #endregion Get and Set
     }
 }

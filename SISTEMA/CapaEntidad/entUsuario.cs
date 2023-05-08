@@ -2,7 +2,7 @@
 
 namespace CapaEntidad
 {
-    public class entUsuario
+    public class EntUsuario
     {
         private int idUsuario;
         private string razonSocial;

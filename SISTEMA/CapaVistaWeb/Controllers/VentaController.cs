@@ -14,8 +14,8 @@ namespace MadereraCarocho.Controllers
         [PermisosRol(entRol.Cliente)]
         public ActionResult ListarVenta()
         {
-            entUsuario usuario = new entUsuario();
-            usuario = Session["Usuario"] as entUsuario;
+            EntUsuario usuario = new EntUsuario();
+            usuario = Session["Usuario"] as EntUsuario;
             return View(logVenta.Instancia.ListarVenta(usuario.IdUsuario));
         }
 
@@ -31,8 +31,8 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                entUsuario usuario = new entUsuario();
-                usuario = Session["Usuario"] as entUsuario;
+                EntUsuario usuario = new EntUsuario();
+                usuario = Session["Usuario"] as EntUsuario;
                 List<EntTemporaryProducts> list = new List<EntTemporaryProducts>();
                 list = LogTemporaryProducts.Instancia.MostrarTemporaryProductsCli(usuario.IdUsuario);
 

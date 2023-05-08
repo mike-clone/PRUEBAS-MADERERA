@@ -149,7 +149,7 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult AgregarTempPrduct(int idprod, int idprov)
         {
-            entUsuario usuario = Session["Usuario"] as entUsuario;
+            EntUsuario usuario = Session["Usuario"] as EntUsuario;
             var proprod = logProveedorProducto.Instancia.BuscarProvedorProductoId(idprod, idprov);
             EntTemporaryProducts temporaryProducts = new EntTemporaryProducts
             {

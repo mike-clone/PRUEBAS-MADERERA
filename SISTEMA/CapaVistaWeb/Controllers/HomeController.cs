@@ -15,11 +15,11 @@ namespace MadereraCarocho.Controllers
     
     public class HomeController : Controller
     {
-        logUsuario logusuarioInstancia;
+        LogUsuario Usuarioservice;
 
         public HomeController()
         {
-            logusuarioInstancia = new logUsuario(new datUsuario());
+            Usuarioservice = new LogUsuario(new DatUsuario());
         }
         #region PUBLICA
         public ActionResult Index(string dato)
@@ -61,7 +61,7 @@ namespace MadereraCarocho.Controllers
             {
                 if (!(string.IsNullOrEmpty(user) || string.IsNullOrEmpty(pass)))
                 {
-                    entUsuario objUsuario = logUsuario.Instancia.IniciarSesion(user, pass);
+                    EntUsuario objUsuario = Usuarioservice.IniciarSesion(user, pass);
                     if (objUsuario != null)
                     {
                         FormsAuthentication.SetAuthCookie(objUsuario.Correo, false); //Almacenar autenticacion dentro de una cokkie (segundo parametro es que el obj no sera persistente)
@@ -100,7 +100,7 @@ namespace MadereraCarocho.Controllers
             {
                if(!string.IsNullOrEmpty(nombre) && !string.IsNullOrEmpty(username)  && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(password)) 
                {
-                    entUsuario c = new entUsuario
+                    EntUsuario c = new EntUsuario
                     {
                         RazonSocial = nombre,
                         UserName = username,
@@ -115,7 +115,7 @@ namespace MadereraCarocho.Controllers
                             IdUbigeo = ubi["ubigeo"].ToString()
                         }
                     };
-                    bool creado = logusuarioInstancia.CrearClientes(c);
+                    bool creado = Usuarioservice.CrearClientes(c);
                 }
             }
             catch (Exception ex)
@@ -155,7 +155,7 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult EditarDatosCliente()
         {
-            var usuario = Session["Usuario"] as entUsuario;
+            var usuario = Session["Usuario"] as EntUsuario;
             ViewBag.listaUbigeo = new SelectList(logUbigeo.Instancia.ListarDistrito(), "idUbigeo", "distrito");
             ViewBag.Ubigeo = usuario.Ubigeo.Distrito;
             return View(usuario);
@@ -165,7 +165,7 @@ namespace MadereraCarocho.Controllers
         [PermisosRol(entRol.Cliente)]
         [Authorize]
         [HttpPost]
-        public ActionResult EditarDatosCliente(entUsuario usu, FormCollection frm) //EDITA LOS DATOS
+        public ActionResult EditarDatosCliente(EntUsuario usu, FormCollection frm) //EDITA LOS DATOS
         {
 
             usu.Ubigeo = new entUbigeo
@@ -174,7 +174,7 @@ namespace MadereraCarocho.Controllers
             };
             try
             {
-                Boolean edita = logUsuario.Instancia.ActualizarAdministrador(usu);
+                Boolean edita = Usuarioservice.ActualizarAdministrador(usu);
                 if (edita)
                 {
                     CerrarSesion();
@@ -195,7 +195,7 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult AgregarTempPrductCliente(int idprod)
         {
-            entUsuario usuario = Session["Usuario"] as entUsuario;
+            EntUsuario usuario = Session["Usuario"] as EntUsuario;
             var prod = logProducto.Instancia.BuscarProductoId(idprod);
             EntTemporaryProducts temporaryProducts = new EntTemporaryProducts
             {
@@ -223,8 +223,8 @@ namespace MadereraCarocho.Controllers
         [Authorize]// No puede si es que no esta autorizado //Almacena la info en la memoria del navegador
         public ActionResult Admin()
         {
-            entUsuario usuario = new entUsuario();
-            usuario=Session["Usuario"] as entUsuario;
+            EntUsuario usuario = new EntUsuario();
+            usuario=Session["Usuario"] as EntUsuario;
             ViewBag.correo =usuario.Correo;
             return View();
         }
@@ -234,7 +234,7 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult EditarDatosAdministrador()
         {
-            var usuario = Session["Usuario"] as entUsuario;
+            var usuario = Session["Usuario"] as EntUsuario;
             ViewBag.listaUbigeo = new SelectList(logUbigeo.Instancia.ListarDistrito(), "idUbigeo", "distrito");
             ViewBag.Ubigeo = usuario.Ubigeo.Distrito;
             return View(usuario);
@@ -244,7 +244,7 @@ namespace MadereraCarocho.Controllers
 
         [PermisosRol(entRol.Administrador)]
         [Authorize]
-        public ActionResult EditarDatosAdministrador(entUsuario usu, FormCollection frm) //EDITA LOS DATOS
+        public ActionResult EditarDatosAdministrador(EntUsuario usu, FormCollection frm) //EDITA LOS DATOS
         {
 
             usu.Ubigeo = new entUbigeo
@@ -253,7 +253,7 @@ namespace MadereraCarocho.Controllers
             };
             try
             {
-                Boolean edita = logUsuario.Instancia.ActualizarAdministrador(usu);
+                Boolean edita = Usuarioservice.ActualizarAdministrador(usu);
                 if (edita)
                 {
                     CerrarSesion();
@@ -270,7 +270,6 @@ namespace MadereraCarocho.Controllers
             }
         }
 
-       
         #endregion
 
 

@@ -74,7 +74,7 @@ namespace CapaAccesoDatos
                         Fecha = Convert.ToDateTime(dr["fecha"]),
                         Total = Convert.ToDouble(dr["total"]),
                         Estado = dr["estado"].ToString(),
-                        Cliente = new entUsuario
+                        Cliente = new EntUsuario
                         {
                             IdUsuario = Convert.ToInt32(dr["idUsuario"]),
                         }
@@ -113,7 +113,7 @@ namespace CapaAccesoDatos
                         Fecha = Convert.ToDateTime(dr["fecha"]),
                         Total = Convert.ToDouble(dr["total"]),
                         Estado = dr["estado"].ToString(),
-                        Cliente = new entUsuario
+                        Cliente = new EntUsuario
                         {
                             Correo = dr["correo"].ToString(),
                             UserName = dr["userName"].ToString()

@@ -21,7 +21,7 @@ namespace MadereraCarocho.Permisos
             if (HttpContext.Current.Session["Usuario"] != null)
             {
                 // Convertimos la sesion que contiene la info del usuario se convierta al tipo usuario
-                var usuario = HttpContext.Current.Session["Usuario"] as entUsuario;
+                var usuario = HttpContext.Current.Session["Usuario"] as EntUsuario;
                 if (usuario.Rol != Rol)
                 {
                     filterContext.Result = new RedirectResult("~/Home/SinPermisos");

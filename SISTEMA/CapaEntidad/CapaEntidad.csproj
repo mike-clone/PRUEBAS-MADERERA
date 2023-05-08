@@ -43,9 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntTemporaryProducts.cs" />
-    <Compile Include="entUsuario.cs" />
-    <Compile Include="entCompra.cs" />
-    <Compile Include="entDetCompra.cs" />
+    <Compile Include="EntUsuario.cs" />
+    <Compile Include="EntCompra.cs" />
+    <Compile Include="EntDetCompra.cs" />
     <Compile Include="entDetVenta.cs" />
     <Compile Include="entProducto.cs" />
     <Compile Include="entProveedor.cs" />

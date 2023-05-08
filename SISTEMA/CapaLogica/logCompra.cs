@@ -1,42 +1,44 @@
 ﻿using CapaAccesoDatos;
+using CapaAccesoDatos.Interfaces;
 using CapaEntidad;
 using System.Collections.Generic;
 using System.Data;
 
 namespace CapaLogica
 {
-    public class logCompra
+    public class LogCompra
     {
-        private static readonly logCompra _instancia = new logCompra();
+        
+        private IDatCompra CompraService;
+        public LogCompra()
+        {
 
-        public static logCompra Instancia
+        }
+        public LogCompra(IDatCompra ICompra)
         {
-            get { return _instancia; }
+            CompraService = ICompra;
         }
 
-        public int CrearCompra(entCompra comp)
+        public int CrearCompra(EntCompra comp)
         {
-            return datCompra.Instancia.CrearCompra(comp);
+            return CompraService.CrearCompra(comp);
         }
-        public List<entCompra> ListarCompra(int id)
+        public List<EntCompra> ListarCompra(int id)
         {
-            return datCompra.Instancia.ListarCompra(id);
+            return CompraService.ListarCompra(id);
         }
-        public List<entCompra> ListartodasLasCompras()
+        public List<EntCompra> ListartodasLasCompras()
         {
-            return datCompra.Instancia.ListarTodasLasCompras();
+            return CompraService.ListarTodasLasCompras();
         }
         public bool EliminarCompra(int comp)
         {
-            return datCompra.Instancia.EliminarCompra(comp);
+            return CompraService.EliminarCompra(comp);
         }
-        //public int DevolverID(string tipo)
-        //{
-        //    return datCompra.Instancia.GenerarID(tipo);
-        //}
-        public List<entCompra> BuscarCompra(string busqueda)
+  
+        public List<EntCompra> BuscarCompra(string busqueda)
         {
-            return datCompra.Instancia.BuscarCompra(busqueda);
+            return CompraService.BuscarCompra(busqueda);
         }
     }
 }

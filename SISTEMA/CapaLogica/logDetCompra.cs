@@ -1,24 +1,30 @@
 ﻿using CapaAccesoDatos;
+using CapaAccesoDatos.Interfaces;
 using CapaEntidad;
 using System.Collections.Generic;
+using System.Runtime.Remoting.Messaging;
 
 namespace CapaLogica
 {
-    public class logDetCompra
+    public class LogDetCompra
     {
-        private static readonly logDetCompra _instancia = new logDetCompra();
+        private IDatDetCompra DetCompraService;
+        public LogDetCompra()
+        {
 
-        public static logDetCompra Instancia
-        {
-            get { return _instancia; }
         }
-        public bool CrearDetCompra(entDetCompra comp)
+        public LogDetCompra(IDatDetCompra idatdetcompra)
         {
-            return datDetCompra.Instancia.CrearDetCompra(comp);
+            DetCompraService= idatdetcompra;
         }
-        public List<entDetCompra> MostrarDetalleCompraId(int id)
+      
+        public bool CrearDetCompra(EntDetCompra comp)
         {
-            return datDetCompra.Instancia.MostrarDetalleCompraId(id);
+            return DetCompraService.CrearDetCompra(comp);
+        }
+        public List<EntDetCompra> MostrarDetalleCompraId(int id)
+        {
+            return DetCompraService.MostrarDetalleCompraId(id);
         }
 
 

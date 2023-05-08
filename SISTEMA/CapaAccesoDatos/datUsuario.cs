@@ -1,4 +1,5 @@
-﻿using CapaEntidad;
+﻿using CapaAccesoDatos.Interfaces;
+using CapaEntidad;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -7,26 +8,13 @@ using System.Windows.Forms;
 
 namespace CapaAccesoDatos
 {
-    public interface IdatUsuario
+  
+    public class DatUsuario: IDatUsuario
     {
-        bool CrearCliente(entUsuario Cli);
-        List<entUsuario> ListarCliente();
-        List<entUsuario> BuscarCliente(string busqueda);
-        bool EditarCliente(entUsuario u);
-        entUsuario IniciarSesion(string campo, string contra);
-    }
-    public class datUsuario: IdatUsuario
-    {
-        private static readonly datUsuario _instacia = new datUsuario();
-
-        public static datUsuario Instacia
-        {
-            get { return _instacia; }
-        }
        
         #region Clientes
         //Crear
-        public bool CrearCliente(entUsuario Cli)
+        public bool CrearCliente(EntUsuario Cli)
         {
             SqlCommand cmd = null;
             bool creado = false;
@@ -53,10 +41,10 @@ namespace CapaAccesoDatos
             }
             return creado;
         }
-        public List<entUsuario> ListarCliente()
+        public List<EntUsuario> ListarCliente()
         {
             SqlCommand cmd = null;
-            List<entUsuario> lista = new List<entUsuario>();
+            List<EntUsuario> lista = new List<EntUsuario>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -66,7 +54,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entUsuario Cli = new entUsuario
+                    EntUsuario Cli = new EntUsuario
                     {
                         IdUsuario = Convert.ToInt32(dr["idUsuario"]),
                         RazonSocial = dr["razonsocial"].ToString(),
@@ -99,9 +87,9 @@ namespace CapaAccesoDatos
             return lista;
         }
 
-        public List<entUsuario> BuscarCliente(string busqueda)
+        public List<EntUsuario> BuscarCliente(string busqueda)
         {
-            List<entUsuario> lista = new List<entUsuario>();
+            List<EntUsuario> lista = new List<EntUsuario>();
             SqlCommand cmd = null;
             try
             {
@@ -113,7 +101,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entUsuario Cli = new entUsuario
+                    EntUsuario Cli = new EntUsuario
                     {
                         IdUsuario = Convert.ToInt32(dr["idUsuario"]),
                         RazonSocial = dr["razonsocial"].ToString(),
@@ -144,7 +132,7 @@ namespace CapaAccesoDatos
             return lista;
         }
 
-        public bool EditarCliente(entUsuario u)
+        public bool EditarCliente(EntUsuario u)
         {
             SqlCommand cmd = null;
             bool actualiza = false;
@@ -174,12 +162,11 @@ namespace CapaAccesoDatos
 
         }
         #endregion
-
         #region Administradores
-        public List<entUsuario> ListarAdministradores()
+        public List<EntUsuario> ListarAdministradores()
         {
             SqlCommand cmd = null;
-            List<entUsuario> lista = new List<entUsuario>();
+            List<EntUsuario> lista = new List<EntUsuario>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -189,7 +176,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entUsuario Cli = new entUsuario
+                    EntUsuario Cli = new EntUsuario
                     {
                         IdUsuario = Convert.ToInt32(dr["idUsuario"]),
                         RazonSocial = dr["razonsocial"].ToString(),
@@ -222,7 +209,7 @@ namespace CapaAccesoDatos
             return lista;
         }
 
-        public bool ActualizarAdministrador(entUsuario ad)
+        public bool ActualizarAdministrador(EntUsuario ad)
         {
             SqlCommand cmd = null;
             bool actualizado = false;
@@ -257,9 +244,9 @@ namespace CapaAccesoDatos
             return actualizado;
         }
 
-        public List<entUsuario> BuscaraAdministradores(string busqueda)
+        public List<EntUsuario> BuscaraAdministradores(string busqueda)
         {
-            List<entUsuario> lista = new List<entUsuario>();
+            List<EntUsuario> lista = new List<EntUsuario>();
             SqlCommand cmd = null;
             try
             {
@@ -271,7 +258,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entUsuario Cli = new entUsuario
+                    EntUsuario Cli = new EntUsuario
                     {
                         IdUsuario = Convert.ToInt32(dr["idUsuario"]),
                         RazonSocial = dr["razonsocial"].ToString(),
@@ -302,13 +289,11 @@ namespace CapaAccesoDatos
             return lista;
         }
         #endregion
-
-
         #region COMPARTIDO
-        public entUsuario IniciarSesion(string campo, string contra)
+        public EntUsuario IniciarSesion(string campo, string contra)
         {
             SqlCommand cmd = null;
-            entUsuario c = null;
+            EntUsuario c = null;
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -321,7 +306,7 @@ namespace CapaAccesoDatos
                 {
                     if (dr.Read())
                     {
-                        c = new entUsuario
+                        c = new EntUsuario
                         {
                             IdUsuario = Convert.ToInt16(dr["idUsuario"]),
                             RazonSocial = dr["razonSocial"].ToString(),
@@ -378,10 +363,10 @@ namespace CapaAccesoDatos
             finally { cmd.Connection.Close(); }
             return eliminado;
         }
-        public entUsuario BuscarIdUsuario(int busqueda)
+        public EntUsuario BuscarIdUsuario(int busqueda)
         {
             SqlCommand cmd = null;
-            entUsuario c = new entUsuario();
+            EntUsuario c = new EntUsuario();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -420,7 +405,6 @@ namespace CapaAccesoDatos
             finally { cmd.Connection.Close(); }
             return c;
         }
-
 
         #endregion
     }

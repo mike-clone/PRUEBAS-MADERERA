@@ -15,8 +15,8 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult ListarTempProduct()
         {
-            entUsuario usuario = new entUsuario();
-            usuario = Session["Usuario"] as entUsuario;
+            EntUsuario usuario = new EntUsuario();
+            usuario = Session["Usuario"] as EntUsuario;
             return View(LogTemporaryProducts.Instancia.MostrarTemporaryProducts(usuario.IdUsuario));
         }
 
@@ -24,8 +24,8 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult ListarTempProductClient()
         {
-            entUsuario usuario = new entUsuario();
-            usuario = Session["Usuario"] as entUsuario;
+            EntUsuario usuario = new EntUsuario();
+            usuario = Session["Usuario"] as EntUsuario;
             return View(LogTemporaryProducts.Instancia.MostrarTemporaryProductsCli(usuario.IdUsuario));
         }
 
