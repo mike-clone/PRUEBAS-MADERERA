@@ -1,6 +1,6 @@
 ﻿namespace CapaEntidad
 {
-    public class entProveedor
+    public class EntProveedor
     {
         private int idProveedor;
         private string razonSocial;

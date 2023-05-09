@@ -14,7 +14,7 @@ namespace CapaAccesoDatos
         {
             get { return _instancia; }
         }
-        public bool CrearTipoProducto(entTipoProducto tip)
+        public bool CrearTipoProducto(EntTipoProducto tip)
         {
             SqlCommand cmd = null;
             bool creado = false;
@@ -43,10 +43,10 @@ namespace CapaAccesoDatos
 
         }
         //Leer
-        public List<entTipoProducto> SelectListTipoProducto()
+        public List<EntTipoProducto> SelectListTipoProducto()
         {
             SqlCommand cmd = null;
-            List<entTipoProducto> lista = new List<entTipoProducto>();
+            List<EntTipoProducto> lista = new List<EntTipoProducto>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -56,7 +56,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entTipoProducto tip = new entTipoProducto();
+                    EntTipoProducto tip = new EntTipoProducto();
                     tip.IdTipo_producto = Convert.ToInt32(dr["idTipo_Producto"]);
                     tip.Nombre = dr["nombre"].ToString();
                     lista.Add(tip);
@@ -74,10 +74,10 @@ namespace CapaAccesoDatos
             return lista;
         }
         //Actualizar
-        public List<entTipoProducto> SelectListTipoProductodat(int id)
+        public List<EntTipoProducto> SelectListTipoProductodat(int id)
         {
             SqlCommand cmd = null;
-            List<entTipoProducto> lista = new List<entTipoProducto>();
+            List<EntTipoProducto> lista = new List<EntTipoProducto>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -88,7 +88,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entTipoProducto tip = new entTipoProducto
+                    EntTipoProducto tip = new EntTipoProducto
                     {
                         IdTipo_producto = Convert.ToInt32(dr["idTipo_Producto"]),
                         Nombre = dr["nombre"].ToString()
@@ -107,7 +107,7 @@ namespace CapaAccesoDatos
             }
             return lista;
         }
-        public bool ActualizarTipoProducto(entTipoProducto tip)
+        public bool ActualizarTipoProducto(EntTipoProducto tip)
         {
             SqlCommand cmd = null;
             bool actualiza = false;

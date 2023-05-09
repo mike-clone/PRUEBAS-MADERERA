@@ -14,15 +14,15 @@ namespace CapaLogica
             get { return _instancia; }
         }
 
-        public int CrearVenta(entVenta v)
+        public int CrearVenta(EntVenta v)
         {
             return datVenta.Instancia.CrearVenta(v);
         }
-        public List<entVenta> ListarVenta(int id)
+        public List<EntVenta> ListarVenta(int id)
         {
             return datVenta.Instancia.ListarVenta(id);
         }
-        public List<entVenta> ListarTodasLasVenta()
+        public List<EntVenta> ListarTodasLasVenta()
         {
             return datVenta.Instancia.ListarTodasLasVenta();
         }

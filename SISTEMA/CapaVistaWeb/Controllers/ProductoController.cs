@@ -16,7 +16,7 @@ namespace MadereraCarocho.Controllers
         [PermisosRol(entRol.Administrador)]
         public ActionResult ListarParaComprar(string dato)//listar y buscar
         {
-            List<entProveedorProducto> lista;
+            List<EntProveedorProducto> lista;
             if (!String.IsNullOrEmpty(dato))
             {
                 lista = logProveedorProducto.Instancia.BuscarProductoParaComprar(dato);
@@ -56,7 +56,7 @@ namespace MadereraCarocho.Controllers
                     Longitud = Double.Parse(cLongitudP),
                     Diametro = Double.Parse(cdiametro),
                     PrecioVenta = Double.Parse(cPrecioVenta),
-                    Tipo = new entTipoProducto
+                    Tipo = new EntTipoProducto
                     {
                         IdTipo_producto = Convert.ToInt32(frmTipo["cTipo"])
                     },
@@ -91,7 +91,7 @@ namespace MadereraCarocho.Controllers
             p.Longitud = p.Longitud;
             p.Diametro = p.Diametro;
             p.Activo = p.Activo;
-            p.Tipo = new entTipoProducto
+            p.Tipo = new EntTipoProducto
               {
                 IdTipo_producto = Convert.ToInt32(frm["Stip"])
               };

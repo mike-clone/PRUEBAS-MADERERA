@@ -8,7 +8,7 @@
         private double longitud;
         private double diametro;
         private double precioVenta;
-        private entTipoProducto tipo;
+        private EntTipoProducto tipo;
         private int stock;
         private bool activo;
         public string NombreCompleto
@@ -43,7 +43,7 @@
             get { return precioVenta; }
             set { precioVenta = value; }
         }
-        public entTipoProducto Tipo
+        public EntTipoProducto Tipo
         {
             get { return tipo; }
             set { tipo = value; }

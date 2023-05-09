@@ -14,24 +14,24 @@ namespace CapaLogica
         }
 
         #region CRUD
-        public bool CrearProveedor(entProveedor pro)
+        public bool CrearProveedor(EntProveedor pro)
         {
             return datProveedor.Instancia.CrearProveedor(pro);
         }
-        public List<entProveedor> ListarProveedor()
+        public List<EntProveedor> ListarProveedor()
         {
             return datProveedor.Instancia.ListarProveedor();
         }
-        public List<entProveedor> SelectListProveedor()
+        public List<EntProveedor> SelectListProveedor()
         {
             return datProveedor.Instancia.SelectListProveedor();
         }
-        public List<entProveedor> SelectListProveedordat(int id)
+        public List<EntProveedor> SelectListProveedordat(int id)
         {
             
             return datProveedor.Instancia.SelectListProveedordat(id);
         }
-        public bool ActualizarProveedor(entProveedor pro)
+        public bool ActualizarProveedor(EntProveedor pro)
         {
             return datProveedor.Instancia.ActualizarProveedor(pro);
         }
@@ -41,11 +41,11 @@ namespace CapaLogica
         }
         #endregion CRUD
 
-        public List<entProveedor> BuscarProveedor(string busqueda)
+        public List<EntProveedor> BuscarProveedor(string busqueda)
         {
             return datProveedor.Instancia.BuscarProveedor(busqueda);
         }
-        public entProveedor BuscarIdProveedor(int idProveedor)
+        public EntProveedor BuscarIdProveedor(int idProveedor)
         {
             return datProveedor.Instancia.BuscarIdProveedor(idProveedor);
         }

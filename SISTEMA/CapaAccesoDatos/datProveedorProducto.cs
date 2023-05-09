@@ -17,7 +17,7 @@ namespace CapaAccesoDatos
         }
 
       
-        public bool CrearProveedorProducto(entProveedorProducto prod)
+        public bool CrearProveedorProducto(EntProveedorProducto prod)
         {
             SqlCommand cmd = null;
             bool crear = false;
@@ -46,10 +46,10 @@ namespace CapaAccesoDatos
             return crear;
         }
 
-        public List<entProveedorProducto> ListarProductoParaComprar()
+        public List<EntProveedorProducto> ListarProductoParaComprar()
         {
             SqlCommand cmd = null;
-            List<entProveedorProducto> lista = new List<entProveedorProducto>();
+            List<EntProveedorProducto> lista = new List<EntProveedorProducto>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -61,7 +61,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProveedorProducto Prod = new entProveedorProducto
+                    EntProveedorProducto Prod = new EntProveedorProducto
                     {
 
                         Producto = new EntProducto
@@ -74,13 +74,13 @@ namespace CapaAccesoDatos
                             PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
                             Activo = Convert.ToBoolean(dr["Activo"]),
 
-                            Tipo = new entTipoProducto
+                            Tipo = new EntTipoProducto
                             {
                                 Nombre = dr["tipo"].ToString()
 
                             }
                         },
-                        Proveedor = new entProveedor
+                        Proveedor = new EntProveedor
                         {
                             IdProveedor = Convert.ToInt32(dr["idProveedor"]),
                             RazonSocial = dr["razonsocial"].ToString()
@@ -103,10 +103,10 @@ namespace CapaAccesoDatos
         }
 
   
-        public List<entProveedorProducto> MostarDetalleProveedorId(int idProveedor)
+        public List<EntProveedorProducto> MostarDetalleProveedorId(int idProveedor)
         {
             SqlCommand cmd = null;
-            List<entProveedorProducto> list = new List<entProveedorProducto>();
+            List<EntProveedorProducto> list = new List<EntProveedorProducto>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -117,9 +117,9 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProveedorProducto det = new entProveedorProducto
+                    EntProveedorProducto det = new EntProveedorProducto
                     {
-                        Proveedor = new entProveedor
+                        Proveedor = new EntProveedor
                         {
                             IdProveedor = Convert.ToInt32(dr["idProveedor"]),
                             RazonSocial = dr["razonSocial"].ToString(),
@@ -176,9 +176,9 @@ namespace CapaAccesoDatos
 
         }
 
-        public List<entProveedorProducto> BuscarProductoParaComprar(string busqueda)
+        public List<EntProveedorProducto> BuscarProductoParaComprar(string busqueda)
         {
-            List<entProveedorProducto> lista = new List<entProveedorProducto>();
+            List<EntProveedorProducto> lista = new List<EntProveedorProducto>();
             SqlCommand cmd = null;
             try
             {
@@ -190,7 +190,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProveedorProducto Prod = new entProveedorProducto
+                    EntProveedorProducto Prod = new EntProveedorProducto
                     {
                         Producto = new EntProducto
                         {
@@ -201,7 +201,7 @@ namespace CapaAccesoDatos
                             Stock = Convert.ToInt32(dr["stock"]),
                             PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
                             Activo = Convert.ToBoolean(dr["Activo"]),
-                            Tipo = new entTipoProducto
+                            Tipo = new EntTipoProducto
                             {
                                 Nombre = dr["tipo"].ToString()
                             },
@@ -210,7 +210,7 @@ namespace CapaAccesoDatos
 
                     if (dr["razonsocial"] != DBNull.Value)
                     {
-                        Prod.Proveedor = new entProveedor
+                        Prod.Proveedor = new EntProveedor
                         {
                             IdProveedor = Convert.ToInt32(dr["idProveedor"]),
                             RazonSocial = dr["razonsocial"].ToString()
@@ -233,10 +233,10 @@ namespace CapaAccesoDatos
             return lista;
         }
 
-        public entProveedorProducto BuscarProvedorProductoId(int idprod, int idprov)
+        public EntProveedorProducto BuscarProvedorProductoId(int idprod, int idprov)
         {
             SqlCommand cmd = null;
-            entProveedorProducto Prod = new entProveedorProducto();
+            EntProveedorProducto Prod = new EntProveedorProducto();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -258,7 +258,7 @@ namespace CapaAccesoDatos
                         Diametro = Convert.ToDouble(dr["diametro"]),
                         PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
                         Activo = Convert.ToBoolean(dr["Activo"]),
-                        Tipo = new entTipoProducto
+                        Tipo = new EntTipoProducto
                         {
                             IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]),
                             Nombre = dr["tipo"].ToString()
@@ -268,7 +268,7 @@ namespace CapaAccesoDatos
 
                     if (dr["razonsocial"] != DBNull.Value)
                     {
-                        Prod.Proveedor = new entProveedor
+                        Prod.Proveedor = new EntProveedor
                         {
                             IdProveedor = Convert.ToInt32(dr["idProveedor"]),
                             RazonSocial = dr["razonsocial"].ToString()

@@ -10,7 +10,7 @@ namespace CapaAccesoDatos
 {
     public class datDetVenta
     {
-        private List<entDetVenta> detalle = new List<entDetVenta>();
+        private List<EntDetVenta> detalle = new List<EntDetVenta>();
         private static readonly datDetVenta _instancia = new datDetVenta();
         public static datDetVenta Instancia
         {
@@ -18,7 +18,7 @@ namespace CapaAccesoDatos
         }
 
         //Crear
-        public bool CrearDetVenta(entDetVenta Det)
+        public bool CrearDetVenta(EntDetVenta Det)
         {
             SqlCommand cmd = null;
             bool creado = false;
@@ -51,10 +51,10 @@ namespace CapaAccesoDatos
 
        
 
-        public List<entDetVenta> Mostrardetventa(int idVenta)
+        public List<EntDetVenta> Mostrardetventa(int idVenta)
         {
             SqlCommand cmd = null;
-            List<entDetVenta> list = new List<entDetVenta>();
+            List<EntDetVenta> list = new List<EntDetVenta>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -65,9 +65,9 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entDetVenta det = new entDetVenta
+                    EntDetVenta det = new EntDetVenta
                     {
-                        Venta=new entVenta
+                        Venta=new EntVenta
                         {
                             IdVenta= Convert.ToInt32(dr["idVenta"])
                         },
@@ -78,7 +78,7 @@ namespace CapaAccesoDatos
                             Diametro = Convert.ToDouble(dr["diametro"]),
                             PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
                             
-                            Tipo = new entTipoProducto
+                            Tipo = new EntTipoProducto
                             {
                                 Nombre = dr["tipo"].ToString()
                             }

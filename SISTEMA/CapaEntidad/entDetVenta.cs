@@ -2,16 +2,16 @@
 
 namespace CapaEntidad
 {
-    public class entDetVenta
+    public class EntDetVenta
     {
-        private entVenta venta;
+        private EntVenta venta;
         private EntProducto producto;
         private int cantidad;
         private double subTotal;
 
 
         #region Get and Set
-        public entVenta Venta
+        public EntVenta Venta
         {
             get { return venta; }
             set { venta = value; }

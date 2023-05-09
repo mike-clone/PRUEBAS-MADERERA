@@ -13,19 +13,19 @@ namespace CapaLogica
             get { return _instancia; }
         }
         #region CRUD
-        public bool CrearTipoProducto(entTipoProducto tipoProducto)
+        public bool CrearTipoProducto(EntTipoProducto tipoProducto)
         {
             return datTipoProducto.Instancia.CrearTipoProducto(tipoProducto);
         }
-        public List<entTipoProducto> SelectListTipoProducto()
+        public List<EntTipoProducto> SelectListTipoProducto()
         {
             return datTipoProducto.Instancia.SelectListTipoProducto();
         }
-        public List<entTipoProducto> SelectListTipoProductodat(int id)
+        public List<EntTipoProducto> SelectListTipoProductodat(int id)
         {
             return datTipoProducto.Instancia.SelectListTipoProductodat(id);
         }
-        public bool ActualizarTipoProducto(entTipoProducto tipoProducto)
+        public bool ActualizarTipoProducto(EntTipoProducto tipoProducto)
         {
             return datTipoProducto.Instancia.ActualizarTipoProducto(tipoProducto);
         }

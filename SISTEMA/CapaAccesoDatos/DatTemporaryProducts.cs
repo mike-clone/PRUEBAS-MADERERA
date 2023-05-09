@@ -98,9 +98,9 @@ namespace CapaAccesoDatos
                     EntTemporaryProducts temp = new EntTemporaryProducts
                     {
                         IdTemp = Convert.ToInt32(dr["idtemp"]),
-                        ProveedorProducto=new entProveedorProducto
+                        ProveedorProducto=new EntProveedorProducto
                         {
-                            Proveedor = new entProveedor
+                            Proveedor = new EntProveedor
                             {   
                                 IdProveedor = Convert.ToInt32(dr["idProveedor"]),
                                 RazonSocial = dr["razonSocial"].ToString(),
@@ -113,7 +113,7 @@ namespace CapaAccesoDatos
                                 Longitud = Convert.ToDouble(dr["longitud"]),
                                 Diametro = Convert.ToDouble(dr["diametro"]),
                                 PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
-                                Tipo = new entTipoProducto
+                                Tipo = new EntTipoProducto
                                 {
                                     Nombre = dr["tipo"].ToString()
                                 }
@@ -156,7 +156,7 @@ namespace CapaAccesoDatos
                     EntTemporaryProducts temp = new EntTemporaryProducts
                     {
                         IdTemp = Convert.ToInt32(dr["idtemp"]),
-                        ProveedorProducto = new entProveedorProducto
+                        ProveedorProducto = new EntProveedorProducto
                         {
                             Producto = new EntProducto
                             {
@@ -165,7 +165,7 @@ namespace CapaAccesoDatos
                                 Longitud = Convert.ToDouble(dr["longitud"]),
                                 Diametro = Convert.ToDouble(dr["diametro"]),
                                 PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
-                                Tipo = new entTipoProducto
+                                Tipo = new EntTipoProducto
                                 {
                                     Nombre = dr["tipo"].ToString()
                                 }
@@ -269,9 +269,9 @@ namespace CapaAccesoDatos
                 while (dr.Read())
                 {
                     temp.IdTemp = Convert.ToInt32(dr["idtemp"]);
-                    temp.ProveedorProducto = new entProveedorProducto
+                    temp.ProveedorProducto = new EntProveedorProducto
                     {
-                        Proveedor = new entProveedor
+                        Proveedor = new EntProveedor
                         {
                             IdProveedor = Convert.ToInt32(dr["idProveedor"]),
                             RazonSocial = dr["razonSocial"].ToString(),
@@ -282,7 +282,7 @@ namespace CapaAccesoDatos
                             Nombre = dr["nombre"].ToString(),
                             Longitud = Convert.ToDouble(dr["longitud"]),
                             Diametro = Convert.ToDouble(dr["diametro"]),
-                            Tipo = new entTipoProducto
+                            Tipo = new EntTipoProducto
                             {
                                 IdTipo_producto= Convert.ToInt32(dr["idTipo_Producto"]),
                                 Nombre = dr["tipo"].ToString()
@@ -324,9 +324,9 @@ namespace CapaAccesoDatos
                 while (dr.Read())
                 {
                     temp.IdTemp = Convert.ToInt32(dr["idtemp"]);
-                    temp.ProveedorProducto = new entProveedorProducto
+                    temp.ProveedorProducto = new EntProveedorProducto
                     {
-                        Proveedor = new entProveedor
+                        Proveedor = new EntProveedor
                         {
                             IdProveedor = Convert.ToInt32(dr["idProveedor"]),
                             RazonSocial = dr["razonSocial"].ToString(),
@@ -337,7 +337,7 @@ namespace CapaAccesoDatos
                             Nombre = dr["nombre"].ToString(),
                             Longitud = Convert.ToDouble(dr["longitud"]),
                             Diametro = Convert.ToDouble(dr["diametro"]),
-                            Tipo = new entTipoProducto
+                            Tipo = new EntTipoProducto
                             {
                                 IdTipo_producto = Convert.ToInt32(dr["idTipo_Producto"]),
                                 Nombre = dr["tipo"].ToString()

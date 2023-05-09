@@ -14,7 +14,7 @@ namespace MadereraCarocho.Controllers
 
         public ActionResult Listar(string dato)//listar y buscar 
         {
-            List<entProveedor> lista;
+            List<EntProveedor> lista;
             if (!string.IsNullOrEmpty(dato))
             {
                 lista = logProveedor.Instancia.BuscarProveedor(dato);
@@ -35,7 +35,7 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                entProveedor p = new entProveedor
+                EntProveedor p = new EntProveedor
                 {
                     RazonSocial = uNombre,
                     Ruc = uRuc,
@@ -67,7 +67,7 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult EditarProveedor(int idprov)
         {
-            entProveedor prov = logProveedor.Instancia.BuscarIdProveedor(idprov);
+            EntProveedor prov = logProveedor.Instancia.BuscarIdProveedor(idprov);
 
             List<EntUbigeo> listaUbigeo = LogUbigeo.Instancia.ListarDistrito();
             var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
@@ -77,7 +77,7 @@ namespace MadereraCarocho.Controllers
         }
 
         [HttpPost]
-        public ActionResult EditarProveedor(entProveedor p, FormCollection frm)
+        public ActionResult EditarProveedor(EntProveedor p, FormCollection frm)
         {
             p.Ubigeo = new EntUbigeo
             {
@@ -137,9 +137,9 @@ namespace MadereraCarocho.Controllers
         [HttpPost]
         public ActionResult ElegirProductos(int proveedor, double precio, FormCollection frm)
         {
-            entProveedorProducto PP = new entProveedorProducto
+            EntProveedorProducto PP = new EntProveedorProducto
             {
-                Proveedor = new entProveedor
+                Proveedor = new EntProveedor
                 {
                     IdProveedor = proveedor,
                 },

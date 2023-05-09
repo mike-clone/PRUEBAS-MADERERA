@@ -2,7 +2,7 @@
 
 namespace CapaEntidad
 {
-    public class entVenta
+    public class EntVenta
     {
         private int idVenta;
         private DateTime fecha;

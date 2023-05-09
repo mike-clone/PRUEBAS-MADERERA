@@ -42,7 +42,7 @@ namespace MadereraCarocho.Controllers
                     total += list[i].Subtotal;
                 }
                 
-                entVenta venta = new entVenta
+                EntVenta venta = new EntVenta
                 {
                     Cliente = usuario,
                     Total = total
@@ -51,7 +51,7 @@ namespace MadereraCarocho.Controllers
                 int idVenta = logVenta.Instancia.CrearVenta(venta);
                 venta.IdVenta = idVenta;
 
-                entDetVenta det = new entDetVenta();
+                EntDetVenta det = new EntDetVenta();
 
                 for (int i = 0; i < list.Count; i++)
                 {

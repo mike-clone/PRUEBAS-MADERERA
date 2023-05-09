@@ -1,6 +1,6 @@
 ﻿namespace CapaEntidad
 {
-    public class entTipoProducto
+    public class EntTipoProducto
     {
         private int idTipo_producto;
         private string nombre;

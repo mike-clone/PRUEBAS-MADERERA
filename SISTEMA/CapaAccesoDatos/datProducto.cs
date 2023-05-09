@@ -72,7 +72,7 @@ namespace CapaAccesoDatos
                         Stock = Convert.ToInt32(dr["stock"]),
                         Activo = Convert.ToBoolean(dr["Activo"]),
                         PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
-                        Tipo = new entTipoProducto
+                        Tipo = new EntTipoProducto
                         {
                             Nombre = dr["tipo"].ToString()
                         }
@@ -176,7 +176,7 @@ namespace CapaAccesoDatos
                         Stock = Convert.ToInt32(dr["stock"]),
                         Activo = Convert.ToBoolean(dr["activo"]),
                         PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
-                        Tipo = new entTipoProducto
+                        Tipo = new EntTipoProducto
                         {
                             Nombre = dr["tipo"].ToString()
                         }
@@ -221,7 +221,7 @@ namespace CapaAccesoDatos
                     Prod.Diametro = Convert.ToDouble(dr["diametro"]);
                     Prod.PrecioVenta = Convert.ToDouble(dr["precioVenta"]);
                     Prod.Activo = Convert.ToBoolean(dr["Activo"]);
-                    Prod.Tipo = new entTipoProducto
+                    Prod.Tipo = new EntTipoProducto
                     {
                         IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]),
                         Nombre = dr["tipo"].ToString()
@@ -240,9 +240,9 @@ namespace CapaAccesoDatos
         }
 
         #region SIN REVISAR
-        public List<entProveedorProducto> Ordenar(int dato)
+        public List<EntProveedorProducto> Ordenar(int dato)
         {
-            List<entProveedorProducto> lista = new List<entProveedorProducto>();
+            List<EntProveedorProducto> lista = new List<EntProveedorProducto>();
             SqlCommand cmd = null;
             try
             {
@@ -256,7 +256,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProveedorProducto Prod = new entProveedorProducto
+                    EntProveedorProducto Prod = new EntProveedorProducto
                     {
                         PrecioCompra = Convert.ToDouble(dr["precioCompra"]),
 
@@ -267,7 +267,7 @@ namespace CapaAccesoDatos
                             Longitud = Convert.ToDouble(dr["longitud"]),
                             PrecioVenta = Convert.ToDouble(dr["precioVenta"]),
                             Stock = Convert.ToInt32(dr["stock"]),
-                            Tipo = new entTipoProducto
+                            Tipo = new EntTipoProducto
                             {
                                 IdTipo_producto = Convert.ToInt32(dr["idTipo_producto"]),
                                 Nombre = dr["tipo"].ToString()

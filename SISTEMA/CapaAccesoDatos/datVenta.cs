@@ -15,7 +15,7 @@ namespace CapaAccesoDatos
             get { return _instancia; }
         }
         //Crear
-        public int CrearVenta(entVenta venta)
+        public int CrearVenta(EntVenta venta)
         {
             SqlCommand cmd = null;
             int idVenta = -1;
@@ -54,10 +54,10 @@ namespace CapaAccesoDatos
             return idVenta;
         }
         //Leer
-        public List<entVenta> ListarVenta(int id)
+        public List<EntVenta> ListarVenta(int id)
         {
             SqlCommand cmd = null;
-            List<entVenta> lista = new List<entVenta>();
+            List<EntVenta> lista = new List<EntVenta>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -68,7 +68,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entVenta ven = new entVenta
+                    EntVenta ven = new EntVenta
                     {
                         IdVenta = Convert.ToInt32(dr["idVenta"]),
                         Fecha = Convert.ToDateTime(dr["fecha"]),
@@ -94,10 +94,10 @@ namespace CapaAccesoDatos
             return lista;
         }
 
-        public List<entVenta> ListarTodasLasVenta()
+        public List<EntVenta> ListarTodasLasVenta()
         {
             SqlCommand cmd = null;
-            List<entVenta> lista = new List<entVenta>();
+            List<EntVenta> lista = new List<EntVenta>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -107,7 +107,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entVenta ven = new entVenta
+                    EntVenta ven = new EntVenta
                     {
                         IdVenta = Convert.ToInt32(dr["idVenta"]),
                         Fecha = Convert.ToDateTime(dr["fecha"]),

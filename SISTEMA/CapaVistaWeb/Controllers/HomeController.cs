@@ -205,7 +205,7 @@ namespace MadereraCarocho.Controllers
             var prod = Productoservice.BuscarProductoId(idprod);
             EntTemporaryProducts temporaryProducts = new EntTemporaryProducts
             {
-                ProveedorProducto = new entProveedorProducto
+                ProveedorProducto = new EntProveedorProducto
                 {
                     Producto = prod,
                 },

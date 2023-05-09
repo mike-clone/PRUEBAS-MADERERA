@@ -46,16 +46,16 @@
     <Compile Include="EntUsuario.cs" />
     <Compile Include="EntCompra.cs" />
     <Compile Include="EntDetCompra.cs" />
-    <Compile Include="entDetVenta.cs" />
+    <Compile Include="EntDetVenta.cs" />
     <Compile Include="EntProducto.cs" />
-    <Compile Include="entProveedor.cs" />
-    <Compile Include="entProveedorProducto.cs" />
+    <Compile Include="EntProveedor.cs" />
+    <Compile Include="EntProveedorProducto.cs" />
     <Compile Include="entReporteCompra.cs" />
     <Compile Include="entReporteVenta.cs" />
     <Compile Include="entRol.cs" />
-    <Compile Include="entTipoProducto.cs" />
+    <Compile Include="EntTipoProducto.cs" />
     <Compile Include="EntUbigeo.cs" />
-    <Compile Include="entVenta.cs" />
+    <Compile Include="EntVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

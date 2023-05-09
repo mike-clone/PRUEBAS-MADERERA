@@ -15,6 +15,6 @@ namespace CapaAccesoDatos.Interfaces
         bool EliminarProducto(int id);
         List<EntProducto> BuscarProducto(string busqueda);
         EntProducto BuscarProductoId(int idprod);
-        List<entProveedorProducto> Ordenar(int dato);
+        List<EntProveedorProducto> Ordenar(int dato);
     }
 }

@@ -17,7 +17,7 @@ namespace CapaAccesoDatos
 
 
         //Crear
-        public bool CrearProveedor(entProveedor pro)
+        public bool CrearProveedor(EntProveedor pro)
         {
             SqlCommand cmd = null;
             bool creado = false;
@@ -52,10 +52,10 @@ namespace CapaAccesoDatos
             return creado;
         }
         //Leer
-        public List<entProveedor> ListarProveedor()
+        public List<EntProveedor> ListarProveedor()
         {
             SqlCommand cmd = null;
-            List<entProveedor> list = new List<entProveedor>();
+            List<EntProveedor> list = new List<EntProveedor>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -67,7 +67,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProveedor pro = new entProveedor
+                    EntProveedor pro = new EntProveedor
                     {
                         IdProveedor = Convert.ToInt32(dr["idProveedor"]),
                         RazonSocial = dr["razonSocial"].ToString(),
@@ -101,10 +101,10 @@ namespace CapaAccesoDatos
             return list;
         }
         //Actualizar
-        public List<entProveedor> SelectListProveedor()
+        public List<EntProveedor> SelectListProveedor()
         {
             SqlCommand cmd = null;
-            var list = new List<entProveedor>();
+            var list = new List<EntProveedor>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -116,7 +116,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProveedor pro = new entProveedor
+                    EntProveedor pro = new EntProveedor
                     {
                         IdProveedor = Convert.ToInt32(dr["idProveedor"]),
                         RazonSocial = dr["razonSocial"].ToString(),
@@ -138,7 +138,7 @@ namespace CapaAccesoDatos
 
         }
         
-        public bool ActualizarProveedor(entProveedor pro)
+        public bool ActualizarProveedor(EntProveedor pro)
         {
             SqlCommand cmd = null;
             bool actualizado = false;
@@ -205,10 +205,10 @@ namespace CapaAccesoDatos
             return eliminado;
         }
 
-        public List<entProveedor> SelectListProveedordat(int idprov)
+        public List<EntProveedor> SelectListProveedordat(int idprov)
         {
             SqlCommand cmd = null;
-            var list = new List<entProveedor>();
+            var list = new List<EntProveedor>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -221,7 +221,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProveedor pro = new entProveedor
+                    EntProveedor pro = new EntProveedor
                     {
                         IdProveedor = Convert.ToInt32(dr["idProveedor"]),
                         RazonSocial = dr["razonSocial"].ToString(),
@@ -243,9 +243,9 @@ namespace CapaAccesoDatos
 
         }
 
-        public List<entProveedor> BuscarProveedor(string busqueda)
+        public List<EntProveedor> BuscarProveedor(string busqueda)
         {
-            List<entProveedor> list = new List<entProveedor>();
+            List<EntProveedor> list = new List<EntProveedor>();
             SqlCommand cmd = null;
             try
             {
@@ -257,7 +257,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entProveedor pro = new entProveedor
+                    EntProveedor pro = new EntProveedor
                     {
                         IdProveedor = Convert.ToInt32(dr["idProveedor"]),
                         RazonSocial = dr["razonSocial"].ToString(),
@@ -287,10 +287,10 @@ namespace CapaAccesoDatos
             }
             return list;
         }
-        public entProveedor BuscarIdProveedor(int idProveedor)
+        public EntProveedor BuscarIdProveedor(int idProveedor)
         {
             SqlCommand cmd = null;
-            entProveedor pro = new entProveedor();
+            EntProveedor pro = new EntProveedor();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();

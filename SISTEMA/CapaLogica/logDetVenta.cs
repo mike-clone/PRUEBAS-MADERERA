@@ -12,14 +12,14 @@ namespace CapaLogica
             get { return _instancia; }
         }
 
-        public bool CrearDetVenta(entDetVenta det)
+        public bool CrearDetVenta(EntDetVenta det)
         {
             return datDetVenta.Instancia.CrearDetVenta(det);
         }
        
         //Carrito compras
       
-        public List<entDetVenta> Mostrardetventa(int idVenta)
+        public List<EntDetVenta> Mostrardetventa(int idVenta)
         {
             return datDetVenta.Instancia.Mostrardetventa(idVenta);
         }
