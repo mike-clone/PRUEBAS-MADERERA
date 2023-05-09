@@ -1,40 +1,53 @@
 ﻿using CapaAccesoDatos;
+using CapaAccesoDatos.Interfaces;
 using CapaEntidad;
 using System.Collections.Generic;
 namespace CapaLogica
 {
 
-    public class logUbigeo
+    public class LogUbigeo
     {
-        private static readonly logUbigeo _instancia = new logUbigeo();
-        public static logUbigeo Instancia
+        private static readonly LogUbigeo _instancia = new LogUbigeo();
+        public static LogUbigeo Instancia
         {
             get { return _instancia; }
         }
 
-        public bool CrearUbigeo(entUbigeo u)
+        private IDatUbigeo UbigeoService;
+
+        public LogUbigeo()
         {
-            return datUbigeo.Instancia.CrearUbigeo(u);
+            
         }
-        public List<entUbigeo> ListarUbigeo()
+
+        public LogUbigeo(IDatUbigeo IUbigeo)
         {
-            return datUbigeo.Instancia.ListarUbigeo();
+            UbigeoService = IUbigeo;
         }
-        public bool ActualizarUbigeo(entUbigeo u)
+
+        public bool CrearUbigeo(EntUbigeo u)
         {
-            return datUbigeo.Instancia.ActualizarUbigeo(u);
+            return UbigeoService.CrearUbigeo(u);
+        }
+        public List<EntUbigeo> ListarUbigeo()
+        {
+            return UbigeoService.ListarUbigeo();
+        }
+        public bool ActualizarUbigeo(EntUbigeo u)
+        {
+            return UbigeoService.ActualizarUbigeo(u);
         }
         public bool EliminarUbigeo(int id)
         {
-            return datUbigeo.Instancia.EliminarUbigeo(id);
+            return UbigeoService.EliminarUbigeo(id);
         }
-        public List<entUbigeo> ListarDistrito()
+        public List<EntUbigeo> ListarDistrito()
         {
-            return datUbigeo.Instancia.ListarDistrito();
+            return UbigeoService.ListarDistrito();
         }
-        public List<entUbigeo> BuscarUbigeo(string busqueda)
+        public List<EntUbigeo> BuscarUbigeo(string busqueda)
         {
-            return datUbigeo.Instancia.BuscarUbigeo(busqueda);
+            return UbigeoService.BuscarUbigeo(busqueda);
         }
 
     }

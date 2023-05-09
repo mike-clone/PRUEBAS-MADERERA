@@ -17,11 +17,13 @@ namespace MadereraCarocho.Controllers
     {
         LogUsuario Usuarioservice;
         LogProducto Productoservice;
+        LogUbigeo Ubigeoservice;
 
         public HomeController()
         {
             Usuarioservice = new LogUsuario(new DatUsuario());
             Productoservice = new LogProducto(new DatProducto());
+            Ubigeoservice = new LogUbigeo(new DatUbigeo());
         }
         #region PUBLICA
         public ActionResult Index(string dato)
@@ -50,7 +52,7 @@ namespace MadereraCarocho.Controllers
         }
         public ActionResult Registro()
         {
-            List<entUbigeo> listaUbigeo = logUbigeo.Instancia.ListarDistrito();
+            List<EntUbigeo> listaUbigeo = Ubigeoservice.ListarDistrito();
             var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
             ViewBag.listaUbigeo = lsUbigeo;
             return View();
@@ -112,7 +114,7 @@ namespace MadereraCarocho.Controllers
                         {
                             IdRoll = 2
                         },
-                        Ubigeo = new entUbigeo
+                        Ubigeo = new EntUbigeo
                         {
                             IdUbigeo = ubi["ubigeo"].ToString()
                         }
@@ -158,7 +160,7 @@ namespace MadereraCarocho.Controllers
         public ActionResult EditarDatosCliente()
         {
             var usuario = Session["Usuario"] as EntUsuario;
-            ViewBag.listaUbigeo = new SelectList(logUbigeo.Instancia.ListarDistrito(), "idUbigeo", "distrito");
+            ViewBag.listaUbigeo = new SelectList(Ubigeoservice.ListarDistrito(), "idUbigeo", "distrito");
             ViewBag.Ubigeo = usuario.Ubigeo.Distrito;
             return View(usuario);
 
@@ -170,7 +172,7 @@ namespace MadereraCarocho.Controllers
         public ActionResult EditarDatosCliente(EntUsuario usu, FormCollection frm) //EDITA LOS DATOS
         {
 
-            usu.Ubigeo = new entUbigeo
+            usu.Ubigeo = new EntUbigeo
             {
                 IdUbigeo = frm["Ubig"]
             };
@@ -198,7 +200,7 @@ namespace MadereraCarocho.Controllers
         public ActionResult AgregarTempPrductCliente(int idprod)
         {
             EntUsuario usuario = Session["Usuario"] as EntUsuario;
-            var prod = LogProducto.Instancia.BuscarProductoId(idprod);
+            var prod = Productoservice.BuscarProductoId(idprod);
             EntTemporaryProducts temporaryProducts = new EntTemporaryProducts
             {
                 ProveedorProducto = new entProveedorProducto
@@ -237,7 +239,7 @@ namespace MadereraCarocho.Controllers
         public ActionResult EditarDatosAdministrador()
         {
             var usuario = Session["Usuario"] as EntUsuario;
-            ViewBag.listaUbigeo = new SelectList(logUbigeo.Instancia.ListarDistrito(), "idUbigeo", "distrito");
+            ViewBag.listaUbigeo = new SelectList(Ubigeoservice.ListarDistrito(), "idUbigeo", "distrito");
             ViewBag.Ubigeo = usuario.Ubigeo.Distrito;
             return View(usuario);
 
@@ -249,7 +251,7 @@ namespace MadereraCarocho.Controllers
         public ActionResult EditarDatosAdministrador(EntUsuario usu, FormCollection frm) //EDITA LOS DATOS
         {
 
-            usu.Ubigeo = new entUbigeo
+            usu.Ubigeo = new EntUbigeo
             {
                 IdUbigeo = frm["Ubig"]
             };

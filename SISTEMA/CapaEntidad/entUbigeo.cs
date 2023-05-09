@@ -1,6 +1,6 @@
 ﻿namespace CapaEntidad
 {
-    public class entUbigeo
+    public class EntUbigeo
     {
         string idUbigeo;
         string departamento;

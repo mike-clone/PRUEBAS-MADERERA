@@ -57,7 +57,7 @@
     <Compile Include="logProveedorProducto.cs" />
     <Compile Include="logRoll.cs" />
     <Compile Include="logTipoProducto.cs" />
-    <Compile Include="logUbigeo.cs" />
+    <Compile Include="LogUbigeo.cs" />
     <Compile Include="logVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValidatorHelper.cs" />

@@ -1,4 +1,5 @@
-﻿using CapaEntidad;
+﻿using CapaAccesoDatos.Interfaces;
+using CapaEntidad;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -6,14 +7,14 @@ using System.Data.SqlClient;
 using System.Windows.Forms;
 namespace CapaAccesoDatos
 {
-    public class datUbigeo
+    public class DatUbigeo : IDatUbigeo
     {
-        private static readonly datUbigeo _instancia = new datUbigeo();
-        public static datUbigeo Instancia
+        private static readonly DatUbigeo _instancia = new DatUbigeo();
+        public static DatUbigeo Instancia
         {
             get { return _instancia; }
         }
-        public bool CrearUbigeo(entUbigeo ubi)
+        public bool CrearUbigeo(EntUbigeo ubi)
         {
             SqlCommand cmd = null;
             bool creado = false;
@@ -45,10 +46,10 @@ namespace CapaAccesoDatos
 
         }
         //Leer
-        public List<entUbigeo> ListarUbigeo()
+        public List<EntUbigeo> ListarUbigeo()
         {
             SqlCommand cmd = null;
-            List<entUbigeo> lista = new List<entUbigeo>();
+            List<EntUbigeo> lista = new List<EntUbigeo>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -58,7 +59,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entUbigeo ubi = new entUbigeo();
+                    EntUbigeo ubi = new EntUbigeo();
                     ubi.IdUbigeo = dr["idUbigeo"].ToString();
                     ubi.Departamento = dr["departamento"].ToString();
                     ubi.Provincia = dr["provincia"].ToString();
@@ -78,10 +79,10 @@ namespace CapaAccesoDatos
             return lista;
         }
 
-        public List<entUbigeo> ListarDistrito()
+        public List<EntUbigeo> ListarDistrito()
         {
             SqlCommand cmd = null;
-            List<entUbigeo> lista = new List<entUbigeo>();
+            List<EntUbigeo> lista = new List<EntUbigeo>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -91,7 +92,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entUbigeo ubi = new entUbigeo();
+                    EntUbigeo ubi = new EntUbigeo();
                     ubi.IdUbigeo = dr["idUbigeo"].ToString();
                     ubi.Distrito = dr["distrito"].ToString();
                     lista.Add(ubi);
@@ -109,7 +110,7 @@ namespace CapaAccesoDatos
         }
         //Actualizar
 
-        public bool ActualizarUbigeo(entUbigeo ubi)
+        public bool ActualizarUbigeo(EntUbigeo ubi)
         {
             SqlCommand cmd = null;
             bool actualiza = false;
@@ -163,9 +164,9 @@ namespace CapaAccesoDatos
             return eliminado;
         }
 
-        public List<entUbigeo> BuscarUbigeo(string busqueda)
+        public List<EntUbigeo> BuscarUbigeo(string busqueda)
         {
-            List<entUbigeo> lista = new List<entUbigeo>();
+            List<EntUbigeo> lista = new List<EntUbigeo>();
             SqlCommand cmd = null;
             try
             {
@@ -177,7 +178,7 @@ namespace CapaAccesoDatos
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    entUbigeo ubi = new entUbigeo();
+                    EntUbigeo ubi = new EntUbigeo();
                     ubi.IdUbigeo = dr["idUbigeo"].ToString();
                     ubi.Departamento = dr["departamento"].ToString();
                     ubi.Provincia = dr["provincia"].ToString();

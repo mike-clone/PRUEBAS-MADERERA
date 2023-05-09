@@ -78,7 +78,7 @@ namespace CapaAccesoDatos
                         EstProveedor = Convert.ToBoolean(dr["estProveedor"])
                     };
 
-                    entUbigeo ubi = new entUbigeo
+                    EntUbigeo ubi = new EntUbigeo
                     {
                         Departamento = dr["departamento"].ToString(),
                         Provincia = dr["provincia"].ToString(),
@@ -266,7 +266,7 @@ namespace CapaAccesoDatos
                         Telefono = dr["telefono"].ToString(),
                         Descripcion = dr["descripcion"].ToString(),
                         EstProveedor = Convert.ToBoolean(dr["estProveedor"]),
-                        Ubigeo=new entUbigeo {
+                        Ubigeo=new EntUbigeo {
                             Departamento = dr["departamento"].ToString(),
                             Provincia = dr["provincia"].ToString(),
                             Distrito = dr["distrito"].ToString()
@@ -308,7 +308,7 @@ namespace CapaAccesoDatos
                     pro.Telefono = dr["telefono"].ToString();
                     pro.Descripcion = dr["descripcion"].ToString();
                     pro.EstProveedor = Convert.ToBoolean(dr["estProveedor"]);
-                    entUbigeo ubi = new entUbigeo();
+                    EntUbigeo ubi = new EntUbigeo();
                     ubi.Departamento = dr["departamento"].ToString();
                     ubi.Provincia = dr["provincia"].ToString();
                     ubi.Distrito = dr["distrito"].ToString();

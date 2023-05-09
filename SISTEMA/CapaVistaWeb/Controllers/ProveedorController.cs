@@ -24,7 +24,7 @@ namespace MadereraCarocho.Controllers
                 lista = logProveedor.Instancia.ListarProveedor();
 
             }
-            List<entUbigeo> listaUbigeo = logUbigeo.Instancia.ListarDistrito();
+            List<EntUbigeo> listaUbigeo = LogUbigeo.Instancia.ListarDistrito();
             var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
             ViewBag.listaUbigeo = lsUbigeo;
             return View(lista);
@@ -43,7 +43,7 @@ namespace MadereraCarocho.Controllers
                     Telefono = uTelefono,
                     Descripcion = uDescripcion,
                     EstProveedor = true,
-                    Ubigeo = new entUbigeo
+                    Ubigeo = new EntUbigeo
                     {
                         IdUbigeo = frm["Ubi"].ToString()
                     }
@@ -69,7 +69,7 @@ namespace MadereraCarocho.Controllers
         {
             entProveedor prov = logProveedor.Instancia.BuscarIdProveedor(idprov);
 
-            List<entUbigeo> listaUbigeo = logUbigeo.Instancia.ListarDistrito();
+            List<EntUbigeo> listaUbigeo = LogUbigeo.Instancia.ListarDistrito();
             var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
             ViewBag.listaUbigeo = lsUbigeo;
 
@@ -79,7 +79,7 @@ namespace MadereraCarocho.Controllers
         [HttpPost]
         public ActionResult EditarProveedor(entProveedor p, FormCollection frm)
         {
-            p.Ubigeo = new entUbigeo
+            p.Ubigeo = new EntUbigeo
             {
                 IdUbigeo = frm["Ubi"]
             };

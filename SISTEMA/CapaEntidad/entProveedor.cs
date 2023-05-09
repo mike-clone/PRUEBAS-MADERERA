@@ -9,7 +9,7 @@
         private string telefono;
         private string descripcion;
         private bool estProveedor;
-        private entUbigeo ubigeo;
+        private EntUbigeo ubigeo;
 
 
 
@@ -59,7 +59,7 @@
             set { estProveedor = value; }
         }
 
-        public entUbigeo Ubigeo
+        public EntUbigeo Ubigeo
         {
             get { return ubigeo; }
             set { ubigeo = value; }

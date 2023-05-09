@@ -31,7 +31,7 @@ namespace MadereraCarocho.Controllers
             {
                 lista = Usuarioservice.ListarClientes();
             }
-            List<entUbigeo> listaUbigeo = logUbigeo.Instancia.ListarDistrito();
+            List<EntUbigeo> listaUbigeo = LogUbigeo.Instancia.ListarDistrito();
             var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
 
             ViewBag.lista = lista;

@@ -65,7 +65,7 @@ namespace CapaAccesoDatos
                         Pass = dr["pass"].ToString(),
                         Activo = Convert.ToBoolean(dr["activo"])
                     };
-                    entUbigeo u = new entUbigeo
+                    EntUbigeo u = new EntUbigeo
                     {
                         Provincia = dr["provincia"].ToString(),
                     };
@@ -112,7 +112,7 @@ namespace CapaAccesoDatos
                         Pass = dr["pass"].ToString(),
                         Activo = Convert.ToBoolean(dr["activo"])
                     };
-                    entUbigeo u = new entUbigeo
+                    EntUbigeo u = new EntUbigeo
                     {
                         Provincia = dr["provincia"].ToString(),
                     };
@@ -187,7 +187,7 @@ namespace CapaAccesoDatos
                         Pass = dr["pass"].ToString(),
                         Activo = Convert.ToBoolean(dr["activo"])
                     };
-                    entUbigeo u = new entUbigeo
+                    EntUbigeo u = new EntUbigeo
                     {
                         Provincia = dr["provincia"].ToString(),
                     };
@@ -269,7 +269,7 @@ namespace CapaAccesoDatos
                         Pass = dr["pass"].ToString(),
                         Activo = Convert.ToBoolean(dr["activo"])
                     };
-                    entUbigeo u = new entUbigeo
+                    EntUbigeo u = new EntUbigeo
                     {
                         Provincia = dr["provincia"].ToString(),
                     };
@@ -317,7 +317,7 @@ namespace CapaAccesoDatos
                             Rol = (entRol)dr["idRol"],//Convertir (castearlo) a objeto de tipo entRol
                             Activo = Convert.ToBoolean(dr["activo"]),
                         };
-                        entUbigeo ubigeo = new entUbigeo
+                        EntUbigeo ubigeo = new EntUbigeo
                         {
                             Distrito = dr["distrito"].ToString()
                         };
@@ -389,7 +389,7 @@ namespace CapaAccesoDatos
                     {
                         Descripcion = dr["descripcion"].ToString(),
                     };
-                    c.Ubigeo = new entUbigeo()
+                    c.Ubigeo = new EntUbigeo()
                     {
                         Departamento = dr["departamento"].ToString(),
                         Provincia = dr["provincia"].ToString(),
