@@ -16,19 +16,21 @@ namespace MadereraCarocho.Controllers
     public class HomeController : Controller
     {
         LogUsuario Usuarioservice;
+        LogProducto Productoservice;
 
         public HomeController()
         {
             Usuarioservice = new LogUsuario(new DatUsuario());
+            Productoservice = new LogProducto(new DatProducto());
         }
         #region PUBLICA
         public ActionResult Index(string dato)
         {
             List<entProducto> lista;
             if (string.IsNullOrEmpty(dato))
-                lista = logProducto.Instancia.ListarProducto();
+                lista = Productoservice.ListarProducto();
             else
-                lista = logProducto.Instancia.BuscarProducto(dato);
+                lista = Productoservice.BuscarProducto(dato);
 
             return View(lista);
         }
@@ -142,9 +144,9 @@ namespace MadereraCarocho.Controllers
             {
                 List<entProducto> lista;
                 if (string.IsNullOrEmpty(dato))
-                    lista = logProducto.Instancia.ListarProducto();
+                    lista = Productoservice.ListarProducto();
                 else
-                    lista = logProducto.Instancia.BuscarProducto(dato);
+                    lista = Productoservice.BuscarProducto(dato);
                 return View(lista);
             }
             return RedirectToAction("Index");
@@ -196,7 +198,7 @@ namespace MadereraCarocho.Controllers
         public ActionResult AgregarTempPrductCliente(int idprod)
         {
             EntUsuario usuario = Session["Usuario"] as EntUsuario;
-            var prod = logProducto.Instancia.BuscarProductoId(idprod);
+            var prod = LogProducto.Instancia.BuscarProductoId(idprod);
             EntTemporaryProducts temporaryProducts = new EntTemporaryProducts
             {
                 ProveedorProducto = new entProveedorProducto

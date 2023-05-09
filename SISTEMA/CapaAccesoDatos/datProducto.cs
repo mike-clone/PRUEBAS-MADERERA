@@ -1,4 +1,5 @@
-﻿using CapaEntidad;
+﻿using CapaAccesoDatos.Interfaces;
+using CapaEntidad;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -7,16 +8,14 @@ using System.Windows.Forms;
 
 namespace CapaAccesoDatos
 {
-    public class datProducto
+    public class DatProducto : IDatProducto
     {
-        private static readonly datProducto _instancia = new datProducto();
-        public static datProducto Instancia
+        private static readonly DatProducto _instancia = new DatProducto();
+        public static DatProducto Instancia
         {
             get { return _instancia; }
         }
 
-
-      
         public bool CrearProducto(entProducto prod)
         {
             SqlCommand cmd = null;

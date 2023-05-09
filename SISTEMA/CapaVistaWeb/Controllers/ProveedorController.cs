@@ -124,7 +124,7 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                ViewBag.producto = new SelectList(logProducto.Instancia.ListarProducto(),"idProducto", "NombreCompleto");
+                ViewBag.producto = new SelectList(LogProducto.Instancia.ListarProducto(),"idProducto", "NombreCompleto");
                 return View(_ = logProveedorProducto.Instancia.MostrarDetalleProvedorId(idp));
             }
             catch (Exception ex)

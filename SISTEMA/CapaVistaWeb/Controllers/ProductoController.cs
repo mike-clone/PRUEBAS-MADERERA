@@ -35,9 +35,9 @@ namespace MadereraCarocho.Controllers
         {
             List<entProducto> lista;
             if(!string.IsNullOrEmpty(dato))
-                lista=logProducto.Instancia.BuscarProducto(dato);
+                lista=LogProducto.Instancia.BuscarProducto(dato);
             else
-               lista=logProducto.Instancia.ListarProducto();
+               lista=LogProducto.Instancia.ListarProducto();
 
             ViewBag.listaTipo = new SelectList(logTipoProducto.Instancia.SelectListTipoProductodat(0), "idTipo_producto", "nombre");
             return View(lista);
@@ -61,7 +61,7 @@ namespace MadereraCarocho.Controllers
                         IdTipo_producto = Convert.ToInt32(frmTipo["cTipo"])
                     },
                 };
-                logProducto.Instancia.CrearProducto(p);
+                LogProducto.Instancia.CrearProducto(p);
 
             }
             catch (Exception ex)
@@ -76,7 +76,7 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult EditarProducto(int idprod)
         {
-            var prod = logProducto.Instancia.BuscarProductoId(idprod);
+            var prod = LogProducto.Instancia.BuscarProductoId(idprod);
             ViewBag.listaTipos = new SelectList(logTipoProducto.Instancia.SelectListTipoProductodat(prod.IdProducto), "idTipo_producto", "nombre");
             return View(prod);
         }
@@ -99,7 +99,7 @@ namespace MadereraCarocho.Controllers
             try
             {
               
-                Boolean edita = logProducto.Instancia.ActualizarProducto(p);
+                Boolean edita = LogProducto.Instancia.ActualizarProducto(p);
                 if (edita)
                 {
                     return RedirectToAction("ListarProducto");
@@ -121,7 +121,7 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                bool elimina = logProducto.Instancia.EliminarProducto(idP);
+                bool elimina = LogProducto.Instancia.EliminarProducto(idP);
             }
             catch (Exception ex)
             {
