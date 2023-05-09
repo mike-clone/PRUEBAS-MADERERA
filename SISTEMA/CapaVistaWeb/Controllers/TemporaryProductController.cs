@@ -1,4 +1,5 @@
-﻿using CapaEntidad;
+﻿using CapaAccesoDatos;
+using CapaEntidad;
 using CapaLogica;
 using MadereraCarocho.Permisos;
 using System;
@@ -11,13 +12,21 @@ namespace MadereraCarocho.Controllers
     [Authorize]// No puede si es que no esta autorizado
     public class TemporaryProductController : Controller
     {
+        LogTemporaryProducts TemporaryPservice;
+
+        public TemporaryProductController()
+        {
+            TemporaryPservice = new LogTemporaryProducts(new DatTemporaryProducts());
+        }
+
+
         [PermisosRol(entRol.Administrador)]
         [HttpGet]
         public ActionResult ListarTempProduct()
         {
             EntUsuario usuario = new EntUsuario();
             usuario = Session["Usuario"] as EntUsuario;
-            return View(LogTemporaryProducts.Instancia.MostrarTemporaryProducts(usuario.IdUsuario));
+            return View(TemporaryPservice.MostrarTemporaryProducts(usuario.IdUsuario));
         }
 
         [PermisosRol(entRol.Cliente)]
@@ -26,7 +35,7 @@ namespace MadereraCarocho.Controllers
         {
             EntUsuario usuario = new EntUsuario();
             usuario = Session["Usuario"] as EntUsuario;
-            return View(LogTemporaryProducts.Instancia.MostrarTemporaryProductsCli(usuario.IdUsuario));
+            return View(TemporaryPservice.MostrarTemporaryProductsCli(usuario.IdUsuario));
         }
 
         [PermisosRol(entRol.Administrador)]
@@ -35,7 +44,7 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                bool elimina = LogTemporaryProducts.Instancia.EliminarTemporaryProducts(idtemp);
+                bool elimina = TemporaryPservice.EliminarTemporaryProducts(idtemp);
             }
             catch (Exception ex)
             {
@@ -51,7 +60,7 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                bool elimina = LogTemporaryProducts.Instancia.EliminarTemporaryProducts(idtemp);
+                bool elimina = TemporaryPservice.EliminarTemporaryProducts(idtemp);
             }
             catch (Exception ex)
             {
