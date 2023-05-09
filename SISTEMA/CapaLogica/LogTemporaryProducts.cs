@@ -1,4 +1,5 @@
 ﻿using CapaAccesoDatos;
+using CapaAccesoDatos.Interfaces;
 using CapaEntidad;
 using System.Collections.Generic;
 
@@ -13,38 +14,50 @@ namespace CapaLogica
             get { return _instance; }
         }
 
+        private IDatTemporaryProducts TemporaryService;
+
+        public LogTemporaryProducts()
+        {
+            
+        }
+
+        public LogTemporaryProducts(IDatTemporaryProducts ITemporaryP)
+        {
+            TemporaryService = ITemporaryP;
+        }
+
         public bool CreaarTemporaryProducts(EntTemporaryProducts temp)
         {
-            return DatTemporaryProducts.Instance.CreaarTemporaryProducts(temp);
+            return TemporaryService.CreaarTemporaryProducts(temp);
         }
         public bool CreaarTemporaryProductsCli(EntTemporaryProducts temp)
         {
-            return DatTemporaryProducts.Instance.CreaarTemporaryProductsCli(temp);
+            return TemporaryService.CreaarTemporaryProductsCli(temp);
         }
 
         public List<EntTemporaryProducts> MostrarTemporaryProducts(int idUsuario)
         {
-            return DatTemporaryProducts.Instance.MostrarTemporaryProducts(idUsuario);
+            return TemporaryService.MostrarTemporaryProducts(idUsuario);
         }
         public List<EntTemporaryProducts> MostrarTemporaryProductsCli(int idUsuario)
         {
-            return DatTemporaryProducts.Instance.MostrarTemporaryProductsCli(idUsuario);
+            return TemporaryService.MostrarTemporaryProductsCli(idUsuario);
         }
         public bool EliminarTemporaryProducts(int id)
         {
-            return DatTemporaryProducts.Instance.EliminarTemporaryProducts(id);
+            return TemporaryService.EliminarTemporaryProducts(id);
         }
         public bool ActualizarTemporaryProducts(EntTemporaryProducts temp)
         {
-            return DatTemporaryProducts.Instance.ActualizarTemporaryProducts(temp);
+            return TemporaryService.ActualizarTemporaryProducts(temp);
         }
         public EntTemporaryProducts BuscarTemporaryProductsId(int id)
         {
-            return DatTemporaryProducts.Instance.BuscarTemporaryProductsId(id);
+            return TemporaryService.BuscarTemporaryProductsId(id);
         }
         public EntTemporaryProducts BuscarTemporaryProductsIdCli(int id)
-        {
-            return DatTemporaryProducts.Instance.BuscarTemporaryProductsIdCli(id);
+        {   
+            return TemporaryService.BuscarTemporaryProductsIdCli(id);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using CapaEntidad;
+﻿using CapaAccesoDatos.Interfaces;
+using CapaEntidad;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -7,7 +8,7 @@ using System.Windows.Forms;
 
 namespace CapaAccesoDatos
 {
-    public class DatTemporaryProducts
+    public class DatTemporaryProducts : IDatTemporaryProducts
     {
         private static readonly DatTemporaryProducts _instance = new DatTemporaryProducts();
         public static DatTemporaryProducts Instance

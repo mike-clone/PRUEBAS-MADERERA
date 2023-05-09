@@ -18,12 +18,14 @@ namespace MadereraCarocho.Controllers
         LogUsuario Usuarioservice;
         LogProducto Productoservice;
         LogUbigeo Ubigeoservice;
+        LogTemporaryProducts TemporaryPservice;
 
         public HomeController()
         {
             Usuarioservice = new LogUsuario(new DatUsuario());
             Productoservice = new LogProducto(new DatProducto());
             Ubigeoservice = new LogUbigeo(new DatUbigeo());
+            TemporaryPservice = new LogTemporaryProducts(new DatTemporaryProducts());
         }
         #region PUBLICA
         public ActionResult Index(string dato)
@@ -213,7 +215,7 @@ namespace MadereraCarocho.Controllers
             };
             try
             {
-                LogTemporaryProducts.Instancia.CreaarTemporaryProductsCli(temporaryProducts);
+                TemporaryPservice.CreaarTemporaryProductsCli(temporaryProducts);
                 return RedirectToAction("Cliente");
             }
             catch (Exception ex)

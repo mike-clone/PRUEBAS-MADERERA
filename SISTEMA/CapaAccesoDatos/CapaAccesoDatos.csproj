@@ -60,6 +60,7 @@
     <Compile Include="Interfaces\IDatCompra.cs" />
     <Compile Include="Interfaces\IDatDetCompra.cs" />
     <Compile Include="Interfaces\IDatProducto.cs" />
+    <Compile Include="Interfaces\IDatTemporaryProducts.cs" />
     <Compile Include="Interfaces\IDatUbigeo.cs" />
     <Compile Include="Interfaces\IDatUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
