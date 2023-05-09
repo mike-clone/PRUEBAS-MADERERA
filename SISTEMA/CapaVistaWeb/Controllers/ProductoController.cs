@@ -33,7 +33,7 @@ namespace MadereraCarocho.Controllers
         [PermisosRol(entRol.Administrador)]
         public ActionResult ListarProducto( string dato)
         {
-            List<entProducto> lista;
+            List<EntProducto> lista;
             if(!string.IsNullOrEmpty(dato))
                 lista=LogProducto.Instancia.BuscarProducto(dato);
             else
@@ -50,7 +50,7 @@ namespace MadereraCarocho.Controllers
 
             try
             {
-                entProducto p = new entProducto
+                EntProducto p = new EntProducto
                 {
                     Nombre = cNombreP,
                     Longitud = Double.Parse(cLongitudP),
@@ -83,7 +83,7 @@ namespace MadereraCarocho.Controllers
 
         [PermisosRol(entRol.Administrador)]
         [HttpPost]
-        public ActionResult EditarProducto(entProducto p, FormCollection frm)
+        public ActionResult EditarProducto(EntProducto p, FormCollection frm)
         {
 
             p.IdProducto = p.IdProducto;

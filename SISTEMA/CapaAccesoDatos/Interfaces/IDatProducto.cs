@@ -9,12 +9,12 @@ namespace CapaAccesoDatos.Interfaces
 {
     public interface IDatProducto
     {
-        bool CrearProducto(entProducto prod);
-        List<entProducto> ListarProducto();
-        bool ActualizarProducto(entProducto Prod);
+        bool CrearProducto(EntProducto prod);
+        List<EntProducto> ListarProducto();
+        bool ActualizarProducto(EntProducto Prod);
         bool EliminarProducto(int id);
-        List<entProducto> BuscarProducto(string busqueda);
-        entProducto BuscarProductoId(int idprod);
+        List<EntProducto> BuscarProducto(string busqueda);
+        EntProducto BuscarProductoId(int idprod);
         List<entProveedorProducto> Ordenar(int dato);
     }
 }

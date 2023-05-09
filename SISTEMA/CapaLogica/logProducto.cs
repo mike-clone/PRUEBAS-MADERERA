@@ -28,16 +28,16 @@ namespace CapaLogica
         }
 
         #region Administrador
-        public bool CrearProducto(entProducto prod)
+        public bool CrearProducto(EntProducto prod)
         {
             bool validar= ValidatorHelper.TryValidateEntity(prod);
             return ProductoService.CrearProducto(prod);
         }
-        public List<entProducto> ListarProducto()
+        public List<EntProducto> ListarProducto()
         {
             return ProductoService.ListarProducto();
         }
-        public bool ActualizarProducto(entProducto Prod)
+        public bool ActualizarProducto(EntProducto Prod)
         {
             return ProductoService.ActualizarProducto(Prod);
         }
@@ -46,11 +46,11 @@ namespace CapaLogica
         {
             return ProductoService.EliminarProducto(id);
         }
-        public List<entProducto> BuscarProducto(string busqueda)
+        public List<EntProducto> BuscarProducto(string busqueda)
         {
             return ProductoService.BuscarProducto(busqueda);
         }
-        public entProducto BuscarProductoId(int idprod)
+        public EntProducto BuscarProductoId(int idprod)
         {
             return ProductoService.BuscarProductoId((int)idprod);
         }

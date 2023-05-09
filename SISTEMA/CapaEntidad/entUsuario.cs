@@ -8,7 +8,7 @@ namespace CapaEntidad
         private string razonSocial;
         private string telefono;
         private string direccion;
-        private entUbigeo ubigeo;
+        private EntUbigeo ubigeo;
         private DateTime fechaCreacion;
         private string correo;
         private string userName;
@@ -41,7 +41,7 @@ namespace CapaEntidad
             get { return direccion; }
             set { direccion = value; }
         }
-        public entUbigeo Ubigeo
+        public EntUbigeo Ubigeo
         {
             get { return ubigeo; }
             set { ubigeo = value; }

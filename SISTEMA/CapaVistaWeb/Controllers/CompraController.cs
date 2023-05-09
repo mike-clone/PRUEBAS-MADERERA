@@ -79,7 +79,7 @@ namespace MadereraCarocho.Controllers
                         {
                             IdProveedor = list[i].ProveedorProducto.Proveedor.IdProveedor
                         },
-                        Producto=new entProducto
+                        Producto=new EntProducto
                         {
                             IdProducto = list[i].ProveedorProducto.Producto.IdProducto
                         }

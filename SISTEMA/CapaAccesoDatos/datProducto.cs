@@ -16,7 +16,7 @@ namespace CapaAccesoDatos
             get { return _instancia; }
         }
 
-        public bool CrearProducto(entProducto prod)
+        public bool CrearProducto(EntProducto prod)
         {
             SqlCommand cmd = null;
             bool creado = false;
@@ -49,10 +49,10 @@ namespace CapaAccesoDatos
 
         }
 
-        public List<entProducto> ListarProducto()
+        public List<EntProducto> ListarProducto()
         {
             SqlCommand cmd = null;
-            List<entProducto> lista = new List<entProducto>();
+            List<EntProducto> lista = new List<EntProducto>();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -63,7 +63,7 @@ namespace CapaAccesoDatos
                 while (dr.Read())
                 {
 
-                    entProducto Prod = new entProducto
+                    EntProducto Prod = new EntProducto
                     {
                         IdProducto = Convert.ToInt32(dr["idproducto"]),
                         Nombre = dr["nombre"].ToString(),
@@ -89,7 +89,7 @@ namespace CapaAccesoDatos
             
             return lista;
         }
-        public bool ActualizarProducto(entProducto Prod)
+        public bool ActualizarProducto(EntProducto Prod)
         {
             SqlCommand cmd = null;
             bool actualiza = false;
@@ -150,9 +150,9 @@ namespace CapaAccesoDatos
             return eliminado;
         }
 
-        public List<entProducto> BuscarProducto(string busqueda)
+        public List<EntProducto> BuscarProducto(string busqueda)
         {
-            List<entProducto> lista = new List<entProducto>();
+            List<EntProducto> lista = new List<EntProducto>();
             SqlCommand cmd = null;
             try
             {
@@ -167,7 +167,7 @@ namespace CapaAccesoDatos
                 while (dr.Read())
                 {
 
-                    entProducto Prod = new entProducto
+                    EntProducto Prod = new EntProducto
                     {
                         IdProducto = Convert.ToInt32(dr["idproducto"]),
                         Nombre = dr["nombre"].ToString(),
@@ -197,10 +197,10 @@ namespace CapaAccesoDatos
             return lista;
         }
 
-        public entProducto BuscarProductoId(int idprod)
+        public EntProducto BuscarProductoId(int idprod)
         {
             SqlCommand cmd = null;
-            entProducto Prod = new entProducto();
+            EntProducto Prod = new EntProducto();
             try
             {
                 SqlConnection cn = Conexion.Instancia.Conectar();
@@ -260,7 +260,7 @@ namespace CapaAccesoDatos
                     {
                         PrecioCompra = Convert.ToDouble(dr["precioCompra"]),
 
-                        Producto = new entProducto
+                        Producto = new EntProducto
                         {
                             IdProducto = Convert.ToInt32(dr["idproducto"]),
                             Nombre = dr["nombre"].ToString(),

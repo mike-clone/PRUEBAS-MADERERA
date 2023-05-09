@@ -143,7 +143,7 @@ namespace MadereraCarocho.Controllers
                 {
                     IdProveedor = proveedor,
                 },
-                Producto = new entProducto
+                Producto = new EntProducto
                 {
                     IdProducto = Convert.ToInt32(frm["Pr"])
                 },

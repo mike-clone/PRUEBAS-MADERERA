@@ -71,7 +71,7 @@ namespace CapaAccesoDatos
                         {
                             IdVenta= Convert.ToInt32(dr["idVenta"])
                         },
-                        Producto = new entProducto
+                        Producto = new EntProducto
                         {
                             Nombre = dr["nombre"].ToString(),
                             Longitud = Convert.ToDouble(dr["longitud"]),

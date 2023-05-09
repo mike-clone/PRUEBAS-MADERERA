@@ -47,14 +47,14 @@
     <Compile Include="EntCompra.cs" />
     <Compile Include="EntDetCompra.cs" />
     <Compile Include="entDetVenta.cs" />
-    <Compile Include="entProducto.cs" />
+    <Compile Include="EntProducto.cs" />
     <Compile Include="entProveedor.cs" />
     <Compile Include="entProveedorProducto.cs" />
     <Compile Include="entReporteCompra.cs" />
     <Compile Include="entReporteVenta.cs" />
     <Compile Include="entRol.cs" />
     <Compile Include="entTipoProducto.cs" />
-    <Compile Include="entUbigeo.cs" />
+    <Compile Include="EntUbigeo.cs" />
     <Compile Include="entVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

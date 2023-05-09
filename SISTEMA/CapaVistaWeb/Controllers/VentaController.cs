@@ -56,7 +56,7 @@ namespace MadereraCarocho.Controllers
                 for (int i = 0; i < list.Count; i++)
                 {
                     det.Venta = venta;
-                    det.Producto = new entProducto
+                    det.Producto = new EntProducto
                     {
                         IdProducto = list[i].ProveedorProducto.Producto.IdProducto
                     };

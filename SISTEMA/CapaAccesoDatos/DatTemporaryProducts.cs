@@ -105,7 +105,7 @@ namespace CapaAccesoDatos
                                 RazonSocial = dr["razonSocial"].ToString(),
                                 Descripcion = dr["descripcion"].ToString()
                             },
-                            Producto = new entProducto
+                            Producto = new EntProducto
                             {
                                 IdProducto = Convert.ToInt32(dr["idProducto"]),
                                 Nombre = dr["nombre"].ToString(),
@@ -157,7 +157,7 @@ namespace CapaAccesoDatos
                         IdTemp = Convert.ToInt32(dr["idtemp"]),
                         ProveedorProducto = new entProveedorProducto
                         {
-                            Producto = new entProducto
+                            Producto = new EntProducto
                             {
                                 IdProducto = Convert.ToInt32(dr["idProducto"]),
                                 Nombre = dr["nombre"].ToString(),
@@ -276,7 +276,7 @@ namespace CapaAccesoDatos
                             RazonSocial = dr["razonSocial"].ToString(),
                             Descripcion = dr["descripcion"].ToString()
                         },
-                        Producto = new entProducto
+                        Producto = new EntProducto
                         {
                             Nombre = dr["nombre"].ToString(),
                             Longitud = Convert.ToDouble(dr["longitud"]),
@@ -331,7 +331,7 @@ namespace CapaAccesoDatos
                             RazonSocial = dr["razonSocial"].ToString(),
                             Descripcion = dr["descripcion"].ToString()
                         },
-                        Producto = new entProducto
+                        Producto = new EntProducto
                         {
                             Nombre = dr["nombre"].ToString(),
                             Longitud = Convert.ToDouble(dr["longitud"]),

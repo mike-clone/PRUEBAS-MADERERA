@@ -5,7 +5,7 @@ namespace CapaEntidad
     public class entDetVenta
     {
         private entVenta venta;
-        private entProducto producto;
+        private EntProducto producto;
         private int cantidad;
         private double subTotal;
 
@@ -16,7 +16,7 @@ namespace CapaEntidad
             get { return venta; }
             set { venta = value; }
         }
-        public entProducto Producto
+        public EntProducto Producto
         {
             get { return producto; }
             set { producto = value; }

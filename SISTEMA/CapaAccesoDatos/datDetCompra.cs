@@ -73,7 +73,7 @@ namespace CapaAccesoDatos
                                 Descripcion = dr["descripcion"].ToString(),
 
                             },
-                            Producto = new entProducto
+                            Producto = new EntProducto
                             {
                                 IdProducto = Convert.ToInt32(dr["idProducto"]),
                                 Nombre = dr["nombre"].ToString(),
