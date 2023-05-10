@@ -16,10 +16,15 @@ namespace MadereraCarocho.Controllers
     {
         LogCompra CompraService;
         LogDetCompra DetCompraService;
+        LogVenta Ventaservice;
+        LogTemporaryProducts TemporaryPservice;
+
         public CompraController()
         {
             CompraService = new LogCompra(new DatCompra());
             DetCompraService = new LogDetCompra(new DatDetCompra());
+            TemporaryPservice = new LogTemporaryProducts(new DatTemporaryProducts());
+            Ventaservice = new LogVenta(new DatVenta());
         }
     
         // GET: Compra
@@ -37,7 +42,7 @@ namespace MadereraCarocho.Controllers
 
         public ActionResult ListarTodasLasVentas()
         {
-            return View(LogVenta.Instancia.ListarTodasLasVenta());
+            return View(Ventaservice.ListarTodasLasVenta());
         }
 
         public ActionResult ConfirmarCompra()
@@ -49,7 +54,7 @@ namespace MadereraCarocho.Controllers
                 usuario = Session["Usuario"] as EntUsuario;
                 //Obtenemos los productos temprales del usuario que estan en el carrito
                 List<EntTemporaryProducts> list = new List<EntTemporaryProducts>();
-                list = LogTemporaryProducts.Instancia.MostrarTemporaryProducts(usuario.IdUsuario);
+                list = TemporaryPservice.MostrarTemporaryProducts(usuario.IdUsuario);
                 
                 //calculamos el total
                 double total = 0;

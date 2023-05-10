@@ -59,6 +59,7 @@
     <Compile Include="encrypt.cs" />
     <Compile Include="Interfaces\IDatCompra.cs" />
     <Compile Include="Interfaces\IDatDetCompra.cs" />
+    <Compile Include="Interfaces\IDatDetVenta.cs" />
     <Compile Include="Interfaces\IDatProducto.cs" />
     <Compile Include="Interfaces\IDatProveedor.cs" />
     <Compile Include="Interfaces\IDatProveedorProducto.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="Interfaces\IDatTipoProducto.cs" />
     <Compile Include="Interfaces\IDatUbigeo.cs" />
     <Compile Include="Interfaces\IDatUsuario.cs" />
+    <Compile Include="Interfaces\IDatVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
