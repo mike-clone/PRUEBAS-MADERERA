@@ -1,4 +1,5 @@
-﻿using CapaEntidad;
+﻿using CapaAccesoDatos;
+using CapaEntidad;
 using CapaLogica;
 using MadereraCarocho.Permisos;
 using System.Collections.Generic;
@@ -10,19 +11,30 @@ namespace MadereraCarocho.Controllers
     [Authorize]// No puede si es que no esta autorizado
     public class VentaController : Controller
     {
-       
+
+        LogVenta Ventaservice;
+        LogDetVenta DetVentaservice;
+        LogTemporaryProducts TemporaryPservice;
+
+        public VentaController()
+        {
+            Ventaservice = new LogVenta(new DatVenta());
+            DetVentaservice = new LogDetVenta(new DatDetVenta());
+            TemporaryPservice = new LogTemporaryProducts(new DatTemporaryProducts());
+        }
+
         [PermisosRol(entRol.Cliente)]
         public ActionResult ListarVenta()
         {
             EntUsuario usuario = new EntUsuario();
             usuario = Session["Usuario"] as EntUsuario;
-            return View(logVenta.Instancia.ListarVenta(usuario.IdUsuario));
+            return View(Ventaservice.ListarVenta(usuario.IdUsuario));
         }
 
         [PermisosRol(entRol.Cliente)]
         public ActionResult MostrarDetalle(int idv)
         {
-            return View(_ = logDetVenta.Instancia.Mostrardetventa(idv));
+            return View(_ = DetVentaservice.Mostrardetventa(idv));
         }
     
 
@@ -34,7 +46,7 @@ namespace MadereraCarocho.Controllers
                 EntUsuario usuario = new EntUsuario();
                 usuario = Session["Usuario"] as EntUsuario;
                 List<EntTemporaryProducts> list = new List<EntTemporaryProducts>();
-                list = LogTemporaryProducts.Instancia.MostrarTemporaryProductsCli(usuario.IdUsuario);
+                list = TemporaryPservice.MostrarTemporaryProductsCli(usuario.IdUsuario);
 
                 double total = 0;
                 for (int i = 0; i < list.Count(); i++)
@@ -48,7 +60,7 @@ namespace MadereraCarocho.Controllers
                     Total = total
                 };
 
-                int idVenta = logVenta.Instancia.CrearVenta(venta);
+                int idVenta = Ventaservice.CrearVenta(venta);
                 venta.IdVenta = idVenta;
 
                 EntDetVenta det = new EntDetVenta();
@@ -63,7 +75,7 @@ namespace MadereraCarocho.Controllers
                     det.Cantidad = list[i].Cantidad;
                     det.SubTotal = list[i].Subtotal;
 
-                    logDetVenta.Instancia.CrearDetVenta(det);
+                    DetVentaservice.CrearDetVenta(det);
                 }
                 return RedirectToAction("ListarVenta");
 

@@ -1,30 +1,43 @@
 ﻿using CapaAccesoDatos;
+using CapaAccesoDatos.Interfaces;
 using CapaEntidad;
 using System;
 using System.Collections.Generic;
 
 namespace CapaLogica
 {
-    public class logVenta
+    public class LogVenta
     {
-        private static readonly logVenta _instancia = new logVenta();
+        private static readonly LogVenta _instancia = new LogVenta();
 
-        public static logVenta Instancia
+        public static LogVenta Instancia
         {
             get { return _instancia; }
         }
 
+        private IDatVenta VentaService;
+
+        public LogVenta()
+        {
+            
+        }
+
+        public LogVenta(IDatVenta IVenta)
+        {
+            VentaService = IVenta;
+        }
+
         public int CrearVenta(EntVenta v)
         {
-            return datVenta.Instancia.CrearVenta(v);
+            return VentaService.CrearVenta(v);
         }
         public List<EntVenta> ListarVenta(int id)
         {
-            return datVenta.Instancia.ListarVenta(id);
+            return VentaService.ListarVenta(id);
         }
         public List<EntVenta> ListarTodasLasVenta()
         {
-            return datVenta.Instancia.ListarTodasLasVenta();
+            return VentaService.ListarTodasLasVenta();
         }
         //public List<entVenta> ListarVentaPagada(DateTime fecha)
         //{

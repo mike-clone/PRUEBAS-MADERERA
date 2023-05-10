@@ -1,4 +1,5 @@
-﻿using CapaEntidad;
+﻿using CapaAccesoDatos.Interfaces;
+using CapaEntidad;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -7,10 +8,10 @@ using System.Windows.Forms;
 
 namespace CapaAccesoDatos
 {
-    public class datVenta
+    public class DatVenta : IDatVenta
     {
-        private static readonly datVenta _instancia = new datVenta();
-        public static datVenta Instancia
+        private static readonly DatVenta _instancia = new DatVenta();
+        public static DatVenta Instancia
         {
             get { return _instancia; }
         }

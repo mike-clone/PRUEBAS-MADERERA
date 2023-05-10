@@ -47,7 +47,7 @@
     <Compile Include="DatUsuario.cs" />
     <Compile Include="DatCompra.cs" />
     <Compile Include="DatDetCompra.cs" />
-    <Compile Include="datDetVenta.cs" />
+    <Compile Include="DatDetVenta.cs" />
     <Compile Include="datGrafEst.cs" />
     <Compile Include="DatProducto.cs" />
     <Compile Include="DatProveedor.cs" />
@@ -55,7 +55,7 @@
     <Compile Include="datRoll.cs" />
     <Compile Include="DatTipoProducto.cs" />
     <Compile Include="DatUbigeo.cs" />
-    <Compile Include="datVenta.cs" />
+    <Compile Include="DatVenta.cs" />
     <Compile Include="encrypt.cs" />
     <Compile Include="Interfaces\IDatCompra.cs" />
     <Compile Include="Interfaces\IDatDetCompra.cs" />

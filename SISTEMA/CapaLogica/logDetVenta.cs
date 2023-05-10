@@ -1,27 +1,40 @@
 ﻿using CapaAccesoDatos;
+using CapaAccesoDatos.Interfaces;
 using CapaEntidad;
 using System.Collections.Generic;
 namespace CapaLogica
 {
-    public class logDetVenta
+    public class LogDetVenta
     {
-        private static readonly logDetVenta _instancia = new logDetVenta();
+        private static readonly LogDetVenta _instancia = new LogDetVenta();
 
-        public static logDetVenta Instancia
+        public static LogDetVenta Instancia
         {
             get { return _instancia; }
         }
 
+        private IDatDetVenta DetVentaService;
+
+        public LogDetVenta()
+        {
+            
+        }
+
+        public LogDetVenta(IDatDetVenta IDetVenta)
+        {
+            DetVentaService = IDetVenta;
+        }
+
         public bool CrearDetVenta(EntDetVenta det)
         {
-            return datDetVenta.Instancia.CrearDetVenta(det);
+            return DetVentaService.CrearDetVenta(det);
         }
        
         //Carrito compras
       
         public List<EntDetVenta> Mostrardetventa(int idVenta)
         {
-            return datDetVenta.Instancia.Mostrardetventa(idVenta);
+            return DetVentaService.Mostrardetventa(idVenta);
         }
        
     }

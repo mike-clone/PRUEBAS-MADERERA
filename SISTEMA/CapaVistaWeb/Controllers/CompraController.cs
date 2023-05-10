@@ -37,7 +37,7 @@ namespace MadereraCarocho.Controllers
 
         public ActionResult ListarTodasLasVentas()
         {
-            return View(logVenta.Instancia.ListarTodasLasVenta());
+            return View(LogVenta.Instancia.ListarTodasLasVenta());
         }
 
         public ActionResult ConfirmarCompra()
