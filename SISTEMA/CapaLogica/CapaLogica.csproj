@@ -53,7 +53,7 @@
     <Compile Include="LogDetCompra.cs" />
     <Compile Include="logDetVenta.cs" />
     <Compile Include="LogProducto.cs" />
-    <Compile Include="logProveedor.cs" />
+    <Compile Include="LogProveedor.cs" />
     <Compile Include="LogProveedorProducto.cs" />
     <Compile Include="logRoll.cs" />
     <Compile Include="LogTipoProducto.cs" />

@@ -50,7 +50,7 @@
     <Compile Include="datDetVenta.cs" />
     <Compile Include="datGrafEst.cs" />
     <Compile Include="DatProducto.cs" />
-    <Compile Include="datProveedor.cs" />
+    <Compile Include="DatProveedor.cs" />
     <Compile Include="DatProveedorProducto.cs" />
     <Compile Include="datRoll.cs" />
     <Compile Include="DatTipoProducto.cs" />
@@ -60,6 +60,7 @@
     <Compile Include="Interfaces\IDatCompra.cs" />
     <Compile Include="Interfaces\IDatDetCompra.cs" />
     <Compile Include="Interfaces\IDatProducto.cs" />
+    <Compile Include="Interfaces\IDatProveedor.cs" />
     <Compile Include="Interfaces\IDatProveedorProducto.cs" />
     <Compile Include="Interfaces\IDatTemporaryProducts.cs" />
     <Compile Include="Interfaces\IDatTipoProducto.cs" />

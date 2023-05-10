@@ -1,53 +1,64 @@
 ﻿using CapaAccesoDatos;
+using CapaAccesoDatos.Interfaces;
 using CapaEntidad;
 using System.Collections.Generic;
 
 namespace CapaLogica
 {
-    public class logProveedor
+    public class LogProveedor
     {
-        private static readonly logProveedor _instancia = new logProveedor();
+        private static readonly LogProveedor _instancia = new LogProveedor();
 
-        public static logProveedor Instancia
+        public static LogProveedor Instancia
         {
             get { return _instancia; }
         }
+        private IDatProveedor ProveedorService;
 
+        public LogProveedor()
+        {
+            
+        }
+
+        public LogProveedor(IDatProveedor IProveedor)
+        {
+            ProveedorService = IProveedor;
+        }
         #region CRUD
         public bool CrearProveedor(EntProveedor pro)
         {
-            return datProveedor.Instancia.CrearProveedor(pro);
+            return ProveedorService.CrearProveedor(pro);
         }
         public List<EntProveedor> ListarProveedor()
         {
-            return datProveedor.Instancia.ListarProveedor();
+            return ProveedorService.ListarProveedor();
         }
         public List<EntProveedor> SelectListProveedor()
         {
-            return datProveedor.Instancia.SelectListProveedor();
+            return ProveedorService.SelectListProveedor();
         }
         public List<EntProveedor> SelectListProveedordat(int id)
         {
             
-            return datProveedor.Instancia.SelectListProveedordat(id);
+            return ProveedorService.SelectListProveedordat(id);
         }
         public bool ActualizarProveedor(EntProveedor pro)
         {
-            return datProveedor.Instancia.ActualizarProveedor(pro);
+            return ProveedorService.ActualizarProveedor(pro);
         }
         public bool EliminarProveedor(int id)
         {
-            return datProveedor.Instancia.EliminarProveedor(id);
+            return ProveedorService.EliminarProveedor(id);
         }
         #endregion CRUD
 
         public List<EntProveedor> BuscarProveedor(string busqueda)
         {
-            return datProveedor.Instancia.BuscarProveedor(busqueda);
+            return ProveedorService.BuscarProveedor(busqueda);
         }
         public EntProveedor BuscarIdProveedor(int idProveedor)
         {
-            return datProveedor.Instancia.BuscarIdProveedor(idProveedor);
+            return ProveedorService.BuscarIdProveedor(idProveedor);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using CapaEntidad;
+﻿using CapaAccesoDatos;
+using CapaEntidad;
 using CapaLogica;
 using MadereraCarocho.Permisos;
 using System;
@@ -11,20 +12,31 @@ namespace MadereraCarocho.Controllers
     [Authorize]// No puede si es que no esta autorizado
     public class ProveedorController : Controller
     {
+        LogProducto Productoservice;
+        LogProveedorProducto ProveedorProductoservice;
+        LogUbigeo Ubigeoservice;
+        LogProveedor Proveedorservice;
 
+        public ProveedorController()
+        {
+            Productoservice = new LogProducto(new DatProducto());
+            ProveedorProductoservice = new LogProveedorProducto(new DatProveedorProducto());
+            Ubigeoservice = new LogUbigeo(new DatUbigeo());
+            Proveedorservice = new LogProveedor(new DatProveedor());
+        }
         public ActionResult Listar(string dato)//listar y buscar 
         {
             List<EntProveedor> lista;
             if (!string.IsNullOrEmpty(dato))
             {
-                lista = logProveedor.Instancia.BuscarProveedor(dato);
+                lista = Proveedorservice.BuscarProveedor(dato);
             }
             else
             {
-                lista = logProveedor.Instancia.ListarProveedor();
+                lista = Proveedorservice.ListarProveedor();
 
             }
-            List<EntUbigeo> listaUbigeo = LogUbigeo.Instancia.ListarDistrito();
+            List<EntUbigeo> listaUbigeo = Ubigeoservice.ListarDistrito();
             var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
             ViewBag.listaUbigeo = lsUbigeo;
             return View(lista);
@@ -50,7 +62,7 @@ namespace MadereraCarocho.Controllers
                 };
 
 
-                bool inserta = logProveedor.Instancia.CrearProveedor(p);
+                bool inserta = Proveedorservice.CrearProveedor(p);
                 if (inserta)
                 {
                     return RedirectToAction("Listar");
@@ -67,9 +79,9 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult EditarProveedor(int idprov)
         {
-            EntProveedor prov = logProveedor.Instancia.BuscarIdProveedor(idprov);
+            EntProveedor prov = Proveedorservice.BuscarIdProveedor(idprov);
 
-            List<EntUbigeo> listaUbigeo = LogUbigeo.Instancia.ListarDistrito();
+            List<EntUbigeo> listaUbigeo = Ubigeoservice.ListarDistrito();
             var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
             ViewBag.listaUbigeo = lsUbigeo;
 
@@ -85,7 +97,7 @@ namespace MadereraCarocho.Controllers
             };
             try
             {
-                Boolean edita = logProveedor.Instancia.ActualizarProveedor(p);
+                Boolean edita = Proveedorservice.ActualizarProveedor(p);
                 if (edita)
                 {
                     return RedirectToAction("Listar");
@@ -106,7 +118,7 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                bool elimina = logProveedor.Instancia.EliminarProveedor(idc);
+                bool elimina = Proveedorservice.EliminarProveedor(idc);
                 if (elimina)
                 {
                     return RedirectToAction("Listar");
@@ -124,8 +136,8 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                ViewBag.producto = new SelectList(LogProducto.Instancia.ListarProducto(),"idProducto", "NombreCompleto");
-                return View(_ = LogProveedorProducto.Instancia.MostrarDetalleProvedorId(idp));
+                ViewBag.producto = new SelectList(Productoservice.ListarProducto(),"idProducto", "NombreCompleto");
+                return View(_ = ProveedorProductoservice.MostrarDetalleProvedorId(idp));
             }
             catch (Exception ex)
             {
@@ -150,7 +162,7 @@ namespace MadereraCarocho.Controllers
                 PrecioCompra=precio
                 
             };
-            LogProveedorProducto.Instancia.CrearProveedorProducto(PP);
+            ProveedorProductoservice.CrearProveedorProducto(PP);
             return RedirectToAction("Listar");
         }
 
@@ -159,7 +171,7 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                bool elimina = LogProveedorProducto.Instancia.EliminarDetalleProveedor(idprov, idprod);
+                bool elimina = ProveedorProductoservice.EliminarDetalleProveedor(idprov, idprod);
             }
             catch (Exception ex)
             {
