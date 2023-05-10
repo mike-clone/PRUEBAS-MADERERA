@@ -14,9 +14,12 @@ namespace MadereraCarocho.Controllers
     public class UsuarioController : Controller
     {
         LogUsuario Usuarioservice;
+        LogUbigeo Ubigeoservice;
+
         public UsuarioController()
         {
             Usuarioservice = new LogUsuario(new DatUsuario());
+            Ubigeoservice = new LogUbigeo(new DatUbigeo());
         }
 
         #region CLIENTES
@@ -31,7 +34,7 @@ namespace MadereraCarocho.Controllers
             {
                 lista = Usuarioservice.ListarClientes();
             }
-            List<EntUbigeo> listaUbigeo = LogUbigeo.Instancia.ListarDistrito();
+            List<EntUbigeo> listaUbigeo = Ubigeoservice.ListarDistrito();
             var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
 
             ViewBag.lista = lista;
