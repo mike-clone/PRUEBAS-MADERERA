@@ -125,7 +125,7 @@ namespace MadereraCarocho.Controllers
             try
             {
                 ViewBag.producto = new SelectList(LogProducto.Instancia.ListarProducto(),"idProducto", "NombreCompleto");
-                return View(_ = logProveedorProducto.Instancia.MostrarDetalleProvedorId(idp));
+                return View(_ = LogProveedorProducto.Instancia.MostrarDetalleProvedorId(idp));
             }
             catch (Exception ex)
             {
@@ -150,7 +150,7 @@ namespace MadereraCarocho.Controllers
                 PrecioCompra=precio
                 
             };
-            logProveedorProducto.Instancia.CrearProveedorProducto(PP);
+            LogProveedorProducto.Instancia.CrearProveedorProducto(PP);
             return RedirectToAction("Listar");
         }
 
@@ -159,7 +159,7 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                bool elimina = logProveedorProducto.Instancia.EliminarDetalleProveedor(idprov, idprod);
+                bool elimina = LogProveedorProducto.Instancia.EliminarDetalleProveedor(idprov, idprod);
             }
             catch (Exception ex)
             {

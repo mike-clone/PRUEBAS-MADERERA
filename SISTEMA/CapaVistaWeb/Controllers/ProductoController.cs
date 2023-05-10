@@ -1,4 +1,5 @@
-﻿using CapaEntidad;
+﻿using CapaAccesoDatos;
+using CapaEntidad;
 using CapaLogica;
 using MadereraCarocho.Permisos;
 using System;
@@ -11,7 +12,18 @@ namespace MadereraCarocho.Controllers
     [Authorize]
     public class ProductoController : Controller
     {
+        LogProducto Productoservice;
+        LogProveedorProducto ProveedorProductoservice;
+        LogTemporaryProducts TemporaryPservice;
+        LogTipoProducto TipoProductoservice;
 
+        public ProductoController()
+        {
+            Productoservice = new LogProducto(new DatProducto());
+            TemporaryPservice = new LogTemporaryProducts(new DatTemporaryProducts());
+            ProveedorProductoservice = new LogProveedorProducto(new DatProveedorProducto());
+            TipoProductoservice = new LogTipoProducto(new DatTipoProducto());
+        }
         // GET: Producto
         [PermisosRol(entRol.Administrador)]
         public ActionResult ListarParaComprar(string dato)//listar y buscar
@@ -19,11 +31,11 @@ namespace MadereraCarocho.Controllers
             List<EntProveedorProducto> lista;
             if (!String.IsNullOrEmpty(dato))
             {
-                lista = logProveedorProducto.Instancia.BuscarProductoParaComprar(dato);
+                lista = ProveedorProductoservice.BuscarProductoParaComprar(dato);
             }
             else
             {
-                lista = logProveedorProducto.Instancia.ListarProductoParaComprar();
+                lista = ProveedorProductoservice.ListarProductoParaComprar();
             }
 
             
@@ -35,11 +47,11 @@ namespace MadereraCarocho.Controllers
         {
             List<EntProducto> lista;
             if(!string.IsNullOrEmpty(dato))
-                lista=LogProducto.Instancia.BuscarProducto(dato);
+                lista= Productoservice.BuscarProducto(dato);
             else
-               lista=LogProducto.Instancia.ListarProducto();
+               lista= Productoservice.ListarProducto();
 
-            ViewBag.listaTipo = new SelectList(logTipoProducto.Instancia.SelectListTipoProductodat(0), "idTipo_producto", "nombre");
+            ViewBag.listaTipo = new SelectList(TipoProductoservice.SelectListTipoProductodat(0), "idTipo_producto", "nombre");
             return View(lista);
         }
 
@@ -61,7 +73,7 @@ namespace MadereraCarocho.Controllers
                         IdTipo_producto = Convert.ToInt32(frmTipo["cTipo"])
                     },
                 };
-                LogProducto.Instancia.CrearProducto(p);
+                Productoservice.CrearProducto(p);
 
             }
             catch (Exception ex)
@@ -76,8 +88,8 @@ namespace MadereraCarocho.Controllers
         [HttpGet]
         public ActionResult EditarProducto(int idprod)
         {
-            var prod = LogProducto.Instancia.BuscarProductoId(idprod);
-            ViewBag.listaTipos = new SelectList(logTipoProducto.Instancia.SelectListTipoProductodat(prod.IdProducto), "idTipo_producto", "nombre");
+            var prod = Productoservice.BuscarProductoId(idprod);
+            ViewBag.listaTipos = new SelectList(TipoProductoservice.SelectListTipoProductodat(prod.IdProducto), "idTipo_producto", "nombre");
             return View(prod);
         }
 
@@ -99,7 +111,7 @@ namespace MadereraCarocho.Controllers
             try
             {
               
-                Boolean edita = LogProducto.Instancia.ActualizarProducto(p);
+                Boolean edita = Productoservice.ActualizarProducto(p);
                 if (edita)
                 {
                     return RedirectToAction("ListarProducto");
@@ -121,7 +133,7 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                bool elimina = LogProducto.Instancia.EliminarProducto(idP);
+                bool elimina = Productoservice.EliminarProducto(idP);
             }
             catch (Exception ex)
             {
@@ -136,7 +148,7 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                bool elimina = logProveedorProducto.Instancia.EliminarDetalleProveedor(idprov, idprod);
+                bool elimina = ProveedorProductoservice.EliminarDetalleProveedor(idprov, idprod);
             }
             catch (Exception ex)
             {
@@ -150,7 +162,7 @@ namespace MadereraCarocho.Controllers
         public ActionResult AgregarTempPrduct(int idprod, int idprov)
         {
             EntUsuario usuario = Session["Usuario"] as EntUsuario;
-            var proprod = logProveedorProducto.Instancia.BuscarProvedorProductoId(idprod, idprov);
+            var proprod = ProveedorProductoservice.BuscarProvedorProductoId(idprod, idprov);
             EntTemporaryProducts temporaryProducts = new EntTemporaryProducts
             {
                 ProveedorProducto = proprod,
@@ -160,7 +172,7 @@ namespace MadereraCarocho.Controllers
             };
             try
             {
-                LogTemporaryProducts.Instancia.CreaarTemporaryProducts(temporaryProducts);
+                TemporaryPservice.CreaarTemporaryProducts(temporaryProducts);
                 return RedirectToAction("ListarParaComprar");
             }
             catch (Exception ex)

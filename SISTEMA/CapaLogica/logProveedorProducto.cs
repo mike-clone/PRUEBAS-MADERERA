@@ -1,49 +1,62 @@
 ﻿using CapaAccesoDatos;
+using CapaAccesoDatos.Interfaces;
 using CapaEntidad;
 using System.Collections.Generic;
 
 namespace CapaLogica
 {
 
-    public class logProveedorProducto
+    public class LogProveedorProducto
     {
-        private static readonly logProveedorProducto _instancia = new logProveedorProducto();
-        public static logProveedorProducto Instancia
+        private static readonly LogProveedorProducto _instancia = new LogProveedorProducto();
+        public static LogProveedorProducto Instancia
         {
             get { return _instancia; }
         }
 
+        private IDatProveedorProducto ProveedorProductoService;
+
+        public LogProveedorProducto()
+        {
+            
+        }
+
+        public LogProveedorProducto(IDatProveedorProducto IProveedorProducto)
+        {
+            ProveedorProductoService = IProveedorProducto;
+        }
+
         public bool CrearProveedorProducto(EntProveedorProducto prod)
         {
-            return datProveedorProducto.Instancia.CrearProveedorProducto(prod);
+            return ProveedorProductoService.CrearProveedorProducto(prod);
 
         }
         public List<EntProveedorProducto> ListarProductoParaComprar()
         {
-            return datProveedorProducto.Instancia.ListarProductoParaComprar();
+            return ProveedorProductoService.ListarProductoParaComprar();
         }
 
         public List<EntProveedorProducto> MostrarDetalleProvedorId(int idProveedor)
         {
-            return datProveedorProducto.Instancia.MostarDetalleProveedorId(idProveedor);
+            return ProveedorProductoService.MostarDetalleProveedorId(idProveedor);
         }
 
         public List<EntProveedorProducto> MostarDetalleProveedorId(int idProveedor)
         {
-            return datProveedorProducto.Instancia.MostarDetalleProveedorId(idProveedor);
+            return ProveedorProductoService.MostarDetalleProveedorId(idProveedor);
         }
         public List<EntProveedorProducto> BuscarProductoParaComprar(string busqueda)
         {
-            return datProveedorProducto.Instancia.BuscarProductoParaComprar(busqueda);
+            return ProveedorProductoService.BuscarProductoParaComprar(busqueda);
         }
 
         public EntProveedorProducto BuscarProvedorProductoId(int idprod, int idprov)
         {
-            return datProveedorProducto.Instancia.BuscarProvedorProductoId(idprod, idprov);
+            return ProveedorProductoService.BuscarProvedorProductoId(idprod, idprov);
         }
         public bool EliminarDetalleProveedor(int prov, int prod)
         {
-            return datProveedorProducto.Instancia.EliminarDetalleProveedor(prov, prod);
+            return ProveedorProductoService.EliminarDetalleProveedor(prov, prod);
         }
 
 
