@@ -19,7 +19,7 @@ namespace CapaAccesoDatos
             SqlConnection cn = new SqlConnection();
             try
             {
-                cn.ConnectionString = "Data Source =mike\\SQLExpress; Initial Catalog = BD_PRUEBAS_MADERERA; Integrated Security = true";
+                cn.ConnectionString = "Data Source=mike\\SQLExpress; Initial Catalog=BD_PRUEBAS_MADERERA; User ID=omar;Password=123456";
                 cn.Open();
                 cn.Close();
             }
