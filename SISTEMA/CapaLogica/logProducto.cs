@@ -30,8 +30,9 @@ namespace CapaLogica
         #region Administrador
         public bool CrearProducto(EntProducto prod)
         {
-            bool validar= ValidatorHelper.TryValidateEntity(prod);
-            return ProductoService.CrearProducto(prod);
+           // var (isValid,validationResults)= ValidatorHelper.TryValidateEntity(prod);
+              return ProductoService.CrearProducto(prod);
+            
         }
         public List<EntProducto> ListarProducto()
         {
