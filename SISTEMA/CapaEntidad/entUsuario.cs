@@ -1,10 +1,13 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace CapaEntidad
 {
     public class EntUsuario
     {
+
         private int idUsuario;
+        [Required(ErrorMessage = "El campo RasonSocial es obligatorio.")]
         private string razonSocial;
         private string telefono;
         private string direccion;
