@@ -6,9 +6,8 @@ using Moq;
 using System.Runtime.CompilerServices;
 
 namespace MadereraTest.CapaAccesoDatosTest
-
 {
-    public class Tests
+    public class DatUsuarioTest
     {
 
         [Test]

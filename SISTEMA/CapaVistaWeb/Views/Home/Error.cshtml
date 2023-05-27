@@ -50,7 +50,7 @@
                 .logo-container a img {
                     vertical-align: middle;
                     width: 130px;
-                    vertical-align: center;
+                    
                 }
 
         .title {
@@ -191,7 +191,28 @@
         <div class="message-container">
             <p class="message-title">LO SENTIMOS...</p>
             <p class="message-description">No pudimos encontrar lo que estás buscando.</p>
-            <div class=" alert alert-info">@TempData["error"]</div>
+            @{
+                string errorGeneral = (string) TempData["error"];
+                int enterIndex = errorGeneral.IndexOf('\n');
+                string primerError = errorGeneral.Substring(0, enterIndex);
+                string detalleDelError = errorGeneral.Substring(enterIndex + 1);
+
+            }
+            <div class=" alert alert-info">@primerError</div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           Detalles del Error
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class=" alert alert-info">@detalleDelError</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             @if (urlReferrer != null)
             {
                 <button class="btn btn-group-lg" onclick="location.href='@urlReferrer'">

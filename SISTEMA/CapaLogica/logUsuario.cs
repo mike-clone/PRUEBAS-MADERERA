@@ -3,6 +3,8 @@ using CapaAccesoDatos.Interfaces;
 using CapaEntidad;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
 namespace CapaLogica
 {
     public class LogUsuario
@@ -17,28 +19,35 @@ namespace CapaLogica
             UsuarioService = IUsuario;
         }
         #region CLIENTES
-        public bool CrearClientes(EntUsuario c)
+        public bool CrearClientes(EntUsuario usuario)
         {
 
             var error=string.Empty;
-            var creado = false;
-            var validado=ValidatorHelper.TryValidateEntity(c);
+            bool isValid = ValidatorHelper.TryValidateEntity(usuario, out List<string> detalleDeError);
+            var detalleerrors = ValidatorHelper.aString(detalleDeError);
+            bool creado = false;
             try
             {
-                if (validado)
+                if (isValid)
                 {
-                   creado= UsuarioService.CrearCliente(c);
+                  creado= UsuarioService.CrearCliente(usuario);
                 }
                 else
                 {
-                    error = "El formato de entrada no coincide con la base de datos";
+                    error = "Uno o mas parametros estan vacios";
                     throw new Exception(error);
                 }
                 
             }
             catch(Exception e)
             {
-                throw new Exception(error+" "+" detalles"+" "+ e.Message);
+                throw new Exception( e.Message
+                                    + " "
+                                    + "\n"
+                                    + "Es probale que :"
+                                    + "\n"
+                                    + " "
+                                    + detalleerrors);
             }
             return creado;
         }

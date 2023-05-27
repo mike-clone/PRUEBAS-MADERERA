@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Data.Entity.Infrastructure;
 using System.Web.Mvc;
 using System.Web.Security;//FormsAutenticathion
+using System.Web.WebPages;
 
 namespace MadereraCarocho.Controllers
 {
@@ -19,7 +20,7 @@ namespace MadereraCarocho.Controllers
         LogProducto Productoservice;
         LogUbigeo Ubigeoservice;
         LogTemporaryProducts TemporaryPservice;
-
+        ValidatorHelper validatorHelper =new ValidatorHelper();
         public HomeController()
         {
             Usuarioservice = new LogUsuario(new DatUsuario());
@@ -59,6 +60,42 @@ namespace MadereraCarocho.Controllers
             ViewBag.listaUbigeo = lsUbigeo;
             return View();
         }
+
+
+        [HttpPost]
+        public ActionResult SingUp(string nombre, string username, string email, string password, FormCollection ubi)
+        {
+            bool isNonEmpty = validatorHelper.ValidateNonEmpty(nombre,username,email,password);
+            try
+            {
+                
+                if (isNonEmpty)
+                {
+                    EntUsuario c = new EntUsuario
+                    {
+                        RazonSocial = nombre,
+                        UserName = username,
+                        Correo = email,
+                        Pass = Encriptar.GetSHA256(password),
+                        Roll = new entRoll
+                        {
+                            IdRoll = 2
+                        },
+                        Ubigeo = new EntUbigeo
+                        {
+                            IdUbigeo = ubi["ubigeo"].ToString()
+                        }
+                    };
+                    bool creado = Usuarioservice.CrearClientes(c);
+                }
+            }
+            catch (Exception ex)
+            {
+                TempData["error"] = ex.Message;
+                return RedirectToAction("Error");
+            }
+            return RedirectToAction("Login");
+        }
         [HttpPost]
         public ActionResult VerificarAcceso(string user, string pass)
         {
@@ -95,39 +132,6 @@ namespace MadereraCarocho.Controllers
                 TempData["Mensaje"] = "user or password invalid";
                 return RedirectToAction("Login");
 
-            }
-            return RedirectToAction("Login");
-        }
-        [HttpPost]
-        public ActionResult SingUp(string nombre, string username, string email, string password,FormCollection ubi)
-        {
-            
-            try
-            {
-               if(!string.IsNullOrEmpty(nombre) && !string.IsNullOrEmpty(username)  && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(password)) 
-               {
-                    EntUsuario c = new EntUsuario
-                    {
-                        RazonSocial = nombre,
-                        UserName = username,
-                        Correo = email,
-                        Pass = Encriptar.GetSHA256(password),
-                        Roll = new entRoll
-                        {
-                            IdRoll = 2
-                        },
-                        Ubigeo = new EntUbigeo
-                        {
-                            IdUbigeo = ubi["ubigeo"].ToString()
-                        }
-                    };
-                    bool creado = Usuarioservice.CrearClientes(c);
-                }
-            }
-            catch (Exception ex)
-            {
-                TempData["error"] =ex.Message ;
-                return RedirectToAction("Error");
             }
             return RedirectToAction("Login");
         }
