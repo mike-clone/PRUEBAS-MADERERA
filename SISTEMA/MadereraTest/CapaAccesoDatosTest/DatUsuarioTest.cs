@@ -63,9 +63,9 @@ namespace MadereraTest.CapaAccesoDatosTest
             var mock = new Mock<IDatUsuario>();
             var newusuario = new EntUsuario
             {
-                RazonSocial = "carlos",
+                RazonSocial = "carlossegunda cuenta",
                 UserName = "carlos#1",
-                Pass = "123r",
+                Pass = "123",
                 Roll = new entRoll
                 {
                     IdRoll = 3
