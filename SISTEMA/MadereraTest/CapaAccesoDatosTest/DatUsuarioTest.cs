@@ -57,5 +57,28 @@ namespace MadereraTest.CapaAccesoDatosTest
             var creado = logusurio.CrearClientes(newusuario);
             Assert.That(creado, Is.EqualTo(false));
         }
+        [Test]
+        public void CrearUsuarioIncorrecto2()
+        {
+            var mock = new Mock<IDatUsuario>();
+            var newusuario = new EntUsuario
+            {
+                RazonSocial = "carlos",
+                UserName = "carlos#1",
+                Pass = "123r",
+                Roll = new entRoll
+                {
+                    IdRoll = 3
+                },
+                Ubigeo = new EntUbigeo
+                {
+                    IdUbigeo = "010109"
+                }
+            };
+            mock.Setup(o => o.CrearCliente(newusuario)).Returns(false);
+            var logusurio = new LogUsuario(mock.Object);
+            var creado = logusurio.CrearClientes(newusuario);
+            Assert.That(creado, Is.EqualTo(false));
+        }
     }
 }
