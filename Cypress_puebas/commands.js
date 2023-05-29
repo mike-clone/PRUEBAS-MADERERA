@@ -38,3 +38,18 @@ Cypress.Commands.add("logIn", (ruta) => {
   cy.get("#valid_password").type("123");
   cy.get(".btn").click();
 });
+
+ Cypress.Commands.add("logInAdmin",(url,email,password)=>{
+    //abrir la pagina
+    Cypress.on("uncaught:exception", (err, runnable) => {
+        return false;
+      });
+    cy.visit(url)
+    cy.get("#navbar ul li").eq(2).click()
+     cy.get(".login-container").find('h1').should("have.text","Login Form")
+     cy.get("#valid_username").type(email)
+     cy.get("#valid_password").type(password)
+     cy.get(".btn").click()
+     cy.get(".contact-info i").find('a').should("have.text",email)
+
+  });
