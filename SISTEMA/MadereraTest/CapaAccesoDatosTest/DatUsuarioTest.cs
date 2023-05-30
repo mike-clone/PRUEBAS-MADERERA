@@ -19,6 +19,7 @@ namespace MadereraTest.CapaAccesoDatosTest
                 RazonSocial = "carlos",
                 UserName = "carlos#1",
                 Pass = "123",
+                Correo = "carlos@gmail.com",
                 Roll = new entRoll
                 {
                     IdRoll = 3
@@ -43,6 +44,7 @@ namespace MadereraTest.CapaAccesoDatosTest
                 RazonSocial = "carlos",
                 UserName = "carlos#1",
                 Pass = "123",
+                Correo = "error@gmail.com",
                 Roll = new entRoll
                 {
                     IdRoll = 3
@@ -66,6 +68,7 @@ namespace MadereraTest.CapaAccesoDatosTest
                 RazonSocial = "carlossegunda cuenta",
                 UserName = "carlos#1",
                 Pass = "123",
+                Correo = "error@gmail.com",
                 Roll = new entRoll
                 {
                     IdRoll = 3
