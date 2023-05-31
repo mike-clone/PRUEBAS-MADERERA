@@ -1,4 +1,4 @@
-using CapaAccesoDatos;
+Ôªøusing CapaAccesoDatos;
 using CapaAccesoDatos.Interfaces;
 using CapaEntidad;
 using CapaLogica;
@@ -100,7 +100,7 @@ namespace MadereraTest.CapaAccesoDatosTest
                 exception = ex;
             }
             Assert.IsNotNull(exception);
-            Assert.That(exception.Message, Is.EqualTo("usuario o contraseÒa incorrectos"));
+            Assert.That(exception.Message, Is.EqualTo("usuario o contrase√±a incorrectos"));
 
 
         }
@@ -173,7 +173,7 @@ namespace MadereraTest.CapaAccesoDatosTest
                 exception = ex;
             }
             Assert.That(exception, Is.Not.Null);
-            Assert.That(exception.Message, Is.EqualTo("Uno o mas parametros estan vacios \nEs probale que :\n El campo Correo no es una direcciÛn v·lida."));
+            Assert.That(exception.Message, Is.EqualTo("Uno o mas parametros estan vacios \nEs probale que :\n El campo Correo no es una direcci√≥n v√°lida."));
            
         }
         [Test]

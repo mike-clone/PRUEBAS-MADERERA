@@ -166,7 +166,7 @@ namespace MadereraTest.CapaAccesoDatosTest
             Assert.That(exception, Is.Not.Null);
             Assert.Multiple(() =>
             {
-                Assert.That(exception.Message, Is.EqualTo("Uno o mas parametros estan vacios \nEs probale que :\n El campo Correo no es una dirección válida."));
+                Assert.That(exception.Message, Is.EqualTo("Uno o mas parametros estan vacios \nEs probale que :\n El campo Email no es una dirección válida."));
                 Assert.That(resultado, Is.False);
             });
         }
