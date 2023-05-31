@@ -28,21 +28,20 @@ namespace CapaEntidad
             get { return idProveedor; }
             set { idProveedor = value; }
         }
-        [Required(ErrorMessage = "El campo nombre es obligatorio.")]
+        [Required(ErrorMessage = "El campo Razon Social es obligatorio.")]
         public string RazonSocial
         {
             get { return razonSocial; }
             set { razonSocial = value; }
         }
         [Required(ErrorMessage = "El campo Ruc es obligatorio.")]
-
         public string Ruc
         {
             get { return ruc; }
             set { ruc = value; }
         }
         [Required(ErrorMessage = "El campo Email es obligatorio.")]
-        [EmailAddress(ErrorMessage = "El campo Correo no es una dirección válida.")]
+        [EmailAddress(ErrorMessage = "El campo Email no es una dirección válida.")]
         public string Correo
         {
             get { return correo; }
@@ -56,6 +55,7 @@ namespace CapaEntidad
             get { return telefono; }
             set { telefono = value; }
         }
+        [Required(ErrorMessage = "El campo Descripcion es obligatorio.")]
         public string Descripcion
         {
             get { return descripcion; }

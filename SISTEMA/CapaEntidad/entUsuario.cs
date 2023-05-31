@@ -27,7 +27,7 @@ namespace CapaEntidad
             set { idUsuario = value; }
         }
 
-        [Required(ErrorMessage = "El campo nombre es obligatorio.")]
+        [Required(ErrorMessage = "El campo Razon Social no puede estar vacio.")]
         public string RazonSocial
         {
             get { return razonSocial; }
@@ -67,7 +67,7 @@ namespace CapaEntidad
             get { return userName; }
             set { userName = value; }
         }
-        [Required(ErrorMessage = "El campo password es obligatorio.")]
+        [Required(ErrorMessage = "El campo Password no puede estar vacio.")]
         public string Pass {
             get { return pass; }
             set { pass = value; }

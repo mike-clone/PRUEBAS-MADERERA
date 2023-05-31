@@ -12,8 +12,9 @@ namespace MadereraTest.CapaAccesoDatosTest
 {
     public class DatProductoTest
     {
+
         [Test]
-        public void BuscarProductoCaso01()
+        public void BuscarProductoPorNombre()
         {
             var mock = new Mock<IDatProducto>();
             var producto = new List<EntProducto>
@@ -25,11 +26,11 @@ namespace MadereraTest.CapaAccesoDatosTest
             mock.Setup(o => o.BuscarProducto("Viga")).Returns(producto);
             var logProducto = new LogProducto(mock.Object);
             var buscado = logProducto.BuscarProducto("Viga");
-            Assert.IsNotNull(buscado);
+            Assert.That(buscado.Count, Is.EqualTo(2));
         }
 
         [Test]
-        public void BuscarProductoCaso02()
+        public void BuscarProductoPorNobre1()
         {
             var mock = new Mock<IDatProducto>();
             var producto = new List<EntProducto>
@@ -44,32 +45,15 @@ namespace MadereraTest.CapaAccesoDatosTest
         }
 
         [Test]
-        public void BuscarProductoCaso03()
+        public void BuscarProductoPorTipo()
         {
             var mock = new Mock<IDatProducto>();
             var producto = new List<EntProducto>
             {
-                new EntProducto 
-                { 
-                    IdProducto = 1, 
-                    Nombre = "Viga", 
-                    Tipo = new EntTipoProducto 
-                    { 
-                        Nombre = "Eucalipto"
-                    }
-                },
+                new EntProducto { IdProducto = 1,  Nombre = "Viga", Tipo = new EntTipoProducto{ Nombre = "Eucalipto"}},
 
-                new EntProducto
-                {
-                    IdProducto = 4,
-                    Nombre = "Mandallon",
-                    Tipo = new EntTipoProducto
-                    {
-                        Nombre = "Eucalipto"
-                    }
-                }
+                new EntProducto {IdProducto = 4, Nombre = "Mandallon", Tipo = new EntTipoProducto { Nombre = "Eucalipto"}}
             };
-
             mock.Setup(o => o.BuscarProducto("Eucalipto")).Returns(producto);
             var logProducto = new LogProducto(mock.Object);
             var buscado = logProducto.BuscarProducto("Eucalipto");
@@ -77,7 +61,7 @@ namespace MadereraTest.CapaAccesoDatosTest
         }
 
         [Test]
-        public void BuscarProductoCaso04()
+        public void BuscarProductoNoExistente()
         {
             var mock = new Mock<IDatProducto>();
             var producto = new List<EntProducto>();
@@ -85,6 +69,73 @@ namespace MadereraTest.CapaAccesoDatosTest
             var logProducto = new LogProducto(mock.Object);
             var buscado = logProducto.BuscarProducto("ABC");
             Assert.IsEmpty(buscado);
+        }
+
+        [Test]
+        public void CrearProductocorrecto()
+        {
+            var mock = new Mock<IDatProducto>();
+            var producto = new EntProducto
+            {
+                IdProducto = 1,
+                Nombre = "Nuevo",
+                Diametro = 4.4,
+                Longitud = 7,
+                Tipo = new EntTipoProducto
+                {
+                    IdTipo_producto = 1,
+                    Nombre = "Eucalipto"
+                }
+            };
+            mock.Setup(o => o.CrearProducto(producto)).Returns(true);
+            Exception? exception = null;
+            var productoService = new LogProducto(mock.Object);
+            bool result = false;
+            try
+            {
+                result = productoService.CrearProducto(producto);
+            }
+            catch (Exception ex)
+            {
+                exception = ex;
+            }
+            Assert.Multiple(() =>
+            {
+                Assert.That(exception, Is.Null);
+                Assert.That(result, Is.True);
+            });
+        }
+
+        [Test]
+        public void CrearProductoIncorrecto()
+        {
+            var mock = new Mock<IDatProducto>();
+            var producto = new EntProducto
+            {
+                IdProducto = 1,
+                Nombre = "Nuevo1",
+                Diametro = 4.4,
+                Longitud = 7,
+                Tipo = new EntTipoProducto
+                {
+                    IdTipo_producto = 3,
+                    Nombre = "Pino"
+                }
+            };
+            mock.Setup(o => o.CrearProducto(producto)).Returns(false);
+            Exception? exception = null;
+            var productoService = new LogProducto(mock.Object);
+            var result = true;
+            try
+            {
+                result = productoService.CrearProducto(producto);
+            }
+            catch (Exception ex)
+            {
+                exception = ex;
+            }
+
+            Assert.That(result, Is.False);
         }
     }
 }

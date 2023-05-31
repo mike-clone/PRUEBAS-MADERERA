@@ -13,7 +13,7 @@ namespace MadereraTest.CapaAccesoDatosTest
     public class DatVentaTest
     {
         [Test]
-        public void MostrarVentaCaso01()
+        public void MostrarVentaUsuario4()
         {
             var mock = new Mock<IDatVenta>();
             var venta = new List<EntVenta>
@@ -30,9 +30,24 @@ namespace MadereraTest.CapaAccesoDatosTest
             };
 
             mock.Setup(o => o.ListarVenta(1)).Returns(venta);
+            Exception? exception = null;
             var logVenta = new LogVenta(mock.Object);
-            var mostrado = logVenta.ListarVenta(1);
-            Assert.IsNotNull(mostrado);
+            var mostrar = new List<EntVenta>();
+
+            try
+            {
+                mostrar = logVenta.ListarVenta(1);
+            }
+            catch (Exception ex)
+            {
+                exception = ex;
+            }
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(exception, Is.Null);
+                Assert.That(mostrar.Count, Is.EqualTo(1));
+            });
         }
 
         [Test]
