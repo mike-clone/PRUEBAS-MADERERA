@@ -2,7 +2,7 @@
   "id": "8de00676-c2f6-41ad-8988-9cac319b97ef",
   "version": "2.0",
   "name": "PRUEBAS-MADERERA",
-  "url": "https://localhost:44347",
+  "url": "http://localhost:8081",
   "tests": [{
     "id": "4145dbf4-80ff-4622-966f-6a240eb9681b",
     "name": "AbrirAplicacionCorrectamente",
@@ -1004,6 +1004,6 @@
     "timeout": 300,
     "tests": ["1fb46488-5e1a-4441-ace0-1fd0f42a77ce", "a72a7874-a3ca-4a82-a2ef-75dc187cee3d"]
   }],
-  "urls": ["https://localhost:44347/Home", "https://localhost:44347/Home/", "https://localhost:44347/"],
+  "urls": ["https://localhost:44347/Home", "https://localhost:44347/Home/", "https://localhost:44347/", "http://localhost:8081/"],
   "plugins": []
 }
