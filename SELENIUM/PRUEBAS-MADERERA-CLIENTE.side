@@ -113,20 +113,18 @@
       ],
       "value": ""
     }, {
-      "id": "2060a9bd-9e85-4b8e-a9d2-f05de668a873",
+      "id": "69de7fa0-294e-4bd4-9f1a-963bfdb864e2",
       "comment": "",
       "command": "assertText",
-      "target": "linkText=miguelcerna@gmail.com",
+      "target": "css=li:nth-child(3) > a",
       "targets": [
-        ["linkText=miguelcerna@gmail.com", "linkText"],
-        ["css=.bi > a", "css:finder"],
-        ["xpath=//a[contains(text(),'miguelcerna@gmail.com')]", "xpath:link"],
-        ["xpath=//section[@id='topbar']/div/div/i/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'mailto:miguelcerna@gmail.com')]", "xpath:href"],
-        ["xpath=//a", "xpath:position"],
-        ["xpath=//a[contains(.,'miguelcerna@gmail.com')]", "xpath:innerText"]
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mis compras')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Venta/ListarVenta')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
       ],
-      "value": "miguelcerna@gmail.com"
+      "value": "MIS COMPRAS"
     }]
   }, {
     "id": "269f4cd6-540a-4c31-8d1b-dc0937c905c5",
@@ -205,20 +203,18 @@
       ],
       "value": ""
     }, {
-      "id": "a46bc9fd-3e09-4b4d-a495-2e5a1b25eb2b",
+      "id": "83d496a1-3059-481a-8b9b-38e80593b045",
       "comment": "",
       "command": "assertText",
-      "target": "linkText=miguelcerna@gmail.com",
+      "target": "css=li:nth-child(3) > a",
       "targets": [
-        ["linkText=miguelcerna@gmail.com", "linkText"],
-        ["css=.bi > a", "css:finder"],
-        ["xpath=//a[contains(text(),'miguelcerna@gmail.com')]", "xpath:link"],
-        ["xpath=//section[@id='topbar']/div/div/i/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'mailto:miguelcerna@gmail.com')]", "xpath:href"],
-        ["xpath=//a", "xpath:position"],
-        ["xpath=//a[contains(.,'miguelcerna@gmail.com')]", "xpath:innerText"]
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mis compras')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Venta/ListarVenta')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
       ],
-      "value": "miguelcerna@gmail.com"
+      "value": "MIS COMPRAS"
     }, {
       "id": "f388aafb-2be8-44ce-a752-39983030e381",
       "comment": "",
@@ -349,17 +345,15 @@
       "id": "be8707b9-ccf8-4cef-b4f5-1828365fcf5c",
       "comment": "",
       "command": "assertText",
-      "target": "linkText=miguelcerna@gmail.com",
+      "target": "css=li:nth-child(3) > a",
       "targets": [
-        ["linkText=miguelcerna@gmail.com", "linkText"],
-        ["css=.bi > a", "css:finder"],
-        ["xpath=//a[contains(text(),'miguelcerna@gmail.com')]", "xpath:link"],
-        ["xpath=//section[@id='topbar']/div/div/i/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'mailto:miguelcerna@gmail.com')]", "xpath:href"],
-        ["xpath=//a", "xpath:position"],
-        ["xpath=//a[contains(.,'miguelcerna@gmail.com')]", "xpath:innerText"]
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mis compras')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Venta/ListarVenta')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
       ],
-      "value": "miguelcerna@gmail.com"
+      "value": "MIS COMPRAS"
     }, {
       "id": "fe96b0fc-1152-4b7a-838d-a461320e2111",
       "comment": "",
@@ -526,20 +520,18 @@
       ],
       "value": ""
     }, {
-      "id": "3c473cd4-a0bd-4abc-a5f9-f77987737c02",
+      "id": "66c59b28-d6da-462d-bc8f-359c27d9d8ac",
       "comment": "",
       "command": "assertText",
-      "target": "linkText=miguelcerna@gmail.com",
+      "target": "css=li:nth-child(3) > a",
       "targets": [
-        ["linkText=miguelcerna@gmail.com", "linkText"],
-        ["css=.bi > a", "css:finder"],
-        ["xpath=//a[contains(text(),'miguelcerna@gmail.com')]", "xpath:link"],
-        ["xpath=//section[@id='topbar']/div/div/i/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'mailto:miguelcerna@gmail.com')]", "xpath:href"],
-        ["xpath=//a", "xpath:position"],
-        ["xpath=//a[contains(.,'miguelcerna@gmail.com')]", "xpath:innerText"]
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mis compras')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Venta/ListarVenta')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
       ],
-      "value": "miguelcerna@gmail.com"
+      "value": "MIS COMPRAS"
     }, {
       "id": "427ee1b1-9dc4-4238-b5a5-40eb4375ed7f",
       "comment": "",
@@ -692,20 +684,18 @@
       ],
       "value": ""
     }, {
-      "id": "50d2846f-5109-4161-9c63-4000906b706b",
+      "id": "6263f414-ea48-44a0-b041-054ac0a0477a",
       "comment": "",
       "command": "assertText",
-      "target": "linkText=miguelcerna@gmail.com",
+      "target": "css=li:nth-child(3) > a",
       "targets": [
-        ["linkText=miguelcerna@gmail.com", "linkText"],
-        ["css=.bi > a", "css:finder"],
-        ["xpath=//a[contains(text(),'miguelcerna@gmail.com')]", "xpath:link"],
-        ["xpath=//section[@id='topbar']/div/div/i/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'mailto:miguelcerna@gmail.com')]", "xpath:href"],
-        ["xpath=//a", "xpath:position"],
-        ["xpath=//a[contains(.,'miguelcerna@gmail.com')]", "xpath:innerText"]
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mis compras')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Venta/ListarVenta')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
       ],
-      "value": "miguelcerna@gmail.com"
+      "value": "MIS COMPRAS"
     }, {
       "id": "dd4ed8d8-d0cc-4707-b49d-80c38df9e2eb",
       "comment": "",
@@ -844,20 +834,18 @@
       ],
       "value": ""
     }, {
-      "id": "8cfe3c83-d008-47f3-9a32-8a203a65a7e5",
+      "id": "768d88a4-62be-4a66-9d6b-819fc0a664c0",
       "comment": "",
       "command": "assertText",
-      "target": "linkText=miguelcerna@gmail.com",
+      "target": "css=li:nth-child(3) > a",
       "targets": [
-        ["linkText=miguelcerna@gmail.com", "linkText"],
-        ["css=.bi > a", "css:finder"],
-        ["xpath=//a[contains(text(),'miguelcerna@gmail.com')]", "xpath:link"],
-        ["xpath=//section[@id='topbar']/div/div/i/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'mailto:miguelcerna@gmail.com')]", "xpath:href"],
-        ["xpath=//a", "xpath:position"],
-        ["xpath=//a[contains(.,'miguelcerna@gmail.com')]", "xpath:innerText"]
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mis compras')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Venta/ListarVenta')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
       ],
-      "value": "miguelcerna@gmail.com"
+      "value": "MIS COMPRAS"
     }, {
       "id": "c48afe74-5bc5-4992-9518-b87411ebe5eb",
       "comment": "",
@@ -1520,20 +1508,18 @@
       ],
       "value": ""
     }, {
-      "id": "c40ffd76-2ade-4a02-bc66-4560ba5d77b5",
+      "id": "c1938720-e8e3-450d-bc2f-ff35079dc15a",
       "comment": "",
       "command": "assertText",
-      "target": "linkText=miguelcerna@gmail.com",
+      "target": "css=li:nth-child(3) > a",
       "targets": [
-        ["linkText=miguelcerna@gmail.com", "linkText"],
-        ["css=.bi > a", "css:finder"],
-        ["xpath=//a[contains(text(),'miguelcerna@gmail.com')]", "xpath:link"],
-        ["xpath=//section[@id='topbar']/div/div/i/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'mailto:miguelcerna@gmail.com')]", "xpath:href"],
-        ["xpath=//a", "xpath:position"],
-        ["xpath=//a[contains(.,'miguelcerna@gmail.com')]", "xpath:innerText"]
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mis compras')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Venta/ListarVenta')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
       ],
-      "value": "miguelcerna@gmail.com"
+      "value": "MIS COMPRAS"
     }, {
       "id": "51bd9e98-b309-458c-a0e5-4459c29c8912",
       "comment": "",
