@@ -43,12 +43,7 @@ namespace CapaAccesoDatos
             }
             catch (Exception e)
             {
-
-                MessageBox.Show(e.Message);
-            }
-            finally
-            {
-                cmd.Connection.Close();
+            throw new Exception(e.Message);
             }
             return creado;
         }
@@ -168,12 +163,9 @@ namespace CapaAccesoDatos
             catch (Exception e)
             {
 
-                MessageBox.Show(e.Message);
+                throw new Exception(e.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
+
             return actualizado;
         }
         //Eliminar

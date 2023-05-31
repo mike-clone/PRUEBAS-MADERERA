@@ -1,5 +1,7 @@
-﻿@model IEnumerable<CapaEntidad.EntCompra>
-
+﻿
+@{
+    ViewBag.Title = "Registar";
+}
 <section id="topbar" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
@@ -21,8 +23,6 @@
 
         <div class="logo">
             <h1><a href="/Home/admin">Maderera<span>Carocho</span></a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html"><img src="~/Content/assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
 
         <nav id="navbar" class="navbar">
@@ -59,85 +59,60 @@
         </nav><!-- .navbar -->
 
     </div>
-</header>
+</header><!-- End Header -->
+<!-- ======= Contenido ======= -->
 <br>
 <br>
 <br>
 <br>
-<br>
-<div class="container">
-    <br><h2 style="text-align: center">MIS COMPRAS</h2>
+<section class="container">
+    <h1 class="modal-title">Ingresar Datos</h1>
+    <form class="row g-3 needs-validation" novalidate action="/Proveedor/RegistrarProveedor" method="POST">
 
-    <!-- Ordenar -->
-    <a onclick="return Ordenar(this)" aria-current="page" type="button" class="btn btn-primary btn-lg" id="ASC" th:href="@*@{productoAsc}*@#"><i class="bi bi-sort-up"></i></a>
-    <a onclick="return Ordenar(this)" aria-current="page" type="button" class="btn btn-secondary btn-lg" id="DESC" th:href="@*@{productoDesc}*@#"><i class="bi bi-sort-down"></i></a>
-    <hr>
-    <!-- Buscar -->
-    <form class="d-flex mb-4" role="search" action="#" method="POST" id="Bproveedor">
-        <input class="form-control me-2" type="search" placeholder="Buscar" name="dato" aria-label="Search">
-        <button onclick="return Buscar('Bproveedor')" class="btn btn-outline-success" type="submit">Buscar</button>
+        <div class="col-md-6">
+            <label for="validationCustom01" class="form-label">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Enter your full name" class="form-control" required>
+            <div class="invalid-feedback">
+                Please choose  full name.
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="inputRuc" class="form-label">Ruc</label>
+            <input type="number" id="ruc" name="ruc" class="form-control" placeholder="Enter your number ruc" required/>
+            <div class="invalid-feedback">
+                please choose a number ruc.
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="inputTelefono" class="form-label">Telefono</label>
+            <input type="number" id="telefono" name="telefono" placeholder="Enter your phone" class=" form-control" required>
+            <div class="invalid-feedback">
+                Please choose a phone.
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="text" class="form-control" id="inputEmail4" name="email" placeholder="Enter your Email address" required>
+            <div class="invalid-feedback">
+                Please choose a Email.
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="inputdescription" class="form-label"> </label>
+                <input type="text" name="description" id="description" class="form-control"placeholder=" Enter your description" required>
+                <div class="invalid-feedback">
+                    please choose a description.
+                </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">Ubicacion relativa</label>
+            @Html.DropDownList("ubigeo", (SelectList)ViewBag.listaUbigeo, "Seleccionar", new { @class = "form-select", required = "required" })
+            <div class="invalid-feedback">
+                Please select a valid province.
+            </div>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">submit</button>
+        </div>
     </form>
-    <table class="table">
-        <tr>
-            <th>
-               #
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Fecha)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Usuario.UserName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Total)
-            </th>
-            <th>
-                Estado
-            </th>
-            <th>
-                Detalle
-            </th>
-        </tr>
-
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.IdCompra)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Fecha)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Usuario.UserName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Total)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Estado)
-                </td>
-                <td>
-                    <a href="/Compra/MostrarDetalleCompra?idcompra=@item.IdCompra" class="btn btn-info" type="button"><i class="bi bi-ticket-detailed"></i></a>
-                </td>
-            </tr>
-        }
-    </table>
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
+</section>

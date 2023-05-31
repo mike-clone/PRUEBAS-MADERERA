@@ -1,4 +1,7 @@
-﻿namespace CapaEntidad
+﻿using System.ComponentModel.DataAnnotations;
+using System.Xml.Serialization;
+
+namespace CapaEntidad
 {
     public class EntProveedor
     {
@@ -19,34 +22,40 @@
         {
             get { return razonSocial + "::" + descripcion; }
         }
+
         public int IdProveedor
         {
             get { return idProveedor; }
             set { idProveedor = value; }
         }
+        [Required(ErrorMessage = "El campo nombre es obligatorio.")]
         public string RazonSocial
         {
             get { return razonSocial; }
             set { razonSocial = value; }
         }
+        [Required(ErrorMessage = "El campo Ruc es obligatorio.")]
+
         public string Ruc
         {
             get { return ruc; }
             set { ruc = value; }
         }
-
+        [Required(ErrorMessage = "El campo Email es obligatorio.")]
+        [EmailAddress(ErrorMessage = "El campo Correo no es una dirección válida.")]
         public string Correo
         {
             get { return correo; }
             set { correo = value; }
 
         }
+        [Required(ErrorMessage = "El campo Telefono es obligatorio.")]
+        [RegularExpression(@"^9\d{8}$", ErrorMessage = "El campo Teléfono debe tener 9 dígitos y comenzar con 9.")]
         public string Telefono
         {
             get { return telefono; }
             set { telefono = value; }
         }
-
         public string Descripcion
         {
             get { return descripcion; }
@@ -58,7 +67,6 @@
             get { return estProveedor; }
             set { estProveedor = value; }
         }
-
         public EntUbigeo Ubigeo
         {
             get { return ubigeo; }

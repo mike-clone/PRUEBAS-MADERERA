@@ -45,7 +45,7 @@ namespace CapaEntidad
             get { return direccion; }
             set { direccion = value; }
         }
-        [Required(ErrorMessage = "El campo correo es obligatorio.")]
+        [Required(ErrorMessage = "El campo ubigeo es obligatorio.")]
         public EntUbigeo Ubigeo
         {
             get { return ubigeo; }

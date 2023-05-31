@@ -1,6 +1,7 @@
 ﻿using CapaAccesoDatos;
 using CapaAccesoDatos.Interfaces;
 using CapaEntidad;
+using System;
 using System.Collections.Generic;
 
 namespace CapaLogica
@@ -27,7 +28,36 @@ namespace CapaLogica
         #region CRUD
         public bool CrearProveedor(EntProveedor pro)
         {
-            return ProveedorService.CrearProveedor(pro);
+            var error = string.Empty;
+            bool isValid=ValidatorHelper.TryValidateEntity(pro, out List<string> detalleDeError);
+            var detalleerrors = ValidatorHelper.aString(detalleDeError);
+            bool creado = false;
+            try
+            {
+                if (isValid)
+                {
+                    creado= ProveedorService.CrearProveedor(pro);
+                }
+                else
+                {
+                    error = "Uno o mas parametros estan vacios";
+                    throw new Exception(error);
+                }
+
+                
+
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message
+                                                   + " "
+                                                   + "\n"
+                                                   + "Es probale que :"
+                                                   + "\n"
+                                                   + " "
+                                                   + detalleerrors);
+            }
+            return creado;
         }
         public List<EntProveedor> ListarProveedor()
         {
@@ -44,7 +74,33 @@ namespace CapaLogica
         }
         public bool ActualizarProveedor(EntProveedor pro)
         {
-            return ProveedorService.ActualizarProveedor(pro);
+            var error = string.Empty;
+            bool isValid = ValidatorHelper.TryValidateEntity(pro, out List<string> detalleDeError);
+            var detalleerrors = ValidatorHelper.aString(detalleDeError);
+            bool actualizado = false;
+            try
+            {
+                if (isValid)
+                {
+                    actualizado= ProveedorService.ActualizarProveedor(pro);
+                }
+                else
+                {
+                    error = "Uno o mas parametros estan vacios";
+                    throw new Exception(error);
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message
+                                                    + " "
+                                                    + "\n"
+                                                    + "Es probale que :"
+                                                    + "\n"
+                                                    + " "
+                                                    + detalleerrors);
+            }
+            return actualizado;
         }
         public bool EliminarProveedor(int id)
         {

@@ -65,6 +65,30 @@
 <br>
 <br>
 <br>
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["errorEdit"]
+    </div>
+}
+@if (TempData["error"] != null)
+{
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Detalles del Error
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class=" alert alert-info">@TempData["error"]</div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
 @using (Html.BeginForm())
 {
     <br>

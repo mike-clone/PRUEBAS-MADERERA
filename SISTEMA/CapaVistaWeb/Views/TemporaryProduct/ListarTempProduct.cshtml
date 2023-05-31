@@ -119,9 +119,7 @@
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.IdTemp)
-                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.IdTemp)</td>
                     <td>
                         @Html.DisplayFor(modelItem => item.ProveedorProducto.Producto.Nombre)
                     </td>

@@ -5,6 +5,7 @@ using MadereraCarocho.Permisos;
 using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
+using System.Web.WebPages;
 
 namespace MadereraCarocho.Controllers
 {
@@ -16,6 +17,7 @@ namespace MadereraCarocho.Controllers
         LogProveedorProducto ProveedorProductoservice;
         LogUbigeo Ubigeoservice;
         LogProveedor Proveedorservice;
+        ValidatorHelper validatorHelper = new ValidatorHelper();
 
         public ProveedorController()
         {
@@ -41,36 +43,45 @@ namespace MadereraCarocho.Controllers
             ViewBag.listaUbigeo = lsUbigeo;
             return View(lista);
         }
+        [HttpGet]
+        public ActionResult RegistrarProveedor()
+        {
+            List<EntUbigeo> listaUbigeo = Ubigeoservice.ListarDistrito();
+            var lsUbigeo = new SelectList(listaUbigeo, "idUbigeo", "distrito");
+            ViewBag.listaUbigeo = lsUbigeo;
+            return View();
+        }
 
         [HttpPost]
-        public ActionResult CrearProveedor(string uNombre, string uRuc, string uCorreo, string uTelefono, string uDescripcion, FormCollection frm)
+        public ActionResult RegistrarProveedor(string nombre , string ruc, string email, string telefono, string description, FormCollection frm)
         {
+            bool isNonEmpty=!string.IsNullOrEmpty(nombre) || !string.IsNullOrEmpty(ruc) || !string.IsNullOrEmpty(email) || !string.IsNullOrEmpty(telefono) || !string.IsNullOrEmpty(description);
             try
             {
-                EntProveedor p = new EntProveedor
+                if (isNonEmpty)
                 {
-                    RazonSocial = uNombre,
-                    Ruc = uRuc,
-                    Correo = uCorreo,
-                    Telefono = uTelefono,
-                    Descripcion = uDescripcion,
-                    EstProveedor = true,
-                    Ubigeo = new EntUbigeo
+                    EntProveedor p = new EntProveedor
                     {
-                        IdUbigeo = frm["Ubi"].ToString()
-                    }
-                };
+                        RazonSocial = nombre,
+                        Ruc = ruc,
+                        Correo = email,
+                        Telefono = telefono,
+                        Descripcion = description,
+                        EstProveedor = true,
+                        Ubigeo = new EntUbigeo
+                        {
+                            IdUbigeo = frm["ubigeo"].ToString()
+                        }
+                    };
 
-
-                bool inserta = Proveedorservice.CrearProveedor(p);
-                if (inserta)
-                {
-                    return RedirectToAction("Listar");
+                    bool inserta = Proveedorservice.CrearProveedor(p);
                 }
+                
             }
             catch (Exception ex)
             {
-                return RedirectToAction("Listar", new { mesjExeption = ex.Message });
+                TempData["error"] = ex.Message;
+                return RedirectToAction("../Home/Error");
             }
             return RedirectToAction("Listar");
         }
@@ -91,26 +102,31 @@ namespace MadereraCarocho.Controllers
         [HttpPost]
         public ActionResult EditarProveedor(EntProveedor p, FormCollection frm)
         {
-            p.Ubigeo = new EntUbigeo
-            {
-                IdUbigeo = frm["Ubi"]
-            };
+            bool isNonEmpty = !string.IsNullOrEmpty(p.RazonSocial) || !string.IsNullOrEmpty(p.Ruc) || !string.IsNullOrEmpty(p.Correo) || !string.IsNullOrEmpty(p.Telefono) || !string.IsNullOrEmpty(p.Descripcion);
+
             try
             {
-                Boolean edita = Proveedorservice.ActualizarProveedor(p);
-                if (edita)
+                if (isNonEmpty)
                 {
-                    return RedirectToAction("Listar");
-                }
-                else
+                    p.Ubigeo = new EntUbigeo
+                    {
+                        IdUbigeo = frm["Ubi"]
+                    };
+                     Proveedorservice.ActualizarProveedor(p);
+                }else
                 {
+                    TempData["errorEdit"] = "Todos los datos son obligatorios";
+
                     return View(p);
                 }
+               
             }
-            catch (ApplicationException ex)
+            catch (Exception ex)
             {
-                return RedirectToAction("Listar", new { mesjExceptio = ex.Message });
+               TempData["error"] = ex.Message;
+               return View(p);
             }
+            return RedirectToAction("Listar");
         }
 
         [HttpGet]

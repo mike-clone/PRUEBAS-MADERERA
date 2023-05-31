@@ -69,10 +69,10 @@
 <br>
 <br>
 <div class="container">
-    <br><h2 style="text-align: center">LISTADO DE PROVEDDORES</h2>
+    <br><h2 style="text-align: center">LISTADO DE PROVEEDORES</h2>
     <!-- Agregar producto -->
 
-    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#ModInsertarProveedor"><i class="bi bi-plus-square"></i> Agregar Proveedor</button>
+    <a type="button" class="btn btn-dark" href="/Proveedor/RegistrarProveedor"<i class="bi bi-plus-square"></i> Registrar Proveedor</a>
     <hr>
     <!-- Ordenar -->
     <a onclick="return Ordenar(this)" aria-current="page" type="button" class="btn btn-primary btn-lg" id="ASC" th:href="@*@{productoAsc}*@#"><i class="bi bi-sort-up"></i></a>
@@ -166,15 +166,12 @@
                         @Html.DisplayFor(modelItem => item.EstProveedor)
                     </td>
                     <td>
-                        <button class="btn btn-info bi bi-stickies-fill" type="button">
-                            @Html.ActionLink("Detalle", "MostrarDetalle", new { idp = item.IdProveedor })
-                        </button>
+                        <a class="btn btn-info bi bi-stickies-fill" type="button" href="/Proveedor/MostrarDetalle?idp=@item.IdProveedor">
+                        </a>
                     </td>
                     <td>
-                        <button class="btn btn-warning bi bi-pencil-square" type="button">
-                            @Html.ActionLink("Edit", "EditarProveedor", new { idprov = item.IdProveedor })
-
-                        </button>
+                        <a class="btn btn-warning bi bi-pencil-square" type="button" href="/Proveedor/EditarProveedor?idprov=@item.IdProveedor">
+                      </a>
                     </td>
                     <td>
                         <a onclick="return Eliminar(this)" href="/Proveedor/EliminarProveedor?idc=@item.IdProveedor" class="btn btn-danger" type="button"><i class="bi bi-trash"></i></a>
@@ -187,50 +184,3 @@
 <br>
 <br>
 <br>
-<!--Agregar Provedor-->
-<div class="modal" tabindex="-1" id="ModInsertarProveedor" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <form action="/Proveedor/CrearProveedor" method="POST" id="proveedor">
-                <div class="modal-header ">
-                    <h5 class="modal-title">Ingresar Proveedor</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="form-floating mb-3">
-                        <div class="form-group">
-                            ubigeo:
-                            <div class="col-md-10">
-                                @Html.DropDownList("Ubi", (SelectList)ViewBag.listaUbigeo, "Seleccionar")
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="uNombre" id="uNombre" placeholder="Nombre" required>
-                        <label for="floatingInput">Nombre</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="uRuc" id="uRuc" placeholder="RUC" required>
-                        <label for="floatingInput">RUC</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="uCorreo" id="uCorreo" placeholder="Corrreo" required>
-                        <label for="floatingInput">Correo</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="uTelefono" placeholder="Telefono" required>
-                        <label for="floatingInput">Telefono</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" name="uDescripcion" id="uDescripcion" placeholder="uDescripcion" required>
-                        <label for="floatingInput">Descripcion</label>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button onclick="return Registrar('uNombre', 'uRuc', 'uDescripcion', 'proveedor')" type="submit" class="btn btn-dark">Registrar</button>
-                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
