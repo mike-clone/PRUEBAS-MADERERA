@@ -77,7 +77,7 @@ describe("Crear Usuario", () => {
     cy.get(".btn").click();
     cy.get(".message-container > :nth-child(3)").should(
       "contain",
-      "Violation of UNIQUE KEY constraint"
+      "Infracción de la restricción UNIQUE KEY 'uq_Usuario_correo'."
     );
   });
 

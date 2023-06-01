@@ -48,7 +48,7 @@ describe("producto",()=>{
     cy.get("#cTipo").select("2")
     cy.get("#nombre").type("producto 1")
     cy.get("#longitud").type("caracter")
-    cy.get("#diametro").type("caracter")
+    cy.get("#diametro").type("caracter",{force:true})
     cy.get("#precioventa").type("100")
     cy.contains("Registrar").click()
     cy.contains("Oops...").should("have.text","Oops...")
@@ -177,7 +177,7 @@ describe("proveedor",()=>{
     cy.get("#description").focus().type("descripcion1")
     cy.get("#ubigeo").focus().select(2,{force:true})
     cy.contains("submit").click()
-    cy.get(".accordion-body").find('div').first().should("have.text","Es probale que :\n El campo Correo no es una dirección válida.")
+    cy.get(".accordion-body").find('div').first().should("have.text","Es probale que :\n El campo Email no es una dirección válida.")
     cy.get(".btn-group-lg").click({force:true})
 
     cy.get("#nombre").focus().type("proveedor 1")

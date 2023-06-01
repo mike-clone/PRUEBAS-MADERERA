@@ -23,7 +23,7 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-
+// PARA LOS TEST DE CLIENTE
 Cypress.Commands.add("visitarURL", (ruta) => {
   const ip = "192.168.100.6"; // Reemplaza con tu dirección IP
   const puerto = "8081"; // Reemplaza con tu número de puerto
@@ -39,7 +39,7 @@ Cypress.Commands.add("logIn", (ruta) => {
   cy.get(".btn").click();
 });
 
-// administrador
+// PARA LOS TEST DE ADMINISTRADOR
  Cypress.Commands.add("logInAdmin",(url,email,password)=>{
     //abrir la pagina
     Cypress.on("uncaught:exception", (err, runnable) => {
@@ -57,6 +57,7 @@ Cypress.Commands.add("logIn", (ruta) => {
   Cypress.Commands.add("guardarId", () => {
     cy.get("#navbar ul li.dropdown").eq(2).find('ul li').last().find('a').click({force:true});
     cy.contains("MIS COMPRAS").should("have.text","MIS COMPRAS")
+    
     return cy.get(".table tbody tr").then((trElements) => {
        const trCount= trElements.length;
        return trCount;
