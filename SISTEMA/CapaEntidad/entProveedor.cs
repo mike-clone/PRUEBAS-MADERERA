@@ -5,14 +5,8 @@ namespace CapaEntidad
 {
     public class EntProveedor
     {
-        private int idProveedor;
-        private string razonSocial;
-        private string ruc;
-        private string correo;
-        private string telefono;
-        private string descripcion;
-        private bool estProveedor;
-        private EntUbigeo ubigeo;
+        private readonly string razonSocial;
+        private readonly string descripcion;
 
 
 
@@ -25,52 +19,52 @@ namespace CapaEntidad
 
         public int IdProveedor
         {
-            get { return idProveedor; }
-            set { idProveedor = value; }
+            get;
+            set;
         }
         [Required(ErrorMessage = "El campo Razon Social es obligatorio.")]
         public string RazonSocial
         {
-            get { return razonSocial; }
-            set { razonSocial = value; }
+            get;
+            set;
         }
         [Required(ErrorMessage = "El campo Ruc es obligatorio.")]
         public string Ruc
         {
-            get { return ruc; }
-            set { ruc = value; }
+            get;
+            set;
         }
         [Required(ErrorMessage = "El campo Email es obligatorio.")]
         [EmailAddress(ErrorMessage = "El campo Email no es una dirección válida.")]
         public string Correo
         {
-            get { return correo; }
-            set { correo = value; }
+            get;
+            set;
 
         }
         [Required(ErrorMessage = "El campo Telefono es obligatorio.")]
         [RegularExpression(@"^9\d{8}$", ErrorMessage = "El campo Teléfono debe tener 9 dígitos y comenzar con 9.")]
         public string Telefono
         {
-            get { return telefono; }
-            set { telefono = value; }
+            get;
+            set;
         }
         [Required(ErrorMessage = "El campo Descripcion es obligatorio.")]
         public string Descripcion
         {
-            get { return descripcion; }
-            set { descripcion = value; }
+            get;
+            set;
 
         }
         public bool EstProveedor
         {
-            get { return estProveedor; }
-            set { estProveedor = value; }
+            get;
+            set;
         }
         public EntUbigeo Ubigeo
         {
-            get { return ubigeo; }
-            set { ubigeo = value; }
+            get;
+            set;
         }
         #endregion Get and Set
     }
