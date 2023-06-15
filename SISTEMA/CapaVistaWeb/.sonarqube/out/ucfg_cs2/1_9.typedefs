@@ -1,13 +1,0 @@
-<<<<<<< HEAD
-¾
-CapaAccesoDatos.DatTipoProductoobject+CapaAccesoDatos.Interfaces.IDatTipoProducto€
-.CrearTipoProducto(CapaEntidad.EntTipoProducto)NCapaAccesoDatos.DatTipoProducto.CrearTipoProducto(CapaEntidad.EntTipoProducto)T
-SelectListTipoProducto()8CapaAccesoDatos.DatTipoProducto.SelectListTipoProducto()`
-SelectListTipoProductodat(int)>CapaAccesoDatos.DatTipoProducto.SelectListTipoProductodat(int)Š
-3ActualizarTipoProducto(CapaEntidad.EntTipoProducto)SCapaAccesoDatos.DatTipoProducto.ActualizarTipoProducto(CapaEntidad.EntTipoProducto)V
-EliminarTipoProducto(int)9CapaAccesoDatos.DatTipoProducto.EliminarTipoProducto(int)F
-DatTipoProducto()1CapaAccesoDatos.DatTipoProducto.DatTipoProducto()
-=======
--
-+CapaAccesoDatos.Interfaces.IDatTipoProducto
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

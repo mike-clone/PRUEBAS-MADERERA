@@ -1,280 +1,0 @@
-
-<<<<<<< HEAD
-SMadereraCarocho.Controllers.UsuarioController.EditarCliente(CapaEntidad.EntUsuario)g
-]D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\UsuarioController.csI I()"6*ˆ
-0M N(ê
-ç
-M  M(.
-%0CapaLogica.LogUsuario"__id*^\*Z/
--MadereraCarocho.Controllers.UsuarioController"'
-UsuarioserviceCapaLogica.LogUsuarioò
-ï
-M  M(?
-
-%1bool";CapaLogica.LogUsuario.EditarCliente(CapaEntidad.EntUsuario)*
-
-%0CapaLogica.LogUsuario*
-
-uCapaEntidad.EntUsuario1
-/
-M M(?
-editabool"__id*
-
-
-%1bool*
-1
-2*Ó
-1P P(<§
-°
-P P(=*
-%2$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-ListarClientes"8
-P P(>,
-*
-%2$System.Web.Mvc.RedirectToRouteResult*´
-2T T(!Ø
-¨
-T T("
-
-%3void"(capavistaweb/views/usuario/editarcliente*
-
-%4*
-
-uCapaEntidad.EntUsuario*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject§
-°
-T T("
-
-%5void"capavistaweb/views/_viewstart*
-
-%6*
-
-uCapaEntidad.EntUsuario*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject®
-•
-T T("
-
-%7void"!capavistaweb/views/shared/_layout*
-
-%8*
-
-uCapaEntidad.EntUsuario*
-=======
-BMadereraCarocho.Controllers.ProductoController.EditarProducto(int)v
-lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.csY Y(*"2*“
-0[ ](î
-ë
-[ [(&
-%0CapaLogica.LogProducto"__id*a_*]0
-.MadereraCarocho.Controllers.ProductoController")
-ProductoserviceCapaLogica.LogProductoÜ
-É
-[ [(?
-%1CapaEntidad.EntProducto",CapaLogica.LogProducto.BuscarProductoId(int)* 
-
-%0CapaLogica.LogProducto*
-""V
-T
-[ [(?
-prodCapaEntidad.EntProducto"__id*!
-
-%1CapaEntidad.EntProducto/-
-\ \(
-%ViewBagDataAllobject"object0.
-\ \(
-%ViewBagDataHtmlobject"object†
-ù
-\0 \(C 
-%2CapaLogica.LogTipoProducto"__id*ig*e0
-.MadereraCarocho.Controllers.ProductoController"1
-TipoProductoserviceCapaLogica.LogTipoProductod
-b
-\^ \(m	
-%3int"&CapaEntidad.EntProducto.IdProducto.get*#!
-
-prodCapaEntidad.EntProductoß
-§
-\0 \(n(
-%4"System.Collections.Generic.List<T>"9CapaLogica.LogTipoProducto.SelectListTipoProductodat(int)*$"
- 
-%2CapaLogica.LogTipoProducto*
-	
-%3intIG
-	\! \(å
-%5System.Web.Mvc.SelectList"System.Web.Mvc.SelectListÁ
-‰
-\% \(/
-
-%6void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
-
-%5System.Web.Mvc.SelectList*,*
-(
-%4"System.Collections.Generic.List<T>*
-idTipo_producto*
-
-nombres
-q
-	\ \(å
-%7"__mapSet*
-
-%ViewBagDataAllobject*
-
-listaTipos*#!
-
-%5System.Web.Mvc.SelectListY
-W
-	\ \(å
-%8"__mapSet*
-
-%ViewBagDataHtmlobject*
-
-listaTipos*
-""∂
-≥
-] ](
-
-%9void"*capavistaweb/views/producto/editarproducto*	
-
-%10*#!
-
-prodCapaEntidad.EntProducto*
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-<<<<<<< HEAD
-%HttpContextItemsHtmlobject"
-T T(#
-
-
-%7void*
-3[	 [(	*	
-4
-5
-5*
-4Y Y(Ylj
-YO Y(Y
-%9string"System.Exception.Message.get*%#
-!
-exSystem.ApplicationException2Message.get∑
-¥
-Y Y(\+
-%10$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
-System.Web.Mvc.Controller*
-ListarClientes*
-"""9
-Y Y(]-
-+
-%10$System.Web.Mvc.RedirectToRouteResult*.
-5[	 [(	"
-[ [(	
-implicit return*ò
-6I7 I(7B
-@
-I I()
-%11"__entrypoint*
-
-uCapaEntidad.EntUsuario|
-z
-H	 H(
-%12"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-uCapaEntidad.EntUsuarioB
-@
-I* I(6
-uCapaEntidad.EntUsuario"__annotation*	
-
-%12*
-0:'
-I* I(6
-uCapaEntidad.EntUsuarioB1/
--MadereraCarocho.Controllers.UsuarioController
-=======
-%HttpContextItemsHtmlobject™
-ß
-] ](
-%11void"capavistaweb/views/_viewstart*	
-
-%12*#!
-
-prodCapaEntidad.EntProducto*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobjectÆ
-´
-] ](
-%13void"!capavistaweb/views/shared/_layout*	
-
-%14*#!
-
-prodCapaEntidad.EntProducto*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-] ](
-
-%13void*.
-1^	 ^(	"
-^ ^(	
-implicit return*?
-2Y6 Y(6+
-)
-Y Y(*
-%15"__entrypoint*
-""*
-0:
-Y+ Y(5
-idprodintB20
-.MadereraCarocho.Controllers.ProductoController
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

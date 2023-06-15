@@ -1,229 +1,0 @@
-
-<<<<<<< HEAD
-âMadereraCarocho.Controllers.ProveedorController.RegistrarProveedor(string, string, string, string, string, System.Web.Mvc.FormCollection)i
-_D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs8 8(."15*q
-0: :(8Z
-X
-: :(9
-
-%0bool"string.IsNullOrEmpty(string)*
-"
-string*
-
-nombrestring*
-1
-2*k
-2:= :(VW
-U
-:> :(W
-
-%1bool"string.IsNullOrEmpty(string)*
-"
-string*
-
-rucstring*
-1*
-1W	 W(	*
-3
-4*m
-4:[ :(vY
-W
-:\ :(w
-
-%2bool"string.IsNullOrEmpty(string)*
-"
-string*
-
-emailstring*
-3*
-3W	 W(	*
-5
-6*r
-6	:{ :(ô]
-[
-	:| :(ö
-
-%3bool"string.IsNullOrEmpty(string)*
-"
-string*
-
-telefonostring*
-5*
-5W	 W(	*
-7
-8*w
-8
-:û :(øa
-_
-
-:ü :(¿
-
-%4bool"string.IsNullOrEmpty(string)*
-"
-string*
-
-descriptionstring*
-7*F
-7	: :(¿1
-/
-	: :(¿
-
-isNonEmptybool"__id*
-""*
-9*
-9= =(*
-10
-11*é
-10?! M(DFD
-?% K(
-%5CapaEntidad.EntProveedor"CapaEntidad.EntProveedore
-c
-?) ?(5
-
-%6void"'CapaEntidad.EntProveedor.EntProveedor()*" 
-
-%5CapaEntidad.EntProveedor~
-|
-A A(,
-%7string"(CapaEntidad.EntProveedor.RazonSocial.set*" 
-
-%5CapaEntidad.EntProveedor*
-
-nombrestrings
-q
-B B(!
-%8string" CapaEntidad.EntProveedor.Ruc.set*" 
-
-%5CapaEntidad.EntProveedor*
-
-rucstringx
-v
-C C(&
-%9string"#CapaEntidad.EntProveedor.Correo.set*" 
-
-%5CapaEntidad.EntProveedor*
-
-emailstring~
-|
-D D(+
-%10string"%CapaEntidad.EntProveedor.Telefono.set*" 
-
-%5CapaEntidad.EntProveedor*
-
-telefonostringÖ
-Ç
-E E(1
-%11string"(CapaEntidad.EntProveedor.Descripcion.set*" 
-
-%5CapaEntidad.EntProveedor*
-
-descriptionstringr
-p
-F F(+
-%12bool")CapaEntidad.EntProveedor.EstProveedor.set*" 
-
-%5CapaEntidad.EntProveedor*
-""A?
-G! J(
-%13CapaEntidad.EntUbigeo"CapaEntidad.EntUbigeo^
-\
-G% G(.
-%14void"!CapaEntidad.EntUbigeo.EntUbigeo()* 
-
-%13CapaEntidad.EntUbigeoô
-ñ
-I' I(4
-%15string"CSystem.Collections.Specialized.NameValueCollection.this[string].get*(&
-$
-frmSystem.Web.Mvc.FormCollection*
-
-ubigeoA
-?
-I' I(?
-%16string"string.ToString()*
-
-%15stringt
-r
-I I(?
-%17string""CapaEntidad.EntUbigeo.IdUbigeo.set* 
-
-%13CapaEntidad.EntUbigeo*
-
-%16stringñ
-=======
-DMadereraCarocho.Controllers.ProductoController.EliminarProducto(int)x
-lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.csÑ Ñ(,"4*›
-0
-à à(Cñ
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-ì
-
-à à(.
-%0CapaLogica.LogProducto"__id*a_*]0
-.MadereraCarocho.Controllers.ProductoController")
-ProductoserviceCapaLogica.LogProductot
-r
-
-à à(D
-
-%1bool",CapaLogica.LogProducto.EliminarProducto(int)* 
-
-%0CapaLogica.LogProducto*
-""5
-3
-
-à à(D
-eliminabool"__id*
-
-
-%1bool*
-1
-2*Î
-1
-ç ç(Yca
-
-çO ç(Y
-%2string"System.Exception.Message.get*
-
-exSystem.Exception2Message.get∏
-µ
-
-ç ç(\*
-%3$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
-System.Web.Mvc.Controller*
-ListarProducto*
-""":
-
-ç ç(],
-*
-%3$System.Web.Mvc.RedirectToRouteResult*Ù
-2
-è è(4¶
-£
-
-è è(5*
-%4$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-ListarProducto":
-
-è è(6,
-*
-%4$System.Web.Mvc.RedirectToRouteResult*2
-3
-ê	 ê(	"!
-
-ê ê(	
-implicit return*B
-4
-Ñ5 Ñ(5,
-*
-
-Ñ Ñ(,
-%5"__entrypoint*
-""*
-0:
-
-Ñ- Ñ(4
-
-idPintB20
-.MadereraCarocho.Controllers.ProductoController

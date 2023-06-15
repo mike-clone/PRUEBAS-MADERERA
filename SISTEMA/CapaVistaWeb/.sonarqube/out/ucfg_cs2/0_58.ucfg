@@ -1,34 +1,0 @@
-
-<<<<<<< HEAD
- CapaEntidad.EntProveedor.Ruc.setU
-KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs) )("0*h
-0) )(T
-R
-) )(+
-CapaEntidad.EntProveedor"
-rucstring"__id*
-
-valuestring*
-1*.
-1)  )( "
-) )( 
-implicit return:
-valuestringB
-CapaEntidad.EntProveedor
-=======
-(CapaEntidad.EntUsuario.FechaCreacion.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs9 9("0*‚
-09 9('n
-l
-9 9('<
-CapaEntidad.EntUsuario" 
-fechaCreacionSystem.DateTime"__id*
-
-valueSystem.DateTime*
-1*.
-19* 9(*"
-9) 9(*
-implicit return:
-valueSystem.DateTimeB
-CapaEntidad.EntUsuario
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

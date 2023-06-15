@@ -1,11 +1,0 @@
-Ä	
-.MadereraCarocho.Controllers.ProductoControllerSystem.Web.Mvc.ControllerSystem.Web.Mvc.ControllerBaseobject[
-ProductoController()CMadereraCarocho.Controllers.ProductoController.ProductoController()e
-ListarParaComprar(string)HMadereraCarocho.Controllers.ProductoController.ListarParaComprar(string)_
-ListarProducto(string)EMadereraCarocho.Controllers.ProductoController.ListarProducto(string)Ü
-TCrearProducto(string, string, string, string, string, System.Web.Mvc.FormCollection)ƒMadereraCarocho.Controllers.ProductoController.CrearProducto(string, string, string, string, string, System.Web.Mvc.FormCollection)Y
-EditarProducto(int)BMadereraCarocho.Controllers.ProductoController.EditarProducto(int)¿
-FEditarProducto(CapaEntidad.EntProducto, System.Web.Mvc.FormCollection)uMadereraCarocho.Controllers.ProductoController.EditarProducto(CapaEntidad.EntProducto, System.Web.Mvc.FormCollection)]
-EliminarProducto(int)DMadereraCarocho.Controllers.ProductoController.EliminarProducto(int)e
-EliminarDetalle(int, int)HMadereraCarocho.Controllers.ProductoController.EliminarDetalle(int, int)i
-AgregarTempPrduct(int, int)JMadereraCarocho.Controllers.ProductoController.AgregarTempPrduct(int, int)

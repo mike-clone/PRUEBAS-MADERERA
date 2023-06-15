@@ -1,54 +1,0 @@
-
-<<<<<<< HEAD
-+CapaEntidad.EntProveedor.NombreCompleto.getU
-KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs ("0*“
-0 (9Y
-W
- ($
-%0string"__id*75*3
-CapaEntidad.EntProveedor"
-razonSocialstringT
-R
- (+
-%1string"__concat*
- ($
-
-%0string*
-' (+
-::Y
-W
-. (9
-%2string"__id*75*3
-CapaEntidad.EntProveedor"
-descripcionstring\
-Z
- (9
-%3string"__concat*
- (+
-
-%1string*
-. (9
-
-%2string"
- (:
-
-%3string*.
-1< (<"
-; (<
-implicit returnB
-CapaEntidad.EntProveedor
-=======
-#CapaEntidad.EntDetCompra.Compra.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs" (%"0*†
-0) (/r
-p
-) (/
-%0CapaEntidad.EntCompra"__id*A?*=
-CapaEntidad.EntDetCompra"
-compraCapaEntidad.EntCompra*
-1*.
-10 (0"
-/ (0
-implicit returnB
-CapaEntidad.EntDetCompra
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

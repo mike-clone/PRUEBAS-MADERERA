@@ -1,31 +1,0 @@
-
-<<<<<<< HEAD
-CapaEntidad.EntUsuario.Rol.setS
-ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csM M("0*g
-0M M(S
-Q
-M M(5
-CapaEntidad.EntUsuario"
-rolCapaEntidad.entRol"__id*
-""*
-1*.
-1M M("
-M M(
-implicit return:
-valueCapaEntidad.entRolB
-CapaEntidad.EntUsuario
-=======
--CapaEntidad.entReporteCompra.PrecUnitario.getg
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs% (("0*r
-0, (8^
-\
-, (8
-%0string"__id*<:*8
-CapaEntidad.entReporteCompra"
-precUnitariostring*
-1*.
-19 (9"
-8 (9
-implicit returnB 
-CapaEntidad.entReporteCompra
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

@@ -1,33 +1,0 @@
-
-<<<<<<< HEAD
-$CapaEntidad.EntUsuario.Direccion.getS
-ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs- -("0*€
-0- -("U
-S
-- -("
-%0string"__id*31*/
-CapaEntidad.EntUsuario"
-	direccionstring"
-- -(#
-
-%0string*.
-1-% -(%"
--$ -(%
-implicit returnB
-=======
-#CapaEntidad.EntUsuario.Telefono.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs( (("0*k
-0( (("W
-U
-( ((".
-CapaEntidad.EntUsuario"
-telefonostring"__id*
-
-valuestring*
-1*.
-1(% ((%"
-($ ((%
-implicit return:
-valuestringB
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-CapaEntidad.EntUsuario

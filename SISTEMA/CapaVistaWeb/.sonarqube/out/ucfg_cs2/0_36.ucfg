@@ -1,32 +1,0 @@
-
-<<<<<<< HEAD
- CapaEntidad.EntVenta.IdVenta.setQ
-GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*Z
-0 (!F
-D
- (!(
-CapaEntidad.EntVenta"
-idVentaint"__id*
-""*
-1*.
-1$ ($"
-# ($
-implicit return:
-valueintB
-=======
-CapaEntidad.EntVenta.Fecha.set_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*x
-0 (d
-b
- (2
-CapaEntidad.EntVenta"
-fechaSystem.DateTime"__id*
-
-valueSystem.DateTime*
-1*.
-1" (""
-! ("
-implicit return:
-valueSystem.DateTimeB
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-CapaEntidad.EntVenta

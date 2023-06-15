@@ -1,34 +1,0 @@
-
-<<<<<<< HEAD
-CapaEntidad.EntUsuario.Pass.getS
-ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csH H("0*{
-0H H(P
-N
-H H(
-%0string"__id*.,**
-CapaEntidad.EntUsuario"
-passstring"
-H H(
-
-%0string*.
-1H  H( "
-H H( 
-implicit returnB
-CapaEntidad.EntUsuario
-=======
-*CapaEntidad.entReporteCompra.Proveedor.setg
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs4 (7"0*r
-0; (L^
-\
-; (L5
-CapaEntidad.entReporteCompra"
-	proveedorstring"__id*
-
-valuestring*
-1*.
-1M (M"
-L (M
-implicit return:
-valuestringB 
-CapaEntidad.entReporteCompra
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

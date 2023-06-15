@@ -1,49 +1,0 @@
-
-<<<<<<< HEAD
-&CapaLogica.LogCompra.ListarCompra(int)Q
-GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs (+"0*Ÿ
-0 (0–
-“
- ( +
-%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
-CapaLogica.LogCompra"6
-CompraService%CapaAccesoDatos.Interfaces.IDatCompra¾»
- (1(
-%1"System.Collections.Generic.List<T>"7CapaAccesoDatos.Interfaces.IDatCompra.ListarCompra(int)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatCompra*
-""2ListarCompra(int)"6
- (2*
-(
-%1"System.Collections.Generic.List<T>*.
-1	 (	"
- (	
-implicit return:
-, (2	
-idintB
-=======
-(CapaLogica.LogCompra.EliminarCompra(int)_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs" "(""0*ç
-0$ $(4–
-“
-$ $( +
-%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
-CapaLogica.LogCompra"6
-CompraService%CapaAccesoDatos.Interfaces.IDatCompra¤¡
-$ $(5
-
-%1bool"9CapaAccesoDatos.Interfaces.IDatCompra.EliminarCompra(int)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatCompra*
-""2EliminarCompra(int)"
-$ $(6
-
-
-%1bool*.
-1%	 %(	"
-% %(	
-implicit return:
-"# "(+
-compintB
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-CapaLogica.LogCompra

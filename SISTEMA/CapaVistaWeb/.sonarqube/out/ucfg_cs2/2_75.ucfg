@@ -1,38 +1,0 @@
-
-<<<<<<< HEAD
-!CapaLogica.LogVenta.Instancia.getP
-FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs ("0*¥
-0 (#m
-k
- (#
-%0CapaLogica.LogVenta"__id*><*:
-CapaLogica.LogVenta"!
-
-_instanciaCapaLogica.LogVenta"'
- ($
-
-%0CapaLogica.LogVenta*.
-1& (&"
-% (&
-implicit returnB"
-=======
-)CapaLogica.LogVenta.ListarTodasLasVenta()^
-TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs& &(1"0*—
-0( ((5’
-
-( ((*
-%0$CapaAccesoDatos.Interfaces.IDatVenta"__id*QO*M
-CapaLogica.LogVenta"4
-VentaService$CapaAccesoDatos.Interfaces.IDatVentaº·
-( ((5(
-%1"System.Collections.Generic.List<T>":CapaAccesoDatos.Interfaces.IDatVenta.ListarTodasLasVenta()*.,
-*
-%0$CapaAccesoDatos.Interfaces.IDatVenta2ListarTodasLasVenta()"6
-( ((6*
-(
-%1"System.Collections.Generic.List<T>*.
-1)	 )(	"
-) )(	
-implicit returnB
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-CapaLogica.LogVenta

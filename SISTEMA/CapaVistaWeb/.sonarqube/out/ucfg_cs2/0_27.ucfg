@@ -1,32 +1,0 @@
-
-<<<<<<< HEAD
-CapaEntidad.EntCompra.Fecha.getR
-HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs ("0*–
-0 (b
-`
- (
-%0System.DateTime"__id*75*3
-CapaEntidad.EntCompra"
-fechaSystem.DateTime"#
- (
-
-%0System.DateTime*.
-1! (!"
-  (!
-implicit returnB
-CapaEntidad.EntCompra
-=======
-6CapaEntidad.EntTemporaryProducts.ProveedorProducto.getk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs8 (;"0*±
-0? (Pœ
-™
-? (P&
-%0 CapaEntidad.EntProveedorProducto"__id*_]*["
- CapaEntidad.EntTemporaryProducts"5
-proveedorProducto CapaEntidad.EntProveedorProducto*
-1*.
-1Q (Q"
-P (Q
-implicit returnB$"
- CapaEntidad.EntTemporaryProducts
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

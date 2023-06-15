@@ -1,34 +1,0 @@
-
-<<<<<<< HEAD
-#CapaEntidad.EntUsuario.Telefono.getS
-ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs' '("0*
-0' '(!T
-R
-' '(!
-%0string"__id*20*.
-CapaEntidad.EntUsuario"
-telefonostring"
-' '("
-
-%0string*.
-1'$ '($"
-'# '($
-implicit returnB
-CapaEntidad.EntUsuario
-=======
-$CapaEntidad.EntDetVenta.Producto.setb
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs ("0*Ž
-0 ("z
-x
- ("@
-CapaEntidad.EntDetVenta"#
-productoCapaEntidad.EntProducto"__id*$"
- 
-valueCapaEntidad.EntProducto*
-1*.
-1% (%"
-$ (%
-implicit return:" 
-valueCapaEntidad.EntProductoB
-CapaEntidad.EntDetVenta
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

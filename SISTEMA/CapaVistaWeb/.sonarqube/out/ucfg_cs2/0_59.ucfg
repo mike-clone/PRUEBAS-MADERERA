@@ -1,33 +1,0 @@
-
-<<<<<<< HEAD
-$CapaEntidad.EntDetVenta.Cantidad.setT
-JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs ("0*^
-0 ("J
-H
- (",
-CapaEntidad.EntDetVenta"
-cantidadint"__id*
-""*
-1*.
-1% (%"
-$ (%
-implicit return:
-valueintB
-CapaEntidad.EntDetVenta
-=======
-(CapaEntidad.EntUsuario.FechaCreacion.geta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs8 8("0*Ÿ
-08 8(&k
-i
-8 8(&
-%0System.DateTime"__id*@>*<
-CapaEntidad.EntUsuario" 
-fechaCreacionSystem.DateTime"#
-8 8('
-
-%0System.DateTime*.
-18) 8()"
-8( 8()
-implicit returnB
-CapaEntidad.EntUsuario
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

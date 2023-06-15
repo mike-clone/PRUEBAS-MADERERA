@@ -1,48 +1,0 @@
-
-<<<<<<< HEAD
-*CapaLogica.LogUsuario.BuscarIdUsuario(int)R
-HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs\ \()"0*“
-0^ ^(;š
-—
-^ ^(!,
-%0&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
-CapaLogica.LogUsuario"8
-UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioº·
-^ ^(<
-%1CapaEntidad.EntUsuario";CapaAccesoDatos.Interfaces.IDatUsuario.BuscarIdUsuario(int)*0.
-,
-%0&CapaAccesoDatos.Interfaces.IDatUsuario*
-""2BuscarIdUsuario(int)"*
-^ ^(=
-
-%1CapaEntidad.EntUsuario*.
-1_	 _(	"
-_ _(	
-implicit return:
-\* \(7
-	idClienteintB
-CapaLogica.LogUsuario
-=======
-3CapaLogica.LogProveedor.SelectListProveedordat(int)b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.csF" F(8"0*Å
-0I I(=¢
-Ÿ
-I I(#.
-%0(CapaAccesoDatos.Interfaces.IDatProveedor"__id*][*Y
-CapaLogica.LogProveedor"<
-ProveedorService(CapaAccesoDatos.Interfaces.IDatProveedorØÕ
-I I(>(
-%1"System.Collections.Generic.List<T>"DCapaAccesoDatos.Interfaces.IDatProveedor.SelectListProveedordat(int)*20
-.
-%0(CapaAccesoDatos.Interfaces.IDatProveedor*
-""2SelectListProveedordat(int)"6
-I I(?*
-(
-%1"System.Collections.Generic.List<T>*.
-1J	 J(	"
-J J(	
-implicit return:
-F9 F(?	
-idintB
-CapaLogica.LogProveedor
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

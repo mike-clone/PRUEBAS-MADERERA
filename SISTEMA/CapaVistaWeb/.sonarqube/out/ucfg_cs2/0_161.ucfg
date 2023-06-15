@@ -1,34 +1,0 @@
-
-<<<<<<< HEAD
-#CapaEntidad.entRoll.Descripcion.setO
-ED:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs8 (;"0*k
-0? (RW
-U
-? (R.
-CapaEntidad.entRoll"
-descripcionstring"__id*
-
-valuestring*
-1*.
-1S (S"
-R (S
-implicit return:
-valuestringB
-CapaEntidad.entRoll
-=======
-"CapaEntidad.EntProducto.Nombre.setb
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs ("0*j
-0 ( V
-T
- ( -
-CapaEntidad.EntProducto"
-nombrestring"__id*
-
-valuestring*
-1*.
-1# (#"
-" (#
-implicit return:
-valuestringB
-CapaEntidad.EntProducto
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

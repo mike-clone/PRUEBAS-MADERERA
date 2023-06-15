@@ -1,31 +1,0 @@
-
-<<<<<<< HEAD
-+CapaEntidad.entReporteVenta.Descripcion.setX
-ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs8 (;"0*s
-0? (R_
-]
-? (R6
-CapaEntidad.entReporteVenta"
-descripcionstring"__id*
-
-valuestring*
-1*.
-1S (S"
-R (S
-implicit return:
-valuestringB
-CapaEntidad.entReporteVenta
-=======
-)CapaEntidad.entReporteCompra.SubTotal.getg
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs! ($"0*6
-0( (0"
- 
-( (0
-%0"__id*
-""*
-1*.
-11 (1"
-0 (1
-implicit returnB 
-CapaEntidad.entReporteCompra
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

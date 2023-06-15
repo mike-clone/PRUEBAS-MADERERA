@@ -1,34 +1,0 @@
-
-<<<<<<< HEAD
-#CapaEntidad.EntProveedor.Correo.getU
-KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs/ /("0*
-0/ /(T
-R
-/ /(
-%0string"__id*20*.
-CapaEntidad.EntProveedor"
-correostring"
-/ /( 
-
-%0string*.
-1/" /(""
-/! /("
-implicit returnB
-CapaEntidad.EntProveedor
-=======
-#CapaEntidad.EntUsuario.UserName.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csD D("0*k
-0D D("W
-U
-D D(".
-CapaEntidad.EntUsuario"
-userNamestring"__id*
-
-valuestring*
-1*.
-1D% D(%"
-D$ D(%
-implicit return:
-valuestringB
-CapaEntidad.EntUsuario
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

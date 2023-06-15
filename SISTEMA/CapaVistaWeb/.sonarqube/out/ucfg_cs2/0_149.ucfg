@@ -1,34 +1,0 @@
-
-<<<<<<< HEAD
-&CapaEntidad.EntTipoProducto.Nombre.setX
-ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.cs	. 	(1"0*n
-0	5 	(CZ
-X
-	5 	(C1
-CapaEntidad.EntTipoProducto"
-nombrestring"__id*
-
-valuestring*
-1*.
-1	D 	(D"
-	C 	(D
-implicit return:
-valuestringB
-CapaEntidad.EntTipoProducto
-=======
-#CapaEntidad.EntProveedor.Correo.setc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs0 0("0*k
-00 0( W
-U
-0 0( .
-CapaEntidad.EntProveedor"
-correostring"__id*
-
-valuestring*
-1*.
-10# 0(#"
-0" 0(#
-implicit return:
-valuestringB
-CapaEntidad.EntProveedor
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

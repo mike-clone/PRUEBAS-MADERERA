@@ -1,489 +1,0 @@
-
-<<<<<<< HEAD
-xMadereraCarocho.Controllers.ProveedorController.EditarProveedor(CapaEntidad.EntProveedor, System.Web.Mvc.FormCollection)i
-_D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.csg g(+"16*÷
-0i i(Ag
-e
-i4 i(A
-%0string"(CapaEntidad.EntProveedor.RazonSocial.get*!
-
-pCapaEntidad.EntProveedorV
-T
-i i(B
-
-%1bool"string.IsNullOrEmpty(string)*
-"
-string*
-
-%0string*
-1
-2*À
-2iF i(a_
-]
-i\ i(a
-%2string" CapaEntidad.EntProveedor.Ruc.get*!
-
-pCapaEntidad.EntProveedorV
-T
-iG i(b
-
-%3bool"string.IsNullOrEmpty(string)*
-"
-string*
-
-%2string*
-1*
-1
-Ç	 Ç(	*
-3
-4*—
-4	if i(Ñc
-a
-	i| i(Ñ
-%4string"#CapaEntidad.EntProveedor.Correo.get*!
-
-pCapaEntidad.EntProveedorW
-U
-	ig i(Ö
-
-%5bool"string.IsNullOrEmpty(string)*
-"
-string*
-
-%4string*
-3*
-3
-Ç	 Ç(	*
-5
-6*÷
-6
-iâ i(©f
-d
-
-iü i(©
-%6string"%CapaEntidad.EntProveedor.Telefono.get*!
-
-pCapaEntidad.EntProveedorX
-V
-
-iä i(™
-
-%7bool"string.IsNullOrEmpty(string)*
-"
-string*
-
-%6string*
-5*
-5
-Ç	 Ç(	*
-7
-8*Ÿ
-8
-iÆ i(—i
-g
-
-iƒ i(—
-%8string"(CapaEntidad.EntProveedor.Descripcion.get*!
-
-pCapaEntidad.EntProveedorX
-V
-
-iØ i(“
-
-%9bool"string.IsNullOrEmpty(string)*
-"
-string*
-
-%8string*
-7*F
-7	i i(“1
-/
-	i i(“
-
-isNonEmptybool"__id*
-""*
-9*
-9m m(*
-10
-11*•
-10o s(;A?
-o r(
-%10CapaEntidad.EntUbigeo"CapaEntidad.EntUbigeo^
-\
-o# o(,
-%11void"!CapaEntidad.EntUbigeo.EntUbigeo()* 
-
-%10CapaEntidad.EntUbigeoñ
-ì
-q# q(-
-%12string"CSystem.Collections.Specialized.NameValueCollection.this[string].get*(&
-$
-frmSystem.Web.Mvc.FormCollection*	
-Ubit
-r
-q q(-
-%13string""CapaEntidad.EntUbigeo.IdUbigeo.set* 
-
-%10CapaEntidad.EntUbigeo*
-
-%12stringï
-í
-o r(
-%14CapaEntidad.EntUbigeo"#CapaEntidad.EntProveedor.Ubigeo.set*!
-
-pCapaEntidad.EntProveedor* 
-
-%10CapaEntidad.EntUbigeoô
-ñ
-s s(%
-%15CapaLogica.LogProveedor"__id*db*`1
-/MadereraCarocho.Controllers.ProveedorController"+
-ProveedorserviceCapaLogica.LogProveedor®
-•
-s s(<
-%16bool"ECapaLogica.LogProveedor.ActualizarProveedor(CapaEntidad.EntProveedor)*" 
-
-%15CapaLogica.LogProveedor*!
-
-pCapaEntidad.EntProveedor*
-12*”
-
-11v x(!,*
-v v(
-%TempDataAllobject"object-+
-v v(
-%TempDataHtmlobject"object≠
-™
-v v(N
-%17object":System.Collections.Generic.ICollection<T>.this[string].set*
-
-%TempDataAllobject*
-	errorEdit*&$"
- Todos los datos son obligatoriosÜ
-É
-%18object":System.Collections.Generic.ICollection<T>.this[string].set*
-
-%TempDataHtmlobject*
-	errorEdit*
-""∑
-¥
-x x("
-%19void",capavistaweb/views/proveedor/editarproveedor*	
-
-%20*!
-
-pCapaEntidad.EntProveedor*
-=======
-DMadereraCarocho.Controllers.ProveedorController.EditarProveedor(int)w
-mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs[ [(+"2*ú
-0] c(ò
-ï
-]  ](0
-%0CapaLogica.LogProveedor"__id*db*`1
-/MadereraCarocho.Controllers.ProveedorController"+
-ProveedorserviceCapaLogica.LogProveedorä
-á
-]  ](J
-%1CapaEntidad.EntProveedor".CapaLogica.LogProveedor.BuscarIdProveedor(int)*!
-
-%0CapaLogica.LogProveedor*
-""X
-V
-] ](J 
-provCapaEntidad.EntProveedor"__id*" 
-
-%1CapaEntidad.EntProveedorè
-å
-_* _(7
-%2CapaLogica.LogUbigeo"__id*^\*Z1
-/MadereraCarocho.Controllers.ProveedorController"%
-UbigeoserviceCapaLogica.LogUbigeo}
-{
-_* _(H(
-%3"System.Collections.Generic.List<T>"%CapaLogica.LogUbigeo.ListarDistrito()*
-
-%2CapaLogica.LogUbigeos
-q
-_ _(H1
-listaUbigeo"System.Collections.Generic.List<T>"__id*,*
-(
-%3"System.Collections.Generic.List<T>HF
-` `(N
-%4System.Web.Mvc.SelectList"System.Web.Mvc.SelectListÎ
-Ë
-` `()
-
-%5void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
-
-%4System.Web.Mvc.SelectList*53
-1
-listaUbigeo"System.Collections.Generic.List<T>*
-
-idUbigeo*
-
-distrito^
-\
-` `(N%
-lsUbigeoSystem.Web.Mvc.SelectList"__id*#!
-
-%4System.Web.Mvc.SelectList/-
-a a(
-%ViewBagDataAllobject"object0.
-a a(
-%ViewBagDataHtmlobject"objecty
-w
-a a(*
-%6"__mapSet*
-
-%ViewBagDataAllobject*
-listaUbigeo*)'
-%
-lsUbigeoSystem.Web.Mvc.SelectListY
-W
-a a(*
-%7"__mapSet*
-
-%ViewBagDataHtmlobject*
-listaUbigeo*
-""∏
-µ
-c c(
-
-%8void",capavistaweb/views/proveedor/editarproveedor*
-
-%9*$"
- 
-provCapaEntidad.EntProveedor*
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-<<<<<<< HEAD
-%HttpContextItemsHtmlobject®
-•
-x x("
-%21void"capavistaweb/views/_viewstart*	
-
-%22*!
-
-pCapaEntidad.EntProveedor*
-=======
-%HttpContextItemsHtmlobject´
-®
-c c(
-%10void"capavistaweb/views/_viewstart*	
-
-%11*$"
- 
-provCapaEntidad.EntProveedor*
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-<<<<<<< HEAD
-%HttpContextItemsHtmlobject¨
-©
-x x("
-%23void"!capavistaweb/views/shared/_layout*	
-
-%24*!
-
-pCapaEntidad.EntProveedor*
-=======
-%HttpContextItemsHtmlobjectØ
-¨
-c c(
-%12void"!capavistaweb/views/shared/_layout*	
-
-%13*$"
- 
-provCapaEntidad.EntProveedor*
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-<<<<<<< HEAD
-x x(#
-
-%23void*
-12
-Ç	 Ç(	*
-13
-14*º
-
-13~ (b`
-~# ~(-
-%25string"System.Exception.Message.get*
-
-exSystem.Exception2Message.getî
-ë
-~ ~(-
-%26object":System.Collections.Generic.ICollection<T>.this[string].set*
-
-%TempDataAllobject*	
-error*
-
-%25stringÅ
-
-%27object":System.Collections.Generic.ICollection<T>.this[string].set*
-
-%TempDataHtmlobject*	
-error*
-""∑
-¥
- (
-%28void",capavistaweb/views/proveedor/editarproveedor*	
-
-%29*!
-
-pCapaEntidad.EntProveedor*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject®
-•
- (
-%30void"capavistaweb/views/_viewstart*	
-
-%31*!
-
-pCapaEntidad.EntProveedor*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject¨
-©
- (
-%32void"!capavistaweb/views/shared/_layout*	
-
-%33*!
-
-pCapaEntidad.EntProveedor*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
- (
-
-%32void*Ô
-14
-Å Å(,ü
-ú
-
-Å Å(-+
-%34$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-
-Listar";
-
-Å Å(.-
-+
-%34$System.Web.Mvc.RedirectToRouteResult*3
-15
-Ç	 Ç(	"!
-
-Ç Ç(	
-implicit return*ü
-16gO g(On
-l
-g g(+
-%35"__entrypoint*!
-
-pCapaEntidad.EntProveedor*(&
-$
-frmSystem.Web.Mvc.FormCollection~
-|
-f	 f(
-%36"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*!
-
-pCapaEntidad.EntProveedorD
-B
-g, g(:
-pCapaEntidad.EntProveedor"__annotation*	
-
-%36Ü
-É
-f	 f(
-%37"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*(&
-$
-frmSystem.Web.Mvc.FormCollectionK
-I
-g< g(N$
-frmSystem.Web.Mvc.FormCollection"__annotation*	
-
-%37*
-0:)
-g, g(:
-pCapaEntidad.EntProveedor:0
-g< g(N$
-frmSystem.Web.Mvc.FormCollectionB31
-=======
-c c(
-
-%12void*.
-1d	 d(	"
-d d(	
-implicit return*?
-2[7 [(7+
-)
-[ [(+
-%14"__entrypoint*
-""*
-0:
-[, [(6
-idprovintB31
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-/MadereraCarocho.Controllers.ProveedorController

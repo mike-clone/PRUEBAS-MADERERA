@@ -1,33 +1,0 @@
-
-<<<<<<< HEAD
-$CapaEntidad.EntDetVenta.Cantidad.getT
-JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs ("0*E
-0 (!"
- 
- (!
-%0"__id*
-"""
- ("
-
-%0*.
-1$ ($"
-# ($
-implicit returnB
-CapaEntidad.EntDetVenta
-=======
-$CapaEntidad.EntUsuario.Direccion.geta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs- -("0*€
-0- -("U
-S
-- -("
-%0string"__id*31*/
-CapaEntidad.EntUsuario"
-	direccionstring"
-- -(#
-
-%0string*.
-1-% -(%"
--$ -(%
-implicit returnB
-CapaEntidad.EntUsuario
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

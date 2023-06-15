@@ -1,33 +1,0 @@
-
-<<<<<<< HEAD
-(CapaEntidad.EntProveedor.IdProveedor.setU
-KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs ("0*b
-0 (%N
-L
- (%0
-CapaEntidad.EntProveedor"
-idProveedorint"__id*
-""*
-1*.
-1( (("
-' ((
-implicit return:
-valueintB
-CapaEntidad.EntProveedor
-=======
-CapaEntidad.EntVenta.Fecha.get_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*•
-0 (a
-_
- (
-%0System.DateTime"__id*64*2
-CapaEntidad.EntVenta"
-fechaSystem.DateTime"#
- (
-
-%0System.DateTime*.
-1! (!"
-  (!
-implicit returnB
-CapaEntidad.EntVenta
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

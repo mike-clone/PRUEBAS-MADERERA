@@ -1,50 +1,0 @@
-
-<<<<<<< HEAD
-BCapaLogica.LogProveedorProducto.EliminarDetalleProveedor(int, int)\
-RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs9 9(,"0*Ñ
-0; ;(OÂ
-¿
-; ;(+6
-%00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
-CapaLogica.LogProveedorProducto"L
-ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProductoâß
-; ;(P
-
-%1bool"SCapaAccesoDatos.Interfaces.IDatProveedorProducto.EliminarDetalleProveedor(int, int)*:8
-6
-%00CapaAccesoDatos.Interfaces.IDatProveedorProducto*
-""*
-""2"EliminarDetalleProveedor(int, int)"
-; ;(Q
-
-
-%1bool*.
-1<	 <(	"
-< <(	
-implicit return:
-9- 9(5
-provint:
-97 9(?
-prodintB#!
-CapaLogica.LogProveedorProducto
-=======
-#CapaLogica.LogUbigeo.ListarUbigeo()_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs   (+"0*
-0" "(/–
-“
-" "( +
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
-CapaLogica.LogUbigeo"6
-UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeo®«
-" "(/(
-%1"System.Collections.Generic.List<T>"4CapaAccesoDatos.Interfaces.IDatUbigeo.ListarUbigeo()*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo2ListarUbigeo()"6
-" "(0*
-(
-%1"System.Collections.Generic.List<T>*.
-1#	 #(	"
-# #(	
-implicit returnB
-CapaLogica.LogUbigeo
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

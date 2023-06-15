@@ -1,35 +1,0 @@
-
-<<<<<<< HEAD
-$CapaLogica.LogDetVenta.LogDetVenta()S
-ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs ("1*
-1	 (	*
-0*.
-0	 (	"
- (	
-implicit returnB
-CapaLogica.LogDetVenta
-=======
-4CapaLogica.LogVenta.CrearVenta(CapaEntidad.EntVenta)^
-TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs ("0*Ž
-0   (,’
-
-   (*
-%0$CapaAccesoDatos.Interfaces.IDatVenta"__id*QO*M
-CapaLogica.LogVenta"4
-VentaService$CapaAccesoDatos.Interfaces.IDatVentaÐÍ
-   (-	
-%1int"ECapaAccesoDatos.Interfaces.IDatVenta.CrearVenta(CapaEntidad.EntVenta)*.,
-*
-%0$CapaAccesoDatos.Interfaces.IDatVenta*
-
-vCapaEntidad.EntVenta2 CrearVenta(CapaEntidad.EntVenta)"
-   (.
-	
-%1int*.
-1!	 !(	"
-! !(	
-implicit return:%
- ((
-vCapaEntidad.EntVentaB
-CapaLogica.LogVenta
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

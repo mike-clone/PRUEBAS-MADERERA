@@ -1,32 +1,0 @@
-
-<<<<<<< HEAD
-!CapaEntidad.EntUsuario.Correo.setS
-ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs? ?("0*i
-0? ?( U
-S
-? ?( ,
-CapaEntidad.EntUsuario"
-correostring"__id*
-
-valuestring*
-1*.
-1?# ?(#"
-?" ?(#
-implicit return:
-valuestringB
-CapaEntidad.EntUsuario
-=======
-&CapaEntidad.EntTipoProducto.Nombre.getf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.cs	 	(""0*k
-0	& 	(,W
-U
-	& 	(,
-%0string"__id*53*1
-CapaEntidad.EntTipoProducto"
-nombrestring*
-1*.
-1	- 	(-"
-	, 	(-
-implicit returnB
-CapaEntidad.EntTipoProducto
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

@@ -1,34 +1,0 @@
-
-<<<<<<< HEAD
-,CapaEntidad.entReporteVenta.PrecUnitario.setX
-ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs: (="0*t
-0A (U`
-^
-A (U7
-CapaEntidad.entReporteVenta"
-precUnitariostring"__id*
-
-valuestring*
-1*.
-1V (V"
-U (V
-implicit return:
-valuestringB
-CapaEntidad.entReporteVenta
-=======
-#CapaEntidad.EntProveedor.Ubigeo.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.csH H("0*¬
-0H H(r
-p
-H H(
-%0CapaEntidad.EntUbigeo"__id*A?*=
-CapaEntidad.EntProveedor"
-ubigeoCapaEntidad.EntUbigeo")
-H H( 
-
-%0CapaEntidad.EntUbigeo*.
-1H" H(""
-H! H("
-implicit returnB
-CapaEntidad.EntProveedor
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

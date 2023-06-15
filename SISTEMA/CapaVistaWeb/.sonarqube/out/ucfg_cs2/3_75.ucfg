@@ -1,118 +1,0 @@
-
-;MadereraCarocho.Controllers.CompraController.ListarCompra()f
-\D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\CompraController.cs (("2* 
-0! #(DB@
-! !( 
-%0CapaEntidad.EntUsuario"CapaEntidad.EntUsuario_
-]
-! !(
-
-%1void"#CapaEntidad.EntUsuario.EntUsuario()* 
-
-%0CapaEntidad.EntUsuario{
-y
-"! "((%
-%2System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
-System.Web.Mvc.Controller£ 
-"! "(3
-%3object":System.Collections.Generic.ICollection<T>.this[string].get*)'
-%
-%2System.Web.HttpSessionStateBase*	
-Usuario2this[string].get2
-0
-"! "(A
-%4object"__id*
-
-%3objectG
-E
-" "(A!
-usuarioCapaEntidad.EntUsuario"__id*
-
-%4objectŒ
-‰
-# #(%
-%5CapaLogica.LogCompra"__id*[Y*W.
-,MadereraCarocho.Controllers.CompraController"%
-CompraServiceCapaLogica.LogComprad
-b
-#3 #(D	
-%6int"$CapaEntidad.EntUsuario.IdUsuario.get*%#
-!
-usuarioCapaEntidad.EntUsuarioŽ
-‹
-# #(E(
-%7"System.Collections.Generic.List<T>"&CapaLogica.LogCompra.ListarCompra(int)*
-
-%5CapaLogica.LogCompra*
-	
-%6intº
-·
-# #(F
-
-%8void"&capavistaweb/views/compra/listarcompra*
-
-%9*,*
-(
-%7"System.Collections.Generic.List<T>*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject³
-°
-# #(F
-%10void"capavistaweb/views/_viewstart*	
-
-%11*,*
-(
-%7"System.Collections.Generic.List<T>*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject·
-´
-# #(F
-%12void"!capavistaweb/views/shared/_layout*	
-
-%13*,*
-(
-%7"System.Collections.Generic.List<T>*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-# #(G
-
-%12void*.
-1$	 $(	"
-$ $(	
-implicit return*5
-2* (*!
-
- ((
-%14"__entrypoint*
-0B0.
-,MadereraCarocho.Controllers.CompraController

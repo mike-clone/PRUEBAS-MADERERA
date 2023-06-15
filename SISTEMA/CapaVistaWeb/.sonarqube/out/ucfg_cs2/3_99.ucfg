@@ -1,264 +1,0 @@
-
-zMadereraCarocho.Controllers.HomeController.EditarDatosAdministrador(CapaEntidad.EntUsuario, System.Web.Mvc.FormCollection)f
-ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csÅ Å(4"7*ﬁ
-0
-Ñ Ü(%B@
-
-Ñ á(
-%0CapaEntidad.EntUbigeo"CapaEntidad.EntUbigeo^
-\
-
-Ñ Ñ(&
-
-%1void"!CapaEntidad.EntUbigeo.EntUbigeo()*
-
-%0CapaEntidad.EntUbigeoò
-ï
-
-Ü Ü(&
-%2string"CSystem.Collections.Specialized.NameValueCollection.this[string].get*(&
-$
-frmSystem.Web.Mvc.FormCollection*
-
-Ubigs
-q
-
-Ü Ü(&
-%3string""CapaEntidad.EntUbigeo.IdUbigeo.set*
-
-%0CapaEntidad.EntUbigeo*
-
-%2stringì
-ê
-
-Ñ á(
-%4CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.set*!
-
-usuCapaEntidad.EntUsuario*
-
-%0CapaEntidad.EntUbigeo*
-1*á
-1
-ä ã(è
-å
-
-ä  ä(.
-%5CapaLogica.LogUsuario"__id*[Y*W,
-*MadereraCarocho.Controllers.HomeController"'
-UsuarioserviceCapaLogica.LogUsuario¶
-£
-
-ä  ä(K
-
-%6bool"ECapaLogica.LogUsuario.ActualizarAdministrador(CapaEntidad.EntUsuario)*
-
-%5CapaLogica.LogUsuario*!
-
-usuCapaEntidad.EntUsuario3
-1
-
-ä ä(K
-editabool"__id*
-
-
-%6bool*
-2
-3*ç
-2
-ç é(3ü
-ú
-
-ç ç("!
-%7System.Web.Mvc.ActionResult"9MadereraCarocho.Controllers.HomeController.CerrarSesion()*0.,
-*MadereraCarocho.Controllers.HomeControllerù
-ö
-
-é é(4*
-%8$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*	
-Index":
-
-é é(5,
-*
-%8$System.Web.Mvc.RedirectToRouteResult*…
-3
-í í(#º
-π
-
-í í($
-
-%9void"0capavistaweb/views/home/editardatosadministrador*	
-
-%10*!
-
-usuCapaEntidad.EntUsuario*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject™
-ß
-
-í í($
-%11void"capavistaweb/views/_viewstart*	
-
-%12*!
-
-usuCapaEntidad.EntUsuario*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobjectÆ
-´
-
-í í($
-%13void"!capavistaweb/views/shared/_layout*	
-
-%14*!
-
-usuCapaEntidad.EntUsuario*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-
-í í(%
-
-%13void*
-4
-ô	 ô(	*	
-5
-6
-6*
-5
-ó ó(Pom
-
-óF ó(P
-%15string"System.Exception.Message.get*%#
-!
-exSystem.ApplicationException2Message.get∞
-≠
-
-ó ó(S+
-%16$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
-System.Web.Mvc.Controller*	
-Admin*
-""";
-
-ó ó(T-
-+
-%16$System.Web.Mvc.RedirectToRouteResult*2
-6
-ô	 ô(	"!
-
-ô ô(	
-implicit return*Ω	
-7
-ÅX Å(Xp
-n
-
-Å Å(4
-%17"__entrypoint*!
-
-usuCapaEntidad.EntUsuario*(&
-$
-frmSystem.Web.Mvc.FormCollectionÄ
-~
-
-˝	 ˝(
-%18"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*!
-
-usuCapaEntidad.EntUsuario£
-†
-
-ˇ	 ˇ(*
-%19"
-__annotate*\ZX
-VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*!
-
-usuCapaEntidad.EntUsuarioÉ
-Ä
-
-Ä	 Ä(
-%20"
-__annotate*<:8
-6System.Web.Mvc.AuthorizeAttribute.AuthorizeAttribute()*!
-
-usuCapaEntidad.EntUsuario\
-Z
-
-Å5 Å(C
-usuCapaEntidad.EntUsuario"__annotation*	
-
-%18*	
-
-%19*	
-
-%20à
-Ö
-
-˝	 ˝(
-%21"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*(&
-$
-frmSystem.Web.Mvc.FormCollection™
-ß
-
-ˇ	 ˇ(*
-%22"
-__annotate*\ZX
-VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*(&
-$
-frmSystem.Web.Mvc.FormCollectionä
-á
-
-Ä	 Ä(
-%23"
-__annotate*<:8
-6System.Web.Mvc.AuthorizeAttribute.AuthorizeAttribute()*(&
-$
-frmSystem.Web.Mvc.FormCollectionc
-a
-
-ÅE Å(W$
-frmSystem.Web.Mvc.FormCollection"__annotation*	
-
-%21*	
-
-%22*	
-
-%23*
-0:+
-
-Å5 Å(C
-usuCapaEntidad.EntUsuario:2
-
-ÅE Å(W$
-frmSystem.Web.Mvc.FormCollectionB.,
-*MadereraCarocho.Controllers.HomeController

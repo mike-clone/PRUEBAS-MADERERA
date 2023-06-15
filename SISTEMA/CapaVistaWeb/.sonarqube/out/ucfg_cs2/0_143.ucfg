@@ -1,34 +1,0 @@
-
-<<<<<<< HEAD
-CapaEntidad.EntUsuario.Roll.setS
-ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csW W("0*
-0W W(m
-k
-W W(7
-CapaEntidad.EntUsuario"
-rollCapaEntidad.entRoll"__id* 
-
-valueCapaEntidad.entRoll*
-1*.
-1W! W(!"
-W  W(!
-implicit return:
-valueCapaEntidad.entRollB
-CapaEntidad.EntUsuario
-=======
-#CapaEntidad.EntProveedor.Correo.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs/ /("0*
-0/ /(T
-R
-/ /(
-%0string"__id*20*.
-CapaEntidad.EntProveedor"
-correostring"
-/ /( 
-
-%0string*.
-1/" /(""
-/! /("
-implicit returnB
-CapaEntidad.EntProveedor
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

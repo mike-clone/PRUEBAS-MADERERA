@@ -1,9 +1,0 @@
-‡
-CapaLogica.LogTipoProductoobjectA
-LogTipoProducto(),CapaLogica.LogTipoProducto.LogTipoProducto()—
-<LogTipoProducto(CapaAccesoDatos.Interfaces.IDatTipoProducto)WCapaLogica.LogTipoProducto.LogTipoProducto(CapaAccesoDatos.Interfaces.IDatTipoProducto){
-.CrearTipoProducto(CapaEntidad.EntTipoProducto)ICapaLogica.LogTipoProducto.CrearTipoProducto(CapaEntidad.EntTipoProducto)O
-SelectListTipoProducto()3CapaLogica.LogTipoProducto.SelectListTipoProducto()[
-SelectListTipoProductodat(int)9CapaLogica.LogTipoProducto.SelectListTipoProductodat(int)…
-3ActualizarTipoProducto(CapaEntidad.EntTipoProducto)NCapaLogica.LogTipoProducto.ActualizarTipoProducto(CapaEntidad.EntTipoProducto)Q
-EliminarTipoProducto(int)4CapaLogica.LogTipoProducto.EliminarTipoProducto(int)

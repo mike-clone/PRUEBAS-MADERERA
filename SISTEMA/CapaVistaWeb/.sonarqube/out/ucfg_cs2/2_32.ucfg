@@ -1,52 +1,0 @@
-
-<<<<<<< HEAD
-XCapaLogica.LogProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)\
-RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs (*"0*—
-0 (GÂ
-¿
- (+6
-%00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
-CapaLogica.LogProveedorProducto"L
-ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProducto¨¥
- (H
-
-%1bool"iCapaAccesoDatos.Interfaces.IDatProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)*:8
-6
-%00CapaAccesoDatos.Interfaces.IDatProveedorProducto*,*
-(
-prod CapaEntidad.EntProveedorProducto28CrearProveedorProducto(CapaEntidad.EntProveedorProducto)"
- (I
-
-
-%1bool*.
-1!	 !(	"
-! !(	
-implicit return:4
-+ (D(
-prod CapaEntidad.EntProveedorProductoB#!
-CapaLogica.LogProveedorProducto
-=======
-7CapaLogica.LogCompra.CrearCompra(CapaEntidad.EntCompra)_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs ("0*œ
-0 (1–
-“
- ( +
-%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
-CapaLogica.LogCompra"6
-CompraService%CapaAccesoDatos.Interfaces.IDatCompraÚ×
- (2	
-%1int"HCapaAccesoDatos.Interfaces.IDatCompra.CrearCompra(CapaEntidad.EntCompra)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatCompra*!
-
-compCapaEntidad.EntCompra2"CrearCompra(CapaEntidad.EntCompra)"
- (3
-	
-%1int*.
-1	 (	"
- (	
-implicit return:)
- (-
-compCapaEntidad.EntCompraB
-CapaLogica.LogCompra
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

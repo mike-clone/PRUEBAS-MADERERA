@@ -1,54 +1,0 @@
-
-<<<<<<< HEAD
-ICapaLogica.LogTipoProducto.CrearTipoProducto(CapaEntidad.EntTipoProducto)W
-MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs (%"0*è
-0   (E®
-«
-   (&1
-%0+CapaAccesoDatos.Interfaces.IDatTipoProducto"__id*fd*b
-CapaLogica.LogTipoProducto"B
-TipoProductoService+CapaAccesoDatos.Interfaces.IDatTipoProductoŠ
-   (F
-
-%1bool"ZCapaAccesoDatos.Interfaces.IDatTipoProducto.CrearTipoProducto(CapaEntidad.EntTipoProducto)*53
-1
-%0+CapaAccesoDatos.Interfaces.IDatTipoProducto*/-
-+
-tipoProductoCapaEntidad.EntTipoProducto2.CrearTipoProducto(CapaEntidad.EntTipoProducto)"
-   (G
-
-
-%1bool*.
-1!	 !(	"
-! !(	
-implicit return:7
-& (B+
-tipoProductoCapaEntidad.EntTipoProductoB
-CapaLogica.LogTipoProducto
-=======
-@CapaLogica.LogDetCompra.CrearDetCompra(CapaEntidad.EntDetCompra)b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetCompra.cs (""0*¿
-0 (7¢
-Ÿ
- (#.
-%0(CapaAccesoDatos.Interfaces.IDatDetCompra"__id*][*Y
-CapaLogica.LogDetCompra"<
-DetCompraService(CapaAccesoDatos.Interfaces.IDatDetCompraðí
- (8
-
-%1bool"QCapaAccesoDatos.Interfaces.IDatDetCompra.CrearDetCompra(CapaEntidad.EntDetCompra)*20
-.
-%0(CapaAccesoDatos.Interfaces.IDatDetCompra*$"
- 
-compCapaEntidad.EntDetCompra2(CrearDetCompra(CapaEntidad.EntDetCompra)"
- (9
-
-
-%1bool*.
-1	 (	"
- (	
-implicit return:,
-# (4 
-compCapaEntidad.EntDetCompraB
-CapaLogica.LogDetCompra
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

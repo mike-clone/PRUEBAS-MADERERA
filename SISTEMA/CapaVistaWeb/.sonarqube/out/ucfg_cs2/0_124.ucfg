@@ -1,31 +1,0 @@
-
-<<<<<<< HEAD
-,CapaEntidad.entReporteCompra.Descripcion.setY
-OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs8 (;"0*t
-0? (R`
-^
-? (R7
-CapaEntidad.entReporteCompra"
-descripcionstring"__id*
-
-valuestring*
-1*.
-1S (S"
-R (S
-=======
-)CapaEntidad.entReporteCompra.Cantidad.setg
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs2 (5"0*q
-09 (I]
-[
-9 (I4
-CapaEntidad.entReporteCompra"
-cantidadstring"__id*
-
-valuestring*
-1*.
-1J (J"
-I (J
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-implicit return:
-valuestringB 
-CapaEntidad.entReporteCompra

@@ -1,31 +1,0 @@
-
-<<<<<<< HEAD
-%CapaEntidad.entReporteVenta.Fecha.setX
-ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs. (1"0*
-05 (Bk
-i
-5 (B9
-CapaEntidad.entReporteVenta"
-fechaSystem.DateTime"__id*
-
-valueSystem.DateTime*
-1*.
-1C (C"
-B (C
-implicit return:
-valueSystem.DateTimeB
-=======
-(CapaEntidad.entReporteVenta.Cantidad.getf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs! ($"0*m
-0( (0Y
-W
-( (0
-%0string"__id*75*3
-CapaEntidad.entReporteVenta"
-cantidadstring*
-1*.
-11 (1"
-0 (1
-implicit returnB
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-CapaEntidad.entReporteVenta

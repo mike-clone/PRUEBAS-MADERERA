@@ -1,34 +1,0 @@
-
-<<<<<<< HEAD
- CapaEntidad.EntProveedor.Ruc.getU
-KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs( (("0*|
-0( ((Q
-O
-( ((
-%0string"__id*/-*+
-CapaEntidad.EntProveedor"
-rucstring"
-( ((
-
-%0string*.
-1( (("
-( ((
-implicit returnB
-CapaEntidad.EntProveedor
-=======
-!CapaEntidad.EntUsuario.Ubigeo.geta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs3 3("0*ª
-03 3(p
-n
-3 3(
-%0CapaEntidad.EntUbigeo"__id*?=*;
-CapaEntidad.EntUsuario"
-ubigeoCapaEntidad.EntUbigeo")
-3 3( 
-
-%0CapaEntidad.EntUbigeo*.
-13" 3(""
-3! 3("
-implicit returnB
-CapaEntidad.EntUsuario
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

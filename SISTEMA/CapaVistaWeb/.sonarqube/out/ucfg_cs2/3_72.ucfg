@@ -1,153 +1,0 @@
-
-<<<<<<< HEAD
-CMadereraCarocho.Controllers.CompraController.ListarTodasLasVentas()f
-\D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\CompraController.cs+ +(0"2*ç	
-0- -(:‰
-†
-- -($
-%0CapaLogica.LogVenta"__id*YW*U.
-,MadereraCarocho.Controllers.CompraController"#
-VentaserviceCapaLogica.LogVenta€
-~
-- -(:(
-%1"System.Collections.Generic.List<T>")CapaLogica.LogVenta.ListarTodasLasVenta()*
-
-%0CapaLogica.LogVentaÂ
-¿
-- -(;
-
-%2void".capavistaweb/views/compra/listartodaslasventas*
-
-%3*,*
-(
-%1"System.Collections.Generic.List<T>*
-=======
-8MadereraCarocho.Controllers.HomeController.SinPermisos()r
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs* *('"2*¸	
-0, -(/-
-, ,(
-%ViewBagDataAllobject"object0.
-, ,(
-%ViewBagDataHtmlobject"object…
-‚
-, ,(R
-%0"__mapSet*
-
-%ViewBagDataAllobject*	
-Message*864
-2Usted no tiene permisos para acceder a esta paginaU
-S
-, ,(R
-%1"__mapSet*
-
-%ViewBagDataHtmlobject*	
-Message*
-""š
-—
-- -(
-
-%2void"#capavistaweb/views/home/sinpermisos*
-
-%3*
-	{unknown}*
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-<<<<<<< HEAD
-%HttpContextItemsHtmlobject±
-®
-- -(;
-
-%4void"capavistaweb/views/_viewstart*
-
-%5*,*
-(
-%1"System.Collections.Generic.List<T>*
-=======
-%HttpContextItemsHtmlobject”
-‘
-- -(
-
-%4void"capavistaweb/views/_viewstart*
-
-%5*
-	{unknown}*
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-<<<<<<< HEAD
-%HttpContextItemsHtmlobjectµ
-²
-- -(;
-
-%6void"!capavistaweb/views/shared/_layout*
-
-%7*,*
-(
-%1"System.Collections.Generic.List<T>*
-=======
-%HttpContextItemsHtmlobject˜
-•
-- -(
-
-%6void"!capavistaweb/views/shared/_layout*
-
-%7*
-	{unknown}*
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-<<<<<<< HEAD
-- -(<
-=======
-- -(
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-
-
-%6void*.
-1.	 .(	"
-. .(	
-implicit return*4
-<<<<<<< HEAD
-2+2 +(2 
-
-+ +(0
-%8"__entrypoint*
-0B0.
-,MadereraCarocho.Controllers.CompraController
-=======
-2*) *() 
-
-* *('
-%8"__entrypoint*
-0B.,
-*MadereraCarocho.Controllers.HomeController
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

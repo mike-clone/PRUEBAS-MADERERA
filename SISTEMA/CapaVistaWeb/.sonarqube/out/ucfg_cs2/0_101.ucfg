@@ -1,34 +1,0 @@
-
-<<<<<<< HEAD
-&CapaEntidad.EntUbigeo.Departamento.setR
-HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs: (="0*n
-0A (UZ
-X
-A (U1
-CapaEntidad.EntUbigeo"
-departamentostring"__id*
-
-valuestring*
-1*.
-1V (V"
-U (V
-implicit return:
-valuestringB
-CapaEntidad.EntUbigeo
-=======
- CapaEntidad.EntVenta.Cliente.set_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs% %("0*ˆ
-0% %(!t
-r
-% %(!;
-CapaEntidad.EntVenta"!
-clienteCapaEntidad.EntUsuario"__id*#!
-
-valueCapaEntidad.EntUsuario*
-1*.
-1%$ %($"
-%# %($
-implicit return:!
-valueCapaEntidad.EntUsuarioB
-CapaEntidad.EntVenta
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

@@ -1,42 +1,0 @@
-
-<<<<<<< HEAD
-"CapaEntidad.EntUbigeo.IdUbigeo.getR
-HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs
-! 
-($"0*g
-0
-( 
-(0S
-Q
-
-( 
-(0
-%0string"__id*1/*-
-CapaEntidad.EntUbigeo"
-idUbigeostring*
-1*.
-1
-1 
-(1"
-
-0 
-(1
-implicit returnB
-CapaEntidad.EntUbigeo
-=======
-CapaEntidad.EntUsuario.Roll.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csW W("0*
-0W W(m
-k
-W W(7
-CapaEntidad.EntUsuario"
-rollCapaEntidad.entRoll"__id* 
-
-valueCapaEntidad.entRoll*
-1*.
-1W! W(!"
-W  W(!
-implicit return:
-valueCapaEntidad.entRollB
-CapaEntidad.EntUsuario
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

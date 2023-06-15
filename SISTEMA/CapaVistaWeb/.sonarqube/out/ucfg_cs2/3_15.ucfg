@@ -1,114 +1,0 @@
-
-dMadereraCarocho.Permisos.PermisosRolAttribute.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)g
-]D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Permisos\PermisosRolAttribute.cs (-"0*Ž
-0 (>l
-j
- (#
-%0System.Web.HttpContext""System.Web.HttpContext.Current.get*"
-System.Web.HttpContextƒ
-€
- (+.
-%1(System.Web.SessionState.HttpSessionState""System.Web.HttpContext.Session.get* 
-
-%0System.Web.HttpContextš
-—
- (6
-%2object":System.Collections.Generic.ICollection<T>.this[string].get*20
-.
-%1(System.Web.SessionState.HttpSessionState*	
-Usuariof
-d
- (>
-
-%3bool""object.operator !=(object, object)*
-"
-object*
-
-%2object*
-""*
-1
-2*¶
-1 (&l
-j
- (1
-%4System.Web.HttpContext""System.Web.HttpContext.Current.get*"
-System.Web.HttpContextƒ
-€
- (9.
-%5(System.Web.SessionState.HttpSessionState""System.Web.HttpContext.Session.get* 
-
-%4System.Web.HttpContextš
-—
- (D
-%6object":System.Collections.Generic.ICollection<T>.this[string].get*20
-.
-%5(System.Web.SessionState.HttpSessionState*	
-Usuario2
-0
- (R
-%7object"__id*
-
-%6objectG
-E
- (R!
-usuarioCapaEntidad.EntUsuario"__id*
-
-%7objectm
-k
- (
-%8CapaEntidad.entRol"CapaEntidad.EntUsuario.Rol.get*%#
-!
-usuarioCapaEntidad.EntUsuario"
- 
-# (&
-%9"__id*
-""*
-3
-4*Æ
-3 (RQO
-+ (S$
-%10System.Web.Mvc.RedirectResult"System.Web.Mvc.RedirectResult”
-‘
-/ (=
-%11void"4System.Web.Mvc.RedirectResult.RedirectResult(string)*(&
-$
-%10System.Web.Mvc.RedirectResult*
-~/Home/SinPermisosÇ
-Ä
- (S"
-%12System.Web.Mvc.ActionResult"/System.Web.Mvc.ActionExecutedContext.Result.set*97
-5
-filterContext$System.Web.Mvc.ActionExecutedContext*(&
-$
-%10System.Web.Mvc.RedirectResult*
-4*À
-2! !(HQO
-!' !(I$
-%13System.Web.Mvc.RedirectResult"System.Web.Mvc.RedirectResultŽ
-‹
-!+ !(9
-%14void"4System.Web.Mvc.RedirectResult.RedirectResult(string)*(&
-$
-%13System.Web.Mvc.RedirectResult*
-~/Home/LoginÇ
-Ä
-! !(I"
-%15System.Web.Mvc.ActionResult"/System.Web.Mvc.ActionExecutedContext.Result.set*97
-5
-filterContext$System.Web.Mvc.ActionExecutedContext*(&
-$
-%13System.Web.Mvc.RedirectResult*
-4*´
-4# #(/Ÿœ
-# #(0
-%16void"[System.Web.Mvc.ActionFilterAttribute.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)*31/
--MadereraCarocho.Permisos.PermisosRolAttribute*97
-5
-filterContext$System.Web.Mvc.ActionExecutedContext26OnActionExecuted(System.Web.Mvc.ActionExecutedContext)*
-5*.
-5$	 $(	"
-$ $(	
-implicit return:A
-. (Q5
-filterContext$System.Web.Mvc.ActionExecutedContextB1/
--MadereraCarocho.Permisos.PermisosRolAttribute

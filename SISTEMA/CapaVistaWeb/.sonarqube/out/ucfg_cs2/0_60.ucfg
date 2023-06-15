@@ -1,31 +1,0 @@
-
-<<<<<<< HEAD
-%CapaEntidad.EntDetCompra.Cantidad.getU
-KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs (!"0*6
-0% (-"
- 
-% (-
-%0"__id*
-""*
-1*.
-1. (."
-- (.
-implicit returnB
-CapaEntidad.EntDetCompra
-=======
-CapaEntidad.EntCompra.Fecha.get`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs ("0*–
-0 (b
-`
- (
-%0System.DateTime"__id*75*3
-CapaEntidad.EntCompra"
-fechaSystem.DateTime"#
- (
-
-%0System.DateTime*.
-1! (!"
-  (!
-implicit returnB
-CapaEntidad.EntCompra
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

@@ -1,308 +1,0 @@
-
-<<<<<<< HEAD
-3CapaLogica.LogUsuario.IniciarSesion(string, string)R
-HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.csa a('"0*Ç
-0c d("9
-7
-c c(
-uCapaEntidad.EntUsuario"__id*
-""A
-?
-d d("
-=======
-ECapaLogica.LogProveedor.ActualizarProveedor(CapaEntidad.EntProveedor)b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.csK K('"0*ø
-0M P($A
-?
-M M($
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-%0string"__id**
-string"
-Emptystring5
-3
-<<<<<<< HEAD
-d d("
-errorstring"__id*
-
-%0string*
-1*¸
-1g g(*S
-Q
-g g( 
-%1System.DateTime"System.DateTime.Now.get*"
-System.DateTimeL
-J
-g g(%	
-%2int"System.DateTime.Hour.get*
-
-%1System.DateTime*
-2
-3*è
-2i j()H
-F
-i i(;
-errorstring"__id*#!
-No puede ingresar a esta hora64
-j j()
-%3System.Exception"System.ExceptionR
-P
-j j('
-
-%4void"System.Exception.Exception()*
-
-%3System.Exception*
-4*ë
-3n o(!š
-—
-n n(&,
-%5&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
-CapaLogica.LogUsuario"8
-UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioìé
-n n(B
-%6CapaEntidad.EntUsuario"DCapaAccesoDatos.Interfaces.IDatUsuario.IniciarSesion(string, string)*0.
-,
-%5&CapaAccesoDatos.Interfaces.IDatUsuario*
-
-datostring*
-
-contrastring2IniciarSesion(string, string)Q
-O
-n n(B
-uCapaEntidad.EntUsuario"__id* 
-
-%6CapaEntidad.EntUsuariou
-s
-o o(!
-
-%7bool""object.operator !=(object, object)*
-"
-object*
-
-uCapaEntidad.EntUsuario*
-""*
-5
-6*s
-5q q(%\
-Z
-q q(%
-
-%8bool"!CapaEntidad.EntUsuario.Activo.get*
-
-uCapaEntidad.EntUsuario*
-7
-8*è
-7s t(1G
-E
-s s(B
-errorstring"__id*" 
-Usuario ha sido dado de baja64
-t" t(1
-%9System.Exception"System.ExceptionS
-Q
-t& t(/
-%10void"System.Exception.Exception()*
-
-%9System.Exception*
-4*ï
-6z {(-L
-J
-z z(B
-errorstring"__id*'%#
-!usuario o contraseÃ±a incorrectos75
-{ {(-
-%11System.Exception"System.ExceptionT
-R
-{" {(+
-%12void"System.Exception.Exception()*
-
-%11System.Exception*
-4*
-8
-†	 †(	*
-9
-10*Â
-9
-ƒ ƒ()97
-
-ƒ ƒ(*
-%13System.Exception"System.Exceptionq
-o
-
-ƒ ƒ(#
-%14void""System.Exception.Exception(string)*
-
-%13System.Exception*
-
-errorstring*
-4*=
-10
-… …("+
-
-… …(
-
-uCapaEntidad.EntUsuario*2
-4
-†	 †(	"!
-
-† †(	
-implicit return:
-a( a(3
-datostring:
-a5 a(B
-contrastringB
-CapaLogica.LogUsuario
-=======
-M M($
-errorstring"__id*
-
-%0stringû
-ø
-N N(b
-
-%1bool"_CapaLogica.ValidatorHelper.TryValidateEntity<T>(T, out System.Collections.Generic.List<string>)* "
-CapaLogica.ValidatorHelper*#!
-
-proCapaEntidad.EntProveedor*86
-4
-detalleDeError"System.Collections.Generic.List<T>3
-1
-N N(b
-isValidbool"__id*
-
-
-%1boolÄ
-Á
-O  O(G
-%2string"KCapaLogica.ValidatorHelper.aString(System.Collections.Generic.List<string>)* "
-CapaLogica.ValidatorHelper*86
-4
-detalleDeError"System.Collections.Generic.List<T>=
-;
-O O(G
-detalleerrorsstring"__id*
-
-%2string1
-/
-P P($
-actualizadobool"__id*
-""*
-1*
-1S S(*
-2
-3*ì
-2U U(I¢
-Ÿ
-U! U(1.
-%3(CapaAccesoDatos.Interfaces.IDatProveedor"__id*][*Y
-CapaLogica.LogProveedor"<
-ProveedorService(CapaAccesoDatos.Interfaces.IDatProveedorùö
-U! U(J
-
-%4bool"VCapaAccesoDatos.Interfaces.IDatProveedor.ActualizarProveedor(CapaEntidad.EntProveedor)*20
-.
-%3(CapaAccesoDatos.Interfaces.IDatProveedor*#!
-
-proCapaEntidad.EntProveedor2-ActualizarProveedor(CapaEntidad.EntProveedor)7
-5
-U U(J
-actualizadobool"__id*
-
-
-%4bool*
-4*‡
-3Y Z(-L
-J
-Y Y(?
-errorstring"__id*'%#
-!Uno o mas parametros estan vacios64
-Z Z(.
-%5System.Exception"System.Exceptionm
-k
-Z Z('
-
-%6void""System.Exception.Exception(string)*
-
-%5System.Exception*
-
-errorstring*
-5*
-4h	 h(	*
-6
-7*Ä
-6_ e(C`^
-_$ _(-
-%7string"System.Exception.Message.get*
-
-eSystem.Exception2Message.getS
-Q
-_$ `(9
-%8string"__concat*
-_$ _(-
-
-%7string*
-`6 `(9
- S
-Q
-_$ a(:
-%9string"__concat*
-_$ `(9
-
-%8string*
-a6 a(:
-
-c
-a
-_$ b(H
-%10string"__concat*
-_$ a(:
-
-%9string* 
-b6 b(H
-Es probale que :U
-S
-_$ c(:
-%11string"__concat*
-_$ b(H
-
-%10string*
-c6 c(:
-
-U
-S
-_$ d(9
-%12string"__concat*
-_$ c(:
-
-%11string*
-d6 d(9
- i
-g
-_$ e(C
-%13string"__concat*
-_$ d(9
-
-%12string*%
-e6 e(C
-
-detalleerrorsstring75
-_ e(D
-%14System.Exception"System.Exceptionm
-k
-_ _(#
-%15void""System.Exception.Exception(string)*
-
-%14System.Exception*
-
-%13string*
-5*0
-7g g("!
-g g(
-
-actualizadobool*.
-5h	 h(	"
-h h(	
-implicit return:+
-K( K(8
-proCapaEntidad.EntProveedorB
-CapaLogica.LogProveedor
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

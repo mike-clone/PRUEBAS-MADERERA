@@ -1,30 +1,0 @@
-
-<<<<<<< HEAD
-.CapaEntidad.EntDetCompra.ProveedorProducto.getU
-KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs8 (;"0*©
-0? (P”
-‘
-? (P&
-%0 CapaEntidad.EntProveedorProducto"__id*WU*S
-CapaEntidad.EntDetCompra"5
-proveedorProducto CapaEntidad.EntProveedorProducto*
-1*.
-1Q (Q"
-P (Q
-implicit returnB
-=======
-%CapaEntidad.EntDetCompra.Subtotal.setc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs2 (5"0*b
-09 (IN
-L
-9 (I0
-CapaEntidad.EntDetCompra"
-subtotaldouble"__id*
-""*
-1*.
-1J (J"
-I (J
-implicit return:
-valuedoubleB
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-CapaEntidad.EntDetCompra

@@ -1,155 +1,0 @@
-
-<<<<<<< HEAD
-EMadereraCarocho.Controllers.HomeController.EditarDatosAdministrador()f
-ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csõ õ(4"2*‘
-=======
-2MadereraCarocho.Controllers.HomeController.Admin()t
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csê ê(!"2*±
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-0
-ì ï(DB
-
-ì! ì(1
-%0CapaEntidad.EntUsuario"CapaEntidad.EntUsuarioa
-_
-
-ì% ì(/
-
-%1void"#CapaEntidad.EntUsuario.EntUsuario()* 
-
-%0CapaEntidad.EntUsuarioY
-W
-
-ì ì(1!
-usuarioCapaEntidad.EntUsuario"__id* 
-
-%0CapaEntidad.EntUsuario}
-{
-
-í í(%
-%2System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
-System.Web.Mvc.Controller¥¢
-
-í í(&
-%3object":System.Collections.Generic.ICollection<T>.this[string].get*)'
-%
-%2System.Web.HttpSessionStateBase*	
-Usuario2this[string].get4
-2
-
-í í(4
-%4object"__id*
-
-%3objectI
-G
-
-í í(4!
-usuarioCapaEntidad.EntUsuario"__id*
-
-%4object1/
-
-î î(
-%ViewBagDataAllobject"object20
-
-î î(
-%ViewBagDataHtmlobject"objectf
-d
-
-î î(*
-%5string"!CapaEntidad.EntUsuario.Correo.get*%#
-!
-usuarioCapaEntidad.EntUsuario]
-[
-
-î î(*
-%6"__mapSet*
-
-%ViewBagDataAllobject*
-
-correo*
-
-%5stringV
-T
-
-î î(*
-%7"__mapSet*
-
-%ViewBagDataHtmlobject*
-
-correo*
-""–
-“
-
-ï ï(
-
-%8void"capavistaweb/views/home/admin*
-
-%9*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject˜
-•
-
-ï ï(
-%10void"capavistaweb/views/_viewstart*	
-
-%11*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobjectœ
-™
-
-ï ï(
-%12void"!capavistaweb/views/shared/_layout*	
-
-%13*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-
-ï ï(
-
-%12void*2
-1
-ð	 ð(	"!
-
-ð ð(	
-implicit return*9
-2
-ê# ê(##
-!
-
-ê ê(!
-%14"__entrypoint*
-0B.,
-*MadereraCarocho.Controllers.HomeController

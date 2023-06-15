@@ -1,33 +1,0 @@
-
-<<<<<<< HEAD
-(CapaEntidad.EntProveedor.RazonSocial.getU
-KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs" "("0*„
-0" "($Y
-W
-" "($
-%0string"__id*75*3
-CapaEntidad.EntProveedor"
-razonSocialstring"
-" "(%
-
-%0string*.
-1"' "('"
-"& "('
-implicit returnB
-CapaEntidad.EntProveedor
-=======
--CapaEntidad.EntTemporaryProducts.Cantidad.setk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs/ (2"0*g
-06 (FS
-Q
-6 (F5"
- CapaEntidad.EntTemporaryProducts"
-cantidadint"__id*
-""*
-1*.
-1G (G"
-F (G
-implicit return:
-valueintB$"
- CapaEntidad.EntTemporaryProducts
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

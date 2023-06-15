@@ -1,33 +1,0 @@
-
-<<<<<<< HEAD
-#CapaEntidad.EntProveedor.Ubigeo.setU
-KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.csI I("0*‰
-0I I( u
-s
-I I( =
-CapaEntidad.EntProveedor"
-ubigeoCapaEntidad.EntUbigeo"__id*" 
-
-valueCapaEntidad.EntUbigeo*
-1*.
-1I# I(#"
-I" I(#
-implicit return: 
-valueCapaEntidad.EntUbigeoB
-CapaEntidad.EntProveedor
-=======
-'CapaEntidad.entReporteCompra.Codigo.setg
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs+ (."0*a
-02 (@M
-K
-2 (@/
-CapaEntidad.entReporteCompra"
-codigoint"__id*
-""*
-1*.
-1A (A"
-@ (A
-implicit return:
-valueintB 
-CapaEntidad.entReporteCompra
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

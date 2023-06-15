@@ -1,31 +1,0 @@
-
-<<<<<<< HEAD
-1CapaEntidad.EntProveedorProducto.PrecioCompra.set]
-SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs: (="0*n
-0A (UZ
-X
-A (U<"
- CapaEntidad.EntProveedorProducto"
-precioCompradouble"__id*
-""*
-1*.
-1V (V"
-U (V
-implicit return:
-valuedoubleB$"
- CapaEntidad.EntProveedorProducto
-=======
-*CapaEntidad.entReporteCompra.Proveedor.getg
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs" (%"0*o
-0) (2[
-Y
-) (2
-%0string"__id*97*5
-CapaEntidad.entReporteCompra"
-	proveedorstring*
-1*.
-13 (3"
-2 (3
-implicit returnB 
-CapaEntidad.entReporteCompra
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

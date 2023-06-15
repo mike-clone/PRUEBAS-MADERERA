@@ -1,34 +1,0 @@
-
-<<<<<<< HEAD
-(CapaEntidad.EntProveedor.Descripcion.getU
-KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs= =("0*„
-0= =($Y
-W
-= =($
-%0string"__id*75*3
-CapaEntidad.EntProveedor"
-descripcionstring"
-= =(%
-
-%0string*.
-1=' =('"
-=& =('
-implicit returnB
-CapaEntidad.EntProveedor
-=======
-CapaEntidad.EntUsuario.Pass.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csI I("0*g
-0I I(S
-Q
-I I(*
-CapaEntidad.EntUsuario"
-passstring"__id*
-
-valuestring*
-1*.
-1I! I(!"
-I  I(!
-implicit return:
-valuestringB
-CapaEntidad.EntUsuario
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

@@ -1,51 +1,0 @@
-
-<<<<<<< HEAD
-3CapaLogica.LogDetCompra.MostrarDetalleCompraId(int)T
-JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetCompra.cs" (8"0*Å
-0 (=¢
-Ÿ
- (#.
-%0(CapaAccesoDatos.Interfaces.IDatDetCompra"__id*][*Y
-CapaLogica.LogDetCompra"<
-DetCompraService(CapaAccesoDatos.Interfaces.IDatDetCompraØÕ
- (>(
-%1"System.Collections.Generic.List<T>"DCapaAccesoDatos.Interfaces.IDatDetCompra.MostrarDetalleCompraId(int)*20
-.
-%0(CapaAccesoDatos.Interfaces.IDatDetCompra*
-""2MostrarDetalleCompraId(int)"6
- (?*
-(
-%1"System.Collections.Generic.List<T>*.
-1	 (	"
- (	
-implicit return:
-9 (?	
-idintB
-CapaLogica.LogDetCompra
-=======
-;CapaLogica.LogUsuario.EditarCliente(CapaEntidad.EntUsuario)`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.csE E(!"0*¨
-0G G(1š
-—
-G G(!,
-%0&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
-CapaLogica.LogUsuario"8
-UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioáÞ
-G G(2
-
-%1bool"LCapaAccesoDatos.Interfaces.IDatUsuario.EditarCliente(CapaEntidad.EntUsuario)*0.
-,
-%0&CapaAccesoDatos.Interfaces.IDatUsuario*
-
-uCapaEntidad.EntUsuario2%EditarCliente(CapaEntidad.EntUsuario)"
-G G(3
-
-
-%1bool*.
-1H	 H(	"
-H H(	
-implicit return:'
-E" E(.
-uCapaEntidad.EntUsuarioB
-CapaLogica.LogUsuario
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

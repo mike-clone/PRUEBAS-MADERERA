@@ -1,33 +1,0 @@
-
-<<<<<<< HEAD
-(CapaEntidad.EntUsuario.FechaCreacion.setS
-ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs9 9("0*‚
-09 9('n
-l
-9 9('<
-CapaEntidad.EntUsuario" 
-fechaCreacionSystem.DateTime"__id*
-
-valueSystem.DateTime*
-1*.
-19* 9(*"
-9) 9(*
-implicit return:
-valueSystem.DateTimeB
-CapaEntidad.EntUsuario
-=======
-CapaEntidad.entRoll.IdRoll.set]
-SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs+ (."0*X
-02 (@D
-B
-2 (@&
-CapaEntidad.entRoll"
-idRollint"__id*
-""*
-1*.
-1A (A"
-@ (A
-implicit return:
-valueintB
-CapaEntidad.entRoll
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

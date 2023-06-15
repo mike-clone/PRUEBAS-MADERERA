@@ -1,285 +1,0 @@
-
-pMadereraCarocho.Controllers.HomeController.SingUp(string, string, string, string, System.Web.Mvc.FormCollection)d
-ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csB B(""7*æ
-0D D(]ò
-ï
-D D(- 
-%0CapaLogica.ValidatorHelper"__id*a_*],
-*MadereraCarocho.Controllers.HomeController"-
-validatorHelperCapaLogica.ValidatorHelper÷
-”
-D D(^
-
-%1bool":CapaLogica.ValidatorHelper.ValidateNonEmpty<T>(params T[])*$"
- 
-%0CapaLogica.ValidatorHelper*
-
-nombrestring*
-
-usernamestring*
-
-emailstring*
-
-passwordstring6
-4
-D D(^
-
-isNonEmptybool"__id*
-
-
-%1bool*
-1*
-1H H(*
-2
-3*¯
-2J Y(@B@
-J# X(
-%2CapaEntidad.EntUsuario"CapaEntidad.EntUsuario_
-]
-J' J(1
-
-%3void"#CapaEntidad.EntUsuario.EntUsuario()* 
-
-%2CapaEntidad.EntUsuarioz
-x
-L L(,
-%4string"&CapaEntidad.EntUsuario.RazonSocial.set* 
-
-%2CapaEntidad.EntUsuario*
-
-nombrestringy
-w
-M M(+
-%5string"#CapaEntidad.EntUsuario.UserName.set* 
-
-%2CapaEntidad.EntUsuario*
-
-usernamestringt
-r
-N N(&
-%6string"!CapaEntidad.EntUsuario.Correo.set* 
-
-%2CapaEntidad.EntUsuario*
-
-emailstringó
-î
-O O(<
-%7string"6MadereraCarocho.Utilidades.Encriptar.GetSHA256(string)**("&
-$MadereraCarocho.Utilidades.Encriptar*
-
-passwordstringo
-m
-O O(<
-%8string"CapaEntidad.EntUsuario.Pass.set* 
-
-%2CapaEntidad.EntUsuario*
-
-%7string<:
-P S(
-%9CapaEntidad.entRoll"CapaEntidad.entRollW
-U
-P# P(*
-%10void"CapaEntidad.entRoll.entRoll()*
-
-%9CapaEntidad.entRoll_
-]
-R R(&
-
-%11int"CapaEntidad.entRoll.IdRoll.set*
-
-%9CapaEntidad.entRoll*2ã
-à
-P S(
-%12CapaEntidad.entRoll"CapaEntidad.EntUsuario.Roll.set* 
-
-%2CapaEntidad.EntUsuario*
-
-%9CapaEntidad.entRollA?
-T! W(
-%13CapaEntidad.EntUbigeo"CapaEntidad.EntUbigeo^
-\
-T% T(.
-%14void"!CapaEntidad.EntUbigeo.EntUbigeo()* 
-
-%13CapaEntidad.EntUbigeoô
-ñ
-V' V(4
-%15string"CSystem.Collections.Specialized.NameValueCollection.this[string].get*(&
-$
-ubiSystem.Web.Mvc.FormCollection*
-
-ubigeoA
-?
-V' V(?
-%16string"string.ToString()*
-
-%15stringt
-r
-V V(?
-%17string""CapaEntidad.EntUbigeo.IdUbigeo.set* 
-
-%13CapaEntidad.EntUbigeo*
-
-%16stringí
-è
-T W(
-%18CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.set* 
-
-%2CapaEntidad.EntUsuario* 
-
-%13CapaEntidad.EntUbigeoQ
-O
-J X(
-cCapaEntidad.EntUsuario"__id* 
-
-%2CapaEntidad.EntUsuarioé
-ã
-Y" Y(0
-%19CapaLogica.LogUsuario"__id*[Y*W,
-*MadereraCarocho.Controllers.HomeController"'
-UsuarioserviceCapaLogica.LogUsuarioö
-ó
-Y" Y(A
-%20bool";CapaLogica.LogUsuario.CrearClientes(CapaEntidad.EntUsuario)* 
-
-%19CapaLogica.LogUsuario*
-
-cCapaEntidad.EntUsuario3
-1
-Y Y(A
-creadobool"__id*
-
-%20bool*
-3*
-3b	 b(	*
-4
-5*√
-4^ _(/,*
-^ ^(
-%TempDataAllobject"object-+
-^ ^(
-%TempDataHtmlobject"objectb`
-^$ ^(.
-%21string"System.Exception.Message.get*
-
-exSystem.Exception2Message.getî
-ë
-^ ^(.
-%22object":System.Collections.Generic.ICollection<T>.this[string].set*
-
-%TempDataAllobject*	
-error*
-
-%21stringÅ
-
-%23object":System.Collections.Generic.ICollection<T>.this[string].set*
-
-%TempDataHtmlobject*	
-error*
-""ú
-ô
-_ _(0+
-%24$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*	
-Error"9
-_ _(1-
-+
-%24$System.Web.Mvc.RedirectToRouteResult*Á
-5a a(+ú
-ô
-a a(,+
-%25$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*	
-Login"9
-a a(--
-+
-%25$System.Web.Mvc.RedirectToRouteResult*.
-6b	 b(	"
-b b(	
-implicit return*»
-7Bu B(uß
-§
-B B("
-%26"__entrypoint*
-
-nombrestring*
-
-usernamestring*
-
-emailstring*
-
-passwordstring*(&
-$
-ubiSystem.Web.Mvc.FormCollectionq
-o
-A	 A(
-%27"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-nombrestring7
-5
-B# B(0
-nombrestring"__annotation*	
-
-%27s
-q
-A	 A(
-%28"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-usernamestring9
-7
-B2 B(A
-usernamestring"__annotation*	
-
-%28p
-n
-A	 A(
-%29"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-emailstring6
-4
-BC B(O
-emailstring"__annotation*	
-
-%29s
-q
-A	 A(
-%30"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-passwordstring9
-7
-BQ B(`
-passwordstring"__annotation*	
-
-%30Ü
-É
-A	 A(
-%31"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*(&
-$
-ubiSystem.Web.Mvc.FormCollectionK
-I
-Bb B(t$
-ubiSystem.Web.Mvc.FormCollection"__annotation*	
-
-%31*
-0:
-B# B(0
-nombrestring:
-B2 B(A
-usernamestring:
-BC B(O
-emailstring:
-BQ B(`
-passwordstring:0
-Bb B(t$
-ubiSystem.Web.Mvc.FormCollectionB.,
-*MadereraCarocho.Controllers.HomeController

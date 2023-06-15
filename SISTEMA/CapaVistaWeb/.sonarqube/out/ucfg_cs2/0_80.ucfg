@@ -1,42 +1,0 @@
-
-<<<<<<< HEAD
-!CapaEntidad.EntUsuario.Correo.getS
-ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs> >("0*}
-0> >(R
-P
-> >(
-%0string"__id*0.*,
-CapaEntidad.EntUsuario"
-correostring"
-> >( 
-
-%0string*.
-1>" >(""
->! >("
-implicit returnB
-CapaEntidad.EntUsuario
-=======
-"CapaEntidad.EntUbigeo.IdUbigeo.get`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs
-! 
-($"0*g
-0
-( 
-(0S
-Q
-
-( 
-(0
-%0string"__id*1/*-
-CapaEntidad.EntUbigeo"
-idUbigeostring*
-1*.
-1
-1 
-(1"
-
-0 
-(1
-implicit returnB
-CapaEntidad.EntUbigeo
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

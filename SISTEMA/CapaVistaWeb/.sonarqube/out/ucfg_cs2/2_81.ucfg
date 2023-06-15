@@ -1,50 +1,0 @@
-
-<<<<<<< HEAD
-(CapaLogica.LogCompra.EliminarCompra(int)Q
-GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs" "(""0*ç
-0$ $(4–
-“
-$ $( +
-%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
-CapaLogica.LogCompra"6
-CompraService%CapaAccesoDatos.Interfaces.IDatCompra¤¡
-$ $(5
-
-%1bool"9CapaAccesoDatos.Interfaces.IDatCompra.EliminarCompra(int)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatCompra*
-""2EliminarCompra(int)"
-$ $(6
-
-
-%1bool*.
-1%	 %(	"
-% %(	
-implicit return:
-"# "(+
-compintB
-CapaLogica.LogCompra
-=======
-$CapaLogica.LogVenta.ListarVenta(int)^
-TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs" "()"0*—
-0$ $(.’
-
-$ $(*
-%0$CapaAccesoDatos.Interfaces.IDatVenta"__id*QO*M
-CapaLogica.LogVenta"4
-VentaService$CapaAccesoDatos.Interfaces.IDatVentaº·
-$ $(/(
-%1"System.Collections.Generic.List<T>"5CapaAccesoDatos.Interfaces.IDatVenta.ListarVenta(int)*.,
-*
-%0$CapaAccesoDatos.Interfaces.IDatVenta*
-""2ListarVenta(int)"6
-$ $(0*
-(
-%1"System.Collections.Generic.List<T>*.
-1%	 %(	"
-% %(	
-implicit return:
-"* "(0	
-idintB
-CapaLogica.LogVenta
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

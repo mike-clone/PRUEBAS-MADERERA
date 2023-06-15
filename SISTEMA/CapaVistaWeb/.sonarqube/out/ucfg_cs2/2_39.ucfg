@@ -1,49 +1,0 @@
-
-<<<<<<< HEAD
-7CapaLogica.LogCompra.CrearCompra(CapaEntidad.EntCompra)Q
-GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs ("0*œ
-0 (1–
-“
- ( +
-%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
-CapaLogica.LogCompra"6
-CompraService%CapaAccesoDatos.Interfaces.IDatCompraÚ×
- (2	
-%1int"HCapaAccesoDatos.Interfaces.IDatCompra.CrearCompra(CapaEntidad.EntCompra)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatCompra*!
-
-compCapaEntidad.EntCompra2"CrearCompra(CapaEntidad.EntCompra)"
- (3
-	
-%1int*.
-1	 (	"
- (	
-implicit return:)
- (-
-compCapaEntidad.EntCompraB
-CapaLogica.LogCompra
-=======
-3CapaLogica.LogDetCompra.MostrarDetalleCompraId(int)b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetCompra.cs" (8"0*Å
-0 (=¢
-Ÿ
- (#.
-%0(CapaAccesoDatos.Interfaces.IDatDetCompra"__id*][*Y
-CapaLogica.LogDetCompra"<
-DetCompraService(CapaAccesoDatos.Interfaces.IDatDetCompraØÕ
- (>(
-%1"System.Collections.Generic.List<T>"DCapaAccesoDatos.Interfaces.IDatDetCompra.MostrarDetalleCompraId(int)*20
-.
-%0(CapaAccesoDatos.Interfaces.IDatDetCompra*
-""2MostrarDetalleCompraId(int)"6
- (?*
-(
-%1"System.Collections.Generic.List<T>*.
-1	 (	"
- (	
-implicit return:
-9 (?	
-idintB
-CapaLogica.LogDetCompra
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

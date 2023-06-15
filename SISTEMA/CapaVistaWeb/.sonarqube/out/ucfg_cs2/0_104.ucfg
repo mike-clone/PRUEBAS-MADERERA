@@ -1,32 +1,0 @@
-
-<<<<<<< HEAD
-&CapaEntidad.entReporteCompra.Fecha.getY
-OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs  (#"0*}
-0' (,i
-g
-' (,
-%0System.DateTime"__id*><*:
-CapaEntidad.entReporteCompra"
-fechaSystem.DateTime*
-1*.
-1- (-"
-, (-
-implicit returnB 
-CapaEntidad.entReporteCompra
-=======
-+CapaEntidad.entReporteVenta.Descripcion.setf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs8 (;"0*s
-0? (R_
-]
-? (R6
-CapaEntidad.entReporteVenta"
-descripcionstring"__id*
-
-valuestring*
-1*.
-1S (S"
-R (S
-implicit return:
-valuestringB
-CapaEntidad.entReporteVenta
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

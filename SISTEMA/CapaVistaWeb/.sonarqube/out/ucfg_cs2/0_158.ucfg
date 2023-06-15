@@ -1,31 +1,0 @@
-
-<<<<<<< HEAD
-(CapaEntidad.entReporteVenta.SubTotal.getX
-ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs! ($"0*6
-0( (0"
- 
-( (0
-%0"__id*
-""*
-1*.
-11 (1"
-0 (1
-implicit returnB
-CapaEntidad.entReporteVenta
-=======
-%CapaEntidad.EntProveedor.Telefono.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs7 7("0*
-07 7(!V
-T
-7 7(!
-%0string"__id*42*0
-CapaEntidad.EntProveedor"
-telefonostring"
-7 7("
-
-%0string*.
-17$ 7($"
-7# 7($
-implicit returnB
-CapaEntidad.EntProveedor
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

@@ -1,231 +1,0 @@
-
-<<<<<<< HEAD
-:CapaLogica.ValidatorHelper.ValidateNonEmpty<T>(params T[])W
-MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\ValidatorHelper.cs ($"0*
-0" ((*
-1*
-1 	  (	*
-2
-3*·
-
-2 (b…‚
-( (D=
-%07System.ComponentModel.DataAnnotations.ValidationContext"7System.ComponentModel.DataAnnotations.ValidationContext¿
-¼
-, (=
-
-%1void"QSystem.ComponentModel.DataAnnotations.ValidationContext.ValidationContext(object)*A?
-=
-%07System.ComponentModel.DataAnnotations.ValidationContext*
-
-
-valueT¤
-¡
- (DL
-validationContext7System.ComponentModel.DataAnnotations.ValidationContext"__id*A?
-=
-%07System.ComponentModel.DataAnnotations.ValidationContextZX
-( (D(
-%2"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
-o
-, (B
-
-%3void")System.Collections.Generic.List<T>.List()*,*
-(
-%2"System.Collections.Generic.List<T>y
-w
- (D7
-validationResults"System.Collections.Generic.List<T>"__id*,*
-(
-%2"System.Collections.Generic.List<T>ä
-á
- (c
-
-%4bool"èSystem.ComponentModel.DataAnnotations.Validator.TryValidateObject(object, System.ComponentModel.DataAnnotations.ValidationContext, System.Collections.Generic.ICollection<System.ComponentModel.DataAnnotations.ValidationResult>, bool)*53"1
-/System.ComponentModel.DataAnnotations.Validator*
-
-
-valueT*PN
-L
-validationContext7System.ComponentModel.DataAnnotations.ValidationContext*;9
-7
-validationResults"System.Collections.Generic.List<T>*
-""*
-4
-1*!
-4 ( "
- (!
-""*!
-3 ("
- (
-""*.
-5 	  (	"
-   (	
-implicit return:
-( (9
-valuesT[]B
-CapaLogica.ValidatorHelper
-=======
-@CapaLogica.LogProveedor.CrearProveedor(CapaEntidad.EntProveedor)b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs (""0*ó
-0 "(A
-?
- ($
-%0string"__id**
-string"
-Emptystring5
-3
- ($
-errorstring"__id*
-
-%0stringû
-ø
-   (`
-
-%1bool"_CapaLogica.ValidatorHelper.TryValidateEntity<T>(T, out System.Collections.Generic.List<string>)* "
-CapaLogica.ValidatorHelper*#!
-
-proCapaEntidad.EntProveedor*86
-4
-detalleDeError"System.Collections.Generic.List<T>3
-1
-   (`
-isValidbool"__id*
-
-
-%1boolÄ
-Á
-!  !(G
-%2string"KCapaLogica.ValidatorHelper.aString(System.Collections.Generic.List<string>)* "
-CapaLogica.ValidatorHelper*86
-4
-detalleDeError"System.Collections.Generic.List<T>=
-;
-! !(G
-detalleerrorsstring"__id*
-
-%2string,
-*
-" "(
-creadobool"__id*
-""*
-1*
-1% %(*
-2
-3*Ý
-2' '(?¢
-Ÿ
-' '(,.
-%3(CapaAccesoDatos.Interfaces.IDatProveedor"__id*][*Y
-CapaLogica.LogProveedor"<
-ProveedorService(CapaAccesoDatos.Interfaces.IDatProveedorïì
-' '(@
-
-%4bool"QCapaAccesoDatos.Interfaces.IDatProveedor.CrearProveedor(CapaEntidad.EntProveedor)*20
-.
-%3(CapaAccesoDatos.Interfaces.IDatProveedor*#!
-
-proCapaEntidad.EntProveedor2(CrearProveedor(CapaEntidad.EntProveedor)2
-0
-' '(@
-creadobool"__id*
-
-
-%4bool*
-4*‡
-3+ ,(-L
-J
-+ +(?
-errorstring"__id*'%#
-!Uno o mas parametros estan vacios64
-, ,(.
-%5System.Exception"System.Exceptionm
-k
-, ,('
-
-%6void""System.Exception.Exception(string)*
-
-%5System.Exception*
-
-errorstring*
-5*
-4=	 =(	*
-6
-7*Ä
-64 :(B`^
-4$ 4(-
-%7string"System.Exception.Message.get*
-
-eSystem.Exception2Message.getS
-Q
-4$ 5(8
-%8string"__concat*
-4$ 4(-
-
-%7string*
-55 5(8
- S
-Q
-4$ 6(9
-%9string"__concat*
-4$ 5(8
-
-%8string*
-65 6(9
-
-c
-a
-4$ 7(G
-%10string"__concat*
-4$ 6(9
-
-%9string* 
-75 7(G
-Es probale que :U
-S
-4$ 8(9
-%11string"__concat*
-4$ 7(G
-
-%10string*
-85 8(9
-
-U
-S
-4$ 9(8
-%12string"__concat*
-4$ 8(9
-
-%11string*
-95 9(8
- i
-g
-4$ :(B
-%13string"__concat*
-4$ 9(8
-
-%12string*%
-:5 :(B
-
-detalleerrorsstring75
-4 :(C
-%14System.Exception"System.Exceptionm
-k
-4 4(#
-%15void""System.Exception.Exception(string)*
-
-%14System.Exception*
-
-%13string*
-5*+
-7< <("
-< <(
-
-creadobool*.
-5=	 =(	"
-= =(	
-implicit return:+
-# (3
-proCapaEntidad.EntProveedorB
-CapaLogica.LogProveedor
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

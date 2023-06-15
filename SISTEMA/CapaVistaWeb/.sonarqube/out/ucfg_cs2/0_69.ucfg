@@ -1,33 +1,0 @@
-
-<<<<<<< HEAD
-CapaEntidad.EntVenta.Estado.setQ
-GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs   ("0*g
-0   ( S
-Q
-   ( *
-CapaEntidad.EntVenta"
-estadostring"__id*
-
-valuestring*
-1*.
-1 #  (#"
- "  (#
-implicit return:
-valuestringB
-CapaEntidad.EntVenta
-=======
-CapaEntidad.EntUsuario.Rol.geta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csL L("0*E
-0L L("
- 
-L L(
-%0"__id*
-"""
-L L(
-
-%0*.
-1L L("
-L L(
-implicit returnB
-CapaEntidad.EntUsuario
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

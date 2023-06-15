@@ -1,33 +1,0 @@
-
-<<<<<<< HEAD
--CapaEntidad.EntTemporaryProducts.Cantidad.set]
-SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs/ (2"0*g
-06 (FS
-Q
-6 (F5"
- CapaEntidad.EntTemporaryProducts"
-cantidadint"__id*
-""*
-1*.
-1G (G"
-F (G
-implicit return:
-valueintB$"
- CapaEntidad.EntTemporaryProducts
-=======
-&CapaEntidad.EntTipoProducto.Nombre.setf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.cs	. 	(1"0*n
-0	5 	(CZ
-X
-	5 	(C1
-CapaEntidad.EntTipoProducto"
-nombrestring"__id*
-
-valuestring*
-1*.
-1	D 	(D"
-	C 	(D
-implicit return:
-valuestringB
-CapaEntidad.EntTipoProducto
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

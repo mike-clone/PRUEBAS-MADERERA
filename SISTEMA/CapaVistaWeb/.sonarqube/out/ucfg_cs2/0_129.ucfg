@@ -1,42 +1,0 @@
-
-<<<<<<< HEAD
-)CapaEntidad.entReporteCompra.Longitud.getY
-OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs! ($"0*n
-0( (0Z
-X
-( (0
-%0string"__id*86*4
-CapaEntidad.entReporteCompra"
-longitudstring*
-1*.
-11 (1"
-0 (1
-implicit returnB 
-CapaEntidad.entReporteCompra
-=======
-.CapaEntidad.EntProveedorProducto.Proveedor.setk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs
-: 
-(="0*œ
-0
-A 
-(R‡
-„
-
-A 
-(RK"
- CapaEntidad.EntProveedorProducto"%
-	proveedorCapaEntidad.EntProveedor"__id*%#
-!
-valueCapaEntidad.EntProveedor*
-1*.
-1
-S 
-(S"
-
-R 
-(S
-implicit return:#!
-valueCapaEntidad.EntProveedorB$"
- CapaEntidad.EntProveedorProducto
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

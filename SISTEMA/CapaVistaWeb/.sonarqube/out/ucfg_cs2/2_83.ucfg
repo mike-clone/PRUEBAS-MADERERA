@@ -1,48 +1,0 @@
-
-<<<<<<< HEAD
-$CapaLogica.LogVenta.ListarVenta(int)P
-FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs" "()"0*—
-0$ $(.’
-
-$ $(*
-%0$CapaAccesoDatos.Interfaces.IDatVenta"__id*QO*M
-CapaLogica.LogVenta"4
-VentaService$CapaAccesoDatos.Interfaces.IDatVentaº·
-$ $(/(
-%1"System.Collections.Generic.List<T>"5CapaAccesoDatos.Interfaces.IDatVenta.ListarVenta(int)*.,
-*
-%0$CapaAccesoDatos.Interfaces.IDatVenta*
-""2ListarVenta(int)"6
-$ $(0*
-(
-%1"System.Collections.Generic.List<T>*.
-1%	 %(	"
-% %(	
-implicit return:
-"* "(0	
-idintB
-CapaLogica.LogVenta
-=======
-9CapaLogica.LogTipoProducto.SelectListTipoProductodat(int)e
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs&% &(>"0*Ý
-0( ((C®
-«
-( ((&1
-%0+CapaAccesoDatos.Interfaces.IDatTipoProducto"__id*fd*b
-CapaLogica.LogTipoProducto"B
-TipoProductoService+CapaAccesoDatos.Interfaces.IDatTipoProductoäá
-( ((D(
-%1"System.Collections.Generic.List<T>"JCapaAccesoDatos.Interfaces.IDatTipoProducto.SelectListTipoProductodat(int)*53
-1
-%0+CapaAccesoDatos.Interfaces.IDatTipoProducto*
-""2SelectListTipoProductodat(int)"6
-( ((E*
-(
-%1"System.Collections.Generic.List<T>*.
-1)	 )(	"
-) )(	
-implicit return:
-&? &(E	
-idintB
-CapaLogica.LogTipoProducto
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

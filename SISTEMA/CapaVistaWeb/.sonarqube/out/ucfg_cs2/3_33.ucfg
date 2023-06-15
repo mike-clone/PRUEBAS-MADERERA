@@ -1,255 +1,0 @@
-
-<<<<<<< HEAD
-kMadereraCarocho.Controllers.ProveedorController.ElegirProductos(int, double, System.Web.Mvc.FormCollection)k
-_D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs¦ ¦(+"2*ì
-0
-¨! ¶(,XV
-
-¨& ´(&
-%0 CapaEntidad.EntProveedorProducto" CapaEntidad.EntProveedorProducto
-}
-
-¨* ¨(>
-
-%1void"7CapaEntidad.EntProveedorProducto.EntProveedorProducto()**(
-&
-%0 CapaEntidad.EntProveedorProductoHF
-
-ª ­(
-%2CapaEntidad.EntProveedor"CapaEntidad.EntProveedorg
-e
-
-ª  ª(,
-
-%3void"'CapaEntidad.EntProveedor.EntProveedor()*" 
-
-%2CapaEntidad.EntProveedorq
-o
-
-¬ ¬(+	
-%4int"(CapaEntidad.EntProveedor.IdProveedor.set*" 
-
-%2CapaEntidad.EntProveedor*
-""¯
-¬
-
-ª ­(
-%5CapaEntidad.EntProveedor".CapaEntidad.EntProveedorProducto.Proveedor.set**(
-&
-%0 CapaEntidad.EntProveedorProducto*" 
-
-%2CapaEntidad.EntProveedorFD
-
-® ±(
-%6CapaEntidad.EntProducto"CapaEntidad.EntProductod
-b
-
-® ®(*
-
-%7void"%CapaEntidad.EntProducto.EntProducto()*!
-
-%6CapaEntidad.EntProducto–
-“
-
-°1 °(:
-%8string"CSystem.Collections.Specialized.NameValueCollection.this[string].get*(&
-$
-frmSystem.Web.Mvc.FormCollection*
-Pra
-_
-
-°! °(;	
-%9int"System.Convert.ToInt32(string)*"
-System.Convert*
-
-%8stringt
-r
-
-° °(;
-
-%10int"&CapaEntidad.EntProducto.IdProducto.set*!
-
-%6CapaEntidad.EntProducto*
-	
-%9int­
-ª
-
-® ±(
-%11CapaEntidad.EntProducto"-CapaEntidad.EntProveedorProducto.Producto.set**(
-&
-%0 CapaEntidad.EntProveedorProducto*!
-
-%6CapaEntidad.EntProducto‡
-„
-
-² ²(#
-%12double"1CapaEntidad.EntProveedorProducto.PrecioCompra.set**(
-&
-%0 CapaEntidad.EntProveedorProducto*
-""h
-f
-
-¨! ´(&
-PP CapaEntidad.EntProveedorProducto"__id**(
-&
-%0 CapaEntidad.EntProveedorProducto³
-°
-
-µ µ($&
-%13CapaLogica.LogProveedorProducto"__id*tr*p1
-/MadereraCarocho.Controllers.ProveedorController";
-ProveedorProductoserviceCapaLogica.LogProveedorProductoÎ
-Ë
-
-µ µ(?
-%14bool"XCapaLogica.LogProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)**(
-&
-%13CapaLogica.LogProveedorProducto**(
-&
-PP CapaEntidad.EntProveedorProductoŸ
-œ
-
-¶ ¶(-+
-%15$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-
-Listar";
-
-¶ ¶(.-
-+
-%15$System.Web.Mvc.RedirectToRouteResult*2
-1
-·	 ·(	"!
-
-· ·(	
-implicit return*Ñ
-2
-¦] ¦(]a
-_
-
-¦ ¦(+
-%16"__entrypoint*
-""*
-""*(&
-$
-frmSystem.Web.Mvc.FormCollectionˆ
-…
-
-¥	 ¥(
-%17"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*(&
-$
-frmSystem.Web.Mvc.FormCollectionM
-K
-
-¦J ¦(\$
-frmSystem.Web.Mvc.FormCollection"__annotation*	
-
-%17*
-0:
-
-¦, ¦(9
-	proveedorint:
-
-¦; ¦(H
-preciodouble:2
-
-¦J ¦(\$
-frmSystem.Web.Mvc.FormCollectionB31
-=======
-FMadereraCarocho.Controllers.ProveedorController.EliminarProveedor(int)y
-mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs… …(-"6*ä
-0
-‰ Š(š
-—
-
-‰ ‰(/
-%0CapaLogica.LogProveedor"__id*db*`1
-/MadereraCarocho.Controllers.ProveedorController"+
-ProveedorserviceCapaLogica.LogProveedorw
-u
-
-‰ ‰(F
-
-%1bool".CapaLogica.LogProveedor.EliminarProveedor(int)*!
-
-%0CapaLogica.LogProveedor*
-""5
-3
-
-‰ ‰(F
-eliminabool"__id*
-
-
-%1bool*
-1
-2*ì
-1
-Œ Œ(4ž
-›
-
-Œ Œ(5*
-%2$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-
-Listar":
-
-Œ Œ(6,
-*
-%2$System.Web.Mvc.RedirectToRouteResult*
-2
-”	 ”(	*
-3
-4*ã
-3
-‘ ‘(Qca
-
-‘G ‘(Q
-%3string"System.Exception.Message.get*
-
-exSystem.Exception2Message.get°
-­
-
-‘ ‘(T*
-%4$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
-System.Web.Mvc.Controller*
-
-Listar*
-""":
-
-‘ ‘(U,
-*
-%4$System.Web.Mvc.RedirectToRouteResult*ì
-4
-“ “(,ž
-›
-
-“ “(-*
-%5$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-
-Listar":
-
-“ “(.,
-*
-%5$System.Web.Mvc.RedirectToRouteResult*2
-5
-”	 ”(	"!
-
-” ”(	
-implicit return*B
-6
-…6 …(6,
-*
-
-… …(-
-%6"__entrypoint*
-""*
-0:
-
-…. …(5
-
-idcintB31
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-/MadereraCarocho.Controllers.ProveedorController

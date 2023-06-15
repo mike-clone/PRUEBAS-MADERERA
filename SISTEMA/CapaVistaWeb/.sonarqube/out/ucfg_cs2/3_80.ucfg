@@ -1,145 +1,0 @@
-
-<<<<<<< HEAD
-HMadereraCarocho.Controllers.ProductoController.ListarParaComprar(string)h
-^D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.cs (-"5*o
-=======
-HMadereraCarocho.Controllers.ProductoController.ListarParaComprar(string)v
-lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.cs (-"5*o
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-0'  (*X
-V
-   (+
-
-%0bool"string.IsNullOrEmpty(string)*
-"
-string*
-
-datostring*
-1
-2*Ô
-1" "(OØ
-¨
-" "(0%
-%1CapaLogica.LogProveedorProducto"__id*sq*o0
-.MadereraCarocho.Controllers.ProductoController";
-ProveedorProductoserviceCapaLogica.LogProveedorProductoπ
-∂
-" "(P(
-%2"System.Collections.Generic.List<T>"ACapaLogica.LogProveedorProducto.BuscarProductoParaComprar(string)*)'
-%
-%1CapaLogica.LogProveedorProducto*
-
-datostringm
-k
-" "(P+
-lista"System.Collections.Generic.List<T>"__id*,*
-(
-%2"System.Collections.Generic.List<T>*
-3*’
-2& &(LØ
-¨
-& &(0%
-%3CapaLogica.LogProveedorProducto"__id*sq*o0
-.MadereraCarocho.Controllers.ProductoController";
-ProveedorProductoserviceCapaLogica.LogProveedorProductoü
-ú
-& &(L(
-%4"System.Collections.Generic.List<T>";CapaLogica.LogProveedorProducto.ListarProductoParaComprar()*)'
-%
-%3CapaLogica.LogProveedorProductom
-k
-& &(L+
-lista"System.Collections.Generic.List<T>"__id*,*
-(
-%4"System.Collections.Generic.List<T>*
-3*·
-3* *(ƒ
-¡
-* *(
-
-%5void"-capavistaweb/views/producto/listarparacomprar*
-
-%6*/-
-+
-lista"System.Collections.Generic.List<T>*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject¥
-±
-* *(
-
-%7void"capavistaweb/views/_viewstart*
-
-%8*/-
-+
-lista"System.Collections.Generic.List<T>*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobjectπ
-∂
-* *(
-
-%9void"!capavistaweb/views/shared/_layout*	
-
-%10*/-
-+
-lista"System.Collections.Generic.List<T>*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-* *(
-
-
-%9void*.
-4+	 +(	"
-+ +(	
-implicit return*ï
-5: (:5
-3
- (-
-%11"__entrypoint*
-
-datostringí
-è
-	 (*
-%12"
-__annotate*\ZX
-VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*
-
-datostring5
-3
-. (9
-datostring"__annotation*	
-
-%12*
-0:
-. (9
-datostringB20
-.MadereraCarocho.Controllers.ProductoController

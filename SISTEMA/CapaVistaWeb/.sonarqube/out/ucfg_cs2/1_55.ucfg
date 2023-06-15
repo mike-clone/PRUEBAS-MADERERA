@@ -1,355 +1,0 @@
-
-<<<<<<< HEAD
-$CapaAccesoDatos.datRoll.ListarRoll()T
-JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datRoll.cs ('"0*ó
-0 (5E
-C
- (!'
-cmd System.Data.SqlClient.SqlCommand"__id*
-""ZX
-" (5(
-%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
-o
-& (3
-=======
-8CapaAccesoDatos.DatTipoProducto.SelectListTipoProducto()j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTipoProducto.cs+% +(;"0*ó
-0- .(EE
-C
-- -(!'
-cmd System.Data.SqlClient.SqlCommand"__id*
-""ZX
-.* .(E(
-%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
-o
-.. .(C
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-
-%1void")System.Collections.Generic.List<T>.List()*,*
-(
-%0"System.Collections.Generic.List<T>m
-k
-<<<<<<< HEAD
- (5+
-lista"System.Collections.Generic.List<T>"__id*,*
-(
-%0"System.Collections.Generic.List<T>*
-1*◊
-
-1 (6t
-r
-# (5
-%2CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
-CapaAccesoDatos.ConexionÄ
-~
-# (@)
-=======
-." .(E+
-lista"System.Collections.Generic.List<T>"__id*,*
-(
-%0"System.Collections.Generic.List<T>*
-1*‰
-
-11 5(6t
-r
-1# 1(5
-%2CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
-CapaAccesoDatos.ConexionÄ
-~
-1# 1(@)
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-%3#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
-
-%2CapaAccesoDatos.Conexionl
-j
-<<<<<<< HEAD
- (@)
-cn#System.Data.SqlClient.SqlConnection"__id*-+
-)
-%3#System.Data.SqlClient.SqlConnectionVT
- (7&
-%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommand·
-ﬁ
- ($
-
-%5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
-&
-%4 System.Data.SqlClient.SqlCommand*
-spListarRol*-+
-)
-cn#System.Data.SqlClient.SqlConnectiong
-e
- (7'
-=======
-1 1(@)
-cn#System.Data.SqlClient.SqlConnection"__id*-+
-)
-%3#System.Data.SqlClient.SqlConnectionVT
-2 2(D&
-%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÓ
-Î
-2 2($
-
-%5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
-&
-%4 System.Data.SqlClient.SqlCommand*
-spSelectListTipoProducto*-+
-)
-cn#System.Data.SqlClient.SqlConnectiong
-e
-2 2(D'
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-cmd System.Data.SqlClient.SqlCommand"__id**(
-&
-%4 System.Data.SqlClient.SqlCommand"
- 
-<<<<<<< HEAD
-" (=
-%6"__id*
-""ï
-í
- (=
-=======
-3" 3(=
-%6"__id*
-""ï
-í
-3 3(=
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-%7System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
-'
-cmd System.Data.SqlClient.SqlCommand*
-
-%6s
-q
-<<<<<<< HEAD
- (
-=======
-4 4(
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-
-%8void"*System.Data.SqlClient.SqlConnection.Open()*-+
-)
-cn#System.Data.SqlClient.SqlConnectionó
-î
-<<<<<<< HEAD
-# (6)
-=======
-5# 5(6)
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-%9#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
-'
-cmd System.Data.SqlClient.SqlCommandl
-j
-<<<<<<< HEAD
- (6)
-=======
-5 5(6)
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-dr#System.Data.SqlClient.SqlDataReader"__id*-+
-)
-%9#System.Data.SqlClient.SqlDataReader*
-2*ì
-<<<<<<< HEAD
-2 ( |z
- ( 
-=======
-26 6( |z
-6 6( 
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-%10bool"*System.Data.SqlClient.SqlDataReader.Read()*-+
-)
-dr#System.Data.SqlClient.SqlDataReader2Read()*
-3
-<<<<<<< HEAD
-4*¯
-3 %(!=;
-" #(
-%11CapaEntidad.entRoll"CapaEntidad.entRollX
-V
-& (-
-%12void"CapaEntidad.entRoll.entRoll()*
-
-%11CapaEntidad.entRoll†ù
-!1 !(<
-%13object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*	
-idRol2this[string].geta
-_
-!! !(=
-=======
-4*‚	
-38$ ;(!MK
-8* 8(?"
-%11CapaEntidad.EntTipoProducto"CapaEntidad.EntTipoProductop
-n
-8. 8(=
-%12void"-CapaEntidad.EntTipoProducto.EntTipoProducto()*&$
-"
-%11CapaEntidad.EntTipoProducto^
-\
-8$ 8(?"
-tipCapaEntidad.EntTipoProducto"__id*&$
-"
-%11CapaEntidad.EntTipoProducto™ß
-9: 9(O
-%13object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-idTipo_Producto2this[string].geta
-_
-9* 9(P
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-
-%14int"System.Convert.ToInt32(object)*"
-System.Convert*
-
-<<<<<<< HEAD
-%13objecth
-f
-! !(=
-
-%15int"CapaEntidad.entRoll.IdRoll.set*
-
-%11CapaEntidad.entRoll*
-
-
-%14int¶£
-"& "(7
-%16object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-descripcion2this[string].getMK
-"& "(B
-%17string"object.ToString()*
-
-%16object2
-ToString()s
-q
-" "(B
-%18string"#CapaEntidad.entRoll.Descripcion.set*
-
-%11CapaEntidad.entRoll*
-
-%17stringN
-L
- #(
-rolCapaEntidad.entRoll"__id*
-
-%11CapaEntidad.entRollù
-ö
-% %("
-%19void"0System.Collections.Generic.ICollection<T>.Add(T)*/-
-+
-lista"System.Collections.Generic.List<T>*
-
-rolCapaEntidad.entRoll*
-2*
-4/	 /(	*
-5
-6*Ï
-5, ,(pa_
-,  ,()
-=======
-%13objectÅ
-
-9 9(P
-
-%15int"/CapaEntidad.EntTipoProducto.IdTipo_producto.set*&$
-"
-tipCapaEntidad.EntTipoProducto*
-
-
-%14int°û
-:! :(-
-%16object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-nombre2this[string].getMK
-:! :(8
-%17string"object.ToString()*
-
-%16object2
-ToString()~
-|
-: :(8
-%18string"&CapaEntidad.EntTipoProducto.Nombre.set*&$
-"
-tipCapaEntidad.EntTipoProducto*
-
-%17string•
-¢
-; ;("
-%19void"0System.Collections.Generic.ICollection<T>.Add(T)*/-
-+
-lista"System.Collections.Generic.List<T>*&$
-"
-tipCapaEntidad.EntTipoProducto*
-2*
-4D	 D(	*
-5
-6*Ó
-5A A(ra_
-A  A()
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-%20string"System.Exception.Message.get*
-
-eSystem.Exception2Message.get#
-!
-<<<<<<< HEAD
-,F ,(Z
-%21"__id*
-""#
-!
-,\ ,(p
-%22"__id*
-""™
-ß
-, ,(q(
-%23!System.Windows.Forms.DialogResult"ÅSystem.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
-System.Windows.Forms.MessageBox*
-
-%20string*
-EROR AL MOSTRAR LOS ROL*	
-=======
-AH A(\
-%21"__id*
-""#
-!
-A^ A(r
-%22"__id*
-""¨
-©
-A A(s(
-%23!System.Windows.Forms.DialogResult"ÅSystem.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
-System.Windows.Forms.MessageBox*
-
-%20string*
-EROR AL MOSTRAR LOS TIPOS*	
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-
-%21*	
-
-%22*
-6*H
-<<<<<<< HEAD
-6. .("9
-. .(-
-+
-lista"System.Collections.Generic.List<T>*.
-7/	 /(	"
-/ /(	
-implicit returnB
-CapaAccesoDatos.datRoll
-=======
-6C C("9
-C C(-
-+
-lista"System.Collections.Generic.List<T>*.
-7D	 D(	"
-D D(	
-implicit returnB#!
-CapaAccesoDatos.DatTipoProducto
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

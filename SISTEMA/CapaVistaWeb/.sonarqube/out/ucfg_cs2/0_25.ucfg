@@ -1,31 +1,0 @@
-
-<<<<<<< HEAD
-6CapaEntidad.EntTemporaryProducts.ProveedorProducto.get]
-SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs8 (;"0*±
-0? (Pœ
-™
-? (P&
-%0 CapaEntidad.EntProveedorProducto"__id*_]*["
- CapaEntidad.EntTemporaryProducts"5
-proveedorProducto CapaEntidad.EntProveedorProducto*
-1*.
-1Q (Q"
-P (Q
-implicit returnB$"
- CapaEntidad.EntTemporaryProducts
-=======
- CapaEntidad.EntVenta.IdVenta.set_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*Z
-0 (!F
-D
- (!(
-CapaEntidad.EntVenta"
-idVentaint"__id*
-""*
-1*.
-1$ ($"
-# ($
-implicit return:
-valueintB
-CapaEntidad.EntVenta
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

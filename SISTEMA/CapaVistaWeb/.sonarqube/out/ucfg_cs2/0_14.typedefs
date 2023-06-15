@@ -1,16 +1,0 @@
-£
-CapaEntidad.EntVentaobject-
-
-EntVenta()CapaEntidad.EntVenta.EntVenta()/
-IdVenta.get CapaEntidad.EntVenta.IdVenta.get/
-IdVenta.set CapaEntidad.EntVenta.IdVenta.set+
-	Fecha.getCapaEntidad.EntVenta.Fecha.get+
-	Fecha.setCapaEntidad.EntVenta.Fecha.set+
-	Total.getCapaEntidad.EntVenta.Total.get+
-	Total.setCapaEntidad.EntVenta.Total.set-
-
-Estado.getCapaEntidad.EntVenta.Estado.get-
-
-Estado.setCapaEntidad.EntVenta.Estado.set/
-Cliente.get CapaEntidad.EntVenta.Cliente.get/
-Cliente.set CapaEntidad.EntVenta.Cliente.set

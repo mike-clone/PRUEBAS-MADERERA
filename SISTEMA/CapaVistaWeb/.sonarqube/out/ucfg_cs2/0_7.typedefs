@@ -1,52 +1,0 @@
-<<<<<<< HEAD
-µ
-CapaEntidad.EntCompraobject0
-EntCompra()!CapaEntidad.EntCompra.EntCompra()2
-IdCompra.get"CapaEntidad.EntCompra.IdCompra.get2
-IdCompra.set"CapaEntidad.EntCompra.IdCompra.set,
-	Fecha.getCapaEntidad.EntCompra.Fecha.get,
-	Fecha.setCapaEntidad.EntCompra.Fecha.set,
-	Total.getCapaEntidad.EntCompra.Total.get,
-	Total.setCapaEntidad.EntCompra.Total.set.
-
-Estado.get CapaEntidad.EntCompra.Estado.get.
-
-Estado.set CapaEntidad.EntCompra.Estado.set0
-Usuario.get!CapaEntidad.EntCompra.Usuario.get0
-Usuario.set!CapaEntidad.EntCompra.Usuario.set
-=======
-©
-
-CapaEntidad.EntUsuarioobject3
-EntUsuario()#CapaEntidad.EntUsuario.EntUsuario()5
-IdUsuario.get$CapaEntidad.EntUsuario.IdUsuario.get5
-IdUsuario.set$CapaEntidad.EntUsuario.IdUsuario.set9
-RazonSocial.get&CapaEntidad.EntUsuario.RazonSocial.get9
-RazonSocial.set&CapaEntidad.EntUsuario.RazonSocial.set3
-Telefono.get#CapaEntidad.EntUsuario.Telefono.get3
-Telefono.set#CapaEntidad.EntUsuario.Telefono.set5
-Direccion.get$CapaEntidad.EntUsuario.Direccion.get5
-Direccion.set$CapaEntidad.EntUsuario.Direccion.set/
-
-Ubigeo.get!CapaEntidad.EntUsuario.Ubigeo.get/
-
-Ubigeo.set!CapaEntidad.EntUsuario.Ubigeo.set=
-FechaCreacion.get(CapaEntidad.EntUsuario.FechaCreacion.get=
-FechaCreacion.set(CapaEntidad.EntUsuario.FechaCreacion.set/
-
-Correo.get!CapaEntidad.EntUsuario.Correo.get/
-
-Correo.set!CapaEntidad.EntUsuario.Correo.set3
-UserName.get#CapaEntidad.EntUsuario.UserName.get3
-UserName.set#CapaEntidad.EntUsuario.UserName.set+
-Pass.getCapaEntidad.EntUsuario.Pass.get+
-Pass.setCapaEntidad.EntUsuario.Pass.set)
-Rol.getCapaEntidad.EntUsuario.Rol.get)
-Rol.setCapaEntidad.EntUsuario.Rol.set/
-
-Activo.get!CapaEntidad.EntUsuario.Activo.get/
-
-Activo.set!CapaEntidad.EntUsuario.Activo.set+
-Roll.getCapaEntidad.EntUsuario.Roll.get+
-Roll.setCapaEntidad.EntUsuario.Roll.set
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

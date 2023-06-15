@@ -1,14 +1,0 @@
-<<<<<<< HEAD
-'
-%CapaAccesoDatos.Interfaces.IDatUbigeo
-=======
-Ü
-CapaAccesoDatos.DatUbigeoobject%CapaAccesoDatos.Interfaces.IDatUbigeob
-"CrearUbigeo(CapaEntidad.EntUbigeo)<CapaAccesoDatos.DatUbigeo.CrearUbigeo(CapaEntidad.EntUbigeo):
-ListarUbigeo()(CapaAccesoDatos.DatUbigeo.ListarUbigeo()>
-ListarDistrito()*CapaAccesoDatos.DatUbigeo.ListarDistrito()l
-'ActualizarUbigeo(CapaEntidad.EntUbigeo)ACapaAccesoDatos.DatUbigeo.ActualizarUbigeo(CapaEntidad.EntUbigeo)D
-EliminarUbigeo(int)-CapaAccesoDatos.DatUbigeo.EliminarUbigeo(int)F
-BuscarUbigeo(string).CapaAccesoDatos.DatUbigeo.BuscarUbigeo(string)4
-DatUbigeo()%CapaAccesoDatos.DatUbigeo.DatUbigeo()
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

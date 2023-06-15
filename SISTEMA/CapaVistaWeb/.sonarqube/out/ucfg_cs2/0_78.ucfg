@@ -1,34 +1,0 @@
-
-<<<<<<< HEAD
- CapaEntidad.EntVenta.Cliente.setQ
-GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs% %("0*ˆ
-0% %(!t
-r
-% %(!;
-CapaEntidad.EntVenta"!
-clienteCapaEntidad.EntUsuario"__id*#!
-
-valueCapaEntidad.EntUsuario*
-1*.
-1%$ %($"
-%# %($
-implicit return:!
-valueCapaEntidad.EntUsuarioB
-CapaEntidad.EntVenta
-=======
-CapaEntidad.EntUsuario.Roll.geta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csV V("0*¢
-0V V(j
-h
-V V(
-%0CapaEntidad.entRoll"__id*;9*7
-CapaEntidad.EntUsuario"
-rollCapaEntidad.entRoll"'
-V V(
-
-%0CapaEntidad.entRoll*.
-1V  V( "
-V V( 
-implicit returnB
-CapaEntidad.EntUsuario
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

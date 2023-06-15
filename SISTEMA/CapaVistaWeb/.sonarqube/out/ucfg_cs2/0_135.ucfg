@@ -1,33 +1,0 @@
-
-<<<<<<< HEAD
-&CapaEntidad.entReporteCompra.Fecha.setY
-OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs. (1"0*€
-05 (Bl
-j
-5 (B:
-CapaEntidad.entReporteCompra"
-fechaSystem.DateTime"__id*
-
-valueSystem.DateTime*
-1*.
-1C (C"
-B (C
-implicit return:
-valueSystem.DateTimeB 
-CapaEntidad.entReporteCompra
-=======
-1CapaEntidad.EntProveedorProducto.PrecioCompra.setk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs: (="0*n
-0A (UZ
-X
-A (U<"
- CapaEntidad.EntProveedorProducto"
-precioCompradouble"__id*
-""*
-1*.
-1V (V"
-U (V
-implicit return:
-valuedoubleB$"
- CapaEntidad.EntProveedorProducto
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

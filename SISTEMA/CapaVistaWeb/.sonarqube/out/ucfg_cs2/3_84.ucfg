@@ -1,211 +1,0 @@
-
-<<<<<<< HEAD
-@MadereraCarocho.Controllers.UsuarioController.EditarCliente(int)g
-]D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\UsuarioController.cs@ @()"2*Ó
-0B E(
-
-B B((
-%0CapaLogica.LogUsuario"__id*^\*Z/
--MadereraCarocho.Controllers.UsuarioController"'
-UsuarioserviceCapaLogica.LogUsuario
-
-B B(;
-%1CapaEntidad.EntUsuario"*CapaLogica.LogUsuario.BuscarIdUsuario(int)*
-
-%0CapaLogica.LogUsuario*
-""W
-U
-B B(;!
-usuarioCapaEntidad.EntUsuario"__id* 
-
-%1CapaEntidad.EntUsuario/-
-C C(
-%ViewBagDataAllobject"object0.
-C C(
-%ViewBagDataHtmlobject"objecto
-m
-C C(*
-%2CapaEntidad.entRoll"CapaEntidad.EntUsuario.Roll.get*%#
-!
-usuarioCapaEntidad.EntUsuario^
-\
-C C(6
-%3string"#CapaEntidad.entRoll.Descripcion.get*
-
-%2CapaEntidad.entRoll\
-Z
-C C(6
-%4"__mapSet*
-
-%ViewBagDataAllobject*	
-OldRoll*
-
-%3stringU
-S
-C C(6
-%5"__mapSet*
-
-%ViewBagDataHtmlobject*	
-OldRoll*
-""s
-q
-D  D(.
-%6CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.get*%#
-!
-usuarioCapaEntidad.EntUsuarioc
-a
-D  D(;
-%7string"&CapaEntidad.EntUbigeo.Departamento.get*
-
-%6CapaEntidad.EntUbigeoT
-R
-D  D(B
-%8string"__concat*
-D  D(;
-
-%7string*
-D> D(B
-  s
-q
-DE D(S
-%9CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.get*%#
-!
-usuarioCapaEntidad.EntUsuarioa
-_
-DE D(]
-%10string"#CapaEntidad.EntUbigeo.Provincia.get*
-
-%9CapaEntidad.EntUbigeo^
-\
-D  D(]
-%11string"__concat*
-D  D(B
-
-%8string*
-DE D(]
-
-%10stringV
-T
-D  D(d
-%12string"__concat*
-D  D(]
-
-%11string*
-D` D(d
-  t
-r
-Dg D(u
-%13CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.get*%#
-!
-usuarioCapaEntidad.EntUsuarioa
-_
-Dg D(~
-%14string""CapaEntidad.EntUbigeo.Distrito.get* 
-
-%13CapaEntidad.EntUbigeo_
-]
-D  D(~
-%15string"__concat*
-D  D(d
-
-%12string*
-Dg D(~
-
-%14string`
-^
-D D(~
-%16"__mapSet*
-
-%ViewBagDataAllobject*
-	OldUbigeo*
-
-%15stringX
-V
-D D(~
-%17"__mapSet*
-
-%ViewBagDataHtmlobject*
-	OldUbigeo*
-""·
-´
-E E( 
-%18void"(capavistaweb/views/usuario/editarcliente*	
-
-%19*%#
-!
-usuarioCapaEntidad.EntUsuario*
-=======
-2MadereraCarocho.Controllers.HomeController.Error()r
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs/ /(!"2*ð
-01 1(”
-‘
-1 1(
-
-%0void"capavistaweb/views/home/error*
-
-%1*
-	{unknown}*
->>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject”
-‘
-1 1(
-
-%2void"capavistaweb/views/_viewstart*
-
-%3*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject˜
-•
-1 1(
-
-%4void"!capavistaweb/views/shared/_layout*
-
-%5*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-1 1(
-
-
-%4void*.
-12	 2(	"
-2 2(	
-implicit return*4
-2/# /(# 
-
-/ /(!
-%6"__entrypoint*
-0B.,
-*MadereraCarocho.Controllers.HomeController
