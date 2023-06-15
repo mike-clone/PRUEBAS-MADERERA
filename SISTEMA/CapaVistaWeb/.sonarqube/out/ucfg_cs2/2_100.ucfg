@@ -1,24 +1,23 @@
 
-/CapaLogica.LogProveedor.BuscarProveedor(string)b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cso" o(1"0*Ë
-0q q(<¢
+.CapaLogica.LogProveedor.BuscarIdProveedor(int)T
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.css s(-"0*§
+0u u(A¢
 Ÿ
-q q(#.
+u u(#.
 %0(CapaAccesoDatos.Interfaces.IDatProveedor"__id*][*Y
 CapaLogica.LogProveedor"<
-ProveedorService(CapaAccesoDatos.Interfaces.IDatProveedorÞÛ
-q q(=(
-%1"System.Collections.Generic.List<T>"@CapaAccesoDatos.Interfaces.IDatProveedor.BuscarProveedor(string)*20
+ProveedorService(CapaAccesoDatos.Interfaces.IDatProveedorÄÁ
+u u(B
+%1CapaEntidad.EntProveedor"?CapaAccesoDatos.Interfaces.IDatProveedor.BuscarIdProveedor(int)*20
 .
-%0(CapaAccesoDatos.Interfaces.IDatProveedor*
-
-busquedastring2BuscarProveedor(string)"6
-q q(>*
-(
-%1"System.Collections.Generic.List<T>*.
-1r	 r(	"
-r r(	
+%0(CapaAccesoDatos.Interfaces.IDatProveedor*
+""2BuscarIdProveedor(int)",
+u u(C 
+
+%1CapaEntidad.EntProveedor*.
+1v	 v(	"
+v v(	
 implicit return:
-o2 o(A
-busquedastringB
+s. s(=
+idProveedorintB
 CapaLogica.LogProveedor

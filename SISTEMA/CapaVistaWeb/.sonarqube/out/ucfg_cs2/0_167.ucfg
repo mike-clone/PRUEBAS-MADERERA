@@ -1,16 +1,15 @@
 
-#CapaEntidad.EntProveedor.Ubigeo.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.csH H("0*¬
-0H H(r
-p
-H H(
-%0CapaEntidad.EntUbigeo"__id*A?*=
-CapaEntidad.EntProveedor"
-ubigeoCapaEntidad.EntUbigeo")
-H H( 
-
-%0CapaEntidad.EntUbigeo*.
-1H" H(""
-H! H("
-implicit returnB
-CapaEntidad.EntProveedor
+"CapaEntidad.EntProducto.Activo.setT
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs:, :(/"0*]
+0:3 :(AI
+G
+:3 :(A+
+CapaEntidad.EntProducto"
+activobool"__id*
+""*
+1*.
+1:B :(B"
+:A :(B
+implicit return:
+valueboolB
+CapaEntidad.EntProducto

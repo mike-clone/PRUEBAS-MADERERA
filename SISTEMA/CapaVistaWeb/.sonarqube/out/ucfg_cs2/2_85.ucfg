@@ -1,25 +1,20 @@
 
->CapaLogica.LogTemporaryProducts.EliminarTemporaryProducts(int)j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs. .(-"0*·
-00 0(@º
-·
-0 0(#6
-%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts"__id*mk*i!
-CapaLogica.LogTemporaryProducts"D
-TemporaryService0CapaAccesoDatos.Interfaces.IDatTemporaryProductsÐÍ
-0 0(A
-
-%1bool"OCapaAccesoDatos.Interfaces.IDatTemporaryProducts.EliminarTemporaryProducts(int)*:8
-6
-%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts*
-""2EliminarTemporaryProducts(int)"
-0 0(B
-
-
-%1bool*.
-11	 1(	"
-1 1(	
-implicit return:
-.. .(4	
-idintB#!
-CapaLogica.LogTemporaryProducts
+)CapaLogica.LogProveedor.ListarProveedor()T
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs>" >(1"0*§
+0@ @(5¢
+Ÿ
+@ @(#.
+%0(CapaAccesoDatos.Interfaces.IDatProveedor"__id*][*Y
+CapaLogica.LogProveedor"<
+ProveedorService(CapaAccesoDatos.Interfaces.IDatProveedorº·
+@ @(5(
+%1"System.Collections.Generic.List<T>":CapaAccesoDatos.Interfaces.IDatProveedor.ListarProveedor()*20
+.
+%0(CapaAccesoDatos.Interfaces.IDatProveedor2ListarProveedor()"6
+@ @(6*
+(
+%1"System.Collections.Generic.List<T>*.
+1A	 A(	"
+A A(	
+implicit returnB
+CapaLogica.LogProveedor

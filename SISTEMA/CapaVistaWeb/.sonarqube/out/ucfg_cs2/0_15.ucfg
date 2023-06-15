@@ -1,13 +1,14 @@
 
-+CapaEntidad.EntTemporaryProducts.IdTemp.getk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs ("0*6
-0# ()"
- 
-# ()
-%0"__id*
-""*
+#CapaEntidad.EntDetCompra.Compra.getU
+KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs" (%"0*†
+0) (/r
+p
+) (/
+%0CapaEntidad.EntCompra"__id*A?*=
+CapaEntidad.EntDetCompra"
+compraCapaEntidad.EntCompra*
 1*.
-1* (*"
-) (*
-implicit returnB$"
- CapaEntidad.EntTemporaryProducts
+10 (0"
+/ (0
+implicit returnB
+CapaEntidad.EntDetCompra

@@ -1,31 +1,47 @@
 
-YMadereraCarocho.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)n
-dC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\FilterConfig.cs (0"0*´
-0	 	(2\Z
-	 	(2)
-%0#System.Web.Mvc.HandleErrorAttribute"#System.Web.Mvc.HandleErrorAttributeÑ
-Å
-	 	(0
+2MadereraCarocho.MvcApplication.Application_Start()U
+KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Global.asax.cs	 	(("0*å	
+0 (<s
+q
+ (/
 
-%1void":System.Web.Mvc.HandleErrorAttribute.HandleErrorAttribute()*-+
-)
-%0#System.Web.Mvc.HandleErrorAttribute±
-Æ
-	 	(3
+%0void"2System.Web.Mvc.AreaRegistration.RegisterAllAreas()*%#"!
+System.Web.Mvc.AreaRegistrationà
+Ö
+/ (D+
+%1%System.Web.Mvc.GlobalFilterCollection"(System.Web.Mvc.GlobalFilters.Filters.get*" "
+System.Web.Mvc.GlobalFilters…
+∆
+ (E
 
-%2void"1System.Web.Mvc.GlobalFilterCollection.Add(object)*42
-0
-filters%System.Web.Mvc.GlobalFilterCollection*-+
-)
-%0#System.Web.Mvc.HandleErrorAttribute*
+%2void"YMadereraCarocho.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)*" "
+MadereraCarocho.FilterConfig*/-
++
+%1%System.Web.Mvc.GlobalFilterCollectionÜ
+É
+' (8(
+%3"System.Web.Routing.RouteCollection"(System.Web.Routing.RouteTable.Routes.get*#!"
+System.Web.Routing.RouteTable∫
+∑
+ (9
+
+%4void"NMadereraCarocho.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)*!"
+MadereraCarocho.RouteConfig*,*
+(
+%3"System.Web.Routing.RouteCollectionô
+ñ
+) (<.
+%5(System.Web.Optimization.BundleCollection"/System.Web.Optimization.BundleTable.Bundles.get*)'"%
+#System.Web.Optimization.BundleTable…
+∆
+ (=
+
+%6void"VMadereraCarocho.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)*" "
+MadereraCarocho.BundleConfig*20
+.
+%5(System.Web.Optimization.BundleCollection*
 1*.
-1
-	 
-(	"
-
- 
-(	
-implicit return:<
-1 (O0
-filters%System.Web.Mvc.GlobalFilterCollectionB "
-MadereraCarocho.FilterConfig
+1	 (	"
+ (	
+implicit returnB" 
+MadereraCarocho.MvcApplication

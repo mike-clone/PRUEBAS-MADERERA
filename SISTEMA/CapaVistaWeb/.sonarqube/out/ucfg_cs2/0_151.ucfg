@@ -1,16 +1,16 @@
 
--CapaEntidad.entReporteCompra.PrecUnitario.setg
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs: (="0*u
-0A (Ua
-_
-A (U8
-CapaEntidad.entReporteCompra"
-precUnitariostring"__id*
+)CapaEntidad.entReporteCompra.Cantidad.setY
+OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs2 (5"0*q
+09 (I]
+[
+9 (I4
+CapaEntidad.entReporteCompra"
+cantidadstring"__id*
 
 valuestring*
 1*.
-1V (V"
-U (V
+1J (J"
+I (J
 implicit return:
 valuestringB 
 CapaEntidad.entReporteCompra

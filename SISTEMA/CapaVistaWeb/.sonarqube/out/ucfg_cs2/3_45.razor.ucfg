@@ -1,16 +1,16 @@
 
-)capavistaweb/views/usuario/listarclientes"0*Ñ
-0	 ò('¬
-ø
-x
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlE E(
+)capavistaweb/views/usuario/listarclientes"0*Ë
+0	 ò('¥
+±
+j
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlE E(
 %0dynamic"__mapGet*
 
 ViewBagDataHtmlobject*	
-Error©
-¶
-x
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlE E(
+Errorõ
+ò
+j
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlE E(
 
 %1void"!razor_sink*
 
@@ -19,170 +19,170 @@ nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\View
 1
 ˚	 ˚(	*
 2
-3*≠>
-2û Ú(£˝
-˙
-x
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtml (E'
+3*≥;
+2û Ú(ùÔ
+Ï
+j
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtml (E'
 %2!System.Web.Mvc.HtmlHelper<TModel>"+System.Web.Mvc.WebViewPage<TModel>.Html.get*(&$
-"System.Web.Mvc.WebViewPage<TModel>¨
-©
-x
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtml (E"
+"System.Web.Mvc.WebViewPage<TModel>û
+õ
+j
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtml (E"
 %3System.Web.Mvc.MvcHtmlString"§System.Web.Mvc.Html.DisplayExtensions.DisplayFor<TModel, TValue>(System.Web.Mvc.HtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TValue>>)*+)"'
 %System.Web.Mvc.Html.DisplayExtensions*+)
 '
 %2!System.Web.Mvc.HtmlHelper<TModel>*
-""æ
-ª
-x
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtml (E
+""∞
+≠
+j
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtml (E
 
 %4void"!razor_sink*&$
 "
-%3System.Web.Mvc.MvcHtmlStringˇ
-¸
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlÇ Ç(G'
+%3System.Web.Mvc.MvcHtmlStringÒ
+Ó
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlÇ Ç(G'
 %5!System.Web.Mvc.HtmlHelper<TModel>"+System.Web.Mvc.WebViewPage<TModel>.Html.get*(&$
-"System.Web.Mvc.WebViewPage<TModel>Æ
-´
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlÇ Ç(G"
+"System.Web.Mvc.WebViewPage<TModel>†
+ù
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlÇ Ç(G"
 %6System.Web.Mvc.MvcHtmlString"§System.Web.Mvc.Html.DisplayExtensions.DisplayFor<TModel, TValue>(System.Web.Mvc.HtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TValue>>)*+)"'
 %System.Web.Mvc.Html.DisplayExtensions*+)
 '
 %5!System.Web.Mvc.HtmlHelper<TModel>*
-""¿
-Ω
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlÇ Ç(G
+""≤
+Ø
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlÇ Ç(G
 
 %7void"!razor_sink*&$
 "
-%6System.Web.Mvc.MvcHtmlStringˇ
-¸
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlÖ Ö(D'
+%6System.Web.Mvc.MvcHtmlStringÒ
+Ó
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlÖ Ö(D'
 %8!System.Web.Mvc.HtmlHelper<TModel>"+System.Web.Mvc.WebViewPage<TModel>.Html.get*(&$
-"System.Web.Mvc.WebViewPage<TModel>Æ
-´
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlÖ Ö(D"
+"System.Web.Mvc.WebViewPage<TModel>†
+ù
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlÖ Ö(D"
 %9System.Web.Mvc.MvcHtmlString"§System.Web.Mvc.Html.DisplayExtensions.DisplayFor<TModel, TValue>(System.Web.Mvc.HtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TValue>>)*+)"'
 %System.Web.Mvc.Html.DisplayExtensions*+)
 '
 %8!System.Web.Mvc.HtmlHelper<TModel>*
-""¡
-æ
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlÖ Ö(D
+""≥
+∞
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlÖ Ö(D
 %10void"!razor_sink*&$
 "
-%9System.Web.Mvc.MvcHtmlStringÄ
-˝
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlà à(B(
+%9System.Web.Mvc.MvcHtmlStringÚ
+Ô
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlà à(B(
 %11!System.Web.Mvc.HtmlHelper<TModel>"+System.Web.Mvc.WebViewPage<TModel>.Html.get*(&$
-"System.Web.Mvc.WebViewPage<TModel>∞
-≠
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlà à(B#
+"System.Web.Mvc.WebViewPage<TModel>¢
+ü
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlà à(B#
 %12System.Web.Mvc.MvcHtmlString"§System.Web.Mvc.Html.DisplayExtensions.DisplayFor<TModel, TValue>(System.Web.Mvc.HtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TValue>>)*+)"'
 %System.Web.Mvc.Html.DisplayExtensions*,*
 (
 %11!System.Web.Mvc.HtmlHelper<TModel>*
-""¬
-ø
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlà à(B
+""¥
+±
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlà à(B
 %13void"!razor_sink*'%
 #
-%12System.Web.Mvc.MvcHtmlStringÄ
-˝
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlã ã(D(
+%12System.Web.Mvc.MvcHtmlStringÚ
+Ô
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlã ã(D(
 %14!System.Web.Mvc.HtmlHelper<TModel>"+System.Web.Mvc.WebViewPage<TModel>.Html.get*(&$
-"System.Web.Mvc.WebViewPage<TModel>∞
-≠
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlã ã(D#
+"System.Web.Mvc.WebViewPage<TModel>¢
+ü
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlã ã(D#
 %15System.Web.Mvc.MvcHtmlString"§System.Web.Mvc.Html.DisplayExtensions.DisplayFor<TModel, TValue>(System.Web.Mvc.HtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TValue>>)*+)"'
 %System.Web.Mvc.Html.DisplayExtensions*,*
 (
 %14!System.Web.Mvc.HtmlHelper<TModel>*
-""¬
-ø
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlã ã(D
+""¥
+±
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlã ã(D
 %16void"!razor_sink*'%
 #
-%15System.Web.Mvc.MvcHtmlStringÄ
-˝
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlë ë(E(
+%15System.Web.Mvc.MvcHtmlStringÚ
+Ô
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlë ë(E(
 %17!System.Web.Mvc.HtmlHelper<TModel>"+System.Web.Mvc.WebViewPage<TModel>.Html.get*(&$
-"System.Web.Mvc.WebViewPage<TModel>∞
-≠
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlë ë(E#
+"System.Web.Mvc.WebViewPage<TModel>¢
+ü
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlë ë(E#
 %18System.Web.Mvc.MvcHtmlString"§System.Web.Mvc.Html.DisplayExtensions.DisplayFor<TModel, TValue>(System.Web.Mvc.HtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TValue>>)*+)"'
 %System.Web.Mvc.Html.DisplayExtensions*,*
 (
 %17!System.Web.Mvc.HtmlHelper<TModel>*
-""¬
-ø
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlë ë(E
+""¥
+±
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlë ë(E
 %19void"!razor_sink*'%
 #
-%18System.Web.Mvc.MvcHtmlStringÄ
-˝
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlî î(L(
+%18System.Web.Mvc.MvcHtmlStringÚ
+Ô
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlî î(L(
 %20!System.Web.Mvc.HtmlHelper<TModel>"+System.Web.Mvc.WebViewPage<TModel>.Html.get*(&$
-"System.Web.Mvc.WebViewPage<TModel>∞
-≠
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlî î(L#
+"System.Web.Mvc.WebViewPage<TModel>¢
+ü
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlî î(L#
 %21System.Web.Mvc.MvcHtmlString"§System.Web.Mvc.Html.DisplayExtensions.DisplayFor<TModel, TValue>(System.Web.Mvc.HtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TValue>>)*+)"'
 %System.Web.Mvc.Html.DisplayExtensions*,*
 (
 %20!System.Web.Mvc.HtmlHelper<TModel>*
-""¬
-ø
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlî î(L
+""¥
+±
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlî î(L
 %22void"!razor_sink*'%
 #
-%21System.Web.Mvc.MvcHtmlStringÄ
-˝
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmló ó(B(
+%21System.Web.Mvc.MvcHtmlStringÚ
+Ô
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmló ó(B(
 %23!System.Web.Mvc.HtmlHelper<TModel>"+System.Web.Mvc.WebViewPage<TModel>.Html.get*(&$
-"System.Web.Mvc.WebViewPage<TModel>∞
-≠
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmló ó(B#
+"System.Web.Mvc.WebViewPage<TModel>¢
+ü
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmló ó(B#
 %24System.Web.Mvc.MvcHtmlString"§System.Web.Mvc.Html.DisplayExtensions.DisplayFor<TModel, TValue>(System.Web.Mvc.HtmlHelper<TModel>, System.Linq.Expressions.Expression<System.Func<TModel, TValue>>)*+)"'
 %System.Web.Mvc.Html.DisplayExtensions*,*
 (
 %23!System.Web.Mvc.HtmlHelper<TModel>*
-""¬
-ø
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmló ó(B
+""¥
+±
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmló ó(B
 %25void"!razor_sink*'%
 #
-%24System.Web.Mvc.MvcHtmlStringÄ
-˝
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlú ú(a(
+%24System.Web.Mvc.MvcHtmlStringÚ
+Ô
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlú ú(a(
 %26!System.Web.Mvc.HtmlHelper<TModel>"+System.Web.Mvc.WebViewPage<TModel>.Html.get*(&$
-"System.Web.Mvc.WebViewPage<TModel>â
-Ü
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlú ú(a#
+"System.Web.Mvc.WebViewPage<TModel>˚
+¯
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlú ú(a#
 %27System.Web.Mvc.MvcHtmlString"`System.Web.Mvc.Html.LinkExtensions.ActionLink(System.Web.Mvc.HtmlHelper, string, string, object)*(&"$
 "System.Web.Mvc.Html.LinkExtensions*,*
 (
@@ -190,16 +190,16 @@ nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\View
 
 Edit*
 EditarCliente*
-""¬
-ø
-z
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlú ú(a
+""¥
+±
+l
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Views\Usuario\ListarClientes.cshtmlú ú(a
 %28void"!razor_sink*'%
 #
 %27System.Web.Mvc.MvcHtmlString*
 1*
 3
-˙ ˙(l*
+˙ ˙(\*
 4*&
 4
 ˚	 ˚(	"

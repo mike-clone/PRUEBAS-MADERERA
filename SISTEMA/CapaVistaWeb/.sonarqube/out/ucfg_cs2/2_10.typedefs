@@ -1,8 +1,6 @@
-™
-CapaLogica.LogVentaobject,
-
-LogVenta()CapaLogica.LogVenta.LogVenta()t
-.LogVenta(CapaAccesoDatos.Interfaces.IDatVenta)BCapaLogica.LogVenta.LogVenta(CapaAccesoDatos.Interfaces.IDatVenta)X
- CrearVenta(CapaEntidad.EntVenta)4CapaLogica.LogVenta.CrearVenta(CapaEntidad.EntVenta)8
-ListarVenta(int)$CapaLogica.LogVenta.ListarVenta(int)B
-ListarTodasLasVenta())CapaLogica.LogVenta.ListarTodasLasVenta()
+‹
+CapaLogica.LogDetVentaobject5
+LogDetVenta()$CapaLogica.LogDetVenta.LogDetVenta()ƒ
+4LogDetVenta(CapaAccesoDatos.Interfaces.IDatDetVenta)KCapaLogica.LogDetVenta.LogDetVenta(CapaAccesoDatos.Interfaces.IDatDetVenta)g
+&CrearDetVenta(CapaEntidad.EntDetVenta)=CapaLogica.LogDetVenta.CrearDetVenta(CapaEntidad.EntDetVenta)C
+Mostrardetventa(int)+CapaLogica.LogDetVenta.Mostrardetventa(int)

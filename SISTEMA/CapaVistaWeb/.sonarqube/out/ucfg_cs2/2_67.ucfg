@@ -1,26 +1,26 @@
 
-7CapaLogica.LogUbigeo.CrearUbigeo(CapaEntidad.EntUbigeo)_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs ("0*›
-0 (.–
-“
- ( +
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
-CapaLogica.LogUbigeo"6
-UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeoØÕ
- (/
-
-%1bool"HCapaAccesoDatos.Interfaces.IDatUbigeo.CrearUbigeo(CapaEntidad.EntUbigeo)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo*
-
-uCapaEntidad.EntUbigeo2"CrearUbigeo(CapaEntidad.EntUbigeo)"
- (0
-
-
-%1bool*.
-1	 (	"
- (	
-implicit return:&
-  (+
-uCapaEntidad.EntUbigeoB
-CapaLogica.LogUbigeo
+BCapaLogica.LogProveedorProducto.BuscarProvedorProductoId(int, int)\
+RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs5$ 5(<"0*‰
+07 7(SÂ
+¿
+7 7(+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
+CapaLogica.LogProveedorProducto"L
+ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProductoþû
+7 7(T&
+%1 CapaEntidad.EntProveedorProducto"SCapaAccesoDatos.Interfaces.IDatProveedorProducto.BuscarProvedorProductoId(int, int)*:8
+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto*
+""*
+""2"BuscarProvedorProductoId(int, int)"4
+7 7(U(
+&
+%1 CapaEntidad.EntProveedorProducto*.
+18	 8(	"
+8 8(	
+implicit return:
+5= 5(G
+idprodint:
+5I 5(S
+idprovintB#!
+CapaLogica.LogProveedorProducto

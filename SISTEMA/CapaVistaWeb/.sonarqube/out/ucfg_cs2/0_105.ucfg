@@ -1,15 +1,13 @@
 
-1CapaEntidad.EntProveedorProducto.PrecioCompra.setk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs: (="0*n
-0A (UZ
-X
-A (U<"
- CapaEntidad.EntProveedorProducto"
-precioCompradouble"__id*
+1CapaEntidad.EntProveedorProducto.PrecioCompra.get]
+SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs% (("0*6
+0, (8"
+ 
+, (8
+%0"__id*
 ""*
 1*.
-1V (V"
-U (V
-implicit return:
-valuedoubleB$"
+19 (9"
+8 (9
+implicit returnB$"
  CapaEntidad.EntProveedorProducto

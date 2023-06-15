@@ -1,16 +1,15 @@
 
-#CapaEntidad.EntProveedor.Correo.setc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs0 0("0*k
-00 0( W
-U
-0 0( .
-CapaEntidad.EntProveedor"
-correostring"__id*
-
-valuestring*
+CapaEntidad.entRoll.IdRoll.setO
+ED:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs+ (."0*X
+02 (@D
+B
+2 (@&
+CapaEntidad.entRoll"
+idRollint"__id*
+""*
 1*.
-10# 0(#"
-0" 0(#
-implicit return:
-valuestringB
-CapaEntidad.EntProveedor
+1A (A"
+@ (A
+implicit return:
+valueintB
+CapaEntidad.entRoll

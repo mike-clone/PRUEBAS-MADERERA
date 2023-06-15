@@ -1,7 +1,19 @@
-ß
--MadereraCarocho.Controllers.UsuarioControllerSystem.Web.Mvc.ControllerSystem.Web.Mvc.ControllerBaseobjectX
-UsuarioController()AMadereraCarocho.Controllers.UsuarioController.UsuarioController()^
-ListarClientes(string)DMadereraCarocho.Controllers.UsuarioController.ListarClientes(string)\
-EliminarClientes(int)CMadereraCarocho.Controllers.UsuarioController.EliminarClientes(int)V
-EditarCliente(int)@MadereraCarocho.Controllers.UsuarioController.EditarCliente(int)|
-%EditarCliente(CapaEntidad.EntUsuario)SMadereraCarocho.Controllers.UsuarioController.EditarCliente(CapaEntidad.EntUsuario)
+Û
+*MadereraCarocho.Controllers.HomeControllerSystem.Web.Mvc.ControllerSystem.Web.Mvc.ControllerBaseobjectO
+HomeController();MadereraCarocho.Controllers.HomeController.HomeController()I
+Index(string)8MadereraCarocho.Controllers.HomeController.Index(string)I
+SinPermisos()8MadereraCarocho.Controllers.HomeController.SinPermisos()=
+Error()2MadereraCarocho.Controllers.HomeController.Error()=
+Login()2MadereraCarocho.Controllers.HomeController.Login()C
+
+Registro()5MadereraCarocho.Controllers.HomeController.Registro()¹
+ESingUp(string, string, string, string, System.Web.Mvc.FormCollection)pMadereraCarocho.Controllers.HomeController.SingUp(string, string, string, string, System.Web.Mvc.FormCollection)m
+VerificarAcceso(string, string)JMadereraCarocho.Controllers.HomeController.VerificarAcceso(string, string)K
+CerrarSesion()9MadereraCarocho.Controllers.HomeController.CerrarSesion()M
+Cliente(string):MadereraCarocho.Controllers.HomeController.Cliente(string)W
+EditarDatosCliente()?MadereraCarocho.Controllers.HomeController.EditarDatosCliente()Á
+IEditarDatosCliente(CapaEntidad.EntUsuario, System.Web.Mvc.FormCollection)tMadereraCarocho.Controllers.HomeController.EditarDatosCliente(CapaEntidad.EntUsuario, System.Web.Mvc.FormCollection)i
+AgregarTempPrductCliente(int)HMadereraCarocho.Controllers.HomeController.AgregarTempPrductCliente(int)=
+Admin()2MadereraCarocho.Controllers.HomeController.Admin()c
+EditarDatosAdministrador()EMadereraCarocho.Controllers.HomeController.EditarDatosAdministrador()Í
+OEditarDatosAdministrador(CapaEntidad.EntUsuario, System.Web.Mvc.FormCollection)zMadereraCarocho.Controllers.HomeController.EditarDatosAdministrador(CapaEntidad.EntUsuario, System.Web.Mvc.FormCollection)

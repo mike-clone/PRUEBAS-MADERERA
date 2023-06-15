@@ -1,15 +1,15 @@
 
- CapaEntidad.EntVenta.IdVenta.set_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*Z
-0 (!F
-D
- (!(
-CapaEntidad.EntVenta"
-idVentaint"__id*
+$CapaEntidad.EntUsuario.IdUsuario.setS
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs ("0*^
+0 (#J
+H
+ (#,
+CapaEntidad.EntUsuario"
+	idUsuarioint"__id*
 ""*
 1*.
-1$ ($"
-# ($
+1& (&"
+% (&
 implicit return:
-valueintB
-CapaEntidad.EntVenta
+valueintB
+CapaEntidad.EntUsuario

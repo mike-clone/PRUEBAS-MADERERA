@@ -1,13 +1,16 @@
 
-&CapaEntidad.entReporteVenta.Codigo.getf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs ("0*6
-0# ()"
- 
-# ()
-%0"__id*
-""*
+!CapaEntidad.EntUsuario.Correo.setS
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs? ?("0*i
+0? ?( U
+S
+? ?( ,
+CapaEntidad.EntUsuario"
+correostring"__id*
+
+valuestring*
 1*.
-1* (*"
-) (*
-implicit returnB
-CapaEntidad.entReporteVenta
+1?# ?(#"
+?" ?(#
+implicit return:
+valuestringB
+CapaEntidad.EntUsuario

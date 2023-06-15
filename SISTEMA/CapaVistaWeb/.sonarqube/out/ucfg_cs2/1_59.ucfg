@@ -1,197 +1,266 @@
 
-$CapaAccesoDatos.datRoll.ListarRoll()b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datRoll.cs ('"0*ó
-0 (5E
-C
- (!'
-cmd System.Data.SqlClient.SqlCommand"__id*
-""ZX
-" (5(
++CapaAccesoDatos.DatCompra.ListarCompra(int)V
+LD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatCompra.cs5 5(+"0*ó
+07 8(!ZX
+7$ 7(9(
 %0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
 o
-& (3
+7( 7(7
 
 %1void")System.Collections.Generic.List<T>.List()*,*
 (
 %0"System.Collections.Generic.List<T>m
 k
- (5+
+7 7(9+
 lista"System.Collections.Generic.List<T>"__id*,*
 (
-%0"System.Collections.Generic.List<T>*
-1*◊
-
-1 (6t
+%0"System.Collections.Generic.List<T>E
+C
+8 8(!'
+cmd System.Data.SqlClient.SqlCommand"__id*
+""*
+1*Œ
+1; @(6t
 r
-# (5
+;# ;(5
 %2CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
 CapaAccesoDatos.ConexionÄ
 ~
-# (@)
+;# ;(@)
 %3#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
 
 %2CapaAccesoDatos.Conexionl
 j
- (@)
+; ;(@)
 cn#System.Data.SqlClient.SqlConnection"__id*-+
 )
 %3#System.Data.SqlClient.SqlConnectionVT
- (7&
-%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommand·
-ﬁ
- ($
+< <(:&
+%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommand‰
+·
+< <($
 
 %5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
 &
-%4 System.Data.SqlClient.SqlCommand*
-spListarRol*-+
+%4 System.Data.SqlClient.SqlCommand*
+spListarCompra*-+
 )
 cn#System.Data.SqlClient.SqlConnectiong
 e
- (7'
+< <(:'
 cmd System.Data.SqlClient.SqlCommand"__id**(
 &
-%4 System.Data.SqlClient.SqlCommand"
+%4 System.Data.SqlClient.SqlCommandü
+ú
+= =(2
+%6,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandÃ
+…
+= =(6(
+%7"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
+2
+%6,System.Data.SqlClient.SqlParameterCollection*	
+@id*
+"""
  
-" (=
-%6"__id*
+>" >(=
+%8"__id*
 ""ï
 í
- (=
-%7System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
+> >(=
+%9System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
 '
 cmd System.Data.SqlClient.SqlCommand*
 
-%6s
-q
- (
-
-%8void"*System.Data.SqlClient.SqlConnection.Open()*-+
+%8t
+r
+? ?(
+%10void"*System.Data.SqlClient.SqlConnection.Open()*-+
 )
-cn#System.Data.SqlClient.SqlConnectionó
-î
-# (6)
-%9#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
+cn#System.Data.SqlClient.SqlConnectionò
+ï
+@# @(6*
+%11#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
 '
-cmd System.Data.SqlClient.SqlCommandl
-j
- (6)
-dr#System.Data.SqlClient.SqlDataReader"__id*-+
-)
-%9#System.Data.SqlClient.SqlDataReader*
+cmd System.Data.SqlClient.SqlCommandm
+k
+@ @(6)
+dr#System.Data.SqlClient.SqlDataReader"__id*.,
+*
+%11#System.Data.SqlClient.SqlDataReader*
 2*ì
-2 ( |z
- ( 
-%10bool"*System.Data.SqlClient.SqlDataReader.Read()*-+
+2A A( |z
+A A( 
+%12bool"*System.Data.SqlClient.SqlDataReader.Read()*-+
 )
 dr#System.Data.SqlClient.SqlDataReader2Read()*
 3
-4*¯
-3 %(!=;
-" #(
-%11CapaEntidad.entRoll"CapaEntidad.entRollX
-V
-& (-
-%12void"CapaEntidad.entRoll.entRoll()*
-
-%11CapaEntidad.entRoll†ù
-!1 !(<
-%13object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+4*‹
+3C O('A?
+C* M(
+%13CapaEntidad.EntCompra"CapaEntidad.EntCompra^
+\
+C. C(7
+%14void"!CapaEntidad.EntCompra.EntCompra()* 
+
+%13CapaEntidad.EntCompra£†
+E3 E(A
+%15object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
 )
-dr#System.Data.SqlClient.SqlDataReader*	
-idRol2this[string].geta
-_
-!! !(=
+dr#System.Data.SqlClient.SqlDataReader*
 
-%14int"System.Convert.ToInt32(object)*"
+idCompra2this[string].geta
+_
+E# E(B
+
+%16int"System.Convert.ToInt32(object)*"
 System.Convert*
 
-%13objecth
-f
-! !(=
+%15objectn
+l
+E E(B
 
-%15int"CapaEntidad.entRoll.IdRoll.set*
-
-%11CapaEntidad.entRoll*
+%17int""CapaEntidad.EntCompra.IdCompra.set* 
+
+%13CapaEntidad.EntCompra*
 
 
-%14int¶£
-"& "(7
-%16object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+%16int†ù
+F3 F(>
+%18object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
 )
-dr#System.Data.SqlClient.SqlDataReader*
-descripcion2this[string].getMK
-"& "(B
-%17string"object.ToString()*
+dr#System.Data.SqlClient.SqlDataReader*	
+fecha2this[string].getp
+n
+F  F(?
+%19System.DateTime"!System.Convert.ToDateTime(object)*"
+System.Convert*
 
-%16object2
-ToString()s
-q
-" "(B
-%18string"#CapaEntidad.entRoll.Descripcion.set*
-
-%11CapaEntidad.entRoll*
+%18objectÑ
+Å
+F F(?
+%20System.DateTime"CapaEntidad.EntCompra.Fecha.set* 
+
+%13CapaEntidad.EntCompra*
+
+%19System.DateTime†ù
+G1 G(<
+%21object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*	
+total2this[string].gete
+c
+G  G(=
+%22double"System.Convert.ToDouble(object)*"
+System.Convert*
 
-%17stringN
-L
- #(
-rolCapaEntidad.entRoll"__id*
-
-%11CapaEntidad.entRollù
-ö
-% %("
-%19void"0System.Collections.Generic.ICollection<T>.Add(T)*/-
+%21objectq
+o
+G G(=
+%23double"CapaEntidad.EntCompra.Total.set* 
+
+%13CapaEntidad.EntCompra*
+
+%22doubleCA
+H  K(
+%24CapaEntidad.EntUsuario"CapaEntidad.EntUsuarioa
+_
+H$ H(.
+%25void"#CapaEntidad.EntUsuario.EntUsuario()*!
+
+%24CapaEntidad.EntUsuario£†
+J' J(5
+%26object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+
+username2this[string].getMK
+J' J(@
+%27string"object.ToString()*
+
+%26object2
+ToString()v
+t
+J J(@
+%28string"#CapaEntidad.EntUsuario.UserName.set*!
+
+%24CapaEntidad.EntUsuario*
+
+%27stringî
+ë
+H K(
+%29CapaEntidad.EntUsuario"!CapaEntidad.EntCompra.Usuario.set* 
+
+%13CapaEntidad.EntCompra*!
+
+%24CapaEntidad.EntUsuario°û
+L! L(-
+%30object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+
+estado2this[string].getMK
+L! L(8
+%31string"object.ToString()*
+
+%30object2
+ToString()r
+p
+L L(8
+%32string" CapaEntidad.EntCompra.Estado.set* 
+
+%13CapaEntidad.EntCompra*
+
+%31stringX
+V
+C M("
+	objCompraCapaEntidad.EntCompra"__id* 
+
+%13CapaEntidad.EntCompra•
+¢
+O O((
+%33void"0System.Collections.Generic.ICollection<T>.Add(T)*/-
 +
-lista"System.Collections.Generic.List<T>*
-
-rolCapaEntidad.entRoll*
+lista"System.Collections.Generic.List<T>*&$
+"
+	objCompraCapaEntidad.EntCompra*
 2*
-43	 3(	*
+4W	 W(	*
 5
-6*Ï
-5, ,(pa_
-,  ,()
-%20string"System.Exception.Message.get*
+6*„
+5T T(ga_
+T  T()
+%34string"System.Exception.Message.get*
 
 eSystem.Exception2Message.get#
 !
-,F ,(Z
-%21"__id*
+T= T(Q
+%35"__id*
 ""#
 !
-,\ ,(p
-%22"__id*
-""™
-ß
-, ,(q(
-%23!System.Windows.Forms.DialogResult"ÅSystem.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
+TS T(g
+%36"__id*
+""°
+û
+T T(h(
+%37!System.Windows.Forms.DialogResult"ÅSystem.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
 System.Windows.Forms.MessageBox*
 
-%20string*
-EROR AL MOSTRAR LOS ROL*	
+%34string*
+spListarcompra*	
 
-%21*	
+%35*	
 
-%22*
-6*ß
-60 0(&ó
-î
-0 0(*
-%24#System.Data.SqlClient.SqlConnection"/System.Data.SqlClient.SqlCommand.Connection.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandv
-t
-0 0(&
-%25void"+System.Data.SqlClient.SqlConnection.Close()*.,
-*
-%24#System.Data.SqlClient.SqlConnection*
-7
-8*H
-72 2("9
-2 2(-
+%36*
+6*H
+6V V("9
+V V(-
 +
 lista"System.Collections.Generic.List<T>*.
-83	 3(	"
-3 3(	
-implicit returnB
-CapaAccesoDatos.datRoll
+7W	 W(	"
+W W(	
+implicit return:
+5, 5(2	
+idintB
+CapaAccesoDatos.DatCompra

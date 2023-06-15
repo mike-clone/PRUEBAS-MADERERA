@@ -1,5 +1,5 @@
-µ 
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs
+§ 
+RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs
 	namespace 	
 
 CapaLogica
@@ -220,8 +220,8 @@ CapaLogica
 ;<<D E
 }== 	
 }>> 
-}?? Ã9
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs
+}?? µ9
+HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs
 	namespace 	
 
 CapaLogica
@@ -659,8 +659,8 @@ EntUsuariocc 
 †† 	
 }
 ˆˆ 
-}‰‰ ²
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs
+}‰‰ ¤
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs
 	namespace 	
 
 CapaLogica
@@ -789,8 +789,9 @@ IDatCompra #
 ;))7 8
 }** 	
 }++ 
-},, …
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetCompra.cs
+},, ÷
+
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetCompra.cs
 	namespace 	
 
 CapaLogica
@@ -863,8 +864,8 @@ CapaLogica
 ;> ?
 } 	
 } 
-}   Ÿ
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs
+}   ‘
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs
 	namespace 	
 
 CapaLogica
@@ -960,8 +961,8 @@ _instancia #
 ;%%; <
 }&& 	
 }(( 
-})) ä
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs
+})) Ö
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs
 	namespace 	
 
 CapaLogica
@@ -1130,8 +1131,8 @@ _instancia #
 ;88@ A
 }99 	
 }?? 
-}@@ ¥8
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs
+}@@ —8
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs
 	namespace 	
 
 CapaLogica
@@ -1524,8 +1525,8 @@ IProveedor )
 ;uuB C
 }vv 	
 }ww 
-}xx ‰ 
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs
+}xx û
+RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs
 	namespace 	
 
 CapaLogica
@@ -1724,8 +1725,8 @@ _instancia #
 ;;;P Q
 }<< 	
 }?? 
-}@@ ï
-SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRoll.cs
+}@@ á
+ED:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRoll.cs
 	namespace 	
 
 CapaLogica
@@ -1790,8 +1791,8 @@ ListarRoll% /
 ;1 2
 } 	
 } 
-} ‘
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs
+} ƒ
+MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs
 	namespace 	
 
 CapaLogica
@@ -1960,8 +1961,8 @@ _instancia #
 ;00? @
 }11 	
 }44 
-}55 Ø
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs
+}55 Ê
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs
 	namespace 	
 
 CapaLogica
@@ -2149,8 +2150,8 @@ IDatUbigeo #
 ;227 8
 }33 	
 }55 
-}66 ‘
-TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs
+}66 ƒ
+FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs
 	namespace 	
 
 CapaLogica
@@ -2267,8 +2268,8 @@ CrearVenta    *
 ;((5 6
 })) 	
 }66 
-}77 Ž
-cC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\Properties\AssemblyInfo.cs
+}77 €
+UD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\Properties\AssemblyInfo.cs
 [ 
 assembly 	
 :	 
@@ -2393,8 +2394,8 @@ ComVisible 
 (## 
 $str## (
 )##( )
-]##) *¹
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\ValidatorHelper.cs
+]##) *«
+MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\ValidatorHelper.cs
 	namespace 	
 
 CapaLogica

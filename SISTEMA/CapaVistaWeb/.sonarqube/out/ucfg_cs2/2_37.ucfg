@@ -1,16 +1,20 @@
 
--CapaLogica.LogTemporaryProducts.Instancia.getj
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs ("0*Ö
-0 ("‘
-Ž
- ("%
-%0CapaLogica.LogTemporaryProducts"__id*US*Q!
-CapaLogica.LogTemporaryProducts",
-	_instanceCapaLogica.LogTemporaryProducts"3
- (#'
-%
-%0CapaLogica.LogTemporaryProducts*.
-1% (%"
-$ (%
-implicit returnB#"!
-CapaLogica.LogTemporaryProducts
+3CapaLogica.LogTipoProducto.SelectListTipoProducto()W
+MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs"% "(;"0*Ç
+0$ $(?®
+«
+$ $(&1
+%0+CapaAccesoDatos.Interfaces.IDatTipoProducto"__id*fd*b
+CapaLogica.LogTipoProducto"B
+TipoProductoService+CapaAccesoDatos.Interfaces.IDatTipoProductoÎË
+$ $(?(
+%1"System.Collections.Generic.List<T>"DCapaAccesoDatos.Interfaces.IDatTipoProducto.SelectListTipoProducto()*53
+1
+%0+CapaAccesoDatos.Interfaces.IDatTipoProducto2SelectListTipoProducto()"6
+$ $(@*
+(
+%1"System.Collections.Generic.List<T>*.
+1%	 %(	"
+% %(	
+implicit returnB
+CapaLogica.LogTipoProducto

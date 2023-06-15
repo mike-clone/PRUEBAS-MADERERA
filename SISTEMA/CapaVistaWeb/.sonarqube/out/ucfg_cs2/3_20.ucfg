@@ -1,307 +1,61 @@
 
-ÉMadereraCarocho.Controllers.ProductoController.CrearProducto(string, string, string, string, string, System.Web.Mvc.FormCollection)v
-lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.cs< <()"4*£
-0A L(/DB
-A  K(
-%0CapaEntidad.EntProducto"CapaEntidad.EntProductob
-`
-A$ A(/
+NMadereraCarocho.Controllers.TemporaryProductController.EliminarTempPrduct(int)p
+fD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\TemporaryProductController.cs+ +(."4*é
+0/ /(Q∞
+≠
+/ /(0%
+%0CapaLogica.LogTemporaryProducts"__id*tr*p8
+6MadereraCarocho.Controllers.TemporaryProductController"4
+TemporaryPserviceCapaLogica.LogTemporaryProductsé
+ã
+/ /(R
 
-%1void"%CapaEntidad.EntProducto.EntProducto()*!
-
-%0CapaEntidad.EntProductoy
-w
-C C(%
-%2string""CapaEntidad.EntProducto.Nombre.set*!
-
-%0CapaEntidad.EntProducto*
-
-cNombrePstringX
-V
-D D(7
-%3double"double.Parse(string)*
-"
-double*
-
-
-cLongitudPstringu
-s
-D D(7
-%4double"$CapaEntidad.EntProducto.Longitud.set*!
-
-%0CapaEntidad.EntProducto*
-
-%3doubleW
-U
-E E(6
-%5double"double.Parse(string)*
-"
-double*
-
-	cdiametrostringu
-s
-E E(6
-%6double"$CapaEntidad.EntProducto.Diametro.set*!
-
-%0CapaEntidad.EntProducto*
-
-%5doubleZ
-X
-F" F(<
-%7double"double.Parse(string)*
-"
-double*
-
-cPrecioVentastringx
-v
-F F(<
-%8double"'CapaEntidad.EntProducto.PrecioVenta.set*!
-
-%0CapaEntidad.EntProducto*
-
-%7doubleLJ
-G J(!
-%9CapaEntidad.EntTipoProducto"CapaEntidad.EntTipoProductoo
-m
-G G(.
-%10void"-CapaEntidad.EntTipoProducto.EntTipoProducto()*%#
-!
-%9CapaEntidad.EntTipoProductoú
-ô
-I: I(J
-%11string"CSystem.Collections.Specialized.NameValueCollection.this[string].get*,*
-(
-frmTipoSystem.Web.Mvc.FormCollection*	
-cTipoa
-_
-I* I(K
-
-%12int"System.Convert.ToInt32(string)*"
-System.Convert*
-
-%11stringÄ
-~
-I I(K
-
-%13int"/CapaEntidad.EntTipoProducto.IdTipo_producto.set*%#
-!
-%9CapaEntidad.EntTipoProducto*
+%1bool">CapaLogica.LogTemporaryProducts.EliminarTemporaryProducts(int)*)'
+%
+%0CapaLogica.LogTemporaryProducts*
+""3
+1
+/ /(R
+eliminabool"__id*
 
 
-%12intù
-ö
-G J("
-%14CapaEntidad.EntTipoProducto" CapaEntidad.EntProducto.Tipo.set*!
-
-%0CapaEntidad.EntProducto*%#
-!
-%9CapaEntidad.EntTipoProductoS
-Q
-A K(
-pCapaEntidad.EntProducto"__id*!
-
-%0CapaEntidad.EntProductoï
-í
-L L(
-%15CapaLogica.LogProducto"__id*a_*]0
-.MadereraCarocho.Controllers.ProductoController")
-ProductoserviceCapaLogica.LogProductoû
-õ
-L L(0
-%16bool"=CapaLogica.LogProducto.CrearProducto(CapaEntidad.EntProducto)*!
-
-%15CapaLogica.LogProducto* 
-
-pCapaEntidad.EntProducto*
+%1bool*
 1
-2*Ê
-1Q Q(Yb`
-QO Q(Y
-%17string"System.Exception.Message.get*
+2*Ó
+14 4(Xa_
+4N 4(X
+%2string"System.Exception.Message.get*
 
-exSystem.Exception2Message.get∑
-¥
-Q Q(\+
-%18$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
-System.Web.Mvc.Controller*
-ListarProducto*
-"""9
-Q Q(]-
-+
-%18$System.Web.Mvc.RedirectToRouteResult*
-2S S(4•
-¢
-S S(5+
-%19$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-ListarProducto"9
-S S(6-
-+
-%19$System.Web.Mvc.RedirectToRouteResult*.
-3T	 T(	"
-T T(	
-implicit return*Œ
-4
-<¢ <(¢‘
-—
-< <()
-%20"__entrypoint*
-
-cNombrePstring*
-
-
-cLongitudPstring*
-
-	cdiametrostring*
-
-cPrecioVentastring*
-
-cprecioComprastring*,*
+exSystem.Exception2Message.get¡
+æ
+4 4([*
+%3$System.Web.Mvc.RedirectToRouteResult"BSystem.Web.Mvc.Controller.RedirectToAction(string, string, object)*
+System.Web.Mvc.Controller*	
+Error*
+
+Home*
+"""8
+4 4(\,
+*
+%3$System.Web.Mvc.RedirectToRouteResult*Ò
+26 6(7ß
+§
+6 6(8*
+%4$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*
+ListarTempProduct"8
+6 6(9,
+*
+%4$System.Web.Mvc.RedirectToRouteResult*.
+37	 7(	"
+7 7(	
+implicit return*>
+4+: +(:*
 (
-frmTipoSystem.Web.Mvc.FormCollectionñ
-ì
-:	 :(*
-%21"
-__annotate*\ZX
-VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*
-
-cNombrePstrings
-q
-;	 ;(
-%22"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-cNombrePstringD
-B
-<* <(9
-cNombrePstring"__annotation*	
-
-%21*	
-
-%22ò
-ï
-:	 :(*
-%23"
-__annotate*\ZX
-VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*
-
-
-cLongitudPstringu
-s
-;	 ;(
-%24"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-
-cLongitudPstringF
-D
-<; <(L
-
-cLongitudPstring"__annotation*	
-
-%23*	
-
-%24ó
-î
-:	 :(*
-%25"
-__annotate*\ZX
-VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*
-
-	cdiametrostringt
-r
-;	 ;(
-%26"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-	cdiametrostringE
-C
-<N <(^
-	cdiametrostring"__annotation*	
-
-%25*	
-
-%26ö
-ó
-:	 :(*
-%27"
-__annotate*\ZX
-VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*
-
-cPrecioVentastringw
-u
-;	 ;(
-%28"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-cPrecioVentastringH
-F
-<` <(s
-cPrecioVentastring"__annotation*	
-
-%27*	
-
-%28õ
-ò
-:	 :(*
-%29"
-__annotate*\ZX
-VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*
-
-cprecioComprastringx
-v
-;	 ;(
-%30"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-cprecioComprastringJ
-H
-	<u <(â
-cprecioComprastring"__annotation*	
-
-%29*	
-
-%30¨
-©
-:	 :(*
-%31"
-__annotate*\ZX
-VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*,*
-(
-frmTipoSystem.Web.Mvc.FormCollectionä
-á
-;	 ;(
-%32"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*,*
-(
-frmTipoSystem.Web.Mvc.FormCollection\
-Z
-
-<ã <(°(
-frmTipoSystem.Web.Mvc.FormCollection"__annotation*	
-
-%31*	
-
-%32*
-0:
-<* <(9
-cNombrePstring: 
-<; <(L
-
-cLongitudPstring:
-<N <(^
-	cdiametrostring:"
-<` <(s
-cPrecioVentastring:$
-	<u <(â
-cprecioComprastring:6
-
-<ã <(°(
-frmTipoSystem.Web.Mvc.FormCollectionB20
-.MadereraCarocho.Controllers.ProductoController
++ +(.
+%5"__entrypoint*
+""*
+0:
++/ +(9
+idtempintB:8
+6MadereraCarocho.Controllers.TemporaryProductController

@@ -1,24 +1,23 @@
 
-ACapaLogica.LogProveedorProducto.BuscarProductoParaComprar(string)j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs0* 0(C"0*è
-02 2(N¬
-ø
-2 2(+6
-%00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
-CapaLogica.LogProveedorProducto"L
-ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProductoÇˇ
-2 2(O(
-%1"System.Collections.Generic.List<T>"RCapaAccesoDatos.Interfaces.IDatProveedorProducto.BuscarProductoParaComprar(string)*:8
-6
-%00CapaAccesoDatos.Interfaces.IDatProveedorProducto*
-
-busquedastring2!BuscarProductoParaComprar(string)"6
-2 2(P*
++CapaLogica.LogDetVenta.Mostrardetventa(int)S
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs#! #(0"0*±
+0% %(:û
+õ
+% %("-
+%0'CapaAccesoDatos.Interfaces.IDatDetVenta"__id*ZX*V
+CapaLogica.LogDetVenta":
+DetVentaService'CapaAccesoDatos.Interfaces.IDatDetVenta»≈
+% %(;(
+%1"System.Collections.Generic.List<T>"<CapaAccesoDatos.Interfaces.IDatDetVenta.Mostrardetventa(int)*1/
+-
+%0'CapaAccesoDatos.Interfaces.IDatDetVenta*
+""2Mostrardetventa(int)"6
+% %(<*
 (
 %1"System.Collections.Generic.List<T>*.
-13	 3(	"
-3 3(	
-implicit return:
-0D 0(S
-busquedastringB#!
-CapaLogica.LogProveedorProducto
+1&	 &(	"
+& &(	
+implicit return:
+#1 #(<
+idVentaintB
+CapaLogica.LogDetVenta

@@ -1,22 +1,28 @@
 
-#CapaLogica.logRoll.logRoll()!static]
-SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRoll.cs ("0*¬
-0 (:8
-	5 	(B
-%0CapaLogica.logRoll"CapaLogica.logRollT
-R
-	9 	(@
+'CapaLogica.LogUbigeo.LogUbigeo()!staticQ
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs ("0*¼
+05 5(><
+
+7 
+(F
+%0CapaLogica.LogUbigeo"CapaLogica.LogUbigeoZ
+X
+
+; 
+(D
 
-%1void"CapaLogica.logRoll.logRoll()*
-
-%0CapaLogica.logRollj
-h
-	( 	(B8
-CapaLogica.logRoll" 
+%1void" CapaLogica.LogUbigeo.LogUbigeo()*
+
+%0CapaLogica.LogUbigeop
+n
+
+* 
+(F<
+CapaLogica.LogUbigeo""
 
-_instanciaCapaLogica.logRoll"__id*
-
-%0CapaLogica.logRoll"
- (
-implicit returnB"
-CapaLogica.logRoll
+_instanciaCapaLogica.LogUbigeo"__id*
+
+%0CapaLogica.LogUbigeo"
+ 5(
+implicit returnB"
+CapaLogica.LogUbigeo

@@ -1,26 +1,24 @@
 
-;CapaLogica.LogUsuario.EditarCliente(CapaEntidad.EntUsuario)`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.csE E(!"0*¨
-0G G(1š
+3CapaLogica.LogUsuario.BuscarAdministradores(string)R
+HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.csT  T(5"0*É
+0V V(=š
 —
-G G(!,
+V V(!,
 %0&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
 CapaLogica.LogUsuario"8
-UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioáÞ
-G G(2
-
-%1bool"LCapaAccesoDatos.Interfaces.IDatUsuario.EditarCliente(CapaEntidad.EntUsuario)*0.
+UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioäá
+V V(>(
+%1"System.Collections.Generic.List<T>"ECapaAccesoDatos.Interfaces.IDatUsuario.BuscaraAdministradores(string)*0.
 ,
-%0&CapaAccesoDatos.Interfaces.IDatUsuario*
-
-uCapaEntidad.EntUsuario2%EditarCliente(CapaEntidad.EntUsuario)"
-G G(3
-
-
-%1bool*.
-1H	 H(	"
-H H(	
-implicit return:'
-E" E(.
-uCapaEntidad.EntUsuarioB
+%0&CapaAccesoDatos.Interfaces.IDatUsuario*
+
+datostring2BuscaraAdministradores(string)"6
+V V(?*
+(
+%1"System.Collections.Generic.List<T>*.
+1W	 W(	"
+W W(	
+implicit return:
+T6 T(A
+datostringB
 CapaLogica.LogUsuario

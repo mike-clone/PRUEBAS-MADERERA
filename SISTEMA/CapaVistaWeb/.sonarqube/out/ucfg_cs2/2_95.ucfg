@@ -1,26 +1,20 @@
 
-ECapaLogica.LogUsuario.ActualizarAdministrador(CapaEntidad.EntUsuario)`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.csP P(+"0*½
-0R R(<š
+-CapaLogica.LogUsuario.ListarAdministradores()R
+HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.csL  L(5"0*§
+0N N(9š
 —
-R R(!,
+N N(!,
 %0&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
 CapaLogica.LogUsuario"8
-UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioöó
-R R(=
-
-%1bool"VCapaAccesoDatos.Interfaces.IDatUsuario.ActualizarAdministrador(CapaEntidad.EntUsuario)*0.
+UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioÂ¿
+N N(9(
+%1"System.Collections.Generic.List<T>">CapaAccesoDatos.Interfaces.IDatUsuario.ListarAdministradores()*0.
 ,
-%0&CapaAccesoDatos.Interfaces.IDatUsuario* 
-
-adCapaEntidad.EntUsuario2/ActualizarAdministrador(CapaEntidad.EntUsuario)"
-R R(>
-
-
-%1bool*.
-1S	 S(	"
-S S(	
-implicit return:(
-P, P(9
-adCapaEntidad.EntUsuarioB
+%0&CapaAccesoDatos.Interfaces.IDatUsuario2ListarAdministradores()"6
+N N(:*
+(
+%1"System.Collections.Generic.List<T>*.
+1O	 O(	"
+O O(	
+implicit returnB
 CapaLogica.LogUsuario

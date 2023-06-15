@@ -1,23 +1,21 @@
 
-&CapaLogica.LogCompra.ListarCompra(int)_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs (+"0*Ÿ
-0 (0–
-“
- ( +
-%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
-CapaLogica.LogCompra"6
-CompraService%CapaAccesoDatos.Interfaces.IDatCompra¾»
- (1(
-%1"System.Collections.Generic.List<T>"7CapaAccesoDatos.Interfaces.IDatCompra.ListarCompra(int)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatCompra*
-""2ListarCompra(int)"6
- (2*
-(
-%1"System.Collections.Generic.List<T>*.
-1	 (	"
- (	
-implicit return:
-, (2	
-idintB
-CapaLogica.LogCompra
+NCapaLogica.LogProveedor.LogProveedor(CapaAccesoDatos.Interfaces.IDatProveedor)T
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs ("1*
+1	 (	*
+0*¿
+0 ()ª
+§
+ ()Y
+CapaLogica.LogProveedor"<
+ProveedorService(CapaAccesoDatos.Interfaces.IDatProveedor"__id*:8
+6
+
+IProveedor(CapaAccesoDatos.Interfaces.IDatProveedor*
+2*.
+2	 (	"
+ (	
+implicit return:B
+ (46
+
+IProveedor(CapaAccesoDatos.Interfaces.IDatProveedorB
+CapaLogica.LogProveedor

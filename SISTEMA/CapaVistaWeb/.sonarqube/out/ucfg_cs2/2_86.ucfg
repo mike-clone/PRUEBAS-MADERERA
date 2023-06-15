@@ -1,25 +1,24 @@
 
-(CapaLogica.LogUbigeo.EliminarUbigeo(int)_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs( ((""0*ç
-0* *(2–
-“
-* *( +
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
-CapaLogica.LogUbigeo"6
-UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeo¤¡
-* *(3
-
-%1bool"9CapaAccesoDatos.Interfaces.IDatUbigeo.EliminarUbigeo(int)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo*
-""2EliminarUbigeo(int)"
-* *(4
-
-
-%1bool*.
-1+	 +(	"
-+ +(	
-implicit return:
-(# (()	
-idintB
-CapaLogica.LogUbigeo
+,CapaLogica.LogUsuario.BuscarClientes(string)R
+HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs;  ;(."0*·
+0= =(4š
+—
+= =(!,
+%0&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
+CapaLogica.LogUsuario"8
+UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioÒÏ
+= =(5(
+%1"System.Collections.Generic.List<T>"<CapaAccesoDatos.Interfaces.IDatUsuario.BuscarCliente(string)*0.
+,
+%0&CapaAccesoDatos.Interfaces.IDatUsuario*
+
+datostring2BuscarCliente(string)"6
+= =(6*
+(
+%1"System.Collections.Generic.List<T>*.
+1>	 >(	"
+> >(	
+implicit return:
+;/ ;(:
+datostringB
+CapaLogica.LogUsuario

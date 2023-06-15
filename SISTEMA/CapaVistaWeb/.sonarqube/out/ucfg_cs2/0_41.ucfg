@@ -1,15 +1,16 @@
 
-$CapaEntidad.EntDetVenta.Cantidad.getb
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs ("0*E
-0 (!"
- 
- (!
-%0"__id*
-"""
- ("
-
-%0*.
-1$ ($"
-# ($
-implicit returnB
-CapaEntidad.EntDetVenta
+#CapaEntidad.EntUsuario.Telefono.getS
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs' '("0*
+0' '(!T
+R
+' '(!
+%0string"__id*20*.
+CapaEntidad.EntUsuario"
+telefonostring"
+' '("
+
+%0string*.
+1'$ '($"
+'# '($
+implicit returnB
+CapaEntidad.EntUsuario

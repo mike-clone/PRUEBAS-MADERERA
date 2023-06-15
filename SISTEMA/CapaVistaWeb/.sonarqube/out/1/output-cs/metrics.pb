@@ -1,58 +1,58 @@
-
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Conexion.cs 8r	
- !x‚
-eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTemporaryProducts.cs~ 	8rª	
- !"#$%&')*+,-./123456789:;<=>?@ABCDEFGHJKLMNOPRTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwyz{|}~€‚ƒ„…†‡ˆ‰Š‹Œ‘’“”•–—˜™š›œŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²´µ¶·¸¹º»¼½¾ÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÕÖ×ØÙÚÛİßàáâãäåæçèéêëìíîïğñòóôö÷øùúûüıÿ€‚ƒ„…†‡ˆ‰Š‹Œ‘’“”•–—˜™š›œŸ ¡¢£¦¨©«­®¯°±²´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚİßàâäåæçèéëìíïx‚ë !#)-/89:;<=>?@ABDJNPZ[\]^_`dijkopqrsvz|}…‰‹”•–—˜™š£¤¥¦§ª®¯±·»½ÇÈÉÊËÌÍÏÕÙÛåæèêëìíîğöúü…†ˆŠ‹Œ”•–š›œŸ £¨©°²´¼½¿ÁÂÃÄÆÇËÌÍÑÒÓÖ×Úßàçéë²
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs­ 
-8j½r…	
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGJKMNOPRSTUVWXZ[\]^_`abcdefghijklmnopqrstuvwxyz{|~€‚ƒ„…‡ˆ‰Š‹Œ‘’“”•–—˜™š›œŸ¡£¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÃÄÅÇÈÉÊÌÍÎÏĞÑÒÔÕÖ×ØÙÚÛÜİŞßàáâãäåæçèéêëìîïğñòóôõ÷øùúûüışÿ€‚ƒ„…†‡ˆ‰Š‹Œ‘’“”•–—˜™›œŸ ¡¢¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÓÔÕÖ×ØÙÚÛÜİŞßàáâãäåæçéêëìíîïğñòóôõö÷øùúûüışÿ€‚ƒ„…†‡ˆ‰Š‹Œ‘’”•–—šœx‚¹ !"#$(*234567;<=>?@ABFJPUW`abcdefjklmnopquwx~‚„‘’“”•–˜Ÿ¡¬­®¯°±µ¶·¸¹º»¼ÀÃÄÊÏÑÚÛÜİŞßàáâãäåæèîòôışÿ€‚ƒ‡ˆ‰Š‹Œ’”•›Ÿ¡«¬­®¯°±³µ·¸¹º»¼¾ÂÄÊÎĞÙÚÜŞßàáãéëìôõö÷øùúüışÿ€‚ƒ„†ˆŠ‹Œ’•–Ñ
-ZC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatCompra.csO 8j8ˆ´rø	
- "#$%&'()*+-./012345679:;<=>?@ABCDEFGHIJKLMNOPQSTUVWXYZ[\]^_abcdefghijklmnopqrstuvwxy{|}~€‚ƒ„…†‡‰Š‹Œ‘’“”•–—˜™š›œŸ ¢£¤¥¦§¨©ª«¬­®¯°±²³µ¶·¸¹»¼½¾¿ÀÁÂÃÄx‚e "#$&(*046?@ABCDEIJKNPSX\^ghijklpqruvx{€„†‘’“”•—œŸ¨©ª«¬­®±²³µ»¿Áü
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetCompra.cs! 8jre	
- !"#$%&'()*+,-/0123456789:;<=>?@ABCDEFGHIKLMNOPQRSTUWXYZ[]^_`abdefghijklmx‚&!&*,56789:;AGHINOPQTXZ[^dhj’
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetVenta.cs! 8j!fijkmnopqrsuwxyz{|}~€ƒ…‡‰‹r`
- !"#$%&'()*+,-./0123789:;<=>?@ABCDEFGHIJKLMNOPRSTUVWXYZ[\]^_`abcx‚" !"#$%',02=>?@ABCIMNOPTWXZ_ab¤
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datGrafEst.cs 8r,	
- !#$%'()*+,-./0x‚ '+-Í
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProducto.cso 8j}r¡	
- !"$%'()*+,-./02456789:;<=>?@BCDEFGHIJKLMNOQRTUVWXZ[\]^_`abcdefghijklmnopqrstuvwxyz{~€‚ƒ„…†‡ˆ‰Š‹Œ‘’“”•–—™š›œŸ ¡¢£¤¥¦§¨ª«¬­®¯°±²³´µ¶·¹º»¼½¿ÀÁÂÃÄÅÆÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ÚÛÜİŞßàáâãåçèéêìíîïğóôõö÷øùúûüışÿ€‚ƒ„…‡ˆ‰Š‹Œ‘’“”—˜™š›Ÿ ¡¢£¤§¨x‚º !"$%*.0:;<=>?DEFGHIJMQWZbceghijklmnoprwyz„…‡‰Š‹Œ“•–Ÿ ¢¤¥¦§¬­®¯°±²µ¹¿ÃÅÎÏÑÓÔÕÖÚÛÜİŞßàâãìîïùúüşÿ€…‰Š‹Œ‘—¡£®
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedor.cs‡ 	8j2c«rÙ	
- !"#$%&'()*+,-./013456789:;<=>?@ABCDEFGHIJKMNOPQRTUVWXY[\]^_`abdefghijklmnopqrstuvwxyz{|}€‚ƒ„…‡‰Š‹Œ‘’“”•–—˜™š›œŸ ¡¢£¤¦§©ª¬­®¯°±²³´µ¶·¸¹º»¼½¾ÀÁÂÃÄÅÆÇÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáâãåæçèéêëíïğñòóôõö÷øùúûüışÿ€‚ƒ„…†‡ˆ‰ŠŒ‘“”•–—˜™š›œŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¾¿x‚İ !"#$%&').09:<>?@DEFGHIJOPQTU[_ajkmopquvwyƒ…’”•–—˜™š›œ ¦©²³´µ¶·¸ºÀÄÆÏĞÒÔÕÖ×ÛÜİßåéëõö÷øùúûÿ€‚ƒ„…‡ˆ‰“—™¡¢£¤¥¦§©ª«¬­®¯±²³´¸¹ºÙ
-eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedorProducto.csb 8r£	
- !"#$&'()*+,-./023456789:;<=>?@ABDEFGHIJKLNOPRSTUVWXYZ[\^_`abcdefghklmnopqrstuvwxyz{|}~€‚ƒ„…†‡‰ŠŒ‘’“•–—˜™š›œŸ ¡¢£¤¥¦§¨ª«¬­®¯°²´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÔÕÖ×ØÙÚÛÜİŞßàáâäåæçèéêëíîïğñòóôõö÷øùúûüışÿ€‚ƒ„…†‡ˆ‰‹Œ‘’“”•–—š›œŸ ¡¢£¤¥x‚¾ !"#$)-/89;=>?FGHIJKLPVWY[\aegqrstuvw}~ƒ„…†‰Œ‘’›œŸ ¡¢¤ª®°º»¼½¾¿ÀÆÇÈÉÊËÌÏÔÖØÙÜİŞäèêóôöøùúûüş€‚ƒ„…ˆ‰’“–—Ÿ¡¢¦
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datRoll.cs 8r0	
- !"#%&)*+,-./012345x‚!"%,02ÿ
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTipoProducto.csK 8j.M‰r½	
- !"#$%&'()*+-/0123456789:;<=>?@BCDEFGHIJKLNOPQRSTUVWXYZ[\]^_`abdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡Š‹Œ‘’“”•–—˜™š›œŸ ¡£¤x
-‚J %)+56789:=>?EIKTUVWXYZ^_agkmuvwxyz{|~ƒ…†‘’“”•–˜Ÿ ç
-ZC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.csf 8j0or…	
- !"#$%&'()*+,-/123456789:;<=>?@ABCDFGHIJKLMNOPRSTUVWXYZ[\]^_`abcdefghijklmnqrstuvwxyz{|}~€‚ƒ„…†‡ˆ‰Š‹‘’“”•–—˜™š›œŸ ¡¢£¤¥§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾ÀÁÂÃÄÅÆÇÊËx‚p "'+-789:;<?@ABCIMOXYZ[\]`abgkmwxyz{|}~€‚‡‰Š”•–—˜™šœ¡£¤­®¯°±²³¶·¸¹ºÀÄÆ³
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatVenta.cs1 8j„9‹Œ’“”•–—˜š›œŸ¢¥§©«­®°±²´µ¶·¸¹º¼½¾¿ÀÁÄÇÉËÍÏĞÒÓÔÖ×ØÙÚÛÜİßâäæèêr	
- !"$%&'()*+,-./012345678:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWYZ[\]^_`bcdefghijklmnopqrstuvwxyz{|}~‚ƒ„…†‡ˆíîx‚4 "$%&(*,157@ABCDEFJKLMPSY]_hijklmqrstwx{…‡
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\encrypt.cs 8r	
+€
+KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Conexion.cs 8r	
+ !x‚¾
+WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTemporaryProducts.csv 	8rø	
+ !"#$%&')*,./0123456789:;<=>?@ABCDEGHIKMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnoprstuvwxy{|}~€ƒ„…†‡ˆ‰Š‹Œ‘’“”•–—˜™š›œŸ ¡¢£¤¥¦§©ª«¬­®¯²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÆÇÈÊÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáãäåæèéêëìíîïğñòóôõö÷øùúûüışÿ€‚ƒ„…†‡ˆ‰Š‹Œ‘’”–—˜™šœŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÅÇÈÊÌÍÎÏĞÒÓÔÖx‚Ü !#),56789:;<=>?AGISTUVWXY]bcdhijklosuvx~€‰Š‹Œ“˜™š›œŸ£¤¦¬®¸¹º»¼½¾ÀÆÈÒÓÕ×ØÙÚÛİãåîïñóôõöøùışÿƒ„…ˆ‰Œ‘’™œ¤¥§©ª«¬®¯³´µ¹º»¾¿ÂÇÈÏÒŞ
+MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs¤ 
+8j­rÑ	
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGJKMNOPRTUWXYZ[\]^_`abcdefghijklmnopqrstuvwxy{|~‚ƒ„…†‡ˆ‰Š‹Œ‘’“”•–—˜šœŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º¼½¾ÀÁÂÃÅÇÈÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáâäåçèêëìíîïğñòóôõö÷øùúûüışÿ€‚ƒ„…†‡ˆ‰Š‹Œ‘’•–—˜™š›œŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»½¾ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÖ×ØÙÚÛÜİŞßàáâãäåæçèéêëìíîïğñòóôõö÷øùúûüış€‚…‡x‚§ !"#$(*234567;<=>?@ABFJPT]^_`abcghijklmnrtu{~‡ˆ‰Š‹Œ’—š¥¦§¨©ª®¯°±²³´µ¹¼½ÃÇĞÑÒÓÔÕÖ×ØÙÚÛÜŞäçğñòóôõöúûüışÿ€…‡ˆ‘›œŸ ¡£¥§¨©ª«¬®²´º½ÆÇÉËÌÍÎĞÖØàáâãäåæèéêëìíîïğòôö÷øş—
+LD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatCompra.csJ 8j4|§r×	
+ "#$%&'()*+-./012356789:;<=>?@ABCDEFGHIJKLMOPQRSTUVWYZ[\]^_`abcdefghijklmnopqstuvwxyz{}~€‚ƒ„…†‡ˆ‰Š‹Œ‘’“•–—˜™š›œŸ ¡¢£¤¥¦¨©ª«¬®¯°±²³x‚[ "#$&(*02;<=>?@AEFGJLOTV_`abcdhijmnpsxzƒ„…†‡ˆ‰‹’›œŸ ¡¤¥¦¨®°ä
+OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetCompra.cs 8jr]	
+ !"#$%&'()+,-./0123456789:;<=>?@ABCDEGHIJKLMNOPQSTUVWYZ[\]^`abcdex‚$!&(1234567=CDEJKLMPTVWZ`bÚ
+ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetVenta.cs 8jrX
+ !"#$%&'()*+,-.23456789:;<=>?@ABCDEFGHIJKMNOPQRSTUVWXYZ[\]^_x‚  !"#$&+-89:;<=>DHIJKORSUZ\‘
+MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datGrafEst.cs 8r(	
+ !#$%'()*+,x‚ ')–
+ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProducto.csi 8jxrƒ	
+ !"$%'()*+,.0123456789:;<>?@ABCDEFGHIJKMNPQRSTVWXYZ[\]^_`abcdefghijklmnopqrstuvyz{|}~€‚ƒ„…†‡ˆ‰Š‹Œ‘“”•–—˜™š›œŸ ¡¢¤¥¦§¨©ª«¬­®¯°±³´µ¶·¹º»¼¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍĞÑÒÓÔÕÖ×ØÙÛİŞßàâãäåèéêëìíîïğñòóôõö÷øùúüışÿ€‚ƒ„…†‡ˆ‰Œ’“”•˜™x‚¯ !"$%*,6789:;@ABCDEFIMSV^_acdefghijklnsu€‚„…†‡‰™šœŸ ¡¦§¨©ª«¬¯³¹»ÄÅÇÉÊËÌĞÑÒÓÔÕÖØÙâäîïñóôõöúşÿ€‚…†Œ’”ë
+OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedor.cs 	8j2_£r°	
+ !"#$%&'()*+,-./013456789:;<=>?@ABCDEFGHIJKMNOPQRTUVWXY[\]^`abcdefghijklmnopqrstuvwxy{|}‚ƒ„…†‡ˆ‰Š‹Œ‘’“”•–—˜™š›œŸ¡¢¤¥¦§¨©ª«¬­®¯°±²³´µ¶¸¹º»½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ÙÚÛİßàáâãäåæçèéêëìíîïğñòóôõö÷øùúüışÿ€ƒ„…†‡ˆ‰Š‹Œ‘’“”•–—˜™š›œŸ ¡¢£¤¥¦©ªx‚Ñ !"#$%&').09:<>?@DEFGHIJOPQTU[]fgiklmqrsu{}‡ˆŠŒ‘’“”•–˜¡ª«¬­®¯°²¸ºÃÄÆÈÉÊËÏĞÑÓÙÛåæçèéêëïğñòóôõ÷øùıƒ…‘’“•–—˜™š›Ÿ ¤¥“
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datRoll.cs 8r,	
+ !"#%&)*+,-./01x‚!"%,.™
+WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedorProducto.cs\ 8rÿ	
+ !"#$&'()*+,./0123456789:;<=>@ABCDEFGHJKLNOPQRSTUVWXZ[\]^_`cdefghijklmnopqrstuvwxyz{|}~‚„…†‡ˆ‰ŠŒ‘’“”•–—˜™š›œŸ¡¢£¥§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÇÈÉÊËÌÍÎÏĞÑÒÓÔÕ×ØÙÚÜİŞßàáâãäåæçèéêëìíîïğñòóôõö÷øúûışÿ€‚ƒ„…†‰Š‹Œ‘’“x‚° !"#$)+4579:;BCDEFGHLRSUWX]_ijklmnouvw{|}~„ˆ‰’“”•–—˜™›¡£­®¯°±²³¹º»¼½¾¿ÂÇÉËÌÏĞÑ×Ùâãåçèéêëíïğñòóô÷øıÿ‚…†Í
+RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTipoProducto.csF 8j*E|r£	
+ !"#$%&')+,-./0123456789:;<>?@ABCDFGHIJKLMNOPQRSTUVWXYZ\]^_`abcdefghijklmnopqrstuvwxyz}~€‚ƒ„…†‡ˆ‰Š‹Œ‘’“•–x
+‚A %'1234569:;ACLMNOPQRVWY_aijklmnoprwyƒ„…†‡ˆ‰‹’©
+LD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.cs` 8j,c€râ	
+ !"#$%&'()+-./0123456789:;<=>?@BCDEFGHJKLMNOPQRSTUVWXYZ[\]^_`abefghijklmnopqrstuvwxyz{|}~‚ƒ„…†‡ˆ‰Š‹Œ‘’“”•–—™š›œŸ ¡¢£¤¥¦§¨©ª«¬­®¯°²³µ¶¹ºx‚c "')345678;<=>?EGPQRSTUXYZ_aklmnopqrstv{}‡ˆ‰Š‹Œ”–Ÿ ¡¢£¤¥¨©ª«¬²µq
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\encrypt.cs 8r	
 x‚
-}
-fC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatCompra.csr	
-z
-iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatDetCompra.csr	
-|
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatDetVenta.csr	
-
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatProducto.csr	
-ƒ
-iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatProveedor.csr	
-‰
-qC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatProveedorProducto.csr	
-‹
-qC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatTemporaryProducts.csr	
-ƒ
-lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatTipoProducto.csr	
-~
-fC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatUbigeo.csr	
-ƒ
-gC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatUsuario.csr	
-z
-eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatVenta.csr	
-‹
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Properties\AssemblyInfo.csj !r	
+o
+XD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatCompra.csr	
+l
+[D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatDetCompra.csr	
+‡
+KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatVenta.cs. 8j6ry	
+ !"$%&'()*+,-./01245789:;<=>?@ABCDEFGHIJKLMNOPQRSTVWYZ\]^_`abcdefghijklmnopqrstuvwxy{|~€x‚. "$%&(*,14=>?@ABCGHIJMPVYbcdefgklmnqru{~n
+ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatDetVenta.csr	
+s
+ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatProducto.csr	
+u
+[D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatProveedor.csr	
+{
+cD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatProveedorProducto.csr	
+}
+cD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatTemporaryProducts.csr	
+u
+^D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatTipoProducto.csr	
+p
+XD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatUbigeo.csr	
+u
+YD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatUsuario.csr	
+l
+WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatVenta.csr	
+}
+ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Properties\AssemblyInfo.csj !r	
 "#

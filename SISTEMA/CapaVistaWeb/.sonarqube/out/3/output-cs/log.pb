@@ -1,1 +1,1 @@
-Roslyn version: 4.6.0.0Language version: CSharp7_3!Concurrent execution: enabled¯ªFile 'C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs' was recognized as generated
+Roslyn version: 4.5.0.0Language version: CSharp7_3!Concurrent execution: enabled¡œFile 'D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs' was recognized as generated

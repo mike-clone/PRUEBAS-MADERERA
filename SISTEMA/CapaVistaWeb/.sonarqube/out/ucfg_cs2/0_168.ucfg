@@ -1,15 +1,16 @@
 
-!CapaEntidad.EntProducto.Stock.setb
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs6 6("0*[
-06 6(G
-E
-6 6()
-CapaEntidad.EntProducto"
-stockint"__id*
-""*
+-CapaEntidad.entReporteCompra.PrecUnitario.setY
+OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs: (="0*u
+0A (Ua
+_
+A (U8
+CapaEntidad.entReporteCompra"
+precUnitariostring"__id*
+
+valuestring*
 1*.
-16" 6(""
-6! 6("
-implicit return:
-valueintB
-CapaEntidad.EntProducto
+1V (V"
+U (V
+implicit return:
+valuestringB 
+CapaEntidad.entReporteCompra

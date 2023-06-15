@@ -1,5 +1,5 @@
-Ã
-dC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\BundleConfig.cs
+æ
+VD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\BundleConfig.cs
 	namespace 	
 MadereraCarocho
  
@@ -126,8 +126,8 @@ dC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_
 ;, -
 } 	
 } 
-} ñ
-dC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\FilterConfig.cs
+} à
+VD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\FilterConfig.cs
 	namespace 	
 MadereraCarocho
  
@@ -160,8 +160,8 @@ dC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_
 
  	
 } 
-} Ù
-cC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\RouteConfig.cs
+} Ê
+UD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\RouteConfig.cs
 	namespace 	
 MadereraCarocho
  
@@ -236,8 +236,8 @@ controller  *
 ; 
 } 	
 } 
-} Á&
-tC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\TemporaryProductController.cs
+} Ÿ&
+fD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\TemporaryProductController.cs
 	namespace		 	
 MadereraCarocho		
  
@@ -506,8 +506,8 @@ EntUsuario%%, 6
 ;FF> ?
 }GG 	
 }II 
-}JJ ¥2
-kC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\UsuarioController.cs
+}JJ ¶2
+]D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\UsuarioController.cs
 	namespace
 
  	
@@ -875,8 +875,8 @@ EntUsuarioII* 4
 }ZZ 
 }[[ 	
 }hh 
-}ii Á<
-jC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\CompraController.cs
+}ii Ÿ<
+\D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\CompraController.cs
 	namespace
 
  	
@@ -1313,8 +1313,8 @@ IdProductoYYL V
 ;mmJ K
 }nn 	
 }oo 
-}pp ∏ß
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs
+}pp ™ß
+ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs
 	namespace 	
 MadereraCarocho
  
@@ -3081,8 +3081,8 @@ EntUsuario
 ôô 	
 }
 ûû 
-}°° ÿq
-lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.cs
+}°°  q
+^D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.cs
 	namespace		 	
 MadereraCarocho		
  
@@ -4074,8 +4074,8 @@ EntUsuario
 ¡¡ 	
 }
 √√ 
-}ƒƒ Ã
-mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs
+}ƒƒ æ
+_D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs
 	namespace
 
  	
@@ -5257,8 +5257,8 @@ IdProducto
 ∆∆ 	
 }
 «« 
-}»» ˆ3
-iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\VentaController.cs
+}»» Ë3
+[D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\VentaController.cs
 	namespace		 	
 MadereraCarocho		
  
@@ -5635,8 +5635,8 @@ IdProductoIIH R
 }WW 
 }XX 	
 }YY 
-}ZZ á	
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Global.asax.cs
+}ZZ ˘
+KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Global.asax.cs
 	namespace 	
 MadereraCarocho
  
@@ -5696,8 +5696,8 @@ RouteTable' 1
 ;= >
 } 	
 } 
-} È
-kC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Permisos\PermisosRolAttribute.cs
+} €
+]D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Permisos\PermisosRolAttribute.cs
 	namespace 	
 MadereraCarocho
  
@@ -5813,8 +5813,8 @@ EntUsuarioH R
 ;##0 1
 }$$ 	
 }%% 
-}&& ê
-eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Properties\AssemblyInfo.cs
+}&& Ç
+WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Properties\AssemblyInfo.cs
 [ 
 assembly 	
 :	 
@@ -5939,8 +5939,8 @@ ComVisible 
 ("" 
 $str"" (
 )""( )
-]"") *ﬂ
-bC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Utilidades\Encriptar.cs
+]"") *—
+TD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Utilidades\Encriptar.cs
 	namespace 	
 MadereraCarocho
  

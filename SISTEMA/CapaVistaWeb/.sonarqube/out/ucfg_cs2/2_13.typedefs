@@ -1,4 +1,12 @@
-Æ
-CapaLogica.ValidatorHelperobject]
-ValidateNonEmpty<T>(params T[]):CapaLogica.ValidatorHelper.ValidateNonEmpty<T>(params T[])A
-ValidatorHelper(),CapaLogica.ValidatorHelper.ValidatorHelper()
+ˆ
+CapaLogica.LogProveedorobject8
+LogProveedor()&CapaLogica.LogProveedor.LogProveedor()ˆ
+6LogProveedor(CapaAccesoDatos.Interfaces.IDatProveedor)NCapaLogica.LogProveedor.LogProveedor(CapaAccesoDatos.Interfaces.IDatProveedor)l
+(CrearProveedor(CapaEntidad.EntProveedor)@CapaLogica.LogProveedor.CrearProveedor(CapaEntidad.EntProveedor)>
+ListarProveedor())CapaLogica.LogProveedor.ListarProveedor()F
+SelectListProveedor()-CapaLogica.LogProveedor.SelectListProveedor()R
+SelectListProveedordat(int)3CapaLogica.LogProveedor.SelectListProveedordat(int)v
+-ActualizarProveedor(CapaEntidad.EntProveedor)ECapaLogica.LogProveedor.ActualizarProveedor(CapaEntidad.EntProveedor)H
+EliminarProveedor(int).CapaLogica.LogProveedor.EliminarProveedor(int)J
+BuscarProveedor(string)/CapaLogica.LogProveedor.BuscarProveedor(string)H
+BuscarIdProveedor(int).CapaLogica.LogProveedor.BuscarIdProveedor(int)

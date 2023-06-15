@@ -1,393 +1,393 @@
 
-2CapaAccesoDatos.DatProducto.BuscarProducto(string)h
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProducto.csô! ô(/"0*°
+2CapaAccesoDatos.DatUsuario.ListarAdministradores()Y
+MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.csü  ü(5"0*°
 0
-õ ú(!\Z
+° ¢(;G
+E
 
-õ& õ(=(
+° °(!'
+cmd System.Data.SqlClient.SqlCommand"__id*
+""\Z
+
+¢% ¢(;(
 %0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>s
 q
 
-õ* õ(;
+¢) ¢(9
 
 %1void")System.Collections.Generic.List<T>.List()*,*
 (
 %0"System.Collections.Generic.List<T>o
 m
 
-õ õ(=+
+¢ ¢(;+
 lista"System.Collections.Generic.List<T>"__id*,*
 (
-%0"System.Collections.Generic.List<T>G
-E
+%0"System.Collections.Generic.List<T>*
+1*¸
 
-ú ú(!'
-cmd System.Data.SqlClient.SqlCommand"__id*
-""*
-1*˝
 1
-ü ¶(6v
+• ©(6v
 t
 
-ü# ü(5
+•# •(5
 %2CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
 CapaAccesoDatos.ConexionÉ
 Ä
 
-ü# ü(@)
+•# •(@)
 %3#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
 
 %2CapaAccesoDatos.Conexionn
 l
 
-ü ü(@)
+• •(@)
 cn#System.Data.SqlClient.SqlConnection"__id*-+
 )
 %3#System.Data.SqlClient.SqlConnectionXV
 
-† £(&
-%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandË
-Â
+¶ ¶(C&
+%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÔ
+Ï
 
-† †($
+¶ ¶($
 
 %5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
 &
-%4 System.Data.SqlClient.SqlCommand*
-spBuscarProducto*-+
+%4 System.Data.SqlClient.SqlCommand*
+spListarAdministradores*-+
 )
-cn#System.Data.SqlClient.SqlConnection$
-"
-
-¢" ¢(=
-%6"__id*
-""ñ
-ì
-
-¢ ¢(=
-%7System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set**(
-&
-%4 System.Data.SqlClient.SqlCommand*
-
-%6i
+cn#System.Data.SqlClient.SqlConnectioni
 g
 
-† £('
+¶ ¶(C'
 cmd System.Data.SqlClient.SqlCommand"__id**(
 &
-%4 System.Data.SqlClient.SqlCommand°
-û
+%4 System.Data.SqlClient.SqlCommand$
+"
 
-§ §(2
-%8,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+ß" ß(=
+%6"__id*
+""ó
+î
+
+ß ß(=
+%7System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
 '
-cmd System.Data.SqlClient.SqlCommandﬂ
-‹
+cmd System.Data.SqlClient.SqlCommand*
+
+%6u
+s
 
-§ §(?(
-%9"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
-2
-%8,System.Data.SqlClient.SqlParameterCollection*
-
-@campo*
-
-busquedastringv
-t
+® ®(
 
-• •(
-%10void"*System.Data.SqlClient.SqlConnection.Open()*-+
+%8void"*System.Data.SqlClient.SqlConnection.Open()*-+
 )
-cn#System.Data.SqlClient.SqlConnectionö
-ó
+cn#System.Data.SqlClient.SqlConnectionô
+ñ
 
-¶# ¶(6*
-%11#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
+©# ©(6)
+%9#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
 '
-cmd System.Data.SqlClient.SqlCommando
-m
+cmd System.Data.SqlClient.SqlCommandn
+l
 
-¶ ¶(6)
-dr#System.Data.SqlClient.SqlDataReader"__id*.,
-*
-%11#System.Data.SqlClient.SqlDataReader*
+© ©(6)
+dr#System.Data.SqlClient.SqlDataReader"__id*-+
+)
+%9#System.Data.SqlClient.SqlDataReader*
 2*ó
 2
-ß ß( ~|
+™ ™( ~|
 
-ß ß( 
-%12bool"*System.Data.SqlClient.SqlDataReader.Read()*-+
+™ ™( 
+%10bool"*System.Data.SqlClient.SqlDataReader.Read()*-+
 )
 dr#System.Data.SqlClient.SqlDataReader2Read()*
 3
-4*Œ
+4*Ù 
 3
-™  π("GE
+¨ Ω(!EC
 
-™' ∑(
-%13CapaEntidad.EntProducto"CapaEntidad.EntProductof
-d
-
-™+ ™(6
-%14void"%CapaEntidad.EntProducto.EntProducto()*" 
-
-%13CapaEntidad.EntProductoß§
-
-¨5 ¨(E
-%15object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-idproducto2this[string].getc
+¨% ∂(
+%11CapaEntidad.EntUsuario"CapaEntidad.EntUsuarioc
 a
 
-¨% ¨(F
+¨) ¨(3
+%12void"#CapaEntidad.EntUsuario.EntUsuario()*!
+
+%11CapaEntidad.EntUsuario¶£
 
-%16int"System.Convert.ToInt32(object)*"
+Æ4 Æ(C
+%13object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+	idUsuario2this[string].getc
+a
+
+Æ$ Æ(D
+
+%14int"System.Convert.ToInt32(object)*"
 System.Convert*
 
-%15objectv
-t
+%13objects
+q
 
-¨ ¨(F
+Æ Æ(D
 
-%17int"&CapaEntidad.EntProducto.IdProducto.set*" 
-
-%13CapaEntidad.EntProducto*
+%15int"$CapaEntidad.EntUsuario.IdUsuario.set*!
+
+%11CapaEntidad.EntUsuario*
 
 
-%16int£†
+%14int®•
 
-≠! ≠(-
-%18object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+Ø& Ø(7
+%16object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
 )
-dr#System.Data.SqlClient.SqlDataReader*
-
-nombre2this[string].getOM
+dr#System.Data.SqlClient.SqlDataReader*
+razonsocial2this[string].getOM
 
-≠! ≠(8
-%19string"object.ToString()*
+Ø& Ø(B
+%17string"object.ToString()*
 
-%18object2
+%16object2
+ToString(){
+y
+
+Ø Ø(B
+%18string"&CapaEntidad.EntUsuario.RazonSocial.set*!
+
+%11CapaEntidad.EntUsuario*
+
+%17string•¢
+
+∞# ∞(1
+%19object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+
+telefono2this[string].getOM
+
+∞# ∞(<
+%20string"object.ToString()*
+
+%19object2
 ToString()x
 v
 
-≠ ≠(8
-%20string""CapaEntidad.EntProducto.Nombre.set*" 
-
-%13CapaEntidad.EntProducto*
-
-%19string•¢
-
-Æ4 Æ(B
-%21object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-longitud2this[string].getg
-e
-
-Æ# Æ(C
-%22double"System.Convert.ToDouble(object)*"
-System.Convert*
-
-%21objectz
-x
-
-Æ Æ(C
-%23double"$CapaEntidad.EntProducto.Longitud.set*" 
-
-%13CapaEntidad.EntProducto*
-
-%22double•¢
-
-Ø4 Ø(B
-%24object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-diametro2this[string].getg
-e
-
-Ø# Ø(C
-%25double"System.Convert.ToDouble(object)*"
-System.Convert*
-
-%24objectz
-x
-
-Ø Ø(C
-%26double"$CapaEntidad.EntProducto.Diametro.set*" 
-
-%13CapaEntidad.EntProducto*
-
-%25double¢ü
-
-∞0 ∞(;
-%27object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*	
-stock2this[string].getc
-a
-
-∞  ∞(<
-
-%28int"System.Convert.ToInt32(object)*"
-System.Convert*
-
-%27objectq
-o
-
 ∞ ∞(<
+%21string"#CapaEntidad.EntUsuario.Telefono.set*!
+
+%11CapaEntidad.EntUsuario*
 
-%29int"!CapaEntidad.EntProducto.Stock.set*" 
-
-%13CapaEntidad.EntProducto*
+%20string¶£
 
+±$ ±(3
+%22object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+	direccion2this[string].getOM
 
-%28int£†
+±$ ±(>
+%23string"object.ToString()*
 
-±3 ±(?
-%30object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+%22object2
+ToString()y
+w
+
+± ±(>
+%24string"$CapaEntidad.EntUsuario.Direccion.set*!
+
+%11CapaEntidad.EntUsuario*
+
+%23string£†
+
+≤! ≤(-
+%25object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+
+correo2this[string].getOM
+
+≤! ≤(8
+%26string"object.ToString()*
+
+%25object2
+ToString()v
+t
+
+≤ ≤(8
+%27string"!CapaEntidad.EntUsuario.Correo.set*!
+
+%11CapaEntidad.EntUsuario*
+
+%26string•¢
+
+≥# ≥(1
+%28object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+
+userName2this[string].getOM
+
+≥# ≥(<
+%29string"object.ToString()*
+
+%28object2
+ToString()x
+v
+
+≥ ≥(<
+%30string"#CapaEntidad.EntUsuario.UserName.set*!
+
+%11CapaEntidad.EntUsuario*
+
+%29string°û
+
+¥ ¥()
+%31object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+
+pass2this[string].getOM
+
+¥ ¥(4
+%32string"object.ToString()*
+
+%31object2
+ToString()t
+r
+
+¥ ¥(4
+%33string"CapaEntidad.EntUsuario.Pass.set*!
+
+%11CapaEntidad.EntUsuario*
+
+%32string£†
+
+µ3 µ(?
+%34object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
 )
 dr#System.Data.SqlClient.SqlDataReader*
 
 activo2this[string].getf
 d
 
-±! ±(@
-%31bool" System.Convert.ToBoolean(object)*"
+µ! µ(@
+%35bool" System.Convert.ToBoolean(object)*"
 System.Convert*
 
-%30objectt
-r
-
-± ±(@
-%32bool""CapaEntidad.EntProducto.Activo.set*" 
-
-%13CapaEntidad.EntProducto*
-
-%31bool®•
-
-≤7 ≤(H
-%33object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-precioVenta2this[string].getg
-e
-
-≤& ≤(I
-%34double"System.Convert.ToDouble(object)*"
-System.Convert*
-
-%33object}
-{
-
-≤ ≤(I
-%35double"'CapaEntidad.EntProducto.PrecioVenta.set*" 
-
-%13CapaEntidad.EntProducto*
-
-%34doubleOM
-
-≥ ∂("
-%36CapaEntidad.EntTipoProducto"CapaEntidad.EntTipoProductor
+%34objectr
 p
 
-≥# ≥(2
-%37void"-CapaEntidad.EntTipoProducto.EntTipoProducto()*&$
-"
-%36CapaEntidad.EntTipoProducto°û
+µ µ(@
+%36bool"!CapaEntidad.EntUsuario.Activo.set*!
+
+%11CapaEntidad.EntUsuario*
+
+%35boolV
+T
 
-µ% µ(/
-%38object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+¨ ∂(
+CliCapaEntidad.EntUsuario"__id*!
+
+%11CapaEntidad.EntUsuarioCA
+
+∑" ∫(
+%37CapaEntidad.EntUbigeo"CapaEntidad.EntUbigeo`
+^
+
+∑& ∑(/
+%38void"!CapaEntidad.EntUbigeo.EntUbigeo()* 
+
+%37CapaEntidad.EntUbigeo¶£
+
+π$ π(3
+%39object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
 )
-dr#System.Data.SqlClient.SqlDataReader*
-
-tipo2this[string].getOM
+dr#System.Data.SqlClient.SqlDataReader*
+	provincia2this[string].getOM
 
-µ% µ(:
-%39string"object.ToString()*
+π$ π(>
+%40string"object.ToString()*
 
-%38object2
-ToString()Ä
-~
+%39object2
+ToString()w
+u
 
-µ µ(:
-%40string"&CapaEntidad.EntTipoProducto.Nombre.set*&$
-"
-%36CapaEntidad.EntTipoProducto*
+π π(>
+%41string"#CapaEntidad.EntUbigeo.Provincia.set* 
+
+%37CapaEntidad.EntUbigeo*
 
-%39string°
-û
+%40stringR
+P
 
-≥ ∂("
-%41CapaEntidad.EntTipoProducto" CapaEntidad.EntProducto.Tipo.set*" 
-
-%13CapaEntidad.EntProducto*&$
-"
-%36CapaEntidad.EntTipoProductoY
-W
+∑ ∫(
+uCapaEntidad.EntUbigeo"__id* 
+
+%37CapaEntidad.EntUbigeoì
+ê
 
-™  ∑(
-ProdCapaEntidad.EntProducto"__id*" 
-
-%13CapaEntidad.EntProducto§
-°
+º º("
+%42CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.set*!
+
+CliCapaEntidad.EntUsuario*
+
+uCapaEntidad.EntUbigeo¢
+ü
 
-π π(#
-%42void"0System.Collections.Generic.ICollection<T>.Add(T)*/-
+Ω Ω("
+%43void"0System.Collections.Generic.ICollection<T>.Add(T)*/-
 +
-lista"System.Collections.Generic.List<T>*#!
-
-ProdCapaEntidad.EntProducto*
+lista"System.Collections.Generic.List<T>*!
+
+CliCapaEntidad.EntUsuario*
 2*
 4
-∆	 ∆(	*
+»	 »(	*
 5
-6*ù
+6*¯
 5
-ø ø()ca
+√ √(rca
 
-ø  ø()
-%43string"System.Exception.Message.get*
+√  √()
+%44string"System.Exception.Message.get*
 
-eSystem.Exception2Message.get°
-û
+eSystem.Exception2Message.get%
+#
 
-ø ø(*(
-%44!System.Windows.Forms.DialogResult",System.Windows.Forms.MessageBox.Show(string)*%#"!
+√H √(\
+%45"__id*
+""%
+#
+
+√^ √(r
+%46"__id*
+""Æ
+´
+
+√ √(s(
+%47!System.Windows.Forms.DialogResult"ÅSystem.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
 System.Windows.Forms.MessageBox*
 
-%43string*
-6*≠
+%44string*
+ERROR AL MOSTRAR CLIENTES*	
+
+%45*	
+
+%46*
+6*L
 6
-√ √(&ô
-ñ
+« «(";
 
-√ √(*
-%45#System.Data.SqlClient.SqlConnection"/System.Data.SqlClient.SqlCommand.Connection.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandx
-v
-
-√ √(&
-%46void"+System.Data.SqlClient.SqlConnection.Close()*.,
-*
-%45#System.Data.SqlClient.SqlConnection*
-7
-8*L
-7
-≈ ≈(";
-
-≈ ≈(-
+« «(-
 +
 lista"System.Collections.Generic.List<T>*2
-8
-∆	 ∆(	"!
+7
+»	 »(	"!
 
-∆ ∆(	
-implicit return: 
-
-ô0 ô(?
-busquedastringB
-CapaAccesoDatos.DatProducto
+» »(	
+implicit returnB
+CapaAccesoDatos.DatUsuario

@@ -1,16 +1,16 @@
 
-(CapaEntidad.EntProveedor.RazonSocial.setc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs# #("0*p
-0# #(%\
-Z
-# #(%3
-CapaEntidad.EntProveedor"
-razonSocialstring"__id*
-
-valuestring*
+#CapaEntidad.EntProveedor.Ubigeo.setU
+KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.csI I("0*‰
+0I I( u
+s
+I I( =
+CapaEntidad.EntProveedor"
+ubigeoCapaEntidad.EntUbigeo"__id*" 
+
+valueCapaEntidad.EntUbigeo*
 1*.
-1#( #(("
-#' #((
-implicit return:
-valuestringB
+1I# I(#"
+I" I(#
+implicit return: 
+valueCapaEntidad.EntUbigeoB
 CapaEntidad.EntProveedor

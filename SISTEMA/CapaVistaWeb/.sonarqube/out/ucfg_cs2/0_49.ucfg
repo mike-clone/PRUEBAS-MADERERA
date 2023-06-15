@@ -1,13 +1,15 @@
 
-%CapaEntidad.EntDetCompra.Cantidad.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs (!"0*6
-0% (-"
+CapaEntidad.EntVenta.Total.getQ
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*E
+0 ("
  
-% (-
+ (
 %0"__id*
-""*
-1*.
-1. (."
-- (.
-implicit returnB
-CapaEntidad.EntDetCompra
+"""
+ (
+
+%0*.
+1! (!"
+  (!
+implicit returnB
+CapaEntidad.EntVenta

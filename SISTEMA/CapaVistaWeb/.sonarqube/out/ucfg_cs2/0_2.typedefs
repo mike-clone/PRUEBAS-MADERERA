@@ -1,13 +1,25 @@
-±
-CapaEntidad.EntDetCompraobject9
-EntDetCompra()'CapaEntidad.EntDetCompra.EntDetCompra()1
+¥
+CapaEntidad.EntProductoobject6
+EntProducto()%CapaEntidad.EntProducto.EntProducto()@
+NombreCompleto.get*CapaEntidad.EntProducto.NombreCompleto.get@
+NombreCompleto.set*CapaEntidad.EntProducto.NombreCompleto.set8
+IdProducto.get&CapaEntidad.EntProducto.IdProducto.get8
+IdProducto.set&CapaEntidad.EntProducto.IdProducto.set0
 
-Compra.get#CapaEntidad.EntDetCompra.Compra.get1
+Nombre.get"CapaEntidad.EntProducto.Nombre.get0
 
-Compra.set#CapaEntidad.EntDetCompra.Compra.setG
-ProveedorProducto.get.CapaEntidad.EntDetCompra.ProveedorProducto.getG
-ProveedorProducto.set.CapaEntidad.EntDetCompra.ProveedorProducto.set5
-Cantidad.get%CapaEntidad.EntDetCompra.Cantidad.get5
-Cantidad.set%CapaEntidad.EntDetCompra.Cantidad.set5
-Subtotal.get%CapaEntidad.EntDetCompra.Subtotal.get5
-Subtotal.set%CapaEntidad.EntDetCompra.Subtotal.set
+Nombre.set"CapaEntidad.EntProducto.Nombre.set4
+Diametro.get$CapaEntidad.EntProducto.Diametro.get4
+Diametro.set$CapaEntidad.EntProducto.Diametro.set4
+Longitud.get$CapaEntidad.EntProducto.Longitud.get4
+Longitud.set$CapaEntidad.EntProducto.Longitud.set:
+PrecioVenta.get'CapaEntidad.EntProducto.PrecioVenta.get:
+PrecioVenta.set'CapaEntidad.EntProducto.PrecioVenta.set,
+Tipo.get CapaEntidad.EntProducto.Tipo.get,
+Tipo.set CapaEntidad.EntProducto.Tipo.set.
+	Stock.get!CapaEntidad.EntProducto.Stock.get.
+	Stock.set!CapaEntidad.EntProducto.Stock.set0
+
+Activo.get"CapaEntidad.EntProducto.Activo.get0
+
+Activo.set"CapaEntidad.EntProducto.Activo.set

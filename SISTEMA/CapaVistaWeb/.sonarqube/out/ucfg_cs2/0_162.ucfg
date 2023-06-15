@@ -1,15 +1,15 @@
 
-)CapaEntidad.EntProveedor.EstProveedor.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.csC C("0*E
-0C C(%"
- 
-C C(%
-%0"__id*
-"""
-C C(&
-
-%0*.
-1C( C(("
-C' C((
-implicit returnB
-CapaEntidad.EntProveedor
+'CapaEntidad.EntProducto.PrecioVenta.setT
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs, ,("0*d
+0, ,(%P
+N
+, ,(%2
+CapaEntidad.EntProducto"
+precioVentadouble"__id*
+""*
+1*.
+1,( ,(("
+,' ,((
+implicit return:
+valuedoubleB
+CapaEntidad.EntProducto

@@ -1,355 +1,16 @@
 
-0CapaAccesoDatos.DatDetVenta.Mostrardetventa(int)f
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetVenta.cs7! 7(0"0*ñ
-09 :(<E
-C
-9 9(!'
-cmd System.Data.SqlClient.SqlCommand"__id*
-""ZX
-:% :(<(
-%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
-o
-:) :(:
-
-%1void")System.Collections.Generic.List<T>.List()*,*
-(
-%0"System.Collections.Generic.List<T>l
-j
-: :(<*
-list"System.Collections.Generic.List<T>"__id*,*
-(
-%0"System.Collections.Generic.List<T>*
-1*‹
-1= B(6t
-r
-=# =(5
-%2CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
-CapaAccesoDatos.ConexionÄ
-~
-=# =(@)
-%3#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
-
-%2CapaAccesoDatos.Conexionl
-j
-= =(@)
-cn#System.Data.SqlClient.SqlConnection"__id*-+
-)
-%3#System.Data.SqlClient.SqlConnectionVT
-> >(C&
-%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÌ
-Í
-> >($
-
-%5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
-&
-%4 System.Data.SqlClient.SqlCommand*
-spMostrarDetalleVentaId*-+
-)
-cn#System.Data.SqlClient.SqlConnectiong
-e
-> >(C'
-cmd System.Data.SqlClient.SqlCommand"__id**(
-&
-%4 System.Data.SqlClient.SqlCommand"
- 
-?" ?(=
-%6"__id*
-""ï
-í
-? ?(=
-%7System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
-'
-cmd System.Data.SqlClient.SqlCommand*
-
-%6ü
-ú
-@ @(2
-%8,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
-'
-cmd System.Data.SqlClient.SqlCommand—
-Œ
-@ @(@(
-%9"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
-2
-%8,System.Data.SqlClient.SqlParameterCollection*
-
-@idVenta*
-""t
-r
-A A(
-%10void"*System.Data.SqlClient.SqlConnection.Open()*-+
-)
-cn#System.Data.SqlClient.SqlConnectionò
-ï
-B# B(6*
-%11#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
-'
-cmd System.Data.SqlClient.SqlCommandm
-k
-B B(6)
-dr#System.Data.SqlClient.SqlDataReader"__id*.,
-*
-%11#System.Data.SqlClient.SqlDataReader*
-2*ì
-2C C( |z
-C C( 
-%12bool"*System.Data.SqlClient.SqlDataReader.Read()*-+
-)
-dr#System.Data.SqlClient.SqlDataReader2Read()*
-3
-4*ã#
-3E  Z( EC
-E& Y(
-%13CapaEntidad.EntDetVenta"CapaEntidad.EntDetVentad
-b
-E* E(5
-%14void"%CapaEntidad.EntDetVenta.EntDetVenta()*" 
-
-%13CapaEntidad.EntDetVenta?=
-G J(
-%15CapaEntidad.EntVenta"CapaEntidad.EntVenta[
-Y
-G" G(*
-%16void"CapaEntidad.EntVenta.EntVenta()*
-
-%15CapaEntidad.EntVenta¢ü
-I5 I(B
-%17object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*	
-idVenta2this[string].geta
-_
-I% I(C
-
-%18int"System.Convert.ToInt32(object)*"
-System.Convert*
-
-%17objectk
-i
-I I(C
-
-%19int" CapaEntidad.EntVenta.IdVenta.set*
-
-%15CapaEntidad.EntVenta*
-
-
-%18intí
-è
-G J(
-%20CapaEntidad.EntVenta"!CapaEntidad.EntDetVenta.Venta.set*" 
-
-%13CapaEntidad.EntDetVenta*
-
-%15CapaEntidad.EntVentaEC
-K# V(
-%21CapaEntidad.EntProducto"CapaEntidad.EntProductod
-b
-K' K(2
-%22void"%CapaEntidad.EntProducto.EntProducto()*" 
-
-%21CapaEntidad.EntProducto°û
-M% M(1
-%23object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-nombre2this[string].getMK
-M% M(<
-%24string"object.ToString()*
-
-%23object2
-ToString()v
-t
-M M(<
-%25string""CapaEntidad.EntProducto.Nombre.set*" 
-
-%21CapaEntidad.EntProducto*
-
-%24string£†
-N8 N(F
-%26object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-longitud2this[string].gete
-c
-N' N(G
-%27double"System.Convert.ToDouble(object)*"
-System.Convert*
-
-%26objectx
-v
-N N(G
-%28double"$CapaEntidad.EntProducto.Longitud.set*" 
-
-%21CapaEntidad.EntProducto*
-
-%27double£†
-O8 O(F
-%29object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-diametro2this[string].gete
-c
-O' O(G
-%30double"System.Convert.ToDouble(object)*"
-System.Convert*
-
-%29objectx
-v
-O O(G
-%31double"$CapaEntidad.EntProducto.Diametro.set*" 
-
-%21CapaEntidad.EntProducto*
-
-%30double¶£
-P; P(L
-%32object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-precioVenta2this[string].gete
-c
-P* P(M
-%33double"System.Convert.ToDouble(object)*"
-System.Convert*
-
-%32object{
-y
-P P(M
-%34double"'CapaEntidad.EntProducto.PrecioVenta.set*" 
-
-%21CapaEntidad.EntProducto*
-
-%33doubleMK
-R# U("
-%35CapaEntidad.EntTipoProducto"CapaEntidad.EntTipoProductop
-n
-R' R(6
-%36void"-CapaEntidad.EntTipoProducto.EntTipoProducto()*&$
-"
-%35CapaEntidad.EntTipoProductoüú
-T) T(3
-%37object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-tipo2this[string].getMK
-T) T(>
-%38string"object.ToString()*
-
-%37object2
-ToString()~
-|
-T  T(>
-%39string"&CapaEntidad.EntTipoProducto.Nombre.set*&$
-"
-%35CapaEntidad.EntTipoProducto*
-
-%38stringü
-ú
-R U("
-%40CapaEntidad.EntTipoProducto" CapaEntidad.EntProducto.Tipo.set*" 
-
-%21CapaEntidad.EntProducto*&$
-"
-%35CapaEntidad.EntTipoProductoõ
-ò
-K V(
-%41CapaEntidad.EntProducto"$CapaEntidad.EntDetVenta.Producto.set*" 
-
-%13CapaEntidad.EntDetVenta*" 
-
-%21CapaEntidad.EntProducto£†
-W3 W(A
-%42object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-cantidad2this[string].geta
-_
-W# W(B
-
-%43int"System.Convert.ToInt32(object)*"
-System.Convert*
-
-%42objectr
-p
-W W(B
-
-%44int"$CapaEntidad.EntDetVenta.Cantidad.set*" 
-
-%13CapaEntidad.EntDetVenta*
-
-
-%43int£†
-X4 X(B
-%45object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-subTotal2this[string].gete
-c
-X# X(C
-%46double"System.Convert.ToDouble(object)*"
-System.Convert*
-
-%45objectx
-v
-X X(C
-%47double"$CapaEntidad.EntDetVenta.SubTotal.set*" 
-
-%13CapaEntidad.EntDetVenta*
-
-%46doubleV
-T
-E  Y(
-detCapaEntidad.EntDetVenta"__id*" 
-
-%13CapaEntidad.EntDetVenta†
+2CapaAccesoDatos.DatProveedorProducto.Instancia.geta
+WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedorProducto.cs ("0*Í
+0 ("†
 ù
-Z Z(!
-%48void"0System.Collections.Generic.ICollection<T>.Add(T)*.,
+ ("*
+%0$CapaAccesoDatos.DatProveedorProducto"__id*_]*[&
+$CapaAccesoDatos.DatProveedorProducto"1
+	_instance$CapaAccesoDatos.DatProveedorProducto"8
+ (#,
 *
-list"System.Collections.Generic.List<T>*" 
-
-detCapaEntidad.EntDetVenta*
-2*
-4c	 c(	*
-5
-6*ó
-5_ _()a_
-_  _()
-%49string"System.Exception.Message.get*
-
-eSystem.Exception2Message.getü
-ú
-_ _(*(
-%50!System.Windows.Forms.DialogResult",System.Windows.Forms.MessageBox.Show(string)*%#"!
-System.Windows.Forms.MessageBox*
-
-%49string*
-6*ß
-6a a(,ó
-î
-a a($*
-%51#System.Data.SqlClient.SqlConnection"/System.Data.SqlClient.SqlCommand.Connection.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandv
-t
-a a(,
-%52void"+System.Data.SqlClient.SqlConnection.Close()*.,
-*
-%51#System.Data.SqlClient.SqlConnection*
-7
-8*G
-7b b("8
-b b(,
-*
-list"System.Collections.Generic.List<T>*.
-8c	 c(	"
-c c(	
-implicit return:
-71 7(<
-idVentaintB
-CapaAccesoDatos.DatDetVenta
+%0$CapaAccesoDatos.DatProveedorProducto*.
+1% (%"
+$ (%
+implicit returnB("&
+$CapaAccesoDatos.DatProveedorProducto

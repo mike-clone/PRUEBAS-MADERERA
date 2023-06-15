@@ -1,186 +1,172 @@
 
-HMadereraCarocho.Controllers.HomeController.AgregarTempPrductCliente(int)t
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csŒ Œ(4"5*é
+JMadereraCarocho.Controllers.ProductoController.AgregarTempPrduct(int, int)j
+^D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.cs¢ ¢(-"5*Å
 0
-– ⁄(+}
+§ ´(/}
 {
 
-–! –((%
+§! §((%
 %0System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
 System.Web.Mvc.Controller•¢
 
-–! –(3
+§! §(3
 %1object":System.Collections.Generic.ICollection<T>.this[string].get*)'
 %
 %0System.Web.HttpSessionStateBase*	
 Usuario2this[string].get4
 2
 
-–! –(A
+§! §(A
 %2object"__id*
 
 %1objectI
 G
 
-– –(A!
+§ §(A!
 usuarioCapaEntidad.EntUsuario"__id*
 
-%2objectí
-è
+%2object±
+Æ
 
-— —(&
-%3CapaLogica.LogProducto"__id*][*Y,
-*MadereraCarocho.Controllers.HomeController")
-ProductoserviceCapaLogica.LogProductoà
-Ö
+• •(2%
+%3CapaLogica.LogProveedorProducto"__id*sq*o0
+.MadereraCarocho.Controllers.ProductoController";
+ProveedorProductoserviceCapaLogica.LogProveedorProducto∫
+∑
 
-— —(?
-%4CapaEntidad.EntProducto",CapaLogica.LogProducto.BuscarProductoId(int)* 
-
-%3CapaLogica.LogProducto*
-""X
-V
+• •([&
+%4 CapaEntidad.EntProveedorProducto"BCapaLogica.LogProveedorProducto.BuscarProvedorProductoId(int, int)*)'
+%
+%3CapaLogica.LogProveedorProducto*
+""*
+""m
+k
 
-— —(?
-prodCapaEntidad.EntProducto"__id*!
-
-%4CapaEntidad.EntProductoXV
+• •([+
+proprod CapaEntidad.EntProveedorProducto"__id**(
+&
+%4 CapaEntidad.EntProveedorProductoXV
 
-“5 €(&
+¶5 ¨(&
 %5 CapaEntidad.EntTemporaryProducts" CapaEntidad.EntTemporaryProducts
 }
 
-“9 “(M
+¶9 ¶(M
 
 %6void"7CapaEntidad.EntTemporaryProducts.EntTemporaryProducts()**(
 &
-%5 CapaEntidad.EntTemporaryProductsXV
+%5 CapaEntidad.EntTemporaryProductsÃ
+…
 
-‘$ ◊(&
-%7 CapaEntidad.EntProveedorProducto" CapaEntidad.EntProveedorProducto
-}
-
-‘( ‘(<
-
-%8void"7CapaEntidad.EntProveedorProducto.EntProveedorProducto()**(
+® ®(+&
+%7 CapaEntidad.EntProveedorProducto"6CapaEntidad.EntTemporaryProducts.ProveedorProducto.set**(
 &
-%7 CapaEntidad.EntProveedorProductoÆ
+%5 CapaEntidad.EntTemporaryProducts*/-
++
+proprod CapaEntidad.EntProveedorProductoÆ
 ´
 
-÷ ÷(#
-%9CapaEntidad.EntProducto"-CapaEntidad.EntProveedorProducto.Producto.set**(
-&
-%7 CapaEntidad.EntProveedorProducto*#!
-
-prodCapaEntidad.EntProducto»
-≈
-
-‘ ◊('
-%10 CapaEntidad.EntProveedorProducto"6CapaEntidad.EntTemporaryProducts.ProveedorProducto.set**(
-&
-%5 CapaEntidad.EntTemporaryProducts**(
-&
-%7 CapaEntidad.EntProveedorProductoØ
-¨
-
-ÿ ÿ(!
-%11CapaEntidad.EntUsuario",CapaEntidad.EntTemporaryProducts.Usuario.set**(
+© ©(!
+%8CapaEntidad.EntUsuario",CapaEntidad.EntTemporaryProducts.Usuario.set**(
 &
 %5 CapaEntidad.EntTemporaryProducts*%#
 !
-usuarioCapaEntidad.EntUsuario}
-{
+usuarioCapaEntidad.EntUsuario|
+z
 
-Ÿ Ÿ(
-
-%12int"-CapaEntidad.EntTemporaryProducts.Cantidad.set**(
+™ ™(	
+%9int"-CapaEntidad.EntTemporaryProducts.Cantidad.set**(
 &
-%5 CapaEntidad.EntTemporaryProducts*2k
-i
+%5 CapaEntidad.EntTemporaryProducts*2Å
+
 
-⁄ ⁄(+
-%13double"'CapaEntidad.EntProducto.PrecioVenta.get*#!
-
-prodCapaEntidad.EntProductoå
+´ ´(/
+%10double"1CapaEntidad.EntProveedorProducto.PrecioCompra.get*/-
++
+proprod CapaEntidad.EntProveedorProductoå
 â
 
-⁄ ⁄(+
-%14double"-CapaEntidad.EntTemporaryProducts.Subtotal.set**(
+´ ´(/
+%11double"-CapaEntidad.EntTemporaryProducts.Subtotal.set**(
 &
 %5 CapaEntidad.EntTemporaryProducts*
 
-%13doublew
+%10doublew
 u
 
-“! €(5
+¶! ¨(5
 temporaryProducts CapaEntidad.EntTemporaryProducts"__id**(
 &
 %5 CapaEntidad.EntTemporaryProducts*
 1*
 1
-Â	 Â(	*
+¡	 ¡(	*
 2
-3*˝
+3*à
 2
-ﬁ ﬂ(1ß
-§
+Ø ∞(;´
+®
 
-ﬁ ﬁ(!&
-%15CapaLogica.LogTemporaryProducts"__id*hf*d,
-*MadereraCarocho.Controllers.HomeController"4
-TemporaryPserviceCapaLogica.LogTemporaryProducts·
-ﬁ
+Ø Ø(!&
+%12CapaLogica.LogTemporaryProducts"__id*lj*h0
+.MadereraCarocho.Controllers.ProductoController"4
+TemporaryPserviceCapaLogica.LogTemporaryProductsﬁ
+€
 
-ﬁ ﬁ(O
-%16bool"\CapaLogica.LogTemporaryProducts.CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)**(
+Ø Ø(L
+%13bool"YCapaLogica.LogTemporaryProducts.CreaarTemporaryProducts(CapaEntidad.EntTemporaryProducts)**(
 &
-%15CapaLogica.LogTemporaryProducts*97
+%12CapaLogica.LogTemporaryProducts*97
 5
-temporaryProducts CapaEntidad.EntTemporaryProducts†
-ù
+temporaryProducts CapaEntidad.EntTemporaryProducts™
+ß
 
-ﬂ ﬂ(2+
-%17$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*	
-Cliente";
+∞ ∞(<+
+%14$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*
+ListarParaComprar";
 
-ﬂ ﬂ(3-
+∞ ∞(=-
 +
-%17$System.Web.Mvc.RedirectToRouteResult*˘
+%14$System.Web.Mvc.RedirectToRouteResult*˘
 3
-„ „(Xdb
+¥ ¥(Xdb
 
-„N „(X
-%18string"System.Exception.Message.get*
+¥N ¥(X
+%15string"System.Exception.Message.get*
 
 exSystem.Exception2Message.getƒ
 ¡
 
-„ „([+
-%19$System.Web.Mvc.RedirectToRouteResult"BSystem.Web.Mvc.Controller.RedirectToAction(string, string, object)*
+¥ ¥([+
+%16$System.Web.Mvc.RedirectToRouteResult"BSystem.Web.Mvc.Controller.RedirectToAction(string, string, object)*
 System.Web.Mvc.Controller*	
 Error*
 
 Home*
 """;
 
-„ „(\-
+¥ ¥(\-
 +
-%19$System.Web.Mvc.RedirectToRouteResult*2
+%16$System.Web.Mvc.RedirectToRouteResult*2
 4
-Â	 Â(	"!
+¡	 ¡(	"!
 
-Â Â(	
-implicit return*C
+¡ ¡(	
+implicit return*M
 5
-Œ@ Œ(@-
-+
+¢E ¢(E7
+5
 
-Œ Œ(4
-%20"__entrypoint*
+¢ ¢(-
+%17"__entrypoint*
+""*
 ""*
 0:
 
-Œ5 Œ(?
-idprodintB.,
-*MadereraCarocho.Controllers.HomeController
+¢. ¢(8
+idprodint:
+
+¢: ¢(D
+idprovintB20
+.MadereraCarocho.Controllers.ProductoController

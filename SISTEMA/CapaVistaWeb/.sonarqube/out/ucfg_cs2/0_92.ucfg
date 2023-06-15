@@ -1,16 +1,16 @@
 
--CapaEntidad.EntProveedorProducto.Producto.setk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs7 (:"0*™
-0> (N„
-
-> (NI"
- CapaEntidad.EntProveedorProducto"#
-productoCapaEntidad.EntProducto"__id*$"
- 
-valueCapaEntidad.EntProducto*
+#CapaEntidad.EntUsuario.UserName.setS
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csD D("0*k
+0D D("W
+U
+D D(".
+CapaEntidad.EntUsuario"
+userNamestring"__id*
+
+valuestring*
 1*.
-1O (O"
-N (O
-implicit return:" 
-valueCapaEntidad.EntProductoB$"
- CapaEntidad.EntProveedorProducto
+1D% D(%"
+D$ D(%
+implicit return:
+valuestringB
+CapaEntidad.EntUsuario

@@ -1,21 +1,15 @@
-©
-CapaEntidad.entReporteCompraobjectE
-entReporteCompra()/CapaEntidad.entReporteCompra.entReporteCompra()5
+µ
+CapaEntidad.EntCompraobject0
+EntCompra()!CapaEntidad.EntCompra.EntCompra()2
+IdCompra.get"CapaEntidad.EntCompra.IdCompra.get2
+IdCompra.set"CapaEntidad.EntCompra.IdCompra.set,
+	Fecha.getCapaEntidad.EntCompra.Fecha.get,
+	Fecha.setCapaEntidad.EntCompra.Fecha.set,
+	Total.getCapaEntidad.EntCompra.Total.get,
+	Total.setCapaEntidad.EntCompra.Total.set.
 
-Codigo.get'CapaEntidad.entReporteCompra.Codigo.get5
+Estado.get CapaEntidad.EntCompra.Estado.get.
 
-Codigo.set'CapaEntidad.entReporteCompra.Codigo.set;
-Proveedor.get*CapaEntidad.entReporteCompra.Proveedor.get;
-Proveedor.set*CapaEntidad.entReporteCompra.Proveedor.set3
-	Fecha.get&CapaEntidad.entReporteCompra.Fecha.get3
-	Fecha.set&CapaEntidad.entReporteCompra.Fecha.set?
-Descripcion.get,CapaEntidad.entReporteCompra.Descripcion.get?
-Descripcion.set,CapaEntidad.entReporteCompra.Descripcion.set9
-Longitud.get)CapaEntidad.entReporteCompra.Longitud.get9
-Longitud.set)CapaEntidad.entReporteCompra.Longitud.set9
-Cantidad.get)CapaEntidad.entReporteCompra.Cantidad.get9
-Cantidad.set)CapaEntidad.entReporteCompra.Cantidad.setA
-PrecUnitario.get-CapaEntidad.entReporteCompra.PrecUnitario.getA
-PrecUnitario.set-CapaEntidad.entReporteCompra.PrecUnitario.set9
-SubTotal.get)CapaEntidad.entReporteCompra.SubTotal.get9
-SubTotal.set)CapaEntidad.entReporteCompra.SubTotal.set
+Estado.set CapaEntidad.EntCompra.Estado.set0
+Usuario.get!CapaEntidad.EntCompra.Usuario.get0
+Usuario.set!CapaEntidad.EntCompra.Usuario.set

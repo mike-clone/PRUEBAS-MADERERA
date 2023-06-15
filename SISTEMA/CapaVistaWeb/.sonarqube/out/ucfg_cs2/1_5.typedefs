@@ -1,4 +1,5 @@
-‡
-CapaAccesoDatos.datRollobject4
-ListarRoll()$CapaAccesoDatos.datRoll.ListarRoll().
-	datRoll()!CapaAccesoDatos.datRoll.datRoll()
+Â
+CapaAccesoDatos.DatDetVentaobject'CapaAccesoDatos.Interfaces.IDatDetVental
+&CrearDetVenta(CapaEntidad.EntDetVenta)BCapaAccesoDatos.DatDetVenta.CrearDetVenta(CapaEntidad.EntDetVenta)H
+Mostrardetventa(int)0CapaAccesoDatos.DatDetVenta.Mostrardetventa(int):
+DatDetVenta())CapaAccesoDatos.DatDetVenta.DatDetVenta()

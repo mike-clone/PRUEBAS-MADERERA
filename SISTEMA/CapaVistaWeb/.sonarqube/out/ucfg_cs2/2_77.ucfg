@@ -1,23 +1,23 @@
 
-=CapaLogica.LogProveedorProducto.MostarDetalleProveedorId(int)j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs,* ,(B"0*ù
-0. .(PÂ
-¿
-. .(+6
-%00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
-CapaLogica.LogProveedorProducto"L
-ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProductoìé
-. .(Q(
-%1"System.Collections.Generic.List<T>"NCapaAccesoDatos.Interfaces.IDatProveedorProducto.MostarDetalleProveedorId(int)*:8
+ACapaLogica.LogTemporaryProducts.BuscarTemporaryProductsIdCli(int)\
+RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs:$ :(@"0*õ
+0< <(Cº
+·
+< <(#6
+%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts"__id*mk*i!
+CapaLogica.LogTemporaryProducts"D
+TemporaryService0CapaAccesoDatos.Interfaces.IDatTemporaryProductsòï
+< <(D&
+%1 CapaEntidad.EntTemporaryProducts"RCapaAccesoDatos.Interfaces.IDatTemporaryProducts.BuscarTemporaryProductsIdCli(int)*:8
 6
-%00CapaAccesoDatos.Interfaces.IDatProveedorProducto*
-""2MostarDetalleProveedorId(int)"6
-. .(R*
-(
-%1"System.Collections.Generic.List<T>*.
-1/	 /(	"
-/ /(	
-implicit return:
-,C ,(R
-idProveedorintB#!
-CapaLogica.LogProveedorProducto
+%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts*
+""2!BuscarTemporaryProductsIdCli(int)"4
+< <(E(
+&
+%1 CapaEntidad.EntTemporaryProducts*.
+1=	 =(	"
+= =(	
+implicit return:
+:A :(G	
+idintB#!
+CapaLogica.LogTemporaryProducts

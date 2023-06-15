@@ -1,14 +1,10 @@
-ù
-CapaLogica.LogUsuarioobject2
-LogUsuario()"CapaLogica.LogUsuario.LogUsuario()~
-2LogUsuario(CapaAccesoDatos.Interfaces.IDatUsuario)HCapaLogica.LogUsuario.LogUsuario(CapaAccesoDatos.Interfaces.IDatUsuario)d
-%CrearClientes(CapaEntidad.EntUsuario);CapaLogica.LogUsuario.CrearClientes(CapaEntidad.EntUsuario):
-ListarClientes()&CapaLogica.LogUsuario.ListarClientes()F
-BuscarClientes(string),CapaLogica.LogUsuario.BuscarClientes(string)D
-EliminarUsuarios(int)+CapaLogica.LogUsuario.EliminarUsuarios(int)d
-%EditarCliente(CapaEntidad.EntUsuario);CapaLogica.LogUsuario.EditarCliente(CapaEntidad.EntUsuario)H
-ListarAdministradores()-CapaLogica.LogUsuario.ListarAdministradores()x
-/ActualizarAdministrador(CapaEntidad.EntUsuario)ECapaLogica.LogUsuario.ActualizarAdministrador(CapaEntidad.EntUsuario)T
-BuscarAdministradores(string)3CapaLogica.LogUsuario.BuscarAdministradores(string)B
-BuscarIdUsuario(int)*CapaLogica.LogUsuario.BuscarIdUsuario(int)T
-IniciarSesion(string, string)3CapaLogica.LogUsuario.IniciarSesion(string, string)
+à
+CapaLogica.LogUbigeoobject/
+LogUbigeo() CapaLogica.LogUbigeo.LogUbigeo()y
+0LogUbigeo(CapaAccesoDatos.Interfaces.IDatUbigeo)ECapaLogica.LogUbigeo.LogUbigeo(CapaAccesoDatos.Interfaces.IDatUbigeo)]
+"CrearUbigeo(CapaEntidad.EntUbigeo)7CapaLogica.LogUbigeo.CrearUbigeo(CapaEntidad.EntUbigeo)5
+ListarUbigeo()#CapaLogica.LogUbigeo.ListarUbigeo()g
+'ActualizarUbigeo(CapaEntidad.EntUbigeo)<CapaLogica.LogUbigeo.ActualizarUbigeo(CapaEntidad.EntUbigeo)?
+EliminarUbigeo(int)(CapaLogica.LogUbigeo.EliminarUbigeo(int)9
+ListarDistrito()%CapaLogica.LogUbigeo.ListarDistrito()A
+BuscarUbigeo(string))CapaLogica.LogUbigeo.BuscarUbigeo(string)

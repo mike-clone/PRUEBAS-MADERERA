@@ -1,36 +1,61 @@
 
-NMadereraCarocho.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)m
-cC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\RouteConfig.cs ()"0*×
-0
- (aÿ
-ü
-
- 
-(<
+TMadereraCarocho.Controllers.TemporaryProductController.EliminarTempPrductClient(int)p
+fD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\TemporaryProductController.cs; ;(4"4*Ž
+0? ?(Q°
+­
+? ?(0%
+%0CapaLogica.LogTemporaryProducts"__id*tr*p8
+6MadereraCarocho.Controllers.TemporaryProductController"4
+TemporaryPserviceCapaLogica.LogTemporaryProductsŽ
+‹
+? ?(R
 
-%0void"`System.Web.Mvc.RouteCollectionExtensions.IgnoreRoute(System.Web.Routing.RouteCollection, string)*.,"*
-(System.Web.Mvc.RouteCollectionExtensions*0.
-,
-routes"System.Web.Routing.RouteCollection* 
-{resource}.axd/{*pathInfo}„
-
-L (a!
-%1System.Web.Mvc.UrlParameter"__id*LJ*H
-System.Web.Mvc.UrlParameter"'
-OptionalSystem.Web.Mvc.UrlParameter¹
-¶
- (
-%2System.Web.Routing.Route"mSystem.Web.Mvc.RouteCollectionExtensions.MapRoute(System.Web.Routing.RouteCollection, string, string, object)*.,"*
-(System.Web.Mvc.RouteCollectionExtensions*0.
-,
-routes"System.Web.Routing.RouteCollection*	
-Default* 
-{controller}/{action}/{id}*
+%1bool">CapaLogica.LogTemporaryProducts.EliminarTemporaryProducts(int)*)'
+%
+%0CapaLogica.LogTemporaryProducts*
+""3
+1
+? ?(R
+eliminabool"__id*
+
+
+%1bool*
+1
+2*î
+1D D(Xa_
+DN D(X
+%2string"System.Exception.Message.get*
+
+exSystem.Exception2Message.getÁ
+¾
+D D([*
+%3$System.Web.Mvc.RedirectToRouteResult"BSystem.Web.Mvc.Controller.RedirectToAction(string, string, object)*
+System.Web.Mvc.Controller*	
+Error*
+
+Home*
+"""8
+D D(\,
+*
+%3$System.Web.Mvc.RedirectToRouteResult*÷
+2F F(=­
+ª
+F F(>*
+%4$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*
+ListarTempProductClient"8
+F F(?,
+*
+%4$System.Web.Mvc.RedirectToRouteResult*.
+3G	 G(	"
+G G(	
+implicit return*>
+4;@ ;(@*
+(
+; ;(4
+%5"__entrypoint*
 ""*
-1*.
-1	 (	"
- (	
-implicit return:8
-* (@,
-routes"System.Web.Routing.RouteCollectionB"
-MadereraCarocho.RouteConfig
+0:
+;5 ;(?
+idtempintB:8
+6MadereraCarocho.Controllers.TemporaryProductController

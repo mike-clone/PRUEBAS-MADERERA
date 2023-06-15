@@ -1,5 +1,9 @@
 #Base de datos
-#ESISTEMA/CapaAccesoDatos/Conexion.cs
+SISTEMA/CapaAccesoDatos/Conexion.cs
+
+
+#SonnarQube
+SISTEMA/CapaVistaWeb/.sonarqube/
 
 # Carpeta bin y obj
 bin/

@@ -1,26 +1,26 @@
 
-5MadereraCarocho.Controllers.HomeController.Registro()r
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs8 8($"2*»
-0: =(ä
-á
-:* :(7
-%0CapaLogica.LogUbigeo"__id*YW*U,
-*MadereraCarocho.Controllers.HomeController"%
+DMadereraCarocho.Controllers.ProveedorController.RegistrarProveedor()i
+_D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs/ /(."2*‹
+01 4(è
+å
+1* 1(7
+%0CapaLogica.LogUbigeo"__id*^\*Z1
+/MadereraCarocho.Controllers.ProveedorController"%
 UbigeoserviceCapaLogica.LogUbigeo}
 {
-:* :(H(
+1* 1(H(
 %1"System.Collections.Generic.List<T>"%CapaLogica.LogUbigeo.ListarDistrito()*
 
 %0CapaLogica.LogUbigeos
 q
-: :(H1
+1 1(H1
 listaUbigeo"System.Collections.Generic.List<T>"__id*,*
 (
 %1"System.Collections.Generic.List<T>HF
-; ;(N
+2 2(N
 %2System.Web.Mvc.SelectList"System.Web.Mvc.SelectListÎ
 Ë
-; ;()
+2 2()
 
 %3void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
 
@@ -32,16 +32,16 @@ q
 
 distrito^
 \
-; ;(N%
+2 2(N%
 lsUbigeoSystem.Web.Mvc.SelectList"__id*#!
 
 %2System.Web.Mvc.SelectList/-
-< <(
+3 3(
 %ViewBagDataAllobject"object0.
-< <(
+3 3(
 %ViewBagDataHtmlobject"objecty
 w
-< <(*
+3 3(*
 %4"__mapSet*
 
 %ViewBagDataAllobject*
@@ -49,16 +49,16 @@ w
 %
 lsUbigeoSystem.Web.Mvc.SelectListY
 W
-< <(*
+3 3(*
 %5"__mapSet*
 
 %ViewBagDataHtmlobject*
 listaUbigeo*
-""ó
-î
-= =(
+""¶
+£
+4 4(
 
-%6void" capavistaweb/views/home/registro*
+%6void"/capavistaweb/views/proveedor/registrarproveedor*
 
 %7*
 	{unknown}*
@@ -75,7 +75,7 @@ W
 
 %HttpContextItemsHtmlobjectî
 ë
-= =(
+4 4(
 
 %8void"capavistaweb/views/_viewstart*
 
@@ -94,7 +94,7 @@ W
 
 %HttpContextItemsHtmlobjectö
 ó
-= =(
+4 4(
 %10void"!capavistaweb/views/shared/_layout*	
 
 %11*
@@ -111,15 +111,15 @@ W
 %HttpContextItemsAllobject*#!
 
 %HttpContextItemsHtmlobject"
-= =(
+4 4(
 
 %10void*.
-1>	 >(	"
-> >(	
+15	 5(	"
+5 5(	
 implicit return*5
-28& 8(&!
+2/0 /(0!
 
-8 8($
+/ /(.
 %12"__entrypoint*
-0B.,
-*MadereraCarocho.Controllers.HomeController
+0B31
+/MadereraCarocho.Controllers.ProveedorController

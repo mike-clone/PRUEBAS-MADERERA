@@ -1,28 +1,26 @@
 
-,CapaLogica.LogProducto.BuscarProductoId(int)a
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs6 6(+"0*Á
-08 8(?ž
-›
-8 8("-
-%0'CapaAccesoDatos.Interfaces.IDatProducto"__id*ZX*V
-CapaLogica.LogProducto":
-ProductoService'CapaAccesoDatos.Interfaces.IDatProducto"
- 
-84 8(?
-%1"__id*
-""¿¼
-8 8(@
-%2CapaEntidad.EntProducto"=CapaAccesoDatos.Interfaces.IDatProducto.BuscarProductoId(int)*1/
--
-%0'CapaAccesoDatos.Interfaces.IDatProducto*
-
-%12BuscarProductoId(int)"+
-8 8(A
-
-%2CapaEntidad.EntProducto*.
-19	 9(	"
-9 9(	
-implicit return:
-6, 6(6
-idprodintB
-CapaLogica.LogProducto
+<CapaLogica.LogUbigeo.ActualizarUbigeo(CapaEntidad.EntUbigeo)Q
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs$ $($"0*¥
+0& &(3–
+“
+& &( +
+%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
+CapaLogica.LogUbigeo"6
+UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeoâß
+& &(4
+
+%1bool"MCapaAccesoDatos.Interfaces.IDatUbigeo.ActualizarUbigeo(CapaEntidad.EntUbigeo)*/-
++
+%0%CapaAccesoDatos.Interfaces.IDatUbigeo*
+
+uCapaEntidad.EntUbigeo2'ActualizarUbigeo(CapaEntidad.EntUbigeo)"
+& &(5
+
+
+%1bool*.
+1'	 '(	"
+' '(	
+implicit return:&
+$% $(0
+uCapaEntidad.EntUbigeoB
+CapaLogica.LogUbigeo

@@ -1,16 +1,13 @@
 
-!CapaEntidad.EntCompra.Usuario.set`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs$4 $(7"0*‰
-0$; $(Ju
-s
-$; $(J<
-CapaEntidad.EntCompra"!
-usuarioCapaEntidad.EntUsuario"__id*#!
-
-valueCapaEntidad.EntUsuario*
+%CapaEntidad.EntDetCompra.Subtotal.getU
+KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs! ($"0*6
+0( (0"
+ 
+( (0
+%0"__id*
+""*
 1*.
-1$K $(K"
-$J $(K
-implicit return:!
-valueCapaEntidad.EntUsuarioB
-CapaEntidad.EntCompra
+11 (1"
+0 (1
+implicit returnB
+CapaEntidad.EntDetCompra

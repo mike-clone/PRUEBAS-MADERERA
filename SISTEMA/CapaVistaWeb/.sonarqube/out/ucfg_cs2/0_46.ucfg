@@ -1,13 +1,16 @@
 
--CapaEntidad.EntTemporaryProducts.Cantidad.getk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs (!"0*6
-0% (-"
+$CapaEntidad.EntDetVenta.Producto.setT
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs ("0*Ž
+0 ("z
+x
+ ("@
+CapaEntidad.EntDetVenta"#
+productoCapaEntidad.EntProducto"__id*$"
  
-% (-
-%0"__id*
-""*
+valueCapaEntidad.EntProducto*
 1*.
-1. (."
-- (.
-implicit returnB$"
- CapaEntidad.EntTemporaryProducts
+1% (%"
+$ (%
+implicit return:" 
+valueCapaEntidad.EntProductoB
+CapaEntidad.EntDetVenta

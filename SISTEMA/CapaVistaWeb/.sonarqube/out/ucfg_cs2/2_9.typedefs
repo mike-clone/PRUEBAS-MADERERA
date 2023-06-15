@@ -1,9 +1,11 @@
-≥
-CapaLogica.LogCompraobject/
-LogCompra() CapaLogica.LogCompra.LogCompra()y
-0LogCompra(CapaAccesoDatos.Interfaces.IDatCompra)ECapaLogica.LogCompra.LogCompra(CapaAccesoDatos.Interfaces.IDatCompra)]
-"CrearCompra(CapaEntidad.EntCompra)7CapaLogica.LogCompra.CrearCompra(CapaEntidad.EntCompra);
-ListarCompra(int)&CapaLogica.LogCompra.ListarCompra(int)G
-ListartodasLasCompras(),CapaLogica.LogCompra.ListartodasLasCompras()?
-EliminarCompra(int)(CapaLogica.LogCompra.EliminarCompra(int)A
-BuscarCompra(string))CapaLogica.LogCompra.BuscarCompra(string)
+ù
+CapaLogica.LogProveedorProductoobjectP
+LogProveedorProducto()6CapaLogica.LogProveedorProducto.LogProveedorProducto()∞
+FLogProveedorProducto(CapaAccesoDatos.Interfaces.IDatProveedorProducto)fCapaLogica.LogProveedorProducto.LogProveedorProducto(CapaAccesoDatos.Interfaces.IDatProveedorProducto)î
+8CrearProveedorProducto(CapaEntidad.EntProveedorProducto)XCapaLogica.LogProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)Z
+ListarProductoParaComprar();CapaLogica.LogProveedorProducto.ListarProductoParaComprar()^
+MostrarDetalleProvedorId(int)=CapaLogica.LogProveedorProducto.MostrarDetalleProvedorId(int)^
+MostarDetalleProveedorId(int)=CapaLogica.LogProveedorProducto.MostarDetalleProveedorId(int)f
+!BuscarProductoParaComprar(string)ACapaLogica.LogProveedorProducto.BuscarProductoParaComprar(string)h
+"BuscarProvedorProductoId(int, int)BCapaLogica.LogProveedorProducto.BuscarProvedorProductoId(int, int)h
+"EliminarDetalleProveedor(int, int)BCapaLogica.LogProveedorProducto.EliminarDetalleProveedor(int, int)

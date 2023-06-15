@@ -1,14 +1,14 @@
 
-&CapaEntidad.EntUbigeo.Departamento.get`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs% (("0*k
-0, (8W
-U
-, (8
-%0string"__id*53*1
-CapaEntidad.EntUbigeo"
-departamentostring*
+*CapaEntidad.entReporteCompra.Proveedor.getY
+OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs" (%"0*o
+0) (2[
+Y
+) (2
+%0string"__id*97*5
+CapaEntidad.entReporteCompra"
+	proveedorstring*
 1*.
-19 (9"
-8 (9
-implicit returnB
-CapaEntidad.EntUbigeo
+13 (3"
+2 (3
+implicit returnB 
+CapaEntidad.entReporteCompra

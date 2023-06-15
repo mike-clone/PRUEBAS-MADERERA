@@ -5,10 +5,10 @@
     {
       "tool": {
         "name": "Compilador de Microsoft (R) Visual C#",
-        "version": "4.6.0.0",
-        "fileVersion": "4.6.0-3.23259.8 (c3cc1d0c)",
-        "semanticVersion": "4.6.0",
-        "language": "es-ES"
+        "version": "4.5.0.0",
+        "fileVersion": "4.5.2-3.23171.7 (d17f7415)",
+        "semanticVersion": "4.5.0",
+        "language": "es-MX"
       },
       "results": [
         {
@@ -21,7 +21,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatUsuarioTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatUsuarioTest.cs",
                 "region": {
                   "startLine": 82,
                   "startColumn": 25,
@@ -45,7 +45,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatUsuarioTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatUsuarioTest.cs",
                 "region": {
                   "startLine": 103,
                   "startColumn": 25,
@@ -69,7 +69,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatUsuarioTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatUsuarioTest.cs",
                 "region": {
                   "startLine": 176,
                   "startColumn": 25,
@@ -93,7 +93,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
                 "region": {
                   "startLine": 169,
                   "startColumn": 29,
@@ -117,7 +117,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatUsuarioTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatUsuarioTest.cs",
                 "region": {
                   "startLine": 207,
                   "startColumn": 25,
@@ -141,7 +141,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
                 "region": {
                   "startLine": 200,
                   "startColumn": 29,
@@ -165,31 +165,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
-                "region": {
-                  "startLine": 230,
-                  "startColumn": 29,
-                  "endLine": 230,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferencia de una referencia posiblemente NULL.",
-          "suppressionStates": [
-            "suppressedInSource"
-          ],
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatUsuarioTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatUsuarioTest.cs",
                 "region": {
                   "startLine": 237,
                   "startColumn": 25,
@@ -213,7 +189,31 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "region": {
+                  "startLine": 230,
+                  "startColumn": 29,
+                  "endLine": 230,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferencia de una referencia posiblemente NULL.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
                 "region": {
                   "startLine": 262,
                   "startColumn": 29,
@@ -237,7 +237,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
                 "region": {
                   "startLine": 292,
                   "startColumn": 29,
@@ -261,7 +261,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
                 "region": {
                   "startLine": 323,
                   "startColumn": 29,
@@ -285,7 +285,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
                 "region": {
                   "startLine": 386,
                   "startColumn": 29,
@@ -309,7 +309,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
                 "region": {
                   "startLine": 417,
                   "startColumn": 29,
@@ -333,7 +333,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
                 "region": {
                   "startLine": 449,
                   "startColumn": 29,
@@ -357,7 +357,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
                 "region": {
                   "startLine": 480,
                   "startColumn": 29,
@@ -381,7 +381,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
                 "region": {
                   "startLine": 511,
                   "startColumn": 29,
@@ -405,7 +405,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
                 "region": {
                   "startLine": 542,
                   "startColumn": 29,
@@ -426,12 +426,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProductoTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatVentaTest.cs",
                 "region": {
-                  "startLine": 44,
+                  "startLine": 73,
                   "startColumn": 13,
-                  "endLine": 44,
-                  "endColumn": 38
+                  "endLine": 73,
+                  "endColumn": 39
                 }
               }
             }
@@ -452,12 +452,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatVentaTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProductoTest.cs",
                 "region": {
-                  "startLine": 73,
+                  "startLine": 44,
                   "startColumn": 13,
-                  "endLine": 73,
-                  "endColumn": 39
+                  "endLine": 44,
+                  "endColumn": 38
                 }
               }
             }
@@ -478,7 +478,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
                 "region": {
                   "startLine": 36,
                   "startColumn": 13,
@@ -504,7 +504,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProductoTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProductoTest.cs",
                 "region": {
                   "startLine": 29,
                   "startColumn": 25,
@@ -525,7 +525,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatVentaTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatVentaTest.cs",
                 "region": {
                   "startLine": 49,
                   "startColumn": 29,
@@ -546,7 +546,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatVentaTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatVentaTest.cs",
                 "region": {
                   "startLine": 85,
                   "startColumn": 13,
@@ -566,17 +566,17 @@
           }
         },
         {
-          "ruleId": "NUnit2017",
+          "ruleId": "NUnit2035",
           "level": "note",
-          "message": "Consider using the constraint model, Assert.That(expr, Is.Null), instead of the classic model, Assert.IsNull(expr)",
+          "message": "Consider using the constraint model, Assert.That(collection, Is.Empty), instead of the classic model, Assert.IsEmpty(collection)",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProductoTest.cs",
                 "region": {
-                  "startLine": 60,
+                  "startLine": 71,
                   "startColumn": 13,
-                  "endLine": 60,
+                  "endLine": 71,
                   "endColumn": 36
                 }
               }
@@ -587,7 +587,7 @@
             "customProperties": {
               "HasToleranceValue": "False",
               "IsGenericMethod": "False",
-              "ModelName": "IsNull"
+              "ModelName": "IsEmpty"
             }
           }
         },
@@ -598,7 +598,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProductoTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProductoTest.cs",
                 "region": {
                   "startLine": 60,
                   "startColumn": 13,
@@ -624,7 +624,33 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 13,
+                  "endLine": 60,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "IsNull"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2017",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Null), instead of the classic model, Assert.IsNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
                 "region": {
                   "startLine": 84,
                   "startColumn": 13,
@@ -644,39 +670,13 @@
           }
         },
         {
-          "ruleId": "NUnit2035",
-          "level": "note",
-          "message": "Consider using the constraint model, Assert.That(collection, Is.Empty), instead of the classic model, Assert.IsEmpty(collection)",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProductoTest.cs",
-                "region": {
-                  "startLine": 71,
-                  "startColumn": 13,
-                  "endLine": 71,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "HasToleranceValue": "False",
-              "IsGenericMethod": "False",
-              "ModelName": "IsEmpty"
-            }
-          }
-        },
-        {
           "ruleId": "NUnit2017",
           "level": "note",
           "message": "Consider using the constraint model, Assert.That(expr, Is.Null), instead of the classic model, Assert.IsNull(expr)",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatProveedorTest.cs",
                 "region": {
                   "startLine": 108,
                   "startColumn": 13,
@@ -702,7 +702,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatUsuarioTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatUsuarioTest.cs",
                 "region": {
                   "startLine": 102,
                   "startColumn": 13,
@@ -728,7 +728,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatUsuarioTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatUsuarioTest.cs",
                 "region": {
                   "startLine": 139,
                   "startColumn": 13,
@@ -743,39 +743,13 @@
           }
         },
         {
-          "ruleId": "NUnit2019",
-          "level": "note",
-          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.IsNotNull(expr)",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatTemporaryProductsTest.cs",
-                "region": {
-                  "startLine": 155,
-                  "startColumn": 13,
-                  "endLine": 155,
-                  "endColumn": 39
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1,
-            "customProperties": {
-              "HasToleranceValue": "False",
-              "IsGenericMethod": "False",
-              "ModelName": "IsNotNull"
-            }
-          }
-        },
-        {
           "ruleId": "NUnit2035",
           "level": "note",
           "message": "Consider using the constraint model, Assert.That(collection, Is.Empty), instead of the classic model, Assert.IsEmpty(collection)",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatTemporaryProductsTest.cs",
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatTemporaryProductsTest.cs",
                 "region": {
                   "startLine": 166,
                   "startColumn": 13,
@@ -791,6 +765,32 @@
               "HasToleranceValue": "False",
               "IsGenericMethod": "False",
               "ModelName": "IsEmpty"
+            }
+          }
+        },
+        {
+          "ruleId": "NUnit2019",
+          "level": "note",
+          "message": "Consider using the constraint model, Assert.That(expr, Is.Not.Null), instead of the classic model, Assert.IsNotNull(expr)",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/MadereraTest/CapaAccesoDatosTest/DatTemporaryProductsTest.cs",
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 13,
+                  "endLine": 155,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "HasToleranceValue": "False",
+              "IsGenericMethod": "False",
+              "ModelName": "IsNotNull"
             }
           }
         }

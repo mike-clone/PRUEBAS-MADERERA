@@ -1,8 +1,11 @@
 
-;CapaAccesoDatos.DatTemporaryProducts.DatTemporaryProducts()o
-eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTemporaryProducts.cs (%"0*1
+%CapaAccesoDatos.DatUbigeo.DatUbigeo()V
+LD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.cs
+ 
+("0*1
 0
-í í(" 
-	 í(
-implicit returnB(&
-$CapaAccesoDatos.DatTemporaryProducts
+¹ ¹(" 
+	
+ ¹(
+implicit returnB
+CapaAccesoDatos.DatUbigeo

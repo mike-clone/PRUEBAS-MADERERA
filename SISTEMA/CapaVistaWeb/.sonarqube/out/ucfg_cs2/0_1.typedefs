@@ -1,15 +1,9 @@
-‹
- CapaEntidad.EntTemporaryProductsobjectQ
-EntTemporaryProducts()7CapaEntidad.EntTemporaryProducts.EntTemporaryProducts()9
-
-IdTemp.get+CapaEntidad.EntTemporaryProducts.IdTemp.get9
-
-IdTemp.set+CapaEntidad.EntTemporaryProducts.IdTemp.setO
-ProveedorProducto.get6CapaEntidad.EntTemporaryProducts.ProveedorProducto.getO
-ProveedorProducto.set6CapaEntidad.EntTemporaryProducts.ProveedorProducto.set;
-Usuario.get,CapaEntidad.EntTemporaryProducts.Usuario.get;
-Usuario.set,CapaEntidad.EntTemporaryProducts.Usuario.set=
-Cantidad.get-CapaEntidad.EntTemporaryProducts.Cantidad.get=
-Cantidad.set-CapaEntidad.EntTemporaryProducts.Cantidad.set=
-Subtotal.get-CapaEntidad.EntTemporaryProducts.Subtotal.get=
-Subtotal.set-CapaEntidad.EntTemporaryProducts.Subtotal.set
+‹
+ CapaEntidad.EntProveedorProductoobjectQ
+EntProveedorProducto()7CapaEntidad.EntProveedorProducto.EntProveedorProducto()?
+Proveedor.get.CapaEntidad.EntProveedorProducto.Proveedor.get?
+Proveedor.set.CapaEntidad.EntProveedorProducto.Proveedor.set=
+Producto.get-CapaEntidad.EntProveedorProducto.Producto.get=
+Producto.set-CapaEntidad.EntProveedorProducto.Producto.setE
+PrecioCompra.get1CapaEntidad.EntProveedorProducto.PrecioCompra.getE
+PrecioCompra.set1CapaEntidad.EntProveedorProducto.PrecioCompra.set

@@ -1,14 +1,14 @@
 
-.CapaEntidad.EntDetCompra.ProveedorProducto.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs8 (;"0*©
-0? (P”
-‘
+6CapaEntidad.EntTemporaryProducts.ProveedorProducto.get]
+SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs8 (;"0*±
+0? (Pœ
+™
 ? (P&
-%0 CapaEntidad.EntProveedorProducto"__id*WU*S
-CapaEntidad.EntDetCompra"5
+%0 CapaEntidad.EntProveedorProducto"__id*_]*["
+ CapaEntidad.EntTemporaryProducts"5
 proveedorProducto CapaEntidad.EntProveedorProducto*
 1*.
 1Q (Q"
 P (Q
-implicit returnB
-CapaEntidad.EntDetCompra
+implicit returnB$"
+ CapaEntidad.EntTemporaryProducts

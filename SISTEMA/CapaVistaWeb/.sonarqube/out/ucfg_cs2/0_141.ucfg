@@ -1,14 +1,14 @@
 
-#CapaEntidad.entRoll.Descripcion.get]
-SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs$ ('"0*h
-0+ (6T
-R
-+ (6
-%0string"__id*20*.
-CapaEntidad.entRoll"
-descripcionstring*
+&CapaEntidad.EntTipoProducto.Nombre.getX
+ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.cs	 	(""0*k
+0	& 	(,W
+U
+	& 	(,
+%0string"__id*53*1
+CapaEntidad.EntTipoProducto"
+nombrestring*
 1*.
-17 (7"
-6 (7
-implicit returnB
-CapaEntidad.entRoll
+1	- 	(-"
+	, 	(-
+implicit returnB
+CapaEntidad.EntTipoProducto

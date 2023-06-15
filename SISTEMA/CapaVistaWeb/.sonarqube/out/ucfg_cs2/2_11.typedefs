@@ -1,11 +1,14 @@
 ù
-CapaLogica.LogProveedorProductoobjectP
-LogProveedorProducto()6CapaLogica.LogProveedorProducto.LogProveedorProducto()∞
-FLogProveedorProducto(CapaAccesoDatos.Interfaces.IDatProveedorProducto)fCapaLogica.LogProveedorProducto.LogProveedorProducto(CapaAccesoDatos.Interfaces.IDatProveedorProducto)î
-8CrearProveedorProducto(CapaEntidad.EntProveedorProducto)XCapaLogica.LogProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)Z
-ListarProductoParaComprar();CapaLogica.LogProveedorProducto.ListarProductoParaComprar()^
-MostrarDetalleProvedorId(int)=CapaLogica.LogProveedorProducto.MostrarDetalleProvedorId(int)^
-MostarDetalleProveedorId(int)=CapaLogica.LogProveedorProducto.MostarDetalleProveedorId(int)f
-!BuscarProductoParaComprar(string)ACapaLogica.LogProveedorProducto.BuscarProductoParaComprar(string)h
-"BuscarProvedorProductoId(int, int)BCapaLogica.LogProveedorProducto.BuscarProvedorProductoId(int, int)h
-"EliminarDetalleProveedor(int, int)BCapaLogica.LogProveedorProducto.EliminarDetalleProveedor(int, int)
+CapaLogica.LogUsuarioobject2
+LogUsuario()"CapaLogica.LogUsuario.LogUsuario()~
+2LogUsuario(CapaAccesoDatos.Interfaces.IDatUsuario)HCapaLogica.LogUsuario.LogUsuario(CapaAccesoDatos.Interfaces.IDatUsuario)d
+%CrearClientes(CapaEntidad.EntUsuario);CapaLogica.LogUsuario.CrearClientes(CapaEntidad.EntUsuario):
+ListarClientes()&CapaLogica.LogUsuario.ListarClientes()F
+BuscarClientes(string),CapaLogica.LogUsuario.BuscarClientes(string)D
+EliminarUsuarios(int)+CapaLogica.LogUsuario.EliminarUsuarios(int)d
+%EditarCliente(CapaEntidad.EntUsuario);CapaLogica.LogUsuario.EditarCliente(CapaEntidad.EntUsuario)H
+ListarAdministradores()-CapaLogica.LogUsuario.ListarAdministradores()x
+/ActualizarAdministrador(CapaEntidad.EntUsuario)ECapaLogica.LogUsuario.ActualizarAdministrador(CapaEntidad.EntUsuario)T
+BuscarAdministradores(string)3CapaLogica.LogUsuario.BuscarAdministradores(string)B
+BuscarIdUsuario(int)*CapaLogica.LogUsuario.BuscarIdUsuario(int)T
+IniciarSesion(string, string)3CapaLogica.LogUsuario.IniciarSesion(string, string)

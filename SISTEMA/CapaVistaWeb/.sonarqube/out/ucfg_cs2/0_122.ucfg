@@ -1,15 +1,16 @@
 
-CapaEntidad.entRoll.IdRoll.set]
-SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs+ (."0*X
-02 (@D
-B
-2 (@&
-CapaEntidad.entRoll"
-idRollint"__id*
-""*
-1*.
-1A (A"
-@ (A
-implicit return:
-valueintB
-CapaEntidad.entRoll
+"CapaEntidad.EntProducto.Nombre.getT
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs ("0*~
+0 (S
+Q
+ (
+%0string"__id*1/*-
+CapaEntidad.EntProducto"
+nombrestring"
+ ( 
+
+%0string*.
+1" (""
+! ("
+implicit returnB
+CapaEntidad.EntProducto

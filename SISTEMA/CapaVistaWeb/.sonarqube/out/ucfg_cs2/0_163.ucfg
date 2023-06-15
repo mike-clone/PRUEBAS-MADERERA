@@ -1,16 +1,16 @@
 
-(CapaEntidad.EntProveedor.Descripcion.setc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs> >("0*p
-0> >(%\
-Z
-> >(%3
-CapaEntidad.EntProveedor"
-descripcionstring"__id*
-
-valuestring*
+ CapaEntidad.EntProducto.Tipo.setT
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs1 1("0*’
+01 1(~
+|
+1 1(@
+CapaEntidad.EntProducto"#
+tipoCapaEntidad.EntTipoProducto"__id*(&
+$
+valueCapaEntidad.EntTipoProducto*
 1*.
-1>( >(("
->' >((
-implicit return:
-valuestringB
-CapaEntidad.EntProveedor
+11! 1(!"
+1  1(!
+implicit return:&$
+valueCapaEntidad.EntTipoProductoB
+CapaEntidad.EntProducto

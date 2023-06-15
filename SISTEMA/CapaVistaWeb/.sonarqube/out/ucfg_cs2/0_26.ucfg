@@ -1,15 +1,16 @@
 
-$CapaEntidad.EntUsuario.IdUsuario.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs ("0*^
-0 (#J
-H
- (#,
-CapaEntidad.EntUsuario"
-	idUsuarioint"__id*
-""*
-1*.
-1& (&"
-% (&
-implicit return:
-valueintB
-CapaEntidad.EntUsuario
+CapaEntidad.EntVenta.Fecha.getQ
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*•
+0 (a
+_
+ (
+%0System.DateTime"__id*64*2
+CapaEntidad.EntVenta"
+fechaSystem.DateTime"#
+ (
+
+%0System.DateTime*.
+1! (!"
+  (!
+implicit returnB
+CapaEntidad.EntVenta

@@ -1,15 +1,14 @@
 
-!CapaEntidad.EntUsuario.Activo.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csQ Q("0*\
-0Q Q( H
-F
-Q Q( *
-CapaEntidad.EntUsuario"
-activobool"__id*
-""*
+(CapaEntidad.entReporteVenta.Cantidad.getX
+ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs! ($"0*m
+0( (0Y
+W
+( (0
+%0string"__id*75*3
+CapaEntidad.entReporteVenta"
+cantidadstring*
 1*.
-1Q# Q(#"
-Q" Q(#
-implicit return:
-valueboolB
-CapaEntidad.EntUsuario
+11 (1"
+0 (1
+implicit returnB
+CapaEntidad.entReporteVenta

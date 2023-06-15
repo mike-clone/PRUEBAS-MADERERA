@@ -1,16 +1,15 @@
 
-CapaEntidad.EntUsuario.Roll.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csW W("0*Å
-0W W(m
-k
-W W(7
-CapaEntidad.EntUsuario"
-rollCapaEntidad.entRoll"__id* 
-
-valueCapaEntidad.entRoll*
-1*.
-1W! W(!"
-W  W(!
-implicit return:
-valueCapaEntidad.entRollB
-CapaEntidad.EntUsuario
+!CapaEntidad.EntProducto.Stock.getT
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs5 5("0*E
+05 5("
+ 
+5 5(
+%0"__id*
+"""
+5 5(
+
+%0*.
+15! 5(!"
+5  5(!
+implicit returnB
+CapaEntidad.EntProducto

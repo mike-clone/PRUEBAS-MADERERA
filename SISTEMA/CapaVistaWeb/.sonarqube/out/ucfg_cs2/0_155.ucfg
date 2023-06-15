@@ -1,16 +1,14 @@
 
-(CapaEntidad.entReporteVenta.Cantidad.setf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs2 (5"0*p
-09 (I\
-Z
-9 (I3
-CapaEntidad.entReporteVenta"
-cantidadstring"__id*
-
-valuestring*
+#CapaEntidad.entRoll.Descripcion.getO
+ED:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs$ ('"0*h
+0+ (6T
+R
++ (6
+%0string"__id*20*.
+CapaEntidad.entRoll"
+descripcionstring*
 1*.
-1J (J"
-I (J
-implicit return:
-valuestringB
-CapaEntidad.entReporteVenta
+17 (7"
+6 (7
+implicit returnB
+CapaEntidad.entRoll

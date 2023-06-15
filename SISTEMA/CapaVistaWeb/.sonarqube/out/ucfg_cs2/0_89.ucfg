@@ -1,15 +1,13 @@
 
-(CapaEntidad.EntProveedor.IdProveedor.setc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs ("0*b
-0 (%N
-L
- (%0
-CapaEntidad.EntProveedor"
-idProveedorint"__id*
+'CapaEntidad.entReporteCompra.Codigo.getY
+OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs ("0*6
+0# ()"
+ 
+# ()
+%0"__id*
 ""*
 1*.
-1( (("
-' ((
-implicit return:
-valueintB
-CapaEntidad.EntProveedor
+1* (*"
+) (*
+implicit returnB 
+CapaEntidad.entReporteCompra

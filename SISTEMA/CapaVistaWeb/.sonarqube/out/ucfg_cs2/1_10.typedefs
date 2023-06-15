@@ -1,10 +1,2 @@
-Ò
-CapaAccesoDatos.DatProductoobject'CapaAccesoDatos.Interfaces.IDatProductol
-&CrearProducto(CapaEntidad.EntProducto)BCapaAccesoDatos.DatProducto.CrearProducto(CapaEntidad.EntProducto)@
-ListarProducto(),CapaAccesoDatos.DatProducto.ListarProducto()v
-+ActualizarProducto(CapaEntidad.EntProducto)GCapaAccesoDatos.DatProducto.ActualizarProducto(CapaEntidad.EntProducto)J
-EliminarProducto(int)1CapaAccesoDatos.DatProducto.EliminarProducto(int)L
-BuscarProducto(string)2CapaAccesoDatos.DatProducto.BuscarProducto(string)J
-BuscarProductoId(int)1CapaAccesoDatos.DatProducto.BuscarProductoId(int)8
-Ordenar(int)(CapaAccesoDatos.DatProducto.Ordenar(int):
-DatProducto())CapaAccesoDatos.DatProducto.DatProducto()
+)
+'CapaAccesoDatos.Interfaces.IDatDetVenta

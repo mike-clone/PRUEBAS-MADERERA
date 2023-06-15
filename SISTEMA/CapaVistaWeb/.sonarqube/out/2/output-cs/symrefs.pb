@@ -1,5 +1,5 @@
-°
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs
+¢
+RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs
  %
 
  3 *
@@ -33,8 +33,8 @@
 66B D88> @
 
 ::$ @
-::E G<<A Cª
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs
+::E G<<A Cœ
+HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs
 
 
 
@@ -78,8 +78,8 @@ VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsu
 cc nn oo qq 
 …… 4
 dd ii ss !zz 
-ƒƒ$ )Õ
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs
+ƒƒ$ )Ç
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs
 
 		 F
  (         $$  ))  
@@ -97,8 +97,8 @@ UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCom
 ""' +$$0 4
 
 '' +
-''3 ;)). 6ê
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetCompra.cs
+''3 ;)). 6Ü
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetCompra.cs
 
 		 (
  .  # #
@@ -108,8 +108,8 @@ XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDet
 0 43 7
 
 " 8
-= ?; =Ÿ
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs
+= ?; =‘
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs
  		  + !
 		, 6 #
 
@@ -121,8 +121,8 @@ WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDet
 . 11 4
 
 ##! 0
-##5 <%%3 :¹
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs
+##5 <%%3 :«
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs
 		   + !
 , 6 #
 
@@ -145,8 +145,8 @@ WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogPro
 227 ?442 :
 
 66 +
-660 6889 ?”
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs
+660 6889 ?†
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs
 		   , "
 - 7 #
 
@@ -184,8 +184,8 @@ XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogPro
 oo9 Aqq4 <
 
 ss -
-ss2 =uu6 Aš
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs
+ss2 =uu6 AŒ
+RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs
 		 %  4 *
 5 ? #
 
@@ -213,8 +213,8 @@ XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogPro
 
 99 ,
 991 5;;E I
-99; ?;;K O­
-SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRoll.cs(
+99; ?;;K OŸ
+ED:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRoll.cs(
  		  '		9 @
 
  
@@ -224,8 +224,8 @@ SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRol
 
  '
 
- &‘
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs
+ &ƒ
+MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs
   
 
   / %
@@ -249,8 +249,8 @@ SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRol
 **; G,,> J
 
 .. (
-..- /00< >¡
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs
+..- /00< >“
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs
  
 
   ) 
@@ -276,9 +276,8 @@ UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbi
 ,, -
 
 00 +
-003 ;22. 6e
-cC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\Properties\AssemblyInfo.cs²
-TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs
+003 ;22. 6¤
+FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs
 		   ( 
 ) 3 #
 
@@ -292,8 +291,9 @@ TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVen
 "" )
 "". 0$$, .
 
-&& 1É
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\ValidatorHelper.cs
+&& 1W
+UD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\Properties\AssemblyInfo.cs»
+MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\ValidatorHelper.cs
 
   
 

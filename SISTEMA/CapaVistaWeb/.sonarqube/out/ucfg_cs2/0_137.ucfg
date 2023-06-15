@@ -1,15 +1,16 @@
 
-/CapaEntidad.EntTipoProducto.IdTipo_producto.setf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.cs= (@"0*i
-0D ([U
-S
-D ([7
-CapaEntidad.EntTipoProducto"
-idTipo_productoint"__id*
-""*
-1*.
-1\ (\"
-[ (\
-implicit return:
-valueintB
-CapaEntidad.EntTipoProducto
+CapaEntidad.EntUsuario.Roll.getS
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csV V("0*¢
+0V V(j
+h
+V V(
+%0CapaEntidad.entRoll"__id*;9*7
+CapaEntidad.EntUsuario"
+rollCapaEntidad.entRoll"'
+V V(
+
+%0CapaEntidad.entRoll*.
+1V  V( "
+V V( 
+implicit returnB
+CapaEntidad.EntUsuario

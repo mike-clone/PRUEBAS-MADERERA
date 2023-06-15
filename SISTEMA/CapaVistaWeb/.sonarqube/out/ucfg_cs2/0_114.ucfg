@@ -1,16 +1,16 @@
 
-#CapaEntidad.EntUbigeo.Provincia.set`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs4 (7"0*k
-0; (LW
-U
-; (L.
-CapaEntidad.EntUbigeo"
-	provinciastring"__id*
+CapaEntidad.EntUsuario.Pass.setS
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csI I("0*g
+0I I(S
+Q
+I I(*
+CapaEntidad.EntUsuario"
+passstring"__id*
 
 valuestring*
 1*.
-1M (M"
-L (M
+1I! I(!"
+I  I(!
 implicit return:
-valuestringB
-CapaEntidad.EntUbigeo
+valuestringB
+CapaEntidad.EntUsuario

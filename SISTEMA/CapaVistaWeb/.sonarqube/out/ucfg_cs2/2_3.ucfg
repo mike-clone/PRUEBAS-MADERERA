@@ -1,22 +1,22 @@
 
--CapaLogica.LogProveedor.LogProveedor()!staticb
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs	 	("0*Ô
-0w w(DB
-: (L
-%0CapaLogica.LogProveedor"CapaLogica.LogProveedorc
-a
-> (J
++CapaLogica.LogProducto.LogProducto()!staticS
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs	 	("0*Ì
+0? ?(B@
+9 (J
+%0CapaLogica.LogProducto"CapaLogica.LogProducto`
+^
+= (H
 
-%1void"&CapaLogica.LogProveedor.LogProveedor()*!
-
-%0CapaLogica.LogProveedory
-w
-- (LB
-CapaLogica.LogProveedor"%
+%1void"$CapaLogica.LogProducto.LogProducto()* 
+
+%0CapaLogica.LogProductov
+t
+, (J@
+CapaLogica.LogProducto"$
 
-_instanciaCapaLogica.LogProveedor"__id*!
-
-%0CapaLogica.LogProveedor"
-	 w(
-implicit returnB"
-CapaLogica.LogProveedor
+_instanciaCapaLogica.LogProducto"__id* 
+
+%0CapaLogica.LogProducto"
+	 ?(
+implicit returnB"
+CapaLogica.LogProducto

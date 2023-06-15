@@ -1,16 +1,16 @@
 
- CapaEntidad.EntProducto.Tipo.setb
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs1 1("0*’
-01 1(~
-|
-1 1(@
-CapaEntidad.EntProducto"#
-tipoCapaEntidad.EntTipoProducto"__id*(&
-$
-valueCapaEntidad.EntTipoProducto*
+(CapaEntidad.entReporteVenta.Longitud.setX
+ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs2 (5"0*p
+09 (I\
+Z
+9 (I3
+CapaEntidad.entReporteVenta"
+longitudstring"__id*
+
+valuestring*
 1*.
-11! 1(!"
-1  1(!
-implicit return:&$
-valueCapaEntidad.EntTipoProductoB
-CapaEntidad.EntProducto
+1J (J"
+I (J
+implicit return:
+valuestringB
+CapaEntidad.entReporteVenta

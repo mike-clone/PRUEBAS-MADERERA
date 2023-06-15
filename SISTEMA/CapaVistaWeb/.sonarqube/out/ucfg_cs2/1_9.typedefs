@@ -1,11 +1,8 @@
-Ù
-CapaAccesoDatos.DatProveedorobject(CapaAccesoDatos.Interfaces.IDatProveedorq
-(CrearProveedor(CapaEntidad.EntProveedor)ECapaAccesoDatos.DatProveedor.CrearProveedor(CapaEntidad.EntProveedor)C
-ListarProveedor().CapaAccesoDatos.DatProveedor.ListarProveedor()K
-SelectListProveedor()2CapaAccesoDatos.DatProveedor.SelectListProveedor(){
--ActualizarProveedor(CapaEntidad.EntProveedor)JCapaAccesoDatos.DatProveedor.ActualizarProveedor(CapaEntidad.EntProveedor)M
-EliminarProveedor(int)3CapaAccesoDatos.DatProveedor.EliminarProveedor(int)W
-SelectListProveedordat(int)8CapaAccesoDatos.DatProveedor.SelectListProveedordat(int)O
-BuscarProveedor(string)4CapaAccesoDatos.DatProveedor.BuscarProveedor(string)M
-BuscarIdProveedor(int)3CapaAccesoDatos.DatProveedor.BuscarIdProveedor(int)=
-DatProveedor()+CapaAccesoDatos.DatProveedor.DatProveedor()
+¾
+CapaAccesoDatos.DatTipoProductoobject+CapaAccesoDatos.Interfaces.IDatTipoProducto€
+.CrearTipoProducto(CapaEntidad.EntTipoProducto)NCapaAccesoDatos.DatTipoProducto.CrearTipoProducto(CapaEntidad.EntTipoProducto)T
+SelectListTipoProducto()8CapaAccesoDatos.DatTipoProducto.SelectListTipoProducto()`
+SelectListTipoProductodat(int)>CapaAccesoDatos.DatTipoProducto.SelectListTipoProductodat(int)Š
+3ActualizarTipoProducto(CapaEntidad.EntTipoProducto)SCapaAccesoDatos.DatTipoProducto.ActualizarTipoProducto(CapaEntidad.EntTipoProducto)V
+EliminarTipoProducto(int)9CapaAccesoDatos.DatTipoProducto.EliminarTipoProducto(int)F
+DatTipoProducto()1CapaAccesoDatos.DatTipoProducto.DatTipoProducto()

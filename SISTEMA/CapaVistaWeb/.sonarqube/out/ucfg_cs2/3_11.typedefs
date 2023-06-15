@@ -1,13 +1,6 @@
-å
-
-/MadereraCarocho.Controllers.ProveedorControllerSystem.Web.Mvc.ControllerSystem.Web.Mvc.ControllerBaseobject^
-ProveedorController()EMadereraCarocho.Controllers.ProveedorController.ProveedorController()P
-Listar(string)>MadereraCarocho.Controllers.ProveedorController.Listar(string)\
-RegistrarProveedor()DMadereraCarocho.Controllers.ProveedorController.RegistrarProveedor()ç
-YRegistrarProveedor(string, string, string, string, string, System.Web.Mvc.FormCollection)‰MadereraCarocho.Controllers.ProveedorController.RegistrarProveedor(string, string, string, string, string, System.Web.Mvc.FormCollection)\
-EditarProveedor(int)DMadereraCarocho.Controllers.ProveedorController.EditarProveedor(int)Ä
-HEditarProveedor(CapaEntidad.EntProveedor, System.Web.Mvc.FormCollection)xMadereraCarocho.Controllers.ProveedorController.EditarProveedor(CapaEntidad.EntProveedor, System.Web.Mvc.FormCollection)`
-EliminarProveedor(int)FMadereraCarocho.Controllers.ProveedorController.EliminarProveedor(int)Z
-MostrarDetalle(int)CMadereraCarocho.Controllers.ProveedorController.MostrarDetalle(int)ª
-;ElegirProductos(int, double, System.Web.Mvc.FormCollection)kMadereraCarocho.Controllers.ProveedorController.ElegirProductos(int, double, System.Web.Mvc.FormCollection)f
-EliminarDetalle(int, int)IMadereraCarocho.Controllers.ProveedorController.EliminarDetalle(int, int)
+¹
++MadereraCarocho.Controllers.VentaControllerSystem.Web.Mvc.ControllerSystem.Web.Mvc.ControllerBaseobjectR
+VentaController()=MadereraCarocho.Controllers.VentaController.VentaController()J
+ListarVenta()9MadereraCarocho.Controllers.VentaController.ListarVenta()V
+MostrarDetalle(int)?MadereraCarocho.Controllers.VentaController.MostrarDetalle(int)P
+ConfirmarVenta()<MadereraCarocho.Controllers.VentaController.ConfirmarVenta()

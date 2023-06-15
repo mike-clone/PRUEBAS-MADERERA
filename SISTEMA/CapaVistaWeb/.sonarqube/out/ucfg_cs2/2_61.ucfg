@@ -1,20 +1,17 @@
 
-;CapaLogica.LogProveedorProducto.ListarProductoParaComprar()j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs"* "(C"0*ë
-0$ $(GÂ
-¿
-$ $(+6
-%00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
-CapaLogica.LogProveedorProducto"L
-ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProductoÞÛ
-$ $(G(
-%1"System.Collections.Generic.List<T>"LCapaAccesoDatos.Interfaces.IDatProveedorProducto.ListarProductoParaComprar()*:8
-6
-%00CapaAccesoDatos.Interfaces.IDatProveedorProducto2ListarProductoParaComprar()"6
-$ $(H*
-(
-%1"System.Collections.Generic.List<T>*.
-1%	 %(	"
-% %(	
-implicit returnB#!
-CapaLogica.LogProveedorProducto
+$CapaLogica.LogDetVenta.Instancia.getS
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs ("0*±
+0 (#v
+t
+ (#
+%0CapaLogica.LogDetVenta"__id*DB*@
+CapaLogica.LogDetVenta"$
+
+_instanciaCapaLogica.LogDetVenta"*
+ ($
+
+%0CapaLogica.LogDetVenta*.
+1& (&"
+% (&
+implicit returnB"
+CapaLogica.LogDetVenta

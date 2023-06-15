@@ -1,6 +1,6 @@
 
-]CapaAccesoDatos.DatProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)o
-eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedorProducto.cs (*"0*†
+]CapaAccesoDatos.DatProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)a
+WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedorProducto.cs (*"0*†
 0 (E
 C
  (!'
@@ -144,7 +144,7 @@ w
 crearbool"__id*
 ""*
 3*
-30	 0(	*
+3,	 ,(	*
 4
 5*ñ
 4) )(ua_
@@ -171,26 +171,13 @@ w
 %20*	
 
 %21*
-5*§
-5- -(&—
-”
-- -(*
-%23#System.Data.SqlClient.SqlConnection"/System.Data.SqlClient.SqlCommand.Connection.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandv
-t
-- -(&
-%24void"+System.Data.SqlClient.SqlConnection.Close()*.,
-*
-%23#System.Data.SqlClient.SqlConnection*
-6
-7**
-6/ /("
-/ /(
+5**
+5+ +("
++ +(
 
 crearbool*.
-70	 0(	"
-0 0(	
+6,	 ,(	"
+, ,(	
 implicit return:4
 + (D(
 prod CapaEntidad.EntProveedorProductoB(&

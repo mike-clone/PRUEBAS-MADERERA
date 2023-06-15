@@ -1,16 +1,15 @@
 
-#CapaEntidad.EntProveedor.Ubigeo.setc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.csI I("0*‰
-0I I( u
-s
-I I( =
-CapaEntidad.EntProveedor"
-ubigeoCapaEntidad.EntUbigeo"__id*" 
-
-valueCapaEntidad.EntUbigeo*
+$CapaEntidad.EntProducto.Longitud.setT
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs& &("0*a
+0& &("M
+K
+& &("/
+CapaEntidad.EntProducto"
+longituddouble"__id*
+""*
 1*.
-1I# I(#"
-I" I(#
-implicit return: 
-valueCapaEntidad.EntUbigeoB
-CapaEntidad.EntProveedor
+1&% &(%"
+&$ &(%
+implicit return:
+valuedoubleB
+CapaEntidad.EntProducto

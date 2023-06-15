@@ -1,12 +1,6 @@
-ù	
-CapaLogica.LogTemporaryProductsobjectP
-LogTemporaryProducts()6CapaLogica.LogTemporaryProducts.LogTemporaryProducts()°
-FLogTemporaryProducts(CapaAccesoDatos.Interfaces.IDatTemporaryProducts)fCapaLogica.LogTemporaryProducts.LogTemporaryProducts(CapaAccesoDatos.Interfaces.IDatTemporaryProducts)–
-9CreaarTemporaryProducts(CapaEntidad.EntTemporaryProducts)YCapaLogica.LogTemporaryProducts.CreaarTemporaryProducts(CapaEntidad.EntTemporaryProducts)œ
-<CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)\CapaLogica.LogTemporaryProducts.CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)^
-MostrarTemporaryProducts(int)=CapaLogica.LogTemporaryProducts.MostrarTemporaryProducts(int)d
- MostrarTemporaryProductsCli(int)@CapaLogica.LogTemporaryProducts.MostrarTemporaryProductsCli(int)`
-EliminarTemporaryProducts(int)>CapaLogica.LogTemporaryProducts.EliminarTemporaryProducts(int)ž
-=ActualizarTemporaryProducts(CapaEntidad.EntTemporaryProducts)]CapaLogica.LogTemporaryProducts.ActualizarTemporaryProducts(CapaEntidad.EntTemporaryProducts)`
-BuscarTemporaryProductsId(int)>CapaLogica.LogTemporaryProducts.BuscarTemporaryProductsId(int)f
-!BuscarTemporaryProductsIdCli(int)ACapaLogica.LogTemporaryProducts.BuscarTemporaryProductsIdCli(int)
+¨
+CapaLogica.LogDetCompraobject8
+LogDetCompra()&CapaLogica.LogDetCompra.LogDetCompra()ˆ
+6LogDetCompra(CapaAccesoDatos.Interfaces.IDatDetCompra)NCapaLogica.LogDetCompra.LogDetCompra(CapaAccesoDatos.Interfaces.IDatDetCompra)l
+(CrearDetCompra(CapaEntidad.EntDetCompra)@CapaLogica.LogDetCompra.CrearDetCompra(CapaEntidad.EntDetCompra)R
+MostrarDetalleCompraId(int)3CapaLogica.LogDetCompra.MostrarDetalleCompraId(int)

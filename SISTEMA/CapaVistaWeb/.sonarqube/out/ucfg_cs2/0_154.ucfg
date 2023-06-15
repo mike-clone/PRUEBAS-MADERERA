@@ -1,16 +1,15 @@
 
-%CapaEntidad.EntProveedor.Telefono.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs7 7("0*Å
-07 7(!V
-T
-7 7(!
-%0string"__id*42*0
-CapaEntidad.EntProveedor"
-telefonostring"
-7 7("
-
-%0string*.
-17$ 7($"
-7# 7($
-implicit returnB
-CapaEntidad.EntProveedor
+$CapaEntidad.EntProducto.Diametro.setT
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs! !("0*a
+0! !("M
+K
+! !("/
+CapaEntidad.EntProducto"
+diametrodouble"__id*
+""*
+1*.
+1!% !(%"
+!$ !(%
+implicit return:
+valuedoubleB
+CapaEntidad.EntProducto

@@ -1,27 +1,22 @@
 
-=CapaLogica.LogTemporaryProducts.LogTemporaryProducts()!staticj
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs (%"0*•
-0> >(TR
-
-@ 
-(Z%
-%0CapaLogica.LogTemporaryProducts"CapaLogica.LogTemporaryProducts{
-y
-
-D 
-(X
+#CapaLogica.logRoll.logRoll()!staticO
+ED:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRoll.cs ("0*¬
+0 (:8
+	5 	(B
+%0CapaLogica.logRoll"CapaLogica.logRollT
+R
+	9 	(@
 
-%1void"6CapaLogica.LogTemporaryProducts.LogTemporaryProducts()*)'
-%
-%0CapaLogica.LogTemporaryProducts‘
-Ž
-
-4 
-(ZQ!
-CapaLogica.LogTemporaryProducts",
-	_instanceCapaLogica.LogTemporaryProducts"__id*)'
-%
-%0CapaLogica.LogTemporaryProducts"
- >(
-implicit returnB#"!
-CapaLogica.LogTemporaryProducts
+%1void"CapaLogica.logRoll.logRoll()*
+
+%0CapaLogica.logRollj
+h
+	( 	(B8
+CapaLogica.logRoll" 
+
+_instanciaCapaLogica.logRoll"__id*
+
+%0CapaLogica.logRoll"
+ (
+implicit returnB"
+CapaLogica.logRoll

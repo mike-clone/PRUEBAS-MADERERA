@@ -1,16 +1,15 @@
 
-#CapaEntidad.EntUsuario.UserName.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csD D("0*k
-0D D("W
-U
-D D(".
-CapaEntidad.EntUsuario"
-userNamestring"__id*
-
-valuestring*
-1*.
-1D% D(%"
-D$ D(%
-implicit return:
-valuestringB
-CapaEntidad.EntUsuario
+&CapaEntidad.EntProducto.IdProducto.getT
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs ("0*E
+0 (#"
+ 
+ (#
+%0"__id*
+"""
+ ($
+
+%0*.
+1& (&"
+% (&
+implicit returnB
+CapaEntidad.EntProducto

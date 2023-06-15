@@ -1,16 +1,24 @@
 
-!CapaEntidad.EntUsuario.Correo.geta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs> >("0*}
-0> >(R
-P
-> >(
-%0string"__id*0.*,
-CapaEntidad.EntUsuario"
-correostring"
-> >( 
-
-%0string*.
-1>" >(""
->! >("
-implicit returnB
-CapaEntidad.EntUsuario
+.CapaEntidad.EntProveedorProducto.Proveedor.get]
+SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs
+( 
+(+"0*ô
+0
+/ 
+(8Ñ
+Å
+
+/ 
+(8
+%0CapaEntidad.EntProveedor"__id*OM*K"
+ CapaEntidad.EntProveedorProducto"%
+	proveedorCapaEntidad.EntProveedor*
+1*.
+1
+9 
+(9"
+
+8 
+(9
+implicit returnB$"
+ CapaEntidad.EntProveedorProducto

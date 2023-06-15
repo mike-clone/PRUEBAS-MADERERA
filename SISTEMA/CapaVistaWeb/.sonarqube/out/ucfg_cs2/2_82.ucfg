@@ -1,20 +1,24 @@
 
-%CapaLogica.LogUbigeo.ListarDistrito()_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs, ,(-"0*“
-0. .(1–
+)CapaLogica.LogCompra.BuscarCompra(string)Q
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs' '(+"0*³
+0) )(6–
 “
-. .( +
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
-CapaLogica.LogUbigeo"6
-UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeo²¯
-. .(1(
-%1"System.Collections.Generic.List<T>"6CapaAccesoDatos.Interfaces.IDatUbigeo.ListarDistrito()*/-
+) )( +
+%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
+CapaLogica.LogCompra"6
+CompraService%CapaAccesoDatos.Interfaces.IDatCompraÒÏ
+) )(7(
+%1"System.Collections.Generic.List<T>":CapaAccesoDatos.Interfaces.IDatCompra.BuscarCompra(string)*/-
 +
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo2ListarDistrito()"6
-. .(2*
+%0%CapaAccesoDatos.Interfaces.IDatCompra*
+
+busquedastring2BuscarCompra(string)"6
+) )(8*
 (
 %1"System.Collections.Generic.List<T>*.
-1/	 /(	"
-/ /(	
-implicit returnB
-CapaLogica.LogUbigeo
+1*	 *(	"
+* *(	
+implicit return:
+', '(;
+busquedastringB
+CapaLogica.LogCompra

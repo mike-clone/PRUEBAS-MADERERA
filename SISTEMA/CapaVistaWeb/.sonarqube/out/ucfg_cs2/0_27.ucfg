@@ -1,16 +1,16 @@
 
-&CapaEntidad.EntUsuario.RazonSocial.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs" "("0*n
-0" "(%Z
-X
-" "(%1
-CapaEntidad.EntUsuario"
-razonSocialstring"__id*
-
-valuestring*
-1*.
-1"( "(("
-"' "((
-implicit return:
-valuestringB
-CapaEntidad.EntUsuario
+CapaEntidad.EntCompra.Fecha.getR
+HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs ("0*–
+0 (b
+`
+ (
+%0System.DateTime"__id*75*3
+CapaEntidad.EntCompra"
+fechaSystem.DateTime"#
+ (
+
+%0System.DateTime*.
+1! (!"
+  (!
+implicit returnB
+CapaEntidad.EntCompra

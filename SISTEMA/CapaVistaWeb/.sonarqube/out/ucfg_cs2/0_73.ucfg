@@ -1,15 +1,16 @@
 
-'CapaEntidad.entReporteCompra.Codigo.setg
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs+ (."0*a
-02 (@M
-K
-2 (@/
-CapaEntidad.entReporteCompra"
-codigoint"__id*
-""*
-1*.
-1A (A"
-@ (A
-implicit return:
-valueintB 
-CapaEntidad.entReporteCompra
+CapaEntidad.EntVenta.Estado.getQ
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*{
+0 (P
+N
+ (
+%0string"__id*.,**
+CapaEntidad.EntVenta"
+estadostring"
+ ( 
+
+%0string*.
+1" (""
+! ("
+implicit returnB
+CapaEntidad.EntVenta

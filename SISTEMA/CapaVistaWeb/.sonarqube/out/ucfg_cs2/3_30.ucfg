@@ -1,95 +1,241 @@
 
-FMadereraCarocho.Controllers.ProveedorController.EliminarProveedor(int)y
-mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.csÖ Ö(-"6*‰
-0
-â ä(ö
-ó
+JMadereraCarocho.Controllers.HomeController.VerificarAcceso(string, string)d
+ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csd d(+"12*o
+0i i(/X
+V
+i i(0
 
-â â(/
-%0CapaLogica.LogProveedor"__id*db*`1
-/MadereraCarocho.Controllers.ProveedorController"+
-ProveedorserviceCapaLogica.LogProveedorw
-u
-
-â â(F
-
-%1bool".CapaLogica.LogProveedor.EliminarProveedor(int)*!
-
-%0CapaLogica.LogProveedor*
-""5
-3
-
-â â(F
-eliminabool"__id*
-
-
-%1bool*
+%0bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+userstring*
 1
-2*Ï
-1
-å å(4û
-õ
+2*l
+2i4 i(MX
+V
+i4 i(N
 
-å å(5*
-%2$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-
-Listar":
-
-å å(6,
-*
-%2$System.Web.Mvc.RedirectToRouteResult*
-2
-î	 î(	*
+%1bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+passstring*
+1*
+1i i(O*
 3
-4*„
-3
-ë ë(Qca
+4*≠
+3k l(*ç
+ä
+k, k(:
+%2CapaLogica.LogUsuario"__id*[Y*W,
+*MadereraCarocho.Controllers.HomeController"'
+UsuarioserviceCapaLogica.LogUsuario©
+¶
+k, k(T
+%3CapaEntidad.EntUsuario"3CapaLogica.LogUsuario.IniciarSesion(string, string)*
+
+%2CapaLogica.LogUsuario*
+
+userstring*
+
+passstringZ
+X
+k k(T$
 
-ëG ë(Q
-%3string"System.Exception.Message.get*
-
-exSystem.Exception2Message.get∞
-≠
+objUsuarioCapaEntidad.EntUsuario"__id* 
+
+%3CapaEntidad.EntUsuario~
+|
+l l(*
 
-ë ë(T*
-%4$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
-System.Web.Mvc.Controller*
-
-Listar*
-""":
+%4bool""object.operator !=(object, object)*
+"
+object*(&
+$
 
-ë ë(U,
-*
-%4$System.Web.Mvc.RedirectToRouteResult*Ï
+objUsuarioCapaEntidad.EntUsuario*
+""*
+5
+4*é
+5n p(Bg
+e
+n: n(K
+%5string"!CapaEntidad.EntUsuario.Correo.get*(&
+$
+
+objUsuarioCapaEntidad.EntUsuario©
+¶
+n n(S
+
+%6void"CSystem.Web.Security.FormsAuthentication.SetAuthCookie(string, bool)*-+")
+'System.Web.Security.FormsAuthentication*
+
+%5string*
+""{
+y
+o o(%
+%7System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
+System.Web.Mvc.ControllerÕ 
+o o(7
+%8object":System.Collections.Generic.ICollection<T>.this[string].set*)'
+%
+%7System.Web.HttpSessionStateBase*	
+Usuario*(&
+$
+
+objUsuarioCapaEntidad.EntUsuario2this[string].setp
+n
+p p(*
+%9CapaEntidad.entRol"CapaEntidad.EntUsuario.Rol.get*(&
+$
+
+objUsuarioCapaEntidad.EntUsuario#
+!
+p. p(B
+%10"__id*
+""*
+6
+7*Á
+6r# r(;ú
+ô
+r# r(<+
+%11$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*	
+Admin"9
+r r(=-
++
+%11$System.Web.Mvc.RedirectToRouteResult*≠
+7v  v(@q
+o
+v  v(.
+%12CapaEntidad.entRol"CapaEntidad.EntUsuario.Rol.get*(&
+$
+
+objUsuarioCapaEntidad.EntUsuario#
+!
+v2 v(@
+%13"__id*
+""*
+8
+4*È
+8x' x(Aû
+õ
+x' x(B+
+%14$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*	
+Cliente"9
+x  x(C-
++
+%14$System.Web.Mvc.RedirectToRouteResult*
 4
-ì ì(,û
+â	 â(	*
+9
+10*Ä
+9
+É Ö(/.,
+
+É É(
+%TempDataAllobject"object/-
+
+É É(
+%TempDataHtmlobject"objectdb
+
+É# É(-
+%15string"System.Exception.Message.get*
+
+exSystem.Exception2Message.getñ
+ì
+
+É É(-
+%16object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%TempDataAllobject*	
+error*
+
+%15stringÅ
+
+%17object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%TempDataHtmlobject*	
+error*
+""•
+¢
+
+Ñ Ñ(@
+%18object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%TempDataAllobject*	
+Mensaje*
+user or password invalidÑ
+Å
+%19object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%TempDataHtmlobject*	
+Mensaje*
+""û
 õ
 
-ì ì(-*
-%5$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-
-Listar":
+Ö Ö(0+
+%20$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*	
+Login";
 
-ì ì(.,
-*
-%5$System.Web.Mvc.RedirectToRouteResult*2
-5
-î	 î(	"!
+Ö Ö(1-
++
+%20$System.Web.Mvc.RedirectToRouteResult*Ó
+10
+à à(+û
+õ
 
-î î(	
-implicit return*B
-6
-Ö6 Ö(6,
-*
+à à(,+
+%21$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*	
+Login";
 
-Ö Ö(-
-%6"__entrypoint*
-""*
-0:
+à à(--
++
+%21$System.Web.Mvc.RedirectToRouteResult*3
+11
+â	 â(	"!
 
-Ö. Ö(5
-
-idcintB31
-/MadereraCarocho.Controllers.ProveedorController
+â â(	
+implicit return*Æ
+12dE d(EI
+G
+d d(+
+%22"__entrypoint*
+
+userstring*
+
+passstringo
+m
+c	 c(
+%23"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+userstring5
+3
+d, d(7
+userstring"__annotation*	
+
+%23o
+m
+c	 c(
+%24"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+passstring5
+3
+d9 d(D
+passstring"__annotation*	
+
+%24*
+0:
+d, d(7
+userstring:
+d9 d(D
+passstringB.,
+*MadereraCarocho.Controllers.HomeController

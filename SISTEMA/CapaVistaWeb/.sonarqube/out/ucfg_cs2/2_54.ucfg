@@ -1,26 +1,25 @@
 
-ICapaLogica.LogTipoProducto.CrearTipoProducto(CapaEntidad.EntTipoProducto)e
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs (%"0*Ë
-0   (EÆ
-´
-   (&1
-%0+CapaAccesoDatos.Interfaces.IDatTipoProducto"__id*fd*b
-CapaLogica.LogTipoProducto"B
-TipoProductoService+CapaAccesoDatos.Interfaces.IDatTipoProductoçä
-   (F
+,CapaLogica.LogProducto.EliminarProducto(int)S
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs. .($"0*˜
+00 0(6û
+õ
+0 0("-
+%0'CapaAccesoDatos.Interfaces.IDatProducto"__id*ZX*V
+CapaLogica.LogProducto":
+ProductoService'CapaAccesoDatos.Interfaces.IDatProducto¨©
+0 0(7
 
-%1bool"ZCapaAccesoDatos.Interfaces.IDatTipoProducto.CrearTipoProducto(CapaEntidad.EntTipoProducto)*53
-1
-%0+CapaAccesoDatos.Interfaces.IDatTipoProducto*/-
-+
-tipoProductoCapaEntidad.EntTipoProducto2.CrearTipoProducto(CapaEntidad.EntTipoProducto)"
-   (G
+%1bool"=CapaAccesoDatos.Interfaces.IDatProducto.EliminarProducto(int)*1/
+-
+%0'CapaAccesoDatos.Interfaces.IDatProducto*
+""2EliminarProducto(int)"
+0 0(8
 
 
 %1bool*.
-1!	 !(	"
-! !(	
-implicit return:7
-& (B+
-tipoProductoCapaEntidad.EntTipoProductoB
-CapaLogica.LogTipoProducto
+11	 1(	"
+1 1(	
+implicit return:
+.% .(+	
+idintB
+CapaLogica.LogProducto

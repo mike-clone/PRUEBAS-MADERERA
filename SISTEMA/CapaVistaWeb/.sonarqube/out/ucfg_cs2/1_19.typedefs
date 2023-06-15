@@ -1,5 +1,8 @@
-Û
-CapaAccesoDatos.DatDetCompraobject(CapaAccesoDatos.Interfaces.IDatDetCompraq
-(CrearDetCompra(CapaEntidad.EntDetCompra)ECapaAccesoDatos.DatDetCompra.CrearDetCompra(CapaEntidad.EntDetCompra)W
-MostrarDetalleCompraId(int)8CapaAccesoDatos.DatDetCompra.MostrarDetalleCompraId(int)=
-DatDetCompra()+CapaAccesoDatos.DatDetCompra.DatDetCompra()
+‚
+CapaAccesoDatos.DatCompraobject%CapaAccesoDatos.Interfaces.IDatComprab
+"CrearCompra(CapaEntidad.EntCompra)<CapaAccesoDatos.DatCompra.CrearCompra(CapaEntidad.EntCompra)@
+ListarCompra(int)+CapaAccesoDatos.DatCompra.ListarCompra(int)L
+ListarTodasLasCompras()1CapaAccesoDatos.DatCompra.ListarTodasLasCompras()D
+EliminarCompra(int)-CapaAccesoDatos.DatCompra.EliminarCompra(int)F
+BuscarCompra(string).CapaAccesoDatos.DatCompra.BuscarCompra(string)4
+DatCompra()%CapaAccesoDatos.DatCompra.DatCompra()

@@ -1,16 +1,15 @@
 
- CapaEntidad.EntProducto.Tipo.getb
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs0 0("0*»
-00 0({
-y
-0 0(!
-%0CapaEntidad.EntTipoProducto"__id*DB*@
-CapaEntidad.EntProducto"#
-tipoCapaEntidad.EntTipoProducto"/
-0 0(#
-!
-%0CapaEntidad.EntTipoProducto*.
-10  0( "
-0 0( 
-implicit returnB
-CapaEntidad.EntProducto
+!CapaEntidad.EntUsuario.Activo.setS
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csQ Q("0*\
+0Q Q( H
+F
+Q Q( *
+CapaEntidad.EntUsuario"
+activobool"__id*
+""*
+1*.
+1Q# Q(#"
+Q" Q(#
+implicit return:
+valueboolB
+CapaEntidad.EntUsuario

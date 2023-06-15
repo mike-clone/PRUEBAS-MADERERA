@@ -1,16 +1,14 @@
 
-CapaEntidad.EntUsuario.Pass.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csI I("0*g
-0I I(S
-Q
-I I(*
-CapaEntidad.EntUsuario"
-passstring"__id*
-
-valuestring*
++CapaEntidad.entReporteVenta.Descripcion.getX
+ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs$ ('"0*p
+0+ (6\
+Z
++ (6
+%0string"__id*:8*6
+CapaEntidad.entReporteVenta"
+descripcionstring*
 1*.
-1I! I(!"
-I  I(!
-implicit return:
-valuestringB
-CapaEntidad.EntUsuario
+17 (7"
+6 (7
+implicit returnB
+CapaEntidad.entReporteVenta

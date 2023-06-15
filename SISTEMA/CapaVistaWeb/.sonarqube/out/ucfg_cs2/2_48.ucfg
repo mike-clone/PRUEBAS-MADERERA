@@ -1,25 +1,26 @@
 
-(CapaLogica.LogCompra.EliminarCompra(int)_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs" "(""0*ç
-0$ $(4–
-“
-$ $( +
-%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
-CapaLogica.LogCompra"6
-CompraService%CapaAccesoDatos.Interfaces.IDatCompra¤¡
-$ $(5
+NCapaLogica.LogTipoProducto.ActualizarTipoProducto(CapaEntidad.EntTipoProducto)W
+MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs* *(*"0*ò
+0, ,(J®
+«
+, ,(&1
+%0+CapaAccesoDatos.Interfaces.IDatTipoProducto"__id*fd*b
+CapaLogica.LogTipoProducto"B
+TipoProductoService+CapaAccesoDatos.Interfaces.IDatTipoProducto—”
+, ,(K
 
-%1bool"9CapaAccesoDatos.Interfaces.IDatCompra.EliminarCompra(int)*/-
+%1bool"_CapaAccesoDatos.Interfaces.IDatTipoProducto.ActualizarTipoProducto(CapaEntidad.EntTipoProducto)*53
+1
+%0+CapaAccesoDatos.Interfaces.IDatTipoProducto*/-
 +
-%0%CapaAccesoDatos.Interfaces.IDatCompra*
-""2EliminarCompra(int)"
-$ $(6
+tipoProductoCapaEntidad.EntTipoProducto23ActualizarTipoProducto(CapaEntidad.EntTipoProducto)"
+, ,(L
 
 
 %1bool*.
-1%	 %(	"
-% %(	
-implicit return:
-"# "(+
-compintB
-CapaLogica.LogCompra
+1-	 -(	"
+- -(	
+implicit return:7
+*+ *(G+
+tipoProductoCapaEntidad.EntTipoProductoB
+CapaLogica.LogTipoProducto

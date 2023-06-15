@@ -1,46 +1,80 @@
 
-9MadereraCarocho.Controllers.HomeController.CerrarSesion()t
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csä ä(("2*ö
+HMadereraCarocho.Controllers.ProductoController.EliminarDetalle(int, int)j
+^D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.csì ì(+"4*£
 0
-å é(+}
-{
+ó ó(_±
+Æ
 
-å å(%
-%0System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
-System.Web.Mvc.ControllerØ¨
+ó ó(7%
+%0CapaLogica.LogProveedorProducto"__id*sq*o0
+.MadereraCarocho.Controllers.ProductoController";
+ProveedorProductoserviceCapaLogica.LogProveedorProductoû
+õ
 
-å å(%
-%1object":System.Collections.Generic.ICollection<T>.this[string].set*)'
+ó ó(`
+
+%1bool"BCapaLogica.LogProveedorProducto.EliminarDetalleProveedor(int, int)*)'
 %
-%0System.Web.HttpSessionStateBase*	
-Usuario*
-""2this[string].set|
-z
+%0CapaLogica.LogProveedorProducto*
+""*
+""5
+3
 
-ç ç()
+ó ó(`
+eliminabool"__id*
 
-%2void"1System.Web.Security.FormsAuthentication.SignOut()*-+")
-'System.Web.Security.FormsAuthenticationù
-ö
 
-é é(,*
-%3$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*	
-Index":
-
-é é(-,
-*
-%3$System.Web.Mvc.RedirectToRouteResult*2
+%1bool*
+1
+2*Ó
 1
-è	 è(	"!
+õ õ(\ca
 
-è è(	
-implicit return*8
+õR õ(\
+%2string"System.Exception.Message.get*
+
+exSystem.Exception2Message.getª
+∏
+
+õ õ(_*
+%3$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
+System.Web.Mvc.Controller*
+ListarParaComprar*
+""":
+
+õ õ(`,
+*
+%3$System.Web.Mvc.RedirectToRouteResult*˜
 2
-ä* ä(*"
- 
+û û(7©
+¶
 
-ä ä((
-%4"__entrypoint*
-0B.,
-*MadereraCarocho.Controllers.HomeController
+û û(8*
+%4$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*
+ListarParaComprar":
+
+û û(9,
+*
+%4$System.Web.Mvc.RedirectToRouteResult*2
+3
+ü	 ü(	"!
+
+ü ü(	
+implicit return*L
+4
+ìC ì(C6
+4
+
+ì ì(+
+%5"__entrypoint*
+""*
+""*
+0:
+
+ì, ì(6
+idprovint:
+
+ì8 ì(B
+idprodintB20
+.MadereraCarocho.Controllers.ProductoController

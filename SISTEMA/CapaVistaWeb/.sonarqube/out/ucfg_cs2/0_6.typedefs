@@ -1,25 +1,11 @@
-ã
-CapaEntidad.EntProveedorobject9
-EntProveedor()'CapaEntidad.EntProveedor.EntProveedor()A
-NombreCompleto.get+CapaEntidad.EntProveedor.NombreCompleto.getA
-NombreCompleto.set+CapaEntidad.EntProveedor.NombreCompleto.set;
-IdProveedor.get(CapaEntidad.EntProveedor.IdProveedor.get;
-IdProveedor.set(CapaEntidad.EntProveedor.IdProveedor.set;
-RazonSocial.get(CapaEntidad.EntProveedor.RazonSocial.get;
-RazonSocial.set(CapaEntidad.EntProveedor.RazonSocial.set+
-Ruc.get CapaEntidad.EntProveedor.Ruc.get+
-Ruc.set CapaEntidad.EntProveedor.Ruc.set1
-
-Correo.get#CapaEntidad.EntProveedor.Correo.get1
-
-Correo.set#CapaEntidad.EntProveedor.Correo.set5
-Telefono.get%CapaEntidad.EntProveedor.Telefono.get5
-Telefono.set%CapaEntidad.EntProveedor.Telefono.set;
-Descripcion.get(CapaEntidad.EntProveedor.Descripcion.get;
-Descripcion.set(CapaEntidad.EntProveedor.Descripcion.set=
-EstProveedor.get)CapaEntidad.EntProveedor.EstProveedor.get=
-EstProveedor.set)CapaEntidad.EntProveedor.EstProveedor.set1
-
-Ubigeo.get#CapaEntidad.EntProveedor.Ubigeo.get1
-
-Ubigeo.set#CapaEntidad.EntProveedor.Ubigeo.set
+ý
+CapaEntidad.EntDetVentaobject6
+EntDetVenta()%CapaEntidad.EntDetVenta.EntDetVenta().
+	Venta.get!CapaEntidad.EntDetVenta.Venta.get.
+	Venta.set!CapaEntidad.EntDetVenta.Venta.set4
+Producto.get$CapaEntidad.EntDetVenta.Producto.get4
+Producto.set$CapaEntidad.EntDetVenta.Producto.set4
+Cantidad.get$CapaEntidad.EntDetVenta.Cantidad.get4
+Cantidad.set$CapaEntidad.EntDetVenta.Cantidad.set4
+SubTotal.get$CapaEntidad.EntDetVenta.SubTotal.get4
+SubTotal.set$CapaEntidad.EntDetVenta.SubTotal.set

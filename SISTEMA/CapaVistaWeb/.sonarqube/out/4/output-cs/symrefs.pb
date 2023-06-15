@@ -1,5 +1,5 @@
-Å
-qC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatProductoTest.cs
+Û
+cD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatProductoTest.cs
 
   
 
@@ -51,8 +51,8 @@ qC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\MadereraTest\Capa
 
 ÄÄ 
 ÉÉ 
-ää û
-rC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatProveedorTest.cs
+ää ê
+dD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatProveedorTest.cs
 
  !
 
@@ -424,34 +424,84 @@ rC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\MadereraTest\Capa
 
 íí 
 ïï 
-üü %≤
-nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatVentaTest.cs
+üü %†	
+lD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatTemporaryProductsTest.cs
 
- 
+ )
 
- (
-    ""( ,
-   6 ;
-      
-!!  ++ 00 %
-"" '' "
-## '' 11 #
+ '
+ ## $$8 <
+ ##9 A%%C K
+## ## 
+$$ %% '
+%% &&  
 
-66 &
-88 FF GG( ,
-99 FF6 ;
-FF FF 
-GG HH #
-HH II %
+** '
+,, == >>8 <
+-- ==9 A??C K
+== == 
+>> ?? '
+?? @@  
 
-MM &
-OO RR SS( ,
-PP RR6 ;
-RR RR 
-SS TT #
-TT UU #V
-TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\MadereraTest\Usings.cs™
-pC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatUsuarioTest.cs
+DD '
+FF WW XX8 <
+GG WW9 AYYC K
+WW WW 
+XX YY '
+YY ZZ  
+
+^^ 1
+`` aa bb8 <
+aa aa 
+bb cc '
+cc dd  
+
+hh 1
+jj kk ll8 <
+kk kk 
+ll mm '
+mm nn  
+
+rr 1
+tt uu vv8 <
+uu uu 
+vv ww '
+ww xx  
+
+|| ("
+~~ 
+òò 
+ôô8 <
+ 
+òòF O
+
+òò 
+òò 
+
+ôô 
+öö '
+
+öö 
+õõ %
+
+üü ($
+
+°° 
+££ 
+§§8 <
+
+¢¢ 
+££F O
+
+££ 
+££ 
+
+§§ 
+•• '
+
+•• 
+¶¶ #ú
+bD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatUsuarioTest.cs
 
  
 
@@ -564,80 +614,30 @@ pC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\MadereraTest\Capa
 „„  
 ÍÍ 
 ÏÏ !
-ÌÌ !Æ	
-zC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatTemporaryProductsTest.cs
+ÌÌ !H
+FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\MadereraTest\Usings.cs§
+`D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatVentaTest.cs
 
- )
+ 
 
- '
- ## $$8 <
- ##9 A%%C K
-## ## 
-$$ %% '
-%% &&  
+ (
+    ""( ,
+   6 ;
+      
+!!  ++ 00 %
+"" '' "
+## '' 11 #
 
-** '
-,, == >>8 <
--- ==9 A??C K
-== == 
->> ?? '
-?? @@  
+66 &
+88 FF GG( ,
+99 FF6 ;
+FF FF 
+GG HH #
+HH II %
 
-DD '
-FF WW XX8 <
-GG WW9 AYYC K
-WW WW 
-XX YY '
-YY ZZ  
-
-^^ 1
-`` aa bb8 <
-aa aa 
-bb cc '
-cc dd  
-
-hh 1
-jj kk ll8 <
-kk kk 
-ll mm '
-mm nn  
-
-rr 1
-tt uu vv8 <
-uu uu 
-vv ww '
-ww xx  
-
-|| ("
-~~ 
-òò 
-ôô8 <
- 
-òòF O
-
-òò 
-òò 
-
-ôô 
-öö '
-
-öö 
-õõ %
-
-üü ($
-
-°° 
-££ 
-§§8 <
-
-¢¢ 
-££F O
-
-££ 
-££ 
-
-§§ 
-•• '
-
-•• 
-¶¶ #
+MM &
+OO RR SS( ,
+PP RR6 ;
+RR RR 
+SS TT #
+TT UU #

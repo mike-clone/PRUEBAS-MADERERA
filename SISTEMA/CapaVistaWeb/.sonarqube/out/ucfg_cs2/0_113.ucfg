@@ -1,15 +1,15 @@
 
-$CapaEntidad.EntProducto.Diametro.setb
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs! !("0*a
-0! !("M
-K
-! !("/
-CapaEntidad.EntProducto"
-diametrodouble"__id*
+1CapaEntidad.EntProveedorProducto.PrecioCompra.set]
+SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs: (="0*n
+0A (UZ
+X
+A (U<"
+ CapaEntidad.EntProveedorProducto"
+precioCompradouble"__id*
 ""*
 1*.
-1!% !(%"
-!$ !(%
+1V (V"
+U (V
 implicit return:
-valuedoubleB
-CapaEntidad.EntProducto
+valuedoubleB$"
+ CapaEntidad.EntProveedorProducto

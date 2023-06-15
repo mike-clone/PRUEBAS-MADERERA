@@ -1,9 +1,20 @@
 
-&CapaLogica.LogProveedor.LogProveedor()b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs ("1*
-1	 (	*
-0*.
-0	 (	"
- (	
-implicit returnB
-CapaLogica.LogProveedor
+CapaLogica.logRoll.ListarRol()O
+ED:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRoll.cs (&"0*¹
+0 (1q
+o
+ ($
+%0CapaAccesoDatos.datRoll"%CapaAccesoDatos.datRoll.Instancia.get*"
+CapaAccesoDatos.datRoll
+}
+ (1(
+%1"System.Collections.Generic.List<T>"$CapaAccesoDatos.datRoll.ListarRoll()*!
+
+%0CapaAccesoDatos.datRoll"6
+ (2*
+(
+%1"System.Collections.Generic.List<T>*.
+1	 (	"
+ (	
+implicit returnB
+CapaLogica.logRoll

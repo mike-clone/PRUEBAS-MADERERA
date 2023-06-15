@@ -1,14 +1,15 @@
 
- CapaEntidad.EntCompra.Estado.get`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs# #(""0*e
-0#& #(,Q
-O
-#& #(,
-%0string"__id*/-*+
-CapaEntidad.EntCompra"
-estadostring*
+%CapaEntidad.EntDetCompra.Cantidad.setU
+KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs/ (2"0*_
+06 (FK
+I
+6 (F-
+CapaEntidad.EntDetCompra"
+cantidadint"__id*
+""*
 1*.
-1#- #(-"
-#, #(-
-implicit returnB
-CapaEntidad.EntCompra
+1G (G"
+F (G
+implicit return:
+valueintB
+CapaEntidad.EntDetCompra

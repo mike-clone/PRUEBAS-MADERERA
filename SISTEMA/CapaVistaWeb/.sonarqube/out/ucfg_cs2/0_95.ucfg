@@ -1,16 +1,14 @@
 
-!CapaEntidad.EntUsuario.Correo.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs? ?("0*i
-0? ?( U
-S
-? ?( ,
-CapaEntidad.EntUsuario"
-correostring"__id*
-
-valuestring*
+-CapaEntidad.EntProveedorProducto.Producto.get]
+SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs& ()"0*•
+0- (5€
+~
+- (5
+%0CapaEntidad.EntProducto"__id*MK*I"
+ CapaEntidad.EntProveedorProducto"#
+productoCapaEntidad.EntProducto*
 1*.
-1?# ?(#"
-?" ?(#
-implicit return:
-valuestringB
-CapaEntidad.EntUsuario
+16 (6"
+5 (6
+implicit returnB$"
+ CapaEntidad.EntProveedorProducto

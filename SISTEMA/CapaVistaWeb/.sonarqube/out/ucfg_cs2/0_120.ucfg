@@ -1,16 +1,16 @@
 
-"CapaEntidad.EntUbigeo.Distrito.set`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs2 (5"0*j
-09 (IV
-T
-9 (I-
-CapaEntidad.EntUbigeo"
-distritostring"__id*
-
-valuestring*
+%CapaEntidad.entReporteVenta.Fecha.setX
+ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs. (1"0*
+05 (Bk
+i
+5 (B9
+CapaEntidad.entReporteVenta"
+fechaSystem.DateTime"__id*
+
+valueSystem.DateTime*
 1*.
-1J (J"
-I (J
-implicit return:
-valuestringB
-CapaEntidad.EntUbigeo
+1C (C"
+B (C
+implicit return:
+valueSystem.DateTimeB
+CapaEntidad.entReporteVenta

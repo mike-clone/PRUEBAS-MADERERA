@@ -1,15 +1,14 @@
 
-)CapaEntidad.entReporteCompra.SubTotal.setg
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs2 (5"0*f
-09 (IR
-P
-9 (I4
-CapaEntidad.entReporteCompra"
-subTotaldouble"__id*
-""*
+,CapaEntidad.entReporteVenta.PrecUnitario.getX
+ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs% (("0*q
+0, (8]
+[
+, (8
+%0string"__id*;9*7
+CapaEntidad.entReporteVenta"
+precUnitariostring*
 1*.
-1J (J"
-I (J
-implicit return:
-valuedoubleB 
-CapaEntidad.entReporteCompra
+19 (9"
+8 (9
+implicit returnB
+CapaEntidad.entReporteVenta

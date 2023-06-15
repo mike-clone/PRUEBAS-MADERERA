@@ -1,15 +1,15 @@
 
-$CapaEntidad.EntDetVenta.SubTotal.getb
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs   ("0*E
-0   (!"
- 
-   (!
-%0"__id*
-"""
-   ("
-
-%0*.
-1 $  ($"
- #  ($
-implicit returnB
-CapaEntidad.EntDetVenta
+CapaEntidad.EntVenta.Total.setQ
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*[
+0 (G
+E
+ ()
+CapaEntidad.EntVenta"
+totaldouble"__id*
+""*
+1*.
+1" (""
+! ("
+implicit return:
+valuedoubleB
+CapaEntidad.EntVenta

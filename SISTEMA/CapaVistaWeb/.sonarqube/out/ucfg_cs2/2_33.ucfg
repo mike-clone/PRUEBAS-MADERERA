@@ -1,21 +1,26 @@
 
-NCapaLogica.LogProveedor.LogProveedor(CapaAccesoDatos.Interfaces.IDatProveedor)b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs ("1*
-1	 (	*
-0*¿
-0 ()ª
-§
- ()Y
-CapaLogica.LogProveedor"<
-ProveedorService(CapaAccesoDatos.Interfaces.IDatProveedor"__id*:8
-6
+ICapaLogica.LogTipoProducto.CrearTipoProducto(CapaEntidad.EntTipoProducto)W
+MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs (%"0*è
+0   (E®
+«
+   (&1
+%0+CapaAccesoDatos.Interfaces.IDatTipoProducto"__id*fd*b
+CapaLogica.LogTipoProducto"B
+TipoProductoService+CapaAccesoDatos.Interfaces.IDatTipoProductoŠ
+   (F
 
-IProveedor(CapaAccesoDatos.Interfaces.IDatProveedor*
-2*.
-2	 (	"
- (	
-implicit return:B
- (46
+%1bool"ZCapaAccesoDatos.Interfaces.IDatTipoProducto.CrearTipoProducto(CapaEntidad.EntTipoProducto)*53
+1
+%0+CapaAccesoDatos.Interfaces.IDatTipoProducto*/-
++
+tipoProductoCapaEntidad.EntTipoProducto2.CrearTipoProducto(CapaEntidad.EntTipoProducto)"
+   (G
 
-IProveedor(CapaAccesoDatos.Interfaces.IDatProveedorB
-CapaLogica.LogProveedor
+
+%1bool*.
+1!	 !(	"
+! !(	
+implicit return:7
+& (B+
+tipoProductoCapaEntidad.EntTipoProductoB
+CapaLogica.LogTipoProducto

@@ -1,44 +1,44 @@
 
-0CapaAccesoDatos.DatUsuario.EliminarUsuarios(int)g
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs” ”($"0*ê
+0CapaAccesoDatos.DatUsuario.EliminarUsuarios(int)Y
+MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs¿ ¿($"0*ê
 0
-’ ÷("G
+¬ √("G
 E
 
-’ ’(!'
+¬ ¬(!'
 cmd System.Data.SqlClient.SqlCommand"__id*
 ""1
 /
 
-÷ ÷("
+√ √("
 	eliminadobool"__id*
 ""*
 1*î
 1
-Ÿ ·(v
+∆ Œ(v
 t
 
-Ÿ# Ÿ(5
+∆# ∆(5
 %0CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
 CapaAccesoDatos.ConexionÉ
 Ä
 
-Ÿ# Ÿ(@)
+∆# ∆(@)
 %1#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
 
 %0CapaAccesoDatos.Conexionn
 l
 
-Ÿ Ÿ(@)
+∆ ∆(@)
 cn#System.Data.SqlClient.SqlConnection"__id*-+
 )
 %1#System.Data.SqlClient.SqlConnectionXV
 
-⁄ ›(&
+«  (&
 %2 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÍ
 Á
 
-⁄ ⁄($
+« «($
 
 %3void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
 &
@@ -48,12 +48,12 @@ l
 cn#System.Data.SqlClient.SqlConnection$
 "
 
-‹" ‹(=
+…" …(=
 %4"__id*
 ""ñ
 ì
 
-‹ ‹(=
+… …(=
 %5System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set**(
 &
 %2 System.Data.SqlClient.SqlCommand*
@@ -61,19 +61,19 @@ l
 %4i
 g
 
-⁄ ›('
+«  ('
 cmd System.Data.SqlClient.SqlCommand"__id**(
 &
 %2 System.Data.SqlClient.SqlCommand°
 û
 
-ﬁ ﬁ(2
+À À(2
 %6,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
 '
 cmd System.Data.SqlClient.SqlCommand’
 “
 
-ﬁ ﬁ(=(
+À À(=(
 %7"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
 2
 %6,System.Data.SqlClient.SqlParameterCollection*
@@ -82,54 +82,54 @@ g
 ""u
 s
 
-ﬂ ﬂ(
+Ã Ã(
 
 %8void"*System.Data.SqlClient.SqlConnection.Open()*-+
 )
 cn#System.Data.SqlClient.SqlConnectionz
 x
 
-‡ ‡(-	
+Õ Õ(-	
 %9int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*+)
 '
 cmd System.Data.SqlClient.SqlCommand-
 +
 
-‡ ‡(-
+Õ Õ(-
 iint"__id*
 	
 %9int*
 2
 3*G
 2
-„ „($1
+– –($1
 /
 
-„ „($
+– –($
 	eliminadobool"__id*
 ""*
 3*
 3
-Ì	 Ì(	*
+Ÿ	 Ÿ(	*
 4
 5*õ
-4È È(íca
+4÷ ÷(íca
 
-È  È()
+÷  ÷()
 %10string"System.Exception.Message.get*
 
 eSystem.Exception2Message.get%
 #
 
-Èh È(|
+÷h ÷(|
 %11"__id*
 ""&
 $
-È~ È(í
+÷~ ÷(í
 %12"__id*
 ""œ
 Ã
-È È(ì(
+÷ ÷(ì(
 %13!System.Windows.Forms.DialogResult"ÅSystem.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
 System.Windows.Forms.MessageBox*
 
@@ -139,35 +139,19 @@ $
 %11*	
 
 %12*
-5*≠
+5*2
 5
-Î Î(,ô
-ñ
+ÿ ÿ("!
 
-Î Î($*
-%14#System.Data.SqlClient.SqlConnection"/System.Data.SqlClient.SqlCommand.Connection.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandx
-v
-
-Î Î(,
-%15void"+System.Data.SqlClient.SqlConnection.Close()*.,
-*
-%14#System.Data.SqlClient.SqlConnection*
-6
-7*2
-6
-Ï Ï("!
-
-Ï Ï(
+ÿ ÿ(
 
 	eliminadobool*2
-7
-Ì	 Ì(	"!
+6
+Ÿ	 Ÿ(	"!
 
-Ì Ì(	
+Ÿ Ÿ(	
 implicit return:
 
-”% ”(+	
+¿% ¿(+	
 idintB
 CapaAccesoDatos.DatUsuario

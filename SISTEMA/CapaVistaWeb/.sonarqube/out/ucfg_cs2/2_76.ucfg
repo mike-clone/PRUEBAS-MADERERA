@@ -1,23 +1,26 @@
 
-$CapaLogica.LogVenta.ListarVenta(int)^
-TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs" "()"0*ó
-0$ $(.í
-è
-$ $(*
-%0$CapaAccesoDatos.Interfaces.IDatVenta"__id*QO*M
-CapaLogica.LogVenta"4
-VentaService$CapaAccesoDatos.Interfaces.IDatVenta∫∑
-$ $(/(
-%1"System.Collections.Generic.List<T>"5CapaAccesoDatos.Interfaces.IDatVenta.ListarVenta(int)*.,
-*
-%0$CapaAccesoDatos.Interfaces.IDatVenta*
-""2ListarVenta(int)"6
-$ $(0*
-(
-%1"System.Collections.Generic.List<T>*.
-1%	 %(	"
-% %(	
-implicit return:
-"* "(0	
-idintB
-CapaLogica.LogVenta
+=CapaLogica.LogDetVenta.CrearDetVenta(CapaEntidad.EntDetVenta)S
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs (!"0*≥
+0 (4û
+õ
+ ("-
+%0'CapaAccesoDatos.Interfaces.IDatDetVenta"__id*ZX*V
+CapaLogica.LogDetVenta":
+DetVentaService'CapaAccesoDatos.Interfaces.IDatDetVentaËÂ
+ (5
+
+%1bool"NCapaAccesoDatos.Interfaces.IDatDetVenta.CrearDetVenta(CapaEntidad.EntDetVenta)*1/
+-
+%0'CapaAccesoDatos.Interfaces.IDatDetVenta*" 
+
+detCapaEntidad.EntDetVenta2&CrearDetVenta(CapaEntidad.EntDetVenta)"
+ (6
+
+
+%1bool*.
+1	 (	"
+ (	
+implicit return:*
+" (1
+detCapaEntidad.EntDetVentaB
+CapaLogica.LogDetVenta

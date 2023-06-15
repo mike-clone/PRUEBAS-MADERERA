@@ -1,26 +1,16 @@
 
-.CapaEntidad.EntProveedorProducto.Proveedor.setk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs
-: 
-(="0*œ
-0
-A 
-(R‡
-„
-
-A 
-(RK"
- CapaEntidad.EntProveedorProducto"%
-	proveedorCapaEntidad.EntProveedor"__id*%#
-!
-valueCapaEntidad.EntProveedor*
-1*.
-1
-S 
-(S"
-
-R 
-(S
-implicit return:#!
-valueCapaEntidad.EntProveedorB$"
- CapaEntidad.EntProveedorProducto
+ CapaEntidad.EntVenta.Cliente.getQ
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs$ $("0*¬
+0$ $( q
+o
+$ $( 
+%0CapaEntidad.EntUsuario"__id*?=*;
+CapaEntidad.EntVenta"!
+clienteCapaEntidad.EntUsuario"*
+$ $(!
+
+%0CapaEntidad.EntUsuario*.
+1$# $(#"
+$" $(#
+implicit returnB
+CapaEntidad.EntVenta

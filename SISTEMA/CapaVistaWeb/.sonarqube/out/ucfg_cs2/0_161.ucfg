@@ -1,14 +1,16 @@
 
-,CapaEntidad.entReporteVenta.PrecUnitario.getf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs% (("0*q
-0, (8]
-[
-, (8
-%0string"__id*;9*7
-CapaEntidad.entReporteVenta"
-precUnitariostring*
+#CapaEntidad.entRoll.Descripcion.setO
+ED:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs8 (;"0*k
+0? (RW
+U
+? (R.
+CapaEntidad.entRoll"
+descripcionstring"__id*
+
+valuestring*
 1*.
-19 (9"
-8 (9
-implicit returnB
-CapaEntidad.entReporteVenta
+1S (S"
+R (S
+implicit return:
+valuestringB
+CapaEntidad.entRoll

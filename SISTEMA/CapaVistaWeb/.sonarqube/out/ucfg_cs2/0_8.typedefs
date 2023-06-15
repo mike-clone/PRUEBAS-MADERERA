@@ -1,15 +1,25 @@
-µ
-CapaEntidad.EntCompraobject0
-EntCompra()!CapaEntidad.EntCompra.EntCompra()2
-IdCompra.get"CapaEntidad.EntCompra.IdCompra.get2
-IdCompra.set"CapaEntidad.EntCompra.IdCompra.set,
-	Fecha.getCapaEntidad.EntCompra.Fecha.get,
-	Fecha.setCapaEntidad.EntCompra.Fecha.set,
-	Total.getCapaEntidad.EntCompra.Total.get,
-	Total.setCapaEntidad.EntCompra.Total.set.
+ã
+CapaEntidad.EntProveedorobject9
+EntProveedor()'CapaEntidad.EntProveedor.EntProveedor()A
+NombreCompleto.get+CapaEntidad.EntProveedor.NombreCompleto.getA
+NombreCompleto.set+CapaEntidad.EntProveedor.NombreCompleto.set;
+IdProveedor.get(CapaEntidad.EntProveedor.IdProveedor.get;
+IdProveedor.set(CapaEntidad.EntProveedor.IdProveedor.set;
+RazonSocial.get(CapaEntidad.EntProveedor.RazonSocial.get;
+RazonSocial.set(CapaEntidad.EntProveedor.RazonSocial.set+
+Ruc.get CapaEntidad.EntProveedor.Ruc.get+
+Ruc.set CapaEntidad.EntProveedor.Ruc.set1
 
-Estado.get CapaEntidad.EntCompra.Estado.get.
+Correo.get#CapaEntidad.EntProveedor.Correo.get1
 
-Estado.set CapaEntidad.EntCompra.Estado.set0
-Usuario.get!CapaEntidad.EntCompra.Usuario.get0
-Usuario.set!CapaEntidad.EntCompra.Usuario.set
+Correo.set#CapaEntidad.EntProveedor.Correo.set5
+Telefono.get%CapaEntidad.EntProveedor.Telefono.get5
+Telefono.set%CapaEntidad.EntProveedor.Telefono.set;
+Descripcion.get(CapaEntidad.EntProveedor.Descripcion.get;
+Descripcion.set(CapaEntidad.EntProveedor.Descripcion.set=
+EstProveedor.get)CapaEntidad.EntProveedor.EstProveedor.get=
+EstProveedor.set)CapaEntidad.EntProveedor.EstProveedor.set1
+
+Ubigeo.get#CapaEntidad.EntProveedor.Ubigeo.get1
+
+Ubigeo.set#CapaEntidad.EntProveedor.Ubigeo.set

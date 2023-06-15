@@ -1,15 +1,15 @@
 
-CapaEntidad.EntUsuario.Rol.geta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csL L("0*E
-0L L("
- 
-L L(
-%0"__id*
-"""
-L L(
-
-%0*.
-1L L("
-L L(
-implicit returnB
-CapaEntidad.EntUsuario
+$CapaEntidad.EntDetVenta.SubTotal.setT
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs! !("0*a
+0! !("M
+K
+! !("/
+CapaEntidad.EntDetVenta"
+subTotaldouble"__id*
+""*
+1*.
+1!% !(%"
+!$ !(%
+implicit return:
+valuedoubleB
+CapaEntidad.EntDetVenta

@@ -1,9 +1,22 @@
 
-$CapaLogica.LogProducto.LogProducto()a
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs ("1*
-1	 (	*
-0*.
-0	 (	"
- (	
-implicit returnB
-CapaLogica.LogProducto
++CapaLogica.LogDetVenta.LogDetVenta()!staticS
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs ("0*Ì
+0( ((B@
+	9 	(J
+%0CapaLogica.LogDetVenta"CapaLogica.LogDetVenta`
+^
+	= 	(H
+
+%1void"$CapaLogica.LogDetVenta.LogDetVenta()* 
+
+%0CapaLogica.LogDetVentav
+t
+	, 	(J@
+CapaLogica.LogDetVenta"$
+
+_instanciaCapaLogica.LogDetVenta"__id* 
+
+%0CapaLogica.LogDetVenta"
+ ((
+implicit returnB"
+CapaLogica.LogDetVenta

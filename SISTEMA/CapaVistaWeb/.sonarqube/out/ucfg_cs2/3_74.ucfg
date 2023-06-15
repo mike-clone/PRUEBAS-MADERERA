@@ -1,60 +1,60 @@
 
-PMadereraCarocho.Controllers.TemporaryProductController.ListarTempProductClient()~
-tC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\TemporaryProductController.cs" "(3"2*×
-0$ &(WB@
-$! $(1
+9MadereraCarocho.Controllers.VentaController.ListarVenta()e
+[D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\VentaController.cs ('"2*ð
+0 (BB@
+! (1
 %0CapaEntidad.EntUsuario"CapaEntidad.EntUsuario_
 ]
-$% $(/
+% (/
 
 %1void"#CapaEntidad.EntUsuario.EntUsuario()* 
 
 %0CapaEntidad.EntUsuarioW
 U
-$ $(1!
+ (1!
 usuarioCapaEntidad.EntUsuario"__id* 
 
 %0CapaEntidad.EntUsuario{
 y
-% %(%
+ (%
 %2System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
 System.Web.Mvc.Controller£ 
-% %((
+ ((
 %3object":System.Collections.Generic.ICollection<T>.this[string].get*)'
 %
 %2System.Web.HttpSessionStateBase*	
 Usuario2this[string].get2
 0
-% %(6
+ (6
 %4object"__id*
 
 %3objectG
 E
-% %(6!
+ (6!
 usuarioCapaEntidad.EntUsuario"__id*
 
-%4object°
-­
-& &()%
-%5CapaLogica.LogTemporaryProducts"__id*tr*p8
-6MadereraCarocho.Controllers.TemporaryProductController"4
-TemporaryPserviceCapaLogica.LogTemporaryProductsd
+%4objectˆ
+…
+ ($
+%5CapaLogica.LogVenta"__id*XV*T-
++MadereraCarocho.Controllers.VentaController"#
+VentaserviceCapaLogica.LogVentad
 b
-&F &(W	
+1 (B	
 %6int"$CapaEntidad.EntUsuario.IdUsuario.get*%#
 !
-usuarioCapaEntidad.EntUsuario³
-°
-& &(X(
-%7"System.Collections.Generic.List<T>"@CapaLogica.LogTemporaryProducts.MostrarTemporaryProductsCli(int)*)'
-%
-%5CapaLogica.LogTemporaryProducts*
+usuarioCapaEntidad.EntUsuario‹
+ˆ
+ (C(
+%7"System.Collections.Generic.List<T>"$CapaLogica.LogVenta.ListarVenta(int)*
+
+%5CapaLogica.LogVenta*
 	
-%6intÏ
-Ì
-& &(Y
+%6int¸
+µ
+ (D
 
-%8void";capavistaweb/views/temporaryproduct/listartempproductclient*
+%8void"$capavistaweb/views/venta/listarventa*
 
 %9*,*
 (
@@ -72,7 +72,7 @@ b
 
 %HttpContextItemsHtmlobject³
 °
-& &(Y
+ (D
 %10void"capavistaweb/views/_viewstart*	
 
 %11*,*
@@ -91,7 +91,7 @@ b
 
 %HttpContextItemsHtmlobject·
 ´
-& &(Y
+ (D
 %12void"!capavistaweb/views/shared/_layout*	
 
 %13*,*
@@ -109,15 +109,15 @@ b
 %HttpContextItemsAllobject*#!
 
 %HttpContextItemsHtmlobject"
-& &(Z
+ (E
 
 %12void*.
-1'	 '(	"
-' '(	
+1 	  (	"
+   (	
 implicit return*5
-2"5 "(5!
+2) ()!
 
-" "(3
+ ('
 %14"__entrypoint*
-0B:8
-6MadereraCarocho.Controllers.TemporaryProductController
+0B/-
++MadereraCarocho.Controllers.VentaController

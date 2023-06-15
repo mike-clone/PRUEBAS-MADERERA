@@ -1,26 +1,25 @@
 
-]CapaLogica.LogTemporaryProducts.ActualizarTemporaryProducts(CapaEntidad.EntTemporaryProducts)j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs2 2(/"0*™
-04 4(Dº
-·
-4 4(#6
-%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts"__id*mk*i!
-CapaLogica.LogTemporaryProducts"D
-TemporaryService0CapaAccesoDatos.Interfaces.IDatTemporaryProducts²¯
-4 4(E
+(CapaLogica.LogCompra.EliminarCompra(int)Q
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs" "(""0*ç
+0$ $(4–
+“
+$ $( +
+%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
+CapaLogica.LogCompra"6
+CompraService%CapaAccesoDatos.Interfaces.IDatCompra¤¡
+$ $(5
 
-%1bool"nCapaAccesoDatos.Interfaces.IDatTemporaryProducts.ActualizarTemporaryProducts(CapaEntidad.EntTemporaryProducts)*:8
-6
-%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts*,*
-(
-temp CapaEntidad.EntTemporaryProducts2=ActualizarTemporaryProducts(CapaEntidad.EntTemporaryProducts)"
-4 4(F
+%1bool"9CapaAccesoDatos.Interfaces.IDatCompra.EliminarCompra(int)*/-
++
+%0%CapaAccesoDatos.Interfaces.IDatCompra*
+""2EliminarCompra(int)"
+$ $(6
 
 
 %1bool*.
-15	 5(	"
-5 5(	
-implicit return:4
-20 2(I(
-temp CapaEntidad.EntTemporaryProductsB#!
-CapaLogica.LogTemporaryProducts
+1%	 %(	"
+% %(	
+implicit return:
+"# "(+
+compintB
+CapaLogica.LogCompra

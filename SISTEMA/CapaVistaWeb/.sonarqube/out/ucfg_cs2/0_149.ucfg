@@ -1,13 +1,16 @@
 
-)CapaEntidad.entReporteCompra.SubTotal.getg
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs! ($"0*6
-0( (0"
- 
-( (0
-%0"__id*
-""*
+&CapaEntidad.EntTipoProducto.Nombre.setX
+ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.cs	. 	(1"0*n
+0	5 	(CZ
+X
+	5 	(C1
+CapaEntidad.EntTipoProducto"
+nombrestring"__id*
+
+valuestring*
 1*.
-11 (1"
-0 (1
-implicit returnB 
-CapaEntidad.entReporteCompra
+1	D 	(D"
+	C 	(D
+implicit return:
+valuestringB
+CapaEntidad.EntTipoProducto

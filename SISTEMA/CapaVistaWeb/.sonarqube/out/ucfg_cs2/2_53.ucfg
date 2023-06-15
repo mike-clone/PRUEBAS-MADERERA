@@ -1,26 +1,20 @@
 
-\CapaLogica.LogTemporaryProducts.CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs! !(."0*ó
-0# #(C∫
-∑
-# #(#6
-%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts"__id*mk*i!
-CapaLogica.LogTemporaryProducts"D
-TemporaryService0CapaAccesoDatos.Interfaces.IDatTemporaryProducts∞≠
-# #(D
-
-%1bool"mCapaAccesoDatos.Interfaces.IDatTemporaryProducts.CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)*:8
-6
-%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts*,*
+#CapaLogica.LogUbigeo.ListarUbigeo()Q
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs   (+"0*è
+0" "(/ñ
+ì
+" "( +
+%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
+CapaLogica.LogUbigeo"6
+UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeoÆ´
+" "(/(
+%1"System.Collections.Generic.List<T>"4CapaAccesoDatos.Interfaces.IDatUbigeo.ListarUbigeo()*/-
++
+%0%CapaAccesoDatos.Interfaces.IDatUbigeo2ListarUbigeo()"6
+" "(0*
 (
-temp CapaEntidad.EntTemporaryProducts2<CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)"
-# #(E
-
-
-%1bool*.
-1$	 $(	"
-$ $(	
-implicit return:4
-!/ !(H(
-temp CapaEntidad.EntTemporaryProductsB#!
-CapaLogica.LogTemporaryProducts
+%1"System.Collections.Generic.List<T>*.
+1#	 #(	"
+# #(	
+implicit returnB
+CapaLogica.LogUbigeo

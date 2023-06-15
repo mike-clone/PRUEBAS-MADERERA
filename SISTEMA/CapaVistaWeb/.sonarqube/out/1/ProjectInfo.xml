@@ -4,14 +4,14 @@
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
   <ProjectGuid>c81c801f-8577-4c80-ab73-f55c97a9e711</ProjectGuid>
-  <FullPath>C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\CapaAccesoDatos.csproj</FullPath>
+  <FullPath>D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\CapaAccesoDatos.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
-    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\.sonarqube\conf\1\FilesToAnalyze.txt" />
+    <AnalysisResult Id="FilesToAnalyze" Location="D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\.sonarqube\conf\1\FilesToAnalyze.txt" />
   </AnalysisResults>
   <AnalysisSettings>
-    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\.sonarqube\out\1\Issues.json</Property>
-    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\.sonarqube\out\1</Property>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\.sonarqube\out\1\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\.sonarqube\out\1</Property>
   </AnalysisSettings>
   <Configuration>Debug</Configuration>
   <Platform>AnyCPU</Platform>

@@ -1,24 +1,23 @@
 
-)CapaLogica.LogUbigeo.BuscarUbigeo(string)_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs0 0(+"0*≥
-02 2(6ñ
-ì
-2 2( +
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
-CapaLogica.LogUbigeo"6
-UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeo“œ
-2 2(7(
-%1"System.Collections.Generic.List<T>":CapaAccesoDatos.Interfaces.IDatUbigeo.BuscarUbigeo(string)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo*
-
-busquedastring2BuscarUbigeo(string)"6
-2 2(8*
+$CapaLogica.LogVenta.ListarVenta(int)P
+FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs" "()"0*ó
+0$ $(.í
+è
+$ $(*
+%0$CapaAccesoDatos.Interfaces.IDatVenta"__id*QO*M
+CapaLogica.LogVenta"4
+VentaService$CapaAccesoDatos.Interfaces.IDatVenta∫∑
+$ $(/(
+%1"System.Collections.Generic.List<T>"5CapaAccesoDatos.Interfaces.IDatVenta.ListarVenta(int)*.,
+*
+%0$CapaAccesoDatos.Interfaces.IDatVenta*
+""2ListarVenta(int)"6
+$ $(0*
 (
 %1"System.Collections.Generic.List<T>*.
-13	 3(	"
-3 3(	
-implicit return:
-0, 0(;
-busquedastringB
-CapaLogica.LogUbigeo
+1%	 %(	"
+% %(	
+implicit return:
+"* "(0	
+idintB
+CapaLogica.LogVenta

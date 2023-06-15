@@ -1,23 +1,24 @@
 
-=CapaLogica.LogProveedorProducto.MostrarDetalleProvedorId(int)j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs'* '(B"0*˘
-0) )(P¬
+ACapaLogica.LogProveedorProducto.BuscarProductoParaComprar(string)\
+RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs0* 0(C"0*è
+02 2(N¬
 ø
-) )(+6
+2 2(+6
 %00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
 CapaLogica.LogProveedorProducto"L
-ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProductoÏÈ
-) )(Q(
-%1"System.Collections.Generic.List<T>"NCapaAccesoDatos.Interfaces.IDatProveedorProducto.MostarDetalleProveedorId(int)*:8
+ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProductoÇˇ
+2 2(O(
+%1"System.Collections.Generic.List<T>"RCapaAccesoDatos.Interfaces.IDatProveedorProducto.BuscarProductoParaComprar(string)*:8
 6
-%00CapaAccesoDatos.Interfaces.IDatProveedorProducto*
-""2MostarDetalleProveedorId(int)"6
-) )(R*
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto*
+
+busquedastring2!BuscarProductoParaComprar(string)"6
+2 2(P*
 (
 %1"System.Collections.Generic.List<T>*.
-1*	 *(	"
-* *(	
+13	 3(	"
+3 3(	
 implicit return:
-'C '(R
-idProveedorintB#!
+0D 0(S
+busquedastringB#!
 CapaLogica.LogProveedorProducto

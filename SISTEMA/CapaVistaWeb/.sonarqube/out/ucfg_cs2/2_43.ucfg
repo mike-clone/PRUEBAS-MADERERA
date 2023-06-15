@@ -1,17 +1,26 @@
 
--CapaLogica.LogProveedorProducto.Instancia.getj
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs ("0*◊
-0 (#í
-è
- (#%
-%0CapaLogica.LogProveedorProducto"__id*VT*R!
-CapaLogica.LogProveedorProducto"-
+YCapaLogica.LogTemporaryProducts.CreaarTemporaryProducts(CapaEntidad.EntTemporaryProducts)\
+RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs (+"0*ë
+0 (@∫
+∑
+ (#6
+%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts"__id*mk*i!
+CapaLogica.LogTemporaryProducts"D
+TemporaryService0CapaAccesoDatos.Interfaces.IDatTemporaryProducts™ß
+ (A
 
-_instanciaCapaLogica.LogProveedorProducto"3
- ($'
-%
-%0CapaLogica.LogProveedorProducto*.
-1& (&"
-% (&
-implicit returnB#"!
-CapaLogica.LogProveedorProducto
+%1bool"jCapaAccesoDatos.Interfaces.IDatTemporaryProducts.CreaarTemporaryProducts(CapaEntidad.EntTemporaryProducts)*:8
+6
+%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts*,*
+(
+temp CapaEntidad.EntTemporaryProducts29CreaarTemporaryProducts(CapaEntidad.EntTemporaryProducts)"
+ (B
+
+
+%1bool*.
+1 	  (	"
+   (	
+implicit return:4
+, (E(
+temp CapaEntidad.EntTemporaryProductsB#!
+CapaLogica.LogTemporaryProducts

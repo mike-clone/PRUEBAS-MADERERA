@@ -1,112 +1,92 @@
 
-?MadereraCarocho.Controllers.CompraController.CompraController()t
-jC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\CompraController.cs ("3*k
-1	 (	W
-U
+CMadereraCarocho.Controllers.UsuarioController.EliminarClientes(int)g
+]D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\UsuarioController.cs. .(,"4*ø
+02 4(A
+
+2 2(-
+%0CapaLogica.LogUsuario"__id*^\*Z/
+-MadereraCarocho.Controllers.UsuarioController"'
+UsuarioserviceCapaLogica.LogUsuariop
+n
+2 2(C
 
-%0void"&System.Web.Mvc.Controller.Controller()*
-System.Web.Mvc.Controller*
-0*ù
-0 (6HF
-* (9
-%1CapaAccesoDatos.DatCompra"CapaAccesoDatos.DatComprad
-b
-. (7
+%1bool"+CapaLogica.LogUsuario.EliminarUsuarios(int)*
+
+%0CapaLogica.LogUsuario*
+""3
+1
+2 2(C
+eliminabool"__id*
 
-%2void"%CapaAccesoDatos.DatCompra.DatCompra()*#!
-
-%1CapaAccesoDatos.DatCompra><
- (:
-%3CapaLogica.LogCompra"CapaLogica.LogCompra¥
-¢
-  ()
 
-%4void"ECapaLogica.LogCompra.LogCompra(CapaAccesoDatos.Interfaces.IDatCompra)*
+%1bool/-
+4 4(
+%ViewBagDataAllobject"object0.
+4 4(
+%ViewBagDataHtmlobject"objecto
+m
+4 4(A
+%2"__mapSet*
+
+%ViewBagDataAllobject*	
+Error*%#!
+Cliente eliminado correctamenteS
+Q
+4 4(A
+%3"__mapSet*
 
-%3CapaLogica.LogCompra*#!
-
-%1CapaAccesoDatos.DatCompraŒ
-‰
- (:W.
-,MadereraCarocho.Controllers.CompraController"%
-CompraServiceCapaLogica.LogCompra"__id*
-
-%3CapaLogica.LogCompraNL
-0 (B"
-%5CapaAccesoDatos.DatDetCompra"CapaAccesoDatos.DatDetCompram
-k
-4 (@
-
-%6void"+CapaAccesoDatos.DatDetCompra.DatDetCompra()*&$
-"
-%5CapaAccesoDatos.DatDetCompraDB
- (C
-%7CapaLogica.LogDetCompra"CapaLogica.LogDetCompra´
-±
-# (/
-
-%8void"NCapaLogica.LogDetCompra.LogDetCompra(CapaAccesoDatos.Interfaces.IDatDetCompra)*!
-
-%7CapaLogica.LogDetCompra*&$
-"
-%5CapaAccesoDatos.DatDetCompra•
-’
- (C].
-,MadereraCarocho.Controllers.CompraController"+
-DetCompraServiceCapaLogica.LogDetCompra"__id*!
-
-%7CapaLogica.LogDetCompra^\
-9 (S*
-%9$CapaAccesoDatos.DatTemporaryProducts"$CapaAccesoDatos.DatTemporaryProducts‡
-„
-= (Q
-%10void";CapaAccesoDatos.DatTemporaryProducts.DatTemporaryProducts()*.,
-*
-%9$CapaAccesoDatos.DatTemporaryProductsUS
-  (T&
-%11CapaLogica.LogTemporaryProducts"CapaLogica.LogTemporaryProductsÞ
-Û
-$ (8
-%12void"fCapaLogica.LogTemporaryProducts.LogTemporaryProducts(CapaAccesoDatos.Interfaces.IDatTemporaryProducts)**(
-&
-%11CapaLogica.LogTemporaryProducts*.,
-*
-%9$CapaAccesoDatos.DatTemporaryProducts§
-¤
- (Tf.
-,MadereraCarocho.Controllers.CompraController"4
-TemporaryPserviceCapaLogica.LogTemporaryProducts"__id**(
-&
-%11CapaLogica.LogTemporaryProductsGE
-( (6
-%13CapaAccesoDatos.DatVenta"CapaAccesoDatos.DatVentac
+%ViewBagDataHtmlobject*	
+Error*
+""*
+1
+2*
+19 :(Yc
 a
-, (4
-%14void"#CapaAccesoDatos.DatVenta.DatVenta()*#!
-
-%13CapaAccesoDatos.DatVenta=;
- (7
-%15CapaLogica.LogVenta"CapaLogica.LogVenta£
- 
- ('
-%16void"BCapaLogica.LogVenta.LogVenta(CapaAccesoDatos.Interfaces.IDatVenta)*
+9 9(5
+%4"__mapSet*
+
+%ViewBagDataAllobject*	
+Error*
+No se pudo eliminarS
+Q
+9 9(5
+%5"__mapSet*
 
-%15CapaLogica.LogVenta*#!
-
-%13CapaAccesoDatos.DatVentaŠ
-‡
- (7U.
-,MadereraCarocho.Controllers.CompraController"#
-VentaserviceCapaLogica.LogVenta"__id*
-
-%15CapaLogica.LogVenta*
-2*.
-2	 (	"
- (	
-implicit return*5
-3! (!!
-
- (
-%17"__entrypoint*
-1B0.
-,MadereraCarocho.Controllers.CompraController
+%ViewBagDataHtmlobject*	
+Error*
+""a_
+:O :(Y
+%6string"System.Exception.Message.get*
+
+exSystem.Exception2Message.get¶
+³
+: :(\*
+%7$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
+System.Web.Mvc.Controller*
+ListarClientes*
+"""8
+: :(],
+*
+%7$System.Web.Mvc.RedirectToRouteResult*î
+2< <(4¤
+¡
+< <(5*
+%8$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*
+ListarClientes"8
+< <(6,
+*
+%8$System.Web.Mvc.RedirectToRouteResult*.
+3=	 =(	"
+= =(	
+implicit return*>
+4.5 .(5*
+(
+. .(,
+%9"__entrypoint*
+""*
+0:
+.- .(4
+
+idcintB1/
+-MadereraCarocho.Controllers.UsuarioController

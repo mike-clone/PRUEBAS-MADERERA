@@ -1,14 +1,14 @@
 
-#CapaEntidad.EntUbigeo.Provincia.get`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs" (%"0*h
-0) (2T
-R
-) (2
-%0string"__id*20*.
-CapaEntidad.EntUbigeo"
-	provinciastring*
+&CapaEntidad.entReporteCompra.Fecha.getY
+OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs  (#"0*}
+0' (,i
+g
+' (,
+%0System.DateTime"__id*><*:
+CapaEntidad.entReporteCompra"
+fechaSystem.DateTime*
 1*.
-13 (3"
-2 (3
-implicit returnB
-CapaEntidad.EntUbigeo
+1- (-"
+, (-
+implicit returnB 
+CapaEntidad.entReporteCompra

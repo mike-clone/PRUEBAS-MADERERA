@@ -1,19 +1,26 @@
 
-fCapaLogica.LogTemporaryProducts.LogTemporaryProducts(CapaAccesoDatos.Interfaces.IDatTemporaryProducts)j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs (#"1*
-1	 (	*
-0*Ø
-0 (*Ã
-À
- (*i!
-CapaLogica.LogTemporaryProducts"D
-TemporaryService0CapaAccesoDatos.Interfaces.IDatTemporaryProducts"__id*CA
-?
-ITemporaryP0CapaAccesoDatos.Interfaces.IDatTemporaryProducts*
-2*.
-2	 (	"
- (	
-implicit return:K
-$ (E?
-ITemporaryP0CapaAccesoDatos.Interfaces.IDatTemporaryProductsB#!
-CapaLogica.LogTemporaryProducts
+7CapaLogica.LogUbigeo.CrearUbigeo(CapaEntidad.EntUbigeo)Q
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs ("0*›
+0 (.–
+“
+ ( +
+%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
+CapaLogica.LogUbigeo"6
+UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeoØÕ
+ (/
+
+%1bool"HCapaAccesoDatos.Interfaces.IDatUbigeo.CrearUbigeo(CapaEntidad.EntUbigeo)*/-
++
+%0%CapaAccesoDatos.Interfaces.IDatUbigeo*
+
+uCapaEntidad.EntUbigeo2"CrearUbigeo(CapaEntidad.EntUbigeo)"
+ (0
+
+
+%1bool*.
+1	 (	"
+ (	
+implicit return:&
+  (+
+uCapaEntidad.EntUbigeoB
+CapaLogica.LogUbigeo

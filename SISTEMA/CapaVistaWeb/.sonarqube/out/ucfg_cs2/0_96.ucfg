@@ -1,15 +1,16 @@
 
-&CapaEntidad.entReporteVenta.Codigo.setf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs+ (."0*`
-02 (@L
-J
-2 (@.
-CapaEntidad.entReporteVenta"
-codigoint"__id*
-""*
+(CapaEntidad.EntUsuario.FechaCreacion.setS
+ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs9 9("0*‚
+09 9('n
+l
+9 9('<
+CapaEntidad.EntUsuario" 
+fechaCreacionSystem.DateTime"__id*
+
+valueSystem.DateTime*
 1*.
-1A (A"
-@ (A
-implicit return:
-valueintB
-CapaEntidad.entReporteVenta
+19* 9(*"
+9) 9(*
+implicit return:
+valueSystem.DateTimeB
+CapaEntidad.EntUsuario

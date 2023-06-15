@@ -1,125 +1,128 @@
 
-;MadereraCarocho.Controllers.HomeController.HomeController()r
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs ("3*¿
-1	 (	JH
-) (> 
-%0CapaLogica.ValidatorHelper"CapaLogica.ValidatorHelperl
-j
-- (<
+VMadereraCarocho.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)`
+VD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\BundleConfig.cs (*"0*ﬂ
+0
+ (*^\
+
+ 
+(<*
+%0$System.Web.Optimization.ScriptBundle"$System.Web.Optimization.ScriptBundleú
+ô
+
+ 
+((
 
-%1void",CapaLogica.ValidatorHelper.ValidatorHelper()*$"
- 
-%0CapaLogica.ValidatorHelperò
+%1void"9System.Web.Optimization.ScriptBundle.ScriptBundle(string)*.,
+*
+%0$System.Web.Optimization.ScriptBundle*
+~/bundles/jqueryµ≤
+
+ (8$
+%2System.Web.Optimization.Bundle"_System.Web.Optimization.Bundle.Include(string, params System.Web.Optimization.IItemTransform[])*.,
+*
+%0$System.Web.Optimization.ScriptBundle*#!
+~/Scripts/jquery-{version}.js*
+""2@Include(string, params System.Web.Optimization.IItemTransform[]) 
+«
+
+ (9
+
+%3void"LSystem.Web.Optimization.BundleCollection.Add(System.Web.Optimization.Bundle)*75
+3
+bundles(System.Web.Optimization.BundleCollection*(&
+$
+%2System.Web.Optimization.Bundle^\
+ (?*
+%4$System.Web.Optimization.ScriptBundle"$System.Web.Optimization.ScriptBundleü
+ú
+ ((
+
+%5void"9System.Web.Optimization.ScriptBundle.ScriptBundle(string)*.,
+*
+%4$System.Web.Optimization.ScriptBundle*
+~/bundles/jqueryval≤Ø
+ (5$
+%6System.Web.Optimization.Bundle"_System.Web.Optimization.Bundle.Include(string, params System.Web.Optimization.IItemTransform[])*.,
+*
+%4$System.Web.Optimization.ScriptBundle* 
+~/Scripts/jquery.validate**
+""2@Include(string, params System.Web.Optimization.IItemTransform[]) 
+«
+ (6
+
+%7void"LSystem.Web.Optimization.BundleCollection.Add(System.Web.Optimization.Bundle)*75
+3
+bundles(System.Web.Optimization.BundleCollection*(&
+$
+%6System.Web.Optimization.Bundle^\
+ (?*
+%8$System.Web.Optimization.ScriptBundle"$System.Web.Optimization.ScriptBundleü
+ú
+ ((
+
+%9void"9System.Web.Optimization.ScriptBundle.ScriptBundle(string)*.,
+*
+%8$System.Web.Optimization.ScriptBundle*
+~/bundles/modernizrÆ´
+ (0%
+%10System.Web.Optimization.Bundle"_System.Web.Optimization.Bundle.Include(string, params System.Web.Optimization.IItemTransform[])*.,
+*
+%8$System.Web.Optimization.ScriptBundle*
+~/Scripts/modernizr-**
+""2@Include(string, params System.Web.Optimization.IItemTransform[])Ã
+…
+ (1
+%11void"LSystem.Web.Optimization.BundleCollection.Add(System.Web.Optimization.Bundle)*75
+3
+bundles(System.Web.Optimization.BundleCollection*)'
+%
+%10System.Web.Optimization.Bundle_]
+ (?+
+%12$System.Web.Optimization.ScriptBundle"$System.Web.Optimization.ScriptBundle°
+û
+ ((
+%13void"9System.Web.Optimization.ScriptBundle.ScriptBundle(string)*/-
++
+%12$System.Web.Optimization.ScriptBundle*
+~/bundles/bootstrap∞≠
+ (/%
+%14System.Web.Optimization.Bundle"_System.Web.Optimization.Bundle.Include(string, params System.Web.Optimization.IItemTransform[])*/-
++
+%12$System.Web.Optimization.ScriptBundle*
+~/Scripts/bootstrap.js*
+""2@Include(string, params System.Web.Optimization.IItemTransform[])Ã
+…
+ (0
+%15void"LSystem.Web.Optimization.BundleCollection.Add(System.Web.Optimization.Bundle)*75
+3
+bundles(System.Web.Optimization.BundleCollection*)'
+%
+%14System.Web.Optimization.Bundle][
+ (8*
+%16#System.Web.Optimization.StyleBundle"#System.Web.Optimization.StyleBundleò
 ï
- (>],
-*MadereraCarocho.Controllers.HomeController"-
-validatorHelperCapaLogica.ValidatorHelper"__id*$"
- 
-%0CapaLogica.ValidatorHelperW
-U
-
-%2void"&System.Web.Mvc.Controller.Controller()*
-System.Web.Mvc.Controller*
-0*Ñ
-0 (SJH
-, (< 
-%3CapaAccesoDatos.DatUsuario"CapaAccesoDatos.DatUsuariog
-e
-0 (:
-
-%4void"'CapaAccesoDatos.DatUsuario.DatUsuario()*$"
- 
-%3CapaAccesoDatos.DatUsuario@>
- (=
-%5CapaLogica.LogUsuario"CapaLogica.LogUsuario™
-ß
-! (+
-
-%6void"HCapaLogica.LogUsuario.LogUsuario(CapaAccesoDatos.Interfaces.IDatUsuario)*
-
-%5CapaLogica.LogUsuario*$"
- 
-%3CapaAccesoDatos.DatUsuarioç
-ä
- (=W,
-*MadereraCarocho.Controllers.HomeController"'
-UsuarioserviceCapaLogica.LogUsuario"__id*
-
-%5CapaLogica.LogUsuarioLJ
-. (?!
-%7CapaAccesoDatos.DatProducto"CapaAccesoDatos.DatProductoj
-h
-2 (=
-
-%8void")CapaAccesoDatos.DatProducto.DatProducto()*%#
-!
-%7CapaAccesoDatos.DatProductoB@
- (@
-%9CapaLogica.LogProducto"CapaLogica.LogProducto∞
-≠
-" (-
-%10void"KCapaLogica.LogProducto.LogProducto(CapaAccesoDatos.Interfaces.IDatProducto)* 
-
-%9CapaLogica.LogProducto*%#
-!
-%7CapaAccesoDatos.DatProductoê
-ç
- (@Y,
-*MadereraCarocho.Controllers.HomeController")
-ProductoserviceCapaLogica.LogProducto"__id* 
-
-%9CapaLogica.LogProductoIG
-* (9 
-%11CapaAccesoDatos.DatUbigeo"CapaAccesoDatos.DatUbigeof
-d
-. (7
-%12void"%CapaAccesoDatos.DatUbigeo.DatUbigeo()*$"
- 
-%11CapaAccesoDatos.DatUbigeo?=
- (:
-%13CapaLogica.LogUbigeo"CapaLogica.LogUbigeo®
-•
-  ()
-%14void"ECapaLogica.LogUbigeo.LogUbigeo(CapaAccesoDatos.Interfaces.IDatUbigeo)*
-
-%13CapaLogica.LogUbigeo*$"
- 
-%11CapaAccesoDatos.DatUbigeoã
-à
- (:U,
-*MadereraCarocho.Controllers.HomeController"%
-UbigeoserviceCapaLogica.LogUbigeo"__id*
-
-%13CapaLogica.LogUbigeo_]
-9 (S+
-%15$CapaAccesoDatos.DatTemporaryProducts"$CapaAccesoDatos.DatTemporaryProductsà
-Ö
-= (Q
-%16void";CapaAccesoDatos.DatTemporaryProducts.DatTemporaryProducts()*/-
-+
-%15$CapaAccesoDatos.DatTemporaryProductsUS
-  (T&
-%17CapaLogica.LogTemporaryProducts"CapaLogica.LogTemporaryProductsﬂ
-‹
-$ (8
-%18void"fCapaLogica.LogTemporaryProducts.LogTemporaryProducts(CapaAccesoDatos.Interfaces.IDatTemporaryProducts)**(
-&
-%17CapaLogica.LogTemporaryProducts*/-
-+
-%15$CapaAccesoDatos.DatTemporaryProducts•
-¢
- (Td,
-*MadereraCarocho.Controllers.HomeController"4
-TemporaryPserviceCapaLogica.LogTemporaryProducts"__id**(
-&
-%17CapaLogica.LogTemporaryProducts*
-2*.
-2	 (	"
- (	
-implicit return*5
-3 (!
-
- (
-%19"__entrypoint*
-1B.,
-*MadereraCarocho.Controllers.HomeController
+ ('
+%17void"7System.Web.Optimization.StyleBundle.StyleBundle(string)*.,
+*
+%16#System.Web.Optimization.StyleBundle*
+~/Content/cssÌ
+ (+%
+%18System.Web.Optimization.Bundle"7System.Web.Optimization.Bundle.Include(params string[])*.,
+*
+%16#System.Web.Optimization.StyleBundle*
+~/Content/bootstrap.css*
+~/Content/site.css2Include(params string[])Ã
+…
+ (,
+%19void"LSystem.Web.Optimization.BundleCollection.Add(System.Web.Optimization.Bundle)*75
+3
+bundles(System.Web.Optimization.BundleCollection*)'
+%
+%18System.Web.Optimization.Bundle*
+1*.
+1	 (	"
+ (	
+implicit return:?
++ (C3
+bundles(System.Web.Optimization.BundleCollectionB "
+MadereraCarocho.BundleConfig

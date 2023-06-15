@@ -1,16 +1,16 @@
 
-(CapaEntidad.EntProveedor.Descripcion.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs= =("0*„
-0= =($Y
-W
-= =($
-%0string"__id*75*3
-CapaEntidad.EntProveedor"
-descripcionstring"
-= =(%
-
-%0string*.
-1=' =('"
-=& =('
-implicit returnB
-CapaEntidad.EntProveedor
+,CapaEntidad.entReporteVenta.PrecUnitario.setX
+ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs: (="0*t
+0A (U`
+^
+A (U7
+CapaEntidad.entReporteVenta"
+precUnitariostring"__id*
+
+valuestring*
+1*.
+1V (V"
+U (V
+implicit return:
+valuestringB
+CapaEntidad.entReporteVenta

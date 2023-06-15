@@ -1,19 +1,22 @@
 
-HCapaLogica.LogUsuario.LogUsuario(CapaAccesoDatos.Interfaces.IDatUsuario)`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs ("1*
-1	 (	*
-0*µ
-0 (% 
-
- (%S
-CapaLogica.LogUsuario"8
-UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuario"__id*64
-2
-IUsuario&CapaAccesoDatos.Interfaces.IDatUsuario*
-2*.
-2	 (	"
- (	
-implicit return:>
- (.2
-IUsuario&CapaAccesoDatos.Interfaces.IDatUsuarioB
-CapaLogica.LogUsuario
+-CapaLogica.LogProveedor.LogProveedor()!staticT
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs	 	("0*Ô
+0w w(DB
+: (L
+%0CapaLogica.LogProveedor"CapaLogica.LogProveedorc
+a
+> (J
+
+%1void"&CapaLogica.LogProveedor.LogProveedor()*!
+
+%0CapaLogica.LogProveedory
+w
+- (LB
+CapaLogica.LogProveedor"%
+
+_instanciaCapaLogica.LogProveedor"__id*!
+
+%0CapaLogica.LogProveedor"
+	 w(
+implicit returnB"
+CapaLogica.LogProveedor

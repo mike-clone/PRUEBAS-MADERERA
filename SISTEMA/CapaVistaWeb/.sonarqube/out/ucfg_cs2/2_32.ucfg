@@ -1,26 +1,26 @@
 
-BCapaLogica.LogProducto.ActualizarProducto(CapaEntidad.EntProducto)a
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs) )(&"0*¾
-0+ +(:ž
-›
-+ +("-
-%0'CapaAccesoDatos.Interfaces.IDatProducto"__id*ZX*V
-CapaLogica.LogProducto":
-ProductoService'CapaAccesoDatos.Interfaces.IDatProductoóð
-+ +(;
+XCapaLogica.LogProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)\
+RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs (*"0*—
+0 (GÂ
+¿
+ (+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
+CapaLogica.LogProveedorProducto"L
+ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProducto¨¥
+ (H
 
-%1bool"SCapaAccesoDatos.Interfaces.IDatProducto.ActualizarProducto(CapaEntidad.EntProducto)*1/
--
-%0'CapaAccesoDatos.Interfaces.IDatProducto*#!
-
-ProdCapaEntidad.EntProducto2+ActualizarProducto(CapaEntidad.EntProducto)"
-+ +(<
+%1bool"iCapaAccesoDatos.Interfaces.IDatProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)*:8
+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto*,*
+(
+prod CapaEntidad.EntProveedorProducto28CrearProveedorProducto(CapaEntidad.EntProveedorProducto)"
+ (I
 
 
 %1bool*.
-1,	 ,(	"
-, ,(	
-implicit return:+
-)' )(7
-ProdCapaEntidad.EntProductoB
-CapaLogica.LogProducto
+1!	 !(	"
+! !(	
+implicit return:4
++ (D(
+prod CapaEntidad.EntProveedorProductoB#!
+CapaLogica.LogProveedorProducto

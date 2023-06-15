@@ -1,27 +1,97 @@
 
-FMadereraCarocho.Controllers.CompraController.MostrarDetalleCompra(int)t
-jC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\CompraController.csk k(0"2*å
+tMadereraCarocho.Controllers.HomeController.EditarDatosCliente(CapaEntidad.EntUsuario, System.Web.Mvc.FormCollection)f
+ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs≤ ≤(."7*ﬁ
+0
+µ ∑(%B@
 
-0m m(Hï
-í
-m m((
-%0CapaLogica.LogDetCompra"__id*a_*].
-,MadereraCarocho.Controllers.CompraController"+
-DetCompraServiceCapaLogica.LogDetCompraô
-ñ
-m m(I(
-%1"System.Collections.Generic.List<T>"3CapaLogica.LogDetCompra.MostrarDetalleCompraId(int)*!
+µ ∏(
+%0CapaEntidad.EntUbigeo"CapaEntidad.EntUbigeo^
+\
+
+µ µ(&
+
+%1void"!CapaEntidad.EntUbigeo.EntUbigeo()*
+
+%0CapaEntidad.EntUbigeoò
+ï
+
+∑ ∑(&
+%2string"CSystem.Collections.Specialized.NameValueCollection.this[string].get*(&
+$
+frmSystem.Web.Mvc.FormCollection*
+
+Ubigs
+q
+
+∑ ∑(&
+%3string""CapaEntidad.EntUbigeo.IdUbigeo.set*
+
+%0CapaEntidad.EntUbigeo*
+
+%2stringì
+ê
+
+µ ∏(
+%4CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.set*!
 
-%0CapaLogica.LogDetCompra*
-""¬
-ø
-m m(J
+usuCapaEntidad.EntUsuario*
+
+%0CapaEntidad.EntUbigeo*
+1*á
+1
+ª º(è
+å
 
-%2void".capavistaweb/views/compra/mostrardetallecompra*
-
-%3*,*
-(
-%1"System.Collections.Generic.List<T>*
+ª  ª(.
+%5CapaLogica.LogUsuario"__id*[Y*W,
+*MadereraCarocho.Controllers.HomeController"'
+UsuarioserviceCapaLogica.LogUsuario¶
+£
+
+ª  ª(K
+
+%6bool"ECapaLogica.LogUsuario.ActualizarAdministrador(CapaEntidad.EntUsuario)*
+
+%5CapaLogica.LogUsuario*!
+
+usuCapaEntidad.EntUsuario3
+1
+
+ª ª(K
+editabool"__id*
+
+
+%6bool*
+2
+3*ç
+2
+æ ø(3ü
+ú
+
+æ æ("!
+%7System.Web.Mvc.ActionResult"9MadereraCarocho.Controllers.HomeController.CerrarSesion()*0.,
+*MadereraCarocho.Controllers.HomeControllerù
+ö
+
+ø ø(4*
+%8$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*	
+Index":
+
+ø ø(5,
+*
+%8$System.Web.Mvc.RedirectToRouteResult*√
+3
+√ √(#∂
+≥
+
+√ √($
+
+%9void"*capavistaweb/views/home/editardatoscliente*	
+
+%10*!
+
+usuCapaEntidad.EntUsuario*
 
 %ViewBagDataAllobject*
 
@@ -33,15 +103,15 @@ jC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobject±
-Æ
-m m(J
+%HttpContextItemsHtmlobject™
+ß
 
-%4void"capavistaweb/views/_viewstart*
-
-%5*,*
-(
-%1"System.Collections.Generic.List<T>*
+√ √($
+%11void"capavistaweb/views/_viewstart*	
+
+%12*!
+
+usuCapaEntidad.EntUsuario*
 
 %ViewBagDataAllobject*
 
@@ -53,15 +123,15 @@ jC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobjectµ
-≤
-m m(J
+%HttpContextItemsHtmlobjectÆ
+´
 
-%6void"!capavistaweb/views/shared/_layout*
-
-%7*,*
-(
-%1"System.Collections.Generic.List<T>*
+√ √($
+%13void"!capavistaweb/views/shared/_layout*	
+
+%14*!
+
+usuCapaEntidad.EntUsuario*
 
 %ViewBagDataAllobject*
 
@@ -73,20 +143,122 @@ jC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobject"
-m m(K
+%HttpContextItemsHtmlobject"
 
+√ √(%
+
+%13void*
+4
+ 	  (	*	
+5
+6
+6*Ú
+5
+» »(Rom
 
-%6void*.
-1n	 n(	"
-n n(	
-implicit return*>
-2k? k(?*
-(
-k k(0
-%8"__entrypoint*
-""*
-0:
-k2 k(>
-idcompraintB0.
-,MadereraCarocho.Controllers.CompraController
+»H »(R
+%15string"System.Exception.Message.get*%#
+!
+exSystem.ApplicationException2Message.get≤
+Ø
+
+» »(U+
+%16$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
+System.Web.Mvc.Controller*	
+Cliente*
+""";
+
+» »(V-
++
+%16$System.Web.Mvc.RedirectToRouteResult*2
+6
+ 	  (	"!
+
+   (	
+implicit return*Ω	
+7
+≤R ≤(Rp
+n
+
+≤ ≤(.
+%17"__entrypoint*!
+
+usuCapaEntidad.EntUsuario*(&
+$
+frmSystem.Web.Mvc.FormCollection£
+†
+
+Ø	 Ø($
+%18"
+__annotate*\ZX
+VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*!
+
+usuCapaEntidad.EntUsuarioÉ
+Ä
+
+∞	 ∞(
+%19"
+__annotate*<:8
+6System.Web.Mvc.AuthorizeAttribute.AuthorizeAttribute()*!
+
+usuCapaEntidad.EntUsuarioÄ
+~
+
+±	 ±(
+%20"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*!
+
+usuCapaEntidad.EntUsuario\
+Z
+
+≤/ ≤(=
+usuCapaEntidad.EntUsuario"__annotation*	
+
+%18*	
+
+%19*	
+
+%20™
+ß
+
+Ø	 Ø($
+%21"
+__annotate*\ZX
+VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*(&
+$
+frmSystem.Web.Mvc.FormCollectionä
+á
+
+∞	 ∞(
+%22"
+__annotate*<:8
+6System.Web.Mvc.AuthorizeAttribute.AuthorizeAttribute()*(&
+$
+frmSystem.Web.Mvc.FormCollectionà
+Ö
+
+±	 ±(
+%23"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*(&
+$
+frmSystem.Web.Mvc.FormCollectionc
+a
+
+≤? ≤(Q$
+frmSystem.Web.Mvc.FormCollection"__annotation*	
+
+%21*	
+
+%22*	
+
+%23*
+0:+
+
+≤/ ≤(=
+usuCapaEntidad.EntUsuario:2
+
+≤? ≤(Q$
+frmSystem.Web.Mvc.FormCollectionB.,
+*MadereraCarocho.Controllers.HomeController

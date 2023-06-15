@@ -1,20 +1,23 @@
 
-CapaLogica.logRoll.ListarRol()]
-SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRoll.cs (&"0*¹
-0 (1q
-o
- ($
-%0CapaAccesoDatos.datRoll"%CapaAccesoDatos.datRoll.Instancia.get*"
-CapaAccesoDatos.datRoll
-}
- (1(
-%1"System.Collections.Generic.List<T>"$CapaAccesoDatos.datRoll.ListarRoll()*!
-
-%0CapaAccesoDatos.datRoll"6
- (2*
+=CapaLogica.LogProveedorProducto.MostrarDetalleProvedorId(int)\
+RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs'* '(B"0*ù
+0) )(PÂ
+¿
+) )(+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
+CapaLogica.LogProveedorProducto"L
+ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProductoìé
+) )(Q(
+%1"System.Collections.Generic.List<T>"NCapaAccesoDatos.Interfaces.IDatProveedorProducto.MostarDetalleProveedorId(int)*:8
+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto*
+""2MostarDetalleProveedorId(int)"6
+) )(R*
 (
 %1"System.Collections.Generic.List<T>*.
-1	 (	"
- (	
-implicit returnB
-CapaLogica.logRoll
+1*	 *(	"
+* *(	
+implicit return:
+'C '(R
+idProveedorintB#!
+CapaLogica.LogProveedorProducto

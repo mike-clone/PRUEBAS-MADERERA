@@ -1,2 +1,5 @@
--
-+CapaAccesoDatos.Interfaces.IDatTipoProducto
+Û
+CapaAccesoDatos.DatDetCompraobject(CapaAccesoDatos.Interfaces.IDatDetCompraq
+(CrearDetCompra(CapaEntidad.EntDetCompra)ECapaAccesoDatos.DatDetCompra.CrearDetCompra(CapaEntidad.EntDetCompra)W
+MostrarDetalleCompraId(int)8CapaAccesoDatos.DatDetCompra.MostrarDetalleCompraId(int)=
+DatDetCompra()+CapaAccesoDatos.DatDetCompra.DatDetCompra()

@@ -1,64 +1,25 @@
 
-JMadereraCarocho.Controllers.TemporaryProductController.ListarTempProduct()~
-tC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\TemporaryProductController.cs (-"2*Î
-0 (TB@
-! (1
-%0CapaEntidad.EntUsuario"CapaEntidad.EntUsuario_
-]
-% (/
+CMadereraCarocho.Controllers.CompraController.ListarTodasLasVentas()f
+\D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\CompraController.cs+ +(0"2*ç	
+0- -(:‰
+†
+- -($
+%0CapaLogica.LogVenta"__id*YW*U.
+,MadereraCarocho.Controllers.CompraController"#
+VentaserviceCapaLogica.LogVenta€
+~
+- -(:(
+%1"System.Collections.Generic.List<T>")CapaLogica.LogVenta.ListarTodasLasVenta()*
+
+%0CapaLogica.LogVentaÂ
+¿
+- -(;
 
-%1void"#CapaEntidad.EntUsuario.EntUsuario()* 
-
-%0CapaEntidad.EntUsuarioW
-U
- (1!
-usuarioCapaEntidad.EntUsuario"__id* 
-
-%0CapaEntidad.EntUsuario{
-y
- (%
-%2System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
-System.Web.Mvc.Controller£ 
- ((
-%3object":System.Collections.Generic.ICollection<T>.this[string].get*)'
-%
-%2System.Web.HttpSessionStateBase*	
-Usuario2this[string].get2
-0
- (6
-%4object"__id*
-
-%3objectG
-E
- (6!
-usuarioCapaEntidad.EntUsuario"__id*
-
-%4object°
-­
- ()%
-%5CapaLogica.LogTemporaryProducts"__id*tr*p8
-6MadereraCarocho.Controllers.TemporaryProductController"4
-TemporaryPserviceCapaLogica.LogTemporaryProductsd
-b
-C (T	
-%6int"$CapaEntidad.EntUsuario.IdUsuario.get*%#
-!
-usuarioCapaEntidad.EntUsuario°
-­
- (U(
-%7"System.Collections.Generic.List<T>"=CapaLogica.LogTemporaryProducts.MostrarTemporaryProducts(int)*)'
-%
-%5CapaLogica.LogTemporaryProducts*
-	
-%6intÉ
-Æ
- (V
-
-%8void"5capavistaweb/views/temporaryproduct/listartempproduct*
+%2void".capavistaweb/views/compra/listartodaslasventas*
 
-%9*,*
+%3*,*
 (
-%7"System.Collections.Generic.List<T>*
+%1"System.Collections.Generic.List<T>*
 
 %ViewBagDataAllobject*
 
@@ -70,14 +31,15 @@ b
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobject³
-°
- (V
-%10void"capavistaweb/views/_viewstart*	
-
-%11*,*
+%HttpContextItemsHtmlobject±
+®
+- -(;
+
+%4void"capavistaweb/views/_viewstart*
+
+%5*,*
 (
-%7"System.Collections.Generic.List<T>*
+%1"System.Collections.Generic.List<T>*
 
 %ViewBagDataAllobject*
 
@@ -89,14 +51,15 @@ b
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobject·
-´
- (V
-%12void"!capavistaweb/views/shared/_layout*	
-
-%13*,*
+%HttpContextItemsHtmlobjectµ
+²
+- -(;
+
+%6void"!capavistaweb/views/shared/_layout*
+
+%7*,*
 (
-%7"System.Collections.Generic.List<T>*
+%1"System.Collections.Generic.List<T>*
 
 %ViewBagDataAllobject*
 
@@ -108,16 +71,17 @@ b
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobject"
- (W
-
-%12void*.
-1	 (	"
- (	
-implicit return*5
-2/ (/!
-
- (-
-%14"__entrypoint*
-0B:8
-6MadereraCarocho.Controllers.TemporaryProductController
+%HttpContextItemsHtmlobject"
+- -(<
+
+
+%6void*.
+1.	 .(	"
+. .(	
+implicit return*4
+2+2 +(2 
+
++ +(0
+%8"__entrypoint*
+0B0.
+,MadereraCarocho.Controllers.CompraController

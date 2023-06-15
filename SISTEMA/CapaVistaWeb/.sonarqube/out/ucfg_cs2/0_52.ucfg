@@ -1,16 +1,16 @@
 
-$CapaEntidad.EntUsuario.Direccion.geta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs- -("0*€
-0- -("U
-S
-- -("
-%0string"__id*31*/
-CapaEntidad.EntUsuario"
-	direccionstring"
-- -(#
-
-%0string*.
-1-% -(%"
--$ -(%
-implicit returnB
-CapaEntidad.EntUsuario
+(CapaEntidad.EntProveedor.RazonSocial.setU
+KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs# #("0*p
+0# #(%\
+Z
+# #(%3
+CapaEntidad.EntProveedor"
+razonSocialstring"__id*
+
+valuestring*
+1*.
+1#( #(("
+#' #((
+implicit return:
+valuestringB
+CapaEntidad.EntProveedor

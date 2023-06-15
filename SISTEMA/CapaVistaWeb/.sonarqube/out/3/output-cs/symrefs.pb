@@ -1,27 +1,27 @@
-º
-dC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\BundleConfig.cs
+Æ
+VD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\BundleConfig.cs
 
  
 
  *<
 < C
 
-     î
-dC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\FilterConfig.cs
+     Ü
+VD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\FilterConfig.cs
 
  
 
  0
-H O		 ù
-cC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\RouteConfig.cs
+H O		 è
+UD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\RouteConfig.cs
 
  
 
  )
 : @
 
-  Ù
-tC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\TemporaryProductController.cs
+  Ê
+fD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\TemporaryProductController.cs
 
  +<
  .  )&& )// 0?? 0
@@ -40,8 +40,8 @@ tC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 ;; 4
 ;;9 ???K Q
 
-?? Ω
-kC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\UsuarioController.cs
+?? Ø
+]D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\UsuarioController.cs
 
  "F
  !  &## &22 -BB (MM  .
@@ -64,8 +64,8 @@ kC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 
 II )
 II5 6MM= >TT  !
-MM NN î
-jC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\CompraController.cs
+MM NN Ü
+\D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\CompraController.cs
 
  !2
   ## %(( %II ,(
@@ -91,8 +91,8 @@ jC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 NN NN  !NN/ 0UU/ 0YY. /\\( )]]( )
 
 kk 0
-kk6 >mm@ Hû
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs
+kk6 >mm@ Hê
+ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs
 
  @
  ! YY" 0kk, :
@@ -211,8 +211,30 @@ hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 ÜÜ 
 
 ää 
-ãã “	
-lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.cs
+ãã π
+[D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\VentaController.cs
+
+  (
+   $?? *(
+ # %% +NN #
+ . 11 (
+
+ '
+  1 8
+
+## *
+##/ 2%%< ?
+
+** *(
+.. "// 11E L;; %P
+00+ /11 44$ (66 !DD$ (II% )KK# 'LL# '
+33 66 << !(
+44 44  !442 366" #(
+99 ??6 ;@@ FF  %
+?? @@  '<
+BB FF GG KK LL NN2 5<
+DD DD  !DD0 1II* +KK( )LL( )ƒ	
+^D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.cs
 
  #R
  # 22 &44 %LL [[ &rr  /
@@ -284,36 +306,9 @@ lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 ´´ "
 
 ¶¶! 2
-ØØ: Ks
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Global.asax.cs
+ØØ: KÕ
 
- 
-
-		 («
-iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\VentaController.cs
-
-  (
-   $?? *(
- # %% +NN #
- . 11 (
-
- '
-  1 8
-
-## *
-##/ 2%%< ?
-
-** *(
-.. "// 11E L;; %P
-00+ /11 44$ (66 !DD$ (II% )KK# 'LL# '
-33 66 << !(
-44 44  !442 366" #(
-99 ??6 ;@@ FF  %
-?? @@  '<
-BB FF GG KK LL NN2 5<
-DD DD  !DD0 1II* +KK( )LL( )€
-
-mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs
+_D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs
 
  $ 
  # 
@@ -401,18 +396,8 @@ mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 ∫∫< B
 ææY _
 
-ææ ˚
-kC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Permisos\PermisosRolAttribute.cs
-
-		 %
-  # # &
-+ . 
-
- -(
-D Q !!! ##" /
-  g
-eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Properties\AssemblyInfo.cs≤
-bC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Utilidades\Encriptar.cs
+ææ §
+TD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Utilidades\Encriptar.cs
 
  
 
@@ -424,4 +409,19 @@ bC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Util
  "( 0(
     &N T
  4 6 (
-  / 0U V
+  / 0U Ve
+KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Global.asax.cs
+
+ 
+
+		 (Y
+WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Properties\AssemblyInfo.csÌ
+]D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Permisos\PermisosRolAttribute.cs
+
+		 %
+  # # &
++ . 
+
+ -(
+D Q !!! ##" /
+  

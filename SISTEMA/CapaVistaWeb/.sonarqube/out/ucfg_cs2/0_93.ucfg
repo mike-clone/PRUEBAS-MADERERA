@@ -1,16 +1,15 @@
 
-#CapaEntidad.EntUsuario.UserName.geta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csC C("0*
-0C C(!T
-R
-C C(!
-%0string"__id*20*.
-CapaEntidad.EntUsuario"
-userNamestring"
-C C("
-
-%0string*.
-1C$ C($"
-C# C($
-implicit returnB
-CapaEntidad.EntUsuario
+-CapaEntidad.EntTemporaryProducts.Cantidad.set]
+SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs/ (2"0*g
+06 (FS
+Q
+6 (F5"
+ CapaEntidad.EntTemporaryProducts"
+cantidadint"__id*
+""*
+1*.
+1G (G"
+F (G
+implicit return:
+valueintB$"
+ CapaEntidad.EntTemporaryProducts

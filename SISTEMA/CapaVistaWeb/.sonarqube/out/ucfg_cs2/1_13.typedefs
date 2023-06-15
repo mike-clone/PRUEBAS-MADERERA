@@ -1,2 +1,9 @@
-)
-'CapaAccesoDatos.Interfaces.IDatDetVenta
+ä
+$CapaAccesoDatos.DatProveedorProductoobject0CapaAccesoDatos.Interfaces.IDatProveedorProducto™
+8CrearProveedorProducto(CapaEntidad.EntProveedorProducto)]CapaAccesoDatos.DatProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)_
+ListarProductoParaComprar()@CapaAccesoDatos.DatProveedorProducto.ListarProductoParaComprar()c
+MostarDetalleProveedorId(int)BCapaAccesoDatos.DatProveedorProducto.MostarDetalleProveedorId(int)m
+"EliminarDetalleProveedor(int, int)GCapaAccesoDatos.DatProveedorProducto.EliminarDetalleProveedor(int, int)k
+!BuscarProductoParaComprar(string)FCapaAccesoDatos.DatProveedorProducto.BuscarProductoParaComprar(string)m
+"BuscarProvedorProductoId(int, int)GCapaAccesoDatos.DatProveedorProducto.BuscarProvedorProductoId(int, int)U
+DatProveedorProducto();CapaAccesoDatos.DatProveedorProducto.DatProveedorProducto()

@@ -1,17 +1,24 @@
 
- CapaLogica.logRoll.Instancia.get]
-SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRoll.cs ("0*¡
-0 (#j
-h
- (#
-%0CapaLogica.logRoll"__id*<:*8
-CapaLogica.logRoll" 
-
-_instanciaCapaLogica.logRoll"&
- ($
-
-%0CapaLogica.logRoll*.
-1& (&"
-% (&
-implicit returnB"
-CapaLogica.logRoll
+7CapaLogica.LogCompra.CrearCompra(CapaEntidad.EntCompra)Q
+GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs ("0*œ
+0 (1–
+“
+ ( +
+%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
+CapaLogica.LogCompra"6
+CompraService%CapaAccesoDatos.Interfaces.IDatCompraÚ×
+ (2	
+%1int"HCapaAccesoDatos.Interfaces.IDatCompra.CrearCompra(CapaEntidad.EntCompra)*/-
++
+%0%CapaAccesoDatos.Interfaces.IDatCompra*!
+
+compCapaEntidad.EntCompra2"CrearCompra(CapaEntidad.EntCompra)"
+ (3
+	
+%1int*.
+1	 (	"
+ (	
+implicit return:)
+ (-
+compCapaEntidad.EntCompraB
+CapaLogica.LogCompra

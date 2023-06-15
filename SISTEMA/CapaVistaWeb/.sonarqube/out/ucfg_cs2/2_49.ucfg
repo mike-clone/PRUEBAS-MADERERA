@@ -1,26 +1,20 @@
 
-YCapaLogica.LogTemporaryProducts.CreaarTemporaryProducts(CapaEntidad.EntTemporaryProducts)j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs (+"0*‘
-0 (@º
-·
- (#6
-%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts"__id*mk*i!
-CapaLogica.LogTemporaryProducts"D
-TemporaryService0CapaAccesoDatos.Interfaces.IDatTemporaryProductsª§
- (A
-
-%1bool"jCapaAccesoDatos.Interfaces.IDatTemporaryProducts.CreaarTemporaryProducts(CapaEntidad.EntTemporaryProducts)*:8
+;CapaLogica.LogProveedorProducto.ListarProductoParaComprar()\
+RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs"* "(C"0*ë
+0$ $(GÂ
+¿
+$ $(+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
+CapaLogica.LogProveedorProducto"L
+ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProductoÞÛ
+$ $(G(
+%1"System.Collections.Generic.List<T>"LCapaAccesoDatos.Interfaces.IDatProveedorProducto.ListarProductoParaComprar()*:8
 6
-%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts*,*
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto2ListarProductoParaComprar()"6
+$ $(H*
 (
-temp CapaEntidad.EntTemporaryProducts29CreaarTemporaryProducts(CapaEntidad.EntTemporaryProducts)"
- (B
-
-
-%1bool*.
-1 	  (	"
-   (	
-implicit return:4
-, (E(
-temp CapaEntidad.EntTemporaryProductsB#!
-CapaLogica.LogTemporaryProducts
+%1"System.Collections.Generic.List<T>*.
+1%	 %(	"
+% %(	
+implicit returnB#!
+CapaLogica.LogProveedorProducto

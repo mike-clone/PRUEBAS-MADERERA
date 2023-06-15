@@ -1,25 +1,26 @@
 
-+CapaLogica.LogUsuario.EliminarUsuarios(int)`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs@ @($"0*ñ
-0B B(5š
+;CapaLogica.LogUsuario.EditarCliente(CapaEntidad.EntUsuario)R
+HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.csE E(!"0*¨
+0G G(1š
 —
-B B(!,
+G G(!,
 %0&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
 CapaLogica.LogUsuario"8
-UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioª§
-B B(6
+UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioáÞ
+G G(2
 
-%1bool"<CapaAccesoDatos.Interfaces.IDatUsuario.EliminarUsuarios(int)*0.
+%1bool"LCapaAccesoDatos.Interfaces.IDatUsuario.EditarCliente(CapaEntidad.EntUsuario)*0.
 ,
-%0&CapaAccesoDatos.Interfaces.IDatUsuario*
-""2EliminarUsuarios(int)"
-B B(7
+%0&CapaAccesoDatos.Interfaces.IDatUsuario*
+
+uCapaEntidad.EntUsuario2%EditarCliente(CapaEntidad.EntUsuario)"
+G G(3
 
 
 %1bool*.
-1C	 C(	"
-C C(	
-implicit return:
-@% @(+	
-idintB
+1H	 H(	"
+H H(	
+implicit return:'
+E" E(.
+uCapaEntidad.EntUsuarioB
 CapaLogica.LogUsuario

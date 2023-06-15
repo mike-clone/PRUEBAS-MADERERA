@@ -1,10 +1,9 @@
-Í
-CapaLogica.LogProductoobject5
-LogProducto()$CapaLogica.LogProducto.LogProducto()ƒ
-4LogProducto(CapaAccesoDatos.Interfaces.IDatProducto)KCapaLogica.LogProducto.LogProducto(CapaAccesoDatos.Interfaces.IDatProducto)g
-&CrearProducto(CapaEntidad.EntProducto)=CapaLogica.LogProducto.CrearProducto(CapaEntidad.EntProducto);
-ListarProducto()'CapaLogica.LogProducto.ListarProducto()q
-+ActualizarProducto(CapaEntidad.EntProducto)BCapaLogica.LogProducto.ActualizarProducto(CapaEntidad.EntProducto)E
-EliminarProducto(int),CapaLogica.LogProducto.EliminarProducto(int)G
-BuscarProducto(string)-CapaLogica.LogProducto.BuscarProducto(string)E
-BuscarProductoId(int),CapaLogica.LogProducto.BuscarProductoId(int)
+³
+CapaLogica.LogCompraobject/
+LogCompra() CapaLogica.LogCompra.LogCompra()y
+0LogCompra(CapaAccesoDatos.Interfaces.IDatCompra)ECapaLogica.LogCompra.LogCompra(CapaAccesoDatos.Interfaces.IDatCompra)]
+"CrearCompra(CapaEntidad.EntCompra)7CapaLogica.LogCompra.CrearCompra(CapaEntidad.EntCompra);
+ListarCompra(int)&CapaLogica.LogCompra.ListarCompra(int)G
+ListartodasLasCompras(),CapaLogica.LogCompra.ListartodasLasCompras()?
+EliminarCompra(int)(CapaLogica.LogCompra.EliminarCompra(int)A
+BuscarCompra(string))CapaLogica.LogCompra.BuscarCompra(string)

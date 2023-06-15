@@ -1,15 +1,16 @@
 
-CapaEntidad.EntVenta.Total.set_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*[
-0 (G
-E
- ()
-CapaEntidad.EntVenta"
-totaldouble"__id*
-""*
+ CapaEntidad.EntCompra.Estado.setR
+HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs#. #(1"0*h
+0#5 #(CT
+R
+#5 #(C+
+CapaEntidad.EntCompra"
+estadostring"__id*
+
+valuestring*
 1*.
-1" (""
-! ("
+1#D #(D"
+#C #(D
 implicit return:
-valuedoubleB
-CapaEntidad.EntVenta
+valuestringB
+CapaEntidad.EntCompra

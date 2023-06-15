@@ -1,16 +1,17 @@
 
-1CapaAccesoDatos.DatTemporaryProducts.Instance.geto
-eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTemporaryProducts.cs ("0*Í
-0 ("†
-ù
- ("*
-%0$CapaAccesoDatos.DatTemporaryProducts"__id*_]*[&
-$CapaAccesoDatos.DatTemporaryProducts"1
-	_instance$CapaAccesoDatos.DatTemporaryProducts"8
- (#,
-*
-%0$CapaAccesoDatos.DatTemporaryProducts*.
-1% (%"
-$ (%
-implicit returnB("&
-$CapaAccesoDatos.DatTemporaryProducts
+&CapaAccesoDatos.Conexion.Instancia.getU
+KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Conexion.cs ("0*π
+0 (#|
+z
+ (#
+%0CapaAccesoDatos.Conexion"__id*HF*D
+CapaAccesoDatos.Conexion"&
+
+_instanciaCapaAccesoDatos.Conexion",
+ ($ 
+
+%0CapaAccesoDatos.Conexion*.
+1& (&"
+% (&
+implicit returnB"
+CapaAccesoDatos.Conexion

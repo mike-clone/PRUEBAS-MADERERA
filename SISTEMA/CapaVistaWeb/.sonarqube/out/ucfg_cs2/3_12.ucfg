@@ -1,112 +1,31 @@
 
-CMadereraCarocho.Controllers.ProductoController.ProductoController()v
-lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.cs (!"3*k
-1	 (	W
-U
+YMadereraCarocho.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)`
+VD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\FilterConfig.cs (0"0*´
+0	 	(2\Z
+	 	(2)
+%0#System.Web.Mvc.HandleErrorAttribute"#System.Web.Mvc.HandleErrorAttributeÑ
+Å
+	 	(0
 
-%0void"&System.Web.Mvc.Controller.Controller()*
-System.Web.Mvc.Controller*
-0*Ç
-0 (KLJ
-. (?!
-%1CapaAccesoDatos.DatProducto"CapaAccesoDatos.DatProductoj
-h
-2 (=
+%1void":System.Web.Mvc.HandleErrorAttribute.HandleErrorAttribute()*-+
+)
+%0#System.Web.Mvc.HandleErrorAttribute±
+Æ
+	 	(3
 
-%2void")CapaAccesoDatos.DatProducto.DatProducto()*%#
-!
-%1CapaAccesoDatos.DatProductoB@
- (@
-%3CapaLogica.LogProducto"CapaLogica.LogProductoØ
-¨
-" (-
-
-%4void"KCapaLogica.LogProducto.LogProducto(CapaAccesoDatos.Interfaces.IDatProducto)* 
-
-%3CapaLogica.LogProducto*%#
-!
-%1CapaAccesoDatos.DatProductoî
-ë
- (@]0
-.MadereraCarocho.Controllers.ProductoController")
-ProductoserviceCapaLogica.LogProducto"__id* 
-
-%3CapaLogica.LogProducto^\
-9 (S*
-%5$CapaAccesoDatos.DatTemporaryProducts"$CapaAccesoDatos.DatTemporaryProductsÜ
-É
-= (Q
-
-%6void";CapaAccesoDatos.DatTemporaryProducts.DatTemporaryProducts()*.,
-*
-%5$CapaAccesoDatos.DatTemporaryProductsTR
-  (T%
-%7CapaLogica.LogTemporaryProducts"CapaLogica.LogTemporaryProducts‹
-Ÿ
-$ (8
-
-%8void"fCapaLogica.LogTemporaryProducts.LogTemporaryProducts(CapaAccesoDatos.Interfaces.IDatTemporaryProducts)*)'
-%
-%7CapaLogica.LogTemporaryProducts*.,
-*
-%5$CapaAccesoDatos.DatTemporaryProducts®
-•
- (Th0
-.MadereraCarocho.Controllers.ProductoController"4
-TemporaryPserviceCapaLogica.LogTemporaryProducts"__id*)'
-%
-%7CapaLogica.LogTemporaryProducts^\
-@ (Z*
-%9$CapaAccesoDatos.DatProveedorProducto"$CapaAccesoDatos.DatProveedorProductoá
-Ñ
-D (X
-%10void";CapaAccesoDatos.DatProveedorProducto.DatProveedorProducto()*.,
-*
-%9$CapaAccesoDatos.DatProveedorProductoUS
-' ([&
-%11CapaLogica.LogProveedorProducto"CapaLogica.LogProveedorProductoﬁ
-€
-+ (?
-%12void"fCapaLogica.LogProveedorProducto.LogProveedorProducto(CapaAccesoDatos.Interfaces.IDatProveedorProducto)**(
-&
-%11CapaLogica.LogProveedorProducto*.,
-*
-%9$CapaAccesoDatos.DatProveedorProducto∞
-≠
- ([o0
-.MadereraCarocho.Controllers.ProductoController";
-ProveedorProductoserviceCapaLogica.LogProveedorProducto"__id**(
-&
-%11CapaLogica.LogProveedorProductoUS
-6 (K&
-%13CapaAccesoDatos.DatTipoProducto"CapaAccesoDatos.DatTipoProductox
-v
-: (I
-%14void"1CapaAccesoDatos.DatTipoProducto.DatTipoProducto()**(
-&
-%13CapaAccesoDatos.DatTipoProductoKI
-" (L!
-%15CapaLogica.LogTipoProducto"CapaLogica.LogTipoProducto∆
-√
-& (5
-%16void"WCapaLogica.LogTipoProducto.LogTipoProducto(CapaAccesoDatos.Interfaces.IDatTipoProducto)*%#
-!
-%15CapaLogica.LogTipoProducto**(
-&
-%13CapaAccesoDatos.DatTipoProducto°
-û
- (Le0
-.MadereraCarocho.Controllers.ProductoController"1
-TipoProductoserviceCapaLogica.LogTipoProducto"__id*%#
-!
-%15CapaLogica.LogTipoProducto*
-2*.
-2	 (	"
- (	
-implicit return*5
-3# (#!
-
- (!
-%17"__entrypoint*
-1B20
-.MadereraCarocho.Controllers.ProductoController
+%2void"1System.Web.Mvc.GlobalFilterCollection.Add(object)*42
+0
+filters%System.Web.Mvc.GlobalFilterCollection*-+
+)
+%0#System.Web.Mvc.HandleErrorAttribute*
+1*.
+1
+	 
+(	"
+
+ 
+(	
+implicit return:<
+1 (O0
+filters%System.Web.Mvc.GlobalFilterCollectionB "
+MadereraCarocho.FilterConfig
