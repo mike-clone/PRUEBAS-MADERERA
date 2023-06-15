@@ -1,144 +1,0 @@
-
-BMadereraCarocho.Controllers.ProductoController.EditarProducto(int)v
-lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.csY Y(*"2*“
-0[ ](î
-ë
-[ [(&
-%0CapaLogica.LogProducto"__id*a_*]0
-.MadereraCarocho.Controllers.ProductoController")
-ProductoserviceCapaLogica.LogProductoÜ
-É
-[ [(?
-%1CapaEntidad.EntProducto",CapaLogica.LogProducto.BuscarProductoId(int)* 
-
-%0CapaLogica.LogProducto*
-""V
-T
-[ [(?
-prodCapaEntidad.EntProducto"__id*!
-
-%1CapaEntidad.EntProducto/-
-\ \(
-%ViewBagDataAllobject"object0.
-\ \(
-%ViewBagDataHtmlobject"object†
-ù
-\0 \(C 
-%2CapaLogica.LogTipoProducto"__id*ig*e0
-.MadereraCarocho.Controllers.ProductoController"1
-TipoProductoserviceCapaLogica.LogTipoProductod
-b
-\^ \(m	
-%3int"&CapaEntidad.EntProducto.IdProducto.get*#!
-
-prodCapaEntidad.EntProductoß
-§
-\0 \(n(
-%4"System.Collections.Generic.List<T>"9CapaLogica.LogTipoProducto.SelectListTipoProductodat(int)*$"
- 
-%2CapaLogica.LogTipoProducto*
-	
-%3intIG
-	\! \(å
-%5System.Web.Mvc.SelectList"System.Web.Mvc.SelectListÁ
-‰
-\% \(/
-
-%6void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
-
-%5System.Web.Mvc.SelectList*,*
-(
-%4"System.Collections.Generic.List<T>*
-idTipo_producto*
-
-nombres
-q
-	\ \(å
-%7"__mapSet*
-
-%ViewBagDataAllobject*
-
-listaTipos*#!
-
-%5System.Web.Mvc.SelectListY
-W
-	\ \(å
-%8"__mapSet*
-
-%ViewBagDataHtmlobject*
-
-listaTipos*
-""∂
-≥
-] ](
-
-%9void"*capavistaweb/views/producto/editarproducto*	
-
-%10*#!
-
-prodCapaEntidad.EntProducto*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject™
-ß
-] ](
-%11void"capavistaweb/views/_viewstart*	
-
-%12*#!
-
-prodCapaEntidad.EntProducto*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobjectÆ
-´
-] ](
-%13void"!capavistaweb/views/shared/_layout*	
-
-%14*#!
-
-prodCapaEntidad.EntProducto*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-] ](
-
-%13void*.
-1^	 ^(	"
-^ ^(	
-implicit return*?
-2Y6 Y(6+
-)
-Y Y(*
-%15"__entrypoint*
-""*
-0:
-Y+ Y(5
-idprodintB20
-.MadereraCarocho.Controllers.ProductoController

@@ -1,24 +1,0 @@
-
-3CapaLogica.LogUsuario.BuscarAdministradores(string)`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.csT  T(5"0*É
-0V V(=š
-—
-V V(!,
-%0&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
-CapaLogica.LogUsuario"8
-UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioäá
-V V(>(
-%1"System.Collections.Generic.List<T>"ECapaAccesoDatos.Interfaces.IDatUsuario.BuscaraAdministradores(string)*0.
-,
-%0&CapaAccesoDatos.Interfaces.IDatUsuario*
-
-datostring2BuscaraAdministradores(string)"6
-V V(?*
-(
-%1"System.Collections.Generic.List<T>*.
-1W	 W(	"
-W W(	
-implicit return:
-T6 T(A
-datostringB
-CapaLogica.LogUsuario

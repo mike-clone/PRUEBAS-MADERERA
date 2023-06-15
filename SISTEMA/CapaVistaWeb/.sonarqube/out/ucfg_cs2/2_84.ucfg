@@ -1,20 +1,0 @@
-
-%CapaLogica.LogUbigeo.ListarDistrito()_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs, ,(-"0*“
-0. .(1–
-“
-. .( +
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
-CapaLogica.LogUbigeo"6
-UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeo²¯
-. .(1(
-%1"System.Collections.Generic.List<T>"6CapaAccesoDatos.Interfaces.IDatUbigeo.ListarDistrito()*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo2ListarDistrito()"6
-. .(2*
-(
-%1"System.Collections.Generic.List<T>*.
-1/	 /(	"
-/ /(	
-implicit returnB
-CapaLogica.LogUbigeo

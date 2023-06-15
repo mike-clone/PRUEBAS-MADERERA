@@ -1,15 +1,0 @@
-‹
- CapaEntidad.EntTemporaryProductsobjectQ
-EntTemporaryProducts()7CapaEntidad.EntTemporaryProducts.EntTemporaryProducts()9
-
-IdTemp.get+CapaEntidad.EntTemporaryProducts.IdTemp.get9
-
-IdTemp.set+CapaEntidad.EntTemporaryProducts.IdTemp.setO
-ProveedorProducto.get6CapaEntidad.EntTemporaryProducts.ProveedorProducto.getO
-ProveedorProducto.set6CapaEntidad.EntTemporaryProducts.ProveedorProducto.set;
-Usuario.get,CapaEntidad.EntTemporaryProducts.Usuario.get;
-Usuario.set,CapaEntidad.EntTemporaryProducts.Usuario.set=
-Cantidad.get-CapaEntidad.EntTemporaryProducts.Cantidad.get=
-Cantidad.set-CapaEntidad.EntTemporaryProducts.Cantidad.set=
-Subtotal.get-CapaEntidad.EntTemporaryProducts.Subtotal.get=
-Subtotal.set-CapaEntidad.EntTemporaryProducts.Subtotal.set

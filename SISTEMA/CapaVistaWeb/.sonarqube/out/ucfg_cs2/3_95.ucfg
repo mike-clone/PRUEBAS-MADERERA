@@ -1,173 +1,0 @@
-
-CMadereraCarocho.Controllers.ProveedorController.MostrarDetalle(int)y
-mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.csó ó(*"4*
-0
-¢	 ¢(	*
-1
-2*É
-1
-õ ú(U1/
-
-õ õ(
-%ViewBagDataAllobject"object20
-
-õ õ(
-%ViewBagDataHtmlobject"objectó
-î
-
-õ2 õ(A
-%0CapaLogica.LogProducto"__id*b`*^1
-/MadereraCarocho.Controllers.ProveedorController")
-ProductoserviceCapaLogica.LogProductoÑ
-Å
-
-õ2 õ(R(
-%1"System.Collections.Generic.List<T>"'CapaLogica.LogProducto.ListarProducto()* 
-
-%0CapaLogica.LogProductoJH
-
-õ# õ(r
-%2System.Web.Mvc.SelectList"System.Web.Mvc.SelectListÏ
-È
-
-õ' õ(1
-
-%3void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
-
-%2System.Web.Mvc.SelectList*,*
-(
-%1"System.Collections.Generic.List<T>*
-
-idProducto*
-NombreCompletor
-p
-
-õ õ(r
-%4"__mapSet*
-
-%ViewBagDataAllobject*
-
-producto*#!
-
-%2System.Web.Mvc.SelectListX
-V
-
-õ õ(r
-%5"__mapSet*
-
-%ViewBagDataHtmlobject*
-
-producto*
-""≤
-Ø
-
-ú  ú(8%
-%6CapaLogica.LogProveedorProducto"__id*tr*p1
-/MadereraCarocho.Controllers.ProveedorController";
-ProveedorProductoserviceCapaLogica.LogProveedorProducto≠
-™
-
-ú  ú(V(
-%7"System.Collections.Generic.List<T>"=CapaLogica.LogProveedorProducto.MostrarDetalleProvedorId(int)*)'
-%
-%6CapaLogica.LogProveedorProducto*
-""§
-°
-
-ú ú(W
-
-%8void"+capavistaweb/views/proveedor/mostrardetalle*
-
-%9*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobjectò
-ï
-
-ú ú(W
-%10void"capavistaweb/views/_viewstart*	
-
-%11*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobjectú
-ô
-
-ú ú(W
-%12void"!capavistaweb/views/shared/_layout*	
-
-%13*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-
-ú ú(X
-
-%12void*Ê
-2
-† †(Qdb
-
-†G †(Q
-%14string"System.Exception.Message.get*
-
-exSystem.Exception2Message.get±
-Æ
-
-† †(T+
-%15$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
-System.Web.Mvc.Controller*
-
-Listar*
-""";
-
-† †(U-
-+
-%15$System.Web.Mvc.RedirectToRouteResult*2
-3
-¢	 ¢(	"!
-
-¢ ¢(	
-implicit return*C
-4
-ó3 ó(3-
-+
-
-ó ó(*
-%16"__entrypoint*
-""*
-0:
-
-ó+ ó(2
-
-idpintB31
-/MadereraCarocho.Controllers.ProveedorController

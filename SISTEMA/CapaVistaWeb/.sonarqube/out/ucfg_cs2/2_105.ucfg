@@ -1,163 +1,0 @@
-
-;CapaLogica.LogUsuario.CrearClientes(CapaEntidad.EntUsuario)`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs (!"0*õ
-0 (A
-?
- ("
-%0string"__id**
-string"
-Emptystring5
-3
- ("
-errorstring"__id*
-
-%0stringý
-ú
- (f
-
-%1bool"_CapaLogica.ValidatorHelper.TryValidateEntity<T>(T, out System.Collections.Generic.List<string>)* "
-CapaLogica.ValidatorHelper*%#
-!
-usuarioCapaEntidad.EntUsuario*86
-4
-detalleDeError"System.Collections.Generic.List<T>3
-1
- (f
-isValidbool"__id*
-
-
-%1boolÄ
-Á
-  (G
-%2string"KCapaLogica.ValidatorHelper.aString(System.Collections.Generic.List<string>)* "
-CapaLogica.ValidatorHelper*86
-4
-detalleDeError"System.Collections.Generic.List<T>=
-;
- (G
-detalleerrorsstring"__id*
-
-%2string,
-*
- (
-creadobool"__id*
-""*
-1*
-1 (*
-2
-3*Ë
-2! !(=š
-—
-! !((,
-%3&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
-CapaLogica.LogUsuario"8
-UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioåâ
-! !(>
-
-%4bool"KCapaAccesoDatos.Interfaces.IDatUsuario.CrearCliente(CapaEntidad.EntUsuario)*0.
-,
-%3&CapaAccesoDatos.Interfaces.IDatUsuario*%#
-!
-usuarioCapaEntidad.EntUsuario2$CrearCliente(CapaEntidad.EntUsuario)2
-0
-! !(>
-creadobool"__id*
-
-
-%4bool*
-4*‡
-3% &(-L
-J
-% %(?
-errorstring"__id*'%#
-!Uno o mas parametros estan vacios64
-& &(.
-%5System.Exception"System.Exceptionm
-k
-& &('
-
-%6void""System.Exception.Exception(string)*
-
-%5System.Exception*
-
-errorstring*
-5*
-45	 5(	*
-6
-7*Ä
-6, 2(3`^
-,% ,(.
-%7string"System.Exception.Message.get*
-
-eSystem.Exception2Message.getS
-Q
-,% -()
-%8string"__concat*
-,% ,(.
-
-%7string*
--& -()
- S
-Q
-,% .(*
-%9string"__concat*
-,% -()
-
-%8string*
-.& .(*
-
-c
-a
-,% /(8
-%10string"__concat*
-,% .(*
-
-%9string* 
-/& /(8
-Es probale que :U
-S
-,% 0(*
-%11string"__concat*
-,% /(8
-
-%10string*
-0& 0(*
-
-U
-S
-,% 1()
-%12string"__concat*
-,% 0(*
-
-%11string*
-1& 1()
- i
-g
-,% 2(3
-%13string"__concat*
-,% 1()
-
-%12string*%
-2& 2(3
-
-detalleerrorsstring75
-, 2(4
-%14System.Exception"System.Exceptionm
-k
-, ,(#
-%15void""System.Exception.Exception(string)*
-
-%14System.Exception*
-
-%13string*
-5*+
-74 4("
-4 4(
-
-creadobool*.
-55	 5(	"
-5 5(	
-implicit return:-
-" (4!
-usuarioCapaEntidad.EntUsuarioB
-CapaLogica.LogUsuario

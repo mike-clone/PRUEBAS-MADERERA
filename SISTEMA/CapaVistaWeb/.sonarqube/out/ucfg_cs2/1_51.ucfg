@@ -1,141 +1,0 @@
-
-9CapaAccesoDatos.DatTipoProducto.EliminarTipoProducto(int)j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTipoProducto.cs} }(("0*ç
-0	 Ä("E
-C
- (!'
-cmd System.Data.SqlClient.SqlCommand"__id*
-""1
-/
-
-Ä Ä("
-	eliminadobool"__id*
-""*
-1*ü
-1
-É â(v
-t
-
-É# É(5
-%0CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
-CapaAccesoDatos.ConexionÉ
-Ä
-
-É# É(@)
-%1#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
-
-%0CapaAccesoDatos.Conexionn
-l
-
-É É(@)
-cn#System.Data.SqlClient.SqlConnection"__id*-+
-)
-%1#System.Data.SqlClient.SqlConnectionXV
-
-Ñ Ñ(B&
-%2 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÓ
-Î
-
-Ñ Ñ($
-
-%3void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
-&
-%2 System.Data.SqlClient.SqlCommand*
-spEliminarTipoProducto*-+
-)
-cn#System.Data.SqlClient.SqlConnectioni
-g
-
-Ñ Ñ(B'
-cmd System.Data.SqlClient.SqlCommand"__id**(
-&
-%2 System.Data.SqlClient.SqlCommand$
-"
-
-Ö" Ö(=
-%4"__id*
-""ó
-î
-
-Ö Ö(=
-%5System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
-'
-cmd System.Data.SqlClient.SqlCommand*
-
-%4°
-û
-
-Ü Ü(2
-%6,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
-'
-cmd System.Data.SqlClient.SqlCommand€
-ÿ
-
-Ü Ü(C(
-%7"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
-2
-%6,System.Data.SqlClient.SqlParameterCollection*
-@idTipo_Empleado*
-""u
-s
-
-á á(
-
-%8void"*System.Data.SqlClient.SqlConnection.Open()*-+
-)
-cn#System.Data.SqlClient.SqlConnectionz
-x
-
-à à(-	
-%9int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*+)
-'
-cmd System.Data.SqlClient.SqlCommand-
-+
-
-à à(-
-iint"__id*
-	
-%9int*
-2
-3*G
-2
-ã ã($1
-/
-
-ã ã($
-	eliminadobool"__id*
-""*
-3*
-3
-ì	 ì(	*
-4
-5*ù
-4
-ê ê()ca
-
-ê  ê()
-%10string"System.Exception.Message.get*
-
-eSystem.Exception2Message.get°
-û
-
-ê ê(*(
-%11!System.Windows.Forms.DialogResult",System.Windows.Forms.MessageBox.Show(string)*%#"!
-System.Windows.Forms.MessageBox*
-
-%10string*
-5*2
-5
-í í("!
-
-í í(
-
-	eliminadobool*2
-6
-ì	 ì(	"!
-
-ì ì(	
-implicit return:
-}) }(/	
-idintB#!
-CapaAccesoDatos.DatTipoProducto

@@ -1,187 +1,0 @@
-
-?MadereraCarocho.Controllers.HomeController.EditarDatosCliente()t
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs¦ ¦(."2*‹
-0
-¨ «(}
-{
-
-¨ ¨(!%
-%0System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
-System.Web.Mvc.Controller¥¢
-
-¨ ¨(,
-%1object":System.Collections.Generic.ICollection<T>.this[string].get*)'
-%
-%0System.Web.HttpSessionStateBase*	
-Usuario2this[string].get4
-2
-
-¨ ¨(:
-%2object"__id*
-
-%1objectI
-G
-
-¨ ¨(:!
-usuarioCapaEntidad.EntUsuario"__id*
-
-%2object1/
-
-© ©(
-%ViewBagDataAllobject"object20
-
-© ©(
-%ViewBagDataHtmlobject"objectŒ
-‰
-
-©1 ©(>
-%3CapaLogica.LogUbigeo"__id*YW*U,
-*MadereraCarocho.Controllers.HomeController"%
-UbigeoserviceCapaLogica.LogUbigeo
-}
-
-©1 ©(O(
-%4"System.Collections.Generic.List<T>"%CapaLogica.LogUbigeo.ListarDistrito()*
-
-%3CapaLogica.LogUbigeoJH
-
-©" ©(h
-%5System.Web.Mvc.SelectList"System.Web.Mvc.SelectListä
-á
-
-©& ©(0
-
-%6void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
-
-%5System.Web.Mvc.SelectList*,*
-(
-%4"System.Collections.Generic.List<T>*
-
-idUbigeo*
-
-distritou
-s
-
-© ©(h
-%7"__mapSet*
-
-%ViewBagDataAllobject*
-listaUbigeo*#!
-
-%5System.Web.Mvc.SelectList[
-Y
-
-© ©(h
-%8"__mapSet*
-
-%ViewBagDataHtmlobject*
-listaUbigeo*
-""u
-s
-
-ª ª(+
-%9CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.get*%#
-!
-usuarioCapaEntidad.EntUsuariob
-`
-
-ª ª(4
-%10string""CapaEntidad.EntUbigeo.Distrito.get*
-
-%9CapaEntidad.EntUbigeo_
-]
-
-ª ª(4
-%11"__mapSet*
-
-%ViewBagDataAllobject*
-
-Ubigeo*
-
-%10stringW
-U
-
-ª ª(4
-%12"__mapSet*
-
-%ViewBagDataHtmlobject*
-
-Ubigeo*
-""»
-¸
-
-« «( 
-%13void"*capavistaweb/views/home/editardatoscliente*	
-
-%14*%#
-!
-usuarioCapaEntidad.EntUsuario*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject®
-«
-
-« «( 
-%15void"capavistaweb/views/_viewstart*	
-
-%16*%#
-!
-usuarioCapaEntidad.EntUsuario*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject²
-¯
-
-« «( 
-%17void"!capavistaweb/views/shared/_layout*	
-
-%18*%#
-!
-usuarioCapaEntidad.EntUsuario*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-
-« «(!
-
-%17void*2
-1
-­	 ­(	"!
-
-­ ­(	
-implicit return*9
-2
-¦0 ¦(0#
-!
-
-¦ ¦(.
-%19"__entrypoint*
-0B.,
-*MadereraCarocho.Controllers.HomeController

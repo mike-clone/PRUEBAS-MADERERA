@@ -1,92 +1,0 @@
-
-8MadereraCarocho.Controllers.HomeController.SinPermisos()r
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs* *('"2*¸	
-0, -(/-
-, ,(
-%ViewBagDataAllobject"object0.
-, ,(
-%ViewBagDataHtmlobject"object…
-‚
-, ,(R
-%0"__mapSet*
-
-%ViewBagDataAllobject*	
-Message*864
-2Usted no tiene permisos para acceder a esta paginaU
-S
-, ,(R
-%1"__mapSet*
-
-%ViewBagDataHtmlobject*	
-Message*
-""š
-—
-- -(
-
-%2void"#capavistaweb/views/home/sinpermisos*
-
-%3*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject”
-‘
-- -(
-
-%4void"capavistaweb/views/_viewstart*
-
-%5*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject˜
-•
-- -(
-
-%6void"!capavistaweb/views/shared/_layout*
-
-%7*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-- -(
-
-
-%6void*.
-1.	 .(	"
-. .(	
-implicit return*4
-2*) *() 
-
-* *('
-%8"__entrypoint*
-0B.,
-*MadereraCarocho.Controllers.HomeController

@@ -1,19 +1,0 @@
-
-BCapaLogica.LogVenta.LogVenta(CapaAccesoDatos.Interfaces.IDatVenta)^
-TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs ("1*
-1	 (	*
-0*«
-0 (!–
-“
- (!M
-CapaLogica.LogVenta"4
-VentaService$CapaAccesoDatos.Interfaces.IDatVenta"__id*20
-.
-IVenta$CapaAccesoDatos.Interfaces.IDatVenta*
-2*.
-2	 (	"
- (	
-implicit return::
- ((.
-IVenta$CapaAccesoDatos.Interfaces.IDatVentaB
-CapaLogica.LogVenta

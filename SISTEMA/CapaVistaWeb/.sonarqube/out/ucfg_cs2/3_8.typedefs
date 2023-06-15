@@ -1,7 +1,0 @@
-ß
--MadereraCarocho.Controllers.UsuarioControllerSystem.Web.Mvc.ControllerSystem.Web.Mvc.ControllerBaseobjectX
-UsuarioController()AMadereraCarocho.Controllers.UsuarioController.UsuarioController()^
-ListarClientes(string)DMadereraCarocho.Controllers.UsuarioController.ListarClientes(string)\
-EliminarClientes(int)CMadereraCarocho.Controllers.UsuarioController.EliminarClientes(int)V
-EditarCliente(int)@MadereraCarocho.Controllers.UsuarioController.EditarCliente(int)|
-%EditarCliente(CapaEntidad.EntUsuario)SMadereraCarocho.Controllers.UsuarioController.EditarCliente(CapaEntidad.EntUsuario)

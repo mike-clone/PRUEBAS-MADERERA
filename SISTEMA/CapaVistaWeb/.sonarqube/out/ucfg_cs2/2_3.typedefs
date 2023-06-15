@@ -1,6 +1,0 @@
-‹
-CapaLogica.LogDetVentaobject5
-LogDetVenta()$CapaLogica.LogDetVenta.LogDetVenta()ƒ
-4LogDetVenta(CapaAccesoDatos.Interfaces.IDatDetVenta)KCapaLogica.LogDetVenta.LogDetVenta(CapaAccesoDatos.Interfaces.IDatDetVenta)g
-&CrearDetVenta(CapaEntidad.EntDetVenta)=CapaLogica.LogDetVenta.CrearDetVenta(CapaEntidad.EntDetVenta)C
-Mostrardetventa(int)+CapaLogica.LogDetVenta.Mostrardetventa(int)

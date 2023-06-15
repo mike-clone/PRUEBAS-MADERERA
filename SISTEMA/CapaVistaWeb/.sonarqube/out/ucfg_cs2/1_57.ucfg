@@ -1,398 +1,0 @@
-
-@CapaAccesoDatos.DatProveedorProducto.ListarProductoParaComprar()o
-eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedorProducto.cs.* .(C"0*ó
-00 1(OE
-C
-0 0(!'
-cmd System.Data.SqlClient.SqlCommand"__id*
-""ZX
-1/ 1(O(
-%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
-o
-13 1(M
-
-%1void")System.Collections.Generic.List<T>.List()*,*
-(
-%0"System.Collections.Generic.List<T>m
-k
-1' 1(O+
-lista"System.Collections.Generic.List<T>"__id*,*
-(
-%0"System.Collections.Generic.List<T>*
-1*Ê
-
-14 :(6t
-r
-4# 4(5
-%2CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
-CapaAccesoDatos.ConexionÄ
-~
-4# 4(@)
-%3#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
-
-%2CapaAccesoDatos.Conexionl
-j
-4 4(@)
-cn#System.Data.SqlClient.SqlConnection"__id*-+
-)
-%3#System.Data.SqlClient.SqlConnectionVT
-5 8(&
-%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÒ
-Ó
-5 5($
-
-%5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
-&
-%4 System.Data.SqlClient.SqlCommand*!
-spListarProductoParaComprar*-+
-)
-cn#System.Data.SqlClient.SqlConnection"
- 
-7" 7(=
-%6"__id*
-""î
-ë
-7 7(=
-%7System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set**(
-&
-%4 System.Data.SqlClient.SqlCommand*
-
-%6g
-e
-5 8('
-cmd System.Data.SqlClient.SqlCommand"__id**(
-&
-%4 System.Data.SqlClient.SqlCommands
-q
-9 9(
-
-%8void"*System.Data.SqlClient.SqlConnection.Open()*-+
-)
-cn#System.Data.SqlClient.SqlConnectionó
-î
-:# :(6)
-%9#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
-'
-cmd System.Data.SqlClient.SqlCommandl
-j
-: :(6)
-dr#System.Data.SqlClient.SqlDataReader"__id*-+
-)
-%9#System.Data.SqlClient.SqlDataReader*
-2*ì
-2; ;( |z
-; ;( 
-%10bool"*System.Data.SqlClient.SqlDataReader.Read()*-+
-)
-dr#System.Data.SqlClient.SqlDataReader2Read()*
-3
-4*∂-
-3=) W("WU
-=0 V('
-%11 CapaEntidad.EntProveedorProducto" CapaEntidad.EntProveedorProducto
-}
-=4 =(H
-%12void"7CapaEntidad.EntProveedorProducto.EntProveedorProducto()*+)
-'
-%11 CapaEntidad.EntProveedorProductoEC
-@# O(
-%13CapaEntidad.EntProducto"CapaEntidad.EntProductod
-b
-@' @(2
-%14void"%CapaEntidad.EntProducto.EntProducto()*" 
-
-%13CapaEntidad.EntProducto•¢
-B9 B(I
-%15object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-idproducto2this[string].geta
-_
-B) B(J
-
-%16int"System.Convert.ToInt32(object)*"
-System.Convert*
-
-%15objectt
-r
-B B(J
-
-%17int"&CapaEntidad.EntProducto.IdProducto.set*" 
-
-%13CapaEntidad.EntProducto*
-
-
-%16int°û
-C% C(1
-%18object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-nombre2this[string].getMK
-C% C(<
-%19string"object.ToString()*
-
-%18object2
-ToString()v
-t
-C C(<
-%20string""CapaEntidad.EntProducto.Nombre.set*" 
-
-%13CapaEntidad.EntProducto*
-
-%19string£†
-D8 D(F
-%21object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-longitud2this[string].gete
-c
-D' D(G
-%22double"System.Convert.ToDouble(object)*"
-System.Convert*
-
-%21objectx
-v
-D D(G
-%23double"$CapaEntidad.EntProducto.Longitud.set*" 
-
-%13CapaEntidad.EntProducto*
-
-%22double£†
-E8 E(F
-%24object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-diametro2this[string].gete
-c
-E' E(G
-%25double"System.Convert.ToDouble(object)*"
-System.Convert*
-
-%24objectx
-v
-E E(G
-%26double"$CapaEntidad.EntProducto.Diametro.set*" 
-
-%13CapaEntidad.EntProducto*
-
-%25double†ù
-F4 F(?
-%27object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*	
-stock2this[string].geta
-_
-F$ F(@
-
-%28int"System.Convert.ToInt32(object)*"
-System.Convert*
-
-%27objecto
-m
-F F(@
-
-%29int"!CapaEntidad.EntProducto.Stock.set*" 
-
-%13CapaEntidad.EntProducto*
-
-
-%28int¶£
-G; G(L
-%30object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-precioVenta2this[string].gete
-c
-G* G(M
-%31double"System.Convert.ToDouble(object)*"
-System.Convert*
-
-%30object{
-y
-G G(M
-%32double"'CapaEntidad.EntProducto.PrecioVenta.set*" 
-
-%13CapaEntidad.EntProducto*
-
-%31double°û
-H7 H(C
-%33object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-Activo2this[string].getd
-b
-H% H(D
-%34bool" System.Convert.ToBoolean(object)*"
-System.Convert*
-
-%33objectr
-p
-H H(D
-%35bool""CapaEntidad.EntProducto.Activo.set*" 
-
-%13CapaEntidad.EntProducto*
-
-%34boolMK
-J# N("
-%36CapaEntidad.EntTipoProducto"CapaEntidad.EntTipoProductop
-n
-J' J(6
-%37void"-CapaEntidad.EntTipoProducto.EntTipoProducto()*&$
-"
-%36CapaEntidad.EntTipoProductoüú
-L) L(3
-%38object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-tipo2this[string].getMK
-L) L(>
-%39string"object.ToString()*
-
-%38object2
-ToString()~
-|
-L  L(>
-%40string"&CapaEntidad.EntTipoProducto.Nombre.set*&$
-"
-%36CapaEntidad.EntTipoProducto*
-
-%39stringü
-ú
-J N("
-%41CapaEntidad.EntTipoProducto" CapaEntidad.EntProducto.Tipo.set*" 
-
-%13CapaEntidad.EntProducto*&$
-"
-%36CapaEntidad.EntTipoProducto≠
-™
-@ O(
-%42CapaEntidad.EntProducto"-CapaEntidad.EntProveedorProducto.Producto.set*+)
-'
-%11 CapaEntidad.EntProveedorProducto*" 
-
-%13CapaEntidad.EntProductoGE
-P$ T(
-%43CapaEntidad.EntProveedor"CapaEntidad.EntProveedorg
-e
-P( P(4
-%44void"'CapaEntidad.EntProveedor.EntProveedor()*#!
-
-%43CapaEntidad.EntProveedor¶£
-R: R(K
-%45object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-idProveedor2this[string].geta
-_
-R* R(L
-
-%46int"System.Convert.ToInt32(object)*"
-System.Convert*
-
-%45objectw
-u
-R R(L
-
-%47int"(CapaEntidad.EntProveedor.IdProveedor.set*#!
-
-%43CapaEntidad.EntProveedor*
-
-
-%46int¶£
-S* S(;
-%48object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-razonsocial2this[string].getMK
-S* S(F
-%49string"object.ToString()*
-
-%48object2
-ToString()}
-{
-S S(F
-%50string"(CapaEntidad.EntProveedor.RazonSocial.set*#!
-
-%43CapaEntidad.EntProveedor*
-
-%49string∞
-≠
-P T(
-%51CapaEntidad.EntProveedor".CapaEntidad.EntProveedorProducto.Proveedor.set*+)
-'
-%11 CapaEntidad.EntProveedorProducto*#!
-
-%43CapaEntidad.EntProveedorß§
-U8 U(J
-%52object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-precioCompra2this[string].gete
-c
-U' U(K
-%53double"System.Convert.ToDouble(object)*"
-System.Convert*
-
-%52objectè
-å
-U U(K
-%54double"1CapaEntidad.EntProveedorProducto.PrecioCompra.set*+)
-'
-%11 CapaEntidad.EntProveedorProducto*
-
-%53doublei
-g
-=) V((
-Prod CapaEntidad.EntProveedorProducto"__id*+)
-'
-%11 CapaEntidad.EntProveedorProducto´
-®
-W W(#
-%55void"0System.Collections.Generic.ICollection<T>.Add(T)*/-
-+
-lista"System.Collections.Generic.List<T>*,*
-(
-Prod CapaEntidad.EntProveedorProducto*
-2*
-4`	 `(	*
-5
-6*Ú
-5] ](va_
-]  ]()
-%56string"System.Exception.Message.get*
-
-eSystem.Exception2Message.get#
-!
-]L ](`
-%57"__id*
-""#
-!
-]b ](v
-%58"__id*
-""∞
-≠
-] ](w(
-%59!System.Windows.Forms.DialogResult"ÅSystem.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
-System.Windows.Forms.MessageBox*
-
-%56string*#!
-EROR AL MOSTRAR LOS PRODUCTOS*	
-
-%57*	
-
-%58*
-6*H
-6_ _("9
-_ _(-
-+
-lista"System.Collections.Generic.List<T>*.
-7`	 `(	"
-` `(	
-implicit returnB(&
-$CapaAccesoDatos.DatProveedorProducto

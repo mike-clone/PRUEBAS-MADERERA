@@ -1,92 +1,0 @@
-
-CMadereraCarocho.Controllers.UsuarioController.EliminarClientes(int)u
-kC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\UsuarioController.cs. .(,"4*¯
-02 4(Aê
-ç
-2 2(-
-%0CapaLogica.LogUsuario"__id*^\*Z/
--MadereraCarocho.Controllers.UsuarioController"'
-UsuarioserviceCapaLogica.LogUsuariop
-n
-2 2(C
-
-%1bool"+CapaLogica.LogUsuario.EliminarUsuarios(int)*
-
-%0CapaLogica.LogUsuario*
-""3
-1
-2 2(C
-eliminabool"__id*
-
-
-%1bool/-
-4 4(
-%ViewBagDataAllobject"object0.
-4 4(
-%ViewBagDataHtmlobject"objecto
-m
-4 4(A
-%2"__mapSet*
-
-%ViewBagDataAllobject*	
-Error*%#!
-Cliente eliminado correctamenteS
-Q
-4 4(A
-%3"__mapSet*
-
-%ViewBagDataHtmlobject*	
-Error*
-""*
-1
-2*ù
-19 :(Yc
-a
-9 9(5
-%4"__mapSet*
-
-%ViewBagDataAllobject*	
-Error*
-No se pudo eliminarS
-Q
-9 9(5
-%5"__mapSet*
-
-%ViewBagDataHtmlobject*	
-Error*
-""a_
-:O :(Y
-%6string"System.Exception.Message.get*
-
-exSystem.Exception2Message.get∂
-≥
-: :(\*
-%7$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
-System.Web.Mvc.Controller*
-ListarClientes*
-"""8
-: :(],
-*
-%7$System.Web.Mvc.RedirectToRouteResult*Ó
-2< <(4§
-°
-< <(5*
-%8$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-ListarClientes"8
-< <(6,
-*
-%8$System.Web.Mvc.RedirectToRouteResult*.
-3=	 =(	"
-= =(	
-implicit return*>
-4.5 .(5*
-(
-. .(,
-%9"__entrypoint*
-""*
-0:
-.- .(4
-
-idcintB1/
--MadereraCarocho.Controllers.UsuarioController

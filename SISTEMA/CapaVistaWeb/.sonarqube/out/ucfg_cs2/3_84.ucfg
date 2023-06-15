@@ -1,74 +1,0 @@
-
-2MadereraCarocho.Controllers.HomeController.Error()r
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs/ /(!"2*ð
-01 1(”
-‘
-1 1(
-
-%0void"capavistaweb/views/home/error*
-
-%1*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject”
-‘
-1 1(
-
-%2void"capavistaweb/views/_viewstart*
-
-%3*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject˜
-•
-1 1(
-
-%4void"!capavistaweb/views/shared/_layout*
-
-%5*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-1 1(
-
-
-%4void*.
-12	 2(	"
-2 2(	
-implicit return*4
-2/# /(# 
-
-/ /(!
-%6"__entrypoint*
-0B.,
-*MadereraCarocho.Controllers.HomeController

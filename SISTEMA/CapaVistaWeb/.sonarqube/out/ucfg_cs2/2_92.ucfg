@@ -1,23 +1,0 @@
-
-*CapaLogica.LogUsuario.BuscarIdUsuario(int)`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs\ \()"0*“
-0^ ^(;š
-—
-^ ^(!,
-%0&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
-CapaLogica.LogUsuario"8
-UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioº·
-^ ^(<
-%1CapaEntidad.EntUsuario";CapaAccesoDatos.Interfaces.IDatUsuario.BuscarIdUsuario(int)*0.
-,
-%0&CapaAccesoDatos.Interfaces.IDatUsuario*
-""2BuscarIdUsuario(int)"*
-^ ^(=
-
-%1CapaEntidad.EntUsuario*.
-1_	 _(	"
-_ _(	
-implicit return:
-\* \(7
-	idClienteintB
-CapaLogica.LogUsuario

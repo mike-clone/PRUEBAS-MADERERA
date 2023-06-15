@@ -1,275 +1,0 @@
-
-uMadereraCarocho.Controllers.ProductoController.EditarProducto(CapaEntidad.EntProducto, System.Web.Mvc.FormCollection)v
-lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.csb b(*"7*£
-0e l(<a
-_
-e e('	
-%0int"&CapaEntidad.EntProducto.IdProducto.get* 
-
-pCapaEntidad.EntProductop
-n
-e e('	
-%1int"&CapaEntidad.EntProducto.IdProducto.set* 
-
-pCapaEntidad.EntProducto*
-	
-%0int`
-^
-f f(
-%2string""CapaEntidad.EntProducto.Nombre.get* 
-
-pCapaEntidad.EntProductor
-p
-f f(
-%3string""CapaEntidad.EntProducto.Nombre.set* 
-
-pCapaEntidad.EntProducto*
-
-%2stringb
-`
-g g(#
-%4double"$CapaEntidad.EntProducto.Longitud.get* 
-
-pCapaEntidad.EntProductot
-r
-g g(#
-%5double"$CapaEntidad.EntProducto.Longitud.set* 
-
-pCapaEntidad.EntProducto*
-
-%4doubleb
-`
-h h(#
-%6double"$CapaEntidad.EntProducto.Diametro.get* 
-
-pCapaEntidad.EntProductot
-r
-h h(#
-%7double"$CapaEntidad.EntProducto.Diametro.set* 
-
-pCapaEntidad.EntProducto*
-
-%6double^
-\
-i i(
-
-%8bool""CapaEntidad.EntProducto.Activo.get* 
-
-pCapaEntidad.EntProducton
-l
-i i(
-
-%9bool""CapaEntidad.EntProducto.Activo.set* 
-
-pCapaEntidad.EntProducto*
-
-
-%8boolMK
-j m("
-%10CapaEntidad.EntTipoProducto"CapaEntidad.EntTipoProductop
-n
-j j((
-%11void"-CapaEntidad.EntTipoProducto.EntTipoProducto()*&$
-"
-%10CapaEntidad.EntTipoProductoó
-î
-l2 l(=
-%12string"CSystem.Collections.Specialized.NameValueCollection.this[string].get*(&
-$
-frmSystem.Web.Mvc.FormCollection*
-
-Stipa
-_
-l" l(>
-
-%13int"System.Convert.ToInt32(string)*"
-System.Convert*
-
-%12stringÅ
-
-l l(>
-
-%14int"/CapaEntidad.EntTipoProducto.IdTipo_producto.set*&$
-"
-%10CapaEntidad.EntTipoProducto*
-
-
-%13intù
-ö
-j m("
-%15CapaEntidad.EntTipoProducto" CapaEntidad.EntProducto.Tipo.set* 
-
-pCapaEntidad.EntProducto*&$
-"
-%10CapaEntidad.EntTipoProducto*
-1*á
-1r s(ï
-í
-r  r(/
-%16CapaLogica.LogProducto"__id*a_*]0
-.MadereraCarocho.Controllers.ProductoController")
-ProductoserviceCapaLogica.LogProducto£
-†
-r  r(E
-%17bool"BCapaLogica.LogProducto.ActualizarProducto(CapaEntidad.EntProducto)*!
-
-%16CapaLogica.LogProducto* 
-
-pCapaEntidad.EntProducto2
-0
-r r(E
-editabool"__id*
-
-%17bool*
-2
-3*
-2u u(<•
-¢
-u u(=+
-%18$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-ListarProducto"9
-u u(>-
-+
-%18$System.Web.Mvc.RedirectToRouteResult*∑
-3y y(!¥
-±
-y y("
-%19void"*capavistaweb/views/producto/editarproducto*	
-
-%20* 
-
-pCapaEntidad.EntProducto*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobjectß
-§
-y y("
-%21void"capavistaweb/views/_viewstart*	
-
-%22* 
-
-pCapaEntidad.EntProducto*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject´
-®
-y y("
-%23void"!capavistaweb/views/shared/_layout*	
-
-%24* 
-
-pCapaEntidad.EntProducto*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-y y(#
-
-%23void*
-4
-Ä	 Ä(	*	
-5
-6
-6*Ò
-5~ ~(Ymk
-~O ~(Y
-%25string"System.Exception.Message.get*%#
-!
-exSystem.ApplicationException2Message.get∑
-¥
-~ ~(\+
-%26$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
-System.Web.Mvc.Controller*
-ListarProducto*
-"""9
-~ ~(]-
-+
-%26$System.Web.Mvc.RedirectToRouteResult*2
-6
-Ä	 Ä(	"!
-
-Ä Ä(	
-implicit return*ˇ
-7bM b(Mm
-k
-b b(*
-%27"__entrypoint* 
-
-pCapaEntidad.EntProducto*(&
-$
-frmSystem.Web.Mvc.FormCollection†
-ù
-`	 `(*
-%28"
-__annotate*\ZX
-VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)* 
-
-pCapaEntidad.EntProducto}
-{
-a	 a(
-%29"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()* 
-
-pCapaEntidad.EntProductoN
-L
-b+ b(8
-pCapaEntidad.EntProducto"__annotation*	
-
-%28*	
-
-%29®
-•
-`	 `(*
-%30"
-__annotate*\ZX
-VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*(&
-$
-frmSystem.Web.Mvc.FormCollectionÜ
-É
-a	 a(
-%31"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*(&
-$
-frmSystem.Web.Mvc.FormCollectionV
-T
-b: b(L$
-frmSystem.Web.Mvc.FormCollection"__annotation*	
-
-%30*	
-
-%31*
-0:(
-b+ b(8
-pCapaEntidad.EntProducto:0
-b: b(L$
-frmSystem.Web.Mvc.FormCollectionB20
-.MadereraCarocho.Controllers.ProductoController

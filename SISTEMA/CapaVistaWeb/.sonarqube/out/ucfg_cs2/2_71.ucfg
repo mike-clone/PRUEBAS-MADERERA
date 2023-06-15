@@ -1,24 +1,0 @@
-
-4CapaLogica.LogVenta.CrearVenta(CapaEntidad.EntVenta)^
-TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs ("0*é
-0   (,í
-è
-   (*
-%0$CapaAccesoDatos.Interfaces.IDatVenta"__id*QO*M
-CapaLogica.LogVenta"4
-VentaService$CapaAccesoDatos.Interfaces.IDatVenta–Õ
-   (-	
-%1int"ECapaAccesoDatos.Interfaces.IDatVenta.CrearVenta(CapaEntidad.EntVenta)*.,
-*
-%0$CapaAccesoDatos.Interfaces.IDatVenta*
-
-vCapaEntidad.EntVenta2 CrearVenta(CapaEntidad.EntVenta)"
-   (.
-	
-%1int*.
-1!	 !(	"
-! !(	
-implicit return:%
- ((
-vCapaEntidad.EntVentaB
-CapaLogica.LogVenta

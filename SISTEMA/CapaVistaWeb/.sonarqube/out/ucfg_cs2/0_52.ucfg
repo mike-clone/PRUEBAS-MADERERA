@@ -1,16 +1,0 @@
-
-CapaEntidad.EntVenta.Estado.get_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*{
-0 (P
-N
- (
-%0string"__id*.,**
-CapaEntidad.EntVenta"
-estadostring"
- ( 
-
-%0string*.
-1" (""
-! ("
-implicit returnB
-CapaEntidad.EntVenta

@@ -1,26 +1,0 @@
-
-<CapaLogica.LogUbigeo.ActualizarUbigeo(CapaEntidad.EntUbigeo)_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs$ $($"0*¥
-0& &(3–
-“
-& &( +
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
-CapaLogica.LogUbigeo"6
-UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeoâß
-& &(4
-
-%1bool"MCapaAccesoDatos.Interfaces.IDatUbigeo.ActualizarUbigeo(CapaEntidad.EntUbigeo)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo*
-
-uCapaEntidad.EntUbigeo2'ActualizarUbigeo(CapaEntidad.EntUbigeo)"
-& &(5
-
-
-%1bool*.
-1'	 '(	"
-' '(	
-implicit return:&
-$% $(0
-uCapaEntidad.EntUbigeoB
-CapaLogica.LogUbigeo

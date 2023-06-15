@@ -1,44 +1,0 @@
-
-SMadereraCarocho.Controllers.TemporaryProductController.TemporaryProductController()~
-tC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\TemporaryProductController.cs ()"3*k
-1	 (	W
-U
-
-%0void"&System.Web.Mvc.Controller.Controller()*
-System.Web.Mvc.Controller*
-0*ã
-0 (S^\
-9 (S*
-%1$CapaAccesoDatos.DatTemporaryProducts"$CapaAccesoDatos.DatTemporaryProducts†
-ƒ
-= (Q
-
-%2void";CapaAccesoDatos.DatTemporaryProducts.DatTemporaryProducts()*.,
-*
-%1$CapaAccesoDatos.DatTemporaryProductsTR
-  (T%
-%3CapaLogica.LogTemporaryProducts"CapaLogica.LogTemporaryProductsÜ
-Ù
-$ (8
-
-%4void"fCapaLogica.LogTemporaryProducts.LogTemporaryProducts(CapaAccesoDatos.Interfaces.IDatTemporaryProducts)*)'
-%
-%3CapaLogica.LogTemporaryProducts*.,
-*
-%1$CapaAccesoDatos.DatTemporaryProducts°
-­
- (Tp8
-6MadereraCarocho.Controllers.TemporaryProductController"4
-TemporaryPserviceCapaLogica.LogTemporaryProducts"__id*)'
-%
-%3CapaLogica.LogTemporaryProducts*
-2*.
-2	 (	"
- (	
-implicit return*4
-3+ (+ 
-
- ()
-%5"__entrypoint*
-1B:8
-6MadereraCarocho.Controllers.TemporaryProductController

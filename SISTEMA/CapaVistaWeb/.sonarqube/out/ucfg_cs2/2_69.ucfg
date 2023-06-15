@@ -1,26 +1,0 @@
-
-7CapaLogica.LogUbigeo.CrearUbigeo(CapaEntidad.EntUbigeo)_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs ("0*›
-0 (.–
-“
- ( +
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
-CapaLogica.LogUbigeo"6
-UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeoØÕ
- (/
-
-%1bool"HCapaAccesoDatos.Interfaces.IDatUbigeo.CrearUbigeo(CapaEntidad.EntUbigeo)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo*
-
-uCapaEntidad.EntUbigeo2"CrearUbigeo(CapaEntidad.EntUbigeo)"
- (0
-
-
-%1bool*.
-1	 (	"
- (	
-implicit return:&
-  (+
-uCapaEntidad.EntUbigeoB
-CapaLogica.LogUbigeo

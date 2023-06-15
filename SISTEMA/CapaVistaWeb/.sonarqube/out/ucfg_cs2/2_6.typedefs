@@ -1,11 +1,0 @@
-ù
-CapaLogica.LogProveedorProductoobjectP
-LogProveedorProducto()6CapaLogica.LogProveedorProducto.LogProveedorProducto()∞
-FLogProveedorProducto(CapaAccesoDatos.Interfaces.IDatProveedorProducto)fCapaLogica.LogProveedorProducto.LogProveedorProducto(CapaAccesoDatos.Interfaces.IDatProveedorProducto)î
-8CrearProveedorProducto(CapaEntidad.EntProveedorProducto)XCapaLogica.LogProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)Z
-ListarProductoParaComprar();CapaLogica.LogProveedorProducto.ListarProductoParaComprar()^
-MostrarDetalleProvedorId(int)=CapaLogica.LogProveedorProducto.MostrarDetalleProvedorId(int)^
-MostarDetalleProveedorId(int)=CapaLogica.LogProveedorProducto.MostarDetalleProveedorId(int)f
-!BuscarProductoParaComprar(string)ACapaLogica.LogProveedorProducto.BuscarProductoParaComprar(string)h
-"BuscarProvedorProductoId(int, int)BCapaLogica.LogProveedorProducto.BuscarProvedorProductoId(int, int)h
-"EliminarDetalleProveedor(int, int)BCapaLogica.LogProveedorProducto.EliminarDetalleProveedor(int, int)

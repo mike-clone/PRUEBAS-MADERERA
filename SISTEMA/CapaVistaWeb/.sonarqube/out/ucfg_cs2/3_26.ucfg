@@ -1,76 +1,0 @@
-
-DMadereraCarocho.Controllers.ProductoController.EliminarProducto(int)x
-lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.csÑ Ñ(,"4*›
-0
-à à(Cñ
-ì
-
-à à(.
-%0CapaLogica.LogProducto"__id*a_*]0
-.MadereraCarocho.Controllers.ProductoController")
-ProductoserviceCapaLogica.LogProductot
-r
-
-à à(D
-
-%1bool",CapaLogica.LogProducto.EliminarProducto(int)* 
-
-%0CapaLogica.LogProducto*
-""5
-3
-
-à à(D
-eliminabool"__id*
-
-
-%1bool*
-1
-2*Î
-1
-ç ç(Yca
-
-çO ç(Y
-%2string"System.Exception.Message.get*
-
-exSystem.Exception2Message.get∏
-µ
-
-ç ç(\*
-%3$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
-System.Web.Mvc.Controller*
-ListarProducto*
-""":
-
-ç ç(],
-*
-%3$System.Web.Mvc.RedirectToRouteResult*Ù
-2
-è è(4¶
-£
-
-è è(5*
-%4$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-ListarProducto":
-
-è è(6,
-*
-%4$System.Web.Mvc.RedirectToRouteResult*2
-3
-ê	 ê(	"!
-
-ê ê(	
-implicit return*B
-4
-Ñ5 Ñ(5,
-*
-
-Ñ Ñ(,
-%5"__entrypoint*
-""*
-0:
-
-Ñ- Ñ(4
-
-idPintB20
-.MadereraCarocho.Controllers.ProductoController

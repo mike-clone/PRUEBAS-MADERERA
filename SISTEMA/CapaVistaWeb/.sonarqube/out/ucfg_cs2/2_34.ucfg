@@ -1,25 +1,0 @@
-
-,CapaLogica.LogProducto.EliminarProducto(int)a
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs. .($"0*÷
-00 0(6ž
-›
-0 0("-
-%0'CapaAccesoDatos.Interfaces.IDatProducto"__id*ZX*V
-CapaLogica.LogProducto":
-ProductoService'CapaAccesoDatos.Interfaces.IDatProducto¬©
-0 0(7
-
-%1bool"=CapaAccesoDatos.Interfaces.IDatProducto.EliminarProducto(int)*1/
--
-%0'CapaAccesoDatos.Interfaces.IDatProducto*
-""2EliminarProducto(int)"
-0 0(8
-
-
-%1bool*.
-11	 1(	"
-1 1(	
-implicit return:
-.% .(+	
-idintB
-CapaLogica.LogProducto

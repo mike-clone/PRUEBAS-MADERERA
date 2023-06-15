@@ -1,10 +1,0 @@
-ˆ
-CapaLogica.LogUbigeoobject/
-LogUbigeo() CapaLogica.LogUbigeo.LogUbigeo()y
-0LogUbigeo(CapaAccesoDatos.Interfaces.IDatUbigeo)ECapaLogica.LogUbigeo.LogUbigeo(CapaAccesoDatos.Interfaces.IDatUbigeo)]
-"CrearUbigeo(CapaEntidad.EntUbigeo)7CapaLogica.LogUbigeo.CrearUbigeo(CapaEntidad.EntUbigeo)5
-ListarUbigeo()#CapaLogica.LogUbigeo.ListarUbigeo()g
-'ActualizarUbigeo(CapaEntidad.EntUbigeo)<CapaLogica.LogUbigeo.ActualizarUbigeo(CapaEntidad.EntUbigeo)?
-EliminarUbigeo(int)(CapaLogica.LogUbigeo.EliminarUbigeo(int)9
-ListarDistrito()%CapaLogica.LogUbigeo.ListarDistrito()A
-BuscarUbigeo(string))CapaLogica.LogUbigeo.BuscarUbigeo(string)

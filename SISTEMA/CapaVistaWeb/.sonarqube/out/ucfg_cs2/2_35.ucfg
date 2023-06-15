@@ -1,26 +1,0 @@
-
-\CapaLogica.LogTemporaryProducts.CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs! !(."0*—
-0# #(Cº
-·
-# #(#6
-%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts"__id*mk*i!
-CapaLogica.LogTemporaryProducts"D
-TemporaryService0CapaAccesoDatos.Interfaces.IDatTemporaryProducts°­
-# #(D
-
-%1bool"mCapaAccesoDatos.Interfaces.IDatTemporaryProducts.CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)*:8
-6
-%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts*,*
-(
-temp CapaEntidad.EntTemporaryProducts2<CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)"
-# #(E
-
-
-%1bool*.
-1$	 $(	"
-$ $(	
-implicit return:4
-!/ !(H(
-temp CapaEntidad.EntTemporaryProductsB#!
-CapaLogica.LogTemporaryProducts

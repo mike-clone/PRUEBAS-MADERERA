@@ -1,141 +1,0 @@
-
-SCapaAccesoDatos.DatTipoProducto.ActualizarTipoProducto(CapaEntidad.EntTipoProducto)j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTipoProducto.csc c(*"0*Š
-0e f("E
-C
-e e(!'
-cmd System.Data.SqlClient.SqlCommand"__id*
-""/
--
-f f("
-	actualizabool"__id*
-""*
-1*ê
-1i p(t
-r
-i# i(5
-%0CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
-CapaAccesoDatos.Conexion€
-~
-i# i(@)
-%1#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
-
-%0CapaAccesoDatos.Conexionl
-j
-i i(@)
-cn#System.Data.SqlClient.SqlConnection"__id*-+
-)
-%1#System.Data.SqlClient.SqlConnectionVT
-j j(D&
-%2 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandî
-ë
-j j($
-
-%3void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
-&
-%2 System.Data.SqlClient.SqlCommand*
-spActualizarTipoProducto*-+
-)
-cn#System.Data.SqlClient.SqlConnectiong
-e
-j j(D'
-cmd System.Data.SqlClient.SqlCommand"__id**(
-&
-%2 System.Data.SqlClient.SqlCommand"
- 
-k" k(=
-%4"__id*
-""•
-’
-k k(=
-%5System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
-'
-cmd System.Data.SqlClient.SqlCommand*
-
-%4Ÿ
-œ
-l l(2
-%6,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandp
-n
-l@ l(S	
-%7int"/CapaEntidad.EntTipoProducto.IdTipo_producto.get*&$
-"
-tipCapaEntidad.EntTipoProductoÞ
-Û
-l l(T(
-%8"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
-2
-%6,System.Data.SqlClient.SqlParameterCollection*
-@idTipo_Producto*
-	
-%7intŸ
-œ
-m m(2
-%9,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandk
-i
-m7 m(A
-%10string"&CapaEntidad.EntTipoProducto.Nombre.get*&$
-"
-tipCapaEntidad.EntTipoProductoÚ
-×
-m m(B)
-%11"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
-2
-%9,System.Data.SqlClient.SqlParameterCollection*	
-@nombre*
-
-%10stringt
-r
-n n(
-%12void"*System.Data.SqlClient.SqlConnection.Open()*-+
-)
-cn#System.Data.SqlClient.SqlConnectiony
-w
-o o(-
-
-%13int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*+)
-'
-cmd System.Data.SqlClient.SqlCommand,
-*
-o o(-
-iint"__id*
-
-
-%13int*
-2
-3*C
-2r r($/
--
-r r($
-	actualizabool"__id*
-""*
-3*
-3z	 z(	*
-4
-5*—
-4w w()a_
-w  w()
-%14string"System.Exception.Message.get*
-
-eSystem.Exception2Message.getŸ
-œ
-w w(*(
-%15!System.Windows.Forms.DialogResult",System.Windows.Forms.MessageBox.Show(string)*%#"!
-System.Windows.Forms.MessageBox*
-
-%14string*
-5*.
-5y y("
-y y(
-
-	actualizabool*.
-6z	 z(	"
-z z(	
-implicit return:.
-c+ c(>"
-tipCapaEntidad.EntTipoProductoB#!
-CapaAccesoDatos.DatTipoProducto

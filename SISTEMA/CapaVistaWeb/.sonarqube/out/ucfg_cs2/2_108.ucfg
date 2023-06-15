@@ -1,44 +1,0 @@
-
-KCapaLogica.ValidatorHelper.aString(System.Collections.Generic.List<string>)e
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\ValidatorHelper.cs" "($"0*ç
-0$ %(&A
-?
-$ $((
-%0string"__id**
-string"
-Emptystring6
-4
-$ $((
-errorsstring"__id*
-
-%0string*
-1*
-1)	 )(	*
-2
-3*Ø
-2& &(c
-a
-& &(
-%1string"__concat*
-& &(
-
-errorsstring*
-& &(
-
-valuestring6
-4
-& &(
-errorsstring"__id*
-
-%1string*
-1*-
-3( (("
-( ((
-
-errorsstring*.
-4)	 )(	"
-) )(	
-implicit return:7
-"% "(6+
-lista"System.Collections.Generic.List<T>B"
-CapaLogica.ValidatorHelper

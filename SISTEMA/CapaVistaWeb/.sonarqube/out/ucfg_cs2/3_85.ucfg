@@ -1,125 +1,0 @@
-
-DMadereraCarocho.Controllers.ProveedorController.RegistrarProveedor()w
-mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs/ /(."2*‹
-01 4(è
-å
-1* 1(7
-%0CapaLogica.LogUbigeo"__id*^\*Z1
-/MadereraCarocho.Controllers.ProveedorController"%
-UbigeoserviceCapaLogica.LogUbigeo}
-{
-1* 1(H(
-%1"System.Collections.Generic.List<T>"%CapaLogica.LogUbigeo.ListarDistrito()*
-
-%0CapaLogica.LogUbigeos
-q
-1 1(H1
-listaUbigeo"System.Collections.Generic.List<T>"__id*,*
-(
-%1"System.Collections.Generic.List<T>HF
-2 2(N
-%2System.Web.Mvc.SelectList"System.Web.Mvc.SelectListÎ
-Ë
-2 2()
-
-%3void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
-
-%2System.Web.Mvc.SelectList*53
-1
-listaUbigeo"System.Collections.Generic.List<T>*
-
-idUbigeo*
-
-distrito^
-\
-2 2(N%
-lsUbigeoSystem.Web.Mvc.SelectList"__id*#!
-
-%2System.Web.Mvc.SelectList/-
-3 3(
-%ViewBagDataAllobject"object0.
-3 3(
-%ViewBagDataHtmlobject"objecty
-w
-3 3(*
-%4"__mapSet*
-
-%ViewBagDataAllobject*
-listaUbigeo*)'
-%
-lsUbigeoSystem.Web.Mvc.SelectListY
-W
-3 3(*
-%5"__mapSet*
-
-%ViewBagDataHtmlobject*
-listaUbigeo*
-""¶
-£
-4 4(
-
-%6void"/capavistaweb/views/proveedor/registrarproveedor*
-
-%7*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobjectî
-ë
-4 4(
-
-%8void"capavistaweb/views/_viewstart*
-
-%9*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobjectö
-ó
-4 4(
-%10void"!capavistaweb/views/shared/_layout*	
-
-%11*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-4 4(
-
-%10void*.
-15	 5(	"
-5 5(	
-implicit return*5
-2/0 /(0!
-
-/ /(.
-%12"__entrypoint*
-0B31
-/MadereraCarocho.Controllers.ProveedorController

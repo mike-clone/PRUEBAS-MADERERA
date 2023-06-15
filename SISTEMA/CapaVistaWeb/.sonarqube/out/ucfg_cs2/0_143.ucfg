@@ -1,16 +1,0 @@
-
-#CapaEntidad.EntProveedor.Correo.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs/ /("0*
-0/ /(T
-R
-/ /(
-%0string"__id*20*.
-CapaEntidad.EntProveedor"
-correostring"
-/ /( 
-
-%0string*.
-1/" /(""
-/! /("
-implicit returnB
-CapaEntidad.EntProveedor

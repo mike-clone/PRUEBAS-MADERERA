@@ -1,13 +1,0 @@
-±
-CapaEntidad.EntDetCompraobject9
-EntDetCompra()'CapaEntidad.EntDetCompra.EntDetCompra()1
-
-Compra.get#CapaEntidad.EntDetCompra.Compra.get1
-
-Compra.set#CapaEntidad.EntDetCompra.Compra.setG
-ProveedorProducto.get.CapaEntidad.EntDetCompra.ProveedorProducto.getG
-ProveedorProducto.set.CapaEntidad.EntDetCompra.ProveedorProducto.set5
-Cantidad.get%CapaEntidad.EntDetCompra.Cantidad.get5
-Cantidad.set%CapaEntidad.EntDetCompra.Cantidad.set5
-Subtotal.get%CapaEntidad.EntDetCompra.Subtotal.get5
-Subtotal.set%CapaEntidad.EntDetCompra.Subtotal.set

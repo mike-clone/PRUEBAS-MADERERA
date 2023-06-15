@@ -1,14 +1,0 @@
-
-&CapaEntidad.EntTipoProducto.Nombre.getf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.cs	 	(""0*k
-0	& 	(,W
-U
-	& 	(,
-%0string"__id*53*1
-CapaEntidad.EntTipoProducto"
-nombrestring*
-1*.
-1	- 	(-"
-	, 	(-
-implicit returnB
-CapaEntidad.EntTipoProducto

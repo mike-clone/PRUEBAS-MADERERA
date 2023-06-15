@@ -1,20 +1,0 @@
-
-)CapaLogica.LogVenta.ListarTodasLasVenta()^
-TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs& &(1"0*ó
-0( ((5í
-è
-( ((*
-%0$CapaAccesoDatos.Interfaces.IDatVenta"__id*QO*M
-CapaLogica.LogVenta"4
-VentaService$CapaAccesoDatos.Interfaces.IDatVenta∫∑
-( ((5(
-%1"System.Collections.Generic.List<T>":CapaAccesoDatos.Interfaces.IDatVenta.ListarTodasLasVenta()*.,
-*
-%0$CapaAccesoDatos.Interfaces.IDatVenta2ListarTodasLasVenta()"6
-( ((6*
-(
-%1"System.Collections.Generic.List<T>*.
-1)	 )(	"
-) )(	
-implicit returnB
-CapaLogica.LogVenta

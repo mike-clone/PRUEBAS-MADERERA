@@ -1,25 +1,0 @@
-
-(CapaLogica.LogCompra.EliminarCompra(int)_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs" "(""0*ç
-0$ $(4–
-“
-$ $( +
-%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
-CapaLogica.LogCompra"6
-CompraService%CapaAccesoDatos.Interfaces.IDatCompra¤¡
-$ $(5
-
-%1bool"9CapaAccesoDatos.Interfaces.IDatCompra.EliminarCompra(int)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatCompra*
-""2EliminarCompra(int)"
-$ $(6
-
-
-%1bool*.
-1%	 %(	"
-% %(	
-implicit return:
-"# "(+
-compintB
-CapaLogica.LogCompra

@@ -1,87 +1,0 @@
-
-CMadereraCarocho.Controllers.CompraController.ListarTodasLasVentas()t
-jC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\CompraController.cs+ +(0"2*ç	
-0- -(:‰
-†
-- -($
-%0CapaLogica.LogVenta"__id*YW*U.
-,MadereraCarocho.Controllers.CompraController"#
-VentaserviceCapaLogica.LogVenta€
-~
-- -(:(
-%1"System.Collections.Generic.List<T>")CapaLogica.LogVenta.ListarTodasLasVenta()*
-
-%0CapaLogica.LogVentaÂ
-¿
-- -(;
-
-%2void".capavistaweb/views/compra/listartodaslasventas*
-
-%3*,*
-(
-%1"System.Collections.Generic.List<T>*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject±
-®
-- -(;
-
-%4void"capavistaweb/views/_viewstart*
-
-%5*,*
-(
-%1"System.Collections.Generic.List<T>*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobjectµ
-²
-- -(;
-
-%6void"!capavistaweb/views/shared/_layout*
-
-%7*,*
-(
-%1"System.Collections.Generic.List<T>*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-- -(<
-
-
-%6void*.
-1.	 .(	"
-. .(	
-implicit return*4
-2+2 +(2 
-
-+ +(0
-%8"__entrypoint*
-0B0.
-,MadereraCarocho.Controllers.CompraController

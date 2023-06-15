@@ -1,184 +1,0 @@
-
-$CapaAccesoDatos.datRoll.ListarRoll()b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datRoll.cs ('"0*ó
-0 (5E
-C
- (!'
-cmd System.Data.SqlClient.SqlCommand"__id*
-""ZX
-" (5(
-%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
-o
-& (3
-
-%1void")System.Collections.Generic.List<T>.List()*,*
-(
-%0"System.Collections.Generic.List<T>m
-k
- (5+
-lista"System.Collections.Generic.List<T>"__id*,*
-(
-%0"System.Collections.Generic.List<T>*
-1*◊
-
-1 (6t
-r
-# (5
-%2CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
-CapaAccesoDatos.ConexionÄ
-~
-# (@)
-%3#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
-
-%2CapaAccesoDatos.Conexionl
-j
- (@)
-cn#System.Data.SqlClient.SqlConnection"__id*-+
-)
-%3#System.Data.SqlClient.SqlConnectionVT
- (7&
-%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommand·
-ﬁ
- ($
-
-%5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
-&
-%4 System.Data.SqlClient.SqlCommand*
-spListarRol*-+
-)
-cn#System.Data.SqlClient.SqlConnectiong
-e
- (7'
-cmd System.Data.SqlClient.SqlCommand"__id**(
-&
-%4 System.Data.SqlClient.SqlCommand"
- 
-" (=
-%6"__id*
-""ï
-í
- (=
-%7System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
-'
-cmd System.Data.SqlClient.SqlCommand*
-
-%6s
-q
- (
-
-%8void"*System.Data.SqlClient.SqlConnection.Open()*-+
-)
-cn#System.Data.SqlClient.SqlConnectionó
-î
-# (6)
-%9#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
-'
-cmd System.Data.SqlClient.SqlCommandl
-j
- (6)
-dr#System.Data.SqlClient.SqlDataReader"__id*-+
-)
-%9#System.Data.SqlClient.SqlDataReader*
-2*ì
-2 ( |z
- ( 
-%10bool"*System.Data.SqlClient.SqlDataReader.Read()*-+
-)
-dr#System.Data.SqlClient.SqlDataReader2Read()*
-3
-4*¯
-3 %(!=;
-" #(
-%11CapaEntidad.entRoll"CapaEntidad.entRollX
-V
-& (-
-%12void"CapaEntidad.entRoll.entRoll()*
-
-%11CapaEntidad.entRoll†ù
-!1 !(<
-%13object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*	
-idRol2this[string].geta
-_
-!! !(=
-
-%14int"System.Convert.ToInt32(object)*"
-System.Convert*
-
-%13objecth
-f
-! !(=
-
-%15int"CapaEntidad.entRoll.IdRoll.set*
-
-%11CapaEntidad.entRoll*
-
-
-%14int¶£
-"& "(7
-%16object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-descripcion2this[string].getMK
-"& "(B
-%17string"object.ToString()*
-
-%16object2
-ToString()s
-q
-" "(B
-%18string"#CapaEntidad.entRoll.Descripcion.set*
-
-%11CapaEntidad.entRoll*
-
-%17stringN
-L
- #(
-rolCapaEntidad.entRoll"__id*
-
-%11CapaEntidad.entRollù
-ö
-% %("
-%19void"0System.Collections.Generic.ICollection<T>.Add(T)*/-
-+
-lista"System.Collections.Generic.List<T>*
-
-rolCapaEntidad.entRoll*
-2*
-4/	 /(	*
-5
-6*Ï
-5, ,(pa_
-,  ,()
-%20string"System.Exception.Message.get*
-
-eSystem.Exception2Message.get#
-!
-,F ,(Z
-%21"__id*
-""#
-!
-,\ ,(p
-%22"__id*
-""™
-ß
-, ,(q(
-%23!System.Windows.Forms.DialogResult"ÅSystem.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
-System.Windows.Forms.MessageBox*
-
-%20string*
-EROR AL MOSTRAR LOS ROL*	
-
-%21*	
-
-%22*
-6*H
-6. .("9
-. .(-
-+
-lista"System.Collections.Generic.List<T>*.
-7/	 /(	"
-/ /(	
-implicit returnB
-CapaAccesoDatos.datRoll

@@ -1,455 +1,0 @@
-
-/CapaAccesoDatos.DatUsuario.BuscarIdUsuario(int)g
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.csÚ Ú()"0*Û
-0
-Ü Ý(+G
-E
-
-Ü Ü(!'
-cmd System.Data.SqlClient.SqlCommand"__id*
-""DB
-
-Ý Ý(+
-%0CapaEntidad.EntUsuario"CapaEntidad.EntUsuarioa
-_
-
-Ý Ý()
-
-%1void"#CapaEntidad.EntUsuario.EntUsuario()* 
-
-%0CapaEntidad.EntUsuarioS
-Q
-
-Ý Ý(+
-cCapaEntidad.EntUsuario"__id* 
-
-%0CapaEntidad.EntUsuario*
-1*õ
-1
-à å(6v
-t
-
-à# à(5
-%2CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
-CapaAccesoDatos.Conexionƒ
-€
-
-à# à(@)
-%3#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
-
-%2CapaAccesoDatos.Conexionn
-l
-
-à à(@)
-cn#System.Data.SqlClient.SqlConnection"__id*-+
-)
-%3#System.Data.SqlClient.SqlConnectionXV
-
-á á(=&
-%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandé
-æ
-
-á á($
-
-%5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
-&
-%4 System.Data.SqlClient.SqlCommand*
-spBuscarIdUsuario*-+
-)
-cn#System.Data.SqlClient.SqlConnectioni
-g
-
-á á(='
-cmd System.Data.SqlClient.SqlCommand"__id**(
-&
-%4 System.Data.SqlClient.SqlCommand$
-"
-
-â" â(=
-%6"__id*
-""—
-”
-
-â â(=
-%7System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
-'
-cmd System.Data.SqlClient.SqlCommand*
-
-%6¡
-ž
-
-ã ã(2
-%8,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandÕ
-Ò
-
-ã ã(C(
-%9"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
-2
-%8,System.Data.SqlClient.SqlParameterCollection*
-
-@IdUsuario*
-""v
-t
-
-ä ä(
-%10void"*System.Data.SqlClient.SqlConnection.Open()*-+
-)
-cn#System.Data.SqlClient.SqlConnectionš
-—
-
-å# å(6*
-%11#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
-'
-cmd System.Data.SqlClient.SqlCommando
-m
-
-å å(6)
-dr#System.Data.SqlClient.SqlDataReader"__id*.,
-*
-%11#System.Data.SqlClient.SqlDataReader*
-2*—
-2
-æ æ( ~|
-
-æ æ( 
-%12bool"*System.Data.SqlClient.SqlDataReader.Read()*-+
-)
-dr#System.Data.SqlClient.SqlDataReader2Read()*
-3
-4*ñ'
-3
-è ø(0¦£
-
-è2 è(A
-%13object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-	idUsuario2this[string].getc
-a
-
-è" è(B
-
-%14int"System.Convert.ToInt32(object)*"
-System.Convert*
-
-%13objectq
-o
-
-è è(B
-
-%15int"$CapaEntidad.EntUsuario.IdUsuario.set*
-
-cCapaEntidad.EntUsuario*
-
-
-%14int¨¥
-
-é$ é(5
-%16object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-razonsocial2this[string].getOM
-
-é$ é(@
-%17string"object.ToString()*
-
-%16object2
-ToString()y
-w
-
-é é(@
-%18string"&CapaEntidad.EntUsuario.RazonSocial.set*
-
-cCapaEntidad.EntUsuario*
-
-%17string¥¢
-
-ê! ê(/
-%19object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-telefono2this[string].getOM
-
-ê! ê(:
-%20string"object.ToString()*
-
-%19object2
-ToString()v
-t
-
-ê ê(:
-%21string"#CapaEntidad.EntUsuario.Telefono.set*
-
-cCapaEntidad.EntUsuario*
-
-%20string¦£
-
-ë" ë(1
-%22object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-	direccion2this[string].getOM
-
-ë" ë(<
-%23string"object.ToString()*
-
-%22object2
-ToString()w
-u
-
-ë ë(<
-%24string"$CapaEntidad.EntUsuario.Direccion.set*
-
-cCapaEntidad.EntUsuario*
-
-%23string£ 
-
-ì ì(+
-%25object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-correo2this[string].getOM
-
-ì ì(6
-%26string"object.ToString()*
-
-%25object2
-ToString()t
-r
-
-ì ì(6
-%27string"!CapaEntidad.EntUsuario.Correo.set*
-
-cCapaEntidad.EntUsuario*
-
-%26string¥¢
-
-í! í(/
-%28object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-userName2this[string].getOM
-
-í! í(:
-%29string"object.ToString()*
-
-%28object2
-ToString()v
-t
-
-í í(:
-%30string"#CapaEntidad.EntUsuario.UserName.set*
-
-cCapaEntidad.EntUsuario*
-
-%29string¡ž
-
-î î('
-%31object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-pass2this[string].getOM
-
-î î(2
-%32string"object.ToString()*
-
-%31object2
-ToString()r
-p
-
-î î(2
-%33string"CapaEntidad.EntUsuario.Pass.set*
-
-cCapaEntidad.EntUsuario*
-
-%32string£ 
-
-ï1 ï(=
-%34object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-activo2this[string].getf
-d
-
-ï ï(>
-%35bool" System.Convert.ToBoolean(object)*"
-System.Convert*
-
-%34objectp
-n
-
-ï ï(>
-%36bool"!CapaEntidad.EntUsuario.Activo.set*
-
-cCapaEntidad.EntUsuario*
-
-%35bool?=
-
-ð ó(
-%37CapaEntidad.entRoll"CapaEntidad.entRollZ
-X
-
-ð! ð((
-%38void"CapaEntidad.entRoll.entRoll()*
-
-%37CapaEntidad.entRoll¨¥
-
-ò& ò(7
-%39object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-descripcion2this[string].getOM
-
-ò& ò(B
-%40string"object.ToString()*
-
-%39object2
-ToString()u
-s
-
-ò ò(B
-%41string"#CapaEntidad.entRoll.Descripcion.set*
-
-%37CapaEntidad.entRoll*
-
-%40string
-Š
-
-ð ó(
-%42CapaEntidad.entRoll"CapaEntidad.EntUsuario.Roll.set*
-
-cCapaEntidad.EntUsuario*
-
-%37CapaEntidad.entRollCA
-
-ô ù(
-%43CapaEntidad.EntUbigeo"CapaEntidad.EntUbigeo`
-^
-
-ô# ô(,
-%44void"!CapaEntidad.EntUbigeo.EntUbigeo()* 
-
-%43CapaEntidad.EntUbigeo©¦
-
-ö' ö(9
-%45object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-departamento2this[string].getOM
-
-ö' ö(D
-%46string"object.ToString()*
-
-%45object2
-ToString()z
-x
-
-ö ö(D
-%47string"&CapaEntidad.EntUbigeo.Departamento.set* 
-
-%43CapaEntidad.EntUbigeo*
-
-%46string¦£
-
-÷$ ÷(3
-%48object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-	provincia2this[string].getOM
-
-÷$ ÷(>
-%49string"object.ToString()*
-
-%48object2
-ToString()w
-u
-
-÷ ÷(>
-%50string"#CapaEntidad.EntUbigeo.Provincia.set* 
-
-%43CapaEntidad.EntUbigeo*
-
-%49string¥¢
-
-ø# ø(1
-%51object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-distrito2this[string].getOM
-
-ø# ø(<
-%52string"object.ToString()*
-
-%51object2
-ToString()v
-t
-
-ø ø(<
-%53string""CapaEntidad.EntUbigeo.Distrito.set* 
-
-%43CapaEntidad.EntUbigeo*
-
-%52string“
-
-
-ô ù(
-%54CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.set*
-
-cCapaEntidad.EntUsuario* 
-
-%43CapaEntidad.EntUbigeo*
-2*
-4
-‚	 ‚(	*
-5
-6*š
-5þ þ(‘ca
-
-þ  þ()
-%55string"System.Exception.Message.get*
-
-eSystem.Exception2Message.get%
-#
-
-þg þ({
-%56"__id*
-""&
-$
-þ} þ(‘
-%57"__id*
-""Î
-Ë
-þ þ(’(
-%58!System.Windows.Forms.DialogResult"System.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
-System.Windows.Forms.MessageBox*
-
-%55string*><:
-8Error al buscar usuarios procedimiento spBuscarIDUsuario*	
-
-%56*	
-
-%57*
-6*<
-6
- ("+
-
- (
-
-cCapaEntidad.EntUsuario*2
-7
-‚	 ‚(	"!
-
-‚ ‚(	
-implicit return:
-
-Ú* Ú(6
-busquedaintB
-CapaAccesoDatos.DatUsuario

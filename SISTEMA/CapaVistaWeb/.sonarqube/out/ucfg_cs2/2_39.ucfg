@@ -1,23 +1,0 @@
-
-3CapaLogica.LogDetCompra.MostrarDetalleCompraId(int)b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetCompra.cs" (8"0*Å
-0 (=¢
-Ÿ
- (#.
-%0(CapaAccesoDatos.Interfaces.IDatDetCompra"__id*][*Y
-CapaLogica.LogDetCompra"<
-DetCompraService(CapaAccesoDatos.Interfaces.IDatDetCompraØÕ
- (>(
-%1"System.Collections.Generic.List<T>"DCapaAccesoDatos.Interfaces.IDatDetCompra.MostrarDetalleCompraId(int)*20
-.
-%0(CapaAccesoDatos.Interfaces.IDatDetCompra*
-""2MostrarDetalleCompraId(int)"6
- (?*
-(
-%1"System.Collections.Generic.List<T>*.
-1	 (	"
- (	
-implicit return:
-9 (?	
-idintB
-CapaLogica.LogDetCompra

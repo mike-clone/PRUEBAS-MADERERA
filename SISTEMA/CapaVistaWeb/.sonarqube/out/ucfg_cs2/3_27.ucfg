@@ -1,80 +1,0 @@
-
-HMadereraCarocho.Controllers.ProductoController.EliminarDetalle(int, int)x
-lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.cs“ “(+"4*£
-0
-— —(_±
-®
-
-— —(7%
-%0CapaLogica.LogProveedorProducto"__id*sq*o0
-.MadereraCarocho.Controllers.ProductoController";
-ProveedorProductoserviceCapaLogica.LogProveedorProductož
-›
-
-— —(`
-
-%1bool"BCapaLogica.LogProveedorProducto.EliminarDetalleProveedor(int, int)*)'
-%
-%0CapaLogica.LogProveedorProducto*
-""*
-""5
-3
-
-— —(`
-eliminabool"__id*
-
-
-%1bool*
-1
-2*î
-1
-› ›(\ca
-
-›R ›(\
-%2string"System.Exception.Message.get*
-
-exSystem.Exception2Message.get»
-¸
-
-› ›(_*
-%3$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
-System.Web.Mvc.Controller*
-ListarParaComprar*
-""":
-
-› ›(`,
-*
-%3$System.Web.Mvc.RedirectToRouteResult*÷
-2
-ž ž(7©
-¦
-
-ž ž(8*
-%4$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-ListarParaComprar":
-
-ž ž(9,
-*
-%4$System.Web.Mvc.RedirectToRouteResult*2
-3
-Ÿ	 Ÿ(	"!
-
-Ÿ Ÿ(	
-implicit return*L
-4
-“C “(C6
-4
-
-“ “(+
-%5"__entrypoint*
-""*
-""*
-0:
-
-“, “(6
-idprovint:
-
-“8 “(B
-idprodintB20
-.MadereraCarocho.Controllers.ProductoController

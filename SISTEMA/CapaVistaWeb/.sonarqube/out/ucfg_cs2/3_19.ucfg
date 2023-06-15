@@ -1,61 +1,0 @@
-
-NMadereraCarocho.Controllers.TemporaryProductController.EliminarTempPrduct(int)~
-tC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\TemporaryProductController.cs+ +(."4*Ž
-0/ /(Q°
-­
-/ /(0%
-%0CapaLogica.LogTemporaryProducts"__id*tr*p8
-6MadereraCarocho.Controllers.TemporaryProductController"4
-TemporaryPserviceCapaLogica.LogTemporaryProductsŽ
-‹
-/ /(R
-
-%1bool">CapaLogica.LogTemporaryProducts.EliminarTemporaryProducts(int)*)'
-%
-%0CapaLogica.LogTemporaryProducts*
-""3
-1
-/ /(R
-eliminabool"__id*
-
-
-%1bool*
-1
-2*î
-14 4(Xa_
-4N 4(X
-%2string"System.Exception.Message.get*
-
-exSystem.Exception2Message.getÁ
-¾
-4 4([*
-%3$System.Web.Mvc.RedirectToRouteResult"BSystem.Web.Mvc.Controller.RedirectToAction(string, string, object)*
-System.Web.Mvc.Controller*	
-Error*
-
-Home*
-"""8
-4 4(\,
-*
-%3$System.Web.Mvc.RedirectToRouteResult*ñ
-26 6(7§
-¤
-6 6(8*
-%4$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-ListarTempProduct"8
-6 6(9,
-*
-%4$System.Web.Mvc.RedirectToRouteResult*.
-37	 7(	"
-7 7(	
-implicit return*>
-4+: +(:*
-(
-+ +(.
-%5"__entrypoint*
-""*
-0:
-+/ +(9
-idtempintB:8
-6MadereraCarocho.Controllers.TemporaryProductController
