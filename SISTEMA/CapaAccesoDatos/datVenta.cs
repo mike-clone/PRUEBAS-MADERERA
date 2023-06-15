@@ -48,10 +48,7 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message, "Error al insertar una venta procedimiento spCrearVenta", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
+            
             return idVenta;
         }
         //Leer
@@ -88,10 +85,7 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
+           
             return lista;
         }
 
@@ -128,111 +122,8 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
+            
             return lista;
         }
-
-        #region SIN CHEQUEAR
-        ////Leer ventas Pagadas
-        //public List<entVenta> ListarVentaPagada(DateTime fecha)
-        //{
-        //    SqlCommand cmd = null;
-        //    List<entVenta> lista = new List<entVenta>();
-        //    try
-        //    {
-        //        SqlConnection cn = Conexion.Instancia.Conectar();
-        //        cmd = new SqlCommand("spListarVentaPagada", cn);
-        //        cmd.Parameters.AddWithValue("@fecha", fecha);
-        //        cmd.CommandType = CommandType.StoredProcedure;
-        //        cn.Open();
-        //        SqlDataReader dr = cmd.ExecuteReader();
-        //        while (dr.Read())
-        //        {
-        //            entVenta Prod = new entVenta();
-        //            Prod.IdVenta = Convert.ToInt32(dr["idVenta"]);
-        //            Prod.Fecha = Convert.ToDateTime(dr["fecha"]);
-        //            Prod.Total = Convert.ToDouble(dr["total"]);
-        //            Prod.Estado = Convert.ToBoolean(dr["estado"]);
-        //            lista.Add(Prod);
-        //        }
-        //    }
-        //    catch (Exception e)
-        //    {
-
-        //        MessageBox.Show(e.Message);
-        //    }
-        //    finally
-        //    {
-        //        cmd.Connection.Close();
-        //    }
-        //    return lista;
-        //}
-        ////Listar venta no pagada 
-        //public List<entVenta> ListarVentaNoPagada(DateTime fecha)
-        //{
-        //    SqlCommand cmd = null;
-        //    List<entVenta> lista = new List<entVenta>();
-        //    try
-        //    {
-        //        SqlConnection cn = Conexion.Instancia.Conectar();
-        //        cmd = new SqlCommand("spListarVentaNoPagada", cn);
-        //        cmd.Parameters.AddWithValue("@fecha", fecha);
-        //        cmd.CommandType = CommandType.StoredProcedure;
-        //        cn.Open();
-        //        SqlDataReader dr = cmd.ExecuteReader();
-        //        while (dr.Read())
-        //        {
-        //            entVenta Prod = new entVenta();
-        //            Prod.IdVenta = Convert.ToInt32(dr["idVenta"]);
-        //            Prod.Fecha = Convert.ToDateTime(dr["fecha"]);
-        //            Prod.Total = Convert.ToDouble(dr["total"]);
-        //            Prod.Estado = Convert.ToBoolean(dr["estado"]);
-        //            lista.Add(Prod);
-        //        }
-        //    }
-        //    catch (Exception e)
-        //    {
-
-        //        MessageBox.Show(e.Message);
-        //    }
-        //    finally
-        //    {
-        //        cmd.Connection.Close();
-        //    }
-        //    return lista;
-        //}
-        ////Actualizar
-        //public bool ActualizarVenta(int idVenta, bool estado)
-        //{
-        //    SqlCommand cmd = null;
-        //    bool actualizarVenta = false;
-        //    try
-        //    {
-        //        SqlConnection cn = Conexion.Instancia.Conectar();
-        //        cmd = new SqlCommand("spActualizarVenta", cn);
-        //        cmd.CommandType = CommandType.StoredProcedure;
-        //        cmd.Parameters.AddWithValue("@idVenta", idVenta);
-        //        cmd.Parameters.AddWithValue("@estado", estado);
-        //        cn.Open();
-        //        int i = cmd.ExecuteNonQuery();
-        //        if (i > 0)
-        //        {
-        //            actualizarVenta = true;
-        //        }
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        MessageBox.Show(e.Message);
-        //    }
-        //    finally
-        //    {
-        //        cmd.Connection.Close();
-        //    }
-        //    return actualizarVenta;
-        //}
-        #endregion
     }
 }

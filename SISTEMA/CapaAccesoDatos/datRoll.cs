@@ -43,10 +43,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message, "EROR AL MOSTRAR LOS ROL", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return lista;
         }
     }

@@ -37,10 +37,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return creado;
         }
 
@@ -98,10 +94,6 @@ namespace CapaAccesoDatos
             {
 
                 MessageBox.Show(e.Message);
-            }
-            finally
-            {
-                cmd.Connection.Close();
             }
             return list;
         }

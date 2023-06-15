@@ -36,10 +36,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message, "ERROR AL INSERTAR UN TIPO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return creado;
 
         }
@@ -67,10 +63,6 @@ namespace CapaAccesoDatos
             catch (Exception e)
             {
                 MessageBox.Show(e.Message, "EROR AL MOSTRAR LOS TIPOS", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                cmd.Connection.Close();
             }
             return lista;
         }
@@ -102,10 +94,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message, "EROR AL MOSTRAR LOS TIPOS", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return lista;
         }
         public bool ActualizarTipoProducto(EntTipoProducto tip)
@@ -130,7 +118,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message);
             }
-            finally { cmd.Connection.Close(); }
             return actualiza;
         }
 
@@ -156,7 +143,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message);
             }
-            finally { cmd.Connection.Close(); }
             return eliminado;
         }
 

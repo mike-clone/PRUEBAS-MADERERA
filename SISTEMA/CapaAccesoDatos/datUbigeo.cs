@@ -38,10 +38,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message, "ERROR AL INSERTAR UBIGEO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return creado;
 
         }
@@ -72,10 +68,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message, "EROR AL MOSTRAR UBIGEO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return lista;
         }
 
@@ -101,10 +93,6 @@ namespace CapaAccesoDatos
             catch (Exception e)
             {
                 MessageBox.Show(e.Message, "EROR AL MOSTRAR DISTRITO", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                cmd.Connection.Close();
             }
             return lista;
         }
@@ -134,7 +122,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message);
             }
-            finally { cmd.Connection.Close(); }
             return actualiza;
         }
 
@@ -160,7 +147,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message);
             }
-            finally { cmd.Connection.Close(); }
             return eliminado;
         }
 
@@ -191,10 +177,7 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
+            
             return lista;
         }
 

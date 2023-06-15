@@ -41,10 +41,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message, "ERROR AL INSERTAR UN PRODUCTO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return creado;
 
         }
@@ -118,7 +114,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show("el error esta aqui" + e.Message);
             }
-            finally { cmd.Connection.Close(); }
             return actualiza;
         }
 
@@ -146,7 +141,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message);
             }
-            finally { cmd.Connection.Close(); }
             return eliminado;
         }
 
@@ -190,10 +184,6 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return lista;
         }
 
@@ -235,7 +225,6 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message);
             }
-            finally { cmd.Connection.Close(); }
             return Prod;
         }
 
@@ -283,10 +272,6 @@ namespace CapaAccesoDatos
             {
 
                 MessageBox.Show(e.Message);
-            }
-            finally
-            {
-                cmd.Connection.Close();
             }
             return lista;
         }

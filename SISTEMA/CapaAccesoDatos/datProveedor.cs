@@ -90,10 +90,6 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message + "aqui es el error");
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return list;
         }
         //Actualizar
@@ -125,10 +121,6 @@ namespace CapaAccesoDatos
             {
 
                 MessageBox.Show(e.Message + "aqui es el error");
-            }
-            finally
-            {
-                cmd.Connection.Close();
             }
             return list;
 
@@ -191,10 +183,6 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return eliminado;
         }
 
@@ -227,10 +215,6 @@ namespace CapaAccesoDatos
             {
 
                 MessageBox.Show(e.Message + "aqui es el error");
-            }
-            finally
-            {
-                cmd.Connection.Close();
             }
             return list;
 
@@ -274,10 +258,6 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return list;
         }
         public EntProveedor BuscarIdProveedor(int idProveedor)
@@ -310,7 +290,6 @@ namespace CapaAccesoDatos
             }
             catch (Exception e)
             { throw e; }
-            finally { cmd.Connection.Close(); }
             return pro;
         }
 

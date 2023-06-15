@@ -47,10 +47,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message, "Error al insertar una compra procedimiento spCrearCompra", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return idCompra;
         }
         //Leer
@@ -86,10 +82,6 @@ namespace CapaAccesoDatos
             catch (Exception e)
             {
                 MessageBox.Show(e.Message, "spListarcompra", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                cmd.Connection.Close();
             }
             return lista;
         }
@@ -127,10 +119,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message, "spListartodascompra", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return lista;
         }
         //Eliminar - Deshabilitar
@@ -155,7 +143,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message);
             }
-            finally { cmd.Connection.Close(); }
             return eliminado;
         }
 
@@ -185,10 +172,6 @@ namespace CapaAccesoDatos
             {
 
                 MessageBox.Show(e.Message);
-            }
-            finally
-            {
-                cmd.Connection.Close();
             }
             return lista;
         }

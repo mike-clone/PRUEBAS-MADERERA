@@ -40,10 +40,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message, "ERROR AL INSERTAR EL DETALLE", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return crear;
         }
 
@@ -96,10 +92,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message, "EROR AL MOSTRAR LOS PRODUCTOS", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return lista;
         }
 
@@ -142,7 +134,6 @@ namespace CapaAccesoDatos
             }
             catch (Exception e)
             { throw e; }
-            finally { cmd.Connection.Close(); }
             return list;
         }
 
@@ -168,10 +159,6 @@ namespace CapaAccesoDatos
             {
 
                 MessageBox.Show(e.Message);
-            }
-            finally
-            {
-                cmd.Connection.Close();
             }
             return eliminado;
 
@@ -226,10 +213,6 @@ namespace CapaAccesoDatos
             {
 
                 MessageBox.Show(e.Message);
-            }
-            finally
-            {
-                cmd.Connection.Close();
             }
             return lista;
         }
@@ -286,7 +269,6 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message);
             }
-            finally { cmd.Connection.Close(); }
             return Prod;
         }
     }

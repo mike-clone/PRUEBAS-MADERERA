@@ -80,10 +80,7 @@ namespace CapaAccesoDatos
                 MessageBox.Show(e.Message, "ERROR AL MOSTRAR CLIENTES", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
+            
             return lista;
         }
 
@@ -125,10 +122,7 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message, "Error al buscar Clientes procedimiento spBuscarCliente", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
+            
             return lista;
         }
 
@@ -156,7 +150,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message);
             }
-            finally { cmd.Connection.Close(); }
 
             return actualiza;
 
@@ -202,10 +195,7 @@ namespace CapaAccesoDatos
                 MessageBox.Show(e.Message, "ERROR AL MOSTRAR CLIENTES", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
+            
             return lista;
         }
 
@@ -237,10 +227,7 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
+            
             return actualizado;
         }
 
@@ -282,10 +269,7 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message, "Error al buscar Clientes procedimiento spBuscarCliente", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
+           
             return lista;
         }
         #endregion
@@ -329,10 +313,7 @@ namespace CapaAccesoDatos
             {
                throw new Exception("no se encontro un suario"+ex.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
+           
             return c;
         }
 
@@ -360,7 +341,6 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message, "Error al Eliminar Cliente procedimiento spEliminarCliente", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally { cmd.Connection.Close(); }
             return eliminado;
         }
         public EntUsuario BuscarIdUsuario(int busqueda)
@@ -402,7 +382,6 @@ namespace CapaAccesoDatos
                 MessageBox.Show(e.Message, "Error al buscar usuarios procedimiento spBuscarIDUsuario", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
-            finally { cmd.Connection.Close(); }
             return c;
         }
 

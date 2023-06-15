@@ -40,10 +40,7 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
+            
             return creado;
 
         }
@@ -72,10 +69,6 @@ namespace CapaAccesoDatos
             {
 
                 MessageBox.Show(e.Message);
-            }
-            finally
-            {
-                cmd.Connection.Close();
             }
             return creado;
 
@@ -132,10 +125,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return list;
         }
 
@@ -182,10 +171,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return list;
         }
 
@@ -211,10 +196,6 @@ namespace CapaAccesoDatos
             {
 
                 MessageBox.Show(e.Message);
-            }
-            finally
-            {
-                cmd.Connection.Close();
             }
             return eliminado;
 
@@ -244,10 +225,6 @@ namespace CapaAccesoDatos
             {
 
                 MessageBox.Show(e.Message);
-            }
-            finally
-            {
-                cmd.Connection.Close();
             }
             return actualizado;
         }
@@ -303,7 +280,6 @@ namespace CapaAccesoDatos
             { 
                 MessageBox.Show(e.Message); 
             }
-            finally { cmd.Connection.Close(); }
 
             return temp;
         }
@@ -358,7 +334,6 @@ namespace CapaAccesoDatos
             {
                 MessageBox.Show(e.Message);
             }
-            finally { cmd.Connection.Close(); }
 
             return temp;
         }

@@ -38,10 +38,6 @@ namespace CapaAccesoDatos
 
                 MessageBox.Show(e.Message);
             }
-            finally
-            {
-                cmd.Connection.Close();
-            }
             return NombreMadera;
         }
     }
