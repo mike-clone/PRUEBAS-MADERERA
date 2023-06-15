@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 'CapaAccesoDatos.DatUsuario.DatUsuario()W
 MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs ("0*1
 0
@@ -6,3 +7,21 @@ MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs
 	 …(
 implicit returnB
 CapaAccesoDatos.DatUsuario
+=======
+&CapaAccesoDatos.Conexion.Instancia.getc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Conexion.cs ("0*¹
+0 (#|
+z
+ (#
+%0CapaAccesoDatos.Conexion"__id*HF*D
+CapaAccesoDatos.Conexion"&
+
+_instanciaCapaAccesoDatos.Conexion",
+ ($ 
+
+%0CapaAccesoDatos.Conexion*.
+1& (&"
+% (&
+implicit returnB"
+CapaAccesoDatos.Conexion
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 -CapaEntidad.entReporteCompra.PrecUnitario.getY
 OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs% (("0*r
 0, (8^
@@ -12,3 +13,20 @@ OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs
 8 (9
 implicit returnB 
 CapaEntidad.entReporteCompra
+=======
+(CapaEntidad.EntProveedor.Descripcion.setc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs> >("0*p
+0> >(%\
+Z
+> >(%3
+CapaEntidad.EntProveedor"
+descripcionstring"__id*
+
+valuestring*
+1*.
+1>( >(("
+>' >((
+implicit return:
+valuestringB
+CapaEntidad.EntProveedor
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

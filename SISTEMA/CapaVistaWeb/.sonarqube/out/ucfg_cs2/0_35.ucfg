@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 !CapaEntidad.EntDetVenta.Venta.setT
 JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs ("0*…
 0 (q
@@ -14,3 +15,19 @@ o
 implicit return:
 valueCapaEntidad.EntVentaB
 CapaEntidad.EntDetVenta
+=======
+%CapaEntidad.EntDetCompra.Cantidad.setc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs/ (2"0*_
+06 (FK
+I
+6 (F-
+CapaEntidad.EntDetCompra"
+cantidadint"__id*
+""*
+1*.
+1G (G"
+F (G
+implicit return:
+valueintB
+CapaEntidad.EntDetCompra
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

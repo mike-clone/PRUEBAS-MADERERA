@@ -424,8 +424,13 @@ dD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTes
 
 ’’ 
 •• 
+<<<<<<< HEAD
 ŸŸ % 	
 lD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatTemporaryProductsTest.cs
+=======
+ŸŸ %®	
+zC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatTemporaryProductsTest.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
  )
 
@@ -500,8 +505,13 @@ lD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTes
 ¥¥ '
 
 ¥¥ 
+<<<<<<< HEAD
 ¦¦ #œ
 bD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatUsuarioTest.cs
+=======
+¦¦ #ª
+pC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatUsuarioTest.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
  
 
@@ -614,9 +624,14 @@ bD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTes
 ãã  
 êê 
 ìì !
+<<<<<<< HEAD
 íí !H
 FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\MadereraTest\Usings.cs¤
 `D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatVentaTest.cs
+=======
+íí !²
+nC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\MadereraTest\CapaAccesoDatosTest\DatVentaTest.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
  
 
@@ -640,4 +655,9 @@ FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\MadereraTest\Usings.cs¤
 PP RR6 ;
 RR RR 
 SS TT #
+<<<<<<< HEAD
 TT UU #
+=======
+TT UU #V
+TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\MadereraTest\Usings.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

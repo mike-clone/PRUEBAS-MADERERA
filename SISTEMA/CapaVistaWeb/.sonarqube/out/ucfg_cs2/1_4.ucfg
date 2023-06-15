@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 !CapaAccesoDatos.datRoll.datRoll()T
 JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datRoll.cs
  
@@ -8,3 +9,25 @@ JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datRoll.cs
  0(
 implicit returnB
 CapaAccesoDatos.datRoll
+=======
+.CapaAccesoDatos.datGrafEst.datGrafEst()!statice
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datGrafEst.cs	 	("0*ç
+0+ +(JH
+7 (G 
+%0CapaAccesoDatos.datGrafEst"CapaAccesoDatos.datGrafEstg
+e
+; (E
+
+%1void"'CapaAccesoDatos.datGrafEst.datGrafEst()*$"
+ 
+%0CapaAccesoDatos.datGrafEst
+
++ (GG
+CapaAccesoDatos.datGrafEst"'
+	_instanceCapaAccesoDatos.datGrafEst"__id*$"
+ 
+%0CapaAccesoDatos.datGrafEst"
+	 +(
+implicit returnB"
+CapaAccesoDatos.datGrafEst
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

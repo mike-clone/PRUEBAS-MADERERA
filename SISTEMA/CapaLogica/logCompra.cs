@@ -9,7 +9,7 @@ namespace CapaLogica
     public class LogCompra
     {
         
-        private IDatCompra CompraService;
+        private readonly IDatCompra CompraService;
         public LogCompra()
         {
 

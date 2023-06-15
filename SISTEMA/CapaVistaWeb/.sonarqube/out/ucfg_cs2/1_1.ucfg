@@ -1,7 +1,16 @@
 
+<<<<<<< HEAD
 !CapaAccesoDatos.encrypt.encrypt()T
 JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\encrypt.cs ("0*.
 0 ("
  (
 implicit returnB
 CapaAccesoDatos.encrypt
+=======
+#CapaAccesoDatos.Conexion.Conexion()c
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Conexion.cs ("0*.
+0   ("
+  (
+implicit returnB
+CapaAccesoDatos.Conexion
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

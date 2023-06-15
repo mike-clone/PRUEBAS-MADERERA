@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 (CapaEntidad.entReporteVenta.Longitud.setX
 ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs2 (5"0*p
 09 (I\
@@ -14,3 +15,20 @@ Z
 implicit return:
 valuestringB
 CapaEntidad.entReporteVenta
+=======
+%CapaEntidad.EntProveedor.Telefono.setc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs8 8("0*m
+08 8("Y
+W
+8 8("0
+CapaEntidad.EntProveedor"
+telefonostring"__id*
+
+valuestring*
+1*.
+18% 8(%"
+8$ 8(%
+implicit return:
+valuestringB
+CapaEntidad.EntProveedor
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

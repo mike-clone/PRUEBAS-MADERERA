@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 &
 $CapaAccesoDatos.Interfaces.IDatVenta
+=======
+Û
+CapaAccesoDatos.DatDetCompraobject(CapaAccesoDatos.Interfaces.IDatDetCompraq
+(CrearDetCompra(CapaEntidad.EntDetCompra)ECapaAccesoDatos.DatDetCompra.CrearDetCompra(CapaEntidad.EntDetCompra)W
+MostrarDetalleCompraId(int)8CapaAccesoDatos.DatDetCompra.MostrarDetalleCompraId(int)=
+DatDetCompra()+CapaAccesoDatos.DatDetCompra.DatDetCompra()
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ª	
 $CapaAccesoDatos.DatTemporaryProductsobject0CapaAccesoDatos.Interfaces.IDatTemporaryProducts¡
 <CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)aCapaAccesoDatos.DatTemporaryProducts.CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)›
@@ -9,3 +10,10 @@ $CapaAccesoDatos.DatTemporaryProductsobject0CapaAccesoDatos.Interfaces.IDatTe
 BuscarTemporaryProductsId(int)CCapaAccesoDatos.DatTemporaryProducts.BuscarTemporaryProductsId(int)k
 !BuscarTemporaryProductsIdCli(int)FCapaAccesoDatos.DatTemporaryProducts.BuscarTemporaryProductsIdCli(int)U
 DatTemporaryProducts();CapaAccesoDatos.DatTemporaryProducts.DatTemporaryProducts()
+=======
+Â
+CapaAccesoDatos.DatDetVentaobject'CapaAccesoDatos.Interfaces.IDatDetVental
+&CrearDetVenta(CapaEntidad.EntDetVenta)BCapaAccesoDatos.DatDetVenta.CrearDetVenta(CapaEntidad.EntDetVenta)H
+Mostrardetventa(int)0CapaAccesoDatos.DatDetVenta.Mostrardetventa(int):
+DatDetVenta())CapaAccesoDatos.DatDetVenta.DatDetVenta()
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

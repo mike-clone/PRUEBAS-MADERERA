@@ -12,8 +12,13 @@ KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Conexion.cs(
  (
 
  %2
+<<<<<<< HEAD
      ±
 WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTemporaryProducts.cs(
+=======
+     ø
+eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTemporaryProducts.cs(
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
  %  4E Y *
 5 > "
 
@@ -191,8 +196,13 @@ WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTemporaryPro
 øø) +
 ¬¬8 :
 ««4 6
+<<<<<<< HEAD
 »»5 7˚
 MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs
+=======
+»»5 7â
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
  
 
@@ -456,7 +466,11 @@ MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs
 ÚÚ& (
 ˆˆ' )
 ˜˜$ &
+<<<<<<< HEAD
 ¯¯# %ä
+=======
+¯¯# %ò
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 LD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatCompra.cs
 
@@ -534,8 +548,13 @@ LD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatCompra.cs
 §§ 
 •• 
 ¶¶ 
+<<<<<<< HEAD
 ®® "î
 OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetCompra.cs
+=======
+®® "¢
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetCompra.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
  
 
@@ -552,8 +571,13 @@ OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetCompra.cs
 .. 22 33 44 66# &
 11  22@ B55 å
 66  77 ==7 9CC> @DD. 0EE. 0JJ= ?KK) +LL< >MM< >PP- /TT< >VV3 5WW4 6
+<<<<<<< HEAD
 99! (ZZ $ñ
 ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetVenta.cs(
+=======
+99! (ZZ $§
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetVenta.cs(
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
    += H !
 , 6 #
 
@@ -572,8 +596,13 @@ ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetVenta.cs
 55 "UU \\ 
 88  99@ B<< d
 ==  >> DD5 7HH% 'II8 :JJ8 :KK; =OO) +RR3 5SS4 6
+<<<<<<< HEAD
 @@  #UU  ›
 MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datGrafEst.cs(
+=======
+@@  #UU  Î
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datGrafEst.cs(
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 		   *; E  
 + 4 "
 
@@ -586,8 +615,13 @@ MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datGrafEst.cs(
  "  )) 
      
   > @ (
+<<<<<<< HEAD
    % '  # %∂
 ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProducto.cs(
+=======
+   % '  # %ƒ
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProducto.cs(
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
    += H !
 , 6 #
 
@@ -728,8 +762,13 @@ ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProducto.cs
 ÜÜ) +
 
 ¯¯) -
+<<<<<<< HEAD
 åå "¸
 OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedor.cs(
+=======
+åå "ä
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedor.cs(
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
    ,= I "
 - 6 "
 
@@ -919,8 +958,13 @@ OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedor.cs
 ùù 
 ûû 
 üü 
+<<<<<<< HEAD
 ††! $Œ
 JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datRoll.cs(
+=======
+††! $‹
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datRoll.cs(
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 
    '9 @ 
@@ -933,6 +977,7 @@ JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datRoll.cs(
  %% .. 
   4 6 (
    !!1 3""& (
+<<<<<<< HEAD
  %% !¬
 WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedorProducto.cs(
  %  4E Y *
@@ -1128,6 +1173,10 @@ RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTipoProducto
 àà 
 ââ ∏
 LD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.cs(
+=======
+ %% !∆
+ZC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.cs(
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 
    ); D 
@@ -1173,6 +1222,7 @@ LD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.cs(
 ââ 
 ää 
 åå $
+<<<<<<< HEAD
 
 ÑÑ 
 èè 
@@ -1233,13 +1283,193 @@ LD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.cs(
 
 6 8ö
 JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\encrypt.cs
+=======
 
- 
+ÑÑ 
+èè 
+ññ $
 
- &
-. 1: =
+áá  
+àà9 ;
+ãã 
+
+åå 
+çç 
+
+ôô +
+
+ôô3 ;
+¢¢6 >$
+
+õõ !
+¨¨ 
+µµ <
+
+úú 
+†† 
+°° 
+¢¢ 
+§§# &$
+
+üü  
+††7 9
+££ H
+
+§§  
+•• 
+®®# %
+©©' )
+™™$ &
+´´# %H
+
+ßß !
+®® 
+©© 
+™™ 
+´´ 
+¨¨ !–
+eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedorProducto.cs(
+ %  4E Y *
+5 > "
+
++ 4
+
+ *(
+@ D< @; ?  = AF
+        "" 
+ $$ ++ 
+  A C!! 
+"" ## 
+
+..* C
+00 55 ::# &
+11' ,WW __ 
+44  55D F99 Ç
+::  ;; BB9 ;CC% 'DD8 :EE8 :FF4 6GG; =HH7 9LL) +RR: <SS* ,UU8 :
+==) -WW "
+
+cc* B
+ccG Rll< G2
+ee jj kk ll nn# &"
+ff' +
+ÑÑ 
+ââ 
+ii  jjD Fmm f
+nn  oo uu: <vv* ,ww* ,{{9 ;||% '}}8 :~~4 6
+ÅÅ8 :
+qq) ,
+ÑÑ  
+
+åå ,
+
+åå1 5
+ïï< @
+
+åå; ?
+ññ; ?H
+
+éé 
+ìì 
+îî 
+ïï 
+ññ 
+òò $
+
+èè 
+õõ 
+££ $
+
+íí  
+ììC E
+óó 
+
+òò 
+ôô 
+
+ßß* C
+
+ßßK S
+∞∞6 >$
+
+©©' ,
+—— 
+ŸŸ <
+
+™™ 
+ÆÆ 
+ØØ 
+∞∞ 
+≤≤# &$
+
+≠≠  
+ÆÆD F
+±± ¥
+
+≤≤  
+≥≥ 
+ππ9 ;
+∫∫% '
+ªª8 :
+ºº8 :
+ΩΩ4 6
+ææ; =
+øø7 9
+¬¬) +
+«« 
+ÀÀ: <
+ÃÃ* ,
+œœ 
+––= ?0
+
+µµ) -
+…… 
+–– 
+—— "
+
+‹‹$ <
+
+‹‹A G
+ÁÁA G
+
+‹‹M S
+ËËB H<
+
+ﬁﬁ 
+„„ 
+ÁÁ 
+ËË 
+ÍÍ# &<
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+
+ﬂﬂ! %
+ÌÌ 
+ˇˇ 
+ÜÜ 
+êê $
+
+‚‚  
+„„C E
+ÈÈ ¥
+
+ÍÍ  
+ÎÎ 
+ÔÔ5 7
+! #
+ÒÒ4 6
+ÚÚ4 6
+ÛÛ7 9
+ÙÙ3 5
+˜˜> @
+¯¯% '
+˝˝ 
+ÅÅ: <
+ÇÇ* ,
+ÖÖ 
+ÜÜ= ?Ä	
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTipoProducto.cs(
 
 
+<<<<<<< HEAD
   
  "( 0(
     &N T
@@ -1274,6 +1504,62 @@ KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatVenta.cs(
 ff  gg kk2 4ll3 5mm1 3nn! #qq% 'rr' )
 ii  uu !“
 XD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatCompra.cs
+=======
+    /A P %
+0 : #
+
+& /
+
+ %
+6 97 :2
+     
+    '' 
+  < > 
+  
+
+++% ;(
+-- 22 33 55# &
+.." ';; CC 
+11  22A C44 (
+55  66 99: <::! #(
+88$ '99 :: ;; !
+
+FF% >
+FFC EOO3 52
+HH MM NN OO QQ# &
+II" 'YY aa 
+LL  MMD FPP (
+QQ  RR VV: <WW! #
+TT$ 'YY !
+
+cc *
+cc; >ll@ Cmm7 :<
+ee jj kk ll mm oo 
+ff rr yy 
+ii  jjA Cnn 
+oo pp 
+
+}} (
+}}- /
+ÜÜ@ B:
+ 
+ÑÑ 
+ÖÖ 
+ÜÜ 
+àà $
+
+ÄÄ 
+ãã 
+íí $
+
+ÉÉ  
+ÑÑ? A
+áá 
+
+àà 
+ââ ‡
+fC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatCompra.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 
 
@@ -1295,21 +1581,63 @@ XD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDat
 
  %
 
+<<<<<<< HEAD
 - 5ò
 ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatDetVenta.cs
+=======
+- 5®
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\encrypt.cs
 
+ 
+
+ &
+. 1: =
 
 
- !
+  
+ "( 0(
+    &N T
+ 4 6 (
+  / 0U VÌ
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatVenta.cs(
+   (: B 
+) 3 #
 
- 
+ (
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
+ 
+' ,6 ;: ?P
+     "" %% ((. 1(
+ (( ** 44 
+  5 7$$ 
+ ""# %
+%% && 
+
+77 )
+77. 0??3 52
+99 >> ?? @@ BB# &
+::  PP YY 
+==  >>6 8AA F
+BB  CC GG2 4HH3 5II1 3JJ! #MM8 :
+EE  PP !
+
+<<<<<<< HEAD
 ' *
 
  )
 
 . 5Ñ
 ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatProducto.cs
+=======
+\\ 1(
+^^ cc dd ff# &
+__  uu ~~ 
+bb  cc> @ee P
+ff  gg kk2 4ll3 5mm1 3nn! #qq% 'rr' )
+ii  uu !í
+hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatProducto.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 
 
@@ -1339,8 +1667,41 @@ ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDat
 
 # *
 
+<<<<<<< HEAD
 / 3ë
 [D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatProveedor.cs
+=======
+/ 3¶
+hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatDetVenta.cs
+
+
+
+ !
+
+ 
+
+' *
+
+ )
+
+. 5ß
+iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatDetCompra.cs
+
+ "
+
+		 
+
+		) ,
+
+
+
+ 1
+
+
+
+6 8ü
+iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatProveedor.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 
 

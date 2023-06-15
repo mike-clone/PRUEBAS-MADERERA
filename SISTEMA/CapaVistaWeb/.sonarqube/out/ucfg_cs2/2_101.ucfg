@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 .CapaLogica.LogProveedor.EliminarProveedor(int)T
 JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.csi i(%"0*ÿ
 0k k(8¢
@@ -23,3 +24,30 @@ JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.csi 
 i& i(,	
 idintB
 CapaLogica.LogProveedor
+=======
+ECapaLogica.LogUsuario.ActualizarAdministrador(CapaEntidad.EntUsuario)`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.csP P(+"0*½
+0R R(<š
+—
+R R(!,
+%0&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
+CapaLogica.LogUsuario"8
+UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioöó
+R R(=
+
+%1bool"VCapaAccesoDatos.Interfaces.IDatUsuario.ActualizarAdministrador(CapaEntidad.EntUsuario)*0.
+,
+%0&CapaAccesoDatos.Interfaces.IDatUsuario* 
+
+adCapaEntidad.EntUsuario2/ActualizarAdministrador(CapaEntidad.EntUsuario)"
+R R(>
+
+
+%1bool*.
+1S	 S(	"
+S S(	
+implicit return:(
+P, P(9
+adCapaEntidad.EntUsuarioB
+CapaLogica.LogUsuario
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

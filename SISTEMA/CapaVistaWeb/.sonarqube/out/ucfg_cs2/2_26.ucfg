@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 HCapaLogica.LogUsuario.LogUsuario(CapaAccesoDatos.Interfaces.IDatUsuario)R
 HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs ("1*
 1	 (	*
@@ -17,3 +18,13 @@ HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs (
  (.2
 IUsuario&CapaAccesoDatos.Interfaces.IDatUsuarioB
 CapaLogica.LogUsuario
+=======
+6CapaLogica.LogTemporaryProducts.LogTemporaryProducts()j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs (#"1*
+1	 (	*
+0*.
+0	 (	"
+ (	
+implicit returnB#!
+CapaLogica.LogTemporaryProducts
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

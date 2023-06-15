@@ -63,13 +63,12 @@ namespace CapaAccesoDatos
                         Correo = dr["correo"].ToString(),
                         UserName = dr["userName"].ToString(),
                         Pass = dr["pass"].ToString(),
-                        Activo = Convert.ToBoolean(dr["activo"])
+                        Activo = Convert.ToBoolean(dr["activo"]),
+                        Ubigeo = new EntUbigeo
+                        {
+                            Provincia = dr["provincia"].ToString(),
+                        }
                     };
-                    EntUbigeo u = new EntUbigeo
-                    {
-                        Provincia = dr["provincia"].ToString(),
-                    };
-
 
                     lista.Add(Cli);
                 }
@@ -284,7 +283,7 @@ namespace CapaAccesoDatos
                 cmd = new SqlCommand("spIniciarSesion", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@dato", campo);
-                cmd.Parameters.AddWithValue("@contra", encrypt.GetSHA256(contra));
+                cmd.Parameters.AddWithValue("@contra", Encrypt.GetSHA256(contra));
                 cn.Open();
                 using (SqlDataReader dr = cmd.ExecuteReader())
                 {
@@ -298,7 +297,7 @@ namespace CapaAccesoDatos
                             Correo = dr["correo"].ToString(),
                             Telefono = dr["telefono"].ToString(),
                             Direccion = dr["direccion"].ToString(),
-                            Rol = (entRol)dr["idRol"],//Convertir (castearlo) a objeto de tipo entRol
+                            Rol = (EntRol)dr["idRol"],//Convertir (castearlo) a objeto de tipo entRol
                             Activo = Convert.ToBoolean(dr["activo"]),
                         };
                         EntUbigeo ubigeo = new EntUbigeo

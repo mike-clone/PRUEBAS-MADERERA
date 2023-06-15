@@ -16,8 +16,139 @@ SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProduct
 
  
 
+<<<<<<< HEAD
  ç
 ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs
+=======
+ –
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+
+ 
+   
+ $ ! 
+		  ! 
+
+
+    !!! 
+
+ 
+
+ #
+
+ 
+
+<<<<<<< HEAD
+++ 
+
+11 
+
+77 %
+
+== 
+
+BB 
+
+GG 
+
+KK 
+
+OO 
+
+UU ²
+HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs
+=======
+ À
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+
+ 
+  ! 
+   
+		   
+
+
+ "$$+ 2$$; B
+ ##& ,##5 ;
+
+ 
+
+ 
+
+ 
+
+## 
+
+<<<<<<< HEAD
+$$ !â
+JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs
+=======
+$$ !ç
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs
+
+ 
+  $ (
+		 " $"" $## 
+
+
+ (( )) 
+ // 00 
+ 77 !88 (
+ ". 9== $>> 
+ !CC %DD 
+  HH II 
+
+ $
+
+ 
+
+   !
+
+&& 
+
+-- 
+
+55 
+
+;; !
+
+AA  
+
+FF ó
+aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs
+
+ %
+ &
+
+/ 8
+
+A J
+ $- 5> F
+ #, 8A M
+
+
+
+ %
+
+ #
+
+ "—
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs
+
+ 
+  ) /8 >
+% 6? PY j
+ % -6 >
+		 ( 09 A
+
+ 
+
+$ 5
+
+ 
+
+ õ
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs
 
  
 		  " 
@@ -57,28 +188,9 @@ ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs
 
 OO 
 
-UU ²
-HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs
-
- 
-  ! 
-   
-		   
-
-
- "$$+ 2$$; B
- ##& ,##5 ;
-
- 
-
- 
-
- 
-
-## 
-
-$$ !â
-JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs
+UU ð
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
  
   # (
@@ -108,6 +220,7 @@ JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs
 
 33 
 
+<<<<<<< HEAD
 :: Ù
 KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs
 
@@ -191,6 +304,10 @@ JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs
 
  ½
 OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs
+=======
+:: Ë
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
  !
  # )2 8
@@ -247,6 +364,7 @@ ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs
 
  "
 
+<<<<<<< HEAD
  ·
 ED:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs
 
@@ -260,6 +378,10 @@ ED:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs
 
  !´
 ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.cs
+=======
+ Â
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
   
  #, ;D S
@@ -288,8 +410,24 @@ HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs
 
  
 
+<<<<<<< HEAD
  ±
 GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs
+=======
+ Å
+SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs
+
+ 
+
+ 
+ # )2 8
+ "+ 6? J
+
+ 
+
+ !¿
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
  
     

@@ -15,7 +15,7 @@ namespace MadereraTest.CapaAccesoDatosTest
         public void IniciarSesionCorrectoRollAdministrador()
         {
             var mock = new Mock<IDatUsuario>();
-            EntUsuario usuarioesperado1 = new() { UserName = "omar#225", RazonSocial = "omarindustries", Correo = "omar@industries.pe", Pass = "123", Activo = true, Rol = entRol.Administrador };
+            EntUsuario usuarioesperado1 = new() { UserName = "omar#225", RazonSocial = "omarindustries", Correo = "omar@industries.pe", Pass = "123", Activo = true, Rol = EntRol.Administrador };
             mock.Setup(o => o.IniciarSesion("omar@industries.pe", "123")).Returns(usuarioesperado1);
             Exception? exception = null;
             var usuarioService = new LogUsuario(mock.Object);
@@ -40,7 +40,7 @@ namespace MadereraTest.CapaAccesoDatosTest
         public void IniciarSesionCorrectoRollCliente()
         {
             var mock = new Mock<IDatUsuario>();
-            EntUsuario usuarioesperado = new() { UserName = "omar#226", RazonSocial = "omarprojects", Correo = "omar@projects.pe", Pass = "123", Activo = true, Rol = entRol.Cliente };
+            EntUsuario usuarioesperado = new() { UserName = "omar#226", RazonSocial = "omarprojects", Correo = "omar@projects.pe", Pass = "123", Activo = true, Rol = EntRol.Cliente };
             mock.Setup(o => o.IniciarSesion("omar@projects.pe", "123")).Returns(usuarioesperado);
             Exception? exception = null;
             var usuarioService = new LogUsuario(mock.Object);
@@ -65,7 +65,7 @@ namespace MadereraTest.CapaAccesoDatosTest
         public void IniciarSesionIncorrectoUsuariInactivo()
         {
             var mock = new Mock<IDatUsuario>();
-            EntUsuario usuarioesperado = new() { UserName = "omar#226", RazonSocial = "omarprojects", Correo = "omar@projects.pe", Pass = "123", Activo = false, Rol = entRol.Cliente };
+            EntUsuario usuarioesperado = new() { UserName = "omar#226", RazonSocial = "omarprojects", Correo = "omar@projects.pe", Pass = "123", Activo = false, Rol = EntRol.Cliente };
             mock.Setup(o => o.IniciarSesion("omar@projects.pe", "123")).Returns(usuarioesperado);
             var usuarioService = new LogUsuario(mock.Object);
             Exception? exception = null;
@@ -87,7 +87,7 @@ namespace MadereraTest.CapaAccesoDatosTest
         public void IniciarSesionIncorrectoUsuarioNoExiste()
         {
             var mock = new Mock<IDatUsuario>();
-            EntUsuario usuarioesperado = new() { UserName = "omar#226", RazonSocial = "omarprojects", Correo = "omar@projects.pe", Pass = "123", Activo = false, Rol = entRol.Cliente };
+            EntUsuario usuarioesperado = new() { UserName = "omar#226", RazonSocial = "omarprojects", Correo = "omar@projects.pe", Pass = "123", Activo = false, Rol = EntRol.Cliente };
             mock.Setup(o => o.IniciarSesion("omar@projects.pe", "123")).Returns(usuarioesperado);
             var usuarioService = new LogUsuario(mock.Object);
             Exception? exception = null;
@@ -150,7 +150,7 @@ namespace MadereraTest.CapaAccesoDatosTest
                 UserName = "carlos#1",
                 Pass = "123",
                 Correo = "email.example.com",
-                Rol=entRol.Administrador,
+                Rol=EntRol.Administrador,
                 Roll = new entRoll
                 {
                     IdRoll = 3
@@ -186,7 +186,7 @@ namespace MadereraTest.CapaAccesoDatosTest
                 UserName = "carlos#1",
                 Pass = "123",
                 Correo = "error@gmail.com",
-                Rol=entRol.Cliente,
+                Rol=EntRol.Cliente,
                 Ubigeo = new EntUbigeo
                 {
                     IdUbigeo = "010109"
@@ -216,7 +216,7 @@ namespace MadereraTest.CapaAccesoDatosTest
                 RazonSocial = "carlos",
                 UserName = "carlos#1",
                 Correo = "calrlos@upn.pe",
-                Rol = entRol.Cliente,
+                Rol = EntRol.Cliente,
                 Ubigeo = new EntUbigeo
                 {
                     IdUbigeo = "010109"

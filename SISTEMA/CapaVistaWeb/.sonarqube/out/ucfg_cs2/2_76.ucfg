@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 =CapaLogica.LogDetVenta.CrearDetVenta(CapaEntidad.EntDetVenta)S
 ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs (!"0*³
 0 (4ž
@@ -24,3 +25,13 @@ ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs 
 " (1
 detCapaEntidad.EntDetVentaB
 CapaLogica.LogDetVenta
+=======
+CapaLogica.LogVenta.LogVenta()^
+TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs ("1*
+1	 (	*
+0*.
+0	 (	"
+ (	
+implicit returnB
+CapaLogica.LogVenta
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

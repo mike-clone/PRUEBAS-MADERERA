@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ý
 CapaAccesoDatos.DatUsuarioobject&CapaAccesoDatos.Interfaces.IDatUsuariog
 $CrearCliente(CapaEntidad.EntUsuario)?CapaAccesoDatos.DatUsuario.CrearCliente(CapaEntidad.EntUsuario)=
@@ -11,3 +12,13 @@ $CrearCliente(CapaEntidad.EntUsuario)?CapaAccesoDatos.DatUsuario.CrearCliente(C
 EliminarUsuarios(int)0CapaAccesoDatos.DatUsuario.EliminarUsuarios(int)G
 BuscarIdUsuario(int)/CapaAccesoDatos.DatUsuario.BuscarIdUsuario(int)7
 DatUsuario()'CapaAccesoDatos.DatUsuario.DatUsuario()
+=======
+‚
+CapaAccesoDatos.DatCompraobject%CapaAccesoDatos.Interfaces.IDatComprab
+"CrearCompra(CapaEntidad.EntCompra)<CapaAccesoDatos.DatCompra.CrearCompra(CapaEntidad.EntCompra)@
+ListarCompra(int)+CapaAccesoDatos.DatCompra.ListarCompra(int)L
+ListarTodasLasCompras()1CapaAccesoDatos.DatCompra.ListarTodasLasCompras()D
+EliminarCompra(int)-CapaAccesoDatos.DatCompra.EliminarCompra(int)F
+BuscarCompra(string).CapaAccesoDatos.DatCompra.BuscarCompra(string)4
+DatCompra()%CapaAccesoDatos.DatCompra.DatCompra()
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

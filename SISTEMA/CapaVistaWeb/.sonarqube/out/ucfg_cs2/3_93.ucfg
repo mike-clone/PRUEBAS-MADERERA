@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 :MadereraCarocho.Controllers.HomeController.Cliente(string)f
 ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csï ï(#"7*®
 0
@@ -98,9 +99,172 @@ m
 %ViewBagDataAllobject*
 
 %ViewBagDataHtmlobject*
+=======
+xMadereraCarocho.Controllers.ProveedorController.EditarProveedor(CapaEntidad.EntProveedor, System.Web.Mvc.FormCollection)w
+mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.csg g(+"16*÷
+0i i(Ag
+e
+i4 i(A
+%0string"(CapaEntidad.EntProveedor.RazonSocial.get*!
+
+pCapaEntidad.EntProveedorV
+T
+i i(B
+
+%1bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+%0string*
+1
+2*À
+2iF i(a_
+]
+i\ i(a
+%2string" CapaEntidad.EntProveedor.Ruc.get*!
+
+pCapaEntidad.EntProveedorV
+T
+iG i(b
+
+%3bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+%2string*
+1*
+1
+Ç	 Ç(	*
+3
+4*—
+4	if i(Ñc
+a
+	i| i(Ñ
+%4string"#CapaEntidad.EntProveedor.Correo.get*!
+
+pCapaEntidad.EntProveedorW
+U
+	ig i(Ö
+
+%5bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+%4string*
+3*
+3
+Ç	 Ç(	*
+5
+6*÷
+6
+iâ i(©f
+d
+
+iü i(©
+%6string"%CapaEntidad.EntProveedor.Telefono.get*!
+
+pCapaEntidad.EntProveedorX
+V
+
+iä i(™
+
+%7bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+%6string*
+5*
+5
+Ç	 Ç(	*
+7
+8*Ÿ
+8
+iÆ i(—i
+g
+
+iƒ i(—
+%8string"(CapaEntidad.EntProveedor.Descripcion.get*!
+
+pCapaEntidad.EntProveedorX
+V
+
+iØ i(“
+
+%9bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+%8string*
+7*F
+7	i i(“1
+/
+	i i(“
+
+isNonEmptybool"__id*
+""*
+9*
+9m m(*
+10
+11*•
+10o s(;A?
+o r(
+%10CapaEntidad.EntUbigeo"CapaEntidad.EntUbigeo^
+\
+o# o(,
+%11void"!CapaEntidad.EntUbigeo.EntUbigeo()* 
+
+%10CapaEntidad.EntUbigeoñ
+ì
+q# q(-
+%12string"CSystem.Collections.Specialized.NameValueCollection.this[string].get*(&
+$
+frmSystem.Web.Mvc.FormCollection*	
+Ubit
+r
+q q(-
+%13string""CapaEntidad.EntUbigeo.IdUbigeo.set* 
+
+%10CapaEntidad.EntUbigeo*
+
+%12stringï
+í
+o r(
+%14CapaEntidad.EntUbigeo"#CapaEntidad.EntProveedor.Ubigeo.set*!
+
+pCapaEntidad.EntProveedor* 
+
+%10CapaEntidad.EntUbigeoô
+ñ
+s s(%
+%15CapaLogica.LogProveedor"__id*db*`1
+/MadereraCarocho.Controllers.ProveedorController"+
+ProveedorserviceCapaLogica.LogProveedor®
+•
+s s(<
+%16bool"ECapaLogica.LogProveedor.ActualizarProveedor(CapaEntidad.EntProveedor)*" 
+
+%15CapaLogica.LogProveedor*!
+
+pCapaEntidad.EntProveedor*
+12*”
+
+11v x(!,*
+v v(
+%TempDataAllobject"object-+
+v v(
+%TempDataHtmlobject"object≠
+™
+v v(N
+%17object":System.Collections.Generic.ICollection<T>.this[string].set*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
-%TempDataAllobject*
+%TempDataAllobject*
+	errorEdit*&$"
+ Todos los datos son obligatoriosÜ
+É
+%18object":System.Collections.Generic.ICollection<T>.this[string].set*
 
+<<<<<<< HEAD
 %TempDataHtmlobject*" 
 
 %HttpContextItemsAllobject*#!
@@ -114,6 +278,18 @@ m
 %11*/-
 +
 lista"System.Collections.Generic.List<T>*
+=======
+%TempDataHtmlobject*
+	errorEdit*
+""∑
+¥
+x x("
+%19void",capavistaweb/views/proveedor/editarproveedor*	
+
+%20*!
+
+pCapaEntidad.EntProveedor*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -125,6 +301,7 @@ m
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobjectº
 π
 
@@ -134,6 +311,16 @@ m
 %13*/-
 +
 lista"System.Collections.Generic.List<T>*
+=======
+%HttpContextItemsHtmlobject®
+•
+x x("
+%21void"capavistaweb/views/_viewstart*	
+
+%22*!
+
+pCapaEntidad.EntProveedor*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -145,6 +332,7 @@ m
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobject"
 
 û û(#
@@ -204,3 +392,168 @@ __annotate*<:8
 ï$ ï(/
 datostringB.,
 *MadereraCarocho.Controllers.HomeController
+=======
+%HttpContextItemsHtmlobject¨
+©
+x x("
+%23void"!capavistaweb/views/shared/_layout*	
+
+%24*!
+
+pCapaEntidad.EntProveedor*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+x x(#
+
+%23void*
+12
+Ç	 Ç(	*
+13
+14*º
+
+13~ (b`
+~# ~(-
+%25string"System.Exception.Message.get*
+
+exSystem.Exception2Message.getî
+ë
+~ ~(-
+%26object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%TempDataAllobject*	
+error*
+
+%25stringÅ
+
+%27object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%TempDataHtmlobject*	
+error*
+""∑
+¥
+ (
+%28void",capavistaweb/views/proveedor/editarproveedor*	
+
+%29*!
+
+pCapaEntidad.EntProveedor*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject®
+•
+ (
+%30void"capavistaweb/views/_viewstart*	
+
+%31*!
+
+pCapaEntidad.EntProveedor*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject¨
+©
+ (
+%32void"!capavistaweb/views/shared/_layout*	
+
+%33*!
+
+pCapaEntidad.EntProveedor*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+ (
+
+%32void*Ô
+14
+Å Å(,ü
+ú
+
+Å Å(-+
+%34$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*
+
+Listar";
+
+Å Å(.-
++
+%34$System.Web.Mvc.RedirectToRouteResult*3
+15
+Ç	 Ç(	"!
+
+Ç Ç(	
+implicit return*ü
+16gO g(On
+l
+g g(+
+%35"__entrypoint*!
+
+pCapaEntidad.EntProveedor*(&
+$
+frmSystem.Web.Mvc.FormCollection~
+|
+f	 f(
+%36"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*!
+
+pCapaEntidad.EntProveedorD
+B
+g, g(:
+pCapaEntidad.EntProveedor"__annotation*	
+
+%36Ü
+É
+f	 f(
+%37"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*(&
+$
+frmSystem.Web.Mvc.FormCollectionK
+I
+g< g(N$
+frmSystem.Web.Mvc.FormCollection"__annotation*	
+
+%37*
+0:)
+g, g(:
+pCapaEntidad.EntProveedor:0
+g< g(N$
+frmSystem.Web.Mvc.FormCollectionB31
+/MadereraCarocho.Controllers.ProveedorController
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

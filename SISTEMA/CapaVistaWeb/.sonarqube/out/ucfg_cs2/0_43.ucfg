@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 #CapaEntidad.EntUsuario.Telefono.setS
 ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs( (("0*k
 0( (("W
@@ -13,4 +14,20 @@ U
 ($ ((%
 implicit return:
 valuestringB
+=======
+#CapaEntidad.EntUsuario.Telefono.geta
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs' '("0*
+0' '(!T
+R
+' '(!
+%0string"__id*20*.
+CapaEntidad.EntUsuario"
+telefonostring"
+' '("
+
+%0string*.
+1'$ '($"
+'# '($
+implicit returnB
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 CapaEntidad.EntUsuario

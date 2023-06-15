@@ -107,8 +107,616 @@ EntUsuario 
 ;I J
 }K L
 } 
+<<<<<<< HEAD
 } ·.
 ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs
+=======
+} œ
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs
+	namespace 	
+CapaEntidad
+ 
+{ 
+public 
+
+class 
+EntDetVenta 
+{ 
+private 
+EntVenta 
+venta 
+; 
+private 
+EntProducto 
+producto $
+;$ %
+private		 
+int		 
+cantidad		 
+;		 
+private
+
+ 
+double
+
+ 
+subTotal
+
+ 
+;
+
+  
+public 
+EntVenta 
+Venta 
+{ 	
+get 
+{ 
+return 
+venta 
+; 
+}  !
+set 
+{ 
+venta 
+= 
+value 
+;  
+}! "
+} 	
+public 
+EntProducto 
+Producto #
+{ 	
+get 
+{ 
+return 
+producto !
+;! "
+}# $
+set 
+{ 
+producto 
+= 
+value "
+;" #
+}$ %
+} 	
+public 
+int 
+Cantidad 
+{ 	
+get 
+{ 
+return 
+cantidad !
+;! "
+}# $
+set 
+{ 
+cantidad 
+= 
+value "
+;" #
+}$ %
+} 	
+public 
+Double 
+SubTotal 
+{ 	
+get   
+{   
+return   
+subTotal   !
+;  ! "
+}  # $
+set!! 
+{!! 
+subTotal!! 
+=!! 
+value!! "
+;!!" #
+}!!$ %
+}"" 	
+}'' 
+}(( Ä
+
+aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs
+	namespace 	
+CapaEntidad
+ 
+{ 
+public 
+
+class  
+EntProveedorProducto %
+{ 
+private 
+EntProveedor 
+	proveedor &
+;& '
+private 
+EntProducto 
+producto $
+;$ %
+private 
+double 
+precioCompra #
+;# $
+public
+
+ 
+EntProveedor
+
+ 
+	Proveedor
+
+ %
+{
+
+& '
+get
+
+( +
+=>
+
+, .
+	proveedor
+
+/ 8
+;
+
+8 9
+set
+
+: =
+=>
+
+> @
+	proveedor
+
+A J
+=
+
+K L
+value
+
+M R
+;
+
+R S
+}
+
+T U
+public 
+EntProducto 
+Producto #
+{$ %
+get& )
+=>* ,
+producto- 5
+;5 6
+set7 :
+=>; =
+producto> F
+=G H
+valueI N
+;N O
+}P Q
+public 
+double 
+PrecioCompra "
+{# $
+get% (
+=>) +
+precioCompra, 8
+;8 9
+set: =
+=>> @
+precioCompraA M
+=N O
+valueP U
+;U V
+}W X
+} 
+} í$
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs
+	namespace 	
+CapaEntidad
+ 
+{ 
+public 
+
+class 
+EntProveedor 
+{ 
+private 
+int 
+idProveedor 
+;  
+private		 
+string		 
+razonSocial		 "
+;		" #
+private
+
+ 
+string
+
+ 
+ruc
+
+ 
+;
+
+ 
+private 
+string 
+correo 
+; 
+private 
+string 
+telefono 
+;  
+private 
+string 
+descripcion "
+;" #
+private 
+bool 
+estProveedor !
+;! "
+private 
+	EntUbigeo 
+ubigeo  
+;  !
+public 
+string 
+NombreCompleto $
+{ 	
+get 
+{ 
+return 
+razonSocial $
++% &
+$str' +
++, -
+descripcion. 9
+;9 :
+}; <
+} 	
+public 
+int 
+IdProveedor 
+{ 	
+get 
+{ 
+return 
+idProveedor $
+;$ %
+}& '
+set 
+{ 
+idProveedor 
+= 
+value  %
+;% &
+}' (
+} 	
+[ 	
+Required	 
+( 
+ErrorMessage 
+=  
+$str! H
+)H I
+]I J
+public   
+string   
+RazonSocial   !
+{!! 	
+get"" 
+{"" 
+return"" 
+razonSocial"" $
+;""$ %
+}""& '
+set## 
+{## 
+razonSocial## 
+=## 
+value##  %
+;##% &
+}##' (
+}$$ 	
+[%% 	
+Required%%	 
+(%% 
+ErrorMessage%% 
+=%%  
+$str%%! ?
+)%%? @
+]%%@ A
+public&& 
+string&& 
+Ruc&& 
+{'' 	
+get(( 
+{(( 
+return(( 
+ruc(( 
+;(( 
+}(( 
+set)) 
+{)) 
+ruc)) 
+=)) 
+value)) 
+;)) 
+}))  
+}** 	
+[++ 	
+Required++	 
+(++ 
+ErrorMessage++ 
+=++  
+$str++! A
+)++A B
+]++B C
+[,, 	
+EmailAddress,,	 
+(,, 
+ErrorMessage,, "
+=,,# $
+$str,,% Q
+),,Q R
+],,R S
+public-- 
+string-- 
+Correo-- 
+{.. 	
+get// 
+{// 
+return// 
+correo// 
+;//  
+}//! "
+set00 
+{00 
+correo00 
+=00 
+value00  
+;00  !
+}00" #
+}22 	
+[33 	
+Required33	 
+(33 
+ErrorMessage33 
+=33  
+$str33! D
+)33D E
+]33E F
+[44 	
+RegularExpression44	 
+(44 
+$str44 &
+,44& '
+ErrorMessage44( 4
+=445 6
+$str447 q
+)44q r
+]44r s
+public55 
+string55 
+Telefono55 
+{66 	
+get77 
+{77 
+return77 
+telefono77 !
+;77! "
+}77# $
+set88 
+{88 
+telefono88 
+=88 
+value88 "
+;88" #
+}88$ %
+}99 	
+[:: 	
+Required::	 
+(:: 
+ErrorMessage:: 
+=::  
+$str::! G
+)::G H
+]::H I
+public;; 
+string;; 
+Descripcion;; !
+{<< 	
+get== 
+{== 
+return== 
+descripcion== $
+;==$ %
+}==& '
+set>> 
+{>> 
+descripcion>> 
+=>> 
+value>>  %
+;>>% &
+}>>' (
+}@@ 	
+publicAA 
+boolAA 
+EstProveedorAA  
+{BB 	
+getCC 
+{CC 
+returnCC 
+estProveedorCC %
+;CC% &
+}CC' (
+setDD 
+{DD 
+estProveedorDD 
+=DD  
+valueDD! &
+;DD& '
+}DD( )
+}EE 	
+publicFF 
+	EntUbigeoFF 
+UbigeoFF 
+{GG 	
+getHH 
+{HH 
+returnHH 
+ubigeoHH 
+;HH  
+}HH! "
+setII 
+{II 
+ubigeoII 
+=II 
+valueII  
+;II  !
+}II" #
+}JJ 	
+}LL 
+}MM ¦
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs
+	namespace 	
+CapaEntidad
+ 
+{ 
+public 
+
+class 
+	EntCompra 
+{ 
+private 
+int 
+idCompra 
+; 
+private 
+DateTime 
+fecha 
+; 
+private		 
+double		 
+total		 
+;		 
+private
+
+ 
+
+EntUsuario
+
+ 
+usuario
+
+ "
+;
+
+" #
+private 
+string 
+estado 
+; 
+public 
+int 
+IdCompra 
+{ 	
+get 
+{ 
+return 
+idCompra !
+;! "
+}# $
+set 
+{ 
+idCompra 
+= 
+value "
+;" #
+}$ %
+} 	
+public 
+DateTime 
+Fecha 
+{ 	
+get 
+{ 
+return 
+fecha 
+; 
+}  !
+set 
+{ 
+fecha 
+= 
+value 
+;  
+}! "
+} 	
+public 
+double 
+Total 
+{ 	
+get 
+{ 
+return 
+total 
+; 
+}  !
+set 
+{ 
+total 
+= 
+value 
+;  
+}! "
+}   	
+public## 
+string## 
+Estado## 
+{## 
+get## "
+=>### %
+estado##& ,
+;##, -
+set##. 1
+=>##2 4
+estado##5 ;
+=##< =
+value##> C
+;##C D
+}##E F
+public$$ 
+
+EntUsuario$$ 
+Usuario$$ !
+{$$" #
+get$$$ '
+=>$$( *
+usuario$$+ 2
+;$$2 3
+set$$4 7
+=>$$8 :
+usuario$$; B
+=$$C D
+value$$E J
+;$$J K
+}$$L M
+}&& 
+}'' Å.
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace 	
 CapaEntidad
  
@@ -450,14 +1058,22 @@ EntUsuario 
 }WW  !
 }YY 	
 }[[ 
+<<<<<<< HEAD
 }\\ ˜
 HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs
 	namespace 	
 CapaEntidad
+=======
+}\\ š
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs
+	namespace 	
+CapaEntidad
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
  
-{ 
-public 
+{ 
+public 
 
+<<<<<<< HEAD
 class 
 	EntCompra 
 { 
@@ -584,6 +1200,8 @@ KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs
 { 
 public 
 
+=======
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 class 
 EntDetCompra 
 { 
@@ -595,6 +1213,7 @@ KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs
 EntProveedorProducto $
 proveedorProducto% 6
 ;6 7
+<<<<<<< HEAD
 private 
 int 
 cantidad 
@@ -1001,11 +1620,14 @@ KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs
 class 
 EntProveedor 
 { 
+=======
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 private 
-int 
-idProveedor 
-;  
+int 
+cantidad 
+; 
 private		 
+<<<<<<< HEAD
 string		 
 razonSocial		 "
 ;		" #
@@ -1262,12 +1884,81 @@ KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs
 }MM ¶
 
 SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs
+=======
+double		 
+subtotal		 
+;		  
+public 
+	EntCompra 
+Compra 
+{  !
+get" %
+=>& (
+compra) /
+;/ 0
+set1 4
+=>5 7
+compra8 >
+=? @
+valueA F
+;F G
+}H I
+public  
+EntProveedorProducto #
+ProveedorProducto$ 5
+{6 7
+get8 ;
+=>< >
+proveedorProducto? P
+;P Q
+setR U
+=>V X
+proveedorProductoY j
+=k l
+valuem r
+;r s
+}t u
+public 
+int 
+Cantidad 
+{ 
+get !
+=>" $
+cantidad% -
+;- .
+set/ 2
+=>3 5
+cantidad6 >
+=? @
+valueA F
+;F G
+}H I
+public 
+double 
+Subtotal 
+{  
+get! $
+=>% '
+subtotal( 0
+;0 1
+set2 5
+=>6 8
+subtotal9 A
+=B C
+valueD I
+;I J
+}K L
+} 
+} ï
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace 	
 CapaEntidad
  
 { 
 public 
 
+<<<<<<< HEAD
 class  
 EntProveedorProducto %
 { 
@@ -1361,6 +2052,220 @@ SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProduct
 } 
 } ž
 OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs
+=======
+class 
+EntProducto 
+{ 
+private 
+int 
+
+idProducto 
+; 
+private 
+string 
+nombre 
+; 
+private 
+double 
+longitud 
+;  
+private		 
+double		 
+diametro		 
+;		  
+private
+
+ 
+double
+
+ 
+precioVenta
+
+ "
+;
+
+" #
+private 
+EntTipoProducto 
+tipo  $
+;$ %
+private 
+int 
+stock 
+; 
+private 
+bool 
+activo 
+; 
+public 
+string 
+NombreCompleto $
+{ 	
+get 
+{ 
+return 
+nombre 
++  !
+$str" '
++( )
+longitud* 2
++3 4
+$str5 <
++= >
+diametro? G
++H I
+$strJ M
+;M N
+}O P
+} 	
+public 
+int 
+
+IdProducto 
+{ 	
+get 
+{ 
+return 
+
+idProducto #
+;# $
+}% &
+set 
+{ 
+
+idProducto 
+= 
+value $
+;$ %
+}& '
+} 	
+public 
+string 
+Nombre 
+{ 	
+get 
+{ 
+return 
+nombre 
+;  
+}! "
+set 
+{ 
+nombre 
+= 
+value  
+;  !
+}" #
+} 	
+public 
+double 
+Diametro 
+{ 	
+get   
+{   
+return   
+diametro   !
+;  ! "
+}  # $
+set!! 
+{!! 
+diametro!! 
+=!! 
+value!! "
+;!!" #
+}!!$ %
+}"" 	
+public## 
+double## 
+Longitud## 
+{$$ 	
+get%% 
+{%% 
+return%% 
+longitud%% !
+;%%! "
+}%%# $
+set&& 
+{&& 
+longitud&& 
+=&& 
+value&& "
+;&&" #
+}&&$ %
+}'' 	
+public)) 
+double)) 
+PrecioVenta)) !
+{** 	
+get++ 
+{++ 
+return++ 
+precioVenta++ $
+;++$ %
+}++& '
+set,, 
+{,, 
+precioVenta,, 
+=,, 
+value,,  %
+;,,% &
+},,' (
+}-- 	
+public.. 
+EntTipoProducto.. 
+Tipo.. #
+{// 	
+get00 
+{00 
+return00 
+tipo00 
+;00 
+}00  
+set11 
+{11 
+tipo11 
+=11 
+value11 
+;11 
+}11  !
+}22 	
+public33 
+int33 
+Stock33 
+{44 	
+get55 
+{55 
+return55 
+stock55 
+;55 
+}55  !
+set66 
+{66 
+stock66 
+=66 
+value66 
+;66  
+}66! "
+}77 	
+public:: 
+bool:: 
+Activo:: 
+{:: 
+get::  
+=>::! #
+activo::$ *
+;::* +
+set::, /
+=>::0 2
+activo::3 9
+=::: ;
+value::< A
+;::A B
+}::C D
+}== 
+}>> ¬
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace 	
 CapaEntidad
  

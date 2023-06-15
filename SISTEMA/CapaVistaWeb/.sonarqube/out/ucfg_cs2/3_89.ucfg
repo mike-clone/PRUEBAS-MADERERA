@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 DMadereraCarocho.Controllers.ProveedorController.EditarProveedor(int)i
 _D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs[ [(+"2*œ
 0] c(˜
@@ -79,6 +80,50 @@ W
 %9*$"
  
 provCapaEntidad.EntProveedor*
+=======
+SMadereraCarocho.Controllers.UsuarioController.EditarCliente(CapaEntidad.EntUsuario)u
+kC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\UsuarioController.csI I()"6*ö
+0M N(
+
+M  M(.
+%0CapaLogica.LogUsuario"__id*^\*Z/
+-MadereraCarocho.Controllers.UsuarioController"'
+UsuarioserviceCapaLogica.LogUsuario˜
+•
+M  M(?
+
+%1bool";CapaLogica.LogUsuario.EditarCliente(CapaEntidad.EntUsuario)*
+
+%0CapaLogica.LogUsuario*
+
+uCapaEntidad.EntUsuario1
+/
+M M(?
+editabool"__id*
+
+
+%1bool*
+1
+2*î
+1P P(<¤
+¡
+P P(=*
+%2$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*
+ListarClientes"8
+P P(>,
+*
+%2$System.Web.Mvc.RedirectToRouteResult*«
+2T T(!¯
+¬
+T T("
+
+%3void"(capavistaweb/views/usuario/editarcliente*
+
+%4*
+
+uCapaEntidad.EntUsuario*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -90,6 +135,7 @@ W
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobject«
 ¨
 c c(
@@ -144,3 +190,93 @@ W
 [, [(6
 idprovintB31
 /MadereraCarocho.Controllers.ProveedorController
+=======
+%HttpContextItemsHtmlobject¤
+¡
+T T("
+
+%5void"capavistaweb/views/_viewstart*
+
+%6*
+
+uCapaEntidad.EntUsuario*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject¨
+¥
+T T("
+
+%7void"!capavistaweb/views/shared/_layout*
+
+%8*
+
+uCapaEntidad.EntUsuario*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+T T(#
+
+
+%7void*
+3[	 [(	*	
+4
+5
+5*ð
+4Y Y(Ylj
+YO Y(Y
+%9string"System.Exception.Message.get*%#
+!
+exSystem.ApplicationException2Message.get·
+´
+Y Y(\+
+%10$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
+System.Web.Mvc.Controller*
+ListarClientes*
+"""9
+Y Y(]-
++
+%10$System.Web.Mvc.RedirectToRouteResult*.
+5[	 [(	"
+[ [(	
+implicit return*˜
+6I7 I(7B
+@
+I I()
+%11"__entrypoint*
+
+uCapaEntidad.EntUsuario|
+z
+H	 H(
+%12"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+uCapaEntidad.EntUsuarioB
+@
+I* I(6
+uCapaEntidad.EntUsuario"__annotation*	
+
+%12*
+0:'
+I* I(6
+uCapaEntidad.EntUsuarioB1/
+-MadereraCarocho.Controllers.UsuarioController
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 5MadereraCarocho.Controllers.HomeController.Registro()d
 ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs8 8($"2*È
 0: =(Š
@@ -43,24 +44,16 @@ q
 w
 < <(*
 %4"__mapSet*
-
-%ViewBagDataAllobject*
-listaUbigeo*)'
-%
-lsUbigeoSystem.Web.Mvc.SelectListY
-W
-< <(*
-%5"__mapSet*
-
-%ViewBagDataHtmlobject*
-listaUbigeo*
-""—
-”
-= =(
+=======
+2MadereraCarocho.Controllers.HomeController.Login()r
+hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs4 4(!"2*ð
+06 6(”
+‘
+6 6(
 
-%6void" capavistaweb/views/home/registro*
+%0void"capavistaweb/views/home/login*
 
-%7*
+%1*
 	{unknown}*
 
 %ViewBagDataAllobject*
@@ -73,6 +66,62 @@ W
 
 %HttpContextItemsAllobject*#!
 
+%HttpContextItemsHtmlobject”
+‘
+6 6(
+
+%2void"capavistaweb/views/_viewstart*
+
+%3*
+	{unknown}*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+
+%ViewBagDataAllobject*
+listaUbigeo*)'
+%
+lsUbigeoSystem.Web.Mvc.SelectListY
+W
+< <(*
+%5"__mapSet*
+
+<<<<<<< HEAD
+%ViewBagDataHtmlobject*
+listaUbigeo*
+""—
+”
+= =(
+
+%6void" capavistaweb/views/home/registro*
+=======
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject˜
+•
+6 6(
+
+%4void"!capavistaweb/views/shared/_layout*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+
+%5*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+<<<<<<< HEAD
 %HttpContextItemsHtmlobject”
 ‘
 = =(
@@ -121,5 +170,19 @@ W
 
 8 8($
 %12"__entrypoint*
+=======
+%HttpContextItemsHtmlobject"
+6 6(
+
+
+%4void*.
+17	 7(	"
+7 7(	
+implicit return*4
+24# 4(# 
+
+4 4(!
+%6"__entrypoint*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 0B.,
 *MadereraCarocho.Controllers.HomeController

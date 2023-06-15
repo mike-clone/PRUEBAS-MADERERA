@@ -15,7 +15,7 @@ namespace CapaEntidad
         private string correo;
         private string userName;
         private string pass;
-        private entRol rol;
+        private EntRol rol;
         private entRoll roll;
         private bool activo;
 
@@ -72,7 +72,7 @@ namespace CapaEntidad
             get { return pass; }
             set { pass = value; }
         }
-        public entRol Rol { 
+        public EntRol Rol { 
             get{ return rol;}
             set{ rol = value;}
         }

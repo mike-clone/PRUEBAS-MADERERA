@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 #CapaAccesoDatos.DatVenta.DatVenta()U
 KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatVenta.cs ("0*1
 0
@@ -6,3 +7,15 @@ KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatVenta.cs
 	 €(
 implicit returnB
 CapaAccesoDatos.DatVenta
+=======
+%CapaAccesoDatos.DatUbigeo.DatUbigeo()d
+ZC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.cs
+ 
+("0*1
+0
+¹ ¹(" 
+	
+ ¹(
+implicit returnB
+CapaAccesoDatos.DatUbigeo
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

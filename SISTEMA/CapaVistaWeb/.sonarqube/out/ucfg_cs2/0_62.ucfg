@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 !CapaEntidad.EntCompra.Usuario.getR
 HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs$$ $('"0*†
 0$+ $(2r
@@ -12,3 +13,20 @@ p
 $2 $(3
 implicit returnB
 CapaEntidad.EntCompra
+=======
+!CapaEntidad.EntUsuario.Correo.seta
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs? ?("0*i
+0? ?( U
+S
+? ?( ,
+CapaEntidad.EntUsuario"
+correostring"__id*
+
+valuestring*
+1*.
+1?# ?(#"
+?" ?(#
+implicit return:
+valuestringB
+CapaEntidad.EntUsuario
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

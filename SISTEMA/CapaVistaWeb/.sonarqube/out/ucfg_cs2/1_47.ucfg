@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 BCapaAccesoDatos.DatTemporaryProducts.MostrarTemporaryProducts(int)a
 WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTemporaryProducts.csM* M(B"0*ñ
 0O P(NE
@@ -28,9 +29,32 @@ r
 ~
 S# S(@)
 %3#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
+=======
+?CapaAccesoDatos.DatUsuario.CrearCliente(CapaEntidad.EntUsuario)e
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs ( "0*á
+0 (E
+C
+ (!'
+cmd System.Data.SqlClient.SqlCommand"__id*
+"",
+*
+ (
+creadobool"__id*
+""*
+1*Ø"
+1 #(t
+r
+# (5
+%0CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
+CapaAccesoDatos.ConexionÄ
+~
+# (@)
+%1#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
-%2CapaAccesoDatos.Conexionl
+%0CapaAccesoDatos.Conexionl
 j
+<<<<<<< HEAD
 S S(@)
 cn#System.Data.SqlClient.SqlConnection"__id*-+
 )
@@ -39,9 +63,20 @@ j
 %4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÔ
 Ï
 T T($
+=======
+ (@)
+cn#System.Data.SqlClient.SqlConnection"__id*-+
+)
+%1#System.Data.SqlClient.SqlConnectionVT
+ (:&
+%2 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommand‰
+·
+ ($
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
-%5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
+%3void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
 &
+<<<<<<< HEAD
 %4 System.Data.SqlClient.SqlCommand*
 spListarTemporaryProducts*-+
 )
@@ -455,3 +490,199 @@ g
 MC M(P
 	idUsuariointB(&
 $CapaAccesoDatos.DatTemporaryProducts
+=======
+%2 System.Data.SqlClient.SqlCommand*
+spCrearCliente*-+
+)
+cn#System.Data.SqlClient.SqlConnectiong
+e
+ (:'
+cmd System.Data.SqlClient.SqlCommand"__id**(
+&
+%2 System.Data.SqlClient.SqlCommand"
+ 
+" (=
+%4"__id*
+""ï
+í
+ (=
+%5System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
+'
+cmd System.Data.SqlClient.SqlCommand*
+
+%4ü
+ú
+ (2
+%6,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommande
+c
+< (K
+%7string"&CapaEntidad.EntUsuario.RazonSocial.get*!
+
+CliCapaEntidad.EntUsuario›
+⁄
+ (L(
+%8"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
+2
+%6,System.Data.SqlClient.SqlParameterCollection*
+@razonSocial*
+
+%7stringü
+ú
+ (2
+%9,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommanda
+_
+7 (A
+%10string"!CapaEntidad.EntUsuario.Correo.get*!
+
+CliCapaEntidad.EntUsuario⁄
+◊
+ (B)
+%11"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
+2
+%9,System.Data.SqlClient.SqlParameterCollection*	
+@correo*
+
+%10string†
+ù
+ (3
+%12,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandc
+a
+9 (E
+%13string"#CapaEntidad.EntUsuario.UserName.get*!
+
+CliCapaEntidad.EntUsuario›
+⁄
+ (F)
+%14"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*75
+3
+%12,System.Data.SqlClient.SqlParameterCollection*
+	@userName*
+
+%13string†
+ù
+ (3
+%15,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommand_
+]
+5 (=
+%16string"CapaEntidad.EntUsuario.Pass.get*!
+
+CliCapaEntidad.EntUsuarioŸ
+÷
+ (>)
+%17"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*75
+3
+%15,System.Data.SqlClient.SqlParameterCollection*	
+@pass*
+
+%16string†
+ù
+ (3
+%18,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandl
+j
+6 (>
+%19CapaEntidad.entRoll"CapaEntidad.EntUsuario.Roll.get*!
+
+CliCapaEntidad.EntUsuarioX
+V
+6 (E
+
+%20int"CapaEntidad.entRoll.IdRoll.get*
+
+%19CapaEntidad.entRoll◊
+‘
+ (F)
+%21"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*75
+3
+%18,System.Data.SqlClient.SqlParameterCollection*
+
+@idRol*
+
+
+%20int†
+ù
+   (3
+%22,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandp
+n
+ 9  (C
+%23CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.get*!
+
+CliCapaEntidad.EntUsuarioa
+_
+ 9  (L
+%24string""CapaEntidad.EntUbigeo.IdUbigeo.get* 
+
+%23CapaEntidad.EntUbigeo›
+⁄
+   (M)
+%25"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*75
+3
+%22,System.Data.SqlClient.SqlParameterCollection*
+	@idubigeo*
+
+%24stringt
+r
+! !(
+%26void"*System.Data.SqlClient.SqlConnection.Open()*-+
+)
+cn#System.Data.SqlClient.SqlConnectiony
+w
+" "(-
+
+%27int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*+)
+'
+cmd System.Data.SqlClient.SqlCommand,
+*
+" "(-
+iint"__id*
+
+
+%27int*
+2
+3*@
+2$ $(!,
+*
+$ $(!
+creadobool"__id*
+""*
+3*
+3+	 +(	*
+4
+5*ù
+4( ((-a_
+($ ((-
+%28string"System.Exception.Message.get*
+
+eSystem.Exception2Message.get75
+( ((.
+%29System.Exception"System.Exceptionm
+k
+( ((#
+%30void""System.Exception.Exception(string)*
+
+%29System.Exception*
+
+%28string*
+6*+
+5* *("
+* *(
+
+creadobool*.
+6+	 +(	"
++ +(	
+implicit return:)
+! (/
+CliCapaEntidad.EntUsuarioB
+CapaAccesoDatos.DatUsuario
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

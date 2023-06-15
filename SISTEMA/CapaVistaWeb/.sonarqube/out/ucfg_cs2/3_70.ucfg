@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 8MadereraCarocho.Controllers.HomeController.Index(string)d
 ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs   (!"5*o
 0" #()X
@@ -57,6 +58,68 @@ k
 %6*/-
 +
 lista"System.Collections.Generic.List<T>*
+=======
+JMadereraCarocho.Controllers.TemporaryProductController.ListarTempProduct()~
+tC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\TemporaryProductController.cs (-"2*Î
+0 (TB@
+! (1
+%0CapaEntidad.EntUsuario"CapaEntidad.EntUsuario_
+]
+% (/
+
+%1void"#CapaEntidad.EntUsuario.EntUsuario()* 
+
+%0CapaEntidad.EntUsuarioW
+U
+ (1!
+usuarioCapaEntidad.EntUsuario"__id* 
+
+%0CapaEntidad.EntUsuario{
+y
+ (%
+%2System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
+System.Web.Mvc.Controller£ 
+ ((
+%3object":System.Collections.Generic.ICollection<T>.this[string].get*)'
+%
+%2System.Web.HttpSessionStateBase*	
+Usuario2this[string].get2
+0
+ (6
+%4object"__id*
+
+%3objectG
+E
+ (6!
+usuarioCapaEntidad.EntUsuario"__id*
+
+%4object°
+­
+ ()%
+%5CapaLogica.LogTemporaryProducts"__id*tr*p8
+6MadereraCarocho.Controllers.TemporaryProductController"4
+TemporaryPserviceCapaLogica.LogTemporaryProductsd
+b
+C (T	
+%6int"$CapaEntidad.EntUsuario.IdUsuario.get*%#
+!
+usuarioCapaEntidad.EntUsuario°
+­
+ (U(
+%7"System.Collections.Generic.List<T>"=CapaLogica.LogTemporaryProducts.MostrarTemporaryProducts(int)*)'
+%
+%5CapaLogica.LogTemporaryProducts*
+	
+%6intÉ
+Æ
+ (V
+
+%8void"5capavistaweb/views/temporaryproduct/listartempproduct*
+
+%9*,*
+(
+%7"System.Collections.Generic.List<T>*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -68,6 +131,7 @@ k
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobject´
 ±
 ( ((
@@ -77,6 +141,16 @@ k
 %8*/-
 +
 lista"System.Collections.Generic.List<T>*
+=======
+%HttpContextItemsHtmlobject³
+°
+ (V
+%10void"capavistaweb/views/_viewstart*	
+
+%11*,*
+(
+%7"System.Collections.Generic.List<T>*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -88,6 +162,7 @@ k
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobject¹
 ¶
 ( ((
@@ -97,6 +172,16 @@ k
 %10*/-
 +
 lista"System.Collections.Generic.List<T>*
+=======
+%HttpContextItemsHtmlobject·
+´
+ (V
+%12void"!capavistaweb/views/shared/_layout*	
+
+%13*,*
+(
+%7"System.Collections.Generic.List<T>*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -108,6 +193,7 @@ k
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobject"
 ( ((
 
@@ -126,3 +212,18 @@ k
  "  (-
 datostringB.,
 *MadereraCarocho.Controllers.HomeController
+=======
+%HttpContextItemsHtmlobject"
+ (W
+
+%12void*.
+1	 (	"
+ (	
+implicit return*5
+2/ (/!
+
+ (-
+%14"__entrypoint*
+0B:8
+6MadereraCarocho.Controllers.TemporaryProductController
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Û
 *MadereraCarocho.Controllers.HomeControllerSystem.Web.Mvc.ControllerSystem.Web.Mvc.ControllerBaseobjectO
 HomeController();MadereraCarocho.Controllers.HomeController.HomeController()I
@@ -17,3 +18,13 @@ IEditarDatosCliente(CapaEntidad.EntUsuario, System.Web.Mvc.FormCollection)tMade
 Admin()2MadereraCarocho.Controllers.HomeController.Admin()c
 EditarDatosAdministrador()EMadereraCarocho.Controllers.HomeController.EditarDatosAdministrador()Í
 OEditarDatosAdministrador(CapaEntidad.EntUsuario, System.Web.Mvc.FormCollection)zMadereraCarocho.Controllers.HomeController.EditarDatosAdministrador(CapaEntidad.EntUsuario, System.Web.Mvc.FormCollection)
+=======
+
+,MadereraCarocho.Controllers.CompraControllerSystem.Web.Mvc.ControllerSystem.Web.Mvc.ControllerBaseobjectU
+CompraController()?MadereraCarocho.Controllers.CompraController.CompraController()M
+ListarCompra();MadereraCarocho.Controllers.CompraController.ListarCompra()_
+ListarTodasLasCompras()DMadereraCarocho.Controllers.CompraController.ListarTodasLasCompras()]
+ListarTodasLasVentas()CMadereraCarocho.Controllers.CompraController.ListarTodasLasVentas()S
+ConfirmarCompra()>MadereraCarocho.Controllers.CompraController.ConfirmarCompra()c
+MostrarDetalleCompra(int)FMadereraCarocho.Controllers.CompraController.MostrarDetalleCompra(int)
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

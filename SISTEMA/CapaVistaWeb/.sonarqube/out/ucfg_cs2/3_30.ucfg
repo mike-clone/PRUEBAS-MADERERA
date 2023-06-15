@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 JMadereraCarocho.Controllers.HomeController.VerificarAcceso(string, string)d
 ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csd d(+"12*o
 0i i(/X
@@ -239,3 +240,336 @@ __annotate*:86
 d9 d(D
 passstringB.,
 *MadereraCarocho.Controllers.HomeController
+=======
+âMadereraCarocho.Controllers.ProveedorController.RegistrarProveedor(string, string, string, string, string, System.Web.Mvc.FormCollection)w
+mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs8 8(."15*q
+0: :(8Z
+X
+: :(9
+
+%0bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+nombrestring*
+1
+2*k
+2:= :(VW
+U
+:> :(W
+
+%1bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+rucstring*
+1*
+1W	 W(	*
+3
+4*m
+4:[ :(vY
+W
+:\ :(w
+
+%2bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+emailstring*
+3*
+3W	 W(	*
+5
+6*r
+6	:{ :(ô]
+[
+	:| :(ö
+
+%3bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+telefonostring*
+5*
+5W	 W(	*
+7
+8*w
+8
+:û :(øa
+_
+
+:ü :(¿
+
+%4bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+descriptionstring*
+7*F
+7	: :(¿1
+/
+	: :(¿
+
+isNonEmptybool"__id*
+""*
+9*
+9= =(*
+10
+11*é
+10?! M(DFD
+?% K(
+%5CapaEntidad.EntProveedor"CapaEntidad.EntProveedore
+c
+?) ?(5
+
+%6void"'CapaEntidad.EntProveedor.EntProveedor()*" 
+
+%5CapaEntidad.EntProveedor~
+|
+A A(,
+%7string"(CapaEntidad.EntProveedor.RazonSocial.set*" 
+
+%5CapaEntidad.EntProveedor*
+
+nombrestrings
+q
+B B(!
+%8string" CapaEntidad.EntProveedor.Ruc.set*" 
+
+%5CapaEntidad.EntProveedor*
+
+rucstringx
+v
+C C(&
+%9string"#CapaEntidad.EntProveedor.Correo.set*" 
+
+%5CapaEntidad.EntProveedor*
+
+emailstring~
+|
+D D(+
+%10string"%CapaEntidad.EntProveedor.Telefono.set*" 
+
+%5CapaEntidad.EntProveedor*
+
+telefonostringÖ
+Ç
+E E(1
+%11string"(CapaEntidad.EntProveedor.Descripcion.set*" 
+
+%5CapaEntidad.EntProveedor*
+
+descriptionstringr
+p
+F F(+
+%12bool")CapaEntidad.EntProveedor.EstProveedor.set*" 
+
+%5CapaEntidad.EntProveedor*
+""A?
+G! J(
+%13CapaEntidad.EntUbigeo"CapaEntidad.EntUbigeo^
+\
+G% G(.
+%14void"!CapaEntidad.EntUbigeo.EntUbigeo()* 
+
+%13CapaEntidad.EntUbigeoô
+ñ
+I' I(4
+%15string"CSystem.Collections.Specialized.NameValueCollection.this[string].get*(&
+$
+frmSystem.Web.Mvc.FormCollection*
+
+ubigeoA
+?
+I' I(?
+%16string"string.ToString()*
+
+%15stringt
+r
+I I(?
+%17string""CapaEntidad.EntUbigeo.IdUbigeo.set* 
+
+%13CapaEntidad.EntUbigeo*
+
+%16stringñ
+ì
+G J(
+%18CapaEntidad.EntUbigeo"#CapaEntidad.EntProveedor.Ubigeo.set*" 
+
+%5CapaEntidad.EntProveedor* 
+
+%13CapaEntidad.EntUbigeoU
+S
+?! K(
+pCapaEntidad.EntProveedor"__id*" 
+
+%5CapaEntidad.EntProveedorô
+ñ
+M# M(3
+%19CapaLogica.LogProveedor"__id*db*`1
+/MadereraCarocho.Controllers.ProveedorController"+
+ProveedorserviceCapaLogica.LogProveedor£
+†
+M# M(E
+%20bool"@CapaLogica.LogProveedor.CrearProveedor(CapaEntidad.EntProveedor)*" 
+
+%19CapaLogica.LogProveedor*!
+
+pCapaEntidad.EntProveedor4
+2
+M M(E
+insertabool"__id*
+
+%20bool*
+11*
+11W	 W(	*
+12
+13*Ã
+12S T(7,*
+S S(
+%TempDataAllobject"object-+
+S S(
+%TempDataHtmlobject"objectb`
+S$ S(.
+%21string"System.Exception.Message.get*
+
+exSystem.Exception2Message.getî
+ë
+S S(.
+%22object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%TempDataAllobject*	
+error*
+
+%21stringÅ
+
+%23object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%TempDataHtmlobject*	
+error*
+""§
+°
+T T(8+
+%24$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*
+../Home/Error"9
+T T(9-
++
+%24$System.Web.Mvc.RedirectToRouteResult*È
+13V V(,ù
+ö
+V V(-+
+%25$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*
+
+Listar"9
+V V(.-
++
+%25$System.Web.Mvc.RedirectToRouteResult*/
+14W	 W(	"
+W W(	
+implicit return*é
+
+15
+8ë 8(ëΩ
+∫
+8 8(.
+%26"__entrypoint*
+
+nombrestring*
+
+rucstring*
+
+emailstring*
+
+telefonostring*
+
+descriptionstring*(&
+$
+frmSystem.Web.Mvc.FormCollectionq
+o
+7	 7(
+%27"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+nombrestring7
+5
+8/ 8(<
+nombrestring"__annotation*	
+
+%27n
+l
+7	 7(
+%28"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+rucstring4
+2
+8? 8(I
+rucstring"__annotation*	
+
+%28p
+n
+7	 7(
+%29"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+emailstring6
+4
+8K 8(W
+emailstring"__annotation*	
+
+%29s
+q
+7	 7(
+%30"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+telefonostring9
+7
+8Y 8(h
+telefonostring"__annotation*	
+
+%30v
+t
+7	 7(
+%31"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+descriptionstring<
+:
+8j 8(|
+descriptionstring"__annotation*	
+
+%31Ü
+É
+7	 7(
+%32"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*(&
+$
+frmSystem.Web.Mvc.FormCollectionL
+J
+	8~ 8(ê$
+frmSystem.Web.Mvc.FormCollection"__annotation*	
+
+%32*
+0:
+8/ 8(<
+nombrestring:
+8? 8(I
+rucstring:
+8K 8(W
+emailstring:
+8Y 8(h
+telefonostring:!
+8j 8(|
+descriptionstring:1
+	8~ 8(ê$
+frmSystem.Web.Mvc.FormCollectionB31
+/MadereraCarocho.Controllers.ProveedorController
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

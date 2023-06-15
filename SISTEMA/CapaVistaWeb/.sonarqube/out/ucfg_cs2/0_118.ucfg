@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 ,CapaEntidad.entReporteCompra.Descripcion.getY
 OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs$ ('"0*q
 0+ (6]
@@ -11,4 +12,20 @@ OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs
 17 (7"
 6 (7
 implicit returnB 
+=======
+,CapaEntidad.entReporteCompra.Descripcion.setg
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs8 (;"0*t
+0? (R`
+^
+? (R7
+CapaEntidad.entReporteCompra"
+descripcionstring"__id*
+
+valuestring*
+1*.
+1S (S"
+R (S
+implicit return:
+valuestringB 
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 CapaEntidad.entReporteCompra

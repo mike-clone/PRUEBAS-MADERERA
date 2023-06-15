@@ -12,9 +12,9 @@ namespace MadereraCarocho.Controllers
     public class VentaController : Controller
     {
 
-        LogVenta Ventaservice;
-        LogDetVenta DetVentaservice;
-        LogTemporaryProducts TemporaryPservice;
+        readonly LogVenta Ventaservice;
+        readonly LogDetVenta DetVentaservice;
+        readonly LogTemporaryProducts TemporaryPservice;
 
         public VentaController()
         {
@@ -23,7 +23,7 @@ namespace MadereraCarocho.Controllers
             TemporaryPservice = new LogTemporaryProducts(new DatTemporaryProducts());
         }
 
-        [PermisosRol(entRol.Cliente)]
+        [PermisosRol(EntRol.Cliente)]
         public ActionResult ListarVenta()
         {
             EntUsuario usuario = new EntUsuario();
@@ -31,14 +31,14 @@ namespace MadereraCarocho.Controllers
             return View(Ventaservice.ListarVenta(usuario.IdUsuario));
         }
 
-        [PermisosRol(entRol.Cliente)]
+        [PermisosRol(EntRol.Cliente)]
         public ActionResult MostrarDetalle(int idv)
         {
             return View(_ = DetVentaservice.Mostrardetventa(idv));
         }
     
 
-        [PermisosRol(entRol.Cliente)]
+        [PermisosRol(EntRol.Cliente)]
         public ActionResult ConfirmarVenta()
         {
             try

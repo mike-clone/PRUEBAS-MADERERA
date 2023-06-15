@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 â
 CapaAccesoDatos.DatVentaobject$CapaAccesoDatos.Interfaces.IDatVenta]
  CrearVenta(CapaEntidad.EntVenta)9CapaAccesoDatos.DatVenta.CrearVenta(CapaEntidad.EntVenta)=
@@ -5,3 +6,15 @@
 ListarTodasLasVenta().CapaAccesoDatos.DatVenta.ListarTodasLasVenta()1
 
 DatVenta()#CapaAccesoDatos.DatVenta.DatVenta()
+=======
+Ò
+CapaAccesoDatos.DatProductoobject'CapaAccesoDatos.Interfaces.IDatProductol
+&CrearProducto(CapaEntidad.EntProducto)BCapaAccesoDatos.DatProducto.CrearProducto(CapaEntidad.EntProducto)@
+ListarProducto(),CapaAccesoDatos.DatProducto.ListarProducto()v
++ActualizarProducto(CapaEntidad.EntProducto)GCapaAccesoDatos.DatProducto.ActualizarProducto(CapaEntidad.EntProducto)J
+EliminarProducto(int)1CapaAccesoDatos.DatProducto.EliminarProducto(int)L
+BuscarProducto(string)2CapaAccesoDatos.DatProducto.BuscarProducto(string)J
+BuscarProductoId(int)1CapaAccesoDatos.DatProducto.BuscarProductoId(int)8
+Ordenar(int)(CapaAccesoDatos.DatProducto.Ordenar(int):
+DatProducto())CapaAccesoDatos.DatProducto.DatProducto()
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

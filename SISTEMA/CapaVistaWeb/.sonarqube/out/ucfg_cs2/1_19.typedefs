@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ‚
 CapaAccesoDatos.DatCompraobject%CapaAccesoDatos.Interfaces.IDatComprab
 "CrearCompra(CapaEntidad.EntCompra)<CapaAccesoDatos.DatCompra.CrearCompra(CapaEntidad.EntCompra)@
@@ -6,3 +7,8 @@
 EliminarCompra(int)-CapaAccesoDatos.DatCompra.EliminarCompra(int)F
 BuscarCompra(string).CapaAccesoDatos.DatCompra.BuscarCompra(string)4
 DatCompra()%CapaAccesoDatos.DatCompra.DatCompra()
+=======
+Q
+CapaAccesoDatos.encryptobject.
+	encrypt()!CapaAccesoDatos.encrypt.encrypt()
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

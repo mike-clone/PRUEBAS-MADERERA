@@ -1,6 +1,19 @@
+<<<<<<< HEAD
 ‹
 CapaLogica.LogDetVentaobject5
 LogDetVenta()$CapaLogica.LogDetVenta.LogDetVenta()ƒ
 4LogDetVenta(CapaAccesoDatos.Interfaces.IDatDetVenta)KCapaLogica.LogDetVenta.LogDetVenta(CapaAccesoDatos.Interfaces.IDatDetVenta)g
 &CrearDetVenta(CapaEntidad.EntDetVenta)=CapaLogica.LogDetVenta.CrearDetVenta(CapaEntidad.EntDetVenta)C
 Mostrardetventa(int)+CapaLogica.LogDetVenta.Mostrardetventa(int)
+=======
+ˆ
+CapaLogica.LogUbigeoobject/
+LogUbigeo() CapaLogica.LogUbigeo.LogUbigeo()y
+0LogUbigeo(CapaAccesoDatos.Interfaces.IDatUbigeo)ECapaLogica.LogUbigeo.LogUbigeo(CapaAccesoDatos.Interfaces.IDatUbigeo)]
+"CrearUbigeo(CapaEntidad.EntUbigeo)7CapaLogica.LogUbigeo.CrearUbigeo(CapaEntidad.EntUbigeo)5
+ListarUbigeo()#CapaLogica.LogUbigeo.ListarUbigeo()g
+'ActualizarUbigeo(CapaEntidad.EntUbigeo)<CapaLogica.LogUbigeo.ActualizarUbigeo(CapaEntidad.EntUbigeo)?
+EliminarUbigeo(int)(CapaLogica.LogUbigeo.EliminarUbigeo(int)9
+ListarDistrito()%CapaLogica.LogUbigeo.ListarDistrito()A
+BuscarUbigeo(string))CapaLogica.LogUbigeo.BuscarUbigeo(string)
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

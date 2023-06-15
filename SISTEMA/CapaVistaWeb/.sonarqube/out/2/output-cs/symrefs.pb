@@ -184,6 +184,7 @@ JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs
 oo9 Aqq4 <
 
 ss -
+<<<<<<< HEAD
 ss2 =uu6 AŒ
 RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs
 		 %  4 *
@@ -215,6 +216,10 @@ RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto
 991 5;;E I
 99; ?;;K OŸ
 ED:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRoll.cs(
+=======
+ss2 =uu6 A­
+SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRoll.cs(
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
  		  '		9 @
 
  
@@ -249,8 +254,43 @@ MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs
 **; G,,> J
 
 .. (
+<<<<<<< HEAD
 ..- /00< >“
 GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs
+=======
+..- /00< >š
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs
+		 %  4 *
+5 ? #
+
++ 4Z
+& > $ +$$ +)) +.. +22 +77 +;; +
+: L' 9
+
+ *
+@ DC G
+
+""* C
+
+''* B
+''G R))E P
+
+,,* B
+,,G R..E P
+
+00* C
+00K S22F N
+
+55$ <
+55A G77E K
+55M S77M S
+
+99 ,
+991 5;;E I
+99; ?;;K Oe
+cC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\Properties\AssemblyInfo.cs¡
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
  
 
   ) 
@@ -276,8 +316,13 @@ GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs
 ,, -
 
 00 +
+<<<<<<< HEAD
 003 ;22. 6¤
 FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs
+=======
+003 ;22. 6²
+TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 		   ( 
 ) 3 #
 

@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 +CapaLogica.LogUsuario.EliminarUsuarios(int)R
 HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs@ @($"0*ñ
 0B B(5š
@@ -23,3 +24,32 @@ HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs@ @(
 @% @(+	
 idintB
 CapaLogica.LogUsuario
+=======
+BCapaLogica.LogProveedorProducto.EliminarDetalleProveedor(int, int)j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs9 9(,"0*Ñ
+0; ;(OÂ
+¿
+; ;(+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
+CapaLogica.LogProveedorProducto"L
+ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProductoâß
+; ;(P
+
+%1bool"SCapaAccesoDatos.Interfaces.IDatProveedorProducto.EliminarDetalleProveedor(int, int)*:8
+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto*
+""*
+""2"EliminarDetalleProveedor(int, int)"
+; ;(Q
+
+
+%1bool*.
+1<	 <(	"
+< <(	
+implicit return:
+9- 9(5
+provint:
+97 9(?
+prodintB#!
+CapaLogica.LogProveedorProducto
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

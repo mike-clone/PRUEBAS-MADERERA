@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 BCapaAccesoDatos.DatProveedorProducto.MostarDetalleProveedorId(int)a
 WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedorProducto.csc* c(B"0*–
 0e f(NE
@@ -39,9 +40,52 @@ j
 %4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandñ
 î
 j j($
+=======
+bCapaAccesoDatos.DatTemporaryProducts.ActualizarTemporaryProducts(CapaEntidad.EntTemporaryProducts)q
+eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTemporaryProducts.csÌ Ì(/"0*’
+0
+Î Ï($G
+E
 
-%5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
+Î Î(!'
+cmd System.Data.SqlClient.SqlCommand"__id*
+""3
+1
+
+Ï Ï($
+actualizadobool"__id*
+""*
+1*‘
+1
+Ò Û(v
+t
+
+Ò# Ò(5
+%0CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
+CapaAccesoDatos.Conexionƒ
+€
+
+Ò# Ò(@)
+%1#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
+
+%0CapaAccesoDatos.Conexionn
+l
+
+Ò Ò(@)
+cn#System.Data.SqlClient.SqlConnection"__id*-+
+)
+%1#System.Data.SqlClient.SqlConnectionXV
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+
+Ó Ö(&
+%2 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandñ
+î
+
+Ó Ó($
+
+%3void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
 &
+<<<<<<< HEAD
 %4 System.Data.SqlClient.SqlCommand*!
 spMostrarDetalleProveedorId*-+
 )
@@ -324,3 +368,136 @@ g
 cC c(R
 idProveedorintB(&
 $CapaAccesoDatos.DatProveedorProducto
+=======
+%2 System.Data.SqlClient.SqlCommand*
+spEditarTemporaryProducts*-+
+)
+cn#System.Data.SqlClient.SqlConnection$
+"
+
+Õ" Õ(=
+%4"__id*
+""–
+“
+
+Õ Õ(=
+%5System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set**(
+&
+%2 System.Data.SqlClient.SqlCommand*
+
+%4i
+g
+
+Ó Ö('
+cmd System.Data.SqlClient.SqlCommand"__id**(
+&
+%2 System.Data.SqlClient.SqlCommand¡
+ž
+
+× ×(2
+%6,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandt
+r
+
+×7 ×(B	
+%7int"+CapaEntidad.EntTemporaryProducts.IdTemp.get*,*
+(
+temp CapaEntidad.EntTemporaryProducts×
+Ô
+
+× ×(C(
+%8"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
+2
+%6,System.Data.SqlClient.SqlParameterCollection*	
+@idtemp*
+	
+%7int¡
+ž
+
+Ø Ø(2
+%9,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandw
+u
+
+Ø9 Ø(F
+
+%10int"-CapaEntidad.EntTemporaryProducts.Cantidad.get*,*
+(
+temp CapaEntidad.EntTemporaryProductsÛ
+Ø
+
+Ø Ø(G)
+%11"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
+2
+%9,System.Data.SqlClient.SqlParameterCollection*
+	@cantidad*
+
+
+%10intv
+t
+
+Ù Ù(
+%12void"*System.Data.SqlClient.SqlConnection.Open()*-+
+)
+cn#System.Data.SqlClient.SqlConnection{
+y
+
+Ú Ú(-
+
+%13int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*+)
+'
+cmd System.Data.SqlClient.SqlCommand.
+,
+
+Ú Ú(-
+iint"__id*
+
+
+%13int*
+2
+3*I
+2
+Ý Ý(&3
+1
+
+Ý Ý(&
+actualizadobool"__id*
+""*
+3*
+3
+æ	 æ(	*
+4
+5*
+4
+ã ã()ca
+
+ã  ã()
+%14string"System.Exception.Message.get*
+
+eSystem.Exception2Message.get¡
+ž
+
+ã ã(*(
+%15!System.Windows.Forms.DialogResult",System.Windows.Forms.MessageBox.Show(string)*%#"!
+System.Windows.Forms.MessageBox*
+
+%14string*
+5*4
+5
+å å("#
+
+å å(
+
+actualizadobool*2
+6
+æ	 æ(	"!
+
+æ æ(	
+implicit return:6
+
+Ì0 Ì(I(
+temp CapaEntidad.EntTemporaryProductsB(&
+$CapaAccesoDatos.DatTemporaryProducts
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

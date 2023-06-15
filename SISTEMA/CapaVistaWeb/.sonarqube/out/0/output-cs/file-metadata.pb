@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \
 SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.csutf-8R
 ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csutf-8Q
@@ -15,3 +16,22 @@ HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.csutf-8
 GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.csutf-8_
 VD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\Properties\AssemblyInfo.csutf-8ƒ
 xD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.csutf-8
+=======
+j
+aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.csutf-8a
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.csutf-8j
+aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.csutf-8_
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.csutf-8b
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.csutf-8`
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csutf-8b
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.csutf-8a
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.csutf-8f
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.csutf-8e
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.csutf-8\
+SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.csutf-8e
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.csutf-8_
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.csutf-8^
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.csutf-8m
+dC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\Properties\AssemblyInfo.csutf-8’
+†C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.csutf-8
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

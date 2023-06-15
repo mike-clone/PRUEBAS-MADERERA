@@ -30,7 +30,6 @@ namespace CapaLogica
         #region Administrador
         public bool CrearProducto(EntProducto prod)
         {
-           // var (isValid,validationResults)= ValidatorHelper.TryValidateEntity(prod);
               return ProductoService.CrearProducto(prod);
             
         }
@@ -53,7 +52,7 @@ namespace CapaLogica
         }
         public EntProducto BuscarProductoId(int idprod)
         {
-            return ProductoService.BuscarProductoId((int)idprod);
+            return ProductoService.BuscarProductoId(idprod);
         }
         #endregion
 

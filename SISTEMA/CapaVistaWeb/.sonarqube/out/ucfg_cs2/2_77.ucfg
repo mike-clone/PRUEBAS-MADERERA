@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 ACapaLogica.LogTemporaryProducts.BuscarTemporaryProductsIdCli(int)\
 RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs:$ :(@"0*õ
 0< <(Cº
@@ -21,3 +22,29 @@ RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts
 :A :(G	
 idintB#!
 CapaLogica.LogTemporaryProducts
+=======
+(CapaLogica.LogUbigeo.EliminarUbigeo(int)_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs( ((""0*ç
+0* *(2–
+“
+* *( +
+%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
+CapaLogica.LogUbigeo"6
+UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeo¤¡
+* *(3
+
+%1bool"9CapaAccesoDatos.Interfaces.IDatUbigeo.EliminarUbigeo(int)*/-
++
+%0%CapaAccesoDatos.Interfaces.IDatUbigeo*
+""2EliminarUbigeo(int)"
+* *(4
+
+
+%1bool*.
+1+	 +(	"
++ +(	
+implicit return:
+(# (()	
+idintB
+CapaLogica.LogUbigeo
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

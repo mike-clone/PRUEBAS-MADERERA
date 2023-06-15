@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 ;CapaAccesoDatos.DatProveedorProducto.DatProveedorProducto()a
 WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedorProducto.cs (%"0*1
 0
@@ -6,3 +7,15 @@ WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedorPro
 	 ’(
 implicit returnB(&
 $CapaAccesoDatos.DatProveedorProducto
+=======
+1CapaAccesoDatos.DatTipoProducto.DatTipoProducto()j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTipoProducto.cs
+ 
+( "0*1
+0
+• •(" 
+	
+ •(
+implicit returnB#!
+CapaAccesoDatos.DatTipoProducto
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

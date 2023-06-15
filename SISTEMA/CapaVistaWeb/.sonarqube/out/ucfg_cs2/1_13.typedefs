@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ä
 $CapaAccesoDatos.DatProveedorProductoobject0CapaAccesoDatos.Interfaces.IDatProveedorProducto™
 8CrearProveedorProducto(CapaEntidad.EntProveedorProducto)]CapaAccesoDatos.DatProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)_
@@ -7,3 +8,9 @@ $CapaAccesoDatos.DatProveedorProductoobject0CapaAccesoDatos.Interfaces.IDatPr
 !BuscarProductoParaComprar(string)FCapaAccesoDatos.DatProveedorProducto.BuscarProductoParaComprar(string)m
 "BuscarProvedorProductoId(int, int)GCapaAccesoDatos.DatProveedorProducto.BuscarProvedorProductoId(int, int)U
 DatProveedorProducto();CapaAccesoDatos.DatProveedorProducto.DatProveedorProducto()
+=======
+´
+CapaAccesoDatos.datGrafEstobjectU
+ProductosPreferidos(object)6CapaAccesoDatos.datGrafEst.ProductosPreferidos(object)7
+datGrafEst()'CapaAccesoDatos.datGrafEst.datGrafEst()
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

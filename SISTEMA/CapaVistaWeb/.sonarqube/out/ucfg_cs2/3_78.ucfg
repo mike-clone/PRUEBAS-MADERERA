@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 PMadereraCarocho.Controllers.TemporaryProductController.ListarTempProductClient()p
 fD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\TemporaryProductController.cs" "(3"2*◊
 0$ &(WB@
@@ -78,6 +79,29 @@ b
 %11*,*
 (
 %7"System.Collections.Generic.List<T>*
+=======
+?MadereraCarocho.Controllers.VentaController.MostrarDetalle(int)s
+iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\VentaController.cs# #(*"2*°	
+0% %(?ë
+é
+% %(+
+%0CapaLogica.LogDetVenta"__id*^\*Z-
++MadereraCarocho.Controllers.VentaController")
+DetVentaserviceCapaLogica.LogDetVentaê
+ç
+% %(@(
+%1"System.Collections.Generic.List<T>"+CapaLogica.LogDetVenta.Mostrardetventa(int)* 
+
+%0CapaLogica.LogDetVenta*
+""û
+õ
+% %(A
+
+%2void"'capavistaweb/views/venta/mostrardetalle*
+
+%3*
+	{unknown}*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -89,6 +113,7 @@ b
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobject∑
 ¥
 & &(Y
@@ -97,6 +122,16 @@ b
 %13*,*
 (
 %7"System.Collections.Generic.List<T>*
+=======
+%HttpContextItemsHtmlobjectî
+ë
+% %(A
+
+%4void"capavistaweb/views/_viewstart*
+
+%5*
+	{unknown}*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -108,6 +143,7 @@ b
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobject"
 & &(Z
 
@@ -121,3 +157,42 @@ b
 %14"__entrypoint*
 0B:8
 6MadereraCarocho.Controllers.TemporaryProductController
+=======
+%HttpContextItemsHtmlobjectò
+ï
+% %(A
+
+%6void"!capavistaweb/views/shared/_layout*
+
+%7*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+% %(B
+
+
+%6void*.
+1&	 &(	"
+& &(	
+implicit return*>
+2#3 #(3*
+(
+# #(*
+%8"__entrypoint*
+""*
+0:
+#+ #(2
+
+idvintB/-
++MadereraCarocho.Controllers.VentaController
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

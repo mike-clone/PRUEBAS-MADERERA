@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 4CapaLogica.LogTipoProducto.EliminarTipoProducto(int)W
 MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs. .(("0*—
 00 0(>®
@@ -23,3 +24,21 @@ MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs.
 .) .(/	
 idintB
 CapaLogica.LogTipoProducto
+=======
+!CapaLogica.LogVenta.Instancia.get^
+TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs ("0*¥
+0 (#m
+k
+ (#
+%0CapaLogica.LogVenta"__id*><*:
+CapaLogica.LogVenta"!
+
+_instanciaCapaLogica.LogVenta"'
+ ($
+
+%0CapaLogica.LogVenta*.
+1& (&"
+% (&
+implicit returnB"
+CapaLogica.LogVenta
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

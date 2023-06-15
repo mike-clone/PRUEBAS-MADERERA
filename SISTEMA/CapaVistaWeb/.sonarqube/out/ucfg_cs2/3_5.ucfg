@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 /MadereraCarocho.MvcApplication.MvcApplication()U
 KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Global.asax.cs ("0*Ž
 0 (^
@@ -9,3 +10,11 @@ KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Global.asax.cs
  (
 implicit returnB" 
 MadereraCarocho.MvcApplication
+=======
++MadereraCarocho.FilterConfig.FilterConfig()n
+dC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\App_Start\FilterConfig.cs ("0*.
+0 ("
+ (
+implicit returnB 
+MadereraCarocho.FilterConfig
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

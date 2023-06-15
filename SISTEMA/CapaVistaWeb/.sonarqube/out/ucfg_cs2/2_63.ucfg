@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 (CapaLogica.LogUbigeo.EliminarUbigeo(int)Q
 GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs( ((""0*ç
 0* *(2–
@@ -23,3 +24,24 @@ GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs( (("
 (# (()	
 idintB
 CapaLogica.LogUbigeo
+=======
+;CapaLogica.LogProveedorProducto.ListarProductoParaComprar()j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs"* "(C"0*ë
+0$ $(GÂ
+¿
+$ $(+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
+CapaLogica.LogProveedorProducto"L
+ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProductoÞÛ
+$ $(G(
+%1"System.Collections.Generic.List<T>"LCapaAccesoDatos.Interfaces.IDatProveedorProducto.ListarProductoParaComprar()*:8
+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto2ListarProductoParaComprar()"6
+$ $(H*
+(
+%1"System.Collections.Generic.List<T>*.
+1%	 %(	"
+% %(	
+implicit returnB#!
+CapaLogica.LogProveedorProducto
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

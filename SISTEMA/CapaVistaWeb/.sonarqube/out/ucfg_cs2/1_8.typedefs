@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Ò
 CapaAccesoDatos.DatProductoobject'CapaAccesoDatos.Interfaces.IDatProductol
 &CrearProducto(CapaEntidad.EntProducto)BCapaAccesoDatos.DatProducto.CrearProducto(CapaEntidad.EntProducto)@
@@ -8,3 +9,7 @@
 BuscarProductoId(int)1CapaAccesoDatos.DatProducto.BuscarProductoId(int)8
 Ordenar(int)(CapaAccesoDatos.DatProducto.Ordenar(int):
 DatProducto())CapaAccesoDatos.DatProducto.DatProducto()
+=======
+2
+0CapaAccesoDatos.Interfaces.IDatTemporaryProducts
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

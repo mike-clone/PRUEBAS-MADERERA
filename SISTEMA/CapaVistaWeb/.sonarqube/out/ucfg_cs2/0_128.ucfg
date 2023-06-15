@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 "CapaEntidad.EntUbigeo.Distrito.getR
 HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs! ($"0*g
 0( (0S
@@ -12,3 +13,19 @@ Q
 0 (1
 implicit returnB
 CapaEntidad.EntUbigeo
+=======
+)CapaEntidad.entReporteCompra.SubTotal.setg
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs2 (5"0*f
+09 (IR
+P
+9 (I4
+CapaEntidad.entReporteCompra"
+subTotaldouble"__id*
+""*
+1*.
+1J (J"
+I (J
+implicit return:
+valuedoubleB 
+CapaEntidad.entReporteCompra
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

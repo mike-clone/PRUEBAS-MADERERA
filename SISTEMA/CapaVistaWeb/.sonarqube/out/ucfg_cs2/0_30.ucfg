@@ -1,10 +1,19 @@
 
+<<<<<<< HEAD
 6CapaEntidad.EntTemporaryProducts.ProveedorProducto.set]
 SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.csR (U"0*´
 0Y (rŸ
 œ
 Y (r["
  CapaEntidad.EntTemporaryProducts"5
+=======
+.CapaEntidad.EntDetCompra.ProveedorProducto.setc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.csR (U"0*¬
+0Y (r—
+”
+Y (rS
+CapaEntidad.EntDetCompra"5
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 proveedorProducto CapaEntidad.EntProveedorProducto"__id*-+
 )
 value CapaEntidad.EntProveedorProducto*
@@ -12,5 +21,10 @@ SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProduct
 1s (s"
 r (s
 implicit return:+)
+<<<<<<< HEAD
 value CapaEntidad.EntProveedorProductoB$"
  CapaEntidad.EntTemporaryProducts
+=======
+value CapaEntidad.EntProveedorProductoB
+CapaEntidad.EntDetCompra
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

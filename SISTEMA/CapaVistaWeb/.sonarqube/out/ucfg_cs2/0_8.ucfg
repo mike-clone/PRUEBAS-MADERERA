@@ -1,7 +1,16 @@
 
+<<<<<<< HEAD
 'CapaEntidad.EntProveedor.EntProveedor()U
 KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs ("0*.
 0L L("
  L(
 implicit returnB
 CapaEntidad.EntProveedor
+=======
+'CapaEntidad.EntDetCompra.EntDetCompra()c
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs ("0*.
+0 ("
+ (
+implicit returnB
+CapaEntidad.EntDetCompra
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ß
 -MadereraCarocho.Controllers.UsuarioControllerSystem.Web.Mvc.ControllerSystem.Web.Mvc.ControllerBaseobjectX
 UsuarioController()AMadereraCarocho.Controllers.UsuarioController.UsuarioController()^
@@ -5,3 +6,11 @@
 EliminarClientes(int)CMadereraCarocho.Controllers.UsuarioController.EliminarClientes(int)V
 EditarCliente(int)@MadereraCarocho.Controllers.UsuarioController.EditarCliente(int)|
 %EditarCliente(CapaEntidad.EntUsuario)SMadereraCarocho.Controllers.UsuarioController.EditarCliente(CapaEntidad.EntUsuario)
+=======
+¹
++MadereraCarocho.Controllers.VentaControllerSystem.Web.Mvc.ControllerSystem.Web.Mvc.ControllerBaseobjectR
+VentaController()=MadereraCarocho.Controllers.VentaController.VentaController()J
+ListarVenta()9MadereraCarocho.Controllers.VentaController.ListarVenta()V
+MostrarDetalle(int)?MadereraCarocho.Controllers.VentaController.MostrarDetalle(int)P
+ConfirmarVenta()<MadereraCarocho.Controllers.VentaController.ConfirmarVenta()
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

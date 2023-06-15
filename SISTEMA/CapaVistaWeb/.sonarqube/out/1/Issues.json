@@ -12,6 +12,30 @@
       },
       "results": [
         {
+<<<<<<< HEAD
+=======
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatCompra.cs",
+                "region": {
+                  "startLine": 167,
+                  "startColumn": 21,
+                  "endLine": 167,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
           "ruleId": "S1118",
           "level": "warning",
           "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
@@ -33,6 +57,7 @@
           }
         },
         {
+<<<<<<< HEAD
           "ruleId": "S101",
           "level": "warning",
           "message": "Rename class 'datGrafEst' to match pascal case naming rules, consider using 'DatGrafEst'.",
@@ -54,16 +79,23 @@
           }
         },
         {
+=======
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
           "ruleId": "S101",
           "level": "warning",
-          "message": "Rename class 'encrypt' to match pascal case naming rules, consider using 'Encrypt'.",
+          "message": "Rename class 'datGrafEst' to match pascal case naming rules, consider using 'DatGrafEst'.",
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/encrypt.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/datGrafEst.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
-                  "startLine": 6,
+                  "startLine": 9,
                   "startColumn": 18,
+<<<<<<< HEAD
                   "endLine": 6,
                   "endColumn": 25
                 }
@@ -87,6 +119,10 @@
                   "startColumn": 21,
                   "endLine": 167,
                   "endColumn": 77
+=======
+                  "endLine": 9,
+                  "endColumn": 28
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 }
               }
             }
@@ -117,6 +153,30 @@
           }
         },
         {
+<<<<<<< HEAD
+=======
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'encrypt' to match pascal case naming rules, consider using 'Encrypt'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/encrypt.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
           "ruleId": "S2068",
           "level": "warning",
           "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
@@ -180,6 +240,51 @@
           }
         },
         {
+<<<<<<< HEAD
+=======
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedor.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 19,
+                  "endLine": 46,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1116",
+          "level": "warning",
+          "message": "Remove this empty statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedorProducto.cs",
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 18,
+                  "endLine": 88,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
           "ruleId": "S1481",
           "level": "warning",
           "message": "Remove the unused local variable 'u'.",
@@ -201,13 +306,41 @@
           }
         },
         {
+<<<<<<< HEAD
+=======
           "ruleId": "S112",
           "level": "warning",
           "message": "'System.Exception' should not be thrown by user code.",
           "locations": [
             {
               "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedor.cs",
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 23,
+                  "endLine": 158,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProducto.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProducto.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
                   "startLine": 83,
                   "startColumn": 23,
@@ -222,6 +355,7 @@
           }
         },
         {
+<<<<<<< HEAD
           "ruleId": "S112",
           "level": "warning",
           "message": "'System.Exception' should not be thrown by user code.",
@@ -264,12 +398,15 @@
           }
         },
         {
+=======
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
           "ruleId": "S3445",
           "level": "warning",
           "message": "Consider using 'throw;' to preserve the stack trace.",
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedorProducto.cs",
                 "region": {
                   "startLine": 136,
@@ -313,11 +450,38 @@
             {
               "resultFile": {
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedor.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedor.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
                   "startLine": 292,
                   "startColumn": 15,
                   "endLine": 292,
                   "endColumn": 23
+<<<<<<< HEAD
+=======
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3445",
+          "level": "warning",
+          "message": "Consider using 'throw;' to preserve the stack trace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedorProducto.cs",
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 15,
+                  "endLine": 136,
+                  "endColumn": 23
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 }
               }
             }

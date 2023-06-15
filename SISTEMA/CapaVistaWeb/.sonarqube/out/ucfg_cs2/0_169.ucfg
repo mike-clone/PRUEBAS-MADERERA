@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
  CapaEntidad.EntProducto.Tipo.getT
 JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs0 0("0*»
 00 0({
@@ -13,4 +14,19 @@ y
 10  0( "
 0 0( 
 implicit returnB
+=======
+$CapaEntidad.EntProducto.Longitud.setb
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs& &("0*a
+0& &("M
+K
+& &("/
+CapaEntidad.EntProducto"
+longituddouble"__id*
+""*
+1*.
+1&% &(%"
+&$ &(%
+implicit return:
+valuedoubleB
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 CapaEntidad.EntProducto

@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
  CapaEntidad.EntVenta.IdVenta.getQ
 GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*E
 0 ( "
@@ -13,3 +14,20 @@ GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs (
 " (#
 implicit returnB
 CapaEntidad.EntVenta
+=======
+#CapaEntidad.EntDetCompra.Compra.setc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs1 (4"0*‰
+08 (Fu
+s
+8 (F=
+CapaEntidad.EntDetCompra"
+compraCapaEntidad.EntCompra"__id*" 
+
+valueCapaEntidad.EntCompra*
+1*.
+1G (G"
+F (G
+implicit return: 
+valueCapaEntidad.EntCompraB
+CapaEntidad.EntDetCompra
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

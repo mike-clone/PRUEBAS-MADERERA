@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 .CapaEntidad.EntProveedorProducto.Proveedor.get]
 SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs
 ( 
@@ -22,3 +23,19 @@ SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProduct
 (9
 implicit returnB$"
  CapaEntidad.EntProveedorProducto
+=======
+!CapaEntidad.EntUsuario.Activo.seta
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csQ Q("0*\
+0Q Q( H
+F
+Q Q( *
+CapaEntidad.EntUsuario"
+activobool"__id*
+""*
+1*.
+1Q# Q(#"
+Q" Q(#
+implicit return:
+valueboolB
+CapaEntidad.EntUsuario
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

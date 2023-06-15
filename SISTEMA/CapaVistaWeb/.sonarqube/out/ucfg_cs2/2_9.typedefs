@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 CapaLogica.LogProveedorProductoobjectP
 LogProveedorProducto()6CapaLogica.LogProveedorProducto.LogProveedorProducto()°
@@ -9,3 +10,13 @@ FLogProveedorProducto(CapaAccesoDatos.Interfaces.IDatProveedorProducto)fCapaLog
 !BuscarProductoParaComprar(string)ACapaLogica.LogProveedorProducto.BuscarProductoParaComprar(string)h
 "BuscarProvedorProductoId(int, int)BCapaLogica.LogProveedorProducto.BuscarProvedorProductoId(int, int)h
 "EliminarDetalleProveedor(int, int)BCapaLogica.LogProveedorProducto.EliminarDetalleProveedor(int, int)
+=======
+™
+CapaLogica.LogVentaobject,
+
+LogVenta()CapaLogica.LogVenta.LogVenta()t
+.LogVenta(CapaAccesoDatos.Interfaces.IDatVenta)BCapaLogica.LogVenta.LogVenta(CapaAccesoDatos.Interfaces.IDatVenta)X
+ CrearVenta(CapaEntidad.EntVenta)4CapaLogica.LogVenta.CrearVenta(CapaEntidad.EntVenta)8
+ListarVenta(int)$CapaLogica.LogVenta.ListarVenta(int)B
+ListarTodasLasVenta())CapaLogica.LogVenta.ListarTodasLasVenta()
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

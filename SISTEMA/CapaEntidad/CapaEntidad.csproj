@@ -50,9 +50,7 @@
     <Compile Include="EntProducto.cs" />
     <Compile Include="EntProveedor.cs" />
     <Compile Include="EntProveedorProducto.cs" />
-    <Compile Include="entReporteCompra.cs" />
-    <Compile Include="entReporteVenta.cs" />
-    <Compile Include="entRol.cs" />
+    <Compile Include="EntRol.cs" />
     <Compile Include="EntTipoProducto.cs" />
     <Compile Include="EntUbigeo.cs" />
     <Compile Include="EntVenta.cs" />

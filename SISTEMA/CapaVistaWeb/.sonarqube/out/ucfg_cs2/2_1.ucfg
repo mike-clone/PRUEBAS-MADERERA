@@ -1,7 +1,31 @@
 
+<<<<<<< HEAD
 CapaLogica.logRoll.logRoll()O
 ED:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRoll.cs ("0*.
 0 ("
  (
 implicit returnB
 CapaLogica.logRoll
+=======
++CapaLogica.LogProducto.LogProducto()!statica
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs	 	("0*Ì
+0? ?(B@
+9 (J
+%0CapaLogica.LogProducto"CapaLogica.LogProducto`
+^
+= (H
+
+%1void"$CapaLogica.LogProducto.LogProducto()* 
+
+%0CapaLogica.LogProductov
+t
+, (J@
+CapaLogica.LogProducto"$
+
+_instanciaCapaLogica.LogProducto"__id* 
+
+%0CapaLogica.LogProducto"
+	 ?(
+implicit returnB"
+CapaLogica.LogProducto
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

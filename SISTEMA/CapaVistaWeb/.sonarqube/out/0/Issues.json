@@ -39,7 +39,32 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetVenta.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntCompra.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 20,
+                  "endLine": 18,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
                   "startLine": 19,
                   "startColumn": 28,
@@ -102,6 +127,7 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntTemporaryProducts.cs",
                 "region": {
                   "startLine": 12,
@@ -124,6 +150,9 @@
             {
               "resultFile": {
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedorProducto.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedorProducto.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
                   "startLine": 10,
                   "startColumn": 29,
@@ -144,96 +173,21 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedorProducto.cs",
                 "region": {
                   "startLine": 11,
                   "startColumn": 28,
                   "endLine": 11,
                   "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2292",
-          "level": "warning",
-          "message": "Make this an auto-implemented property and remove its backing field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntTemporaryProducts.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 27,
-                  "endLine": 13,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2292",
-          "level": "warning",
-          "message": "Make this an auto-implemented property and remove its backing field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetCompra.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 26,
-                  "endLine": 11,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2292",
-          "level": "warning",
-          "message": "Make this an auto-implemented property and remove its backing field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedorProducto.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 23,
-                  "endLine": 12,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2292",
-          "level": "warning",
-          "message": "Make this an auto-implemented property and remove its backing field.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteCompra.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteCompra.cs",
                 "region": {
                   "startLine": 16,
                   "startColumn": 20,
                   "endLine": 16,
                   "endColumn": 26
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 }
               }
             }
@@ -249,28 +203,31 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetCompra.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 37,
-                  "endLine": 12,
-                  "endColumn": 54
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2292",
-          "level": "warning",
-          "message": "Make this an auto-implemented property and remove its backing field.",
-          "locations": [
-            {
-              "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntTemporaryProducts.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetVenta.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 25,
+                  "endLine": 14,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntTemporaryProducts.cs",
                 "region": {
                   "startLine": 14,
                   "startColumn": 20,
@@ -291,12 +248,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntCompra.cs",
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProducto.cs",
                 "region": {
-                  "startLine": 18,
+                  "startLine": 20,
                   "startColumn": 20,
-                  "endLine": 18,
-                  "endColumn": 28
+                  "endLine": 20,
+                  "endColumn": 30
                 }
               }
             }
@@ -312,7 +269,499 @@
           "locations": [
             {
               "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntTemporaryProducts.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 37,
+                  "endLine": 12,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntTemporaryProducts.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 27,
+                  "endLine": 13,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+<<<<<<< HEAD
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetCompra.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 26,
+                  "endLine": 11,
+                  "endColumn": 32
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProducto.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 23,
+                  "endLine": 25,
+                  "endColumn": 29
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+<<<<<<< HEAD
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedorProducto.cs",
+                "region": {
+                  "startLine": 12,
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntTemporaryProducts.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteCompra.cs",
+                "region": {
+                  "startLine": 17,
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProducto.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 23,
+                  "endLine": 30,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+<<<<<<< HEAD
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteCompra.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 20,
+                  "endLine": 16,
+                  "endColumn": 26
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedor.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 20,
+                  "endLine": 26,
+                  "endColumn": 31
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+<<<<<<< HEAD
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetCompra.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProducto.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 23,
+                  "endLine": 35,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedorProducto.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 28,
+                  "endLine": 11,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteCompra.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 37,
+                  "endLine": 12,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+<<<<<<< HEAD
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntTemporaryProducts.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 20,
+                  "endLine": 14,
+                  "endColumn": 28
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedorProducto.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 35
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+<<<<<<< HEAD
+                "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntCompra.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 20,
+                  "endLine": 18,
+                  "endColumn": 28
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProducto.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 23,
+                  "endLine": 41,
+                  "endColumn": 34
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetVenta.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteCompra.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 23,
+                  "endLine": 19,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProducto.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 32,
+                  "endLine": 46,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteCompra.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 23,
+                  "endLine": 20,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteCompra.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 23,
+                  "endLine": 21,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteCompra.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 23,
+                  "endLine": 23,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteCompra.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 23,
+                  "endLine": 22,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProducto.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 21,
+                  "endLine": 58,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProducto.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 20,
+                  "endLine": 51,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetVenta.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 28,
+                  "endLine": 19,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetVenta.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
                   "startLine": 24,
                   "startColumn": 20,
@@ -333,6 +782,7 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetCompra.cs",
                 "region": {
                   "startLine": 13,
@@ -418,6 +868,9 @@
             {
               "resultFile": {
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetVenta.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetVenta.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
                   "startLine": 30,
                   "startColumn": 23,
@@ -438,12 +891,187 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntCompra.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntCompra.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
                   "startLine": 28,
                   "startColumn": 23,
                   "endLine": 28,
                   "endColumn": 28
+<<<<<<< HEAD
+=======
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntCompra.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 25,
+                  "endLine": 23,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntCompra.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 23,
+                  "endLine": 35,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntCompra.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 27,
+                  "endLine": 36,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntTipoProducto.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 20,
+                  "endLine": 8,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntTipoProducto.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entRol.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 20,
+                  "endLine": 16,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'entRoll' to match pascal case naming rules, consider using 'EntRoll'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entRol.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 18,
+                  "endLine": 11,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entRol.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 34
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 }
               }
             }
@@ -566,6 +1194,7 @@
               "resultFile": {
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteCompra.cs",
                 "region": {
+<<<<<<< HEAD
                   "startLine": 21,
                   "startColumn": 23,
                   "endLine": 21,
@@ -609,6 +1238,9 @@
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteCompra.cs",
                 "region": {
                   "startLine": 22,
+=======
+                  "startLine": 11,
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                   "startColumn": 23,
                   "endLine": 22,
                   "endColumn": 35
@@ -669,6 +1301,7 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedor.cs",
                 "region": {
                   "startLine": 26,
@@ -1111,11 +1744,14 @@
             {
               "resultFile": {
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntTipoProducto.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUbigeo.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
-                  "startLine": 8,
-                  "startColumn": 20,
-                  "endLine": 8,
-                  "endColumn": 35
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 32
                 }
               }
             }
@@ -1131,12 +1767,100 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntTipoProducto.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteVenta.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
-                  "startLine": 9,
+                  "startLine": 16,
+                  "startColumn": 20,
+                  "endLine": 16,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteVenta.cs",
+                "region": {
+                  "startLine": 17,
                   "startColumn": 23,
-                  "endLine": 9,
-                  "endColumn": 29
+                  "endLine": 17,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'entReporteVenta' to match pascal case naming rules, consider using 'EntReporteVenta'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteVenta.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 18,
+                  "endLine": 5,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteVenta.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 25,
+                  "endLine": 18,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteVenta.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 23,
+                  "endLine": 20,
+                  "endColumn": 31
                 }
               }
             }
@@ -1154,9 +1878,120 @@
               "resultFile": {
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUbigeo.cs",
                 "region": {
+<<<<<<< HEAD
                   "startLine": 10,
                   "startColumn": 23,
                   "endLine": 10,
+=======
+                  "startLine": 14,
+                  "startColumn": 20,
+                  "endLine": 14,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteVenta.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 23,
+                  "endLine": 19,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteVenta.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 23,
+                  "endLine": 21,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteVenta.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 23,
+                  "endLine": 22,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntVenta.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 25,
+                  "endLine": 19,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/entReporteVenta.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 23,
+                  "endLine": 23,
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                   "endColumn": 31
                 }
               }
@@ -1238,10 +2073,10 @@
               "resultFile": {
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntVenta.cs",
                 "region": {
-                  "startLine": 14,
-                  "startColumn": 20,
-                  "endLine": 14,
-                  "endColumn": 27
+                  "startLine": 29,
+                  "startColumn": 23,
+                  "endLine": 29,
+                  "endColumn": 29
                 }
               }
             }
@@ -1341,6 +2176,7 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
                 "region": {
                   "startLine": 31,
@@ -1364,6 +2200,10 @@
               "resultFile": {
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
                 "region": {
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
+                "region": {
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                   "startLine": 43,
                   "startColumn": 23,
                   "endLine": 43,
@@ -1383,6 +2223,7 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
                 "region": {
                   "startLine": 37,
@@ -1405,6 +2246,9 @@
             {
               "resultFile": {
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
                   "startLine": 49,
                   "startColumn": 26,
@@ -1425,7 +2269,53 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedor.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 23,
+                  "endLine": 32,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 23,
+                  "endLine": 37,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
                   "startLine": 55,
                   "startColumn": 25,
@@ -1446,6 +2336,7 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
                 "region": {
                   "startLine": 61,
@@ -1472,6 +2363,13 @@
                   "startLine": 32,
                   "startColumn": 23,
                   "endLine": 32,
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 23,
+                  "endLine": 31,
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                   "endColumn": 34
                 }
               }
@@ -1488,6 +2386,7 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
                 "region": {
                   "startLine": 66,
@@ -1510,6 +2409,9 @@
             {
               "resultFile": {
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedor.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedor.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
                   "startLine": 38,
                   "startColumn": 23,
@@ -1530,6 +2432,7 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
                 "region": {
                   "startLine": 75,
@@ -1640,6 +2543,13 @@
                   "startLine": 53,
                   "startColumn": 23,
                   "endLine": 53,
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 23,
+                  "endLine": 66,
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                   "endColumn": 31
                 }
               }
@@ -1656,12 +2566,21 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedor.cs",
                 "region": {
                   "startLine": 59,
                   "startColumn": 23,
                   "endLine": 59,
                   "endColumn": 34
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 23,
+                  "endLine": 61,
+                  "endColumn": 29
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 }
               }
             }
@@ -1677,7 +2596,11 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedor.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedor.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
                   "startLine": 45,
                   "startColumn": 23,
@@ -1698,12 +2621,250 @@
           "locations": [
             {
               "resultFile": {
+<<<<<<< HEAD
                 "uri": "file:///D:/Universidad/calidad/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedor.cs",
+=======
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedor.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 23,
+                  "endLine": 53,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 21,
+                  "endLine": 79,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 23,
+                  "endLine": 75,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 24,
+                  "endLine": 85,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntUsuario.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 23,
+                  "endLine": 71,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedor.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 21,
+                  "endLine": 65,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedor.cs",
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 "region": {
                   "startLine": 70,
                   "startColumn": 26,
                   "endLine": 70,
                   "endColumn": 32
+<<<<<<< HEAD
+=======
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetCompra.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 26,
+                  "endLine": 11,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetCompra.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 20,
+                  "endLine": 13,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetCompra.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 37,
+                  "endLine": 12,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntDetCompra.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2292",
+          "level": "warning",
+          "message": "Make this an auto-implemented property and remove its backing field.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaEntidad/EntProveedor.cs",
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 23,
+                  "endLine": 59,
+                  "endColumn": 34
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
                 }
               }
             }

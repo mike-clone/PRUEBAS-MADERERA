@@ -3,7 +3,7 @@ using System.Text;
 
 namespace CapaAccesoDatos
 {
-    public class encrypt
+    public class Encrypt
     {
         public static string GetSHA256(string str)
         {

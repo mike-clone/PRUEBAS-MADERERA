@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 ?CapaAccesoDatos.DatUsuario.CrearCliente(CapaEntidad.EntUsuario)W
 MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs ( "0*‡
 0 (E
@@ -227,3 +228,20 @@ k
 ! (/
 CliCapaEntidad.EntUsuarioB
 CapaAccesoDatos.DatUsuario
+=======
+(CapaAccesoDatos.datGrafEst.Instancia.gete
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datGrafEst.cs ("0*Á
+0 ("
+
+ (" 
+%0CapaAccesoDatos.datGrafEst"__id*KI*G
+CapaAccesoDatos.datGrafEst"'
+	_instanceCapaAccesoDatos.datGrafEst".
+ (#"
+ 
+%0CapaAccesoDatos.datGrafEst*.
+1% (%"
+$ (%
+implicit returnB"
+CapaAccesoDatos.datGrafEst
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

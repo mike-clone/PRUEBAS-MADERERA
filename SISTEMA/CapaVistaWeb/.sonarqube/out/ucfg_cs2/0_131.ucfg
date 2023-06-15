@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 !CapaEntidad.EntUsuario.Activo.getS
 ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csP P("0*E
 0P P("
@@ -13,3 +14,17 @@ ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csP P
 P! P("
 implicit returnB
 CapaEntidad.EntUsuario
+=======
+1CapaEntidad.EntProveedorProducto.PrecioCompra.getk
+aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs% (("0*6
+0, (8"
+ 
+, (8
+%0"__id*
+""*
+1*.
+19 (9"
+8 (9
+implicit returnB$"
+ CapaEntidad.EntProveedorProducto
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

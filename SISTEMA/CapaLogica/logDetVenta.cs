@@ -30,7 +30,7 @@ namespace CapaLogica
             return DetVentaService.CrearDetVenta(det);
         }
        
-        //Carrito compras
+        
       
         public List<EntDetVenta> Mostrardetventa(int idVenta)
         {

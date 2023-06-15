@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 BCapaAccesoDatos.DatProveedorProducto.DatProveedorProducto()!statica
 WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedorProducto.cs (%"0*½
 0
@@ -20,3 +21,30 @@ $CapaAccesoDatos.DatProveedorProducto"1
 	 ’(
 implicit returnB("&
 $CapaAccesoDatos.DatProveedorProducto
+=======
+8CapaAccesoDatos.DatTipoProducto.DatTipoProducto()!staticj
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTipoProducto.cs
+ 
+( "0*”
+0
+• •(TR
+= (R%
+%0CapaAccesoDatos.DatTipoProducto"CapaAccesoDatos.DatTipoProductov
+t
+A (P
+
+%1void"1CapaAccesoDatos.DatTipoProducto.DatTipoProducto()*)'
+%
+%0CapaAccesoDatos.DatTipoProducto’
+
+0 (RR!
+CapaAccesoDatos.DatTipoProducto"-
+
+_instanciaCapaAccesoDatos.DatTipoProducto"__id*)'
+%
+%0CapaAccesoDatos.DatTipoProducto" 
+	
+ •(
+implicit returnB#"!
+CapaAccesoDatos.DatTipoProducto
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

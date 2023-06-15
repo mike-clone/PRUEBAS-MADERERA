@@ -114,8 +114,13 @@ _instancia #
 ; 
 } 	
 }   
+<<<<<<< HEAD
 }!! ¥ý
 WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTemporaryProducts.cs
+=======
+}!! ³ý
+eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTemporaryProducts.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace		 	
 CapaAccesoDatos		
  
@@ -2935,8 +2940,13 @@ MessageBox
 ÓÓ 	
 }
 ÔÔ 
+<<<<<<< HEAD
 }ÖÖ À½
 MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs
+=======
+}ÖÖ Î½
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace		 	
 CapaAccesoDatos		
  
@@ -6690,8 +6700,13 @@ MessageBox
 ‚‚ 	
 }
 …… 
+<<<<<<< HEAD
 }‡‡ ü}
 LD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatCompra.cs
+=======
+}‡‡ Š~
+ZC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatCompra.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace		 	
 CapaAccesoDatos		
  
@@ -7894,8 +7909,13 @@ MessageBox
 ±± 	
 }
 ²² 
+<<<<<<< HEAD
 }³³ C
 OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetCompra.cs
+=======
+}³³ C
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetCompra.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace		 	
 CapaAccesoDatos		
  
@@ -8399,8 +8419,13 @@ MessageBox`` 
 ;bb 
 }cc 	
 }dd 
+<<<<<<< HEAD
 }ee ¬;
 ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetVenta.cs
+=======
+}ee º;
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetVenta.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace
 
  	
@@ -8851,8 +8876,13 @@ MessageBoxZZ 
 ;\\ 
 }]] 	
 }^^ 
+<<<<<<< HEAD
 }__ “
 MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datGrafEst.cs
+=======
+}__ ¡
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datGrafEst.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace 	
 CapaAccesoDatos
  
@@ -9027,8 +9057,13 @@ MessageBox'' 
 ;))  
 }** 	
 }++ 
+<<<<<<< HEAD
 },, ÕÌ
 ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProducto.cs
+=======
+},, ãÌ
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProducto.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace		 	
 CapaAccesoDatos		
  
@@ -11255,8 +11290,13 @@ MessageBox
 •• 	
 }
 ˜˜ 
+<<<<<<< HEAD
 }™™ öç
 OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedor.cs
+=======
+}™™ „è
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedor.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace		 	
 CapaAccesoDatos		
  
@@ -13872,8 +13912,13 @@ Parameters
 ¦¦ 	
 }
 ©© 
+<<<<<<< HEAD
 }ªª Ï
 WD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedorProducto.cs
+=======
+}ªª Ï
+eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedorProducto.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace		 	
 CapaAccesoDatos		
  
@@ -16096,8 +16141,13 @@ MessageBox
 ‘‘ 	
 }
 ’’ 
+<<<<<<< HEAD
 }““ ß
 JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datRoll.cs
+=======
+}““ í
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datRoll.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace 	
 CapaAccesoDatos
  
@@ -16296,8 +16346,13 @@ MessageBox,, 
 ;.. 
 }// 	
 }00 
+<<<<<<< HEAD
 }11 ¶c
 RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTipoProducto.cs
+=======
+}11 Äc
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTipoProducto.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace 	
 CapaAccesoDatos
  
@@ -17134,8 +17189,13 @@ MessageBox
 ““ 	
 }
 •• 
+<<<<<<< HEAD
 }–– €‰
 LD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.cs
+=======
+}–– Ž‰
+ZC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace 	
 CapaAccesoDatos
  
@@ -18445,8 +18505,13 @@ MessageBox
 ¶¶ 	
 }
 ¹¹ 
+<<<<<<< HEAD
 }ºº óS
 KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatVenta.cs
+=======
+}ºº T
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatVenta.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace		 	
 CapaAccesoDatos		
  
@@ -19094,6 +19159,7 @@ MessageBox{{ 
 } 	
 }
 €€ 
+<<<<<<< HEAD
 } ®
 XD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Interfaces\IDatCompra.cs
 	namespace 	
@@ -19160,6 +19226,10 @@ IDatCompra
 } 
 } ž
 JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\encrypt.cs
+=======
+} ¬
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\encrypt.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	namespace 	
 CapaAccesoDatos
  

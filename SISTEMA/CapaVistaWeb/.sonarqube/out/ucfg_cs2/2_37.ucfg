@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 3CapaLogica.LogTipoProducto.SelectListTipoProducto()W
 MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs"% "(;"0*Ç
 0$ $(?®
@@ -18,3 +19,27 @@ MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs"
 % %(	
 implicit returnB
 CapaLogica.LogTipoProducto
+=======
+&CapaLogica.LogCompra.ListarCompra(int)_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs (+"0*Ÿ
+0 (0–
+“
+ ( +
+%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
+CapaLogica.LogCompra"6
+CompraService%CapaAccesoDatos.Interfaces.IDatCompra¾»
+ (1(
+%1"System.Collections.Generic.List<T>"7CapaAccesoDatos.Interfaces.IDatCompra.ListarCompra(int)*/-
++
+%0%CapaAccesoDatos.Interfaces.IDatCompra*
+""2ListarCompra(int)"6
+ (2*
+(
+%1"System.Collections.Generic.List<T>*.
+1	 (	"
+ (	
+implicit return:
+, (2	
+idintB
+CapaLogica.LogCompra
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

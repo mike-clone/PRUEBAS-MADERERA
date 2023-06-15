@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 -CapaLogica.LogProveedor.LogProveedor()!staticT
 JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs	 	("0*Ô
 0w w(DB
@@ -20,3 +21,13 @@ _instanciaCapaLogica.LogProveedor"__id*!
 	 w(
 implicit returnB"
 CapaLogica.LogProveedor
+=======
+"CapaLogica.LogUsuario.LogUsuario()`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs ("1*
+1	 (	*
+0*.
+0	 (	"
+ (	
+implicit returnB
+CapaLogica.LogUsuario
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

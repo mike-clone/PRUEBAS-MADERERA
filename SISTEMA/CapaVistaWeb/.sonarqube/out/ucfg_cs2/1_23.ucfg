@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 %CapaAccesoDatos.DatCompra.DatCompra()V
 LD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatCompra.cs ("0*1
 0
@@ -6,3 +7,12 @@ LD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatCompra.cs
 	 ²(
 implicit returnB
 CapaAccesoDatos.DatCompra
+=======
+'CapaAccesoDatos.DatUsuario.DatUsuario()e
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs ("0*1
+0
+… …(" 
+	 …(
+implicit returnB
+CapaAccesoDatos.DatUsuario
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

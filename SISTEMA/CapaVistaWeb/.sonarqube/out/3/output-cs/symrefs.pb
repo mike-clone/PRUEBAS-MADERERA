@@ -306,9 +306,15 @@ ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeCo
 «« "
 
 ¦¦! 2
+<<<<<<< HEAD
 ¯¯: KÍ
 
 _D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs
+=======
+¯¯: KÛ
+
+mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
  $ 
  # 
@@ -396,8 +402,50 @@ _D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\Provee
 ºº< B
 ¾¾Y _
 
+<<<<<<< HEAD
 ¾¾ ¤
 TD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Utilidades\Encriptar.cs
+=======
+¾¾ Ç
+iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\VentaController.cs
+
+  (
+   $?? *(
+ # %% +NN #
+ . 11 (
+
+ '
+  1 8
+
+## *
+##/ 2%%< ?
+
+** *(
+.. "// 11E L;; %P
+00+ /11 44$ (66 !DD$ (II% )KK# 'LL# '
+33 66 << !(
+44 44  !442 366" #(
+99 ??6 ;@@ FF  %
+?? @@  '<
+BB FF GG KK LL NN2 5<
+DD DD  !DD0 1II* +KK( )LL( )g
+eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Properties\AssemblyInfo.csû
+kC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Permisos\PermisosRolAttribute.cs
+
+		 %
+  # # &
++ . 
+
+ -(
+D Q !!! ##" /
+  s
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Global.asax.cs
+
+ 
+
+		 (²
+bC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Utilidades\Encriptar.cs
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
  
 

@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 #CapaEntidad.EntUbigeo.Provincia.setR
 HD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs4 (7"0*k
 0; (LW
@@ -14,3 +15,20 @@ U
 implicit return:
 valuestringB
 CapaEntidad.EntUbigeo
+=======
+(CapaEntidad.entReporteVenta.Longitud.setf
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs2 (5"0*p
+09 (I\
+Z
+9 (I3
+CapaEntidad.entReporteVenta"
+longitudstring"__id*
+
+valuestring*
+1*.
+1J (J"
+I (J
+implicit return:
+valuestringB
+CapaEntidad.entReporteVenta
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

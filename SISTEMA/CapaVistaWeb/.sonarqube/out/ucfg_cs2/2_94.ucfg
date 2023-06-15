@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 4CapaLogica.LogVenta.CrearVenta(CapaEntidad.EntVenta)P
 FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs ("0*Ž
 0   (,’
@@ -22,3 +23,30 @@ FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs ("
  ((
 vCapaEntidad.EntVentaB
 CapaLogica.LogVenta
+=======
+<CapaLogica.LogUbigeo.ActualizarUbigeo(CapaEntidad.EntUbigeo)_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs$ $($"0*¥
+0& &(3–
+“
+& &( +
+%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
+CapaLogica.LogUbigeo"6
+UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeoâß
+& &(4
+
+%1bool"MCapaAccesoDatos.Interfaces.IDatUbigeo.ActualizarUbigeo(CapaEntidad.EntUbigeo)*/-
++
+%0%CapaAccesoDatos.Interfaces.IDatUbigeo*
+
+uCapaEntidad.EntUbigeo2'ActualizarUbigeo(CapaEntidad.EntUbigeo)"
+& &(5
+
+
+%1bool*.
+1'	 '(	"
+' '(	
+implicit return:&
+$% $(0
+uCapaEntidad.EntUbigeoB
+CapaLogica.LogUbigeo
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ‹
  CapaEntidad.EntTemporaryProductsobjectQ
 EntTemporaryProducts()7CapaEntidad.EntTemporaryProducts.EntTemporaryProducts()9
@@ -13,3 +14,26 @@ IdTemp.set+CapaEntidad.EntTemporaryProducts.IdTemp.setO
 Cantidad.set-CapaEntidad.EntTemporaryProducts.Cantidad.set=
 Subtotal.get-CapaEntidad.EntTemporaryProducts.Subtotal.get=
 Subtotal.set-CapaEntidad.EntTemporaryProducts.Subtotal.set
+=======
+©
+CapaEntidad.entReporteCompraobjectE
+entReporteCompra()/CapaEntidad.entReporteCompra.entReporteCompra()5
+
+Codigo.get'CapaEntidad.entReporteCompra.Codigo.get5
+
+Codigo.set'CapaEntidad.entReporteCompra.Codigo.set;
+Proveedor.get*CapaEntidad.entReporteCompra.Proveedor.get;
+Proveedor.set*CapaEntidad.entReporteCompra.Proveedor.set3
+	Fecha.get&CapaEntidad.entReporteCompra.Fecha.get3
+	Fecha.set&CapaEntidad.entReporteCompra.Fecha.set?
+Descripcion.get,CapaEntidad.entReporteCompra.Descripcion.get?
+Descripcion.set,CapaEntidad.entReporteCompra.Descripcion.set9
+Longitud.get)CapaEntidad.entReporteCompra.Longitud.get9
+Longitud.set)CapaEntidad.entReporteCompra.Longitud.set9
+Cantidad.get)CapaEntidad.entReporteCompra.Cantidad.get9
+Cantidad.set)CapaEntidad.entReporteCompra.Cantidad.setA
+PrecUnitario.get-CapaEntidad.entReporteCompra.PrecUnitario.getA
+PrecUnitario.set-CapaEntidad.entReporteCompra.PrecUnitario.set9
+SubTotal.get)CapaEntidad.entReporteCompra.SubTotal.get9
+SubTotal.set)CapaEntidad.entReporteCompra.SubTotal.set
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

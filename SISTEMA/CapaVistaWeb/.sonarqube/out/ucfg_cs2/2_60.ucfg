@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 ACapaLogica.LogProveedorProducto.BuscarProductoParaComprar(string)\
 RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs0* 0(C"0*
 02 2(NÂ
@@ -22,3 +23,13 @@ RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto
 0D 0(S
 busquedastringB#!
 CapaLogica.LogProveedorProducto
+=======
+,CapaLogica.LogTipoProducto.LogTipoProducto()e
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs ("1*
+1	 (	*
+0*.
+0	 (	"
+ (	
+implicit returnB
+CapaLogica.LogTipoProducto
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

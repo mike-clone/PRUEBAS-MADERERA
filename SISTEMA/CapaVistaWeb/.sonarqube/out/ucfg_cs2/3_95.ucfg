@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 ?MadereraCarocho.Controllers.HomeController.EditarDatosCliente()f
 ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs¦ ¦(."2*‹
 0
@@ -116,6 +117,88 @@ U
 %14*%#
 !
 usuarioCapaEntidad.EntUsuario*
+=======
+CMadereraCarocho.Controllers.ProveedorController.MostrarDetalle(int)y
+mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs— —(*"4*
+0
+¢	 ¢(	*
+1
+2*ƒ
+1
+› œ(U1/
+
+› ›(
+%ViewBagDataAllobject"object20
+
+› ›(
+%ViewBagDataHtmlobject"object—
+”
+
+›2 ›(A
+%0CapaLogica.LogProducto"__id*b`*^1
+/MadereraCarocho.Controllers.ProveedorController")
+ProductoserviceCapaLogica.LogProducto„
+
+
+›2 ›(R(
+%1"System.Collections.Generic.List<T>"'CapaLogica.LogProducto.ListarProducto()* 
+
+%0CapaLogica.LogProductoJH
+
+›# ›(r
+%2System.Web.Mvc.SelectList"System.Web.Mvc.SelectListì
+é
+
+›' ›(1
+
+%3void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
+
+%2System.Web.Mvc.SelectList*,*
+(
+%1"System.Collections.Generic.List<T>*
+
+idProducto*
+NombreCompletor
+p
+
+› ›(r
+%4"__mapSet*
+
+%ViewBagDataAllobject*
+
+producto*#!
+
+%2System.Web.Mvc.SelectListX
+V
+
+› ›(r
+%5"__mapSet*
+
+%ViewBagDataHtmlobject*
+
+producto*
+""²
+¯
+
+œ  œ(8%
+%6CapaLogica.LogProveedorProducto"__id*tr*p1
+/MadereraCarocho.Controllers.ProveedorController";
+ProveedorProductoserviceCapaLogica.LogProveedorProducto­
+ª
+
+œ  œ(V(
+%7"System.Collections.Generic.List<T>"=CapaLogica.LogProveedorProducto.MostrarDetalleProvedorId(int)*)'
+%
+%6CapaLogica.LogProveedorProducto*
+""¤
+¡
+
+œ œ(W
+
+%8void"+capavistaweb/views/proveedor/mostrardetalle*
+
+%9*
+	{unknown}*
 
 %ViewBagDataAllobject*
 
@@ -127,9 +210,30 @@ U
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobject®
-«
+%HttpContextItemsHtmlobject˜
+•
 
+œ œ(W
+%10void"capavistaweb/views/_viewstart*	
+
+%11*
+	{unknown}*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectœ
+™
+
+<<<<<<< HEAD
 « «( 
 %15void"capavistaweb/views/_viewstart*	
 
@@ -156,6 +260,13 @@ U
 %18*%#
 !
 usuarioCapaEntidad.EntUsuario*
+=======
+œ œ(W
+%12void"!capavistaweb/views/shared/_layout*	
+
+%13*
+	{unknown}*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -169,6 +280,7 @@ U
 
 %HttpContextItemsHtmlobject"
 
+<<<<<<< HEAD
 « «(!
 
 %17void*2
@@ -185,3 +297,45 @@ U
 %19"__entrypoint*
 0B.,
 *MadereraCarocho.Controllers.HomeController
+=======
+œ œ(X
+
+%12void*æ
+2
+   (Qdb
+
+ G  (Q
+%14string"System.Exception.Message.get*
+
+exSystem.Exception2Message.get±
+®
+
+   (T+
+%15$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
+System.Web.Mvc.Controller*
+
+Listar*
+""";
+
+   (U-
++
+%15$System.Web.Mvc.RedirectToRouteResult*2
+3
+¢	 ¢(	"!
+
+¢ ¢(	
+implicit return*C
+4
+—3 —(3-
++
+
+— —(*
+%16"__entrypoint*
+""*
+0:
+
+—+ —(2
+
+idpintB31
+/MadereraCarocho.Controllers.ProveedorController
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

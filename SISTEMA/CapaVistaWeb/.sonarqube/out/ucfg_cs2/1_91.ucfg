@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 0CapaAccesoDatos.DatUsuario.BuscarCliente(string)W
 MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.csW  W(-"0*—
 0Y Z(!ZX
@@ -17,8 +18,23 @@ k
 %0"System.Collections.Generic.List<T>E
 C
 Z Z(!'
+=======
+0CapaAccesoDatos.DatUsuario.EliminarUsuarios(int)g
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.csÀ À($"0*
+0
+Â Ã("G
+E
+
+Â Â(!'
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 cmd System.Data.SqlClient.SqlCommand"__id*
+""1
+/
+
+Ã Ã("
+	eliminadobool"__id*
 ""*
+<<<<<<< HEAD
 1*á
 1] b(6t
 r
@@ -39,9 +55,38 @@ j
 %4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandæ
 ã
 ^ ^($
+=======
+1*”
+1
+Æ Î(v
+t
 
-%5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
+Æ# Æ(5
+%0CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
+CapaAccesoDatos.Conexionƒ
+€
+
+Æ# Æ(@)
+%1#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
+
+%0CapaAccesoDatos.Conexionn
+l
+
+Æ Æ(@)
+cn#System.Data.SqlClient.SqlConnection"__id*-+
+)
+%1#System.Data.SqlClient.SqlConnectionXV
+
+Ç Ê(&
+%2 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandê
+ç
+
+Ç Ç($
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+
+%3void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
 &
+<<<<<<< HEAD
 %4 System.Data.SqlClient.SqlCommand*
 spBuscarClientes*-+
 )
@@ -339,4 +384,118 @@ N
 implicit return:
 W. W(=
 busquedastringB
+=======
+%2 System.Data.SqlClient.SqlCommand*
+spEliminarUsuarios*-+
+)
+cn#System.Data.SqlClient.SqlConnection$
+"
+
+É" É(=
+%4"__id*
+""–
+“
+
+É É(=
+%5System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set**(
+&
+%2 System.Data.SqlClient.SqlCommand*
+
+%4i
+g
+
+Ç Ê('
+cmd System.Data.SqlClient.SqlCommand"__id**(
+&
+%2 System.Data.SqlClient.SqlCommand¡
+ž
+
+Ë Ë(2
+%6,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandÕ
+Ò
+
+Ë Ë(=(
+%7"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
+2
+%6,System.Data.SqlClient.SqlParameterCollection*
+
+@idCliente*
+""u
+s
+
+Ì Ì(
+
+%8void"*System.Data.SqlClient.SqlConnection.Open()*-+
+)
+cn#System.Data.SqlClient.SqlConnectionz
+x
+
+Í Í(-	
+%9int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*+)
+'
+cmd System.Data.SqlClient.SqlCommand-
++
+
+Í Í(-
+iint"__id*
+	
+%9int*
+2
+3*G
+2
+Ð Ð($1
+/
+
+Ð Ð($
+	eliminadobool"__id*
+""*
+3*
+3
+Ù	 Ù(	*
+4
+5*›
+4Ö Ö(’ca
+
+Ö  Ö()
+%10string"System.Exception.Message.get*
+
+eSystem.Exception2Message.get%
+#
+
+Öh Ö(|
+%11"__id*
+""&
+$
+Ö~ Ö(’
+%12"__id*
+""Ï
+Ì
+Ö Ö(“(
+%13!System.Windows.Forms.DialogResult"System.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
+System.Windows.Forms.MessageBox*
+
+%10string*?=;
+9Error al Eliminar Cliente procedimiento spEliminarCliente*	
+
+%11*	
+
+%12*
+5*2
+5
+Ø Ø("!
+
+Ø Ø(
+
+	eliminadobool*2
+6
+Ù	 Ù(	"!
+
+Ù Ù(	
+implicit return:
+
+À% À(+	
+idintB
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 CapaAccesoDatos.DatUsuario

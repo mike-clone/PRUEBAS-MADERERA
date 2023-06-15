@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 ECapaLogica.LogProveedor.ActualizarProveedor(CapaEntidad.EntProveedor)T
 JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.csK K('"0*ø
 0M P($A
@@ -42,122 +43,70 @@ JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.csK 
 P P($
 actualizadobool"__id*
 ""*
+=======
+:CapaLogica.ValidatorHelper.ValidateNonEmpty<T>(params T[])e
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\ValidatorHelper.cs ($"0*
+0" ((*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 1*
-1S S(*
+1 	  (	*
 2
-3*ì
-2U U(I¢
-Ÿ
-U! U(1.
-%3(CapaAccesoDatos.Interfaces.IDatProveedor"__id*][*Y
-CapaLogica.LogProveedor"<
-ProveedorService(CapaAccesoDatos.Interfaces.IDatProveedorùö
-U! U(J
+3*·
 
-%4bool"VCapaAccesoDatos.Interfaces.IDatProveedor.ActualizarProveedor(CapaEntidad.EntProveedor)*20
-.
-%3(CapaAccesoDatos.Interfaces.IDatProveedor*#!
-
-proCapaEntidad.EntProveedor2-ActualizarProveedor(CapaEntidad.EntProveedor)7
-5
-U U(J
-actualizadobool"__id*
+2 (b…‚
+( (D=
+%07System.ComponentModel.DataAnnotations.ValidationContext"7System.ComponentModel.DataAnnotations.ValidationContext¿
+¼
+, (=
+
+%1void"QSystem.ComponentModel.DataAnnotations.ValidationContext.ValidationContext(object)*A?
+=
+%07System.ComponentModel.DataAnnotations.ValidationContext*
 
 
-%4bool*
-4*‡
-3Y Z(-L
-J
-Y Y(?
-errorstring"__id*'%#
-!Uno o mas parametros estan vacios64
-Z Z(.
-%5System.Exception"System.Exceptionm
-k
-Z Z('
+valueT¤
+¡
+ (DL
+validationContext7System.ComponentModel.DataAnnotations.ValidationContext"__id*A?
+=
+%07System.ComponentModel.DataAnnotations.ValidationContextZX
+( (D(
+%2"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
+o
+, (B
 
-%6void""System.Exception.Exception(string)*
-
-%5System.Exception*
-
-errorstring*
-5*
-4h	 h(	*
-6
-7*Ä
-6_ e(C`^
-_$ _(-
-%7string"System.Exception.Message.get*
-
-eSystem.Exception2Message.getS
-Q
-_$ `(9
-%8string"__concat*
-_$ _(-
-
-%7string*
-`6 `(9
- S
-Q
-_$ a(:
-%9string"__concat*
-_$ `(9
-
-%8string*
-a6 a(:
-
-c
-a
-_$ b(H
-%10string"__concat*
-_$ a(:
-
-%9string* 
-b6 b(H
-Es probale que :U
-S
-_$ c(:
-%11string"__concat*
-_$ b(H
+%3void")System.Collections.Generic.List<T>.List()*,*
+(
+%2"System.Collections.Generic.List<T>y
+w
+ (D7
+validationResults"System.Collections.Generic.List<T>"__id*,*
+(
+%2"System.Collections.Generic.List<T>ä
+á
+ (c
 
-%10string*
-c6 c(:
-
-U
-S
-_$ d(9
-%12string"__concat*
-_$ c(:
+%4bool"èSystem.ComponentModel.DataAnnotations.Validator.TryValidateObject(object, System.ComponentModel.DataAnnotations.ValidationContext, System.Collections.Generic.ICollection<System.ComponentModel.DataAnnotations.ValidationResult>, bool)*53"1
+/System.ComponentModel.DataAnnotations.Validator*
 
-%11string*
-d6 d(9
- i
-g
-_$ e(C
-%13string"__concat*
-_$ d(9
 
-%12string*%
-e6 e(C
-
-detalleerrorsstring75
-_ e(D
-%14System.Exception"System.Exceptionm
-k
-_ _(#
-%15void""System.Exception.Exception(string)*
-
-%14System.Exception*
-
-%13string*
-5*0
-7g g("!
-g g(
-
-actualizadobool*.
-5h	 h(	"
-h h(	
-implicit return:+
-K( K(8
-proCapaEntidad.EntProveedorB
-CapaLogica.LogProveedor
+valueT*PN
+L
+validationContext7System.ComponentModel.DataAnnotations.ValidationContext*;9
+7
+validationResults"System.Collections.Generic.List<T>*
+""*
+4
+1*!
+4 ( "
+ (!
+""*!
+3 ("
+ (
+""*.
+5 	  (	"
+   (	
+implicit return:
+( (9
+valuesT[]B
+CapaLogica.ValidatorHelper

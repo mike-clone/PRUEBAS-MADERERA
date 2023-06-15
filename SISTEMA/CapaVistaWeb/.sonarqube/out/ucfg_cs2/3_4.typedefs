@@ -1,3 +1,8 @@
 e
+<<<<<<< HEAD
 MadereraCarocho.FilterConfigobject=
 FilterConfig()+MadereraCarocho.FilterConfig.FilterConfig()
+=======
+MadereraCarocho.BundleConfigobject=
+BundleConfig()+MadereraCarocho.BundleConfig.BundleConfig()
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

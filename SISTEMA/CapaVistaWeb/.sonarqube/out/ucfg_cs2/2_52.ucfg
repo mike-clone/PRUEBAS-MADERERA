@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 =CapaLogica.LogProveedorProducto.MostarDetalleProveedorId(int)\
 RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs,* ,(B"0*ù
 0. .(PÂ
@@ -21,3 +22,21 @@ RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto
 ,C ,(R
 idProveedorintB#!
 CapaLogica.LogProveedorProducto
+=======
+(CapaLogica.LogTipoProducto.Instancia.gete
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs ("0*Ã
+0 (#ƒ
+€
+ (# 
+%0CapaLogica.LogTipoProducto"__id*LJ*H
+CapaLogica.LogTipoProducto"(
+
+_instanciaCapaLogica.LogTipoProducto".
+ ($"
+ 
+%0CapaLogica.LogTipoProducto*.
+1& (&"
+% (&
+implicit returnB"
+CapaLogica.LogTipoProducto
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

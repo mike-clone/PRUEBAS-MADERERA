@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 BCapaLogica.LogVenta.LogVenta(CapaAccesoDatos.Interfaces.IDatVenta)P
 FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs ("1*
 1	 (	*
@@ -17,3 +18,30 @@ FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs ("
  ((.
 IVenta$CapaAccesoDatos.Interfaces.IDatVentaB
 CapaLogica.LogVenta
+=======
+BCapaLogica.LogProveedorProducto.BuscarProvedorProductoId(int, int)j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs5$ 5(<"0*‰
+07 7(SÂ
+¿
+7 7(+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
+CapaLogica.LogProveedorProducto"L
+ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProductoþû
+7 7(T&
+%1 CapaEntidad.EntProveedorProducto"SCapaAccesoDatos.Interfaces.IDatProveedorProducto.BuscarProvedorProductoId(int, int)*:8
+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto*
+""*
+""2"BuscarProvedorProductoId(int, int)"4
+7 7(U(
+&
+%1 CapaEntidad.EntProveedorProducto*.
+18	 8(	"
+8 8(	
+implicit return:
+5= 5(G
+idprodint:
+5I 5(S
+idprovintB#!
+CapaLogica.LogProveedorProducto
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

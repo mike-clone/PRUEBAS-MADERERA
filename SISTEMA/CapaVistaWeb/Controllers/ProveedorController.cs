@@ -9,15 +9,15 @@ using System.Web.WebPages;
 
 namespace MadereraCarocho.Controllers
 {
-    [PermisosRol(entRol.Administrador)]
+    [PermisosRol(EntRol.Administrador)]
     [Authorize]// No puede si es que no esta autorizado
     public class ProveedorController : Controller
     {
-        LogProducto Productoservice;
-        LogProveedorProducto ProveedorProductoservice;
-        LogUbigeo Ubigeoservice;
-        LogProveedor Proveedorservice;
-        ValidatorHelper validatorHelper = new ValidatorHelper();
+        readonly LogProducto Productoservice;
+        readonly LogProveedorProducto ProveedorProductoservice;
+        readonly LogUbigeo Ubigeoservice;
+        readonly LogProveedor Proveedorservice;
+        readonly ValidatorHelper validatorHelper = new ValidatorHelper();
 
         public ProveedorController()
         {

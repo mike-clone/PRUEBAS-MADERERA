@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 )CapaAccesoDatos.DatProducto.DatProducto()X
 ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProducto.cs ("0*1
 0
@@ -6,3 +7,26 @@ ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProducto.cs
 	 ˜(
 implicit returnB
 CapaAccesoDatos.DatProducto
+=======
+BCapaAccesoDatos.DatTemporaryProducts.DatTemporaryProducts()!statico
+eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTemporaryProducts.cs (%"0*½
+0
+Ô Ô(^\
+A ([*
+%0$CapaAccesoDatos.DatTemporaryProducts"$CapaAccesoDatos.DatTemporaryProducts†
+ƒ
+E (Y
+
+%1void";CapaAccesoDatos.DatTemporaryProducts.DatTemporaryProducts()*.,
+*
+%0$CapaAccesoDatos.DatTemporaryProducts 
+
+5 ([[&
+$CapaAccesoDatos.DatTemporaryProducts"1
+	_instance$CapaAccesoDatos.DatTemporaryProducts"__id*.,
+*
+%0$CapaAccesoDatos.DatTemporaryProducts" 
+	 Ô(
+implicit returnB("&
+$CapaAccesoDatos.DatTemporaryProducts
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

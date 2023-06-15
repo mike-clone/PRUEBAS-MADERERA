@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 kMadereraCarocho.Controllers.ProveedorController.ElegirProductos(int, double, System.Web.Mvc.FormCollection)k
 _D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs¦ ¦(+"2*ì
 0
@@ -156,4 +157,99 @@ K
 
 ¦J ¦(\$
 frmSystem.Web.Mvc.FormCollectionB31
+=======
+FMadereraCarocho.Controllers.ProveedorController.EliminarProveedor(int)y
+mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs… …(-"6*ä
+0
+‰ Š(š
+—
+
+‰ ‰(/
+%0CapaLogica.LogProveedor"__id*db*`1
+/MadereraCarocho.Controllers.ProveedorController"+
+ProveedorserviceCapaLogica.LogProveedorw
+u
+
+‰ ‰(F
+
+%1bool".CapaLogica.LogProveedor.EliminarProveedor(int)*!
+
+%0CapaLogica.LogProveedor*
+""5
+3
+
+‰ ‰(F
+eliminabool"__id*
+
+
+%1bool*
+1
+2*ì
+1
+Œ Œ(4ž
+›
+
+Œ Œ(5*
+%2$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*
+
+Listar":
+
+Œ Œ(6,
+*
+%2$System.Web.Mvc.RedirectToRouteResult*
+2
+”	 ”(	*
+3
+4*ã
+3
+‘ ‘(Qca
+
+‘G ‘(Q
+%3string"System.Exception.Message.get*
+
+exSystem.Exception2Message.get°
+­
+
+‘ ‘(T*
+%4$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
+System.Web.Mvc.Controller*
+
+Listar*
+""":
+
+‘ ‘(U,
+*
+%4$System.Web.Mvc.RedirectToRouteResult*ì
+4
+“ “(,ž
+›
+
+“ “(-*
+%5$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*
+
+Listar":
+
+“ “(.,
+*
+%5$System.Web.Mvc.RedirectToRouteResult*2
+5
+”	 ”(	"!
+
+” ”(	
+implicit return*B
+6
+…6 …(6,
+*
+
+… …(-
+%6"__entrypoint*
+""*
+0:
+
+…. …(5
+
+idcintB31
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 /MadereraCarocho.Controllers.ProveedorController

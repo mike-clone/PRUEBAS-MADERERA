@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 'CapaLogica.LogProducto.ListarProducto()S
 ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs%! %(/"0*Ÿ
 0' '(3ž
@@ -18,3 +19,27 @@ ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs%! %
 ( ((	
 implicit returnB
 CapaLogica.LogProducto
+=======
+>CapaLogica.LogTemporaryProducts.BuscarTemporaryProductsId(int)j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs6$ 6(="0*ï
+08 8(@º
+·
+8 8(#6
+%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts"__id*mk*i!
+CapaLogica.LogTemporaryProducts"D
+TemporaryService0CapaAccesoDatos.Interfaces.IDatTemporaryProductsìé
+8 8(A&
+%1 CapaEntidad.EntTemporaryProducts"OCapaAccesoDatos.Interfaces.IDatTemporaryProducts.BuscarTemporaryProductsId(int)*:8
+6
+%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts*
+""2BuscarTemporaryProductsId(int)"4
+8 8(B(
+&
+%1 CapaEntidad.EntTemporaryProducts*.
+19	 9(	"
+9 9(	
+implicit return:
+6> 6(D	
+idintB#!
+CapaLogica.LogTemporaryProducts
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

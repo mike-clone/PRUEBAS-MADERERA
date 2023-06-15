@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 .CapaEntidad.EntProveedorProducto.Proveedor.set]
 SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs
 : 
@@ -24,3 +25,19 @@ SD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProduct
 implicit return:#!
 valueCapaEntidad.EntProveedorB$"
  CapaEntidad.EntProveedorProducto
+=======
+/CapaEntidad.EntTipoProducto.IdTipo_producto.setf
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.cs= (@"0*i
+0D ([U
+S
+D ([7
+CapaEntidad.EntTipoProducto"
+idTipo_productoint"__id*
+""*
+1*.
+1\ (\"
+[ (\
+implicit return:
+valueintB
+CapaEntidad.EntTipoProducto
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

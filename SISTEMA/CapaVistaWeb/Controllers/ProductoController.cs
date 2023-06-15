@@ -12,10 +12,10 @@ namespace MadereraCarocho.Controllers
     [Authorize]
     public class ProductoController : Controller
     {
-        LogProducto Productoservice;
-        LogProveedorProducto ProveedorProductoservice;
-        LogTemporaryProducts TemporaryPservice;
-        LogTipoProducto TipoProductoservice;
+        readonly LogProducto Productoservice;
+        readonly LogProveedorProducto ProveedorProductoservice;
+        readonly LogTemporaryProducts TemporaryPservice;
+        readonly LogTipoProducto TipoProductoservice;
 
         public ProductoController()
         {
@@ -25,7 +25,7 @@ namespace MadereraCarocho.Controllers
             TipoProductoservice = new LogTipoProducto(new DatTipoProducto());
         }
         // GET: Producto
-        [PermisosRol(entRol.Administrador)]
+        [PermisosRol(EntRol.Administrador)]
         public ActionResult ListarParaComprar(string dato)//listar y buscar
         {
             List<EntProveedorProducto> lista;
@@ -42,7 +42,7 @@ namespace MadereraCarocho.Controllers
             return View(lista);
         }
 
-        [PermisosRol(entRol.Administrador)]
+        [PermisosRol(EntRol.Administrador)]
         public ActionResult ListarProducto( string dato)
         {
             List<EntProducto> lista;
@@ -55,7 +55,7 @@ namespace MadereraCarocho.Controllers
             return View(lista);
         }
 
-        [PermisosRol(entRol.Administrador)]
+        [PermisosRol(EntRol.Administrador)]
         [HttpPost]
         public ActionResult CrearProducto(string cNombreP, string cLongitudP, string cdiametro, string cPrecioVenta, string cprecioCompra, FormCollection frmTipo)
         {
@@ -84,7 +84,7 @@ namespace MadereraCarocho.Controllers
         }
 
 
-        [PermisosRol(entRol.Administrador)]
+        [PermisosRol(EntRol.Administrador)]
         [HttpGet]
         public ActionResult EditarProducto(int idprod)
         {
@@ -93,7 +93,7 @@ namespace MadereraCarocho.Controllers
             return View(prod);
         }
 
-        [PermisosRol(entRol.Administrador)]
+        [PermisosRol(EntRol.Administrador)]
         [HttpPost]
         public ActionResult EditarProducto(EntProducto p, FormCollection frm)
         {

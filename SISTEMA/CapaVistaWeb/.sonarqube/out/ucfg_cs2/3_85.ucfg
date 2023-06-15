@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 2MadereraCarocho.Controllers.HomeController.Login()d
 ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs4 4(!"2*ð
 06 6(”
@@ -8,6 +9,70 @@ ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeCo
 %0void"capavistaweb/views/home/login*
 
 %1*
+=======
+DMadereraCarocho.Controllers.ProveedorController.RegistrarProveedor()w
+mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs/ /(."2*Ü
+01 4(
+Œ
+1* 1(7
+%0CapaLogica.LogUbigeo"__id*^\*Z1
+/MadereraCarocho.Controllers.ProveedorController"%
+UbigeoserviceCapaLogica.LogUbigeo}
+{
+1* 1(H(
+%1"System.Collections.Generic.List<T>"%CapaLogica.LogUbigeo.ListarDistrito()*
+
+%0CapaLogica.LogUbigeos
+q
+1 1(H1
+listaUbigeo"System.Collections.Generic.List<T>"__id*,*
+(
+%1"System.Collections.Generic.List<T>HF
+2 2(N
+%2System.Web.Mvc.SelectList"System.Web.Mvc.SelectListë
+è
+2 2()
+
+%3void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
+
+%2System.Web.Mvc.SelectList*53
+1
+listaUbigeo"System.Collections.Generic.List<T>*
+
+idUbigeo*
+
+distrito^
+\
+2 2(N%
+lsUbigeoSystem.Web.Mvc.SelectList"__id*#!
+
+%2System.Web.Mvc.SelectList/-
+3 3(
+%ViewBagDataAllobject"object0.
+3 3(
+%ViewBagDataHtmlobject"objecty
+w
+3 3(*
+%4"__mapSet*
+
+%ViewBagDataAllobject*
+listaUbigeo*)'
+%
+lsUbigeoSystem.Web.Mvc.SelectListY
+W
+3 3(*
+%5"__mapSet*
+
+%ViewBagDataHtmlobject*
+listaUbigeo*
+""¦
+£
+4 4(
+
+%6void"/capavistaweb/views/proveedor/registrarproveedor*
+
+%7*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	{unknown}*
 
 %ViewBagDataAllobject*
@@ -22,11 +87,19 @@ ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeCo
 
 %HttpContextItemsHtmlobject”
 ‘
+<<<<<<< HEAD
 6 6(
 
 %2void"capavistaweb/views/_viewstart*
 
 %3*
+=======
+4 4(
+
+%8void"capavistaweb/views/_viewstart*
+
+%9*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	{unknown}*
 
 %ViewBagDataAllobject*
@@ -39,6 +112,7 @@ ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeCo
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobject˜
 •
 6 6(
@@ -46,6 +120,14 @@ ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeCo
 %4void"!capavistaweb/views/shared/_layout*
 
 %5*
+=======
+%HttpContextItemsHtmlobjectš
+—
+4 4(
+%10void"!capavistaweb/views/shared/_layout*	
+
+%11*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 	{unknown}*
 
 %ViewBagDataAllobject*
@@ -58,6 +140,7 @@ ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeCo
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobject"
 6 6(
 
@@ -72,3 +155,18 @@ ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeCo
 %6"__entrypoint*
 0B.,
 *MadereraCarocho.Controllers.HomeController
+=======
+%HttpContextItemsHtmlobject"
+4 4(
+
+%10void*.
+15	 5(	"
+5 5(	
+implicit return*5
+2/0 /(0!
+
+/ /(.
+%12"__entrypoint*
+0B31
+/MadereraCarocho.Controllers.ProveedorController
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

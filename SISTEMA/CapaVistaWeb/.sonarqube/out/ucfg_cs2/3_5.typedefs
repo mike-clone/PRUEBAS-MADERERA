@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 µ
 -MadereraCarocho.Permisos.PermisosRolAttribute$System.Web.Mvc.ActionFilterAttributeSystem.Web.Mvc.FilterAttributeSystem.Attributeobject‚
 (PermisosRolAttribute(CapaEntidad.entRol)VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)ž
 6OnActionExecuted(System.Web.Mvc.ActionExecutedContext)dMadereraCarocho.Permisos.PermisosRolAttribute.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)
+=======
+e
+MadereraCarocho.FilterConfigobject=
+FilterConfig()+MadereraCarocho.FilterConfig.FilterConfig()
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

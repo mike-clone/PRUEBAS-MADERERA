@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 )CapaLogica.LogVenta.ListarTodasLasVenta()P
 FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs& &(1"0*—
 0( ((5’
@@ -18,3 +19,29 @@ FD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs& &(1"
 ) )(	
 implicit returnB
 CapaLogica.LogVenta
+=======
+4CapaLogica.LogTipoProducto.EliminarTipoProducto(int)e
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs. .(("0*—
+00 0(>®
+«
+0 0(&1
+%0+CapaAccesoDatos.Interfaces.IDatTipoProducto"__id*fd*b
+CapaLogica.LogTipoProducto"B
+TipoProductoService+CapaAccesoDatos.Interfaces.IDatTipoProducto¼¹
+0 0(?
+
+%1bool"ECapaAccesoDatos.Interfaces.IDatTipoProducto.EliminarTipoProducto(int)*53
+1
+%0+CapaAccesoDatos.Interfaces.IDatTipoProducto*
+""2EliminarTipoProducto(int)"
+0 0(@
+
+
+%1bool*.
+11	 1(	"
+1 1(	
+implicit return:
+.) .(/	
+idintB
+CapaLogica.LogTipoProducto
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

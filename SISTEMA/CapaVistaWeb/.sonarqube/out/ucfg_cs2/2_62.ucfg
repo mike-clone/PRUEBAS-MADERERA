@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 ,CapaLogica.LogProducto.BuscarProductoId(int)S
 ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs6 6(+"0*Á
 08 8(?ž
@@ -26,3 +27,13 @@ ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs6 6
 6, 6(6
 idprodintB
 CapaLogica.LogProducto
+=======
+ CapaLogica.LogUbigeo.LogUbigeo()_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs ("1*
+1	 (	*
+0*.
+0	 (	"
+ (	
+implicit returnB
+CapaLogica.LogUbigeo
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

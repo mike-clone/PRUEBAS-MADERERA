@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 .CapaLogica.LogProveedor.BuscarIdProveedor(int)T
 JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.css s(-"0*§
 0u u(A¢
@@ -21,3 +22,29 @@ JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.css 
 s. s(=
 idProveedorintB
 CapaLogica.LogProveedor
+=======
++CapaLogica.LogUsuario.EliminarUsuarios(int)`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs@ @($"0*ñ
+0B B(5š
+—
+B B(!,
+%0&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
+CapaLogica.LogUsuario"8
+UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioª§
+B B(6
+
+%1bool"<CapaAccesoDatos.Interfaces.IDatUsuario.EliminarUsuarios(int)*0.
+,
+%0&CapaAccesoDatos.Interfaces.IDatUsuario*
+""2EliminarUsuarios(int)"
+B B(7
+
+
+%1bool*.
+1C	 C(	"
+C C(	
+implicit return:
+@% @(+	
+idintB
+CapaLogica.LogUsuario
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

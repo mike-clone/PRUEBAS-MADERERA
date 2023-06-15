@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 0CapaAccesoDatos.DatProducto.DatProducto()!staticX
 ND:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProducto.cs ("0*ô
 0
@@ -21,3 +22,12 @@ _instanciaCapaAccesoDatos.DatProducto"__id*%#
 	 ˜(
 implicit returnB"
 CapaAccesoDatos.DatProducto
+=======
++CapaAccesoDatos.DatProveedor.DatProveedor()g
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedor.cs ("0*1
+0
+© ©(" 
+	 ©(
+implicit returnB 
+CapaAccesoDatos.DatProveedor
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

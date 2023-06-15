@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 #CapaAccesoDatos.Conexion.Conectar()U
 KD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Conexion.cs (%"0*Ü
 0 (2\Z
@@ -69,3 +70,21 @@ h
  (	
 implicit returnB
 CapaAccesoDatos.Conexion
+=======
+'CapaAccesoDatos.DatUbigeo.Instancia.getd
+ZC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.cs ("0*½
+0 (#
+}
+ (#
+%0CapaAccesoDatos.DatUbigeo"__id*JH*F
+CapaAccesoDatos.DatUbigeo"'
+
+_instanciaCapaAccesoDatos.DatUbigeo"-
+ ($!
+
+%0CapaAccesoDatos.DatUbigeo*.
+1& (&"
+% (&
+implicit returnB"
+CapaAccesoDatos.DatUbigeo
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

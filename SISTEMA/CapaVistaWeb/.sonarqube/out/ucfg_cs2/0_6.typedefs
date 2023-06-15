@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ý
 CapaEntidad.EntDetVentaobject6
 EntDetVenta()%CapaEntidad.EntDetVenta.EntDetVenta().
@@ -9,3 +10,20 @@
 Cantidad.set$CapaEntidad.EntDetVenta.Cantidad.set4
 SubTotal.get$CapaEntidad.EntDetVenta.SubTotal.get4
 SubTotal.set$CapaEntidad.EntDetVenta.SubTotal.set
+=======
+µ
+CapaEntidad.EntCompraobject0
+EntCompra()!CapaEntidad.EntCompra.EntCompra()2
+IdCompra.get"CapaEntidad.EntCompra.IdCompra.get2
+IdCompra.set"CapaEntidad.EntCompra.IdCompra.set,
+	Fecha.getCapaEntidad.EntCompra.Fecha.get,
+	Fecha.setCapaEntidad.EntCompra.Fecha.set,
+	Total.getCapaEntidad.EntCompra.Total.get,
+	Total.setCapaEntidad.EntCompra.Total.set.
+
+Estado.get CapaEntidad.EntCompra.Estado.get.
+
+Estado.set CapaEntidad.EntCompra.Estado.set0
+Usuario.get!CapaEntidad.EntCompra.Usuario.get0
+Usuario.set!CapaEntidad.EntCompra.Usuario.set
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

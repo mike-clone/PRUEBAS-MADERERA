@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ˆ
 CapaLogica.LogUbigeoobject/
 LogUbigeo() CapaLogica.LogUbigeo.LogUbigeo()y
@@ -8,3 +9,9 @@
 EliminarUbigeo(int)(CapaLogica.LogUbigeo.EliminarUbigeo(int)9
 ListarDistrito()%CapaLogica.LogUbigeo.ListarDistrito()A
 BuscarUbigeo(string))CapaLogica.LogUbigeo.BuscarUbigeo(string)
+=======
+v
+CapaLogica.logRollobject-
+ListarRol()CapaLogica.logRoll.ListarRol())
+	logRoll()CapaLogica.logRoll.logRoll()
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

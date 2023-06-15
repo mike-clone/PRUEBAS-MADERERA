@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 >CapaLogica.LogTemporaryProducts.EliminarTemporaryProducts(int)\
 RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs. .(-"0*·
 00 0(@º
@@ -23,3 +24,21 @@ RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts
 .. .(4	
 idintB#!
 CapaLogica.LogTemporaryProducts
+=======
+"CapaLogica.LogUbigeo.Instancia.get_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs ("0*©
+0 (#p
+n
+ (#
+%0CapaLogica.LogUbigeo"__id*@>*<
+CapaLogica.LogUbigeo""
+
+_instanciaCapaLogica.LogUbigeo"(
+ ($
+
+%0CapaLogica.LogUbigeo*.
+1& (&"
+% (&
+implicit returnB"
+CapaLogica.LogUbigeo
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

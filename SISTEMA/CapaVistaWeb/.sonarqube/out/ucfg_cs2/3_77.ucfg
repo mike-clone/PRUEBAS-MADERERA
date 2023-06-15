@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 DMadereraCarocho.Controllers.UsuarioController.ListarClientes(string)g
 ]D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\UsuarioController.cs (*"5*o
 0 (*X
@@ -139,6 +140,29 @@ R
 %16*/-
 +
 lista"System.Collections.Generic.List<T>*
+=======
+CMadereraCarocho.Controllers.CompraController.ListarTodasLasVentas()t
+jC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\CompraController.cs+ +(0"2*ç	
+0- -(:‰
+†
+- -($
+%0CapaLogica.LogVenta"__id*YW*U.
+,MadereraCarocho.Controllers.CompraController"#
+VentaserviceCapaLogica.LogVenta€
+~
+- -(:(
+%1"System.Collections.Generic.List<T>")CapaLogica.LogVenta.ListarTodasLasVenta()*
+
+%0CapaLogica.LogVentaÂ
+¿
+- -(;
+
+%2void".capavistaweb/views/compra/listartodaslasventas*
+
+%3*,*
+(
+%1"System.Collections.Generic.List<T>*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -150,6 +174,7 @@ R
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobject¶
 ³
 + +(
@@ -158,6 +183,17 @@ R
 %18*/-
 +
 lista"System.Collections.Generic.List<T>*
+=======
+%HttpContextItemsHtmlobject±
+®
+- -(;
+
+%4void"capavistaweb/views/_viewstart*
+
+%5*,*
+(
+%1"System.Collections.Generic.List<T>*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -169,6 +205,7 @@ R
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobjectº
 ·
 + +(
@@ -177,6 +214,17 @@ R
 %20*/-
 +
 lista"System.Collections.Generic.List<T>*
+=======
+%HttpContextItemsHtmlobjectµ
+²
+- -(;
+
+%6void"!capavistaweb/views/shared/_layout*
+
+%7*,*
+(
+%1"System.Collections.Generic.List<T>*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -188,6 +236,7 @@ R
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobject"
 + +(
 
@@ -205,3 +254,19 @@ R
 + (6
 datostringB1/
 -MadereraCarocho.Controllers.UsuarioController
+=======
+%HttpContextItemsHtmlobject"
+- -(<
+
+
+%6void*.
+1.	 .(	"
+. .(	
+implicit return*4
+2+2 +(2 
+
++ +(0
+%8"__entrypoint*
+0B0.
+,MadereraCarocho.Controllers.CompraController
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 'CapaEntidad.entReporteCompra.Codigo.getY
 OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs ("0*6
 0# ()"
@@ -11,3 +12,18 @@ OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs
 ) (*
 implicit returnB 
 CapaEntidad.entReporteCompra
+=======
+&CapaEntidad.EntUbigeo.Departamento.get`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs% (("0*k
+0, (8W
+U
+, (8
+%0string"__id*53*1
+CapaEntidad.EntUbigeo"
+departamentostring*
+1*.
+19 (9"
+8 (9
+implicit returnB
+CapaEntidad.EntUbigeo
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

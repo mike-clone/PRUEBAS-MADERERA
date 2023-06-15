@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 6CapaLogica.LogTemporaryProducts.LogTemporaryProducts()\
 RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs (#"1*
 1	 (	*
@@ -7,3 +8,13 @@ RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts
  (	
 implicit returnB#!
 CapaLogica.LogTemporaryProducts
+=======
+ CapaLogica.LogCompra.LogCompra()_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs ("1*
+1	 (	*
+0*.
+0	 (	"
+ (	
+implicit returnB
+CapaLogica.LogCompra
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

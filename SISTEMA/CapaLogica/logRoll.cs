@@ -4,17 +4,17 @@ using System.Collections.Generic;
 
 namespace CapaLogica
 {
-    public class logRoll
+    public class LogRoll
     {
-        private static readonly logRoll _instancia = new logRoll();
-        public static logRoll Instancia
+        private static readonly LogRoll _instancia = new LogRoll();
+        public static LogRoll Instancia
         {
             get { return _instancia; }
         }
 
         public List<entRoll> ListarRol()
         {
-            return datRoll.Instancia.ListarRoll();
+            return DatRoll.Instancia.ListarRoll();
         }
     }
 }

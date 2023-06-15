@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
  CapaLogica.LogCompra.LogCompra()Q
 GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs ("1*
 1	 (	*
@@ -6,4 +7,23 @@ GD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs (
 0	 (	"
  (	
 implicit returnB
+=======
+ECapaLogica.LogCompra.LogCompra(CapaAccesoDatos.Interfaces.IDatCompra)_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs ("1*
+1	 (	*
+0*°
+0 (#›
+˜
+ (#P
+CapaLogica.LogCompra"6
+CompraService%CapaAccesoDatos.Interfaces.IDatCompra"__id*42
+0
+ICompra%CapaAccesoDatos.Interfaces.IDatCompra*
+2*.
+2	 (	"
+ (	
+implicit return:<
+ (+0
+ICompra%CapaAccesoDatos.Interfaces.IDatCompraB
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 CapaLogica.LogCompra

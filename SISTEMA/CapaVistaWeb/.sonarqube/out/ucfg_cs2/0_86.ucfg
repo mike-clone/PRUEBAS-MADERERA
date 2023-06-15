@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 'CapaEntidad.entReporteCompra.Codigo.setY
 OD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs+ (."0*a
 02 (@M
@@ -13,3 +14,18 @@ K
 implicit return:
 valueintB 
 CapaEntidad.entReporteCompra
+=======
+"CapaEntidad.EntUbigeo.Distrito.get`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs! ($"0*g
+0( (0S
+Q
+( (0
+%0string"__id*1/*-
+CapaEntidad.EntUbigeo"
+distritostring*
+1*.
+11 (1"
+0 (1
+implicit returnB
+CapaEntidad.EntUbigeo
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

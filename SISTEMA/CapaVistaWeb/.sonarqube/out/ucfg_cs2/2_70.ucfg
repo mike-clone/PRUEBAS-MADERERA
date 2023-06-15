@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 NCapaLogica.LogDetCompra.LogDetCompra(CapaAccesoDatos.Interfaces.IDatDetCompra)T
 JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetCompra.cs ("1*
 1	 (	*
@@ -17,3 +18,11 @@ JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetCompra.cs 
  (79
 idatdetcompra(CapaAccesoDatos.Interfaces.IDatDetCompraB
 CapaLogica.LogDetCompra
+=======
+,CapaLogica.ValidatorHelper.ValidatorHelper()e
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\ValidatorHelper.cs ( "0*.
+0+ +("
+ +(
+implicit returnB
+CapaLogica.ValidatorHelper
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

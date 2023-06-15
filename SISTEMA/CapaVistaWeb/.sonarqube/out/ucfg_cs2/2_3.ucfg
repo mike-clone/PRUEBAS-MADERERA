@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 +CapaLogica.LogProducto.LogProducto()!staticS
 ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs	 	("0*Ì
 0? ?(B@
@@ -20,3 +21,26 @@ _instanciaCapaLogica.LogProducto"__id* 
 	 ?(
 implicit returnB"
 CapaLogica.LogProducto
+=======
++CapaLogica.LogDetVenta.LogDetVenta()!statica
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs ("0*Ì
+0( ((B@
+	9 	(J
+%0CapaLogica.LogDetVenta"CapaLogica.LogDetVenta`
+^
+	= 	(H
+
+%1void"$CapaLogica.LogDetVenta.LogDetVenta()* 
+
+%0CapaLogica.LogDetVentav
+t
+	, 	(J@
+CapaLogica.LogDetVenta"$
+
+_instanciaCapaLogica.LogDetVenta"__id* 
+
+%0CapaLogica.LogDetVenta"
+ ((
+implicit returnB"
+CapaLogica.LogDetVenta
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

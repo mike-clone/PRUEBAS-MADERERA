@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 +CapaLogica.LogDetVenta.Mostrardetventa(int)S
 ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs#! #(0"0*±
 0% %(:ž
@@ -21,3 +22,30 @@ ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs#! #
 #1 #(<
 idVentaintB
 CapaLogica.LogDetVenta
+=======
+NCapaLogica.LogTipoProducto.ActualizarTipoProducto(CapaEntidad.EntTipoProducto)e
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs* *(*"0*ò
+0, ,(J®
+«
+, ,(&1
+%0+CapaAccesoDatos.Interfaces.IDatTipoProducto"__id*fd*b
+CapaLogica.LogTipoProducto"B
+TipoProductoService+CapaAccesoDatos.Interfaces.IDatTipoProducto—”
+, ,(K
+
+%1bool"_CapaAccesoDatos.Interfaces.IDatTipoProducto.ActualizarTipoProducto(CapaEntidad.EntTipoProducto)*53
+1
+%0+CapaAccesoDatos.Interfaces.IDatTipoProducto*/-
++
+tipoProductoCapaEntidad.EntTipoProducto23ActualizarTipoProducto(CapaEntidad.EntTipoProducto)"
+, ,(L
+
+
+%1bool*.
+1-	 -(	"
+- -(	
+implicit return:7
+*+ *(G+
+tipoProductoCapaEntidad.EntTipoProductoB
+CapaLogica.LogTipoProducto
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

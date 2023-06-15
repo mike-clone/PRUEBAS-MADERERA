@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 xMadereraCarocho.Controllers.ProveedorController.EditarProveedor(CapaEntidad.EntProveedor, System.Web.Mvc.FormCollection)i
 _D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.csg g(+"16*Ö
 0i i(Ag
@@ -172,6 +173,88 @@ r
 %20*!
 
 pCapaEntidad.EntProveedor*
+=======
+DMadereraCarocho.Controllers.ProveedorController.EditarProveedor(int)w
+mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs[ [(+"2*œ
+0] c(˜
+•
+]  ](0
+%0CapaLogica.LogProveedor"__id*db*`1
+/MadereraCarocho.Controllers.ProveedorController"+
+ProveedorserviceCapaLogica.LogProveedorŠ
+‡
+]  ](J
+%1CapaEntidad.EntProveedor".CapaLogica.LogProveedor.BuscarIdProveedor(int)*!
+
+%0CapaLogica.LogProveedor*
+""X
+V
+] ](J 
+provCapaEntidad.EntProveedor"__id*" 
+
+%1CapaEntidad.EntProveedor
+Œ
+_* _(7
+%2CapaLogica.LogUbigeo"__id*^\*Z1
+/MadereraCarocho.Controllers.ProveedorController"%
+UbigeoserviceCapaLogica.LogUbigeo}
+{
+_* _(H(
+%3"System.Collections.Generic.List<T>"%CapaLogica.LogUbigeo.ListarDistrito()*
+
+%2CapaLogica.LogUbigeos
+q
+_ _(H1
+listaUbigeo"System.Collections.Generic.List<T>"__id*,*
+(
+%3"System.Collections.Generic.List<T>HF
+` `(N
+%4System.Web.Mvc.SelectList"System.Web.Mvc.SelectListë
+è
+` `()
+
+%5void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
+
+%4System.Web.Mvc.SelectList*53
+1
+listaUbigeo"System.Collections.Generic.List<T>*
+
+idUbigeo*
+
+distrito^
+\
+` `(N%
+lsUbigeoSystem.Web.Mvc.SelectList"__id*#!
+
+%4System.Web.Mvc.SelectList/-
+a a(
+%ViewBagDataAllobject"object0.
+a a(
+%ViewBagDataHtmlobject"objecty
+w
+a a(*
+%6"__mapSet*
+
+%ViewBagDataAllobject*
+listaUbigeo*)'
+%
+lsUbigeoSystem.Web.Mvc.SelectListY
+W
+a a(*
+%7"__mapSet*
+
+%ViewBagDataHtmlobject*
+listaUbigeo*
+""¸
+µ
+c c(
+
+%8void",capavistaweb/views/proveedor/editarproveedor*
+
+%9*$"
+ 
+provCapaEntidad.EntProveedor*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -183,6 +266,7 @@ r
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobject¨
 ¥
 x x("
@@ -191,6 +275,16 @@ r
 %22*!
 
 pCapaEntidad.EntProveedor*
+=======
+%HttpContextItemsHtmlobject«
+¨
+c c(
+%10void"capavistaweb/views/_viewstart*	
+
+%11*$"
+ 
+provCapaEntidad.EntProveedor*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -202,6 +296,7 @@ r
 
 %HttpContextItemsAllobject*#!
 
+<<<<<<< HEAD
 %HttpContextItemsHtmlobject¬
 ©
 x x("
@@ -210,6 +305,16 @@ r
 %24*!
 
 pCapaEntidad.EntProveedor*
+=======
+%HttpContextItemsHtmlobject¯
+¬
+c c(
+%12void"!capavistaweb/views/shared/_layout*	
+
+%13*$"
+ 
+provCapaEntidad.EntProveedor*
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
 %ViewBagDataAllobject*
 
@@ -222,6 +327,7 @@ r
 %HttpContextItemsAllobject*#!
 
 %HttpContextItemsHtmlobject"
+<<<<<<< HEAD
 x x(#
 
 %23void*
@@ -364,4 +470,20 @@ I
 pCapaEntidad.EntProveedor:0
 g< g(N$
 frmSystem.Web.Mvc.FormCollectionB31
+=======
+c c(
+
+%12void*.
+1d	 d(	"
+d d(	
+implicit return*?
+2[7 [(7+
+)
+[ [(+
+%14"__entrypoint*
+""*
+0:
+[, [(6
+idprovintB31
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 /MadereraCarocho.Controllers.ProveedorController

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 …
 CapaEntidad.EntUbigeoobject0
 EntUbigeo()!CapaEntidad.EntUbigeo.EntUbigeo()2
@@ -9,3 +10,26 @@
 Provincia.set#CapaEntidad.EntUbigeo.Provincia.set2
 Distrito.get"CapaEntidad.EntUbigeo.Distrito.get2
 Distrito.set"CapaEntidad.EntUbigeo.Distrito.set
+=======
+
+CapaEntidad.entReporteVentaobjectB
+entReporteVenta()-CapaEntidad.entReporteVenta.entReporteVenta()4
+
+Codigo.get&CapaEntidad.entReporteVenta.Codigo.get4
+
+Codigo.set&CapaEntidad.entReporteVenta.Codigo.set6
+Cliente.get'CapaEntidad.entReporteVenta.Cliente.get6
+Cliente.set'CapaEntidad.entReporteVenta.Cliente.set2
+	Fecha.get%CapaEntidad.entReporteVenta.Fecha.get2
+	Fecha.set%CapaEntidad.entReporteVenta.Fecha.set>
+Descripcion.get+CapaEntidad.entReporteVenta.Descripcion.get>
+Descripcion.set+CapaEntidad.entReporteVenta.Descripcion.set8
+Longitud.get(CapaEntidad.entReporteVenta.Longitud.get8
+Longitud.set(CapaEntidad.entReporteVenta.Longitud.set8
+Cantidad.get(CapaEntidad.entReporteVenta.Cantidad.get8
+Cantidad.set(CapaEntidad.entReporteVenta.Cantidad.set@
+PrecUnitario.get,CapaEntidad.entReporteVenta.PrecUnitario.get@
+PrecUnitario.set,CapaEntidad.entReporteVenta.PrecUnitario.set8
+SubTotal.get(CapaEntidad.entReporteVenta.SubTotal.get8
+SubTotal.set(CapaEntidad.entReporteVenta.SubTotal.set
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

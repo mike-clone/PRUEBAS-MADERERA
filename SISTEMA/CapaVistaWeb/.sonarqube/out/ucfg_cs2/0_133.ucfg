@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 !CapaEntidad.EntUsuario.Activo.setS
 ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csQ Q("0*\
 0Q Q( H
@@ -13,3 +14,19 @@ F
 implicit return:
 valueboolB
 CapaEntidad.EntUsuario
+=======
+(CapaEntidad.entReporteVenta.SubTotal.setf
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs2 (5"0*e
+09 (IQ
+O
+9 (I3
+CapaEntidad.entReporteVenta"
+subTotaldouble"__id*
+""*
+1*.
+1J (J"
+I (J
+implicit return:
+valuedoubleB
+CapaEntidad.entReporteVenta
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

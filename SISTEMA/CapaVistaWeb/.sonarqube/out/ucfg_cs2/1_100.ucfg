@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 9CapaAccesoDatos.DatUsuario.BuscaraAdministradores(string)Y
 MD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.csê  ê(6"0*¡
 0
@@ -36,29 +37,73 @@ t
 
 ð# ð(@)
 %3#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
+=======
+-CapaAccesoDatos.DatCompra.EliminarCompra(int)d
+ZC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatCompra.cs} }(""0*
+0	 €("E
+C
+ (!'
+cmd System.Data.SqlClient.SqlCommand"__id*
+""1
+/
+
+€ €("
+	eliminadobool"__id*
+""*
+1*’
+1
+ƒ ‰(v
+t
+
+ƒ# ƒ(5
+%0CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
+CapaAccesoDatos.Conexionƒ
+€
+
+ƒ# ƒ(@)
+%1#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 
-%2CapaAccesoDatos.Conexionn
+%0CapaAccesoDatos.Conexionn
 l
 
+<<<<<<< HEAD
 ð ð(@)
+=======
+ƒ ƒ(@)
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 cn#System.Data.SqlClient.SqlConnection"__id*-+
 )
-%3#System.Data.SqlClient.SqlConnectionXV
+%1#System.Data.SqlClient.SqlConnectionXV
 
+<<<<<<< HEAD
 ñ ñ(C&
 %4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandï
 ì
 
 ñ ñ($
+=======
+„ „(<&
+%2 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandè
+å
 
-%5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
+„ „($
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+
+%3void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
 &
+<<<<<<< HEAD
 %4 System.Data.SqlClient.SqlCommand*
 spBuscarAdministradores*-+
+=======
+%2 System.Data.SqlClient.SqlCommand*
+spEliminarCompra*-+
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 )
 cn#System.Data.SqlClient.SqlConnectioni
 g
 
+<<<<<<< HEAD
 ñ ñ(C'
 cmd System.Data.SqlClient.SqlCommand"__id**(
 &
@@ -96,16 +141,60 @@ t
 
 ô ô(
 %10void"*System.Data.SqlClient.SqlConnection.Open()*-+
-)
-cn#System.Data.SqlClient.SqlConnectionš
-—
+=======
+„ „(<'
+cmd System.Data.SqlClient.SqlCommand"__id**(
+&
+%2 System.Data.SqlClient.SqlCommand$
+"
 
+…" …(=
+%4"__id*
+""—
+”
+
+… …(=
+%5System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
+'
+cmd System.Data.SqlClient.SqlCommand*
+
+%4¡
+ž
+
+† †(2
+%6,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandÔ
+Ñ
+
+† †(B(
+%7"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
+2
+%6,System.Data.SqlClient.SqlParameterCollection*
+	@idCompra*
+""u
+s
+
+‡ ‡(
+
+%8void"*System.Data.SqlClient.SqlConnection.Open()*-+
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
+)
+cn#System.Data.SqlClient.SqlConnectionz
+x
+
+<<<<<<< HEAD
 õ# õ(6*
 %11#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
+=======
+ˆ ˆ(-	
+%9int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*+)
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 '
-cmd System.Data.SqlClient.SqlCommando
-m
+cmd System.Data.SqlClient.SqlCommand-
++
 
+<<<<<<< HEAD
 õ õ(6)
 dr#System.Data.SqlClient.SqlDataReader"__id*.,
 *
@@ -405,3 +494,52 @@ $
 ê7 ê(F
 busquedastringB
 CapaAccesoDatos.DatUsuario
+=======
+ˆ ˆ(-
+iint"__id*
+	
+%9int*
+2
+3*G
+2
+‹ ‹($1
+/
+
+‹ ‹($
+	eliminadobool"__id*
+""*
+3*
+3
+“	 “(	*
+4
+5*
+4
+ ()ca
+
+  ()
+%10string"System.Exception.Message.get*
+
+eSystem.Exception2Message.get¡
+ž
+
+ (*(
+%11!System.Windows.Forms.DialogResult",System.Windows.Forms.MessageBox.Show(string)*%#"!
+System.Windows.Forms.MessageBox*
+
+%10string*
+5*2
+5
+’ ’("!
+
+’ ’(
+
+	eliminadobool*2
+6
+“	 “(	"!
+
+“ “(	
+implicit return:
+}# }(/
+idcompraintB
+CapaAccesoDatos.DatCompra
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

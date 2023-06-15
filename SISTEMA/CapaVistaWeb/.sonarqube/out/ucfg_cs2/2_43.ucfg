@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 YCapaLogica.LogTemporaryProducts.CreaarTemporaryProducts(CapaEntidad.EntTemporaryProducts)\
 RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs (+"0*‘
 0 (@º
@@ -24,3 +25,13 @@ RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts
 , (E(
 temp CapaEntidad.EntTemporaryProductsB#!
 CapaLogica.LogTemporaryProducts
+=======
+6CapaLogica.LogProveedorProducto.LogProveedorProducto()j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs (#"1*
+1	 (	*
+0*.
+0	 (	"
+ (	
+implicit returnB#!
+CapaLogica.LogProveedorProducto
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

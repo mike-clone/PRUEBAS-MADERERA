@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 $CapaEntidad.EntProducto.Longitud.getT
 JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs% %("0*E
 0% %(!"
@@ -13,3 +14,20 @@ JD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs% 
 %# %($
 implicit returnB
 CapaEntidad.EntProducto
+=======
+#CapaEntidad.EntProveedor.Ubigeo.setc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.csI I("0*‰
+0I I( u
+s
+I I( =
+CapaEntidad.EntProveedor"
+ubigeoCapaEntidad.EntUbigeo"__id*" 
+
+valueCapaEntidad.EntUbigeo*
+1*.
+1I# I(#"
+I" I(#
+implicit return: 
+valueCapaEntidad.EntUbigeoB
+CapaEntidad.EntProveedor
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

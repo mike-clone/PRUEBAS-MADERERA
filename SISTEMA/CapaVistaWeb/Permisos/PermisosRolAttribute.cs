@@ -8,9 +8,9 @@ namespace MadereraCarocho.Permisos
     //      Valida que al momento que se ejecute una accion valida cierta acción.
     public class PermisosRolAttribute : ActionFilterAttribute //Le decimos que va a heredar de action filter
     {
-        private readonly entRol Rol;
+        private readonly EntRol Rol;
 
-        public PermisosRolAttribute(entRol Rol)
+        public PermisosRolAttribute(EntRol Rol)
         {
             this.Rol = Rol;
         }

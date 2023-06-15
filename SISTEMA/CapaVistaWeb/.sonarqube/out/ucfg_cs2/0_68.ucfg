@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 (CapaEntidad.EntUsuario.FechaCreacion.getS
 ID:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs8 8("0*Ÿ
 08 8(&k
@@ -14,3 +15,19 @@ i
 8( 8()
 implicit returnB
 CapaEntidad.EntUsuario
+=======
+CapaEntidad.EntCompra.Total.set`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs ("0*\
+0 (H
+F
+ (*
+CapaEntidad.EntCompra"
+totaldouble"__id*
+""*
+1*.
+1" (""
+! ("
+implicit return:
+valuedoubleB
+CapaEntidad.EntCompra
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

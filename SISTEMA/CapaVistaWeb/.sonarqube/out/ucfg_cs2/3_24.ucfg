@@ -1,6 +1,11 @@
 
+<<<<<<< HEAD
 ƒMadereraCarocho.Controllers.ProductoController.CrearProducto(string, string, string, string, string, System.Web.Mvc.FormCollection)h
 ^D:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.cs< <()"4*£
+=======
+ƒMadereraCarocho.Controllers.ProductoController.CrearProducto(string, string, string, string, string, System.Web.Mvc.FormCollection)v
+lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.cs< <()"4*£
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 0A L(/DB
 A  K(
 %0CapaEntidad.EntProducto"CapaEntidad.EntProductob

@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 =CapaLogica.LogTemporaryProducts.LogTemporaryProducts()!static\
 RD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs (%"0*•
 0> >(TR
@@ -25,3 +26,26 @@ y
  >(
 implicit returnB#"!
 CapaLogica.LogTemporaryProducts
+=======
+=CapaLogica.LogProveedorProducto.LogProveedorProducto()!staticj
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs	 	(%"0*–
+0? ?(TR
+B (\%
+%0CapaLogica.LogProveedorProducto"CapaLogica.LogProveedorProducto{
+y
+F (Z
+
+%1void"6CapaLogica.LogProveedorProducto.LogProveedorProducto()*)'
+%
+%0CapaLogica.LogProveedorProducto’
+
+5 (\R!
+CapaLogica.LogProveedorProducto"-
+
+_instanciaCapaLogica.LogProveedorProducto"__id*)'
+%
+%0CapaLogica.LogProveedorProducto"
+	 ?(
+implicit returnB#"!
+CapaLogica.LogProveedorProducto
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01

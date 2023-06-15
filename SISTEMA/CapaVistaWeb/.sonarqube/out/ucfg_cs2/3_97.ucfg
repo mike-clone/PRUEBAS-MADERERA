@@ -1,86 +1,126 @@
 
+<<<<<<< HEAD
 2MadereraCarocho.Controllers.HomeController.Admin()f
 ZD:\Universidad\calidad\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csê ê(!"2*±
+=======
+EMadereraCarocho.Controllers.HomeController.EditarDatosAdministrador()t
+hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csõ õ(4"2*‘
+>>>>>>> 3a8f80fe0bd6557c448cc86d5f355e7acf4d3b01
 0
-ì ï(DB
-
-ì! ì(1
-%0CapaEntidad.EntUsuario"CapaEntidad.EntUsuarioa
-_
-
-ì% ì(/
-
-%1void"#CapaEntidad.EntUsuario.EntUsuario()* 
-
-%0CapaEntidad.EntUsuarioY
-W
-
-ì ì(1!
-usuarioCapaEntidad.EntUsuario"__id* 
-
-%0CapaEntidad.EntUsuario}
+÷ ú(}
 {
 
-í í(%
-%2System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
+÷ ÷(!%
+%0System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
 System.Web.Mvc.Controller¥¢
 
-í í(&
-%3object":System.Collections.Generic.ICollection<T>.this[string].get*)'
+÷ ÷(,
+%1object":System.Collections.Generic.ICollection<T>.this[string].get*)'
 %
-%2System.Web.HttpSessionStateBase*	
+%0System.Web.HttpSessionStateBase*	
 Usuario2this[string].get4
 2
 
-í í(4
-%4object"__id*
+÷ ÷(:
+%2object"__id*
 
-%3objectI
+%1objectI
 G
 
-í í(4!
+÷ ÷(:!
 usuarioCapaEntidad.EntUsuario"__id*
 
-%4object1/
+%2object1/
 
-î î(
+ø ø(
 %ViewBagDataAllobject"object20
 
-î î(
-%ViewBagDataHtmlobject"objectf
-d
+ø ø(
+%ViewBagDataHtmlobject"objectŒ
+‰
 
-î î(*
-%5string"!CapaEntidad.EntUsuario.Correo.get*%#
+ø1 ø(>
+%3CapaLogica.LogUbigeo"__id*YW*U,
+*MadereraCarocho.Controllers.HomeController"%
+UbigeoserviceCapaLogica.LogUbigeo
+}
+
+ø1 ø(O(
+%4"System.Collections.Generic.List<T>"%CapaLogica.LogUbigeo.ListarDistrito()*
+
+%3CapaLogica.LogUbigeoJH
+
+ø" ø(h
+%5System.Web.Mvc.SelectList"System.Web.Mvc.SelectListä
+á
+
+ø& ø(0
+
+%6void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
+
+%5System.Web.Mvc.SelectList*,*
+(
+%4"System.Collections.Generic.List<T>*
+
+idUbigeo*
+
+distritou
+s
+
+ø ø(h
+%7"__mapSet*
+
+%ViewBagDataAllobject*
+listaUbigeo*#!
+
+%5System.Web.Mvc.SelectList[
+Y
+
+ø ø(h
+%8"__mapSet*
+
+%ViewBagDataHtmlobject*
+listaUbigeo*
+""u
+s
+
+ù ù(+
+%9CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.get*%#
 !
-usuarioCapaEntidad.EntUsuario]
-[
+usuarioCapaEntidad.EntUsuariob
+`
 
-î î(*
-%6"__mapSet*
+ù ù(4
+%10string""CapaEntidad.EntUbigeo.Distrito.get*
+
+%9CapaEntidad.EntUbigeo_
+]
+
+ù ù(4
+%11"__mapSet*
 
 %ViewBagDataAllobject*
 
-correo*
-
-%5stringV
-T
+Ubigeo*
 
-î î(*
-%7"__mapSet*
+%10stringW
+U
+
+ù ù(4
+%12"__mapSet*
 
 %ViewBagDataHtmlobject*
 
-correo*
-""–
-“
+Ubigeo*
+""Á
+¾
 
-ï ï(
-
-%8void"capavistaweb/views/home/admin*
-
-%9*
-	{unknown}*
+ú ú( 
+%13void"0capavistaweb/views/home/editardatosadministrador*	
+
+%14*%#
+!
+usuarioCapaEntidad.EntUsuario*
 
 %ViewBagDataAllobject*
 
@@ -92,14 +132,15 @@ T
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobject˜
-•
+%HttpContextItemsHtmlobject®
+«
 
-ï ï(
-%10void"capavistaweb/views/_viewstart*	
+ú ú( 
+%15void"capavistaweb/views/_viewstart*	
 
-%11*
-	{unknown}*
+%16*%#
+!
+usuarioCapaEntidad.EntUsuario*
 
 %ViewBagDataAllobject*
 
@@ -111,14 +152,15 @@ T
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobjectœ
-™
+%HttpContextItemsHtmlobject²
+¯
 
-ï ï(
-%12void"!capavistaweb/views/shared/_layout*	
+ú ú( 
+%17void"!capavistaweb/views/shared/_layout*	
 
-%13*
-	{unknown}*
+%18*%#
+!
+usuarioCapaEntidad.EntUsuario*
 
 %ViewBagDataAllobject*
 
@@ -132,19 +174,19 @@ T
 
 %HttpContextItemsHtmlobject"
 
-ï ï(
+ú ú(!
 
-%12void*2
+%17void*2
 1
-ð	 ð(	"!
+ü	 ü(	"!
 
-ð ð(	
+ü ü(	
 implicit return*9
 2
-ê# ê(##
+õ6 õ(6#
 !
 
-ê ê(!
-%14"__entrypoint*
+õ õ(4
+%19"__entrypoint*
 0B.,
 *MadereraCarocho.Controllers.HomeController

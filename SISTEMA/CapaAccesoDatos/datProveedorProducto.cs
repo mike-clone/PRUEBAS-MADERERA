@@ -85,7 +85,7 @@ namespace CapaAccesoDatos
                         PrecioCompra = Convert.ToDouble(dr["precioCompra"])
                     };
                     lista.Add(Prod);
-                };
+                }
 
             }
             catch (Exception e)
