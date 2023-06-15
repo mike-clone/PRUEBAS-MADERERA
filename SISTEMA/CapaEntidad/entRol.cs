@@ -2,7 +2,7 @@
 
 namespace CapaEntidad
 {
-    public enum entRol
+    public enum EntRol
     {
         // enum permite poner constantes listadas con nombre y valor
         Administrador = 1, Cliente = 2, Empleado = 3

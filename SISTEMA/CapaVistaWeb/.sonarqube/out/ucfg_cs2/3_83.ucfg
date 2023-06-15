@@ -1,24 +1,13 @@
 
-?MadereraCarocho.Controllers.VentaController.MostrarDetalle(int)s
-iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\VentaController.cs# #(*"2*°	
-0% %(?ë
-é
-% %(+
-%0CapaLogica.LogDetVenta"__id*^\*Z-
-+MadereraCarocho.Controllers.VentaController")
-DetVentaserviceCapaLogica.LogDetVentaê
-ç
-% %(@(
-%1"System.Collections.Generic.List<T>"+CapaLogica.LogDetVenta.Mostrardetventa(int)* 
-
-%0CapaLogica.LogDetVenta*
-""û
-õ
-% %(A
+2MadereraCarocho.Controllers.HomeController.Login()r
+hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs4 4(!"2*
+06 6(î
+ë
+6 6(
 
-%2void"'capavistaweb/views/venta/mostrardetalle*
+%0void"capavistaweb/views/home/login*
 
-%3*
+%1*
 	{unknown}*
 
 %ViewBagDataAllobject*
@@ -33,11 +22,11 @@ iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 
 %HttpContextItemsHtmlobjectî
 ë
-% %(A
+6 6(
 
-%4void"capavistaweb/views/_viewstart*
+%2void"capavistaweb/views/_viewstart*
 
-%5*
+%3*
 	{unknown}*
 
 %ViewBagDataAllobject*
@@ -52,11 +41,11 @@ iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 
 %HttpContextItemsHtmlobjectò
 ï
-% %(A
+6 6(
 
-%6void"!capavistaweb/views/shared/_layout*
+%4void"!capavistaweb/views/shared/_layout*
 
-%7*
+%5*
 	{unknown}*
 
 %ViewBagDataAllobject*
@@ -70,20 +59,16 @@ iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 %HttpContextItemsAllobject*#!
 
 %HttpContextItemsHtmlobject"
-% %(B
+6 6(
 
 
-%6void*.
-1&	 &(	"
-& &(	
-implicit return*>
-2#3 #(3*
-(
-# #(*
-%8"__entrypoint*
-""*
-0:
-#+ #(2
-
-idvintB/-
-+MadereraCarocho.Controllers.VentaController
+%4void*.
+17	 7(	"
+7 7(	
+implicit return*4
+24# 4(# 
+
+4 4(!
+%6"__entrypoint*
+0B.,
+*MadereraCarocho.Controllers.HomeController

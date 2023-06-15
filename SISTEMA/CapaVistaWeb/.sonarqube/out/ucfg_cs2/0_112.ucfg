@@ -1,14 +1,14 @@
 
-%CapaEntidad.entReporteVenta.Fecha.getf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs  (#"0*|
-0' (,h
-f
-' (,
-%0System.DateTime"__id*=;*9
-CapaEntidad.entReporteVenta"
-fechaSystem.DateTime*
+'CapaEntidad.entReporteVenta.Cliente.getf
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs  (#"0*l
+0' (.X
+V
+' (.
+%0string"__id*64*2
+CapaEntidad.entReporteVenta"
+clientestring*
 1*.
-1- (-"
-, (-
+1/ (/"
+. (/
 implicit returnB
 CapaEntidad.entReporteVenta

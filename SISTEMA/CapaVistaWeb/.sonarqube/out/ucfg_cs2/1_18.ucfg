@@ -1,22 +1,23 @@
 
-)CapaAccesoDatos.DatDetVenta.DatDetVenta()f
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetVenta.cs ("0*î
+0CapaAccesoDatos.DatProducto.DatProducto()!staticf
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProducto.cs ("0*Ù
 0
-ç ç(ZX
-, (C(
-%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
-o
-0 (A
+ò ò(LJ
+9 (J!
+%0CapaAccesoDatos.DatProducto"CapaAccesoDatos.DatProductoj
+h
+= (H
 
-%1void")System.Collections.Generic.List<T>.List()*,*
-(
-%0"System.Collections.Generic.List<T>ë
-é
-" (CN
-CapaAccesoDatos.DatDetVenta"-
-detalle"System.Collections.Generic.List<T>"__id*,*
-(
-%0"System.Collections.Generic.List<T>" 
-	 ç(
-implicit returnB
-CapaAccesoDatos.DatDetVenta
+%1void")CapaAccesoDatos.DatProducto.DatProducto()*%#
+!
+%0CapaAccesoDatos.DatProductoÜ
+É
+, (JJ
+CapaAccesoDatos.DatProducto")
+
+_instanciaCapaAccesoDatos.DatProducto"__id*%#
+!
+%0CapaAccesoDatos.DatProducto" 
+	 ò(
+implicit returnB"
+CapaAccesoDatos.DatProducto

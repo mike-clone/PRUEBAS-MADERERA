@@ -11,13 +11,13 @@ namespace MadereraCarocho.Controllers
 {
 
     [Authorize]
-    [PermisosRol(entRol.Administrador)]
+    [PermisosRol(EntRol.Administrador)]
     public class CompraController : Controller
     {
-        LogCompra CompraService;
-        LogDetCompra DetCompraService;
-        LogVenta Ventaservice;
-        LogTemporaryProducts TemporaryPservice;
+        readonly LogCompra CompraService;
+        readonly LogDetCompra DetCompraService;
+        readonly LogVenta Ventaservice;
+        readonly LogTemporaryProducts TemporaryPservice;
 
         public CompraController()
         {
@@ -50,15 +50,13 @@ namespace MadereraCarocho.Controllers
             try
             {
                 //obtenemos el usuario que esta realizando la compra
-                EntUsuario usuario=new EntUsuario();
-                usuario = Session["Usuario"] as EntUsuario;
+                EntUsuario usuario =  Session["Usuario"] as EntUsuario;
                 //Obtenemos los productos temprales del usuario que estan en el carrito
-                List<EntTemporaryProducts> list = new List<EntTemporaryProducts>();
-                list = TemporaryPservice.MostrarTemporaryProducts(usuario.IdUsuario);
+                List<EntTemporaryProducts> list = TemporaryPservice.MostrarTemporaryProducts(usuario.IdUsuario);
                 
                 //calculamos el total
                 double total = 0;
-                for (int i = 0; i <list.Count(); i++)
+                for (int i = 0; i <list.Count; i++)
                 {
                     total +=list[i].Subtotal;
                 }

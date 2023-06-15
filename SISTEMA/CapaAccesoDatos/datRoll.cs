@@ -7,10 +7,10 @@ using System.Windows.Forms;
 
 namespace CapaAccesoDatos
 {
-    public class datRoll
+    public class DatRoll
     {
-        private static readonly datRoll _instancia = new datRoll();
-        public static datRoll Instancia
+        private static readonly DatRoll _instancia = new DatRoll();
+        public static DatRoll Instancia
         {
             get { return _instancia; }
         }

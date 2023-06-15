@@ -16,18 +16,18 @@ jC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csT 8jnoŒ²ér	
  !"#$%&()*+,-./0123456789:;<=>ABCDEFHIJKLMNOPQRSTUVWXYZ[\]^_`abcdeghijklmnopqrstuvwxyz{|€‚ƒ„…‡ˆ‰Š‹Œ“”•–—˜™š›œŸ ¡£¤¥¦§¨©ª«­¯°±²³µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáâãäåèéêëìíîïğòóôõö÷øùúüıÿ€‚„…†‡ˆ‰Š‹Œ‘’“”•–—˜™¡x‚r#$&(,-16:<=DHOVY^_aiklnoprvxƒ„…ˆŒ—š› ©ª«µ»¼¾¿ÃÈÑÚŞßãíîïøùú„Š‹’—Ÿ
 lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.cs2 	8j¶·¹º»½¾¿rÔ	
- !"#$%&'*+-./01234678:;<=?@ABCDEFGHIJKLNOPQRSTWXYZ[\]^`abcefghijklmoprstuvwxyz{|}~€ƒ„…†‡ˆ‰Š‹’“”•–—˜™š›œŸ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µÁÃÄx‚9 "&*12467DEFILQS[\]efghijlrsuy~ˆ—›¥«¯°´İ
-iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\VentaController.cs 8jrK	
- "#$%&)*+,-./01345679:;<=?@BDEFGHIJKLNOPRSTUWXYZx‚%/146?@DFGIKLNPU|
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Global.asax.cs 8r	
-‚¶
+ !"#$%&'*+-./01234678:;<=?@ABCDEFGHIJKLNOPQRSTWXYZ[\]^`abcefghijklmoprstuvwxyz{|}~€ƒ„…†‡ˆ‰Š‹’“”•–—˜™š›œŸ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µÁÃÄx‚9 "&*12467DEFILQS[\]efghijlrsuy~ˆ—›¥«¯°´¶
 mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs8 
 8jrõ
- !"#$%&()*+,-./012345789:;<=>?@ABCDEFGHIJKMNPQRSTUVWZ[\]_`acdfghiklmnopqrstuvxy{|}~€‚„…†‡ˆ‰Š‹Œ‘’“”–—˜™š›œŸ ¡¢¥¦§¨©ª«¬­®¯°±²´µ¶·¹º»¼½¾¿ÀÁÂÃÅÆÇÈx‚> "&)+,134:=IMSTV]_acimosvx~‰ŠŒ‘“›œ °µ¶¾ÂÅª
+ !"#$%&()*+,-./012345789:;<=>?@ABCDEFGHIJKMNPQRSTUVWZ[\]_`acdfghiklmnopqrstuvxy{|}~€‚„…†‡ˆ‰Š‹Œ‘’“”–—˜™š›œŸ ¡¢¥¦§¨©ª«¬­®¯°±²´µ¶·¹º»¼½¾¿ÀÁÂÃÅÆÇÈx‚> "&)+,134:=IMSTV]_acimosvx~‰ŠŒ‘“›œ °µ¶¾ÂÅİ
+iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\VentaController.cs 8jrK	
+ "#$%&)*+,-./01345679:;<=?@BDEFGHIJKLNOPRSTUWXYZx‚%/146?@DFGIKLNPUª
 kC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Permisos\PermisosRolAttribute.cs 8j	r	
  !"#$%&x‚!#‡
 eC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Properties\AssemblyInfo.csj r	
-!"‰
+!"|
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Global.asax.cs 8r	
+‚‰
 bC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Utilidades\Encriptar.cs 8r	
 x‚
 

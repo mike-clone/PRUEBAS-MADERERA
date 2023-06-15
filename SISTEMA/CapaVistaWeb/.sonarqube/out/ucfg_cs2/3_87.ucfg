@@ -1,142 +1,200 @@
 
-SMadereraCarocho.Controllers.UsuarioController.EditarCliente(CapaEntidad.EntUsuario)u
-kC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\UsuarioController.csI I()"6*ˆ
-0M N(ê
+@MadereraCarocho.Controllers.UsuarioController.EditarCliente(int)u
+kC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\UsuarioController.cs@ @()"2*”
+0B E(ê
 ç
-M  M(.
+B B((
 %0CapaLogica.LogUsuario"__id*^\*Z/
 -MadereraCarocho.Controllers.UsuarioController"'
-UsuarioserviceCapaLogica.LogUsuarioò
-ï
-M  M(?
-
-%1bool";CapaLogica.LogUsuario.EditarCliente(CapaEntidad.EntUsuario)*
+UsuarioserviceCapaLogica.LogUsuarioÅ
+
+B B(;
+%1CapaEntidad.EntUsuario"*CapaLogica.LogUsuario.BuscarIdUsuario(int)*
 
-%0CapaLogica.LogUsuario*
-
-uCapaEntidad.EntUsuario1
-/
-M M(?
-editabool"__id*
-
-
-%1bool*
-1
-2*Ó
-1P P(<§
-°
-P P(=*
-%2$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-ListarClientes"8
-P P(>,
-*
-%2$System.Web.Mvc.RedirectToRouteResult*´
-2T T(!Ø
-¨
-T T("
-
-%3void"(capavistaweb/views/usuario/editarcliente*
-
-%4*
-
-uCapaEntidad.EntUsuario*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject§
-°
-T T("
-
-%5void"capavistaweb/views/_viewstart*
-
-%6*
-
-uCapaEntidad.EntUsuario*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject®
-•
-T T("
-
-%7void"!capavistaweb/views/shared/_layout*
-
-%8*
-
-uCapaEntidad.EntUsuario*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject"
-T T(#
-
-
-%7void*
-3[	 [(	*	
-4
-5
-5*
-4Y Y(Ylj
-YO Y(Y
-%9string"System.Exception.Message.get*%#
+%0CapaLogica.LogUsuario*
+""W
+U
+B B(;!
+usuarioCapaEntidad.EntUsuario"__id* 
+
+%1CapaEntidad.EntUsuario/-
+C C(
+%ViewBagDataAllobject"object0.
+C C(
+%ViewBagDataHtmlobject"objecto
+m
+C C(*
+%2CapaEntidad.entRoll"CapaEntidad.EntUsuario.Roll.get*%#
 !
-exSystem.ApplicationException2Message.get∑
-¥
-Y Y(\+
-%10$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
-System.Web.Mvc.Controller*
-ListarClientes*
-"""9
-Y Y(]-
-+
-%10$System.Web.Mvc.RedirectToRouteResult*.
-5[	 [(	"
-[ [(	
-implicit return*ò
-6I7 I(7B
-@
-I I()
-%11"__entrypoint*
+usuarioCapaEntidad.EntUsuario^
+\
+C C(6
+%3string"#CapaEntidad.entRoll.Descripcion.get*
+
+%2CapaEntidad.entRoll\
+Z
+C C(6
+%4"__mapSet*
+
+%ViewBagDataAllobject*	
+OldRoll*
+
+%3stringU
+S
+C C(6
+%5"__mapSet*
+
+%ViewBagDataHtmlobject*	
+OldRoll*
+""s
+q
+D  D(.
+%6CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.get*%#
+!
+usuarioCapaEntidad.EntUsuarioc
+a
+D  D(;
+%7string"&CapaEntidad.EntUbigeo.Departamento.get*
 
-uCapaEntidad.EntUsuario|
-z
-H	 H(
-%12"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
+%6CapaEntidad.EntUbigeoT
+R
+D  D(B
+%8string"__concat*
+D  D(;
+
+%7string*
+D> D(B
+  s
+q
+DE D(S
+%9CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.get*%#
+!
+usuarioCapaEntidad.EntUsuarioa
+_
+DE D(]
+%10string"#CapaEntidad.EntUbigeo.Provincia.get*
 
-uCapaEntidad.EntUsuarioB
-@
-I* I(6
-uCapaEntidad.EntUsuario"__annotation*	
+%9CapaEntidad.EntUbigeo^
+\
+D  D(]
+%11string"__concat*
+D  D(B
+
+%8string*
+DE D(]
+
+%10stringV
+T
+D  D(d
+%12string"__concat*
+D  D(]
+
+%11string*
+D` D(d
+  t
+r
+Dg D(u
+%13CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.get*%#
+!
+usuarioCapaEntidad.EntUsuarioa
+_
+Dg D(~
+%14string""CapaEntidad.EntUbigeo.Distrito.get* 
+
+%13CapaEntidad.EntUbigeo_
+]
+D  D(~
+%15string"__concat*
+D  D(d
+
+%12string*
+Dg D(~
+
+%14string`
+^
+D D(~
+%16"__mapSet*
+
+%ViewBagDataAllobject*
+	OldUbigeo*
+
+%15stringX
+V
+D D(~
+%17"__mapSet*
+
+%ViewBagDataHtmlobject*
+	OldUbigeo*
+""∑
+¥
+E E( 
+%18void"(capavistaweb/views/usuario/editarcliente*	
 
-%12*
-0:'
-I* I(6
-uCapaEntidad.EntUsuarioB1/
+%19*%#
+!
+usuarioCapaEntidad.EntUsuario*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject¨
+©
+E E( 
+%20void"capavistaweb/views/_viewstart*	
+
+%21*%#
+!
+usuarioCapaEntidad.EntUsuario*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject∞
+≠
+E E( 
+%22void"!capavistaweb/views/shared/_layout*	
+
+%23*%#
+!
+usuarioCapaEntidad.EntUsuario*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+E E(!
+
+%22void*.
+1F	 F(	"
+F F(	
+implicit return*?
+2@0 @(0+
+)
+@ @()
+%24"__entrypoint*
+""*
+0:
+@* @(/
+cintB1/
 -MadereraCarocho.Controllers.UsuarioController

@@ -1,172 +1,241 @@
 
-JMadereraCarocho.Controllers.ProductoController.AgregarTempPrduct(int, int)x
-lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.cs¢ ¢(-"5*Å
-0
-§ ´(/}
-{
+JMadereraCarocho.Controllers.HomeController.VerificarAcceso(string, string)r
+hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csd d(+"12*o
+0i i(/X
+V
+i i(0
 
-§! §((%
-%0System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
-System.Web.Mvc.Controller•¢
+%0bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+userstring*
+1
+2*l
+2i4 i(MX
+V
+i4 i(N
 
-§! §(3
-%1object":System.Collections.Generic.ICollection<T>.this[string].get*)'
-%
-%0System.Web.HttpSessionStateBase*	
-Usuario2this[string].get4
-2
+%1bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+passstring*
+1*
+1i i(O*
+3
+4*≠
+3k l(*ç
+ä
+k, k(:
+%2CapaLogica.LogUsuario"__id*[Y*W,
+*MadereraCarocho.Controllers.HomeController"'
+UsuarioserviceCapaLogica.LogUsuario©
+¶
+k, k(T
+%3CapaEntidad.EntUsuario"3CapaLogica.LogUsuario.IniciarSesion(string, string)*
+
+%2CapaLogica.LogUsuario*
+
+userstring*
+
+passstringZ
+X
+k k(T$
 
-§! §(A
-%2object"__id*
+objUsuarioCapaEntidad.EntUsuario"__id* 
+
+%3CapaEntidad.EntUsuario~
+|
+l l(*
+
+%4bool""object.operator !=(object, object)*
+"
+object*(&
+$
+
+objUsuarioCapaEntidad.EntUsuario*
+""*
+5
+4*é
+5n p(Bg
+e
+n: n(K
+%5string"!CapaEntidad.EntUsuario.Correo.get*(&
+$
+
+objUsuarioCapaEntidad.EntUsuario©
+¶
+n n(S
+
+%6void"CSystem.Web.Security.FormsAuthentication.SetAuthCookie(string, bool)*-+")
+'System.Web.Security.FormsAuthentication*
 
-%1objectI
-G
-
-§ §(A!
-usuarioCapaEntidad.EntUsuario"__id*
-
-%2object±
-Æ
-
-• •(2%
-%3CapaLogica.LogProveedorProducto"__id*sq*o0
-.MadereraCarocho.Controllers.ProductoController";
-ProveedorProductoserviceCapaLogica.LogProveedorProducto∫
-∑
-
-• •([&
-%4 CapaEntidad.EntProveedorProducto"BCapaLogica.LogProveedorProducto.BuscarProvedorProductoId(int, int)*)'
+%5string*
+""{
+y
+o o(%
+%7System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
+System.Web.Mvc.ControllerÕ 
+o o(7
+%8object":System.Collections.Generic.ICollection<T>.this[string].set*)'
 %
-%3CapaLogica.LogProveedorProducto*
-""*
-""m
-k
+%7System.Web.HttpSessionStateBase*	
+Usuario*(&
+$
 
-• •([+
-proprod CapaEntidad.EntProveedorProducto"__id**(
-&
-%4 CapaEntidad.EntProveedorProductoXV
+objUsuarioCapaEntidad.EntUsuario2this[string].setp
+n
+p p(*
+%9CapaEntidad.entRol"CapaEntidad.EntUsuario.Rol.get*(&
+$
 
-¶5 ¨(&
-%5 CapaEntidad.EntTemporaryProducts" CapaEntidad.EntTemporaryProducts
-}
-
-¶9 ¶(M
-
-%6void"7CapaEntidad.EntTemporaryProducts.EntTemporaryProducts()**(
-&
-%5 CapaEntidad.EntTemporaryProductsÃ
-…
-
-® ®(+&
-%7 CapaEntidad.EntProveedorProducto"6CapaEntidad.EntTemporaryProducts.ProveedorProducto.set**(
-&
-%5 CapaEntidad.EntTemporaryProducts*/-
-+
-proprod CapaEntidad.EntProveedorProductoÆ
-´
-
-© ©(!
-%8CapaEntidad.EntUsuario",CapaEntidad.EntTemporaryProducts.Usuario.set**(
-&
-%5 CapaEntidad.EntTemporaryProducts*%#
+objUsuarioCapaEntidad.EntUsuario#
 !
-usuarioCapaEntidad.EntUsuario|
-z
-
-™ ™(	
-%9int"-CapaEntidad.EntTemporaryProducts.Cantidad.set**(
-&
-%5 CapaEntidad.EntTemporaryProducts*2Å
-
-
-´ ´(/
-%10double"1CapaEntidad.EntProveedorProducto.PrecioCompra.get*/-
+p. p(B
+%10"__id*
+""*
+6
+7*Á
+6r# r(;ú
+ô
+r# r(<+
+%11$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*	
+Admin"9
+r r(=-
 +
-proprod CapaEntidad.EntProveedorProductoå
-â
+%11$System.Web.Mvc.RedirectToRouteResult*≠
+7v  v(@q
+o
+v  v(.
+%12CapaEntidad.entRol"CapaEntidad.EntUsuario.Rol.get*(&
+$
 
-´ ´(/
-%11double"-CapaEntidad.EntTemporaryProducts.Subtotal.set**(
-&
-%5 CapaEntidad.EntTemporaryProducts*
-
-%10doublew
-u
-
-¶! ¨(5
-temporaryProducts CapaEntidad.EntTemporaryProducts"__id**(
-&
-%5 CapaEntidad.EntTemporaryProducts*
-1*
-1
-¡	 ¡(	*
-2
-3*à
-2
-Ø ∞(;´
-®
-
-Ø Ø(!&
-%12CapaLogica.LogTemporaryProducts"__id*lj*h0
-.MadereraCarocho.Controllers.ProductoController"4
-TemporaryPserviceCapaLogica.LogTemporaryProductsﬁ
-€
-
-Ø Ø(L
-%13bool"YCapaLogica.LogTemporaryProducts.CreaarTemporaryProducts(CapaEntidad.EntTemporaryProducts)**(
-&
-%12CapaLogica.LogTemporaryProducts*97
-5
-temporaryProducts CapaEntidad.EntTemporaryProducts™
-ß
-
-∞ ∞(<+
+objUsuarioCapaEntidad.EntUsuario#
+!
+v2 v(@
+%13"__id*
+""*
+8
+4*È
+8x' x(Aû
+õ
+x' x(B+
 %14$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-ListarParaComprar";
-
-∞ ∞(=-
+System.Web.Mvc.Controller*	
+Cliente"9
+x  x(C-
 +
-%14$System.Web.Mvc.RedirectToRouteResult*˘
-3
-¥ ¥(Xdb
+%14$System.Web.Mvc.RedirectToRouteResult*
+4
+â	 â(	*
+9
+10*Ä
+9
+É Ö(/.,
 
-¥N ¥(X
+É É(
+%TempDataAllobject"object/-
+
+É É(
+%TempDataHtmlobject"objectdb
+
+É# É(-
 %15string"System.Exception.Message.get*
 
-exSystem.Exception2Message.getƒ
-¡
+exSystem.Exception2Message.getñ
+ì
 
-¥ ¥([+
-%16$System.Web.Mvc.RedirectToRouteResult"BSystem.Web.Mvc.Controller.RedirectToAction(string, string, object)*
+É É(-
+%16object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%TempDataAllobject*	
+error*
+
+%15stringÅ
+
+%17object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%TempDataHtmlobject*	
+error*
+""•
+¢
+
+Ñ Ñ(@
+%18object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%TempDataAllobject*	
+Mensaje*
+user or password invalidÑ
+Å
+%19object":System.Collections.Generic.ICollection<T>.this[string].set*
+
+%TempDataHtmlobject*	
+Mensaje*
+""û
+õ
+
+Ö Ö(0+
+%20$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
 System.Web.Mvc.Controller*	
-Error*
-
-Home*
-""";
+Login";
 
-¥ ¥(\-
+Ö Ö(1-
 +
-%16$System.Web.Mvc.RedirectToRouteResult*2
-4
-¡	 ¡(	"!
+%20$System.Web.Mvc.RedirectToRouteResult*Ó
+10
+à à(+û
+õ
 
-¡ ¡(	
-implicit return*M
-5
-¢E ¢(E7
-5
+à à(,+
+%21$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*	
+Login";
 
-¢ ¢(-
-%17"__entrypoint*
-""*
-""*
-0:
+à à(--
++
+%21$System.Web.Mvc.RedirectToRouteResult*3
+11
+â	 â(	"!
 
-¢. ¢(8
-idprodint:
-
-¢: ¢(D
-idprovintB20
-.MadereraCarocho.Controllers.ProductoController
+â â(	
+implicit return*Æ
+12dE d(EI
+G
+d d(+
+%22"__entrypoint*
+
+userstring*
+
+passstringo
+m
+c	 c(
+%23"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+userstring5
+3
+d, d(7
+userstring"__annotation*	
+
+%23o
+m
+c	 c(
+%24"
+__annotate*:86
+4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+passstring5
+3
+d9 d(D
+passstring"__annotation*	
+
+%24*
+0:
+d, d(7
+userstring:
+d9 d(D
+passstringB.,
+*MadereraCarocho.Controllers.HomeController

@@ -1,22 +1,22 @@
 
-+CapaLogica.LogDetVenta.LogDetVenta()!statica
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs ("0*Ì
-0( ((B@
-	9 	(J
-%0CapaLogica.LogDetVenta"CapaLogica.LogDetVenta`
++CapaLogica.LogProducto.LogProducto()!statica
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs	 	("0*Ì
+0? ?(B@
+9 (J
+%0CapaLogica.LogProducto"CapaLogica.LogProducto`
 ^
-	= 	(H
+= (H
 
-%1void"$CapaLogica.LogDetVenta.LogDetVenta()* 
+%1void"$CapaLogica.LogProducto.LogProducto()* 
 
-%0CapaLogica.LogDetVentav
+%0CapaLogica.LogProductov
 t
-	, 	(J@
-CapaLogica.LogDetVenta"$
+, (J@
+CapaLogica.LogProducto"$
 
-_instanciaCapaLogica.LogDetVenta"__id* 
+_instanciaCapaLogica.LogProducto"__id* 
 
-%0CapaLogica.LogDetVenta"
- ((
+%0CapaLogica.LogProducto"
+	 ?(
 implicit returnB"
-CapaLogica.LogDetVenta
+CapaLogica.LogProducto

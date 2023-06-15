@@ -1,15 +1,16 @@
 
-/CapaEntidad.EntTipoProducto.IdTipo_producto.setf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.cs= (@"0*i
-0D ([U
-S
-D ([7
-CapaEntidad.EntTipoProducto"
-idTipo_productoint"__id*
-""*
+&CapaEntidad.entReporteCompra.Fecha.setg
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs. (1"0*€
+05 (Bl
+j
+5 (B:
+CapaEntidad.entReporteCompra"
+fechaSystem.DateTime"__id*
+
+valueSystem.DateTime*
 1*.
-1\ (\"
-[ (\
-implicit return:
-valueintB
-CapaEntidad.EntTipoProducto
+1C (C"
+B (C
+implicit return:
+valueSystem.DateTimeB 
+CapaEntidad.entReporteCompra

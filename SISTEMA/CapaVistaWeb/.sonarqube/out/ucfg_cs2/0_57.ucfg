@@ -1,16 +1,16 @@
 
-!CapaEntidad.EntUsuario.Ubigeo.geta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs3 3("0*ª
-03 3(p
-n
-3 3(
-%0CapaEntidad.EntUbigeo"__id*?=*;
+!CapaEntidad.EntUsuario.Ubigeo.seta
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs4 4("0*‡
+04 4( s
+q
+4 4( ;
 CapaEntidad.EntUsuario"
-ubigeoCapaEntidad.EntUbigeo")
-3 3( 
-
-%0CapaEntidad.EntUbigeo*.
-13" 3(""
-3! 3("
-implicit returnB
+ubigeoCapaEntidad.EntUbigeo"__id*" 
+
+valueCapaEntidad.EntUbigeo*
+1*.
+14# 4(#"
+4" 4(#
+implicit return: 
+valueCapaEntidad.EntUbigeoB
 CapaEntidad.EntUsuario

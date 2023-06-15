@@ -1,16 +1,15 @@
 
-&CapaEntidad.EntUsuario.RazonSocial.geta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs! !("0*‚
-0! !($W
-U
-! !($
-%0string"__id*53*1
-CapaEntidad.EntUsuario"
-razonSocialstring"
-! !(%
-
-%0string*.
-1!' !('"
-!& !('
-implicit returnB
-CapaEntidad.EntUsuario
+"CapaEntidad.EntCompra.IdCompra.set`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs ("0*\
+0 ("H
+F
+ ("*
+CapaEntidad.EntCompra"
+idCompraint"__id*
+""*
+1*.
+1% (%"
+$ (%
+implicit return:
+valueintB
+CapaEntidad.EntCompra

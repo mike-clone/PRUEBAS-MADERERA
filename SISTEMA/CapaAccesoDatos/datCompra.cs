@@ -10,8 +10,6 @@ namespace CapaAccesoDatos
 {
     public class DatCompra:IDatCompra
     {
-        
-        //Crear
         public int CrearCompra(EntCompra comp)
         {
             SqlCommand cmd = null;
@@ -49,7 +47,7 @@ namespace CapaAccesoDatos
             }
             return idCompra;
         }
-        //Leer
+   
         public List<EntCompra> ListarCompra(int id)
         {
             List<EntCompra> lista = new List<EntCompra>();
@@ -121,7 +119,7 @@ namespace CapaAccesoDatos
             }
             return lista;
         }
-        //Eliminar - Deshabilitar
+        
         public bool EliminarCompra(int idcompra)
         {
             SqlCommand cmd = null;
@@ -164,7 +162,7 @@ namespace CapaAccesoDatos
                     Prod.IdCompra = Convert.ToInt32(dr["idCompra"]);
                     Prod.Fecha = Convert.ToDateTime(dr["fecha"]);
                     Prod.Total = Convert.ToDouble(dr["total"]);
-                    //Prod.IdProveedor = Convert.ToInt32(dr["idProveedor"]);
+                    
                     lista.Add(Prod);
                 }
             }

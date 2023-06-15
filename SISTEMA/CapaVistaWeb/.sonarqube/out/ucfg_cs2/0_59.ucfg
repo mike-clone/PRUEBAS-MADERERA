@@ -1,13 +1,16 @@
 
--CapaEntidad.EntTemporaryProducts.Subtotal.getk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs! ($"0*6
-0( (0"
- 
-( (0
-%0"__id*
-""*
-1*.
-11 (1"
-0 (1
-implicit returnB$"
- CapaEntidad.EntTemporaryProducts
+(CapaEntidad.EntUsuario.FechaCreacion.geta
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs8 8("0*Ÿ
+08 8(&k
+i
+8 8(&
+%0System.DateTime"__id*@>*<
+CapaEntidad.EntUsuario" 
+fechaCreacionSystem.DateTime"#
+8 8('
+
+%0System.DateTime*.
+18) 8()"
+8( 8()
+implicit returnB
+CapaEntidad.EntUsuario

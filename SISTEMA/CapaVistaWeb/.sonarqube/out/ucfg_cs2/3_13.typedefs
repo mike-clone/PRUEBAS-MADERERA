@@ -1,6 +1,4 @@
-¹
-+MadereraCarocho.Controllers.VentaControllerSystem.Web.Mvc.ControllerSystem.Web.Mvc.ControllerBaseobjectR
-VentaController()=MadereraCarocho.Controllers.VentaController.VentaController()J
-ListarVenta()9MadereraCarocho.Controllers.VentaController.ListarVenta()V
-MostrarDetalle(int)?MadereraCarocho.Controllers.VentaController.MostrarDetalle(int)P
-ConfirmarVenta()<MadereraCarocho.Controllers.VentaController.ConfirmarVenta()
+µ
+-MadereraCarocho.Permisos.PermisosRolAttribute$System.Web.Mvc.ActionFilterAttributeSystem.Web.Mvc.FilterAttributeSystem.Attributeobject‚
+(PermisosRolAttribute(CapaEntidad.entRol)VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)ž
+6OnActionExecuted(System.Web.Mvc.ActionExecutedContext)dMadereraCarocho.Permisos.PermisosRolAttribute.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)

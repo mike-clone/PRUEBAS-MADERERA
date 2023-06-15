@@ -1,24 +1,23 @@
 
-,CapaLogica.LogUsuario.BuscarClientes(string)`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs;  ;(."0*·
-0= =(4š
+*CapaLogica.LogUsuario.BuscarIdUsuario(int)`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs\ \()"0*“
+0^ ^(;š
 —
-= =(!,
+^ ^(!,
 %0&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
 CapaLogica.LogUsuario"8
-UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioÒÏ
-= =(5(
-%1"System.Collections.Generic.List<T>"<CapaAccesoDatos.Interfaces.IDatUsuario.BuscarCliente(string)*0.
+UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioº·
+^ ^(<
+%1CapaEntidad.EntUsuario";CapaAccesoDatos.Interfaces.IDatUsuario.BuscarIdUsuario(int)*0.
 ,
-%0&CapaAccesoDatos.Interfaces.IDatUsuario*
-
-datostring2BuscarCliente(string)"6
-= =(6*
-(
-%1"System.Collections.Generic.List<T>*.
-1>	 >(	"
-> >(	
-implicit return:
-;/ ;(:
-datostringB
+%0&CapaAccesoDatos.Interfaces.IDatUsuario*
+""2BuscarIdUsuario(int)"*
+^ ^(=
+
+%1CapaEntidad.EntUsuario*.
+1_	 _(	"
+_ _(	
+implicit return:
+\* \(7
+	idClienteintB
 CapaLogica.LogUsuario

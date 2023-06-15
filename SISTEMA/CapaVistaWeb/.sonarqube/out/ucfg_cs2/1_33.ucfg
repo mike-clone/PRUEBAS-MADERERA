@@ -1,228 +1,16 @@
 
-BCapaAccesoDatos.DatProducto.CrearProducto(CapaEntidad.EntProducto)f
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProducto.cs (!"0*á
-0 (E
-C
- (!'
-cmd System.Data.SqlClient.SqlCommand"__id*
-"",
-*
- (
-creadobool"__id*
-""*
-1*ö
-1 $(t
-r
-# (5
-%0CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
-CapaAccesoDatos.ConexionÄ
-~
-# (@)
-%1#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
-
-%0CapaAccesoDatos.Conexionl
-j
- (@)
-cn#System.Data.SqlClient.SqlConnection"__id*-+
-)
-%1#System.Data.SqlClient.SqlConnectionVT
- (;&
-%2 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÂ
-‚
- ($
-
-%3void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
-&
-%2 System.Data.SqlClient.SqlCommand*
-spCrearProducto*-+
-)
-cn#System.Data.SqlClient.SqlConnectiong
-e
- (;'
-cmd System.Data.SqlClient.SqlCommand"__id**(
-&
-%2 System.Data.SqlClient.SqlCommand"
+(CapaAccesoDatos.datGrafEst.Instancia.gete
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\datGrafEst.cs ("0*¡
+0 ("Å
+
+ (" 
+%0CapaAccesoDatos.datGrafEst"__id*KI*G
+CapaAccesoDatos.datGrafEst"'
+	_instanceCapaAccesoDatos.datGrafEst".
+ (#"
  
-" (=
-%4"__id*
-""ï
-í
- (=
-%5System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
-'
-cmd System.Data.SqlClient.SqlCommand*
-
-%4ü
-ú
- (2
-%6,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandc
-a
-7 (B
-%7string""CapaEntidad.EntProducto.Nombre.get*#!
-
-prodCapaEntidad.EntProductoÿ
-’
- (C(
-%8"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
-2
-%6,System.Data.SqlClient.SqlParameterCollection*	
-@nombre*
-
-%7stringü
-ú
- (2
-%9,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandf
-d
-9 (F
-%10double"$CapaEntidad.EntProducto.Longitud.get*#!
-
-prodCapaEntidad.EntProducto‹
-Ÿ
- (G)
-%11"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
-2
-%9,System.Data.SqlClient.SqlParameterCollection*
-	@longitud*
-
-%10double†
-ù
- (3
-%12,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandf
-d
-9 (F
-%13double"$CapaEntidad.EntProducto.Diametro.get*#!
-
-prodCapaEntidad.EntProducto›
-⁄
- (G)
-%14"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*75
-3
-%12,System.Data.SqlClient.SqlParameterCollection*
-	@diametro*
-
-%13double†
-ù
- (3
-%15,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandi
-g
-< (L
-%16double"'CapaEntidad.EntProducto.PrecioVenta.get*#!
-
-prodCapaEntidad.EntProducto‡
-›
- (M)
-%17"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*75
-3
-%15,System.Data.SqlClient.SqlParameterCollection*
-@precioVenta*
-
-%16double†
-ù
-   (3
-%18,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandw
-u
- @  (I"
-%19CapaEntidad.EntTipoProducto" CapaEntidad.EntProducto.Tipo.get*#!
-
-prodCapaEntidad.EntProductoq
-o
- @  (Y
-
-%20int"/CapaEntidad.EntTipoProducto.IdTipo_producto.get*&$
-"
-%19CapaEntidad.EntTipoProducto·
-ﬁ
-   (Z)
-%21"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*75
-3
-%18,System.Data.SqlClient.SqlParameterCollection*
-@idTipo_Producto*
-
-
-%20intt
-r
-! !(
-%22void"*System.Data.SqlClient.SqlConnection.Open()*-+
-)
-cn#System.Data.SqlClient.SqlConnectiony
-w
-" "(-
-
-%23int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*+)
-'
-cmd System.Data.SqlClient.SqlCommand,
-*
-" "(-
-iint"__id*
-
-
-%23int*
-2
-3*@
-2% %(!,
-*
-% %(!
-creadobool"__id*
-""*
-3*
-32	 2(	*
-4
-5*Ú
-4* *(va_
-*  *()
-%24string"System.Exception.Message.get*
-
-eSystem.Exception2Message.get#
-!
-*L *(`
-%25"__id*
-""#
-!
-*b *(v
-%26"__id*
-""∞
-≠
-* *(w(
-%27!System.Windows.Forms.DialogResult"ÅSystem.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
-System.Windows.Forms.MessageBox*
-
-%24string*#!
-ERROR AL INSERTAR UN PRODUCTO*	
-
-%25*	
-
-%26*
-5*ß
-5. .(&ó
-î
-. .(*
-%28#System.Data.SqlClient.SqlConnection"/System.Data.SqlClient.SqlCommand.Connection.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandv
-t
-. .(&
-%29void"+System.Data.SqlClient.SqlConnection.Close()*.,
-*
-%28#System.Data.SqlClient.SqlConnection*
-6
-7*+
-60 0("
-0 0(
-
-creadobool*.
-72	 2(	"
-2 2(	
-implicit return:+
-" (2
-prodCapaEntidad.EntProductoB
-CapaAccesoDatos.DatProducto
+%0CapaAccesoDatos.datGrafEst*.
+1% (%"
+$ (%
+implicit returnB"
+CapaAccesoDatos.datGrafEst

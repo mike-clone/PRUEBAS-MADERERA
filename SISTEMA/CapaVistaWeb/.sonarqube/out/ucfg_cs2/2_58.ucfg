@@ -1,24 +1,17 @@
 
-)CapaLogica.LogCompra.BuscarCompra(string)_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs' '(+"0*³
-0) )(6–
-“
-) )( +
-%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
-CapaLogica.LogCompra"6
-CompraService%CapaAccesoDatos.Interfaces.IDatCompraÒÏ
-) )(7(
-%1"System.Collections.Generic.List<T>":CapaAccesoDatos.Interfaces.IDatCompra.BuscarCompra(string)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatCompra*
-
-busquedastring2BuscarCompra(string)"6
-) )(8*
-(
-%1"System.Collections.Generic.List<T>*.
-1*	 *(	"
-* *(	
-implicit return:
-', '(;
-busquedastringB
-CapaLogica.LogCompra
+!CapaLogica.LogVenta.Instancia.get^
+TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs ("0*¥
+0 (#m
+k
+ (#
+%0CapaLogica.LogVenta"__id*><*:
+CapaLogica.LogVenta"!
+
+_instanciaCapaLogica.LogVenta"'
+ ($
+
+%0CapaLogica.LogVenta*.
+1& (&"
+% (&
+implicit returnB"
+CapaLogica.LogVenta

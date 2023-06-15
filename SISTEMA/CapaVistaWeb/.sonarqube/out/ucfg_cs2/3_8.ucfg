@@ -1,47 +1,22 @@
 
-2MadereraCarocho.MvcApplication.Application_Start()c
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Global.asax.cs	 	(("0*Œ	
-0 (<s
-q
- (/
+VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)u
+kC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Permisos\PermisosRolAttribute.cs (#"1*Œ
+1	 (	x
+v
 
-%0void"2System.Web.Mvc.AreaRegistration.RegisterAllAreas()*%#"!
-System.Web.Mvc.AreaRegistrationˆ
-…
-/ (D+
-%1%System.Web.Mvc.GlobalFilterCollection"(System.Web.Mvc.GlobalFilters.Filters.get*" "
-System.Web.Mvc.GlobalFiltersÉ
-Æ
- (E
-
-%2void"YMadereraCarocho.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)*" "
-MadereraCarocho.FilterConfig*/-
-+
-%1%System.Web.Mvc.GlobalFilterCollection†
-ƒ
-' (8(
-%3"System.Web.Routing.RouteCollection"(System.Web.Routing.RouteTable.Routes.get*#!"
-System.Web.Routing.RouteTableº
-·
- (9
-
-%4void"NMadereraCarocho.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)*!"
-MadereraCarocho.RouteConfig*,*
-(
-%3"System.Web.Routing.RouteCollection™
-–
-) (<.
-%5(System.Web.Optimization.BundleCollection"/System.Web.Optimization.BundleTable.Bundles.get*)'"%
-#System.Web.Optimization.BundleTableÉ
-Æ
- (=
-
-%6void"VMadereraCarocho.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)*" "
-MadereraCarocho.BundleConfig*20
-.
-%5(System.Web.Optimization.BundleCollection*
-1*.
-1	 (	"
- (	
-implicit returnB" 
-MadereraCarocho.MvcApplication
+%0void"<System.Web.Mvc.ActionFilterAttribute.ActionFilterAttribute()**(&
+$System.Web.Mvc.ActionFilterAttribute*
+0*~
+0 (j
+h
+ (L/
+-MadereraCarocho.Permisos.PermisosRolAttribute"
+RolCapaEntidad.entRol"__id*
+""*
+2*.
+2	 (	"
+ (	
+implicit return:%
+$ (.
+RolCapaEntidad.entRolB1/
+-MadereraCarocho.Permisos.PermisosRolAttribute

@@ -1,15 +1,15 @@
 
-CapaEntidad.EntVenta.Total.set_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*[
-0 (G
-E
- ()
-CapaEntidad.EntVenta"
-totaldouble"__id*
+-CapaEntidad.EntTemporaryProducts.Subtotal.setk
+aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs2 (5"0*j
+09 (IV
+T
+9 (I8"
+ CapaEntidad.EntTemporaryProducts"
+subtotaldouble"__id*
 ""*
 1*.
-1" (""
-! ("
+1J (J"
+I (J
 implicit return:
-valuedoubleB
-CapaEntidad.EntVenta
+valuedoubleB$"
+ CapaEntidad.EntTemporaryProducts

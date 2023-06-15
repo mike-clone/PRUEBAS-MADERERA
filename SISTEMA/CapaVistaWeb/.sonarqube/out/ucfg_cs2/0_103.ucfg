@@ -1,10 +1,10 @@
 
-&CapaEntidad.entReporteCompra.Fecha.setg
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs. (1"0*€
-05 (Bl
-j
-5 (B:
-CapaEntidad.entReporteCompra"
+%CapaEntidad.entReporteVenta.Fecha.setf
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs. (1"0*
+05 (Bk
+i
+5 (B9
+CapaEntidad.entReporteVenta"
 fechaSystem.DateTime"__id*
 
 valueSystem.DateTime*
@@ -12,5 +12,5 @@ j
 1C (C"
 B (C
 implicit return:
-valueSystem.DateTimeB 
-CapaEntidad.entReporteCompra
+valueSystem.DateTimeB
+CapaEntidad.entReporteVenta

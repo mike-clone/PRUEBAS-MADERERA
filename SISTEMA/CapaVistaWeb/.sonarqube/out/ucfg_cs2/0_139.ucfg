@@ -1,15 +1,14 @@
 
-CapaEntidad.EntUsuario.Rol.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csM M("0*g
-0M M(S
-Q
-M M(5
-CapaEntidad.EntUsuario"
-rolCapaEntidad.entRol"__id*
-""*
+)CapaEntidad.entReporteCompra.Cantidad.getg
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs! ($"0*n
+0( (0Z
+X
+( (0
+%0string"__id*86*4
+CapaEntidad.entReporteCompra"
+cantidadstring*
 1*.
-1M M("
-M M(
-implicit return:
-valueCapaEntidad.entRolB
-CapaEntidad.EntUsuario
+11 (1"
+0 (1
+implicit returnB 
+CapaEntidad.entReporteCompra

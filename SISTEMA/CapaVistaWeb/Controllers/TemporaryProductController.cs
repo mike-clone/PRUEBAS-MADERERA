@@ -12,7 +12,7 @@ namespace MadereraCarocho.Controllers
     [Authorize]// No puede si es que no esta autorizado
     public class TemporaryProductController : Controller
     {
-        LogTemporaryProducts TemporaryPservice;
+        readonly LogTemporaryProducts TemporaryPservice;
 
         public TemporaryProductController()
         {
@@ -20,7 +20,7 @@ namespace MadereraCarocho.Controllers
         }
 
 
-        [PermisosRol(entRol.Administrador)]
+        [PermisosRol(EntRol.Administrador)]
         [HttpGet]
         public ActionResult ListarTempProduct()
         {
@@ -29,7 +29,7 @@ namespace MadereraCarocho.Controllers
             return View(TemporaryPservice.MostrarTemporaryProducts(usuario.IdUsuario));
         }
 
-        [PermisosRol(entRol.Cliente)]
+        [PermisosRol(EntRol.Cliente)]
         [HttpGet]
         public ActionResult ListarTempProductClient()
         {
@@ -38,7 +38,7 @@ namespace MadereraCarocho.Controllers
             return View(TemporaryPservice.MostrarTemporaryProductsCli(usuario.IdUsuario));
         }
 
-        [PermisosRol(entRol.Administrador)]
+        [PermisosRol(EntRol.Administrador)]
         [HttpGet]
         public ActionResult EliminarTempPrduct(int idtemp)
         {
@@ -54,7 +54,7 @@ namespace MadereraCarocho.Controllers
             return RedirectToAction("ListarTempProduct");
         }
 
-        [PermisosRol(entRol.Cliente)]
+        [PermisosRol(EntRol.Cliente)]
         [HttpGet]
         public ActionResult EliminarTempPrductClient(int idtemp)
         {

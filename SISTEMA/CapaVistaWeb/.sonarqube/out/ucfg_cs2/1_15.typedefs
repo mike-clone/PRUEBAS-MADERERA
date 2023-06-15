@@ -1,13 +1,5 @@
-ý
-CapaAccesoDatos.DatUsuarioobject&CapaAccesoDatos.Interfaces.IDatUsuariog
-$CrearCliente(CapaEntidad.EntUsuario)?CapaAccesoDatos.DatUsuario.CrearCliente(CapaEntidad.EntUsuario)=
-ListarCliente()*CapaAccesoDatos.DatUsuario.ListarCliente()I
-BuscarCliente(string)0CapaAccesoDatos.DatUsuario.BuscarCliente(string)i
-%EditarCliente(CapaEntidad.EntUsuario)@CapaAccesoDatos.DatUsuario.EditarCliente(CapaEntidad.EntUsuario)M
-ListarAdministradores()2CapaAccesoDatos.DatUsuario.ListarAdministradores()}
-/ActualizarAdministrador(CapaEntidad.EntUsuario)JCapaAccesoDatos.DatUsuario.ActualizarAdministrador(CapaEntidad.EntUsuario)[
-BuscaraAdministradores(string)9CapaAccesoDatos.DatUsuario.BuscaraAdministradores(string)Y
-IniciarSesion(string, string)8CapaAccesoDatos.DatUsuario.IniciarSesion(string, string)I
-EliminarUsuarios(int)0CapaAccesoDatos.DatUsuario.EliminarUsuarios(int)G
-BuscarIdUsuario(int)/CapaAccesoDatos.DatUsuario.BuscarIdUsuario(int)7
-DatUsuario()'CapaAccesoDatos.DatUsuario.DatUsuario()
+Â
+CapaAccesoDatos.DatDetVentaobject'CapaAccesoDatos.Interfaces.IDatDetVental
+&CrearDetVenta(CapaEntidad.EntDetVenta)BCapaAccesoDatos.DatDetVenta.CrearDetVenta(CapaEntidad.EntDetVenta)H
+Mostrardetventa(int)0CapaAccesoDatos.DatDetVenta.Mostrardetventa(int):
+DatDetVenta())CapaAccesoDatos.DatDetVenta.DatDetVenta()

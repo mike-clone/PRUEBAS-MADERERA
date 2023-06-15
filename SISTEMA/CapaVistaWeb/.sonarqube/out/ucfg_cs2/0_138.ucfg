@@ -1,16 +1,15 @@
 
-#CapaEntidad.EntProveedor.Correo.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs/ /("0*
-0/ /(T
-R
-/ /(
-%0string"__id*20*.
-CapaEntidad.EntProveedor"
-correostring"
-/ /( 
-
-%0string*.
-1/" /(""
-/! /("
-implicit returnB
+(CapaEntidad.EntProveedor.IdProveedor.setc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs ("0*b
+0 (%N
+L
+ (%0
+CapaEntidad.EntProveedor"
+idProveedorint"__id*
+""*
+1*.
+1( (("
+' ((
+implicit return:
+valueintB
 CapaEntidad.EntProveedor

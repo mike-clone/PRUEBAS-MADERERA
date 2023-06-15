@@ -1,14 +1,26 @@
 
-)CapaEntidad.entReporteCompra.Cantidad.getg
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs! ($"0*n
-0( (0Z
-X
-( (0
-%0string"__id*86*4
-CapaEntidad.entReporteCompra"
-cantidadstring*
+.CapaEntidad.EntProveedorProducto.Proveedor.setk
+aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs
+: 
+(="0*œ
+0
+A 
+(R‡
+„
+
+A 
+(RK"
+ CapaEntidad.EntProveedorProducto"%
+	proveedorCapaEntidad.EntProveedor"__id*%#
+!
+valueCapaEntidad.EntProveedor*
 1*.
-11 (1"
-0 (1
-implicit returnB 
-CapaEntidad.entReporteCompra
+1
+S 
+(S"
+
+R 
+(S
+implicit return:#!
+valueCapaEntidad.EntProveedorB$"
+ CapaEntidad.EntProveedorProducto

@@ -1,14 +1,14 @@
 
--CapaEntidad.EntProveedorProducto.Producto.getk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedorProducto.cs& ()"0*•
-0- (5€
-~
-- (5
-%0CapaEntidad.EntProducto"__id*MK*I"
- CapaEntidad.EntProveedorProducto"#
-productoCapaEntidad.EntProducto*
+"CapaEntidad.EntUbigeo.Distrito.get`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs! ($"0*g
+0( (0S
+Q
+( (0
+%0string"__id*1/*-
+CapaEntidad.EntUbigeo"
+distritostring*
 1*.
-16 (6"
-5 (6
-implicit returnB$"
- CapaEntidad.EntProveedorProducto
+11 (1"
+0 (1
+implicit returnB
+CapaEntidad.EntUbigeo

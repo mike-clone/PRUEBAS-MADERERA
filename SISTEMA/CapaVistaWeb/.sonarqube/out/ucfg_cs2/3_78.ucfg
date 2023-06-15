@@ -1,30 +1,22 @@
 
-2MadereraCarocho.Controllers.HomeController.Error()r
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs/ /(!"2*
-01 1(î
-ë
-1 1(
+?MadereraCarocho.Controllers.VentaController.MostrarDetalle(int)s
+iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\VentaController.cs# #(*"2*°	
+0% %(?ë
+é
+% %(+
+%0CapaLogica.LogDetVenta"__id*^\*Z-
++MadereraCarocho.Controllers.VentaController")
+DetVentaserviceCapaLogica.LogDetVentaê
+ç
+% %(@(
+%1"System.Collections.Generic.List<T>"+CapaLogica.LogDetVenta.Mostrardetventa(int)* 
+
+%0CapaLogica.LogDetVenta*
+""û
+õ
+% %(A
 
-%0void"capavistaweb/views/home/error*
-
-%1*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobjectî
-ë
-1 1(
-
-%2void"capavistaweb/views/_viewstart*
+%2void"'capavistaweb/views/venta/mostrardetalle*
 
 %3*
 	{unknown}*
@@ -39,11 +31,11 @@ hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobjectò
-ï
-1 1(
+%HttpContextItemsHtmlobjectî
+ë
+% %(A
 
-%4void"!capavistaweb/views/shared/_layout*
+%4void"capavistaweb/views/_viewstart*
 
 %5*
 	{unknown}*
@@ -58,17 +50,40 @@ hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Cont
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobject"
-1 1(
+%HttpContextItemsHtmlobjectò
+ï
+% %(A
 
-
-%4void*.
-12	 2(	"
-2 2(	
-implicit return*4
-2/# /(# 
+%6void"!capavistaweb/views/shared/_layout*
+
+%7*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
 
-/ /(!
-%6"__entrypoint*
-0B.,
-*MadereraCarocho.Controllers.HomeController
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+% %(B
+
+
+%6void*.
+1&	 &(	"
+& &(	
+implicit return*>
+2#3 #(3*
+(
+# #(*
+%8"__entrypoint*
+""*
+0:
+#+ #(2
+
+idvintB/-
++MadereraCarocho.Controllers.VentaController

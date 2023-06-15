@@ -1,204 +1,136 @@
 
-ACapaAccesoDatos.DatUbigeo.ActualizarUbigeo(CapaEntidad.EntUbigeo)d
-ZC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.csq q($"0*ä
-0s t("E
+1CapaAccesoDatos.DatProducto.EliminarProducto(int)f
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProducto.csy y($"0*ä
+0{ |("E
 C
-s s(!'
+{ {(!'
 cmd System.Data.SqlClient.SqlCommand"__id*
 ""/
 -
-t t("
-	actualizabool"__id*
+| |("
+	eliminadobool"__id*
 ""*
-1*ü
-1	w Ä(t
+1*ç
+1	 á(t
 r
-w# w(5
+# (5
 %0CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
 CapaAccesoDatos.ConexionÄ
 ~
-w# w(@)
+# (@)
 %1#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
 
 %0CapaAccesoDatos.Conexionl
 j
-w w(@)
+ (@)
 cn#System.Data.SqlClient.SqlConnection"__id*-+
 )
-%1#System.Data.SqlClient.SqlConnectionVT
-x x(>&
-%2 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandË
-Â
-x x($
+%1#System.Data.SqlClient.SqlConnectionXV
+
+Ä É(&
+%2 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÍ
+Á
+
+Ä Ä($
 
 %3void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
 &
 %2 System.Data.SqlClient.SqlCommand*
-spActualizarUbigeo*-+
+spEliminarProducto*-+
 )
-cn#System.Data.SqlClient.SqlConnectiong
-e
-x x(>'
+cn#System.Data.SqlClient.SqlConnection$
+"
+
+Ç" Ç(=
+%4"__id*
+""ñ
+ì
+
+Ç Ç(=
+%5System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set**(
+&
+%2 System.Data.SqlClient.SqlCommand*
+
+%4i
+g
+
+Ä É('
 cmd System.Data.SqlClient.SqlCommand"__id**(
 &
-%2 System.Data.SqlClient.SqlCommand"
- 
-y" y(=
-%4"__id*
-""ï
-í
-y y(=
-%5System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
-'
-cmd System.Data.SqlClient.SqlCommand*
-
-%4ü
-ú
-z z(2
+%2 System.Data.SqlClient.SqlCommand°
+û
+
+Ñ Ñ(2
 %6,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
 '
-cmd System.Data.SqlClient.SqlCommand`
-^
-z9 z(E
-%7string""CapaEntidad.EntUbigeo.IdUbigeo.get* 
-
-ubiCapaEntidad.EntUbigeo⁄
-◊
-z z(F(
-%8"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
+cmd System.Data.SqlClient.SqlCommand÷
+”
+
+Ñ Ñ(>(
+%7"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
 2
-%6,System.Data.SqlClient.SqlParameterCollection*
-	@idUbigeo*
-
-%7stringü
-ú
-{ {(2
-%9,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
-'
-cmd System.Data.SqlClient.SqlCommande
-c
-{= {(M
-%10string"&CapaEntidad.EntUbigeo.Departamento.get* 
-
-ubiCapaEntidad.EntUbigeo‡
-›
-{ {(N)
-%11"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
-2
-%9,System.Data.SqlClient.SqlParameterCollection*
-@departamento*
+%6,System.Data.SqlClient.SqlParameterCollection*
+@idProducto*
+""u
+s
 
-%10string†
-ù
-| |(3
-%12,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandb
-`
-|: |(G
-%13string"#CapaEntidad.EntUbigeo.Provincia.get* 
-
-ubiCapaEntidad.EntUbigeoﬁ
-€
-| |(H)
-%14"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*75
-3
-%12,System.Data.SqlClient.SqlParameterCollection*
+Ö Ö(
 
-@provincia*
-
-%13string†
-ù
-} }(3
-%15,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
-'
-cmd System.Data.SqlClient.SqlCommanda
-_
-}9 }(E
-%16string""CapaEntidad.EntUbigeo.Distrito.get* 
-
-ubiCapaEntidad.EntUbigeo›
-⁄
-} }(F)
-%17"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*75
-3
-%15,System.Data.SqlClient.SqlParameterCollection*
-	@distrito*
-
-%16stringt
-r
-~ ~(
-%18void"*System.Data.SqlClient.SqlConnection.Open()*-+
+%8void"*System.Data.SqlClient.SqlConnection.Open()*-+
 )
-cn#System.Data.SqlClient.SqlConnectiony
-w
- (-
+cn#System.Data.SqlClient.SqlConnectionz
+x
 
-%19int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*+)
+Ü Ü(-	
+%9int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*+)
 '
-cmd System.Data.SqlClient.SqlCommand,
-*
- (-
-iint"__id*
+cmd System.Data.SqlClient.SqlCommand-
++
 
-
-%19int*
+Ü Ü(-
+iint"__id*
+	
+%9int*
 2
 3*G
 2
-Ç Ç($1
+â â($1
 /
 
-Ç Ç($
-	actualizabool"__id*
+â â($
+	eliminadobool"__id*
 ""*
 3*
 3
-ã	 ã(	*
+ë	 ë(	*
 4
 5*ù
 4
-á á()ca
+é é()ca
 
-á  á()
-%20string"System.Exception.Message.get*
+é  é()
+%10string"System.Exception.Message.get*
 
 eSystem.Exception2Message.get°
 û
 
-á á(*(
-%21!System.Windows.Forms.DialogResult",System.Windows.Forms.MessageBox.Show(string)*%#"!
+é é(*(
+%11!System.Windows.Forms.DialogResult",System.Windows.Forms.MessageBox.Show(string)*%#"!
 System.Windows.Forms.MessageBox*
 
-%20string*
-5*≠
+%10string*
+5*2
 5
-â â(,ô
-ñ
+ê ê("!
 
-â â($*
-%22#System.Data.SqlClient.SqlConnection"/System.Data.SqlClient.SqlCommand.Connection.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandx
-v
-
-â â(,
-%23void"+System.Data.SqlClient.SqlConnection.Close()*.,
-*
-%22#System.Data.SqlClient.SqlConnection*
-6
-7*2
-6
-ä ä("!
-
-ä ä(
+ê ê(
 
-	actualizabool*2
-7
-ã	 ã(	"!
+	eliminadobool*2
+6
+ë	 ë(	"!
 
-ã ã(	
-implicit return:(
-q% q(2
-ubiCapaEntidad.EntUbigeoB
-CapaAccesoDatos.DatUbigeo
+ë ë(	
+implicit return:
+y% y(+	
+idintB
+CapaAccesoDatos.DatProducto

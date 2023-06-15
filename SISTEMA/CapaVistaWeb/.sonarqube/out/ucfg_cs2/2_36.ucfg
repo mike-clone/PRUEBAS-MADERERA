@@ -1,9 +1,23 @@
 
-6CapaLogica.LogTemporaryProducts.LogTemporaryProducts()j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs (#"1*
-1	 (	*
-0*.
-0	 (	"
- (	
-implicit returnB#!
-CapaLogica.LogTemporaryProducts
++CapaLogica.LogDetVenta.Mostrardetventa(int)a
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs#! #(0"0*±
+0% %(:ž
+›
+% %("-
+%0'CapaAccesoDatos.Interfaces.IDatDetVenta"__id*ZX*V
+CapaLogica.LogDetVenta":
+DetVentaService'CapaAccesoDatos.Interfaces.IDatDetVentaÈÅ
+% %(;(
+%1"System.Collections.Generic.List<T>"<CapaAccesoDatos.Interfaces.IDatDetVenta.Mostrardetventa(int)*1/
+-
+%0'CapaAccesoDatos.Interfaces.IDatDetVenta*
+""2Mostrardetventa(int)"6
+% %(<*
+(
+%1"System.Collections.Generic.List<T>*.
+1&	 &(	"
+& &(	
+implicit return:
+#1 #(<
+idVentaintB
+CapaLogica.LogDetVenta

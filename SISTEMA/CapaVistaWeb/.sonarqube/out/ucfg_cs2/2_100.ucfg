@@ -1,24 +1,25 @@
 
-/CapaLogica.LogProveedor.BuscarProveedor(string)b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cso" o(1"0*Ë
-0q q(<¢
-Ÿ
-q q(#.
-%0(CapaAccesoDatos.Interfaces.IDatProveedor"__id*][*Y
-CapaLogica.LogProveedor"<
-ProveedorService(CapaAccesoDatos.Interfaces.IDatProveedorÞÛ
-q q(=(
-%1"System.Collections.Generic.List<T>"@CapaAccesoDatos.Interfaces.IDatProveedor.BuscarProveedor(string)*20
-.
-%0(CapaAccesoDatos.Interfaces.IDatProveedor*
-
-busquedastring2BuscarProveedor(string)"6
-q q(>*
-(
-%1"System.Collections.Generic.List<T>*.
-1r	 r(	"
-r r(	
-implicit return:
-o2 o(A
-busquedastringB
-CapaLogica.LogProveedor
++CapaLogica.LogUsuario.EliminarUsuarios(int)`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs@ @($"0*ñ
+0B B(5š
+—
+B B(!,
+%0&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
+CapaLogica.LogUsuario"8
+UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioª§
+B B(6
+
+%1bool"<CapaAccesoDatos.Interfaces.IDatUsuario.EliminarUsuarios(int)*0.
+,
+%0&CapaAccesoDatos.Interfaces.IDatUsuario*
+""2EliminarUsuarios(int)"
+B B(7
+
+
+%1bool*.
+1C	 C(	"
+C C(	
+implicit return:
+@% @(+	
+idintB
+CapaLogica.LogUsuario

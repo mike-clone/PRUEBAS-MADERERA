@@ -16,11 +16,11 @@ namespace MadereraCarocho.Controllers
     
     public class HomeController : Controller
     {
-        LogUsuario Usuarioservice;
-        LogProducto Productoservice;
-        LogUbigeo Ubigeoservice;
-        LogTemporaryProducts TemporaryPservice;
-        ValidatorHelper validatorHelper =new ValidatorHelper();
+        readonly LogUsuario Usuarioservice;
+        readonly LogProducto Productoservice;
+        readonly LogUbigeo Ubigeoservice;
+        readonly LogTemporaryProducts TemporaryPservice;
+        readonly ValidatorHelper validatorHelper =new ValidatorHelper();
         public HomeController()
         {
             Usuarioservice = new LogUsuario(new DatUsuario());
@@ -109,13 +109,13 @@ namespace MadereraCarocho.Controllers
                     {
                         FormsAuthentication.SetAuthCookie(objUsuario.Correo, false); //Almacenar autenticacion dentro de una cokkie (segundo parametro es que el obj no sera persistente)
                         Session["Usuario"] = objUsuario;// Una sesión puede almacenar cualquier tipo de dato
-                        if (objUsuario.Rol == entRol.Administrador)
+                        if (objUsuario.Rol == EntRol.Administrador)
                         {
                             return RedirectToAction("Admin");
                         }
                         else
                         {
-                            if (objUsuario.Rol == entRol.Cliente)
+                            if (objUsuario.Rol == EntRol.Cliente)
                             {
                                 return RedirectToAction("Cliente");
                             }
@@ -144,7 +144,7 @@ namespace MadereraCarocho.Controllers
         // Una sesion almacena toda la informacion de un objeto en el lado del servidor
         #endregion
         #region VISTA CLIENTE
-        [PermisosRol(entRol.Cliente)]
+        [PermisosRol(EntRol.Cliente)]
         [Authorize]
         public ActionResult Cliente(string dato)
         {
@@ -160,7 +160,7 @@ namespace MadereraCarocho.Controllers
             return RedirectToAction("Index");
         }
 
-        [PermisosRol(entRol.Cliente)]
+        [PermisosRol(EntRol.Cliente)]
         [Authorize]
         [HttpGet]
         public ActionResult EditarDatosCliente()
@@ -172,7 +172,7 @@ namespace MadereraCarocho.Controllers
 
         }
 
-        [PermisosRol(entRol.Cliente)]
+        [PermisosRol(EntRol.Cliente)]
         [Authorize]
         [HttpPost]
         public ActionResult EditarDatosCliente(EntUsuario usu, FormCollection frm) //EDITA LOS DATOS
@@ -201,7 +201,7 @@ namespace MadereraCarocho.Controllers
             }
         }
 
-        [PermisosRol(entRol.Cliente)]
+        [PermisosRol(EntRol.Cliente)]
         [HttpGet]
         public ActionResult AgregarTempPrductCliente(int idprod)
         {
@@ -229,7 +229,7 @@ namespace MadereraCarocho.Controllers
         }
         #endregion 
         #region ADMINISTRADOR
-        [PermisosRol(entRol.Administrador)]
+        [PermisosRol(EntRol.Administrador)]
         [Authorize]// No puede si es que no esta autorizado //Almacena la info en la memoria del navegador
         public ActionResult Admin()
         {
@@ -239,7 +239,7 @@ namespace MadereraCarocho.Controllers
             return View();
         }
 
-        [PermisosRol(entRol.Administrador)]
+        [PermisosRol(EntRol.Administrador)]
         [Authorize]
         [HttpGet]
         public ActionResult EditarDatosAdministrador()
@@ -252,7 +252,7 @@ namespace MadereraCarocho.Controllers
         }
         [HttpPost]
 
-        [PermisosRol(entRol.Administrador)]
+        [PermisosRol(EntRol.Administrador)]
         [Authorize]
         public ActionResult EditarDatosAdministrador(EntUsuario usu, FormCollection frm) //EDITA LOS DATOS
         {

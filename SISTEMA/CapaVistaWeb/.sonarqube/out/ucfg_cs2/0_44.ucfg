@@ -1,15 +1,15 @@
 
-CapaEntidad.EntVenta.Total.get_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*E
-0 ("
- 
- (
-%0"__id*
-"""
- (
-
-%0*.
-1! (!"
-  (!
-implicit returnB
-CapaEntidad.EntVenta
+-CapaEntidad.EntTemporaryProducts.Cantidad.setk
+aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs/ (2"0*g
+06 (FS
+Q
+6 (F5"
+ CapaEntidad.EntTemporaryProducts"
+cantidadint"__id*
+""*
+1*.
+1G (G"
+F (G
+implicit return:
+valueintB$"
+ CapaEntidad.EntTemporaryProducts

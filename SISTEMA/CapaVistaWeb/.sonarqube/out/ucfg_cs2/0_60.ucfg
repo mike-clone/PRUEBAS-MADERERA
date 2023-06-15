@@ -1,15 +1,16 @@
 
--CapaEntidad.EntTemporaryProducts.Cantidad.setk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs/ (2"0*g
-06 (FS
-Q
-6 (F5"
- CapaEntidad.EntTemporaryProducts"
-cantidadint"__id*
-""*
-1*.
-1G (G"
-F (G
-implicit return:
-valueintB$"
- CapaEntidad.EntTemporaryProducts
+CapaEntidad.EntCompra.Fecha.get`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs ("0*–
+0 (b
+`
+ (
+%0System.DateTime"__id*75*3
+CapaEntidad.EntCompra"
+fechaSystem.DateTime"#
+ (
+
+%0System.DateTime*.
+1! (!"
+  (!
+implicit returnB
+CapaEntidad.EntCompra

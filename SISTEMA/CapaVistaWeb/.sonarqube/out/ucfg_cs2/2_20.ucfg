@@ -1,19 +1,19 @@
 
-NCapaLogica.LogDetCompra.LogDetCompra(CapaAccesoDatos.Interfaces.IDatDetCompra)b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetCompra.cs ("1*
-1	 (	*
-0*Â
-0 (+­
-ª
- (+Y
-CapaLogica.LogDetCompra"<
-DetCompraService(CapaAccesoDatos.Interfaces.IDatDetCompra"__id*=;
-9
-idatdetcompra(CapaAccesoDatos.Interfaces.IDatDetCompra*
+KCapaLogica.LogProducto.LogProducto(CapaAccesoDatos.Interfaces.IDatProducto)a
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs ("1*
+1	 (	*
+0*º
+0 ('¥
+¢
+ ('V
+CapaLogica.LogProducto":
+ProductoService'CapaAccesoDatos.Interfaces.IDatProducto"__id*86
+4
+	IProducto'CapaAccesoDatos.Interfaces.IDatProducto*
 2*.
-2	 (	"
- (	
-implicit return:E
- (79
-idatdetcompra(CapaAccesoDatos.Interfaces.IDatDetCompraB
-CapaLogica.LogDetCompra
+2	 (	"
+ (	
+implicit return:@
+ (14
+	IProducto'CapaAccesoDatos.Interfaces.IDatProductoB
+CapaLogica.LogProducto

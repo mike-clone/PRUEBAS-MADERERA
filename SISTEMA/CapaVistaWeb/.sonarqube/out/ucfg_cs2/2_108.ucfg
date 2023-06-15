@@ -1,85 +1,44 @@
 
-_CapaLogica.ValidatorHelper.TryValidateEntity<T>(T, out System.Collections.Generic.List<string>)e
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\ValidatorHelper.cs
- 
-(,"0*Å
-0 (ÖÇ
-  (==
-%07System.ComponentModel.DataAnnotations.ValidationContext"7System.ComponentModel.DataAnnotations.ValidationContext¿
-Ω
-$ (5
-
-%1void"QSystem.ComponentModel.DataAnnotations.ValidationContext.ValidationContext(object)*A?
-=
-%07System.ComponentModel.DataAnnotations.ValidationContext*
-
-entityT§
-°
- (=L
-validationContext7System.ComponentModel.DataAnnotations.ValidationContext"__id*A?
-=
-%07System.ComponentModel.DataAnnotations.ValidationContextZX
-  (<(
-%2"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
-o
-$ (:
-
-%3void")System.Collections.Generic.List<T>.List()*,*
-(
-%2"System.Collections.Generic.List<T>y
-w
- (<7
-validationResults"System.Collections.Generic.List<T>"__id*,*
-(
-%2"System.Collections.Generic.List<T>Â
-‚
- (e
-
-%4bool"ËSystem.ComponentModel.DataAnnotations.Validator.TryValidateObject(object, System.ComponentModel.DataAnnotations.ValidationContext, System.Collections.Generic.ICollection<System.ComponentModel.DataAnnotations.ValidationResult>, bool)*53"1
-/System.ComponentModel.DataAnnotations.Validator*
-
-entityT*PN
-L
-validationContext7System.ComponentModel.DataAnnotations.ValidationContext*;9
-7
-validationResults"System.Collections.Generic.List<T>*
-""3
-1
- (e
-isValidbool"__id*
-
-
-%4bool§
-°
- (=/
-%5)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
-System.Linq.Enumerable*;9
-7
-validationResults"System.Collections.Generic.List<T>*
-""„
-‡
- (F(
-%6"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*31
-/
-%5)System.Collections.Generic.IEnumerable<T>m
-k
- (F+
-lista"System.Collections.Generic.List<T>"__id*,*
-(
-%6"System.Collections.Generic.List<T>"
- (
+KCapaLogica.ValidatorHelper.aString(System.Collections.Generic.List<string>)e
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\ValidatorHelper.cs" "($"0*ç
+0$ %(&A
+?
+$ $((
+%0string"__id**
+string"
+Emptystring6
+4
+$ $((
+errorsstring"__id*
+
+%0string*
+1*
+1)	 )(	*
+2
+3*Ø
+2& &(c
+a
+& &(
+%1string"__concat*
+& &(
+
+errorsstring*
+& &(
 
-isValidbool*.
-1	 (	"
- (	
-implicit return:
-
-0 
-(8
-entityT:7
-
-: 
-(O+
+valuestring6
+4
+& &(
+errorsstring"__id*
+
+%1string*
+1*-
+3( (("
+( ((
+
+errorsstring*.
+4)	 )(	"
+) )(	
+implicit return:7
+"% "(6+
 lista"System.Collections.Generic.List<T>B"
 CapaLogica.ValidatorHelper

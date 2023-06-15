@@ -1,16 +1,16 @@
 
- CapaEntidad.EntProducto.Tipo.setb
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs1 1("0*’
-01 1(~
-|
-1 1(@
-CapaEntidad.EntProducto"#
-tipoCapaEntidad.EntTipoProducto"__id*(&
-$
-valueCapaEntidad.EntTipoProducto*
+%CapaEntidad.EntProveedor.Telefono.setc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs8 8("0*m
+08 8("Y
+W
+8 8("0
+CapaEntidad.EntProveedor"
+telefonostring"__id*
+
+valuestring*
 1*.
-11! 1(!"
-1  1(!
-implicit return:&$
-valueCapaEntidad.EntTipoProductoB
-CapaEntidad.EntProducto
+18% 8(%"
+8$ 8(%
+implicit return:
+valuestringB
+CapaEntidad.EntProveedor

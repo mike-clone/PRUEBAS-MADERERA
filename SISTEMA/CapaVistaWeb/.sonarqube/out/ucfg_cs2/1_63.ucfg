@@ -1,17 +1,338 @@
 
-'CapaAccesoDatos.DatUbigeo.Instancia.getd
-ZC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.cs ("0*½
-0 (#
-}
- (#
-%0CapaAccesoDatos.DatUbigeo"__id*JH*F
-CapaAccesoDatos.DatUbigeo"'
+.CapaAccesoDatos.DatProveedor.ListarProveedor()g
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedor.cs3" 3(1"0*–
+05 6(>E
+C
+5 5(!'
+cmd System.Data.SqlClient.SqlCommand"__id*
+""ZX
+6& 6(>(
+%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
+o
+6* 6(<
 
-_instanciaCapaAccesoDatos.DatUbigeo"-
- ($!
+%1void")System.Collections.Generic.List<T>.List()*,*
+(
+%0"System.Collections.Generic.List<T>l
+j
+6 6(>*
+list"System.Collections.Generic.List<T>"__id*,*
+(
+%0"System.Collections.Generic.List<T>*
+1*Ü
+
+19 ?(6t
+r
+9# 9(5
+%2CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
+CapaAccesoDatos.Conexion€
+~
+9# 9(@)
+%3#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
+
+%2CapaAccesoDatos.Conexionl
+j
+9 9(@)
+cn#System.Data.SqlClient.SqlConnection"__id*-+
+)
+%3#System.Data.SqlClient.SqlConnectionVT
+: =(&
+%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandç
+ä
+: :($
+
+%5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
+&
+%4 System.Data.SqlClient.SqlCommand*
+spListarProveedor*-+
+)
+cn#System.Data.SqlClient.SqlConnection"
+ 
+<" <(=
+%6"__id*
+""”
+‘
+< <(=
+%7System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set**(
+&
+%4 System.Data.SqlClient.SqlCommand*
+
+%6g
+e
+: =('
+cmd System.Data.SqlClient.SqlCommand"__id**(
+&
+%4 System.Data.SqlClient.SqlCommands
+q
+> >(
+
+%8void"*System.Data.SqlClient.SqlConnection.Open()*-+
+)
+cn#System.Data.SqlClient.SqlConnection—
+”
+?# ?(6)
+%9#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
+'
+cmd System.Data.SqlClient.SqlCommandl
+j
+? ?(6)
+dr#System.Data.SqlClient.SqlDataReader"__id*-+
+)
+%9#System.Data.SqlClient.SqlDataReader*
+2*“
+2@ @( |z
+@ @( 
+%10bool"*System.Data.SqlClient.SqlDataReader.Read()*-+
+)
+dr#System.Data.SqlClient.SqlDataReader2Read()*
+3
+4*â#
+3B! U( GE
+B' K(
+%11CapaEntidad.EntProveedor"CapaEntidad.EntProveedorg
+e
+B+ B(7
+%12void"'CapaEntidad.EntProveedor.EntProveedor()*#!
 
-%0CapaAccesoDatos.DatUbigeo*.
-1& (&"
-% (&
-implicit returnB"
-CapaAccesoDatos.DatUbigeo
+%11CapaEntidad.EntProveedor¦£
+D6 D(G
+%13object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+idProveedor2this[string].geta
+_
+D& D(H
+
+%14int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%13objectw
+u
+D D(H
+
+%15int"(CapaEntidad.EntProveedor.IdProveedor.set*#!
+
+%11CapaEntidad.EntProveedor*
+
+
+%14int¦£
+E& E(7
+%16object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+razonSocial2this[string].getMK
+E& E(B
+%17string"object.ToString()*
+
+%16object2
+ToString()}
+{
+E E(B
+%18string"(CapaEntidad.EntProveedor.RazonSocial.set*#!
+
+%11CapaEntidad.EntProveedor*
+
+%17stringž›
+F F('
+%19object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*	
+ruc2this[string].getMK
+F F(2
+%20string"object.ToString()*
+
+%19object2
+ToString()u
+s
+F F(2
+%21string" CapaEntidad.EntProveedor.Ruc.set*#!
+
+%11CapaEntidad.EntProveedor*
+
+%20string¡ž
+G! G(-
+%22object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+
+correo2this[string].getMK
+G! G(8
+%23string"object.ToString()*
+
+%22object2
+ToString()x
+v
+G G(8
+%24string"#CapaEntidad.EntProveedor.Correo.set*#!
+
+%11CapaEntidad.EntProveedor*
+
+%23string£ 
+H# H(1
+%25object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+
+telefono2this[string].getMK
+H# H(<
+%26string"object.ToString()*
+
+%25object2
+ToString()z
+x
+H H(<
+%27string"%CapaEntidad.EntProveedor.Telefono.set*#!
+
+%11CapaEntidad.EntProveedor*
+
+%26string¦£
+I& I(7
+%28object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+descripcion2this[string].getMK
+I& I(B
+%29string"object.ToString()*
+
+%28object2
+ToString()}
+{
+I I(B
+%30string"(CapaEntidad.EntProveedor.Descripcion.set*#!
+
+%11CapaEntidad.EntProveedor*
+
+%29string§¤
+J9 J(K
+%31object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+estProveedor2this[string].getd
+b
+J' J(L
+%32bool" System.Convert.ToBoolean(object)*"
+System.Convert*
+
+%31objectz
+x
+J J(L
+%33bool")CapaEntidad.EntProveedor.EstProveedor.set*#!
+
+%11CapaEntidad.EntProveedor*
+
+%32boolX
+V
+B! K(
+proCapaEntidad.EntProveedor"__id*#!
+
+%11CapaEntidad.EntProveedorA?
+M$ R(
+%34CapaEntidad.EntUbigeo"CapaEntidad.EntUbigeo^
+\
+M( M(1
+%35void"!CapaEntidad.EntUbigeo.EntUbigeo()* 
+
+%34CapaEntidad.EntUbigeo§¤
+O' O(9
+%36object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+departamento2this[string].getMK
+O' O(D
+%37string"object.ToString()*
+
+%36object2
+ToString()x
+v
+O O(D
+%38string"&CapaEntidad.EntUbigeo.Departamento.set* 
+
+%34CapaEntidad.EntUbigeo*
+
+%37string¤¡
+P$ P(3
+%39object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+	provincia2this[string].getMK
+P$ P(>
+%40string"object.ToString()*
+
+%39object2
+ToString()u
+s
+P P(>
+%41string"#CapaEntidad.EntUbigeo.Provincia.set* 
+
+%34CapaEntidad.EntUbigeo*
+
+%40string£ 
+Q# Q(1
+%42object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+
+distrito2this[string].getMK
+Q# Q(<
+%43string"object.ToString()*
+
+%42object2
+ToString()t
+r
+Q Q(<
+%44string""CapaEntidad.EntUbigeo.Distrito.set* 
+
+%34CapaEntidad.EntUbigeo*
+
+%43stringR
+P
+M R(
+ubiCapaEntidad.EntUbigeo"__id* 
+
+%34CapaEntidad.EntUbigeo—
+”
+T T($
+%45CapaEntidad.EntUbigeo"#CapaEntidad.EntProveedor.Ubigeo.set*#!
+
+proCapaEntidad.EntProveedor* 
+
+ubiCapaEntidad.EntUbigeo¡
+ž
+U U(!
+%46void"0System.Collections.Generic.ICollection<T>.Add(T)*.,
+*
+list"System.Collections.Generic.List<T>*#!
+
+proCapaEntidad.EntProveedor*
+2*
+4^	 ^(	*
+5
+6*ý
+5[ [(>a_
+[  [()
+%47string"System.Exception.Message.get*
+
+eSystem.Exception2Message.getd
+b
+[  [(>
+%48string"__concat*
+[  [()
+
+%47string* 
+[, [(>
+aqui es el errorŸ
+œ
+[ [(?(
+%49!System.Windows.Forms.DialogResult",System.Windows.Forms.MessageBox.Show(string)*%#"!
+System.Windows.Forms.MessageBox*
+
+%48string*
+6*G
+6] ]("8
+] ](,
+*
+list"System.Collections.Generic.List<T>*.
+7^	 ^(	"
+^ ^(	
+implicit returnB 
+CapaAccesoDatos.DatProveedor

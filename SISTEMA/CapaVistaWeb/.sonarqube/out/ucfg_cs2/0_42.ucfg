@@ -1,14 +1,16 @@
 
-,CapaEntidad.EntTemporaryProducts.Usuario.getk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs$ ('"0*‘
-0+ (2}
-{
-+ (2
-%0CapaEntidad.EntUsuario"__id*KI*G"
- CapaEntidad.EntTemporaryProducts"!
-usuarioCapaEntidad.EntUsuario*
-1*.
-13 (3"
-2 (3
-implicit returnB$"
- CapaEntidad.EntTemporaryProducts
+&CapaEntidad.EntUsuario.RazonSocial.geta
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs! !("0*‚
+0! !($W
+U
+! !($
+%0string"__id*53*1
+CapaEntidad.EntUsuario"
+razonSocialstring"
+! !(%
+
+%0string*.
+1!' !('"
+!& !('
+implicit returnB
+CapaEntidad.EntUsuario

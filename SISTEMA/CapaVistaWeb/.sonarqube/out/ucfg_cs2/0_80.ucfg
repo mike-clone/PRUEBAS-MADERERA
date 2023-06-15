@@ -1,16 +1,24 @@
 
-CapaEntidad.EntVenta.Estado.set_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs   ("0*g
-0   ( S
+"CapaEntidad.EntUbigeo.IdUbigeo.get`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs
+! 
+($"0*g
+0
+( 
+(0S
 Q
-   ( *
-CapaEntidad.EntVenta"
-estadostring"__id*
-
-valuestring*
+
+( 
+(0
+%0string"__id*1/*-
+CapaEntidad.EntUbigeo"
+idUbigeostring*
 1*.
-1 #  (#"
- "  (#
-implicit return:
-valuestringB
-CapaEntidad.EntVenta
+1
+1 
+(1"
+
+0 
+(1
+implicit returnB
+CapaEntidad.EntUbigeo

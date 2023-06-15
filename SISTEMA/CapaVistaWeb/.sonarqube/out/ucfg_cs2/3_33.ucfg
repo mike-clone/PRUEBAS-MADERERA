@@ -1,82 +1,95 @@
 
-IMadereraCarocho.Controllers.ProveedorController.EliminarDetalle(int, int)y
-mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.csº º(+"4*¤
+FMadereraCarocho.Controllers.ProveedorController.EliminarProveedor(int)y
+mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs… …(-"6*ä
 0
-¾ ¾(_²
-¯
+‰ Š(š
+—
 
-¾ ¾(7%
-%0CapaLogica.LogProveedorProducto"__id*tr*p1
-/MadereraCarocho.Controllers.ProveedorController";
-ProveedorProductoserviceCapaLogica.LogProveedorProductož
-›
+‰ ‰(/
+%0CapaLogica.LogProveedor"__id*db*`1
+/MadereraCarocho.Controllers.ProveedorController"+
+ProveedorserviceCapaLogica.LogProveedorw
+u
 
-¾ ¾(`
+‰ ‰(F
 
-%1bool"BCapaLogica.LogProveedorProducto.EliminarDetalleProveedor(int, int)*)'
-%
-%0CapaLogica.LogProveedorProducto*
-""*
+%1bool".CapaLogica.LogProveedor.EliminarProveedor(int)*!
+
+%0CapaLogica.LogProveedor*
 ""5
 3
 
-¾ ¾(`
+‰ ‰(F
 eliminabool"__id*
 
 
 %1bool*
 1
-2*ã
+2*ì
 1
-Â Â(Qca
+Œ Œ(4ž
+›
 
-ÂG Â(Q
-%2string"System.Exception.Message.get*
+Œ Œ(5*
+%2$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*
+
+Listar":
+
+Œ Œ(6,
+*
+%2$System.Web.Mvc.RedirectToRouteResult*
+2
+”	 ”(	*
+3
+4*ã
+3
+‘ ‘(Qca
+
+‘G ‘(Q
+%3string"System.Exception.Message.get*
 
 exSystem.Exception2Message.get°
 ­
 
-Â Â(T*
-%3$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
+‘ ‘(T*
+%4$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
 System.Web.Mvc.Controller*
 
 Listar*
 """:
 
-Â Â(U,
+‘ ‘(U,
 *
-%3$System.Web.Mvc.RedirectToRouteResult*ì
-2
-Å Å(,ž
+%4$System.Web.Mvc.RedirectToRouteResult*ì
+4
+“ “(,ž
 ›
 
-Å Å(-*
-%4$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+“ “(-*
+%5$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
 System.Web.Mvc.Controller*
 
 Listar":
 
-Å Å(.,
+“ “(.,
 *
-%4$System.Web.Mvc.RedirectToRouteResult*2
-3
-Æ	 Æ(	"!
+%5$System.Web.Mvc.RedirectToRouteResult*2
+5
+”	 ”(	"!
 
-Æ Æ(	
-implicit return*L
-4
-ºC º(C6
-4
+” ”(	
+implicit return*B
+6
+…6 …(6,
+*
 
-º º(+
-%5"__entrypoint*
-""*
+… …(-
+%6"__entrypoint*
 ""*
-0:
+0:
 
-º, º(6
-idprovint:
+…. …(5
 
-º8 º(B
-idprodintB31
+idcintB31
 /MadereraCarocho.Controllers.ProveedorController

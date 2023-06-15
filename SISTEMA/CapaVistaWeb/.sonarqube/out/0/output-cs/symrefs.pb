@@ -16,48 +16,24 @@ aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTe
 
  
 
- õ
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs
+ –
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs
 
- 
-		  " 
+ 
+   
+ $ ! 
+		  ! 
 
 
- "!! $"" 
- '' !(( 
-  -- ".. 
-  33 44 
- &88 &99 
- >> ?? 
- CC !DD 
- HH II 
- LL MM 
- VV WW 
- PP QQ 
+    !!! 
 
- 
+ 
 
- !
+ #
 
-%% 
+ 
 
-++ 
-
-11 
-
-77 %
-
-== 
-
-BB 
-
-GG 
-
-KK 
-
-OO 
-
-UU À
+ À
 VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs
 
  
@@ -126,7 +102,63 @@ aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntPr
 
  #
 
- "ð
+ "—
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs
+
+ 
+  ) /8 >
+% 6? PY j
+ % -6 >
+		 ( 09 A
+
+ 
+
+$ 5
+
+ 
+
+ õ
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs
+
+ 
+		  " 
+
+
+ "!! $"" 
+ '' !(( 
+  -- ".. 
+  33 44 
+ &88 &99 
+ >> ?? 
+ CC !DD 
+ HH II 
+ LL MM 
+ VV WW 
+ PP QQ 
+
+ 
+
+ !
+
+%% 
+
+++ 
+
+11 
+
+77 %
+
+== 
+
+BB 
+
+GG 
+
+KK 
+
+OO 
+
+UU ð
 XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs
 
  
@@ -157,39 +189,7 @@ XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntPr
 
 33 
 
-:: —
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs
-
- 
-  ) /8 >
-% 6? PY j
- % -6 >
-		 ( 09 A
-
- 
-
-$ 5
-
- 
-
- –
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs
-
- 
-   
- $ ! 
-		  ! 
-
-
-    !!! 
-
- 
-
- #
-
- 
-
- Ë
+:: Ë
 ]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs
 
  !
@@ -247,18 +247,7 @@ XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDe
 
  "
 
- Å
-SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs
-
- 
-
- 
- # )2 8
- "+ 6? J
-
- 
-
- !Â
+ Â
 \C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.cs
 
   
@@ -288,7 +277,18 @@ VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUb
 
  
 
- ¿
+ Å
+SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs
+
+ 
+
+ 
+ # )2 8
+ "+ 6? J
+
+ 
+
+ !¿
 UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs
 
  

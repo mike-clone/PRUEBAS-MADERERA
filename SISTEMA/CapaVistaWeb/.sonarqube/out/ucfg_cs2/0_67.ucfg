@@ -1,16 +1,16 @@
 
- CapaEntidad.EntCompra.Estado.set`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs#. #(1"0*h
-0#5 #(CT
-R
-#5 #(C+
-CapaEntidad.EntCompra"
-estadostring"__id*
-
-valuestring*
-1*.
-1#D #(D"
-#C #(D
-implicit return:
-valuestringB
-CapaEntidad.EntCompra
+CapaEntidad.EntUsuario.Pass.geta
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csH H("0*{
+0H H(P
+N
+H H(
+%0string"__id*.,**
+CapaEntidad.EntUsuario"
+passstring"
+H H(
+
+%0string*.
+1H  H( "
+H H( 
+implicit returnB
+CapaEntidad.EntUsuario

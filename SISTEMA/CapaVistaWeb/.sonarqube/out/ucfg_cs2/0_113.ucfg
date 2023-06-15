@@ -1,15 +1,14 @@
 
-$CapaEntidad.EntProducto.Diametro.setb
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs! !("0*a
-0! !("M
-K
-! !("/
-CapaEntidad.EntProducto"
-diametrodouble"__id*
-""*
+*CapaEntidad.entReporteCompra.Proveedor.getg
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs" (%"0*o
+0) (2[
+Y
+) (2
+%0string"__id*97*5
+CapaEntidad.entReporteCompra"
+	proveedorstring*
 1*.
-1!% !(%"
-!$ !(%
-implicit return:
-valuedoubleB
-CapaEntidad.EntProducto
+13 (3"
+2 (3
+implicit returnB 
+CapaEntidad.entReporteCompra

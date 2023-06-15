@@ -1,16 +1,15 @@
 
-6CapaEntidad.EntTemporaryProducts.ProveedorProducto.setk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.csR (U"0*´
-0Y (rŸ
-œ
-Y (r["
- CapaEntidad.EntTemporaryProducts"5
-proveedorProducto CapaEntidad.EntProveedorProducto"__id*-+
-)
-value CapaEntidad.EntProveedorProducto*
+%CapaEntidad.EntDetCompra.Cantidad.setc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs/ (2"0*_
+06 (FK
+I
+6 (F-
+CapaEntidad.EntDetCompra"
+cantidadint"__id*
+""*
 1*.
-1s (s"
-r (s
-implicit return:+)
-value CapaEntidad.EntProveedorProductoB$"
- CapaEntidad.EntTemporaryProducts
+1G (G"
+F (G
+implicit return:
+valueintB
+CapaEntidad.EntDetCompra

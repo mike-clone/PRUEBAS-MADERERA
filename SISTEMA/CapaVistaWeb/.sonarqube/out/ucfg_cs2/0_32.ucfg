@@ -1,16 +1,16 @@
 
-!CapaEntidad.EntDetVenta.Venta.setb
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs ("0*…
-0 (q
-o
- (:
-CapaEntidad.EntDetVenta"
-ventaCapaEntidad.EntVenta"__id*!
+$CapaEntidad.EntDetVenta.Producto.getb
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs ("0*³
+0 (!w
+u
+ (!
+%0CapaEntidad.EntProducto"__id*DB*@
+CapaEntidad.EntDetVenta"#
+productoCapaEntidad.EntProducto"+
+ ("
 
-valueCapaEntidad.EntVenta*
-1*.
-1" (""
-! ("
-implicit return:
-valueCapaEntidad.EntVentaB
+%0CapaEntidad.EntProducto*.
+1$ ($"
+# ($
+implicit returnB
 CapaEntidad.EntDetVenta

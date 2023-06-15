@@ -184,36 +184,7 @@ XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogPro
 oo9 Aqq4 <
 
 ss -
-ss2 =uu6 Aš
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs
-		 %  4 *
-5 ? #
-
-+ 4Z
-& > $ +$$ +)) +.. +22 +77 +;; +
-: L' 9
-
- *
-@ DC G
-
-""* C
-
-''* B
-''G R))E P
-
-,,* B
-,,G R..E P
-
-00* C
-00K S22F N
-
-55$ <
-55A G77E K
-55M S77M S
-
-99 ,
-991 5;;E I
-99; ?;;K O­
+ss2 =uu6 A­
 SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRoll.cs(
  		  '		9 @
 
@@ -249,7 +220,37 @@ SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\logRol
 **; G,,> J
 
 .. (
-..- /00< >¡
+..- /00< >š
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs
+		 %  4 *
+5 ? #
+
++ 4Z
+& > $ +$$ +)) +.. +22 +77 +;; +
+: L' 9
+
+ *
+@ DC G
+
+""* C
+
+''* B
+''G R))E P
+
+,,* B
+,,G R..E P
+
+00* C
+00K S22F N
+
+55$ <
+55A G77E K
+55M S77M S
+
+99 ,
+991 5;;E I
+99; ?;;K Oe
+cC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\Properties\AssemblyInfo.cs¡
 UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs
  
 
@@ -276,8 +277,7 @@ UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbi
 ,, -
 
 00 +
-003 ;22. 6e
-cC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\Properties\AssemblyInfo.cs²
+003 ;22. 6²
 TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs
 		   ( 
 ) 3 #

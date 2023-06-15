@@ -1,26 +1,16 @@
 
-"CapaEntidad.EntUbigeo.IdUbigeo.set`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs
-2 
-(5"0*j
-0
-9 
-(IV
-T
-
-9 
-(I-
-CapaEntidad.EntUbigeo"
-idUbigeostring"__id*
+#CapaEntidad.EntUbigeo.Provincia.set`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs4 (7"0*k
+0; (LW
+U
+; (L.
+CapaEntidad.EntUbigeo"
+	provinciastring"__id*
 
 valuestring*
 1*.
-1
-J 
-(J"
-
-I 
-(J
+1M (M"
+L (M
 implicit return:
 valuestringB
 CapaEntidad.EntUbigeo

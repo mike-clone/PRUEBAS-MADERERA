@@ -1,26 +1,25 @@
 
-XCapaLogica.LogProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs (*"0*—
-0 (GÂ
-¿
- (+6
-%00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
-CapaLogica.LogProveedorProducto"L
-ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProducto¨¥
- (H
+(CapaLogica.LogCompra.EliminarCompra(int)_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs" "(""0*ç
+0$ $(4–
+“
+$ $( +
+%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
+CapaLogica.LogCompra"6
+CompraService%CapaAccesoDatos.Interfaces.IDatCompra¤¡
+$ $(5
 
-%1bool"iCapaAccesoDatos.Interfaces.IDatProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)*:8
-6
-%00CapaAccesoDatos.Interfaces.IDatProveedorProducto*,*
-(
-prod CapaEntidad.EntProveedorProducto28CrearProveedorProducto(CapaEntidad.EntProveedorProducto)"
- (I
+%1bool"9CapaAccesoDatos.Interfaces.IDatCompra.EliminarCompra(int)*/-
++
+%0%CapaAccesoDatos.Interfaces.IDatCompra*
+""2EliminarCompra(int)"
+$ $(6
 
 
 %1bool*.
-1!	 !(	"
-! !(	
-implicit return:4
-+ (D(
-prod CapaEntidad.EntProveedorProductoB#!
-CapaLogica.LogProveedorProducto
+1%	 %(	"
+% %(	
+implicit return:
+"# "(+
+compintB
+CapaLogica.LogCompra

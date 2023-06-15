@@ -8,7 +8,7 @@ namespace CapaLogica
 {
     public class LogDetCompra
     {
-        private IDatDetCompra DetCompraService;
+        private readonly IDatDetCompra DetCompraService;
         public LogDetCompra()
         {
 

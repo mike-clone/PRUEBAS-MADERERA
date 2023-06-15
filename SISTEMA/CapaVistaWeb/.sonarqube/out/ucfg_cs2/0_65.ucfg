@@ -1,15 +1,15 @@
 
-%CapaEntidad.EntDetCompra.Subtotal.setc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs2 (5"0*b
-09 (IN
-L
-9 (I0
-CapaEntidad.EntDetCompra"
-subtotaldouble"__id*
-""*
-1*.
-1J (J"
-I (J
-implicit return:
-valuedoubleB
-CapaEntidad.EntDetCompra
+CapaEntidad.EntCompra.Total.get`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs ("0*E
+0 ("
+ 
+ (
+%0"__id*
+"""
+ (
+
+%0*.
+1! (!"
+  (!
+implicit returnB
+CapaEntidad.EntCompra

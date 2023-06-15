@@ -1,9 +1,24 @@
 
-,CapaLogica.LogTipoProducto.LogTipoProducto()e
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs ("1*
-1	 (	*
-0*.
-0	 (	"
- (	
-implicit returnB
-CapaLogica.LogTipoProducto
+-CapaLogica.LogProducto.BuscarProducto(string)a
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs2! 2(/"0*Ã
+04 4(:ž
+›
+4 4("-
+%0'CapaAccesoDatos.Interfaces.IDatProducto"__id*ZX*V
+CapaLogica.LogProducto":
+ProductoService'CapaAccesoDatos.Interfaces.IDatProductoÚ×
+4 4(;(
+%1"System.Collections.Generic.List<T>">CapaAccesoDatos.Interfaces.IDatProducto.BuscarProducto(string)*1/
+-
+%0'CapaAccesoDatos.Interfaces.IDatProducto*
+
+busquedastring2BuscarProducto(string)"6
+4 4(<*
+(
+%1"System.Collections.Generic.List<T>*.
+15	 5(	"
+5 5(	
+implicit return:
+20 2(?
+busquedastringB
+CapaLogica.LogProducto

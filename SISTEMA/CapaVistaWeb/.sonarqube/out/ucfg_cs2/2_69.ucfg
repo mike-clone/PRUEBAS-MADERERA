@@ -1,23 +1,26 @@
 
-9CapaLogica.LogTipoProducto.SelectListTipoProductodat(int)e
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs&% &(>"0*Ý
-0( ((C®
-«
-( ((&1
-%0+CapaAccesoDatos.Interfaces.IDatTipoProducto"__id*fd*b
-CapaLogica.LogTipoProducto"B
-TipoProductoService+CapaAccesoDatos.Interfaces.IDatTipoProductoäá
-( ((D(
-%1"System.Collections.Generic.List<T>"JCapaAccesoDatos.Interfaces.IDatTipoProducto.SelectListTipoProductodat(int)*53
-1
-%0+CapaAccesoDatos.Interfaces.IDatTipoProducto*
-""2SelectListTipoProductodat(int)"6
-( ((E*
-(
-%1"System.Collections.Generic.List<T>*.
-1)	 )(	"
-) )(	
-implicit return:
-&? &(E	
-idintB
-CapaLogica.LogTipoProducto
+7CapaLogica.LogUbigeo.CrearUbigeo(CapaEntidad.EntUbigeo)_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs ("0*›
+0 (.–
+“
+ ( +
+%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
+CapaLogica.LogUbigeo"6
+UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeoØÕ
+ (/
+
+%1bool"HCapaAccesoDatos.Interfaces.IDatUbigeo.CrearUbigeo(CapaEntidad.EntUbigeo)*/-
++
+%0%CapaAccesoDatos.Interfaces.IDatUbigeo*
+
+uCapaEntidad.EntUbigeo2"CrearUbigeo(CapaEntidad.EntUbigeo)"
+ (0
+
+
+%1bool*.
+1	 (	"
+ (	
+implicit return:&
+  (+
+uCapaEntidad.EntUbigeoB
+CapaLogica.LogUbigeo

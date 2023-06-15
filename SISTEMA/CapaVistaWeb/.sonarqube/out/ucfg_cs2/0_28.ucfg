@@ -1,15 +1,16 @@
 
-+CapaEntidad.EntTemporaryProducts.IdTemp.setk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs+ (."0*e
-02 (@Q
-O
-2 (@3"
- CapaEntidad.EntTemporaryProducts"
-idTempint"__id*
-""*
+!CapaEntidad.EntDetVenta.Venta.setb
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetVenta.cs ("0*…
+0 (q
+o
+ (:
+CapaEntidad.EntDetVenta"
+ventaCapaEntidad.EntVenta"__id*!
+
+valueCapaEntidad.EntVenta*
 1*.
-1A (A"
-@ (A
-implicit return:
-valueintB$"
- CapaEntidad.EntTemporaryProducts
+1" (""
+! ("
+implicit return:
+valueCapaEntidad.EntVentaB
+CapaEntidad.EntDetVenta

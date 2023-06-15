@@ -1,10 +1,12 @@
-ˆ
-CapaLogica.LogUbigeoobject/
-LogUbigeo() CapaLogica.LogUbigeo.LogUbigeo()y
-0LogUbigeo(CapaAccesoDatos.Interfaces.IDatUbigeo)ECapaLogica.LogUbigeo.LogUbigeo(CapaAccesoDatos.Interfaces.IDatUbigeo)]
-"CrearUbigeo(CapaEntidad.EntUbigeo)7CapaLogica.LogUbigeo.CrearUbigeo(CapaEntidad.EntUbigeo)5
-ListarUbigeo()#CapaLogica.LogUbigeo.ListarUbigeo()g
-'ActualizarUbigeo(CapaEntidad.EntUbigeo)<CapaLogica.LogUbigeo.ActualizarUbigeo(CapaEntidad.EntUbigeo)?
-EliminarUbigeo(int)(CapaLogica.LogUbigeo.EliminarUbigeo(int)9
-ListarDistrito()%CapaLogica.LogUbigeo.ListarDistrito()A
-BuscarUbigeo(string))CapaLogica.LogUbigeo.BuscarUbigeo(string)
+ˆ
+CapaLogica.LogProveedorobject8
+LogProveedor()&CapaLogica.LogProveedor.LogProveedor()ˆ
+6LogProveedor(CapaAccesoDatos.Interfaces.IDatProveedor)NCapaLogica.LogProveedor.LogProveedor(CapaAccesoDatos.Interfaces.IDatProveedor)l
+(CrearProveedor(CapaEntidad.EntProveedor)@CapaLogica.LogProveedor.CrearProveedor(CapaEntidad.EntProveedor)>
+ListarProveedor())CapaLogica.LogProveedor.ListarProveedor()F
+SelectListProveedor()-CapaLogica.LogProveedor.SelectListProveedor()R
+SelectListProveedordat(int)3CapaLogica.LogProveedor.SelectListProveedordat(int)v
+-ActualizarProveedor(CapaEntidad.EntProveedor)ECapaLogica.LogProveedor.ActualizarProveedor(CapaEntidad.EntProveedor)H
+EliminarProveedor(int).CapaLogica.LogProveedor.EliminarProveedor(int)J
+BuscarProveedor(string)/CapaLogica.LogProveedor.BuscarProveedor(string)H
+BuscarIdProveedor(int).CapaLogica.LogProveedor.BuscarIdProveedor(int)

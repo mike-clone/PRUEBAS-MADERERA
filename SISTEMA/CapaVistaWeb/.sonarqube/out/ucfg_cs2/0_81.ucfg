@@ -1,13 +1,16 @@
 
-'CapaEntidad.entReporteCompra.Codigo.getg
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs ("0*6
-0# ()"
- 
-# ()
-%0"__id*
-""*
+!CapaEntidad.EntCompra.Usuario.set`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs$4 $(7"0*‰
+0$; $(Ju
+s
+$; $(J<
+CapaEntidad.EntCompra"!
+usuarioCapaEntidad.EntUsuario"__id*#!
+
+valueCapaEntidad.EntUsuario*
 1*.
-1* (*"
-) (*
-implicit returnB 
-CapaEntidad.entReporteCompra
+1$K $(K"
+$J $(K
+implicit return:!
+valueCapaEntidad.EntUsuarioB
+CapaEntidad.EntCompra

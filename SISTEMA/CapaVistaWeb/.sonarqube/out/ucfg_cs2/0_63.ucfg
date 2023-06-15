@@ -1,14 +1,16 @@
 
- CapaEntidad.EntCompra.Estado.get`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs# #(""0*e
-0#& #(,Q
-O
-#& #(,
-%0string"__id*/-*+
-CapaEntidad.EntCompra"
-estadostring*
+CapaEntidad.EntCompra.Fecha.set`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntCompra.cs ("0*y
+0 (e
+c
+ (3
+CapaEntidad.EntCompra"
+fechaSystem.DateTime"__id*
+
+valueSystem.DateTime*
 1*.
-1#- #(-"
-#, #(-
-implicit returnB
+1" (""
+! ("
+implicit return:
+valueSystem.DateTimeB
 CapaEntidad.EntCompra

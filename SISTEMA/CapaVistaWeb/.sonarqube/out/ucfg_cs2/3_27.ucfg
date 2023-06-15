@@ -1,76 +1,80 @@
 
-DMadereraCarocho.Controllers.ProductoController.EliminarProducto(int)x
-lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.csÑ Ñ(,"4*›
+HMadereraCarocho.Controllers.ProductoController.EliminarDetalle(int, int)x
+lC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProductoController.csì ì(+"4*£
 0
-à à(Cñ
-ì
+ó ó(_±
+Æ
 
-à à(.
-%0CapaLogica.LogProducto"__id*a_*]0
-.MadereraCarocho.Controllers.ProductoController")
-ProductoserviceCapaLogica.LogProductot
-r
+ó ó(7%
+%0CapaLogica.LogProveedorProducto"__id*sq*o0
+.MadereraCarocho.Controllers.ProductoController";
+ProveedorProductoserviceCapaLogica.LogProveedorProductoû
+õ
 
-à à(D
+ó ó(`
 
-%1bool",CapaLogica.LogProducto.EliminarProducto(int)* 
-
-%0CapaLogica.LogProducto*
+%1bool"BCapaLogica.LogProveedorProducto.EliminarDetalleProveedor(int, int)*)'
+%
+%0CapaLogica.LogProveedorProducto*
+""*
 ""5
 3
 
-à à(D
+ó ó(`
 eliminabool"__id*
 
 
 %1bool*
 1
-2*Î
+2*Ó
 1
-ç ç(Yca
+õ õ(\ca
 
-çO ç(Y
+õR õ(\
 %2string"System.Exception.Message.get*
 
-exSystem.Exception2Message.get∏
-µ
+exSystem.Exception2Message.getª
+∏
 
-ç ç(\*
+õ õ(_*
 %3$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
-System.Web.Mvc.Controller*
-ListarProducto*
+System.Web.Mvc.Controller*
+ListarParaComprar*
 """:
 
-ç ç(],
+õ õ(`,
 *
-%3$System.Web.Mvc.RedirectToRouteResult*Ù
+%3$System.Web.Mvc.RedirectToRouteResult*˜
 2
-è è(4¶
-£
+û û(7©
+¶
 
-è è(5*
+û û(8*
 %4$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*
-ListarProducto":
+System.Web.Mvc.Controller*
+ListarParaComprar":
 
-è è(6,
+û û(9,
 *
 %4$System.Web.Mvc.RedirectToRouteResult*2
 3
-ê	 ê(	"!
+ü	 ü(	"!
 
-ê ê(	
-implicit return*B
+ü ü(	
+implicit return*L
 4
-Ñ5 Ñ(5,
-*
+ìC ì(C6
+4
 
-Ñ Ñ(,
+ì ì(+
 %5"__entrypoint*
+""*
 ""*
-0:
+0:
 
-Ñ- Ñ(4
+ì, ì(6
+idprovint:
 
-idPintB20
+ì8 ì(B
+idprodintB20
 .MadereraCarocho.Controllers.ProductoController

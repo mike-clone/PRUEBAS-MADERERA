@@ -1,22 +1,22 @@
 
-+CapaLogica.LogProducto.LogProducto()!statica
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs	 	("0*Ã
-0? ?(B@
-9 (J
-%0CapaLogica.LogProducto"CapaLogica.LogProducto`
-^
-= (H
+=CapaLogica.LogProveedorProducto.LogProveedorProducto()!staticj
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs	 	(%"0*ñ
+0? ?(TR
+B (\%
+%0CapaLogica.LogProveedorProducto"CapaLogica.LogProveedorProducto{
+y
+F (Z
 
-%1void"$CapaLogica.LogProducto.LogProducto()* 
-
-%0CapaLogica.LogProductov
-t
-, (J@
-CapaLogica.LogProducto"$
+%1void"6CapaLogica.LogProveedorProducto.LogProveedorProducto()*)'
+%
+%0CapaLogica.LogProveedorProductoí
+è
+5 (\R!
+CapaLogica.LogProveedorProducto"-
 
-_instanciaCapaLogica.LogProducto"__id* 
-
-%0CapaLogica.LogProducto"
+_instanciaCapaLogica.LogProveedorProducto"__id*)'
+%
+%0CapaLogica.LogProveedorProducto"
 	 ?(
-implicit returnB"
-CapaLogica.LogProducto
+implicit returnB#"!
+CapaLogica.LogProveedorProducto

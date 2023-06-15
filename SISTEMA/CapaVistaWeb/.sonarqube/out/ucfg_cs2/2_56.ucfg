@@ -1,28 +1,24 @@
 
-,CapaLogica.LogProducto.BuscarProductoId(int)a
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs6 6(+"0*Á
-08 8(?ž
-›
-8 8("-
-%0'CapaAccesoDatos.Interfaces.IDatProducto"__id*ZX*V
-CapaLogica.LogProducto":
-ProductoService'CapaAccesoDatos.Interfaces.IDatProducto"
- 
-84 8(?
-%1"__id*
-""¿¼
-8 8(@
-%2CapaEntidad.EntProducto"=CapaAccesoDatos.Interfaces.IDatProducto.BuscarProductoId(int)*1/
--
-%0'CapaAccesoDatos.Interfaces.IDatProducto*
-
-%12BuscarProductoId(int)"+
-8 8(A
-
-%2CapaEntidad.EntProducto*.
-19	 9(	"
-9 9(	
-implicit return:
-6, 6(6
-idprodintB
-CapaLogica.LogProducto
+)CapaLogica.LogCompra.BuscarCompra(string)_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs' '(+"0*³
+0) )(6–
+“
+) )( +
+%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
+CapaLogica.LogCompra"6
+CompraService%CapaAccesoDatos.Interfaces.IDatCompraÒÏ
+) )(7(
+%1"System.Collections.Generic.List<T>":CapaAccesoDatos.Interfaces.IDatCompra.BuscarCompra(string)*/-
++
+%0%CapaAccesoDatos.Interfaces.IDatCompra*
+
+busquedastring2BuscarCompra(string)"6
+) )(8*
+(
+%1"System.Collections.Generic.List<T>*.
+1*	 *(	"
+* *(	
+implicit return:
+', '(;
+busquedastringB
+CapaLogica.LogCompra

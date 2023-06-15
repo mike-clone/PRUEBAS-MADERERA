@@ -1,25 +1,15 @@
-¥
-CapaEntidad.EntProductoobject6
-EntProducto()%CapaEntidad.EntProducto.EntProducto()@
-NombreCompleto.get*CapaEntidad.EntProducto.NombreCompleto.get@
-NombreCompleto.set*CapaEntidad.EntProducto.NombreCompleto.set8
-IdProducto.get&CapaEntidad.EntProducto.IdProducto.get8
-IdProducto.set&CapaEntidad.EntProducto.IdProducto.set0
+‹
+ CapaEntidad.EntTemporaryProductsobjectQ
+EntTemporaryProducts()7CapaEntidad.EntTemporaryProducts.EntTemporaryProducts()9
 
-Nombre.get"CapaEntidad.EntProducto.Nombre.get0
+IdTemp.get+CapaEntidad.EntTemporaryProducts.IdTemp.get9
 
-Nombre.set"CapaEntidad.EntProducto.Nombre.set4
-Diametro.get$CapaEntidad.EntProducto.Diametro.get4
-Diametro.set$CapaEntidad.EntProducto.Diametro.set4
-Longitud.get$CapaEntidad.EntProducto.Longitud.get4
-Longitud.set$CapaEntidad.EntProducto.Longitud.set:
-PrecioVenta.get'CapaEntidad.EntProducto.PrecioVenta.get:
-PrecioVenta.set'CapaEntidad.EntProducto.PrecioVenta.set,
-Tipo.get CapaEntidad.EntProducto.Tipo.get,
-Tipo.set CapaEntidad.EntProducto.Tipo.set.
-	Stock.get!CapaEntidad.EntProducto.Stock.get.
-	Stock.set!CapaEntidad.EntProducto.Stock.set0
-
-Activo.get"CapaEntidad.EntProducto.Activo.get0
-
-Activo.set"CapaEntidad.EntProducto.Activo.set
+IdTemp.set+CapaEntidad.EntTemporaryProducts.IdTemp.setO
+ProveedorProducto.get6CapaEntidad.EntTemporaryProducts.ProveedorProducto.getO
+ProveedorProducto.set6CapaEntidad.EntTemporaryProducts.ProveedorProducto.set;
+Usuario.get,CapaEntidad.EntTemporaryProducts.Usuario.get;
+Usuario.set,CapaEntidad.EntTemporaryProducts.Usuario.set=
+Cantidad.get-CapaEntidad.EntTemporaryProducts.Cantidad.get=
+Cantidad.set-CapaEntidad.EntTemporaryProducts.Cantidad.set=
+Subtotal.get-CapaEntidad.EntTemporaryProducts.Subtotal.get=
+Subtotal.set-CapaEntidad.EntTemporaryProducts.Subtotal.set

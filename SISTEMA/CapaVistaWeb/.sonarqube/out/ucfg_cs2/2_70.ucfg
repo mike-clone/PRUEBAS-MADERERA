@@ -1,26 +1,7 @@
 
-NCapaLogica.LogTipoProducto.ActualizarTipoProducto(CapaEntidad.EntTipoProducto)e
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs* *(*"0*ò
-0, ,(J®
-«
-, ,(&1
-%0+CapaAccesoDatos.Interfaces.IDatTipoProducto"__id*fd*b
-CapaLogica.LogTipoProducto"B
-TipoProductoService+CapaAccesoDatos.Interfaces.IDatTipoProducto—”
-, ,(K
-
-%1bool"_CapaAccesoDatos.Interfaces.IDatTipoProducto.ActualizarTipoProducto(CapaEntidad.EntTipoProducto)*53
-1
-%0+CapaAccesoDatos.Interfaces.IDatTipoProducto*/-
-+
-tipoProductoCapaEntidad.EntTipoProducto23ActualizarTipoProducto(CapaEntidad.EntTipoProducto)"
-, ,(L
-
-
-%1bool*.
-1-	 -(	"
-- -(	
-implicit return:7
-*+ *(G+
-tipoProductoCapaEntidad.EntTipoProductoB
-CapaLogica.LogTipoProducto
+,CapaLogica.ValidatorHelper.ValidatorHelper()e
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\ValidatorHelper.cs ( "0*.
+0+ +("
+ +(
+implicit returnB
+CapaLogica.ValidatorHelper

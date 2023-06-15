@@ -1,9 +1,13 @@
-ä
-$CapaAccesoDatos.DatProveedorProductoobject0CapaAccesoDatos.Interfaces.IDatProveedorProducto™
-8CrearProveedorProducto(CapaEntidad.EntProveedorProducto)]CapaAccesoDatos.DatProveedorProducto.CrearProveedorProducto(CapaEntidad.EntProveedorProducto)_
-ListarProductoParaComprar()@CapaAccesoDatos.DatProveedorProducto.ListarProductoParaComprar()c
-MostarDetalleProveedorId(int)BCapaAccesoDatos.DatProveedorProducto.MostarDetalleProveedorId(int)m
-"EliminarDetalleProveedor(int, int)GCapaAccesoDatos.DatProveedorProducto.EliminarDetalleProveedor(int, int)k
-!BuscarProductoParaComprar(string)FCapaAccesoDatos.DatProveedorProducto.BuscarProductoParaComprar(string)m
-"BuscarProvedorProductoId(int, int)GCapaAccesoDatos.DatProveedorProducto.BuscarProvedorProductoId(int, int)U
-DatProveedorProducto();CapaAccesoDatos.DatProveedorProducto.DatProveedorProducto()
+ý
+CapaAccesoDatos.DatUsuarioobject&CapaAccesoDatos.Interfaces.IDatUsuariog
+$CrearCliente(CapaEntidad.EntUsuario)?CapaAccesoDatos.DatUsuario.CrearCliente(CapaEntidad.EntUsuario)=
+ListarCliente()*CapaAccesoDatos.DatUsuario.ListarCliente()I
+BuscarCliente(string)0CapaAccesoDatos.DatUsuario.BuscarCliente(string)i
+%EditarCliente(CapaEntidad.EntUsuario)@CapaAccesoDatos.DatUsuario.EditarCliente(CapaEntidad.EntUsuario)M
+ListarAdministradores()2CapaAccesoDatos.DatUsuario.ListarAdministradores()}
+/ActualizarAdministrador(CapaEntidad.EntUsuario)JCapaAccesoDatos.DatUsuario.ActualizarAdministrador(CapaEntidad.EntUsuario)[
+BuscaraAdministradores(string)9CapaAccesoDatos.DatUsuario.BuscaraAdministradores(string)Y
+IniciarSesion(string, string)8CapaAccesoDatos.DatUsuario.IniciarSesion(string, string)I
+EliminarUsuarios(int)0CapaAccesoDatos.DatUsuario.EliminarUsuarios(int)G
+BuscarIdUsuario(int)/CapaAccesoDatos.DatUsuario.BuscarIdUsuario(int)7
+DatUsuario()'CapaAccesoDatos.DatUsuario.DatUsuario()

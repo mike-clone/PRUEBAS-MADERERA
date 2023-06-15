@@ -1,217 +1,185 @@
 
-2CapaAccesoDatos.DatProveedor.SelectListProveedor()g
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatProveedor.csd" d(5"0*ñ
-0f g(/E
+8CapaAccesoDatos.DatTipoProducto.SelectListTipoProducto()j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTipoProducto.cs+% +(;"0*ó
+0- .(EE
 C
-f f(!'
+- -(!'
 cmd System.Data.SqlClient.SqlCommand"__id*
 ""ZX
-g g(/(
+.* .(E(
 %0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
 o
-g g(-
+.. .(C
 
 %1void")System.Collections.Generic.List<T>.List()*,*
 (
-%0"System.Collections.Generic.List<T>l
-j
-g g(/*
-list"System.Collections.Generic.List<T>"__id*,*
+%0"System.Collections.Generic.List<T>m
+k
+." .(E+
+lista"System.Collections.Generic.List<T>"__id*,*
 (
 %0"System.Collections.Generic.List<T>*
-1*‡
+1*‰
 
-1j p(6t
+11 5(6t
 r
-j# j(5
+1# 1(5
 %2CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
 CapaAccesoDatos.ConexionÄ
 ~
-j# j(@)
+1# 1(@)
 %3#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
 
 %2CapaAccesoDatos.Conexionl
 j
-j j(@)
+1 1(@)
 cn#System.Data.SqlClient.SqlConnection"__id*-+
 )
 %3#System.Data.SqlClient.SqlConnectionVT
-k n(&
-%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÎ
-Ë
-k k($
+2 2(D&
+%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÓ
+Î
+2 2($
 
 %5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
 &
-%4 System.Data.SqlClient.SqlCommand*
-spSelectListProveedor*-+
+%4 System.Data.SqlClient.SqlCommand*
+spSelectListTipoProducto*-+
 )
-cn#System.Data.SqlClient.SqlConnection"
- 
-m" m(=
-%6"__id*
-""î
-ë
-m m(=
-%7System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set**(
-&
-%4 System.Data.SqlClient.SqlCommand*
-
-%6g
+cn#System.Data.SqlClient.SqlConnectiong
 e
-k n('
+2 2(D'
 cmd System.Data.SqlClient.SqlCommand"__id**(
 &
-%4 System.Data.SqlClient.SqlCommands
+%4 System.Data.SqlClient.SqlCommand"
+ 
+3" 3(=
+%6"__id*
+""ï
+í
+3 3(=
+%7System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
+'
+cmd System.Data.SqlClient.SqlCommand*
+
+%6s
 q
-o o(
+4 4(
 
 %8void"*System.Data.SqlClient.SqlConnection.Open()*-+
 )
 cn#System.Data.SqlClient.SqlConnectionó
 î
-p# p(6)
+5# 5(6)
 %9#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
 '
 cmd System.Data.SqlClient.SqlCommandl
 j
-p p(6)
+5 5(6)
 dr#System.Data.SqlClient.SqlDataReader"__id*-+
 )
 %9#System.Data.SqlClient.SqlDataReader*
 2*ì
-2q q( |z
-q q( 
+26 6( |z
+6 6( 
 %10bool"*System.Data.SqlClient.SqlDataReader.Read()*-+
 )
 dr#System.Data.SqlClient.SqlDataReader2Read()*
 3
-4*µ
-3s! y( GE
-s' x(
-%11CapaEntidad.EntProveedor"CapaEntidad.EntProveedorg
-e
-s+ s(7
-%12void"'CapaEntidad.EntProveedor.EntProveedor()*#!
-
-%11CapaEntidad.EntProveedor¶£
-u6 u(G
+4*‚	
+38$ ;(!MK
+8* 8(?"
+%11CapaEntidad.EntTipoProducto"CapaEntidad.EntTipoProductop
+n
+8. 8(=
+%12void"-CapaEntidad.EntTipoProducto.EntTipoProducto()*&$
+"
+%11CapaEntidad.EntTipoProducto^
+\
+8$ 8(?"
+tipCapaEntidad.EntTipoProducto"__id*&$
+"
+%11CapaEntidad.EntTipoProducto™ß
+9: 9(O
 %13object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
 )
-dr#System.Data.SqlClient.SqlDataReader*
-idProveedor2this[string].geta
+dr#System.Data.SqlClient.SqlDataReader*
+idTipo_Producto2this[string].geta
 _
-u& u(H
+9* 9(P
 
 %14int"System.Convert.ToInt32(object)*"
 System.Convert*
 
-%13objectw
-u
-u u(H
+%13objectÅ
+
+9 9(P
 
-%15int"(CapaEntidad.EntProveedor.IdProveedor.set*#!
-
-%11CapaEntidad.EntProveedor*
+%15int"/CapaEntidad.EntTipoProducto.IdTipo_producto.set*&$
+"
+tipCapaEntidad.EntTipoProducto*
 
 
-%14int¶£
-v& v(7
+%14int°û
+:! :(-
 %16object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
 )
-dr#System.Data.SqlClient.SqlDataReader*
-razonSocial2this[string].getMK
-v& v(B
+dr#System.Data.SqlClient.SqlDataReader*
+
+nombre2this[string].getMK
+:! :(8
 %17string"object.ToString()*
 
 %16object2
-ToString()}
-{
-v v(B
-%18string"(CapaEntidad.EntProveedor.RazonSocial.set*#!
-
-%11CapaEntidad.EntProveedor*
+ToString()~
+|
+: :(8
+%18string"&CapaEntidad.EntTipoProducto.Nombre.set*&$
+"
+tipCapaEntidad.EntTipoProducto*
 
-%17string¶£
-w& w(7
-%19object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-descripcion2this[string].getMK
-w& w(B
-%20string"object.ToString()*
-
-%19object2
-ToString()}
-{
-w w(B
-%21string"(CapaEntidad.EntProveedor.Descripcion.set*#!
-
-%11CapaEntidad.EntProveedor*
-
-%20stringX
-V
-s! x(
-proCapaEntidad.EntProveedor"__id*#!
-
-%11CapaEntidad.EntProveedor°
-û
-y y(!
-%22void"0System.Collections.Generic.ICollection<T>.Add(T)*.,
-*
-list"System.Collections.Generic.List<T>*#!
-
-proCapaEntidad.EntProveedor*
-2*
-4
-á	 á(	*
+%17string•
+¢
+; ;("
+%19void"0System.Collections.Generic.ICollection<T>.Add(T)*/-
++
+lista"System.Collections.Generic.List<T>*&$
+"
+tipCapaEntidad.EntTipoProducto*
+2*
+4D	 D(	*
 5
-6*˝
-5 (>a_
-  ()
-%23string"System.Exception.Message.get*
+6*Ó
+5A A(ra_
+A  A()
+%20string"System.Exception.Message.get*
 
-eSystem.Exception2Message.getd
-b
-  (>
-%24string"__concat*
-  ()
-
-%23string* 
-, (>
-aqui es el errorü
-ú
- (?(
-%25!System.Windows.Forms.DialogResult",System.Windows.Forms.MessageBox.Show(string)*%#"!
+eSystem.Exception2Message.get#
+!
+AH A(\
+%21"__id*
+""#
+!
+A^ A(r
+%22"__id*
+""¨
+©
+A A(s(
+%23!System.Windows.Forms.DialogResult"ÅSystem.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
 System.Windows.Forms.MessageBox*
 
-%24string*
-6*≠
-6
-É É(&ô
-ñ
-
-É É(*
-%26#System.Data.SqlClient.SqlConnection"/System.Data.SqlClient.SqlCommand.Connection.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandx
-v
-
-É É(&
-%27void"+System.Data.SqlClient.SqlConnection.Close()*.,
-*
-%26#System.Data.SqlClient.SqlConnection*
-7
-8*K
-7
-Ö Ö(":
-
-Ö Ö(,
-*
-list"System.Collections.Generic.List<T>*2
-8
-á	 á(	"!
-
-á á(	
-implicit returnB 
-CapaAccesoDatos.DatProveedor
+%20string*
+EROR AL MOSTRAR LOS TIPOS*	
+
+%21*	
+
+%22*
+6*H
+6C C("9
+C C(-
++
+lista"System.Collections.Generic.List<T>*.
+7D	 D(	"
+D D(	
+implicit returnB#!
+CapaAccesoDatos.DatTipoProducto

@@ -1,16 +1,16 @@
 
-!CapaEntidad.EntUsuario.Ubigeo.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs4 4("0*‡
-04 4( s
-q
-4 4( ;
-CapaEntidad.EntUsuario"
-ubigeoCapaEntidad.EntUbigeo"__id*" 
-
-valueCapaEntidad.EntUbigeo*
-1*.
-14# 4(#"
-4" 4(#
-implicit return: 
-valueCapaEntidad.EntUbigeoB
+!CapaEntidad.EntUsuario.Correo.geta
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs> >("0*}
+0> >(R
+P
+> >(
+%0string"__id*0.*,
+CapaEntidad.EntUsuario"
+correostring"
+> >( 
+
+%0string*.
+1>" >(""
+>! >("
+implicit returnB
 CapaEntidad.EntUsuario

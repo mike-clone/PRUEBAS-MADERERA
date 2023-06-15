@@ -1,14 +1,16 @@
 
-&CapaEntidad.EntTipoProducto.Nombre.getf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.cs	 	(""0*k
-0	& 	(,W
-U
-	& 	(,
-%0string"__id*53*1
-CapaEntidad.EntTipoProducto"
-nombrestring*
-1*.
-1	- 	(-"
-	, 	(-
-implicit returnB
-CapaEntidad.EntTipoProducto
+"CapaEntidad.EntProducto.Nombre.getb
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs ("0*~
+0 (S
+Q
+ (
+%0string"__id*1/*-
+CapaEntidad.EntProducto"
+nombrestring"
+ ( 
+
+%0string*.
+1" (""
+! ("
+implicit returnB
+CapaEntidad.EntProducto

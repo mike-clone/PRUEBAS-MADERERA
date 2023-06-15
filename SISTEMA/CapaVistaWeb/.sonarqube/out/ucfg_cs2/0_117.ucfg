@@ -1,14 +1,14 @@
 
-"CapaEntidad.EntUbigeo.Distrito.get`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs! ($"0*g
-0( (0S
-Q
-( (0
-%0string"__id*1/*-
-CapaEntidad.EntUbigeo"
-distritostring*
+&CapaEntidad.entReporteCompra.Fecha.getg
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs  (#"0*}
+0' (,i
+g
+' (,
+%0System.DateTime"__id*><*:
+CapaEntidad.entReporteCompra"
+fechaSystem.DateTime*
 1*.
-11 (1"
-0 (1
-implicit returnB
-CapaEntidad.EntUbigeo
+1- (-"
+, (-
+implicit returnB 
+CapaEntidad.entReporteCompra

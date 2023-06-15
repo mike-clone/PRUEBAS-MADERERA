@@ -1,23 +1,17 @@
 
-*CapaAccesoDatos.DatVenta.DatVenta()!staticc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatVenta.cs ("0*Ú
-0
-í í(FD
-6 (D
-%0CapaAccesoDatos.DatVenta"CapaAccesoDatos.DatVentaa
-_
-: (B
-
-%1void"#CapaAccesoDatos.DatVenta.DatVenta()*" 
-
-%0CapaAccesoDatos.DatVenta|
+&CapaAccesoDatos.Conexion.Instancia.getc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Conexion.cs ("0*¹
+0 (#|
 z
-) (DD
-CapaAccesoDatos.DatVenta"&
+ (#
+%0CapaAccesoDatos.Conexion"__id*HF*D
+CapaAccesoDatos.Conexion"&
 
-_instanciaCapaAccesoDatos.DatVenta"__id*" 
+_instanciaCapaAccesoDatos.Conexion",
+ ($ 
 
-%0CapaAccesoDatos.DatVenta" 
-	 í(
+%0CapaAccesoDatos.Conexion*.
+1& (&"
+% (&
 implicit returnB"
-CapaAccesoDatos.DatVenta
+CapaAccesoDatos.Conexion

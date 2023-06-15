@@ -1,97 +1,85 @@
 
-tMadereraCarocho.Controllers.HomeController.EditarDatosCliente(CapaEntidad.EntUsuario, System.Web.Mvc.FormCollection)t
-hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs≤ ≤(."7*ﬁ
+CMadereraCarocho.Controllers.ProveedorController.MostrarDetalle(int)y
+mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.csó ó(*"4*
 0
-µ ∑(%B@
-
-µ ∏(
-%0CapaEntidad.EntUbigeo"CapaEntidad.EntUbigeo^
-\
-
-µ µ(&
-
-%1void"!CapaEntidad.EntUbigeo.EntUbigeo()*
-
-%0CapaEntidad.EntUbigeoò
-ï
-
-∑ ∑(&
-%2string"CSystem.Collections.Specialized.NameValueCollection.this[string].get*(&
-$
-frmSystem.Web.Mvc.FormCollection*
-
-Ubigs
-q
-
-∑ ∑(&
-%3string""CapaEntidad.EntUbigeo.IdUbigeo.set*
-
-%0CapaEntidad.EntUbigeo*
-
-%2stringì
-ê
-
-µ ∏(
-%4CapaEntidad.EntUbigeo"!CapaEntidad.EntUsuario.Ubigeo.set*!
-
-usuCapaEntidad.EntUsuario*
-
-%0CapaEntidad.EntUbigeo*
-1*á
+¢	 ¢(	*
+1
+2*É
 1
-ª º(è
-å
+õ ú(U1/
 
-ª  ª(.
-%5CapaLogica.LogUsuario"__id*[Y*W,
-*MadereraCarocho.Controllers.HomeController"'
-UsuarioserviceCapaLogica.LogUsuario¶
-£
+õ õ(
+%ViewBagDataAllobject"object20
 
-ª  ª(K
+õ õ(
+%ViewBagDataHtmlobject"objectó
+î
 
-%6bool"ECapaLogica.LogUsuario.ActualizarAdministrador(CapaEntidad.EntUsuario)*
-
-%5CapaLogica.LogUsuario*!
-
-usuCapaEntidad.EntUsuario3
-1
+õ2 õ(A
+%0CapaLogica.LogProducto"__id*b`*^1
+/MadereraCarocho.Controllers.ProveedorController")
+ProductoserviceCapaLogica.LogProductoÑ
+Å
 
-ª ª(K
-editabool"__id*
+õ2 õ(R(
+%1"System.Collections.Generic.List<T>"'CapaLogica.LogProducto.ListarProducto()* 
+
+%0CapaLogica.LogProductoJH
 
+õ# õ(r
+%2System.Web.Mvc.SelectList"System.Web.Mvc.SelectListÏ
+È
 
-%6bool*
-2
-3*ç
-2
-æ ø(3ü
-ú
+õ' õ(1
 
-æ æ("!
-%7System.Web.Mvc.ActionResult"9MadereraCarocho.Controllers.HomeController.CerrarSesion()*0.,
-*MadereraCarocho.Controllers.HomeControllerù
-ö
+%3void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
+
+%2System.Web.Mvc.SelectList*,*
+(
+%1"System.Collections.Generic.List<T>*
 
-ø ø(4*
-%8$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
-System.Web.Mvc.Controller*	
-Index":
+idProducto*
+NombreCompletor
+p
 
-ø ø(5,
-*
-%8$System.Web.Mvc.RedirectToRouteResult*√
-3
-√ √(#∂
-≥
+õ õ(r
+%4"__mapSet*
+
+%ViewBagDataAllobject*
 
-√ √($
+producto*#!
+
+%2System.Web.Mvc.SelectListX
+V
 
-%9void"*capavistaweb/views/home/editardatoscliente*	
-
-%10*!
-
-usuCapaEntidad.EntUsuario*
+õ õ(r
+%5"__mapSet*
+
+%ViewBagDataHtmlobject*
+
+producto*
+""≤
+Ø
+
+ú  ú(8%
+%6CapaLogica.LogProveedorProducto"__id*tr*p1
+/MadereraCarocho.Controllers.ProveedorController";
+ProveedorProductoserviceCapaLogica.LogProveedorProducto≠
+™
+
+ú  ú(V(
+%7"System.Collections.Generic.List<T>"=CapaLogica.LogProveedorProducto.MostrarDetalleProvedorId(int)*)'
+%
+%6CapaLogica.LogProveedorProducto*
+""§
+°
+
+ú ú(W
+
+%8void"+capavistaweb/views/proveedor/mostrardetalle*
+
+%9*
+	{unknown}*
 
 %ViewBagDataAllobject*
 
@@ -103,15 +91,14 @@ q
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobject™
-ß
+%HttpContextItemsHtmlobjectò
+ï
 
-√ √($
-%11void"capavistaweb/views/_viewstart*	
+ú ú(W
+%10void"capavistaweb/views/_viewstart*	
 
-%12*!
-
-usuCapaEntidad.EntUsuario*
+%11*
+	{unknown}*
 
 %ViewBagDataAllobject*
 
@@ -123,15 +110,14 @@ q
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobjectÆ
-´
+%HttpContextItemsHtmlobjectú
+ô
 
-√ √($
-%13void"!capavistaweb/views/shared/_layout*	
+ú ú(W
+%12void"!capavistaweb/views/shared/_layout*	
 
-%14*!
-
-usuCapaEntidad.EntUsuario*
+%13*
+	{unknown}*
 
 %ViewBagDataAllobject*
 
@@ -145,120 +131,43 @@ q
 
 %HttpContextItemsHtmlobject"
 
-√ √(%
+ú ú(X
 
-%13void*
-4
- 	  (	*	
-5
-6
-6*Ú
-5
-» »(Rom
+%12void*Ê
+2
+† †(Qdb
 
-»H »(R
-%15string"System.Exception.Message.get*%#
-!
-exSystem.ApplicationException2Message.get≤
-Ø
+†G †(Q
+%14string"System.Exception.Message.get*
+
+exSystem.Exception2Message.get±
+Æ
 
-» »(U+
-%16$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
-System.Web.Mvc.Controller*	
-Cliente*
+† †(T+
+%15$System.Web.Mvc.RedirectToRouteResult":System.Web.Mvc.Controller.RedirectToAction(string, object)*
+System.Web.Mvc.Controller*
+
+Listar*
 """;
 
-» »(V-
+† †(U-
 +
-%16$System.Web.Mvc.RedirectToRouteResult*2
-6
- 	  (	"!
+%15$System.Web.Mvc.RedirectToRouteResult*2
+3
+¢	 ¢(	"!
 
-   (	
-implicit return*Ω	
-7
-≤R ≤(Rp
-n
+¢ ¢(	
+implicit return*C
+4
+ó3 ó(3-
++
 
-≤ ≤(.
-%17"__entrypoint*!
-
-usuCapaEntidad.EntUsuario*(&
-$
-frmSystem.Web.Mvc.FormCollection£
-†
+ó ó(*
+%16"__entrypoint*
+""*
+0:
 
-Ø	 Ø($
-%18"
-__annotate*\ZX
-VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*!
-
-usuCapaEntidad.EntUsuarioÉ
-Ä
+ó+ ó(2
 
-∞	 ∞(
-%19"
-__annotate*<:8
-6System.Web.Mvc.AuthorizeAttribute.AuthorizeAttribute()*!
-
-usuCapaEntidad.EntUsuarioÄ
-~
-
-±	 ±(
-%20"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*!
-
-usuCapaEntidad.EntUsuario\
-Z
-
-≤/ ≤(=
-usuCapaEntidad.EntUsuario"__annotation*	
-
-%18*	
-
-%19*	
-
-%20™
-ß
-
-Ø	 Ø($
-%21"
-__annotate*\ZX
-VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*(&
-$
-frmSystem.Web.Mvc.FormCollectionä
-á
-
-∞	 ∞(
-%22"
-__annotate*<:8
-6System.Web.Mvc.AuthorizeAttribute.AuthorizeAttribute()*(&
-$
-frmSystem.Web.Mvc.FormCollectionà
-Ö
-
-±	 ±(
-%23"
-__annotate*:86
-4System.Web.Mvc.HttpPostAttribute.HttpPostAttribute()*(&
-$
-frmSystem.Web.Mvc.FormCollectionc
-a
-
-≤? ≤(Q$
-frmSystem.Web.Mvc.FormCollection"__annotation*	
-
-%21*	
-
-%22*	
-
-%23*
-0:+
-
-≤/ ≤(=
-usuCapaEntidad.EntUsuario:2
-
-≤? ≤(Q$
-frmSystem.Web.Mvc.FormCollectionB.,
-*MadereraCarocho.Controllers.HomeController
+idpintB31
+/MadereraCarocho.Controllers.ProveedorController

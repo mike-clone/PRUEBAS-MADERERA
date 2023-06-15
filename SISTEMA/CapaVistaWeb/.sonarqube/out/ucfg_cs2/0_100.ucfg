@@ -1,16 +1,16 @@
 
-(CapaEntidad.EntProveedor.RazonSocial.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs" "("0*„
-0" "($Y
-W
-" "($
-%0string"__id*75*3
-CapaEntidad.EntProveedor"
-razonSocialstring"
-" "(%
-
-%0string*.
-1"' "('"
-"& "('
-implicit returnB
-CapaEntidad.EntProveedor
+'CapaEntidad.entReporteVenta.Cliente.setf
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs0 (3"0*o
+07 (F[
+Y
+7 (F2
+CapaEntidad.entReporteVenta"
+clientestring"__id*
+
+valuestring*
+1*.
+1G (G"
+F (G
+implicit return:
+valuestringB
+CapaEntidad.entReporteVenta

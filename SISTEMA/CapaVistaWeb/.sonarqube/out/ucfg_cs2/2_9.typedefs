@@ -1,9 +1,8 @@
-³
-CapaLogica.LogCompraobject/
-LogCompra() CapaLogica.LogCompra.LogCompra()y
-0LogCompra(CapaAccesoDatos.Interfaces.IDatCompra)ECapaLogica.LogCompra.LogCompra(CapaAccesoDatos.Interfaces.IDatCompra)]
-"CrearCompra(CapaEntidad.EntCompra)7CapaLogica.LogCompra.CrearCompra(CapaEntidad.EntCompra);
-ListarCompra(int)&CapaLogica.LogCompra.ListarCompra(int)G
-ListartodasLasCompras(),CapaLogica.LogCompra.ListartodasLasCompras()?
-EliminarCompra(int)(CapaLogica.LogCompra.EliminarCompra(int)A
-BuscarCompra(string))CapaLogica.LogCompra.BuscarCompra(string)
+™
+CapaLogica.LogVentaobject,
+
+LogVenta()CapaLogica.LogVenta.LogVenta()t
+.LogVenta(CapaAccesoDatos.Interfaces.IDatVenta)BCapaLogica.LogVenta.LogVenta(CapaAccesoDatos.Interfaces.IDatVenta)X
+ CrearVenta(CapaEntidad.EntVenta)4CapaLogica.LogVenta.CrearVenta(CapaEntidad.EntVenta)8
+ListarVenta(int)$CapaLogica.LogVenta.ListarVenta(int)B
+ListarTodasLasVenta())CapaLogica.LogVenta.ListarTodasLasVenta()

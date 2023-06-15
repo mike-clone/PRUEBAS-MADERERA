@@ -1,9 +1,21 @@
-å
-CapaEntidad.EntTipoProductoobjectB
-EntTipoProducto()-CapaEntidad.EntTipoProducto.EntTipoProducto()F
-IdTipo_producto.get/CapaEntidad.EntTipoProducto.IdTipo_producto.getF
-IdTipo_producto.set/CapaEntidad.EntTipoProducto.IdTipo_producto.set4
+
+CapaEntidad.entReporteVentaobjectB
+entReporteVenta()-CapaEntidad.entReporteVenta.entReporteVenta()4
 
-Nombre.get&CapaEntidad.EntTipoProducto.Nombre.get4
+Codigo.get&CapaEntidad.entReporteVenta.Codigo.get4
 
-Nombre.set&CapaEntidad.EntTipoProducto.Nombre.set
+Codigo.set&CapaEntidad.entReporteVenta.Codigo.set6
+Cliente.get'CapaEntidad.entReporteVenta.Cliente.get6
+Cliente.set'CapaEntidad.entReporteVenta.Cliente.set2
+	Fecha.get%CapaEntidad.entReporteVenta.Fecha.get2
+	Fecha.set%CapaEntidad.entReporteVenta.Fecha.set>
+Descripcion.get+CapaEntidad.entReporteVenta.Descripcion.get>
+Descripcion.set+CapaEntidad.entReporteVenta.Descripcion.set8
+Longitud.get(CapaEntidad.entReporteVenta.Longitud.get8
+Longitud.set(CapaEntidad.entReporteVenta.Longitud.set8
+Cantidad.get(CapaEntidad.entReporteVenta.Cantidad.get8
+Cantidad.set(CapaEntidad.entReporteVenta.Cantidad.set@
+PrecUnitario.get,CapaEntidad.entReporteVenta.PrecUnitario.get@
+PrecUnitario.set,CapaEntidad.entReporteVenta.PrecUnitario.set8
+SubTotal.get(CapaEntidad.entReporteVenta.SubTotal.get8
+SubTotal.set(CapaEntidad.entReporteVenta.SubTotal.set

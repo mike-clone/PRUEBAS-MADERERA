@@ -2,5 +2,5 @@ projectKey=maderera
 serverUrl=https://sonarqube.bit2bitamericas.com
 serverVersion=10.0.0.68432
 dashboardUrl=https://sonarqube.bit2bitamericas.com/dashboard?id=maderera
-ceTaskId=AYiY1C0SJ3RLWm9M8LYN
-ceTaskUrl=https://sonarqube.bit2bitamericas.com/api/ce/task?id=AYiY1C0SJ3RLWm9M8LYN
+ceTaskId=AYi9K75lJ3RLWm9M8LYn
+ceTaskUrl=https://sonarqube.bit2bitamericas.com/api/ce/task?id=AYi9K75lJ3RLWm9M8LYn

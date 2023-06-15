@@ -1,9 +1,11 @@
-‹
- CapaEntidad.EntProveedorProductoobjectQ
-EntProveedorProducto()7CapaEntidad.EntProveedorProducto.EntProveedorProducto()?
-Proveedor.get.CapaEntidad.EntProveedorProducto.Proveedor.get?
-Proveedor.set.CapaEntidad.EntProveedorProducto.Proveedor.set=
-Producto.get-CapaEntidad.EntProveedorProducto.Producto.get=
-Producto.set-CapaEntidad.EntProveedorProducto.Producto.setE
-PrecioCompra.get1CapaEntidad.EntProveedorProducto.PrecioCompra.getE
-PrecioCompra.set1CapaEntidad.EntProveedorProducto.PrecioCompra.set
+ý
+CapaEntidad.EntDetVentaobject6
+EntDetVenta()%CapaEntidad.EntDetVenta.EntDetVenta().
+	Venta.get!CapaEntidad.EntDetVenta.Venta.get.
+	Venta.set!CapaEntidad.EntDetVenta.Venta.set4
+Producto.get$CapaEntidad.EntDetVenta.Producto.get4
+Producto.set$CapaEntidad.EntDetVenta.Producto.set4
+Cantidad.get$CapaEntidad.EntDetVenta.Cantidad.get4
+Cantidad.set$CapaEntidad.EntDetVenta.Cantidad.set4
+SubTotal.get$CapaEntidad.EntDetVenta.SubTotal.get4
+SubTotal.set$CapaEntidad.EntDetVenta.SubTotal.set

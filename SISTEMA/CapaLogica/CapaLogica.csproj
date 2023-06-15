@@ -55,7 +55,7 @@
     <Compile Include="LogProducto.cs" />
     <Compile Include="LogProveedor.cs" />
     <Compile Include="LogProveedorProducto.cs" />
-    <Compile Include="logRoll.cs" />
+    <Compile Include="LogRoll.cs" />
     <Compile Include="LogTipoProducto.cs" />
     <Compile Include="LogUbigeo.cs" />
     <Compile Include="LogVenta.cs" />

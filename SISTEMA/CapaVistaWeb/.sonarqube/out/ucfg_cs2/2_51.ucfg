@@ -1,17 +1,19 @@
 
-"CapaLogica.LogUbigeo.Instancia.get_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs ("0*©
-0 (#p
-n
- (#
-%0CapaLogica.LogUbigeo"__id*@>*<
-CapaLogica.LogUbigeo""
-
-_instanciaCapaLogica.LogUbigeo"(
- ($
-
-%0CapaLogica.LogUbigeo*.
-1& (&"
-% (&
-implicit returnB"
-CapaLogica.LogUbigeo
+fCapaLogica.LogProveedorProducto.LogProveedorProducto(CapaAccesoDatos.Interfaces.IDatProveedorProducto)j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs (#"1*
+1	 (	*
+0*ç
+0 (9Ò
+Ï
+ (9q!
+CapaLogica.LogProveedorProducto"L
+ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*JH
+F
+IProveedorProducto0CapaAccesoDatos.Interfaces.IDatProveedorProducto*
+2*.
+2	 (	"
+ (	
+implicit return:R
+$ (LF
+IProveedorProducto0CapaAccesoDatos.Interfaces.IDatProveedorProductoB#!
+CapaLogica.LogProveedorProducto

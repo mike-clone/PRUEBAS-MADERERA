@@ -1,15 +1,16 @@
 
-)CapaEntidad.EntProveedor.EstProveedor.setc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.csD D("0*d
-0D D(&P
-N
-D D(&2
-CapaEntidad.EntProveedor"
-estProveedorbool"__id*
-""*
+ CapaEntidad.EntProducto.Tipo.setb
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs1 1("0*’
+01 1(~
+|
+1 1(@
+CapaEntidad.EntProducto"#
+tipoCapaEntidad.EntTipoProducto"__id*(&
+$
+valueCapaEntidad.EntTipoProducto*
 1*.
-1D) D()"
-D( D()
-implicit return:
-valueboolB
-CapaEntidad.EntProveedor
+11! 1(!"
+1  1(!
+implicit return:&$
+valueCapaEntidad.EntTipoProductoB
+CapaEntidad.EntProducto

@@ -1,25 +1,25 @@
 
-(CapaLogica.LogCompra.EliminarCompra(int)_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs" "(""0*ç
-0$ $(4–
-“
-$ $( +
-%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
-CapaLogica.LogCompra"6
-CompraService%CapaAccesoDatos.Interfaces.IDatCompra¤¡
-$ $(5
+>CapaLogica.LogTemporaryProducts.EliminarTemporaryProducts(int)j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs. .(-"0*·
+00 0(@º
+·
+0 0(#6
+%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts"__id*mk*i!
+CapaLogica.LogTemporaryProducts"D
+TemporaryService0CapaAccesoDatos.Interfaces.IDatTemporaryProductsÐÍ
+0 0(A
 
-%1bool"9CapaAccesoDatos.Interfaces.IDatCompra.EliminarCompra(int)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatCompra*
-""2EliminarCompra(int)"
-$ $(6
+%1bool"OCapaAccesoDatos.Interfaces.IDatTemporaryProducts.EliminarTemporaryProducts(int)*:8
+6
+%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts*
+""2EliminarTemporaryProducts(int)"
+0 0(B
 
 
 %1bool*.
-1%	 %(	"
-% %(	
-implicit return:
-"# "(+
-compintB
-CapaLogica.LogCompra
+11	 1(	"
+1 1(	
+implicit return:
+.. .(4	
+idintB#!
+CapaLogica.LogTemporaryProducts

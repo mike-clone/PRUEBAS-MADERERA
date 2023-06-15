@@ -1,15 +1,16 @@
 
-%CapaEntidad.EntDetCompra.Cantidad.setc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs/ (2"0*_
-06 (FK
-I
-6 (F-
-CapaEntidad.EntDetCompra"
-cantidadint"__id*
-""*
-1*.
-1G (G"
-F (G
-implicit return:
-valueintB
-CapaEntidad.EntDetCompra
+#CapaEntidad.EntUsuario.Telefono.geta
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs' '("0*
+0' '(!T
+R
+' '(!
+%0string"__id*20*.
+CapaEntidad.EntUsuario"
+telefonostring"
+' '("
+
+%0string*.
+1'$ '($"
+'# '($
+implicit returnB
+CapaEntidad.EntUsuario

@@ -9,12 +9,12 @@ using System.Web.Mvc;
 
 namespace MadereraCarocho.Controllers
 {
-    [PermisosRol(entRol.Administrador)]// No puede acceder si es que no es administrador
+    [PermisosRol(EntRol.Administrador)]// No puede acceder si es que no es administrador
     [Authorize]// No puede si es que no esta autorizado
     public class UsuarioController : Controller
     {
-        LogUsuario Usuarioservice;
-        LogUbigeo Ubigeoservice;
+        readonly LogUsuario Usuarioservice;
+        readonly LogUbigeo Ubigeoservice;
 
         public UsuarioController()
         {

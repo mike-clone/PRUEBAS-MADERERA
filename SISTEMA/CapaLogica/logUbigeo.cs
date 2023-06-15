@@ -8,18 +8,15 @@ namespace CapaLogica
     public class LogUbigeo
     {
         private static readonly LogUbigeo _instancia = new LogUbigeo();
+        private IDatUbigeo UbigeoService;
         public static LogUbigeo Instancia
         {
             get { return _instancia; }
         }
-
-        private IDatUbigeo UbigeoService;
-
         public LogUbigeo()
         {
             
         }
-
         public LogUbigeo(IDatUbigeo IUbigeo)
         {
             UbigeoService = IUbigeo;

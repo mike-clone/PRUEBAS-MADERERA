@@ -1,14 +1,15 @@
 
-.CapaEntidad.EntDetCompra.ProveedorProducto.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.cs8 (;"0*©
-0? (P”
-‘
-? (P&
-%0 CapaEntidad.EntProveedorProducto"__id*WU*S
-CapaEntidad.EntDetCompra"5
-proveedorProducto CapaEntidad.EntProveedorProducto*
+ CapaEntidad.EntVenta.IdVenta.set_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*Z
+0 (!F
+D
+ (!(
+CapaEntidad.EntVenta"
+idVentaint"__id*
+""*
 1*.
-1Q (Q"
-P (Q
-implicit returnB
-CapaEntidad.EntDetCompra
+1$ ($"
+# ($
+implicit return:
+valueintB
+CapaEntidad.EntVenta

@@ -1,34 +1,25 @@
-©
+ã
+CapaEntidad.EntProveedorobject9
+EntProveedor()'CapaEntidad.EntProveedor.EntProveedor()A
+NombreCompleto.get+CapaEntidad.EntProveedor.NombreCompleto.getA
+NombreCompleto.set+CapaEntidad.EntProveedor.NombreCompleto.set;
+IdProveedor.get(CapaEntidad.EntProveedor.IdProveedor.get;
+IdProveedor.set(CapaEntidad.EntProveedor.IdProveedor.set;
+RazonSocial.get(CapaEntidad.EntProveedor.RazonSocial.get;
+RazonSocial.set(CapaEntidad.EntProveedor.RazonSocial.set+
+Ruc.get CapaEntidad.EntProveedor.Ruc.get+
+Ruc.set CapaEntidad.EntProveedor.Ruc.set1
 
-CapaEntidad.EntUsuarioobject3
-EntUsuario()#CapaEntidad.EntUsuario.EntUsuario()5
-IdUsuario.get$CapaEntidad.EntUsuario.IdUsuario.get5
-IdUsuario.set$CapaEntidad.EntUsuario.IdUsuario.set9
-RazonSocial.get&CapaEntidad.EntUsuario.RazonSocial.get9
-RazonSocial.set&CapaEntidad.EntUsuario.RazonSocial.set3
-Telefono.get#CapaEntidad.EntUsuario.Telefono.get3
-Telefono.set#CapaEntidad.EntUsuario.Telefono.set5
-Direccion.get$CapaEntidad.EntUsuario.Direccion.get5
-Direccion.set$CapaEntidad.EntUsuario.Direccion.set/
+Correo.get#CapaEntidad.EntProveedor.Correo.get1
 
-Ubigeo.get!CapaEntidad.EntUsuario.Ubigeo.get/
+Correo.set#CapaEntidad.EntProveedor.Correo.set5
+Telefono.get%CapaEntidad.EntProveedor.Telefono.get5
+Telefono.set%CapaEntidad.EntProveedor.Telefono.set;
+Descripcion.get(CapaEntidad.EntProveedor.Descripcion.get;
+Descripcion.set(CapaEntidad.EntProveedor.Descripcion.set=
+EstProveedor.get)CapaEntidad.EntProveedor.EstProveedor.get=
+EstProveedor.set)CapaEntidad.EntProveedor.EstProveedor.set1
 
-Ubigeo.set!CapaEntidad.EntUsuario.Ubigeo.set=
-FechaCreacion.get(CapaEntidad.EntUsuario.FechaCreacion.get=
-FechaCreacion.set(CapaEntidad.EntUsuario.FechaCreacion.set/
+Ubigeo.get#CapaEntidad.EntProveedor.Ubigeo.get1
 
-Correo.get!CapaEntidad.EntUsuario.Correo.get/
-
-Correo.set!CapaEntidad.EntUsuario.Correo.set3
-UserName.get#CapaEntidad.EntUsuario.UserName.get3
-UserName.set#CapaEntidad.EntUsuario.UserName.set+
-Pass.getCapaEntidad.EntUsuario.Pass.get+
-Pass.setCapaEntidad.EntUsuario.Pass.set)
-Rol.getCapaEntidad.EntUsuario.Rol.get)
-Rol.setCapaEntidad.EntUsuario.Rol.set/
-
-Activo.get!CapaEntidad.EntUsuario.Activo.get/
-
-Activo.set!CapaEntidad.EntUsuario.Activo.set+
-Roll.getCapaEntidad.EntUsuario.Roll.get+
-Roll.setCapaEntidad.EntUsuario.Roll.set
+Ubigeo.set#CapaEntidad.EntProveedor.Ubigeo.set

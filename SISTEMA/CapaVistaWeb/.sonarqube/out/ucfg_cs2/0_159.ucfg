@@ -1,16 +1,16 @@
 
-,CapaEntidad.entReporteVenta.PrecUnitario.setf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs: (="0*t
-0A (U`
-^
-A (U7
-CapaEntidad.entReporteVenta"
-precUnitariostring"__id*
-
-valuestring*
+#CapaEntidad.EntProveedor.Ubigeo.setc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.csI I("0*‰
+0I I( u
+s
+I I( =
+CapaEntidad.EntProveedor"
+ubigeoCapaEntidad.EntUbigeo"__id*" 
+
+valueCapaEntidad.EntUbigeo*
 1*.
-1V (V"
-U (V
-implicit return:
-valuestringB
-CapaEntidad.entReporteVenta
+1I# I(#"
+I" I(#
+implicit return: 
+valueCapaEntidad.EntUbigeoB
+CapaEntidad.EntProveedor

@@ -14,58 +14,16 @@
         {
           "ruleId": "S2933",
           "level": "warning",
-          "message": "Make 'DetVentaService' 'readonly'.",
+          "message": "Make 'TemporaryService' 'readonly'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogDetVenta.cs",
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogTemporaryProducts.cs",
                 "region": {
-                  "startLine": 16,
-                  "startColumn": 30,
-                  "endLine": 16,
-                  "endColumn": 45
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'DetCompraService' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogDetCompra.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 31,
-                  "endLine": 11,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'CompraService' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogCompra.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 28,
-                  "endLine": 12,
-                  "endColumn": 41
+                  "startLine": 17,
+                  "startColumn": 39,
+                  "endLine": 17,
+                  "endColumn": 55
                 }
               }
             }
@@ -117,48 +75,6 @@
           }
         },
         {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'TemporaryService' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogTemporaryProducts.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 39,
-                  "endLine": 17,
-                  "endColumn": 55
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'ProveedorService' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogProveedor.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 31,
-                  "endLine": 17,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S125",
           "level": "warning",
           "message": "Remove this commented out code.",
@@ -182,16 +98,100 @@
         {
           "ruleId": "S2933",
           "level": "warning",
-          "message": "Make 'UsuarioService' 'readonly'.",
+          "message": "Make 'DetVentaService' 'readonly'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogUsuario.cs",
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogDetVenta.cs",
                 "region": {
                   "startLine": 16,
-                  "startColumn": 29,
+                  "startColumn": 30,
                   "endLine": 16,
-                  "endColumn": 43
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'CompraService' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogCompra.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 28,
+                  "endLine": 12,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'DetCompraService' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogDetCompra.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 31,
+                  "endLine": 11,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'ProveedorProductoService' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogProveedorProducto.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 39,
+                  "endLine": 17,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'VentaService' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogVenta.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 27,
+                  "endLine": 18,
+                  "endColumn": 39
                 }
               }
             }
@@ -245,16 +245,16 @@
         {
           "ruleId": "S2933",
           "level": "warning",
-          "message": "Make 'VentaService' 'readonly'.",
+          "message": "Make 'UbigeoService' 'readonly'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogVenta.cs",
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogUbigeo.cs",
                 "region": {
-                  "startLine": 18,
-                  "startColumn": 27,
-                  "endLine": 18,
-                  "endColumn": 39
+                  "startLine": 16,
+                  "startColumn": 28,
+                  "endLine": 16,
+                  "endColumn": 41
                 }
               }
             }
@@ -266,16 +266,37 @@
         {
           "ruleId": "S2933",
           "level": "warning",
-          "message": "Make 'ProveedorProductoService' 'readonly'.",
+          "message": "Make 'ProveedorService' 'readonly'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogProveedorProducto.cs",
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogProveedor.cs",
                 "region": {
                   "startLine": 17,
-                  "startColumn": 39,
+                  "startColumn": 31,
                   "endLine": 17,
-                  "endColumn": 63
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'UsuarioService' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogUsuario.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 29,
+                  "endLine": 16,
+                  "endColumn": 43
                 }
               }
             }
@@ -322,27 +343,6 @@
           }
         },
         {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'UbigeoService' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogUbigeo.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 28,
-                  "endLine": 16,
-                  "endColumn": 41
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S1905",
           "level": "warning",
           "message": "Remove this unnecessary cast to 'int'.",
@@ -355,69 +355,6 @@
                   "startColumn": 54,
                   "endLine": 56,
                   "endColumn": 57
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1643",
-          "level": "warning",
-          "message": "Use a StringBuilder instead.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/ValidatorHelper.cs",
-                "region": {
-                  "startLine": 38,
-                  "startColumn": 13,
-                  "endLine": 38,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S112",
-          "level": "warning",
-          "message": "'System.Exception' should not be thrown by user code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogUsuario.cs",
-                "region": {
-                  "startLine": 38,
-                  "startColumn": 27,
-                  "endLine": 38,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S112",
-          "level": "warning",
-          "message": "'System.Exception' should not be thrown by user code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogUsuario.cs",
-                "region": {
-                  "startLine": 44,
-                  "startColumn": 23,
-                  "endLine": 50,
-                  "endColumn": 53
                 }
               }
             }
@@ -460,48 +397,6 @@
                   "startColumn": 23,
                   "endLine": 58,
                   "endColumn": 68
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S112",
-          "level": "warning",
-          "message": "'System.Exception' should not be thrown by user code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogProveedor.cs",
-                "region": {
-                  "startLine": 90,
-                  "startColumn": 27,
-                  "endLine": 90,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S112",
-          "level": "warning",
-          "message": "'System.Exception' should not be thrown by user code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogProveedor.cs",
-                "region": {
-                  "startLine": 95,
-                  "startColumn": 23,
-                  "endLine": 101,
-                  "endColumn": 69
                 }
               }
             }
@@ -586,6 +481,111 @@
                   "startColumn": 23,
                   "endLine": 131,
                   "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogProveedor.cs",
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 27,
+                  "endLine": 90,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogProveedor.cs",
+                "region": {
+                  "startLine": 95,
+                  "startColumn": 23,
+                  "endLine": 101,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogUsuario.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 27,
+                  "endLine": 38,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/LogUsuario.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 23,
+                  "endLine": 50,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1643",
+          "level": "warning",
+          "message": "Use a StringBuilder instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaLogica/ValidatorHelper.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 13,
+                  "endLine": 38,
+                  "endColumn": 28
                 }
               }
             }

@@ -1,14 +1,16 @@
 
-'CapaEntidad.entReporteVenta.Cliente.getf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs  (#"0*l
-0' (.X
-V
-' (.
-%0string"__id*64*2
-CapaEntidad.entReporteVenta"
-clientestring*
+)CapaEntidad.entReporteCompra.Cantidad.setg
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs2 (5"0*q
+09 (I]
+[
+9 (I4
+CapaEntidad.entReporteCompra"
+cantidadstring"__id*
+
+valuestring*
 1*.
-1/ (/"
-. (/
-implicit returnB
-CapaEntidad.entReporteVenta
+1J (J"
+I (J
+implicit return:
+valuestringB 
+CapaEntidad.entReporteCompra

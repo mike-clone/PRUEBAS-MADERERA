@@ -1,13 +1,7 @@
-å
-
-/MadereraCarocho.Controllers.ProveedorControllerSystem.Web.Mvc.ControllerSystem.Web.Mvc.ControllerBaseobject^
-ProveedorController()EMadereraCarocho.Controllers.ProveedorController.ProveedorController()P
-Listar(string)>MadereraCarocho.Controllers.ProveedorController.Listar(string)\
-RegistrarProveedor()DMadereraCarocho.Controllers.ProveedorController.RegistrarProveedor()ç
-YRegistrarProveedor(string, string, string, string, string, System.Web.Mvc.FormCollection)‰MadereraCarocho.Controllers.ProveedorController.RegistrarProveedor(string, string, string, string, string, System.Web.Mvc.FormCollection)\
-EditarProveedor(int)DMadereraCarocho.Controllers.ProveedorController.EditarProveedor(int)Ä
-HEditarProveedor(CapaEntidad.EntProveedor, System.Web.Mvc.FormCollection)xMadereraCarocho.Controllers.ProveedorController.EditarProveedor(CapaEntidad.EntProveedor, System.Web.Mvc.FormCollection)`
-EliminarProveedor(int)FMadereraCarocho.Controllers.ProveedorController.EliminarProveedor(int)Z
-MostrarDetalle(int)CMadereraCarocho.Controllers.ProveedorController.MostrarDetalle(int)ª
-;ElegirProductos(int, double, System.Web.Mvc.FormCollection)kMadereraCarocho.Controllers.ProveedorController.ElegirProductos(int, double, System.Web.Mvc.FormCollection)f
-EliminarDetalle(int, int)IMadereraCarocho.Controllers.ProveedorController.EliminarDetalle(int, int)
+£
+6MadereraCarocho.Controllers.TemporaryProductControllerSystem.Web.Mvc.ControllerSystem.Web.Mvc.ControllerBaseobjects
+TemporaryProductController()SMadereraCarocho.Controllers.TemporaryProductController.TemporaryProductController()a
+ListarTempProduct()JMadereraCarocho.Controllers.TemporaryProductController.ListarTempProduct()m
+ListarTempProductClient()PMadereraCarocho.Controllers.TemporaryProductController.ListarTempProductClient()i
+EliminarTempPrduct(int)NMadereraCarocho.Controllers.TemporaryProductController.EliminarTempPrduct(int)u
+EliminarTempPrductClient(int)TMadereraCarocho.Controllers.TemporaryProductController.EliminarTempPrductClient(int)

@@ -1,16 +1,16 @@
 
- CapaEntidad.EntProveedor.Ruc.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs( (("0*|
-0( ((Q
-O
-( ((
-%0string"__id*/-*+
-CapaEntidad.EntProveedor"
-rucstring"
-( ((
-
-%0string*.
-1( (("
-( ((
-implicit returnB
-CapaEntidad.EntProveedor
+,CapaEntidad.entReporteCompra.Descripcion.setg
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs8 (;"0*t
+0? (R`
+^
+? (R7
+CapaEntidad.entReporteCompra"
+descripcionstring"__id*
+
+valuestring*
+1*.
+1S (S"
+R (S
+implicit return:
+valuestringB 
+CapaEntidad.entReporteCompra

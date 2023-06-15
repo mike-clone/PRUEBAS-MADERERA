@@ -1,16 +1,16 @@
 
-%CapaEntidad.entReporteVenta.Fecha.setf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs. (1"0*
-05 (Bk
-i
-5 (B9
-CapaEntidad.entReporteVenta"
-fechaSystem.DateTime"__id*
-
-valueSystem.DateTime*
+*CapaEntidad.entReporteCompra.Proveedor.setg
+]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs4 (7"0*r
+0; (L^
+\
+; (L5
+CapaEntidad.entReporteCompra"
+	proveedorstring"__id*
+
+valuestring*
 1*.
-1C (C"
-B (C
-implicit return:
-valueSystem.DateTimeB
-CapaEntidad.entReporteVenta
+1M (M"
+L (M
+implicit return:
+valuestringB 
+CapaEntidad.entReporteCompra

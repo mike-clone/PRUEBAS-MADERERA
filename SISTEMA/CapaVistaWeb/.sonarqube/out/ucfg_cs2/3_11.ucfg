@@ -1,68 +1,125 @@
 
-AMadereraCarocho.Controllers.UsuarioController.UsuarioController()u
-kC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\UsuarioController.cs ( "3*k
-1	 (	W
+EMadereraCarocho.Controllers.ProveedorController.ProveedorController()w
+mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs (""3*≈
+1	 (	JH
+* (? 
+%0CapaLogica.ValidatorHelper"CapaLogica.ValidatorHelperl
+j
+. (=
+
+%1void",CapaLogica.ValidatorHelper.ValidatorHelper()*$"
+ 
+%0CapaLogica.ValidatorHelperù
+ö
+ (?b1
+/MadereraCarocho.Controllers.ProveedorController"-
+validatorHelperCapaLogica.ValidatorHelper"__id*$"
+ 
+%0CapaLogica.ValidatorHelperW
 U
 
-%0void"&System.Web.Mvc.Controller.Controller()*
+%2void"&System.Web.Mvc.Controller.Controller()*
 System.Web.Mvc.Controller*
-0*Ò
-0 (9JH
-, (< 
-%1CapaAccesoDatos.DatUsuario"CapaAccesoDatos.DatUsuariog
-e
-0 (:
+0*Ω
+0 (BLJ
+. (?!
+%3CapaAccesoDatos.DatProducto"CapaAccesoDatos.DatProductoj
+h
+2 (=
 
-%2void"'CapaAccesoDatos.DatUsuario.DatUsuario()*$"
+%4void")CapaAccesoDatos.DatProducto.DatProducto()*%#
+!
+%3CapaAccesoDatos.DatProductoB@
+ (@
+%5CapaLogica.LogProducto"CapaLogica.LogProductoØ
+¨
+" (-
+
+%6void"KCapaLogica.LogProducto.LogProducto(CapaAccesoDatos.Interfaces.IDatProducto)* 
+
+%5CapaLogica.LogProducto*%#
+!
+%3CapaAccesoDatos.DatProductoï
+í
+ (@^1
+/MadereraCarocho.Controllers.ProveedorController")
+ProductoserviceCapaLogica.LogProducto"__id* 
+
+%5CapaLogica.LogProducto^\
+@ (Z*
+%7$CapaAccesoDatos.DatProveedorProducto"$CapaAccesoDatos.DatProveedorProductoÜ
+É
+D (X
+
+%8void";CapaAccesoDatos.DatProveedorProducto.DatProveedorProducto()*.,
+*
+%7$CapaAccesoDatos.DatProveedorProductoTR
+' ([%
+%9CapaLogica.LogProveedorProducto"CapaLogica.LogProveedorProducto›
+⁄
++ (?
+%10void"fCapaLogica.LogProveedorProducto.LogProveedorProducto(CapaAccesoDatos.Interfaces.IDatProveedorProducto)*)'
+%
+%9CapaLogica.LogProveedorProducto*.,
+*
+%7$CapaAccesoDatos.DatProveedorProducto∞
+≠
+ ([p1
+/MadereraCarocho.Controllers.ProveedorController";
+ProveedorProductoserviceCapaLogica.LogProveedorProducto"__id*)'
+%
+%9CapaLogica.LogProveedorProductoIG
+* (9 
+%11CapaAccesoDatos.DatUbigeo"CapaAccesoDatos.DatUbigeof
+d
+. (7
+%12void"%CapaAccesoDatos.DatUbigeo.DatUbigeo()*$"
  
-%1CapaAccesoDatos.DatUsuario@>
- (=
-%3CapaLogica.LogUsuario"CapaLogica.LogUsuario™
-ß
-! (+
-
-%4void"HCapaLogica.LogUsuario.LogUsuario(CapaAccesoDatos.Interfaces.IDatUsuario)*
+%11CapaAccesoDatos.DatUbigeo?=
+ (:
+%13CapaLogica.LogUbigeo"CapaLogica.LogUbigeo®
+•
+  ()
+%14void"ECapaLogica.LogUbigeo.LogUbigeo(CapaAccesoDatos.Interfaces.IDatUbigeo)*
 
-%3CapaLogica.LogUsuario*$"
+%13CapaLogica.LogUbigeo*$"
  
-%1CapaAccesoDatos.DatUsuarioê
+%11CapaAccesoDatos.DatUbigeoê
 ç
- (=Z/
--MadereraCarocho.Controllers.UsuarioController"'
-UsuarioserviceCapaLogica.LogUsuario"__id*
+ (:Z1
+/MadereraCarocho.Controllers.ProveedorController"%
+UbigeoserviceCapaLogica.LogUbigeo"__id*
 
-%3CapaLogica.LogUsuarioHF
-* (9
-%5CapaAccesoDatos.DatUbigeo"CapaAccesoDatos.DatUbigeod
-b
-. (7
-
-%6void"%CapaAccesoDatos.DatUbigeo.DatUbigeo()*#!
-
-%5CapaAccesoDatos.DatUbigeo><
- (:
-%7CapaLogica.LogUbigeo"CapaLogica.LogUbigeo•
-¢
-  ()
-
-%8void"ECapaLogica.LogUbigeo.LogUbigeo(CapaAccesoDatos.Interfaces.IDatUbigeo)*
-
-%7CapaLogica.LogUbigeo*#!
-
-%5CapaAccesoDatos.DatUbigeoç
-ä
- (:X/
--MadereraCarocho.Controllers.UsuarioController"%
-UbigeoserviceCapaLogica.LogUbigeo"__id*
-
-%7CapaLogica.LogUbigeo*
-2*.
-2	 (	"
- (	
-implicit return*4
-3" (" 
+%13CapaLogica.LogUbigeoOM
+0 (B#
+%15CapaAccesoDatos.DatProveedor"CapaAccesoDatos.DatProveedoro
+m
+4 (@
+%16void"+CapaAccesoDatos.DatProveedor.DatProveedor()*'%
+#
+%15CapaAccesoDatos.DatProveedorEC
+ (C
+%17CapaLogica.LogProveedor"CapaLogica.LogProveedor∑
+¥
+# (/
+%18void"NCapaLogica.LogProveedor.LogProveedor(CapaAccesoDatos.Interfaces.IDatProveedor)*" 
 
- ( 
-%9"__entrypoint*
-1B1/
--MadereraCarocho.Controllers.UsuarioController
+%17CapaLogica.LogProveedor*'%
+#
+%15CapaAccesoDatos.DatProveedorô
+ñ
+ (C`1
+/MadereraCarocho.Controllers.ProveedorController"+
+ProveedorserviceCapaLogica.LogProveedor"__id*" 
+
+%17CapaLogica.LogProveedor*
+2*.
+2	 (	"
+ (	
+implicit return*5
+3$ ($!
+
+ ("
+%19"__entrypoint*
+1B31
+/MadereraCarocho.Controllers.ProveedorController

@@ -1,7 +1,8 @@
-â
-CapaAccesoDatos.DatVentaobject$CapaAccesoDatos.Interfaces.IDatVenta]
- CrearVenta(CapaEntidad.EntVenta)9CapaAccesoDatos.DatVenta.CrearVenta(CapaEntidad.EntVenta)=
-ListarVenta(int))CapaAccesoDatos.DatVenta.ListarVenta(int)G
-ListarTodasLasVenta().CapaAccesoDatos.DatVenta.ListarTodasLasVenta()1
-
-DatVenta()#CapaAccesoDatos.DatVenta.DatVenta()
+‚
+CapaAccesoDatos.DatCompraobject%CapaAccesoDatos.Interfaces.IDatComprab
+"CrearCompra(CapaEntidad.EntCompra)<CapaAccesoDatos.DatCompra.CrearCompra(CapaEntidad.EntCompra)@
+ListarCompra(int)+CapaAccesoDatos.DatCompra.ListarCompra(int)L
+ListarTodasLasCompras()1CapaAccesoDatos.DatCompra.ListarTodasLasCompras()D
+EliminarCompra(int)-CapaAccesoDatos.DatCompra.EliminarCompra(int)F
+BuscarCompra(string).CapaAccesoDatos.DatCompra.BuscarCompra(string)4
+DatCompra()%CapaAccesoDatos.DatCompra.DatCompra()

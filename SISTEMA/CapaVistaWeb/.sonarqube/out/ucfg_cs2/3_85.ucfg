@@ -1,46 +1,30 @@
 
-DMadereraCarocho.Controllers.ProveedorController.EditarProveedor(int)w
-mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs[ [(+"2*ú
-0] c(ò
-ï
-]  ](0
-%0CapaLogica.LogProveedor"__id*db*`1
-/MadereraCarocho.Controllers.ProveedorController"+
-ProveedorserviceCapaLogica.LogProveedorä
-á
-]  ](J
-%1CapaEntidad.EntProveedor".CapaLogica.LogProveedor.BuscarIdProveedor(int)*!
-
-%0CapaLogica.LogProveedor*
-""X
-V
-] ](J 
-provCapaEntidad.EntProveedor"__id*" 
-
-%1CapaEntidad.EntProveedorè
+DMadereraCarocho.Controllers.ProveedorController.RegistrarProveedor()w
+mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs/ /(."2*‹
+01 4(è
 å
-_* _(7
-%2CapaLogica.LogUbigeo"__id*^\*Z1
+1* 1(7
+%0CapaLogica.LogUbigeo"__id*^\*Z1
 /MadereraCarocho.Controllers.ProveedorController"%
 UbigeoserviceCapaLogica.LogUbigeo}
 {
-_* _(H(
-%3"System.Collections.Generic.List<T>"%CapaLogica.LogUbigeo.ListarDistrito()*
+1* 1(H(
+%1"System.Collections.Generic.List<T>"%CapaLogica.LogUbigeo.ListarDistrito()*
 
-%2CapaLogica.LogUbigeos
+%0CapaLogica.LogUbigeos
 q
-_ _(H1
+1 1(H1
 listaUbigeo"System.Collections.Generic.List<T>"__id*,*
 (
-%3"System.Collections.Generic.List<T>HF
-` `(N
-%4System.Web.Mvc.SelectList"System.Web.Mvc.SelectListÎ
+%1"System.Collections.Generic.List<T>HF
+2 2(N
+%2System.Web.Mvc.SelectList"System.Web.Mvc.SelectListÎ
 Ë
-` `()
+2 2()
 
-%5void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
+%3void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
 
-%4System.Web.Mvc.SelectList*53
+%2System.Web.Mvc.SelectList*53
 1
 listaUbigeo"System.Collections.Generic.List<T>*
 
@@ -48,37 +32,36 @@ q
 
 distrito^
 \
-` `(N%
+2 2(N%
 lsUbigeoSystem.Web.Mvc.SelectList"__id*#!
 
-%4System.Web.Mvc.SelectList/-
-a a(
+%2System.Web.Mvc.SelectList/-
+3 3(
 %ViewBagDataAllobject"object0.
-a a(
+3 3(
 %ViewBagDataHtmlobject"objecty
 w
-a a(*
-%6"__mapSet*
+3 3(*
+%4"__mapSet*
 
 %ViewBagDataAllobject*
 listaUbigeo*)'
 %
 lsUbigeoSystem.Web.Mvc.SelectListY
 W
-a a(*
-%7"__mapSet*
+3 3(*
+%5"__mapSet*
 
 %ViewBagDataHtmlobject*
 listaUbigeo*
-""∏
-µ
-c c(
+""¶
+£
+4 4(
 
-%8void",capavistaweb/views/proveedor/editarproveedor*
+%6void"/capavistaweb/views/proveedor/registrarproveedor*
 
-%9*$"
- 
-provCapaEntidad.EntProveedor*
+%7*
+	{unknown}*
 
 %ViewBagDataAllobject*
 
@@ -90,14 +73,14 @@ W
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobject´
-®
-c c(
-%10void"capavistaweb/views/_viewstart*	
-
-%11*$"
- 
-provCapaEntidad.EntProveedor*
+%HttpContextItemsHtmlobjectî
+ë
+4 4(
+
+%8void"capavistaweb/views/_viewstart*
+
+%9*
+	{unknown}*
 
 %ViewBagDataAllobject*
 
@@ -109,14 +92,13 @@ W
 
 %HttpContextItemsAllobject*#!
 
-%HttpContextItemsHtmlobjectØ
-¨
-c c(
-%12void"!capavistaweb/views/shared/_layout*	
+%HttpContextItemsHtmlobjectö
+ó
+4 4(
+%10void"!capavistaweb/views/shared/_layout*	
 
-%13*$"
- 
-provCapaEntidad.EntProveedor*
+%11*
+	{unknown}*
 
 %ViewBagDataAllobject*
 
@@ -129,18 +111,15 @@ W
 %HttpContextItemsAllobject*#!
 
 %HttpContextItemsHtmlobject"
-c c(
+4 4(
 
-%12void*.
-1d	 d(	"
-d d(	
-implicit return*?
-2[7 [(7+
-)
-[ [(+
-%14"__entrypoint*
-""*
-0:
-[, [(6
-idprovintB31
+%10void*.
+15	 5(	"
+5 5(	
+implicit return*5
+2/0 /(0!
+
+/ /(.
+%12"__entrypoint*
+0B31
 /MadereraCarocho.Controllers.ProveedorController

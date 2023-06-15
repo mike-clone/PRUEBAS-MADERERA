@@ -1,24 +1,14 @@
 
-"CapaEntidad.EntUbigeo.IdUbigeo.get`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs
-! 
-($"0*g
-0
-( 
-(0S
-Q
-
-( 
-(0
-%0string"__id*1/*-
-CapaEntidad.EntUbigeo"
-idUbigeostring*
+#CapaEntidad.EntUbigeo.Provincia.get`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs" (%"0*h
+0) (2T
+R
+) (2
+%0string"__id*20*.
+CapaEntidad.EntUbigeo"
+	provinciastring*
 1*.
-1
-1 
-(1"
-
-0 
-(1
+13 (3"
+2 (3
 implicit returnB
 CapaEntidad.EntUbigeo

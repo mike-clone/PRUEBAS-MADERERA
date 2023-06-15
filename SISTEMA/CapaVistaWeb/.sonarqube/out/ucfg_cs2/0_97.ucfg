@@ -1,16 +1,16 @@
 
-#CapaEntidad.EntUsuario.UserName.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csD D("0*k
-0D D("W
+#CapaEntidad.entRoll.Descripcion.set]
+SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs8 (;"0*k
+0? (RW
 U
-D D(".
-CapaEntidad.EntUsuario"
-userNamestring"__id*
+? (R.
+CapaEntidad.entRoll"
+descripcionstring"__id*
 
 valuestring*
 1*.
-1D% D(%"
-D$ D(%
+1S (S"
+R (S
 implicit return:
-valuestringB
-CapaEntidad.EntUsuario
+valuestringB
+CapaEntidad.entRoll

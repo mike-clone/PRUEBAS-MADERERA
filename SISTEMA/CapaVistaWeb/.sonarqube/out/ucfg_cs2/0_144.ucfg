@@ -1,16 +1,16 @@
 
-(CapaEntidad.entReporteVenta.Longitud.setf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs2 (5"0*p
-09 (I\
+(CapaEntidad.EntProveedor.RazonSocial.setc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs# #("0*p
+0# #(%\
 Z
-9 (I3
-CapaEntidad.entReporteVenta"
-longitudstring"__id*
+# #(%3
+CapaEntidad.EntProveedor"
+razonSocialstring"__id*
 
 valuestring*
 1*.
-1J (J"
-I (J
+1#( #(("
+#' #((
 implicit return:
-valuestringB
-CapaEntidad.entReporteVenta
+valuestringB
+CapaEntidad.EntProveedor

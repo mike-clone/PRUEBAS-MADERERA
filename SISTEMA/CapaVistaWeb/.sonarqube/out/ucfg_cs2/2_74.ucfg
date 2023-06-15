@@ -1,26 +1,24 @@
 
-<CapaLogica.LogUbigeo.ActualizarUbigeo(CapaEntidad.EntUbigeo)_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs$ $($"0*¥
-0& &(3–
-“
-& &( +
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
-CapaLogica.LogUbigeo"6
-UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeoâß
-& &(4
-
-%1bool"MCapaAccesoDatos.Interfaces.IDatUbigeo.ActualizarUbigeo(CapaEntidad.EntUbigeo)*/-
-+
-%0%CapaAccesoDatos.Interfaces.IDatUbigeo*
-
-uCapaEntidad.EntUbigeo2'ActualizarUbigeo(CapaEntidad.EntUbigeo)"
-& &(5
-
-
-%1bool*.
-1'	 '(	"
-' '(	
-implicit return:&
-$% $(0
-uCapaEntidad.EntUbigeoB
-CapaLogica.LogUbigeo
+ACapaLogica.LogProveedorProducto.BuscarProductoParaComprar(string)j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedorProducto.cs0* 0(C"0*
+02 2(NÂ
+¿
+2 2(+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto"__id*us*q!
+CapaLogica.LogProveedorProducto"L
+ProveedorProductoService0CapaAccesoDatos.Interfaces.IDatProveedorProducto‚ÿ
+2 2(O(
+%1"System.Collections.Generic.List<T>"RCapaAccesoDatos.Interfaces.IDatProveedorProducto.BuscarProductoParaComprar(string)*:8
+6
+%00CapaAccesoDatos.Interfaces.IDatProveedorProducto*
+
+busquedastring2!BuscarProductoParaComprar(string)"6
+2 2(P*
+(
+%1"System.Collections.Generic.List<T>*.
+13	 3(	"
+3 3(	
+implicit return:
+0D 0(S
+busquedastringB#!
+CapaLogica.LogProveedorProducto

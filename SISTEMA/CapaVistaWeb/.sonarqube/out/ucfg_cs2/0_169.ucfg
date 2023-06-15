@@ -1,15 +1,15 @@
 
-"CapaEntidad.EntProducto.Activo.setb
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs:, :(/"0*]
-0:3 :(AI
-G
-:3 :(A+
-CapaEntidad.EntProducto"
-activobool"__id*
+$CapaEntidad.EntProducto.Longitud.setb
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs& &("0*a
+0& &("M
+K
+& &("/
+CapaEntidad.EntProducto"
+longituddouble"__id*
 ""*
 1*.
-1:B :(B"
-:A :(B
-implicit return:
-valueboolB
+1&% &(%"
+&$ &(%
+implicit return:
+valuedoubleB
 CapaEntidad.EntProducto

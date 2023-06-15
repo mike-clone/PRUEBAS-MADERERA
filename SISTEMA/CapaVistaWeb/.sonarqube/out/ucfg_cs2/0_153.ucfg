@@ -1,14 +1,16 @@
 
-(CapaEntidad.entReporteVenta.Cantidad.getf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs! ($"0*m
-0( (0Y
-W
-( (0
-%0string"__id*75*3
-CapaEntidad.entReporteVenta"
-cantidadstring*
+(CapaEntidad.EntProveedor.Descripcion.setc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs> >("0*p
+0> >(%\
+Z
+> >(%3
+CapaEntidad.EntProveedor"
+descripcionstring"__id*
+
+valuestring*
 1*.
-11 (1"
-0 (1
-implicit returnB
-CapaEntidad.entReporteVenta
+1>( >(("
+>' >((
+implicit return:
+valuestringB
+CapaEntidad.EntProveedor

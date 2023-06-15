@@ -1,14 +1,13 @@
 
-&CapaEntidad.EntUbigeo.Departamento.get`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs% (("0*k
-0, (8W
-U
-, (8
-%0string"__id*53*1
-CapaEntidad.EntUbigeo"
-departamentostring*
+CapaEntidad.entRoll.IdRoll.get]
+SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs ("0*6
+0# ()"
+ 
+# ()
+%0"__id*
+""*
 1*.
-19 (9"
-8 (9
-implicit returnB
-CapaEntidad.EntUbigeo
+1* (*"
+) (*
+implicit returnB
+CapaEntidad.entRoll

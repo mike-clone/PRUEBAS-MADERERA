@@ -1,280 +1,157 @@
 
-.CapaAccesoDatos.DatUbigeo.BuscarUbigeo(string)f
-ZC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.csß ß(+"0*°
+0CapaAccesoDatos.DatUsuario.EliminarUsuarios(int)g
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.cs¿ ¿($"0*ê
 0
-© ™(!\Z
-
-©$ ©(9(
-%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>s
-q
-
-©( ©(7
-
-%1void")System.Collections.Generic.List<T>.List()*,*
-(
-%0"System.Collections.Generic.List<T>o
-m
-
-© ©(9+
-lista"System.Collections.Generic.List<T>"__id*,*
-(
-%0"System.Collections.Generic.List<T>G
+¬ √("G
 E
 
-™ ™(!'
+¬ ¬(!'
 cmd System.Data.SqlClient.SqlCommand"__id*
+""1
+/
+
+√ √("
+	eliminadobool"__id*
 ""*
-1*¸
+1*î
 1
-≠ ≤(6v
+∆ Œ(v
 t
 
-≠# ≠(5
-%2CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
+∆# ∆(5
+%0CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
 CapaAccesoDatos.ConexionÉ
 Ä
 
-≠# ≠(@)
-%3#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
+∆# ∆(@)
+%1#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
 
-%2CapaAccesoDatos.Conexionn
+%0CapaAccesoDatos.Conexionn
 l
 
-≠ ≠(@)
+∆ ∆(@)
 cn#System.Data.SqlClient.SqlConnection"__id*-+
 )
-%3#System.Data.SqlClient.SqlConnectionXV
+%1#System.Data.SqlClient.SqlConnectionXV
 
-Æ Æ(:&
-%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÊ
-„
+«  (&
+%2 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÍ
+Á
 
-Æ Æ($
+« «($
 
-%5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
+%3void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
 &
-%4 System.Data.SqlClient.SqlCommand*
-spBuscarUbigeo*-+
+%2 System.Data.SqlClient.SqlCommand*
+spEliminarUsuarios*-+
 )
-cn#System.Data.SqlClient.SqlConnectioni
-g
-
-Æ Æ(:'
-cmd System.Data.SqlClient.SqlCommand"__id**(
-&
-%4 System.Data.SqlClient.SqlCommand$
+cn#System.Data.SqlClient.SqlConnection$
 "
 
-Ø" Ø(=
-%6"__id*
-""ó
-î
+…" …(=
+%4"__id*
+""ñ
+ì
 
-Ø Ø(=
-%7System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
-'
-cmd System.Data.SqlClient.SqlCommand*
+… …(=
+%5System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set**(
+&
+%2 System.Data.SqlClient.SqlCommand*
 
-%6°
+%4i
+g
+
+«  ('
+cmd System.Data.SqlClient.SqlCommand"__id**(
+&
+%2 System.Data.SqlClient.SqlCommand°
 û
 
-∞ ∞(2
-%8,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+À À(2
+%6,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
 '
-cmd System.Data.SqlClient.SqlCommandﬂ
-‹
+cmd System.Data.SqlClient.SqlCommand’
+“
 
-∞ ∞(?(
-%9"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
+À À(=(
+%7"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
 2
-%8,System.Data.SqlClient.SqlParameterCollection*
-
-@Campo*
-
-busquedastringv
-t
+%6,System.Data.SqlClient.SqlParameterCollection*
 
-± ±(
-%10void"*System.Data.SqlClient.SqlConnection.Open()*-+
+@idCliente*
+""u
+s
+
+Ã Ã(
+
+%8void"*System.Data.SqlClient.SqlConnection.Open()*-+
 )
-cn#System.Data.SqlClient.SqlConnectionö
-ó
-
-≤# ≤(6*
-%11#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
-'
-cmd System.Data.SqlClient.SqlCommando
-m
-
-≤ ≤(6)
-dr#System.Data.SqlClient.SqlDataReader"__id*.,
-*
-%11#System.Data.SqlClient.SqlDataReader*
-2*ó
-2
-≥ ≥( ~|
-
-≥ ≥( 
-%12bool"*System.Data.SqlClient.SqlDataReader.Read()*-+
-)
-dr#System.Data.SqlClient.SqlDataReader2Read()*
-3
-4*É
-3
-µ ∫(!CA
-
-µ$ µ(3
-%13CapaEntidad.EntUbigeo"CapaEntidad.EntUbigeo`
-^
-
-µ( µ(1
-%14void"!CapaEntidad.EntUbigeo.EntUbigeo()* 
-
-%13CapaEntidad.EntUbigeoT
-R
-
-µ µ(3
-ubiCapaEntidad.EntUbigeo"__id* 
-
-%13CapaEntidad.EntUbigeo•¢
-
-∂# ∂(1
-%15object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-idUbigeo2this[string].getOM
-
-∂# ∂(<
-%16string"object.ToString()*
-
-%15object2
-ToString()v
-t
-
-∂ ∂(<
-%17string""CapaEntidad.EntUbigeo.IdUbigeo.set* 
-
-ubiCapaEntidad.EntUbigeo*
-
-%16string©¶
-
-∑' ∑(9
-%18object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-departamento2this[string].getOM
-
-∑' ∑(D
-%19string"object.ToString()*
-
-%18object2
-ToString()z
+cn#System.Data.SqlClient.SqlConnectionz
 x
 
-∑ ∑(D
-%20string"&CapaEntidad.EntUbigeo.Departamento.set* 
-
-ubiCapaEntidad.EntUbigeo*
-
-%19string¶£
-
-∏$ ∏(3
-%21object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-	provincia2this[string].getOM
-
-∏$ ∏(>
-%22string"object.ToString()*
-
-%21object2
-ToString()w
-u
-
-∏ ∏(>
-%23string"#CapaEntidad.EntUbigeo.Provincia.set* 
-
-ubiCapaEntidad.EntUbigeo*
-
-%22string•¢
-
-π# π(1
-%24object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
-)
-dr#System.Data.SqlClient.SqlDataReader*
-
-distrito2this[string].getOM
-
-π# π(<
-%25string"object.ToString()*
-
-%24object2
-ToString()v
-t
-
-π π(<
-%26string""CapaEntidad.EntUbigeo.Distrito.set* 
-
-ubiCapaEntidad.EntUbigeo*
-
-%25string°
-û
-
-∫ ∫("
-%27void"0System.Collections.Generic.ICollection<T>.Add(T)*/-
+Õ Õ(-	
+%9int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*+)
+'
+cmd System.Data.SqlClient.SqlCommand-
 +
-lista"System.Collections.Generic.List<T>* 
-
-ubiCapaEntidad.EntUbigeo*
-2*
-4
-«	 «(	*
-5
-6*ù
-5
-¿ ¿()ca
 
-¿  ¿()
-%28string"System.Exception.Message.get*
+Õ Õ(-
+iint"__id*
+	
+%9int*
+2
+3*G
+2
+– –($1
+/
+
+– –($
+	eliminadobool"__id*
+""*
+3*
+3
+Ÿ	 Ÿ(	*
+4
+5*õ
+4÷ ÷(íca
+
+÷  ÷()
+%10string"System.Exception.Message.get*
 
-eSystem.Exception2Message.get°
-û
+eSystem.Exception2Message.get%
+#
 
-¿ ¿(*(
-%29!System.Windows.Forms.DialogResult",System.Windows.Forms.MessageBox.Show(string)*%#"!
+÷h ÷(|
+%11"__id*
+""&
+$
+÷~ ÷(í
+%12"__id*
+""œ
+Ã
+÷ ÷(ì(
+%13!System.Windows.Forms.DialogResult"ÅSystem.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
 System.Windows.Forms.MessageBox*
 
-%28string*
-6*≠
+%10string*?=;
+9Error al Eliminar Cliente procedimiento spEliminarCliente*	
+
+%11*	
+
+%12*
+5*2
+5
+ÿ ÿ("!
+
+ÿ ÿ(
+
+	eliminadobool*2
 6
-ƒ ƒ(&ô
-ñ
+Ÿ	 Ÿ(	"!
 
-ƒ ƒ(*
-%30#System.Data.SqlClient.SqlConnection"/System.Data.SqlClient.SqlCommand.Connection.get*+)
-'
-cmd System.Data.SqlClient.SqlCommandx
-v
+Ÿ Ÿ(	
+implicit return:
 
-ƒ ƒ(&
-%31void"+System.Data.SqlClient.SqlConnection.Close()*.,
-*
-%30#System.Data.SqlClient.SqlConnection*
-7
-8*L
-7
-∆ ∆(";
-
-∆ ∆(-
-+
-lista"System.Collections.Generic.List<T>*2
-8
-«	 «(	"!
-
-« «(	
-implicit return: 
-
-ß, ß(;
-busquedastringB
-CapaAccesoDatos.DatUbigeo
+¿% ¿(+	
+idintB
+CapaAccesoDatos.DatUsuario

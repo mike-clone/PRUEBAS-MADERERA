@@ -1,19 +1,26 @@
 
-KCapaLogica.LogDetVenta.LogDetVenta(CapaAccesoDatos.Interfaces.IDatDetVenta)a
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs ("1*
-1	 (	*
-0*º
-0 ('¥
-¢
- ('V
-CapaLogica.LogDetVenta":
-DetVentaService'CapaAccesoDatos.Interfaces.IDatDetVenta"__id*86
-4
-	IDetVenta'CapaAccesoDatos.Interfaces.IDatDetVenta*
-2*.
-2	 (	"
- (	
-implicit return:@
- (14
-	IDetVenta'CapaAccesoDatos.Interfaces.IDatDetVentaB
-CapaLogica.LogDetVenta
+BCapaLogica.LogProducto.ActualizarProducto(CapaEntidad.EntProducto)a
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProducto.cs) )(&"0*¾
+0+ +(:ž
+›
++ +("-
+%0'CapaAccesoDatos.Interfaces.IDatProducto"__id*ZX*V
+CapaLogica.LogProducto":
+ProductoService'CapaAccesoDatos.Interfaces.IDatProductoóð
++ +(;
+
+%1bool"SCapaAccesoDatos.Interfaces.IDatProducto.ActualizarProducto(CapaEntidad.EntProducto)*1/
+-
+%0'CapaAccesoDatos.Interfaces.IDatProducto*#!
+
+ProdCapaEntidad.EntProducto2+ActualizarProducto(CapaEntidad.EntProducto)"
++ +(<
+
+
+%1bool*.
+1,	 ,(	"
+, ,(	
+implicit return:+
+)' )(7
+ProdCapaEntidad.EntProductoB
+CapaLogica.LogProducto

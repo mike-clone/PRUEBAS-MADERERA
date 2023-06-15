@@ -1,26 +1,23 @@
 
-]CapaLogica.LogTemporaryProducts.ActualizarTemporaryProducts(CapaEntidad.EntTemporaryProducts)j
-`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs2 2(/"0*ô
-04 4(D∫
-∑
-4 4(#6
-%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts"__id*mk*i!
-CapaLogica.LogTemporaryProducts"D
-TemporaryService0CapaAccesoDatos.Interfaces.IDatTemporaryProducts≤Ø
-4 4(E
-
-%1bool"nCapaAccesoDatos.Interfaces.IDatTemporaryProducts.ActualizarTemporaryProducts(CapaEntidad.EntTemporaryProducts)*:8
-6
-%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts*,*
+$CapaLogica.LogVenta.ListarVenta(int)^
+TC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogVenta.cs" "()"0*ó
+0$ $(.í
+è
+$ $(*
+%0$CapaAccesoDatos.Interfaces.IDatVenta"__id*QO*M
+CapaLogica.LogVenta"4
+VentaService$CapaAccesoDatos.Interfaces.IDatVenta∫∑
+$ $(/(
+%1"System.Collections.Generic.List<T>"5CapaAccesoDatos.Interfaces.IDatVenta.ListarVenta(int)*.,
+*
+%0$CapaAccesoDatos.Interfaces.IDatVenta*
+""2ListarVenta(int)"6
+$ $(0*
 (
-temp CapaEntidad.EntTemporaryProducts2=ActualizarTemporaryProducts(CapaEntidad.EntTemporaryProducts)"
-4 4(F
-
-
-%1bool*.
-15	 5(	"
-5 5(	
-implicit return:4
-20 2(I(
-temp CapaEntidad.EntTemporaryProductsB#!
-CapaLogica.LogTemporaryProducts
+%1"System.Collections.Generic.List<T>*.
+1%	 %(	"
+% %(	
+implicit return:
+"* "(0	
+idintB
+CapaLogica.LogVenta

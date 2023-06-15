@@ -1,16 +1,15 @@
 
- CapaEntidad.EntProducto.Tipo.getb
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProducto.cs0 0("0*»
-00 0({
-y
-0 0(!
-%0CapaEntidad.EntTipoProducto"__id*DB*@
-CapaEntidad.EntProducto"#
-tipoCapaEntidad.EntTipoProducto"/
-0 0(#
-!
-%0CapaEntidad.EntTipoProducto*.
-10  0( "
-0 0( 
-implicit returnB
-CapaEntidad.EntProducto
+(CapaEntidad.entReporteVenta.SubTotal.setf
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs2 (5"0*e
+09 (IQ
+O
+9 (I3
+CapaEntidad.entReporteVenta"
+subTotaldouble"__id*
+""*
+1*.
+1J (J"
+I (J
+implicit return:
+valuedoubleB
+CapaEntidad.entReporteVenta

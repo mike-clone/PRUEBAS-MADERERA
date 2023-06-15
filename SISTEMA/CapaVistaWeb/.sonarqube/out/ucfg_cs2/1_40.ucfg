@@ -1,17 +1,192 @@
 
-&CapaAccesoDatos.DatVenta.Instancia.getc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatVenta.cs ("0*π
-0 (#|
-z
- (#
-%0CapaAccesoDatos.DatVenta"__id*HF*D
-CapaAccesoDatos.DatVenta"&
-
-_instanciaCapaAccesoDatos.DatVenta",
- ($ 
+BCapaAccesoDatos.DatDetVenta.CrearDetVenta(CapaEntidad.EntDetVenta)f
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatDetVenta.cs (!"0*á
+0 (E
+C
+ (!'
+cmd System.Data.SqlClient.SqlCommand"__id*
+"",
+*
+ (
+creadobool"__id*
+""*
+1*ı
+1 $(t
+r
+# (5
+%0CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
+CapaAccesoDatos.ConexionÄ
+~
+# (@)
+%1#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
 
-%0CapaAccesoDatos.DatVenta*.
-1& (&"
-% (&
-implicit returnB"
-CapaAccesoDatos.DatVenta
+%0CapaAccesoDatos.Conexionl
+j
+ (@)
+cn#System.Data.SqlClient.SqlConnection"__id*-+
+)
+%1#System.Data.SqlClient.SqlConnectionVT
+ (;&
+%2 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÂ
+‚
+ ($
+
+%3void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
+&
+%2 System.Data.SqlClient.SqlCommand*
+spCrearDetVenta*-+
+)
+cn#System.Data.SqlClient.SqlConnectiong
+e
+ (;'
+cmd System.Data.SqlClient.SqlCommand"__id**(
+&
+%2 System.Data.SqlClient.SqlCommand"
+ 
+" (=
+%4"__id*
+""ï
+í
+ (=
+%5System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
+'
+cmd System.Data.SqlClient.SqlCommand*
+
+%4ü
+ú
+ (2
+%6,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommando
+m
+8 (A
+%7CapaEntidad.EntVenta"!CapaEntidad.EntDetVenta.Venta.get*" 
+
+DetCapaEntidad.EntDetVentaY
+W
+8 (I	
+%8int" CapaEntidad.EntVenta.IdVenta.get*
+
+%7CapaEntidad.EntVenta÷
+”
+ (J(
+%9"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
+2
+%6,System.Data.SqlClient.SqlParameterCollection*
+
+@idVenta*
+	
+%8int†
+ù
+ (3
+%10,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandv
+t
+; (G
+%11CapaEntidad.EntProducto"$CapaEntidad.EntDetVenta.Producto.get*" 
+
+DetCapaEntidad.EntDetVentad
+b
+; (R
+
+%12int"&CapaEntidad.EntProducto.IdProducto.get*" 
+
+%11CapaEntidad.EntProducto‹
+Ÿ
+ (S)
+%13"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*75
+3
+%10,System.Data.SqlClient.SqlParameterCollection*
+@idProducto*
+
+
+%12int†
+ù
+   (3
+%14,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandb
+`
+ 9  (E
+
+%15int"$CapaEntidad.EntDetVenta.Cantidad.get*" 
+
+DetCapaEntidad.EntDetVenta⁄
+◊
+   (F)
+%16"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*75
+3
+%14,System.Data.SqlClient.SqlParameterCollection*
+	@cantidad*
+
+
+%15int†
+ù
+! !(3
+%17,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommande
+c
+!9 !(E
+%18double"$CapaEntidad.EntDetVenta.SubTotal.get*" 
+
+DetCapaEntidad.EntDetVenta›
+⁄
+! !(F)
+%19"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*75
+3
+%17,System.Data.SqlClient.SqlParameterCollection*
+	@subTotal*
+
+%18doublet
+r
+" "(
+%20void"*System.Data.SqlClient.SqlConnection.Open()*-+
+)
+cn#System.Data.SqlClient.SqlConnectiony
+w
+# #(-
+
+%21int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*+)
+'
+cmd System.Data.SqlClient.SqlCommand,
+*
+# #(-
+iint"__id*
+
+
+%21int*
+2
+3*@
+2& &(!,
+*
+& &(!
+creadobool"__id*
+""*
+3*
+3.	 .(	*
+4
+5*ó
+4+ +()a_
++  +()
+%22string"System.Exception.Message.get*
+
+eSystem.Exception2Message.getü
+ú
++ +(*(
+%23!System.Windows.Forms.DialogResult",System.Windows.Forms.MessageBox.Show(string)*%#"!
+System.Windows.Forms.MessageBox*
+
+%22string*
+5*+
+5- -("
+- -(
+
+creadobool*.
+6.	 .(	"
+. .(	
+implicit return:*
+" (1
+DetCapaEntidad.EntDetVentaB
+CapaAccesoDatos.DatDetVenta

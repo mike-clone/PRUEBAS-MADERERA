@@ -1,16 +1,14 @@
 
-!CapaEntidad.EntUsuario.Correo.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs? ?("0*i
-0? ?( U
-S
-? ?( ,
-CapaEntidad.EntUsuario"
-correostring"__id*
-
-valuestring*
+#CapaEntidad.entRoll.Descripcion.get]
+SC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entRol.cs$ ('"0*h
+0+ (6T
+R
++ (6
+%0string"__id*20*.
+CapaEntidad.entRoll"
+descripcionstring*
 1*.
-1?# ?(#"
-?" ?(#
-implicit return:
-valuestringB
-CapaEntidad.EntUsuario
+17 (7"
+6 (7
+implicit returnB
+CapaEntidad.entRoll

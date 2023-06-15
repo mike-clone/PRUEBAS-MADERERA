@@ -1,15 +1,16 @@
 
-!CapaEntidad.EntUsuario.Activo.geta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csP P("0*E
-0P P("
- 
-P P(
-%0"__id*
-"""
-P P( 
-
-%0*.
-1P" P(""
-P! P("
-implicit returnB
-CapaEntidad.EntUsuario
+ CapaEntidad.EntProveedor.Ruc.setc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs) )("0*h
+0) )(T
+R
+) )(+
+CapaEntidad.EntProveedor"
+rucstring"__id*
+
+valuestring*
+1*.
+1)  )( "
+) )( 
+implicit return:
+valuestringB
+CapaEntidad.EntProveedor

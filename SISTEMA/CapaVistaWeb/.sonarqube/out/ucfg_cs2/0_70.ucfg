@@ -1,16 +1,16 @@
 
- CapaEntidad.EntVenta.Cliente.get_
-UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs$ $("0*¬
-0$ $( q
-o
-$ $( 
-%0CapaEntidad.EntUsuario"__id*?=*;
-CapaEntidad.EntVenta"!
-clienteCapaEntidad.EntUsuario"*
-$ $(!
-
-%0CapaEntidad.EntUsuario*.
-1$# $(#"
-$" $(#
-implicit returnB
-CapaEntidad.EntVenta
+$CapaEntidad.EntUsuario.Direccion.seta
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs. .("0*l
+0. .(#X
+V
+. .(#/
+CapaEntidad.EntUsuario"
+	direccionstring"__id*
+
+valuestring*
+1*.
+1.& .(&"
+.% .(&
+implicit return:
+valuestringB
+CapaEntidad.EntUsuario

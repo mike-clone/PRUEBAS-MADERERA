@@ -1,16 +1,38 @@
 
-(CapaEntidad.entReporteVenta.Cantidad.setf
-\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs2 (5"0*p
-09 (I\
++CapaEntidad.EntProveedor.NombreCompleto.getc
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntProveedor.cs ("0*“
+0 (9Y
+W
+ ($
+%0string"__id*75*3
+CapaEntidad.EntProveedor"
+razonSocialstringT
+R
+ (+
+%1string"__concat*
+ ($
+
+%0string*
+' (+
+::Y
+W
+. (9
+%2string"__id*75*3
+CapaEntidad.EntProveedor"
+descripcionstring\
 Z
-9 (I3
-CapaEntidad.entReporteVenta"
-cantidadstring"__id*
-
-valuestring*
-1*.
-1J (J"
-I (J
-implicit return:
-valuestringB
-CapaEntidad.entReporteVenta
+ (9
+%3string"__concat*
+ (+
+
+%1string*
+. (9
+
+%2string"
+ (:
+
+%3string*.
+1< (<"
+; (<
+implicit returnB
+CapaEntidad.EntProveedor

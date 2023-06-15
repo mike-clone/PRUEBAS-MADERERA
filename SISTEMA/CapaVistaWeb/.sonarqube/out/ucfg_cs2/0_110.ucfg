@@ -1,14 +1,14 @@
 
-,CapaEntidad.entReporteCompra.Descripcion.getg
-]C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteCompra.cs$ ('"0*q
-0+ (6]
-[
++CapaEntidad.entReporteVenta.Descripcion.getf
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\entReporteVenta.cs$ ('"0*p
+0+ (6\
+Z
 + (6
-%0string"__id*;9*7
-CapaEntidad.entReporteCompra"
+%0string"__id*:8*6
+CapaEntidad.entReporteVenta"
 descripcionstring*
 1*.
 17 (7"
 6 (7
-implicit returnB 
-CapaEntidad.entReporteCompra
+implicit returnB
+CapaEntidad.entReporteVenta

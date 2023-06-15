@@ -1,21 +1,26 @@
 
-NCapaLogica.LogProveedor.LogProveedor(CapaAccesoDatos.Interfaces.IDatProveedor)b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs ("1*
-1	 (	*
-0*¿
-0 ()ª
-§
- ()Y
-CapaLogica.LogProveedor"<
-ProveedorService(CapaAccesoDatos.Interfaces.IDatProveedor"__id*:8
-6
+@CapaLogica.LogDetCompra.CrearDetCompra(CapaEntidad.EntDetCompra)b
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetCompra.cs (""0*¿
+0 (7¢
+Ÿ
+ (#.
+%0(CapaAccesoDatos.Interfaces.IDatDetCompra"__id*][*Y
+CapaLogica.LogDetCompra"<
+DetCompraService(CapaAccesoDatos.Interfaces.IDatDetCompraðí
+ (8
 
-IProveedor(CapaAccesoDatos.Interfaces.IDatProveedor*
-2*.
-2	 (	"
- (	
-implicit return:B
- (46
+%1bool"QCapaAccesoDatos.Interfaces.IDatDetCompra.CrearDetCompra(CapaEntidad.EntDetCompra)*20
+.
+%0(CapaAccesoDatos.Interfaces.IDatDetCompra*$"
+ 
+compCapaEntidad.EntDetCompra2(CrearDetCompra(CapaEntidad.EntDetCompra)"
+ (9
 
-IProveedor(CapaAccesoDatos.Interfaces.IDatProveedorB
-CapaLogica.LogProveedor
+
+%1bool*.
+1	 (	"
+ (	
+implicit return:,
+# (4 
+compCapaEntidad.EntDetCompraB
+CapaLogica.LogDetCompra

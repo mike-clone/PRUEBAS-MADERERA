@@ -1,16 +1,15 @@
 
-!CapaEntidad.EntUsuario.Correo.geta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs> >("0*}
-0> >(R
-P
-> >(
-%0string"__id*0.*,
-CapaEntidad.EntUsuario"
-correostring"
-> >( 
-
-%0string*.
-1>" >(""
->! >("
-implicit returnB
+!CapaEntidad.EntUsuario.Activo.seta
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.csQ Q("0*\
+0Q Q( H
+F
+Q Q( *
+CapaEntidad.EntUsuario"
+activobool"__id*
+""*
+1*.
+1Q# Q(#"
+Q" Q(#
+implicit return:
+valueboolB
 CapaEntidad.EntUsuario

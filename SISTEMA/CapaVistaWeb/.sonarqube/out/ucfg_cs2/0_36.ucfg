@@ -1,16 +1,16 @@
 
-.CapaEntidad.EntDetCompra.ProveedorProducto.setc
-YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntDetCompra.csR (U"0*¬
-0Y (r—
-”
-Y (rS
-CapaEntidad.EntDetCompra"5
-proveedorProducto CapaEntidad.EntProveedorProducto"__id*-+
-)
-value CapaEntidad.EntProveedorProducto*
+CapaEntidad.EntVenta.Fecha.set_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntVenta.cs ("0*x
+0 (d
+b
+ (2
+CapaEntidad.EntVenta"
+fechaSystem.DateTime"__id*
+
+valueSystem.DateTime*
 1*.
-1s (s"
-r (s
-implicit return:+)
-value CapaEntidad.EntProveedorProductoB
-CapaEntidad.EntDetCompra
+1" (""
+! ("
+implicit return:
+valueSystem.DateTimeB
+CapaEntidad.EntVenta

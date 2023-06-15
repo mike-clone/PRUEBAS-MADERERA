@@ -18,48 +18,6 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/App_Start/BundleConfig.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 18,
-                  "endLine": 5,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1118",
-          "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/App_Start/FilterConfig.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 18,
-                  "endLine": 5,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1118",
-          "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/App_Start/RouteConfig.cs",
                 "region": {
                   "startLine": 6,
@@ -96,185 +54,17 @@
           }
         },
         {
-          "ruleId": "S2933",
+          "ruleId": "S1118",
           "level": "warning",
-          "message": "Make 'TemporaryPservice' 'readonly'.",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/TemporaryProductController.cs",
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/App_Start/BundleConfig.cs",
                 "region": {
-                  "startLine": 15,
-                  "startColumn": 30,
-                  "endLine": 15,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProductoController.cs",
-                "region": {
-                  "startLine": 184,
-                  "startColumn": 13,
-                  "endLine": 184,
-                  "endColumn": 16
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'Productoservice' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProductoController.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 21,
-                  "endLine": 15,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'ProveedorProductoservice' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProductoController.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 30,
-                  "endLine": 16,
-                  "endColumn": 54
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'TemporaryPservice' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProductoController.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 30,
-                  "endLine": 17,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'TipoProductoservice' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProductoController.cs",
-                "region": {
-                  "startLine": 18,
-                  "startColumn": 25,
-                  "endLine": 18,
-                  "endColumn": 44
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'CompraService' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/CompraController.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 19,
-                  "endLine": 17,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'DetCompraService' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/CompraController.cs",
-                "region": {
-                  "startLine": 18,
-                  "startColumn": 22,
-                  "endLine": 18,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'Ventaservice' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/CompraController.cs",
-                "region": {
-                  "startLine": 19,
+                  "startLine": 5,
                   "startColumn": 18,
-                  "endLine": 19,
+                  "endLine": 5,
                   "endColumn": 30
                 }
               }
@@ -285,18 +75,18 @@
           }
         },
         {
-          "ruleId": "S2933",
+          "ruleId": "S1118",
           "level": "warning",
-          "message": "Make 'TemporaryPservice' 'readonly'.",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/CompraController.cs",
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/App_Start/FilterConfig.cs",
                 "region": {
-                  "startLine": 20,
-                  "startColumn": 30,
-                  "endLine": 20,
-                  "endColumn": 47
+                  "startLine": 5,
+                  "startColumn": 18,
+                  "endLine": 5,
+                  "endColumn": 30
                 }
               }
             }
@@ -411,136 +201,18 @@
           }
         },
         {
-          "ruleId": "S4144",
+          "ruleId": "S125",
           "level": "warning",
-          "message": "Update this method so that its implementation is not identical to 'EditarDatosCliente'.",
+          "message": "Remove this commented out code.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/HomeController.cs",
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProductoController.cs",
                 "region": {
-                  "startLine": 245,
-                  "startColumn": 29,
-                  "endLine": 245,
-                  "endColumn": 53
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/HomeController.cs",
-                "region": {
-                  "startLine": 166,
-                  "startColumn": 29,
-                  "endLine": 166,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'Productoservice' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 21,
-                  "endLine": 16,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'ProveedorProductoservice' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 30,
-                  "endLine": 17,
-                  "endColumn": 54
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'Ubigeoservice' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
-                "region": {
-                  "startLine": 18,
-                  "startColumn": 19,
-                  "endLine": 18,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'Proveedorservice' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
-                "region": {
-                  "startLine": 19,
-                  "startColumn": 22,
-                  "endLine": 19,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'validatorHelper' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
-                "region": {
-                  "startLine": 20,
-                  "startColumn": 25,
-                  "endLine": 20,
-                  "endColumn": 40
+                  "startLine": 184,
+                  "startColumn": 13,
+                  "endLine": 184,
+                  "endColumn": 16
                 }
               }
             }
@@ -613,27 +285,6 @@
           }
         },
         {
-          "ruleId": "S1144",
-          "level": "warning",
-          "message": "Remove the unused private field 'validatorHelper'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
-                "region": {
-                  "startLine": 20,
-                  "startColumn": 9,
-                  "endLine": 20,
-                  "endColumn": 65
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S2933",
           "level": "warning",
           "message": "Make 'Usuarioservice' 'readonly'.",
@@ -667,6 +318,355 @@
                   "startColumn": 19,
                   "endLine": 17,
                   "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'Productoservice' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 21,
+                  "endLine": 16,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'Productoservice' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProductoController.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 21,
+                  "endLine": 15,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'ProveedorProductoservice' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 30,
+                  "endLine": 17,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'ProveedorProductoservice' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProductoController.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 30,
+                  "endLine": 16,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'Ubigeoservice' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 19,
+                  "endLine": 18,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'TemporaryPservice' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProductoController.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 30,
+                  "endLine": 17,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'TipoProductoservice' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProductoController.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 25,
+                  "endLine": 18,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'Proveedorservice' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 22,
+                  "endLine": 19,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'validatorHelper' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 25,
+                  "endLine": 20,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'CompraService' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/CompraController.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 19,
+                  "endLine": 17,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'DetCompraService' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/CompraController.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 22,
+                  "endLine": 18,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'Ventaservice' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/CompraController.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 18,
+                  "endLine": 19,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'TemporaryPservice' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/CompraController.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 30,
+                  "endLine": 20,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'TemporaryPservice' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/TemporaryProductController.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 30,
+                  "endLine": 15,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4144",
+          "level": "warning",
+          "message": "Update this method so that its implementation is not identical to 'EditarDatosCliente'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/HomeController.cs",
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 29,
+                  "endLine": 245,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/HomeController.cs",
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 29,
+                  "endLine": 166,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1144",
+          "level": "warning",
+          "message": "Remove the unused private field 'validatorHelper'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 9,
+                  "endLine": 20,
+                  "endColumn": 65
                 }
               }
             }
@@ -781,6 +781,27 @@
           }
         },
         {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Use 'Count' property here instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/CompraController.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 41,
+                  "endLine": 61,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1854",
           "level": "warning",
           "message": "Remove this useless assignment to local variable 'list'.",
@@ -823,6 +844,48 @@
           }
         },
         {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'list'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/CompraController.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 44,
+                  "endLine": 56,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'usuario'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/CompraController.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 28,
+                  "endLine": 53,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1481",
           "level": "warning",
           "message": "Remove the unused local variable 'elimina'.",
@@ -856,27 +919,6 @@
                   "startColumn": 22,
                   "endLine": 63,
                   "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2757",
-          "level": "warning",
-          "message": "Was '!=' meant instead?",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
-                "region": {
-                  "startLine": 58,
-                  "startColumn": 29,
-                  "endLine": 58,
-                  "endColumn": 30
                 }
               }
             }
@@ -1100,27 +1142,6 @@
         {
           "ruleId": "S1481",
           "level": "warning",
-          "message": "Remove the unused local variable 'inserta'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
-                "region": {
-                  "startLine": 77,
-                  "startColumn": 26,
-                  "endLine": 77,
-                  "endColumn": 33
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1481",
-          "level": "warning",
           "message": "Remove the unused local variable 'elimina'.",
           "locations": [
             {
@@ -1131,6 +1152,27 @@
                   "startColumn": 22,
                   "endLine": 136,
                   "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2757",
+          "level": "warning",
+          "message": "Was '!=' meant instead?",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 29,
+                  "endLine": 58,
+                  "endColumn": 30
                 }
               }
             }
@@ -1161,6 +1203,27 @@
           }
         },
         {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'inserta'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/ProveedorController.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 26,
+                  "endLine": 77,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1121",
           "level": "warning",
           "message": "Extract the assignment of '_' from this expression.",
@@ -1173,69 +1236,6 @@
                   "startColumn": 31,
                   "endLine": 156,
                   "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2971",
-          "level": "warning",
-          "message": "Use 'Count' property here instead.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/CompraController.cs",
-                "region": {
-                  "startLine": 61,
-                  "startColumn": 41,
-                  "endLine": 61,
-                  "endColumn": 46
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1854",
-          "level": "warning",
-          "message": "Remove this useless assignment to local variable 'list'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/CompraController.cs",
-                "region": {
-                  "startLine": 56,
-                  "startColumn": 44,
-                  "endLine": 56,
-                  "endColumn": 83
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1854",
-          "level": "warning",
-          "message": "Remove this useless assignment to local variable 'usuario'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaVistaWeb/Controllers/CompraController.cs",
-                "region": {
-                  "startLine": 53,
-                  "startColumn": 28,
-                  "endLine": 53,
-                  "endColumn": 52
                 }
               }
             }

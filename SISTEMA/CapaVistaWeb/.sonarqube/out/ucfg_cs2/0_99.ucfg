@@ -1,16 +1,15 @@
 
-&CapaEntidad.EntUbigeo.Departamento.set`
-VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUbigeo.cs: (="0*n
-0A (UZ
-X
-A (U1
-CapaEntidad.EntUbigeo"
-departamentostring"__id*
-
-valuestring*
+/CapaEntidad.EntTipoProducto.IdTipo_producto.setf
+\C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTipoProducto.cs= (@"0*i
+0D ([U
+S
+D ([7
+CapaEntidad.EntTipoProducto"
+idTipo_productoint"__id*
+""*
 1*.
-1V (V"
-U (V
-implicit return:
-valuestringB
-CapaEntidad.EntUbigeo
+1\ (\"
+[ (\
+implicit return:
+valueintB
+CapaEntidad.EntTipoProducto

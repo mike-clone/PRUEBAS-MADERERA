@@ -12,27 +12,6 @@
       },
       "results": [
         {
-          "ruleId": "S101",
-          "level": "warning",
-          "message": "Rename class 'datGrafEst' to match pascal case naming rules, consider using 'DatGrafEst'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/datGrafEst.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 18,
-                  "endLine": 9,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S125",
           "level": "warning",
           "message": "Remove this commented out code.",
@@ -41,9 +20,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatCompra.cs",
                 "region": {
-                  "startLine": 180,
+                  "startLine": 167,
                   "startColumn": 21,
-                  "endLine": 180,
+                  "endLine": 167,
                   "endColumn": 77
                 }
               }
@@ -75,60 +54,18 @@
           }
         },
         {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatDetVenta.cs",
-                "region": {
-                  "startLine": 103,
-                  "startColumn": 9,
-                  "endLine": 103,
-                  "endColumn": 12
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S101",
           "level": "warning",
-          "message": "Rename class 'encrypt' to match pascal case naming rules, consider using 'Encrypt'.",
+          "message": "Rename class 'datGrafEst' to match pascal case naming rules, consider using 'DatGrafEst'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/encrypt.cs",
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/datGrafEst.cs",
                 "region": {
-                  "startLine": 6,
+                  "startLine": 9,
                   "startColumn": 18,
-                  "endLine": 6,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S125",
-          "level": "warning",
-          "message": "Remove this commented out code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatVenta.cs",
-                "region": {
-                  "startLine": 141,
-                  "startColumn": 9,
-                  "endLine": 141,
-                  "endColumn": 12
+                  "endLine": 9,
+                  "endColumn": 28
                 }
               }
             }
@@ -159,39 +96,18 @@
           }
         },
         {
-          "ruleId": "S2933",
+          "ruleId": "S101",
           "level": "warning",
-          "message": "Make 'detalle' 'readonly'.",
+          "message": "Rename class 'encrypt' to match pascal case naming rules, consider using 'Encrypt'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatDetVenta.cs",
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/encrypt.cs",
                 "region": {
-                  "startLine": 14,
-                  "startColumn": 35,
-                  "endLine": 14,
-                  "endColumn": 42
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1144",
-          "level": "warning",
-          "message": "Remove the unused private field 'detalle'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatDetVenta.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 9,
-                  "endLine": 14,
-                  "endColumn": 69
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 25
                 }
               }
             }
@@ -264,27 +180,6 @@
           }
         },
         {
-          "ruleId": "S2259",
-          "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatCompra.cs",
-                "region": {
-                  "startLine": 52,
-                  "startColumn": 17,
-                  "endLine": 52,
-                  "endColumn": 20
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S112",
           "level": "warning",
           "message": "'System.Exception' should not be thrown by user code.",
@@ -306,18 +201,18 @@
           }
         },
         {
-          "ruleId": "S2259",
+          "ruleId": "S1116",
           "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
+          "message": "Remove this empty statement.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedor.cs",
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedorProducto.cs",
                 "region": {
-                  "startLine": 95,
-                  "startColumn": 17,
-                  "endLine": 95,
-                  "endColumn": 20
+                  "startLine": 88,
+                  "startColumn": 18,
+                  "endLine": 88,
+                  "endColumn": 19
                 }
               }
             }
@@ -348,18 +243,18 @@
           }
         },
         {
-          "ruleId": "S2259",
+          "ruleId": "S112",
           "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
+          "message": "'System.Exception' should not be thrown by user code.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedor.cs",
                 "region": {
-                  "startLine": 131,
-                  "startColumn": 17,
-                  "endLine": 131,
-                  "endColumn": 20
+                  "startLine": 158,
+                  "startColumn": 23,
+                  "endLine": 158,
+                  "endColumn": 47
                 }
               }
             }
@@ -375,117 +270,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedor.cs",
+                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProducto.cs",
                 "region": {
-                  "startLine": 166,
+                  "startLine": 83,
                   "startColumn": 23,
-                  "endLine": 166,
+                  "endLine": 83,
                   "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1116",
-          "level": "warning",
-          "message": "Remove this empty statement.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedorProducto.cs",
-                "region": {
-                  "startLine": 92,
-                  "startColumn": 18,
-                  "endLine": 92,
-                  "endColumn": 19
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2259",
-          "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedorProducto.cs",
-                "region": {
-                  "startLine": 101,
-                  "startColumn": 17,
-                  "endLine": 101,
-                  "endColumn": 20
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2259",
-          "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedor.cs",
-                "region": {
-                  "startLine": 233,
-                  "startColumn": 17,
-                  "endLine": 233,
-                  "endColumn": 20
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3445",
-          "level": "warning",
-          "message": "Consider using 'throw;' to preserve the stack trace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedorProducto.cs",
-                "region": {
-                  "startLine": 144,
-                  "startColumn": 15,
-                  "endLine": 144,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2259",
-          "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatTemporaryProducts.cs",
-                "region": {
-                  "startLine": 250,
-                  "startColumn": 17,
-                  "endLine": 250,
-                  "endColumn": 20
                 }
               }
             }
@@ -503,9 +293,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedor.cs",
                 "region": {
-                  "startLine": 312,
+                  "startLine": 292,
                   "startColumn": 15,
-                  "endLine": 312,
+                  "endLine": 292,
                   "endColumn": 23
                 }
               }
@@ -516,207 +306,18 @@
           }
         },
         {
-          "ruleId": "S2259",
+          "ruleId": "S3445",
           "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatTemporaryProducts.cs",
-                "region": {
-                  "startLine": 306,
-                  "startColumn": 23,
-                  "endLine": 306,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2259",
-          "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProducto.cs",
-                "region": {
-                  "startLine": 149,
-                  "startColumn": 23,
-                  "endLine": 149,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S112",
-          "level": "warning",
-          "message": "'System.Exception' should not be thrown by user code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProducto.cs",
-                "region": {
-                  "startLine": 87,
-                  "startColumn": 23,
-                  "endLine": 87,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2259",
-          "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProducto.cs",
-                "region": {
-                  "startLine": 121,
-                  "startColumn": 23,
-                  "endLine": 121,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2259",
-          "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatTemporaryProducts.cs",
-                "region": {
-                  "startLine": 361,
-                  "startColumn": 23,
-                  "endLine": 361,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2259",
-          "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProducto.cs",
-                "region": {
-                  "startLine": 195,
-                  "startColumn": 17,
-                  "endLine": 195,
-                  "endColumn": 20
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2259",
-          "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProducto.cs",
-                "region": {
-                  "startLine": 238,
-                  "startColumn": 23,
-                  "endLine": 238,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2259",
-          "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProducto.cs",
-                "region": {
-                  "startLine": 289,
-                  "startColumn": 17,
-                  "endLine": 289,
-                  "endColumn": 20
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2259",
-          "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
+          "message": "Consider using 'throw;' to preserve the stack trace.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatProveedorProducto.cs",
                 "region": {
-                  "startLine": 289,
-                  "startColumn": 23,
-                  "endLine": 289,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2259",
-          "level": "warning",
-          "message": "'cmd' is null on at least one execution path.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatUsuario.cs",
-                "region": {
-                  "startLine": 363,
-                  "startColumn": 23,
-                  "endLine": 363,
-                  "endColumn": 26
+                  "startLine": 136,
+                  "startColumn": 15,
+                  "endLine": 136,
+                  "endColumn": 23
                 }
               }
             }
@@ -734,9 +335,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/mike/Desktop/Calidad_ofline/PRUEBAS-MADERERA/SISTEMA/CapaAccesoDatos/DatUsuario.cs",
                 "region": {
-                  "startLine": 330,
+                  "startLine": 314,
                   "startColumn": 22,
-                  "endLine": 330,
+                  "endLine": 314,
                   "endColumn": 74
                 }
               }
@@ -815,23 +416,6 @@
             ]
           }
         },
-        "S1144": {
-          "id": "S1144",
-          "shortDescription": "Unused private types or members should be removed",
-          "fullDescription": "private or internal types or private members that are never executed or referenced are dead code: unnecessary, inoperative code that should be removed. Cleaning out dead code decreases the size of the maintained codebase, making it easier to understand the program and preventing bugs from being introduced.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1144",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
         "S125": {
           "id": "S125",
           "shortDescription": "Sections of code should not be commented out",
@@ -878,39 +462,6 @@
             "tags": [
               "C#",
               "MainSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S2259": {
-          "id": "S2259",
-          "shortDescription": "Null pointers should not be dereferenced",
-          "fullDescription": "A reference to null should never be dereferenced/accessed. Doing so will cause a NullReferenceException to be thrown. At best, such an exception will cause abrupt program termination. At worst, it could expose debugging information that would be useful to an attacker, or it could allow an attacker to bypass security measures.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2259",
-          "properties": {
-            "category": "Major Bug",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "SonarWay"
-            ]
-          }
-        },
-        "S2933": {
-          "id": "S2933",
-          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
-          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "MainSourceScope",
-              "TestSourceScope",
               "SonarWay"
             ]
           }

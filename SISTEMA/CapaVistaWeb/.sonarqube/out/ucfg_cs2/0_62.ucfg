@@ -1,15 +1,16 @@
 
--CapaEntidad.EntTemporaryProducts.Subtotal.setk
-aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs2 (5"0*j
-09 (IV
-T
-9 (I8"
- CapaEntidad.EntTemporaryProducts"
-subtotaldouble"__id*
-""*
+!CapaEntidad.EntUsuario.Correo.seta
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs? ?("0*i
+0? ?( U
+S
+? ?( ,
+CapaEntidad.EntUsuario"
+correostring"__id*
+
+valuestring*
 1*.
-1J (J"
-I (J
+1?# ?(#"
+?" ?(#
 implicit return:
-valuedoubleB$"
- CapaEntidad.EntTemporaryProducts
+valuestringB
+CapaEntidad.EntUsuario

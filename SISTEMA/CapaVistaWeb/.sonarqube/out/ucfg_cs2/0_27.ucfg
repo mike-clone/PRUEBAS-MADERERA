@@ -1,16 +1,14 @@
 
-&CapaEntidad.EntUsuario.RazonSocial.seta
-WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntUsuario.cs" "("0*n
-0" "(%Z
-X
-" "(%1
-CapaEntidad.EntUsuario"
-razonSocialstring"__id*
-
-valuestring*
+6CapaEntidad.EntTemporaryProducts.ProveedorProducto.getk
+aC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaEntidad\EntTemporaryProducts.cs8 (;"0*±
+0? (Pœ
+™
+? (P&
+%0 CapaEntidad.EntProveedorProducto"__id*_]*["
+ CapaEntidad.EntTemporaryProducts"5
+proveedorProducto CapaEntidad.EntProveedorProducto*
 1*.
-1"( "(("
-"' "((
-implicit return:
-valuestringB
-CapaEntidad.EntUsuario
+1Q (Q"
+P (Q
+implicit returnB$"
+ CapaEntidad.EntTemporaryProducts

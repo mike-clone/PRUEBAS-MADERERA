@@ -1,8 +1,2 @@
-‚
-CapaAccesoDatos.DatCompraobject%CapaAccesoDatos.Interfaces.IDatComprab
-"CrearCompra(CapaEntidad.EntCompra)<CapaAccesoDatos.DatCompra.CrearCompra(CapaEntidad.EntCompra)@
-ListarCompra(int)+CapaAccesoDatos.DatCompra.ListarCompra(int)L
-ListarTodasLasCompras()1CapaAccesoDatos.DatCompra.ListarTodasLasCompras()D
-EliminarCompra(int)-CapaAccesoDatos.DatCompra.EliminarCompra(int)F
-BuscarCompra(string).CapaAccesoDatos.DatCompra.BuscarCompra(string)4
-DatCompra()%CapaAccesoDatos.DatCompra.DatCompra()
+2
+0CapaAccesoDatos.Interfaces.IDatProveedorProducto

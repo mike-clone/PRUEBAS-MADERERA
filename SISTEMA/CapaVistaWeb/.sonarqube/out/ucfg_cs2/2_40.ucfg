@@ -1,17 +1,23 @@
 
-(CapaLogica.LogTipoProducto.Instancia.gete
-[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTipoProducto.cs ("0*Ã
-0 (#ƒ
-€
- (# 
-%0CapaLogica.LogTipoProducto"__id*LJ*H
-CapaLogica.LogTipoProducto"(
-
-_instanciaCapaLogica.LogTipoProducto".
- ($"
- 
-%0CapaLogica.LogTipoProducto*.
-1& (&"
-% (&
-implicit returnB"
-CapaLogica.LogTipoProducto
+@CapaLogica.LogTemporaryProducts.MostrarTemporaryProductsCli(int)j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs** *(E"0*÷
+0, ,(Iº
+·
+, ,(#6
+%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts"__id*mk*i!
+CapaLogica.LogTemporaryProducts"D
+TemporaryService0CapaAccesoDatos.Interfaces.IDatTemporaryProductsòï
+, ,(J(
+%1"System.Collections.Generic.List<T>"QCapaAccesoDatos.Interfaces.IDatTemporaryProducts.MostrarTemporaryProductsCli(int)*:8
+6
+%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts*
+""2 MostrarTemporaryProductsCli(int)"6
+, ,(K*
+(
+%1"System.Collections.Generic.List<T>*.
+1-	 -(	"
+- -(	
+implicit return:
+*F *(S
+	idUsuariointB#!
+CapaLogica.LogTemporaryProducts

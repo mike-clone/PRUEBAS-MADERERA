@@ -9,11 +9,12 @@ namespace CapaLogica
 {
     public class LogUsuario
     {
+        private readonly IDatUsuario UsuarioService;
+
         public LogUsuario()
         {
             
         }
-        private IDatUsuario UsuarioService;
         public LogUsuario(IDatUsuario IUsuario)
         {
             UsuarioService = IUsuario;

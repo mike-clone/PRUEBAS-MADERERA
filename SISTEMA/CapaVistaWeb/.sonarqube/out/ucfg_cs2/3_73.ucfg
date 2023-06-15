@@ -1,9 +1,9 @@
 
->MadereraCarocho.Controllers.ProveedorController.Listar(string)w
-mC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\ProveedorController.cs (""5*o
-0  (*X
+DMadereraCarocho.Controllers.UsuarioController.ListarClientes(string)u
+kC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\UsuarioController.cs (*"5*o
+0 (*X
 V
-   (+
+ (+
 
 %0bool"string.IsNullOrEmpty(string)*
 "
@@ -11,63 +11,63 @@ V
 
 datostring*
 1
-2*æ
-1" "(=ò
-ï
-" "((
-%1CapaLogica.LogProveedor"__id*db*`1
-/MadereraCarocho.Controllers.ProveedorController"+
-ProveedorserviceCapaLogica.LogProveedorü
-ú
-" "(>(
-%2"System.Collections.Generic.List<T>"/CapaLogica.LogProveedor.BuscarProveedor(string)*!
-
-%1CapaLogica.LogProveedor*
+2*±
+1 (:ê
+ç
+ (&
+%1CapaLogica.LogUsuario"__id*^\*Z/
+-MadereraCarocho.Controllers.UsuarioController"'
+UsuarioserviceCapaLogica.LogUsuarioö
+ó
+ (;(
+%2"System.Collections.Generic.List<T>",CapaLogica.LogUsuario.BuscarClientes(string)*
+
+%1CapaLogica.LogUsuario*
 
 datostringm
 k
-" "(>+
+ (;+
 lista"System.Collections.Generic.List<T>"__id*,*
 (
 %2"System.Collections.Generic.List<T>*
-3*§
-2& &(:ò
-ï
-& &((
-%3CapaLogica.LogProveedor"__id*db*`1
-/MadereraCarocho.Controllers.ProveedorController"+
-ProveedorserviceCapaLogica.LogProveedorÖ
-Ç
-& &(:(
-%4"System.Collections.Generic.List<T>")CapaLogica.LogProveedor.ListarProveedor()*!
-
-%3CapaLogica.LogProveedorm
+3*ï
+2# #(7ê
+ç
+# #(&
+%3CapaLogica.LogUsuario"__id*^\*Z/
+-MadereraCarocho.Controllers.UsuarioController"'
+UsuarioserviceCapaLogica.LogUsuario
+}
+# #(7(
+%4"System.Collections.Generic.List<T>"&CapaLogica.LogUsuario.ListarClientes()*
+
+%3CapaLogica.LogUsuariom
 k
-& &(:+
+# #(7+
 lista"System.Collections.Generic.List<T>"__id*,*
 (
 %4"System.Collections.Generic.List<T>*
-3*µ
-3) ,(è
-å
-)* )(7
-%5CapaLogica.LogUbigeo"__id*^\*Z1
-/MadereraCarocho.Controllers.ProveedorController"%
+3*º
+3% +(ç
+ä
+%* %(7
+%5CapaLogica.LogUbigeo"__id*\Z*X/
+-MadereraCarocho.Controllers.UsuarioController"%
 UbigeoserviceCapaLogica.LogUbigeo}
 {
-)* )(H(
+%* %(H(
 %6"System.Collections.Generic.List<T>"%CapaLogica.LogUbigeo.ListarDistrito()*
 
 %5CapaLogica.LogUbigeos
 q
-) )(H1
+% %(H1
 listaUbigeo"System.Collections.Generic.List<T>"__id*,*
 (
 %6"System.Collections.Generic.List<T>HF
-* *(N
+& &(N
 %7System.Web.Mvc.SelectList"System.Web.Mvc.SelectListÎ
 Ë
-* *()
+& &()
 
 %8void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
 
@@ -79,70 +79,62 @@ q
 
 distrito^
 \
-* *(N%
+& &(N%
 lsUbigeoSystem.Web.Mvc.SelectList"__id*#!
 
 %7System.Web.Mvc.SelectList/-
-+ +(
+( ((
 %ViewBagDataAllobject"object0.
-+ +(
+( ((
 %ViewBagDataHtmlobject"objecty
 w
-+ +(*
+( ((!
 %9"__mapSet*
+
+%ViewBagDataAllobject*	
+lista*/-
++
+lista"System.Collections.Generic.List<T>T
+R
+( ((!
+%10"__mapSet*
+
+%ViewBagDataHtmlobject*	
+lista*
+""z
+x
+) )(*
+%11"__mapSet*
 
 %ViewBagDataAllobject*
 listaUbigeo*)'
 %
 lsUbigeoSystem.Web.Mvc.SelectListZ
 X
-+ +(*
-%10"__mapSet*
+) )(*
+%12"__mapSet*
 
 %ViewBagDataHtmlobject*
 listaUbigeo*
-""º
-π
-, ,(
-%11void"#capavistaweb/views/proveedor/listar*	
-
-%12*/-
-+
-lista"System.Collections.Generic.List<T>*
+""Y
+W
+* *(&
+%13"__mapSet*
 
-%ViewBagDataAllobject*
+%ViewBagDataAllobject*	
+Error*
+
+listandoT
+R
+* *(&
+%14"__mapSet*
 
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject∂
-≥
-, ,(
-%13void"capavistaweb/views/_viewstart*	
-
-%14*/-
-+
-lista"System.Collections.Generic.List<T>*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject*" 
-
-%HttpContextItemsAllobject*#!
-
-%HttpContextItemsHtmlobject∫
-∑
-, ,(
-%15void"!capavistaweb/views/shared/_layout*	
+%ViewBagDataHtmlobject*	
+Error*
+""¬
+ø
++ +(
+%15void")capavistaweb/views/usuario/listarclientes*	
 
 %16*/-
 +
@@ -158,20 +150,58 @@ X
 
 %HttpContextItemsAllobject*#!
 
+%HttpContextItemsHtmlobject∂
+≥
++ +(
+%17void"capavistaweb/views/_viewstart*	
+
+%18*/-
++
+lista"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject∫
+∑
++ +(
+%19void"!capavistaweb/views/shared/_layout*	
+
+%20*/-
++
+lista"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
 %HttpContextItemsHtmlobject"
-, ,(
++ +(
 
-%15void*.
-4-	 -(	"
-- -(	
+%19void*.
+4,	 ,(	"
+, ,(	
 implicit return*I
-5/ (/5
+57 (75
 3
- ("
-%17"__entrypoint*
+ (*
+%21"__entrypoint*
 
 datostring*
 0:
-# (.
-datostringB31
-/MadereraCarocho.Controllers.ProveedorController
++ (6
+datostringB1/
+-MadereraCarocho.Controllers.UsuarioController

@@ -1,23 +1,26 @@
 
-3CapaLogica.LogDetCompra.MostrarDetalleCompraId(int)b
-XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetCompra.cs" (8"0*Å
-0 (=¢
-Ÿ
- (#.
-%0(CapaAccesoDatos.Interfaces.IDatDetCompra"__id*][*Y
-CapaLogica.LogDetCompra"<
-DetCompraService(CapaAccesoDatos.Interfaces.IDatDetCompraØÕ
- (>(
-%1"System.Collections.Generic.List<T>"DCapaAccesoDatos.Interfaces.IDatDetCompra.MostrarDetalleCompraId(int)*20
-.
-%0(CapaAccesoDatos.Interfaces.IDatDetCompra*
-""2MostrarDetalleCompraId(int)"6
- (?*
+\CapaLogica.LogTemporaryProducts.CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs! !(."0*—
+0# #(Cº
+·
+# #(#6
+%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts"__id*mk*i!
+CapaLogica.LogTemporaryProducts"D
+TemporaryService0CapaAccesoDatos.Interfaces.IDatTemporaryProducts°­
+# #(D
+
+%1bool"mCapaAccesoDatos.Interfaces.IDatTemporaryProducts.CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)*:8
+6
+%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts*,*
 (
-%1"System.Collections.Generic.List<T>*.
-1	 (	"
- (	
-implicit return:
-9 (?	
-idintB
-CapaLogica.LogDetCompra
+temp CapaEntidad.EntTemporaryProducts2<CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)"
+# #(E
+
+
+%1bool*.
+1$	 $(	"
+$ $(	
+implicit return:4
+!/ !(H(
+temp CapaEntidad.EntTemporaryProductsB#!
+CapaLogica.LogTemporaryProducts
