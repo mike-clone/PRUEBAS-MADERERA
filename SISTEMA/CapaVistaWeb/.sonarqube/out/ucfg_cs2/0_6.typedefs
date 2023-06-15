@@ -1,0 +1,25 @@
+ã
+CapaEntidad.EntProveedorobject9
+EntProveedor()'CapaEntidad.EntProveedor.EntProveedor()A
+NombreCompleto.get+CapaEntidad.EntProveedor.NombreCompleto.getA
+NombreCompleto.set+CapaEntidad.EntProveedor.NombreCompleto.set;
+IdProveedor.get(CapaEntidad.EntProveedor.IdProveedor.get;
+IdProveedor.set(CapaEntidad.EntProveedor.IdProveedor.set;
+RazonSocial.get(CapaEntidad.EntProveedor.RazonSocial.get;
+RazonSocial.set(CapaEntidad.EntProveedor.RazonSocial.set+
+Ruc.get CapaEntidad.EntProveedor.Ruc.get+
+Ruc.set CapaEntidad.EntProveedor.Ruc.set1
+
+Correo.get#CapaEntidad.EntProveedor.Correo.get1
+
+Correo.set#CapaEntidad.EntProveedor.Correo.set5
+Telefono.get%CapaEntidad.EntProveedor.Telefono.get5
+Telefono.set%CapaEntidad.EntProveedor.Telefono.set;
+Descripcion.get(CapaEntidad.EntProveedor.Descripcion.get;
+Descripcion.set(CapaEntidad.EntProveedor.Descripcion.set=
+EstProveedor.get)CapaEntidad.EntProveedor.EstProveedor.get=
+EstProveedor.set)CapaEntidad.EntProveedor.EstProveedor.set1
+
+Ubigeo.get#CapaEntidad.EntProveedor.Ubigeo.get1
+
+Ubigeo.set#CapaEntidad.EntProveedor.Ubigeo.set

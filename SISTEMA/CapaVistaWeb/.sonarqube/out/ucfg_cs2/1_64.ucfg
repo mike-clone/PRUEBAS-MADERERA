@@ -1,0 +1,232 @@
+
+@CapaAccesoDatos.DatUsuario.EditarCliente(CapaEntidad.EntUsuario)g
+[C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUsuario.csá á(!"0*ê
+0
+â ä("G
+E
+
+â â(!'
+cmd System.Data.SqlClient.SqlCommand"__id*
+""1
+/
+
+ä ä("
+	actualizabool"__id*
+""*
+1*¿
+1
+ç ñ(v
+t
+
+ç# ç(5
+%0CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
+CapaAccesoDatos.ConexionÉ
+Ä
+
+ç# ç(@)
+%1#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
+
+%0CapaAccesoDatos.Conexionn
+l
+
+ç ç(@)
+cn#System.Data.SqlClient.SqlConnection"__id*-+
+)
+%1#System.Data.SqlClient.SqlConnectionXV
+
+é é(?&
+%2 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÎ
+Ë
+
+é é($
+
+%3void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
+&
+%2 System.Data.SqlClient.SqlCommand*
+spActualizarCliente*-+
+)
+cn#System.Data.SqlClient.SqlConnectioni
+g
+
+é é(?'
+cmd System.Data.SqlClient.SqlCommand"__id**(
+&
+%2 System.Data.SqlClient.SqlCommand$
+"
+
+è" è(=
+%4"__id*
+""ó
+î
+
+è è(=
+%5System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
+'
+cmd System.Data.SqlClient.SqlCommand*
+
+%4°
+û
+
+ê ê(2
+%6,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommand`
+^
+
+ê: ê(E	
+%7int"$CapaEntidad.EntUsuario.IdUsuario.get*
+
+uCapaEntidad.EntUsuario⁄
+◊
+
+ê ê(F(
+%8"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
+2
+%6,System.Data.SqlClient.SqlParameterCollection*
+
+@idUsuario*
+	
+%7int°
+û
+
+ë ë(2
+%9,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandf
+d
+
+ë< ë(I
+%10string"&CapaEntidad.EntUsuario.RazonSocial.get*
+
+uCapaEntidad.EntUsuario·
+ﬁ
+
+ë ë(J)
+%11"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
+2
+%9,System.Data.SqlClient.SqlParameterCollection*
+@razonSocial*
+
+%10string¢
+ü
+
+í í(3
+%12,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandc
+a
+
+í9 í(C
+%13string"#CapaEntidad.EntUsuario.UserName.get*
+
+uCapaEntidad.EntUsuarioﬂ
+‹
+
+í í(D)
+%14"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*75
+3
+%12,System.Data.SqlClient.SqlParameterCollection*
+	@userName*
+
+%13string¢
+ü
+
+ì ì(3
+%15,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommand_
+]
+
+ì7 ì(?
+%16bool"!CapaEntidad.EntUsuario.Activo.get*
+
+uCapaEntidad.EntUsuario€
+ÿ
+
+ì ì(@)
+%17"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*75
+3
+%15,System.Data.SqlClient.SqlParameterCollection*	
+@activo*
+
+%16boolv
+t
+
+î î(
+%18void"*System.Data.SqlClient.SqlConnection.Open()*-+
+)
+cn#System.Data.SqlClient.SqlConnection{
+y
+
+ï ï(-
+
+%19int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*+)
+'
+cmd System.Data.SqlClient.SqlCommand.
+,
+
+ï ï(-
+iint"__id*
+
+
+%19int*
+2
+3*G
+2
+ò ò($1
+/
+
+ò ò($
+	actualizabool"__id*
+""*
+3*
+3
+£	 £(	*
+4
+5*ù
+4
+ù ù()ca
+
+ù  ù()
+%20string"System.Exception.Message.get*
+
+eSystem.Exception2Message.get°
+û
+
+ù ù(*(
+%21!System.Windows.Forms.DialogResult",System.Windows.Forms.MessageBox.Show(string)*%#"!
+System.Windows.Forms.MessageBox*
+
+%20string*
+5*≠
+5
+ü ü(,ô
+ñ
+
+ü ü($*
+%22#System.Data.SqlClient.SqlConnection"/System.Data.SqlClient.SqlCommand.Connection.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandx
+v
+
+ü ü(,
+%23void"+System.Data.SqlClient.SqlConnection.Close()*.,
+*
+%22#System.Data.SqlClient.SqlConnection*
+6
+7*2
+6
+° °("!
+
+° °(
+
+	actualizabool*2
+7
+£	 £(	"!
+
+£ £(	
+implicit return:)
+
+á" á(.
+uCapaEntidad.EntUsuarioB
+CapaAccesoDatos.DatUsuario

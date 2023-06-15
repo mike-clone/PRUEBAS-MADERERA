@@ -1,0 +1,11 @@
+ª	
+$CapaAccesoDatos.DatTemporaryProductsobject0CapaAccesoDatos.Interfaces.IDatTemporaryProducts¡
+<CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)aCapaAccesoDatos.DatTemporaryProducts.CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)›
+9CreaarTemporaryProducts(CapaEntidad.EntTemporaryProducts)^CapaAccesoDatos.DatTemporaryProducts.CreaarTemporaryProducts(CapaEntidad.EntTemporaryProducts)c
+MostrarTemporaryProducts(int)BCapaAccesoDatos.DatTemporaryProducts.MostrarTemporaryProducts(int)i
+ MostrarTemporaryProductsCli(int)ECapaAccesoDatos.DatTemporaryProducts.MostrarTemporaryProductsCli(int)e
+EliminarTemporaryProducts(int)CCapaAccesoDatos.DatTemporaryProducts.EliminarTemporaryProducts(int)£
+=ActualizarTemporaryProducts(CapaEntidad.EntTemporaryProducts)bCapaAccesoDatos.DatTemporaryProducts.ActualizarTemporaryProducts(CapaEntidad.EntTemporaryProducts)e
+BuscarTemporaryProductsId(int)CCapaAccesoDatos.DatTemporaryProducts.BuscarTemporaryProductsId(int)k
+!BuscarTemporaryProductsIdCli(int)FCapaAccesoDatos.DatTemporaryProducts.BuscarTemporaryProductsIdCli(int)U
+DatTemporaryProducts();CapaAccesoDatos.DatTemporaryProducts.DatTemporaryProducts()

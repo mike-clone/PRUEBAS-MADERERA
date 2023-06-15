@@ -1,0 +1,24 @@
+
+)CapaLogica.LogCompra.BuscarCompra(string)_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs' '(+"0*³
+0) )(6–
+“
+) )( +
+%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
+CapaLogica.LogCompra"6
+CompraService%CapaAccesoDatos.Interfaces.IDatCompraÒÏ
+) )(7(
+%1"System.Collections.Generic.List<T>":CapaAccesoDatos.Interfaces.IDatCompra.BuscarCompra(string)*/-
++
+%0%CapaAccesoDatos.Interfaces.IDatCompra*
+
+busquedastring2BuscarCompra(string)"6
+) )(8*
+(
+%1"System.Collections.Generic.List<T>*.
+1*	 *(	"
+* *(	
+implicit return:
+', '(;
+busquedastringB
+CapaLogica.LogCompra

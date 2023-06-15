@@ -1,0 +1,123 @@
+
+9MadereraCarocho.Controllers.VentaController.ListarVenta()s
+iC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\VentaController.cs ('"2*ð
+0 (BB@
+! (1
+%0CapaEntidad.EntUsuario"CapaEntidad.EntUsuario_
+]
+% (/
+
+%1void"#CapaEntidad.EntUsuario.EntUsuario()* 
+
+%0CapaEntidad.EntUsuarioW
+U
+ (1!
+usuarioCapaEntidad.EntUsuario"__id* 
+
+%0CapaEntidad.EntUsuario{
+y
+ (%
+%2System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
+System.Web.Mvc.Controller£ 
+ ((
+%3object":System.Collections.Generic.ICollection<T>.this[string].get*)'
+%
+%2System.Web.HttpSessionStateBase*	
+Usuario2this[string].get2
+0
+ (6
+%4object"__id*
+
+%3objectG
+E
+ (6!
+usuarioCapaEntidad.EntUsuario"__id*
+
+%4objectˆ
+…
+ ($
+%5CapaLogica.LogVenta"__id*XV*T-
++MadereraCarocho.Controllers.VentaController"#
+VentaserviceCapaLogica.LogVentad
+b
+1 (B	
+%6int"$CapaEntidad.EntUsuario.IdUsuario.get*%#
+!
+usuarioCapaEntidad.EntUsuario‹
+ˆ
+ (C(
+%7"System.Collections.Generic.List<T>"$CapaLogica.LogVenta.ListarVenta(int)*
+
+%5CapaLogica.LogVenta*
+	
+%6int¸
+µ
+ (D
+
+%8void"$capavistaweb/views/venta/listarventa*
+
+%9*,*
+(
+%7"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject³
+°
+ (D
+%10void"capavistaweb/views/_viewstart*	
+
+%11*,*
+(
+%7"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject·
+´
+ (D
+%12void"!capavistaweb/views/shared/_layout*	
+
+%13*,*
+(
+%7"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+ (E
+
+%12void*.
+1 	  (	"
+   (	
+implicit return*5
+2) ()!
+
+ ('
+%14"__entrypoint*
+0B/-
++MadereraCarocho.Controllers.VentaController

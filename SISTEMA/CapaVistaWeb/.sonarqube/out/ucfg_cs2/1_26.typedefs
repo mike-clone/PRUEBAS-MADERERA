@@ -1,0 +1,7 @@
+â
+CapaAccesoDatos.DatVentaobject$CapaAccesoDatos.Interfaces.IDatVenta]
+ CrearVenta(CapaEntidad.EntVenta)9CapaAccesoDatos.DatVenta.CrearVenta(CapaEntidad.EntVenta)=
+ListarVenta(int))CapaAccesoDatos.DatVenta.ListarVenta(int)G
+ListarTodasLasVenta().CapaAccesoDatos.DatVenta.ListarTodasLasVenta()1
+
+DatVenta()#CapaAccesoDatos.DatVenta.DatVenta()

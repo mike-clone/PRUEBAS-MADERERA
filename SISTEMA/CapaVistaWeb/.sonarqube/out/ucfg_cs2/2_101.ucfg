@@ -1,0 +1,23 @@
+
+.CapaLogica.LogProveedor.BuscarIdProveedor(int)b
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.css s(-"0*§
+0u u(A¢
+Ÿ
+u u(#.
+%0(CapaAccesoDatos.Interfaces.IDatProveedor"__id*][*Y
+CapaLogica.LogProveedor"<
+ProveedorService(CapaAccesoDatos.Interfaces.IDatProveedorÄÁ
+u u(B
+%1CapaEntidad.EntProveedor"?CapaAccesoDatos.Interfaces.IDatProveedor.BuscarIdProveedor(int)*20
+.
+%0(CapaAccesoDatos.Interfaces.IDatProveedor*
+""2BuscarIdProveedor(int)",
+u u(C 
+
+%1CapaEntidad.EntProveedor*.
+1v	 v(	"
+v v(	
+implicit return:
+s. s(=
+idProveedorintB
+CapaLogica.LogProveedor

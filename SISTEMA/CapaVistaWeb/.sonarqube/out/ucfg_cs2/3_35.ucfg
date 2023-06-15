@@ -1,0 +1,186 @@
+
+HMadereraCarocho.Controllers.HomeController.AgregarTempPrductCliente(int)t
+hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csŒ Œ(4"5*é
+0
+– ⁄(+}
+{
+
+–! –((%
+%0System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
+System.Web.Mvc.Controller•¢
+
+–! –(3
+%1object":System.Collections.Generic.ICollection<T>.this[string].get*)'
+%
+%0System.Web.HttpSessionStateBase*	
+Usuario2this[string].get4
+2
+
+–! –(A
+%2object"__id*
+
+%1objectI
+G
+
+– –(A!
+usuarioCapaEntidad.EntUsuario"__id*
+
+%2objectí
+è
+
+— —(&
+%3CapaLogica.LogProducto"__id*][*Y,
+*MadereraCarocho.Controllers.HomeController")
+ProductoserviceCapaLogica.LogProductoà
+Ö
+
+— —(?
+%4CapaEntidad.EntProducto",CapaLogica.LogProducto.BuscarProductoId(int)* 
+
+%3CapaLogica.LogProducto*
+""X
+V
+
+— —(?
+prodCapaEntidad.EntProducto"__id*!
+
+%4CapaEntidad.EntProductoXV
+
+“5 €(&
+%5 CapaEntidad.EntTemporaryProducts" CapaEntidad.EntTemporaryProducts
+}
+
+“9 “(M
+
+%6void"7CapaEntidad.EntTemporaryProducts.EntTemporaryProducts()**(
+&
+%5 CapaEntidad.EntTemporaryProductsXV
+
+‘$ ◊(&
+%7 CapaEntidad.EntProveedorProducto" CapaEntidad.EntProveedorProducto
+}
+
+‘( ‘(<
+
+%8void"7CapaEntidad.EntProveedorProducto.EntProveedorProducto()**(
+&
+%7 CapaEntidad.EntProveedorProductoÆ
+´
+
+÷ ÷(#
+%9CapaEntidad.EntProducto"-CapaEntidad.EntProveedorProducto.Producto.set**(
+&
+%7 CapaEntidad.EntProveedorProducto*#!
+
+prodCapaEntidad.EntProducto»
+≈
+
+‘ ◊('
+%10 CapaEntidad.EntProveedorProducto"6CapaEntidad.EntTemporaryProducts.ProveedorProducto.set**(
+&
+%5 CapaEntidad.EntTemporaryProducts**(
+&
+%7 CapaEntidad.EntProveedorProductoØ
+¨
+
+ÿ ÿ(!
+%11CapaEntidad.EntUsuario",CapaEntidad.EntTemporaryProducts.Usuario.set**(
+&
+%5 CapaEntidad.EntTemporaryProducts*%#
+!
+usuarioCapaEntidad.EntUsuario}
+{
+
+Ÿ Ÿ(
+
+%12int"-CapaEntidad.EntTemporaryProducts.Cantidad.set**(
+&
+%5 CapaEntidad.EntTemporaryProducts*2k
+i
+
+⁄ ⁄(+
+%13double"'CapaEntidad.EntProducto.PrecioVenta.get*#!
+
+prodCapaEntidad.EntProductoå
+â
+
+⁄ ⁄(+
+%14double"-CapaEntidad.EntTemporaryProducts.Subtotal.set**(
+&
+%5 CapaEntidad.EntTemporaryProducts*
+
+%13doublew
+u
+
+“! €(5
+temporaryProducts CapaEntidad.EntTemporaryProducts"__id**(
+&
+%5 CapaEntidad.EntTemporaryProducts*
+1*
+1
+Â	 Â(	*
+2
+3*˝
+2
+ﬁ ﬂ(1ß
+§
+
+ﬁ ﬁ(!&
+%15CapaLogica.LogTemporaryProducts"__id*hf*d,
+*MadereraCarocho.Controllers.HomeController"4
+TemporaryPserviceCapaLogica.LogTemporaryProducts·
+ﬁ
+
+ﬁ ﬁ(O
+%16bool"\CapaLogica.LogTemporaryProducts.CreaarTemporaryProductsCli(CapaEntidad.EntTemporaryProducts)**(
+&
+%15CapaLogica.LogTemporaryProducts*97
+5
+temporaryProducts CapaEntidad.EntTemporaryProducts†
+ù
+
+ﬂ ﬂ(2+
+%17$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*	
+Cliente";
+
+ﬂ ﬂ(3-
++
+%17$System.Web.Mvc.RedirectToRouteResult*˘
+3
+„ „(Xdb
+
+„N „(X
+%18string"System.Exception.Message.get*
+
+exSystem.Exception2Message.getƒ
+¡
+
+„ „([+
+%19$System.Web.Mvc.RedirectToRouteResult"BSystem.Web.Mvc.Controller.RedirectToAction(string, string, object)*
+System.Web.Mvc.Controller*	
+Error*
+
+Home*
+""";
+
+„ „(\-
++
+%19$System.Web.Mvc.RedirectToRouteResult*2
+4
+Â	 Â(	"!
+
+Â Â(	
+implicit return*C
+5
+Œ@ Œ(@-
++
+
+Œ Œ(4
+%20"__entrypoint*
+""*
+0:
+
+Œ5 Œ(?
+idprodintB.,
+*MadereraCarocho.Controllers.HomeController

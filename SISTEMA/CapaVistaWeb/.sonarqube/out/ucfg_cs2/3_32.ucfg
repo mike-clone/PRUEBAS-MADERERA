@@ -1,0 +1,46 @@
+
+9MadereraCarocho.Controllers.HomeController.CerrarSesion()t
+hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csä ä(("2*ö
+0
+å é(+}
+{
+
+å å(%
+%0System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
+System.Web.Mvc.ControllerØ¨
+
+å å(%
+%1object":System.Collections.Generic.ICollection<T>.this[string].set*)'
+%
+%0System.Web.HttpSessionStateBase*	
+Usuario*
+""2this[string].set|
+z
+
+ç ç()
+
+%2void"1System.Web.Security.FormsAuthentication.SignOut()*-+")
+'System.Web.Security.FormsAuthenticationù
+ö
+
+é é(,*
+%3$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*	
+Index":
+
+é é(-,
+*
+%3$System.Web.Mvc.RedirectToRouteResult*2
+1
+è	 è(	"!
+
+è è(	
+implicit return*8
+2
+ä* ä(*"
+ 
+
+ä ä((
+%4"__entrypoint*
+0B.,
+*MadereraCarocho.Controllers.HomeController

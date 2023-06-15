@@ -1,0 +1,6 @@
+¹
++MadereraCarocho.Controllers.VentaControllerSystem.Web.Mvc.ControllerSystem.Web.Mvc.ControllerBaseobjectR
+VentaController()=MadereraCarocho.Controllers.VentaController.VentaController()J
+ListarVenta()9MadereraCarocho.Controllers.VentaController.ListarVenta()V
+MostrarDetalle(int)?MadereraCarocho.Controllers.VentaController.MostrarDetalle(int)P
+ConfirmarVenta()<MadereraCarocho.Controllers.VentaController.ConfirmarVenta()

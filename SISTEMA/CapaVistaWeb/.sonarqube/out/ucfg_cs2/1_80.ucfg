@@ -1,0 +1,195 @@
+
+*CapaAccesoDatos.DatUbigeo.ListarDistrito()d
+ZC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.csR R(-"0*ó
+0T U(9E
+C
+T T(!'
+cmd System.Data.SqlClient.SqlCommand"__id*
+""ZX
+U$ U(9(
+%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
+o
+U( U(7
+
+%1void")System.Collections.Generic.List<T>.List()*,*
+(
+%0"System.Collections.Generic.List<T>m
+k
+U U(9+
+lista"System.Collections.Generic.List<T>"__id*,*
+(
+%0"System.Collections.Generic.List<T>*
+1*‹
+
+1X \(6t
+r
+X# X(5
+%2CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
+CapaAccesoDatos.ConexionÄ
+~
+X# X(@)
+%3#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
+
+%2CapaAccesoDatos.Conexionl
+j
+X X(@)
+cn#System.Data.SqlClient.SqlConnection"__id*-+
+)
+%3#System.Data.SqlClient.SqlConnectionVT
+Y Y(<&
+%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÊ
+„
+Y Y($
+
+%5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
+&
+%4 System.Data.SqlClient.SqlCommand*
+sp_ListaDistrito*-+
+)
+cn#System.Data.SqlClient.SqlConnectiong
+e
+Y Y(<'
+cmd System.Data.SqlClient.SqlCommand"__id**(
+&
+%4 System.Data.SqlClient.SqlCommand"
+ 
+Z" Z(=
+%6"__id*
+""ï
+í
+Z Z(=
+%7System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
+'
+cmd System.Data.SqlClient.SqlCommand*
+
+%6s
+q
+[ [(
+
+%8void"*System.Data.SqlClient.SqlConnection.Open()*-+
+)
+cn#System.Data.SqlClient.SqlConnectionó
+î
+\# \(6)
+%9#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
+'
+cmd System.Data.SqlClient.SqlCommandl
+j
+\ \(6)
+dr#System.Data.SqlClient.SqlDataReader"__id*-+
+)
+%9#System.Data.SqlClient.SqlDataReader*
+2*ì
+2] ]( |z
+] ]( 
+%10bool"*System.Data.SqlClient.SqlDataReader.Read()*-+
+)
+dr#System.Data.SqlClient.SqlDataReader2Read()*
+3
+4*Å	
+3_ b(!A?
+_$ _(3
+%11CapaEntidad.EntUbigeo"CapaEntidad.EntUbigeo^
+\
+_( _(1
+%12void"!CapaEntidad.EntUbigeo.EntUbigeo()* 
+
+%11CapaEntidad.EntUbigeoR
+P
+_ _(3
+ubiCapaEntidad.EntUbigeo"__id* 
+
+%11CapaEntidad.EntUbigeo£†
+`# `(1
+%13object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+
+idUbigeo2this[string].getMK
+`# `(<
+%14string"object.ToString()*
+
+%13object2
+ToString()t
+r
+` `(<
+%15string""CapaEntidad.EntUbigeo.IdUbigeo.set* 
+
+ubiCapaEntidad.EntUbigeo*
+
+%14string£†
+a# a(1
+%16object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+
+distrito2this[string].getMK
+a# a(<
+%17string"object.ToString()*
+
+%16object2
+ToString()t
+r
+a a(<
+%18string""CapaEntidad.EntUbigeo.Distrito.set* 
+
+ubiCapaEntidad.EntUbigeo*
+
+%17stringü
+ú
+b b("
+%19void"0System.Collections.Generic.ICollection<T>.Add(T)*/-
++
+lista"System.Collections.Generic.List<T>* 
+
+ubiCapaEntidad.EntUbigeo*
+2*
+4n	 n(	*
+5
+6*Ì
+5g g(qa_
+g  g()
+%20string"System.Exception.Message.get*
+
+eSystem.Exception2Message.get#
+!
+gG g([
+%21"__id*
+""#
+!
+g] g(q
+%22"__id*
+""´
+®
+g g(r(
+%23!System.Windows.Forms.DialogResult"ÅSystem.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
+System.Windows.Forms.MessageBox*
+
+%20string*
+EROR AL MOSTRAR DISTRITO*	
+
+%21*	
+
+%22*
+6*ß
+6k k(&ó
+î
+k k(*
+%24#System.Data.SqlClient.SqlConnection"/System.Data.SqlClient.SqlCommand.Connection.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandv
+t
+k k(&
+%25void"+System.Data.SqlClient.SqlConnection.Close()*.,
+*
+%24#System.Data.SqlClient.SqlConnection*
+7
+8*H
+7m m("9
+m m(-
++
+lista"System.Collections.Generic.List<T>*.
+8n	 n(	"
+n n(	
+implicit returnB
+CapaAccesoDatos.DatUbigeo

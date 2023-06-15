@@ -1,0 +1,20 @@
+
+,CapaLogica.LogCompra.ListartodasLasCompras()_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogCompra.cs (4"0*¡
+0   (8–
+“
+   ( +
+%0%CapaAccesoDatos.Interfaces.IDatCompra"__id*TR*P
+CapaLogica.LogCompra"6
+CompraService%CapaAccesoDatos.Interfaces.IDatCompraÀ½
+   (8(
+%1"System.Collections.Generic.List<T>"=CapaAccesoDatos.Interfaces.IDatCompra.ListarTodasLasCompras()*/-
++
+%0%CapaAccesoDatos.Interfaces.IDatCompra2ListarTodasLasCompras()"6
+   (9*
+(
+%1"System.Collections.Generic.List<T>*.
+1!	 !(	"
+! !(	
+implicit returnB
+CapaLogica.LogCompra

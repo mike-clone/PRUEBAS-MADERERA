@@ -1,0 +1,206 @@
+
+:MadereraCarocho.Controllers.HomeController.Cliente(string)t
+hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.csï ï(#"7*®
+0
+ó ó(*}
+{
+
+ó ó(%
+%0System.Web.HttpSessionStateBase"%System.Web.Mvc.Controller.Session.get*
+System.Web.Mvc.Controller•¢
+
+ó ó("
+%1object":System.Collections.Generic.ICollection<T>.this[string].get*)'
+%
+%0System.Web.HttpSessionStateBase*	
+Usuario2this[string].geth
+f
+
+ó ó(*
+
+%2bool""object.operator !=(object, object)*
+"
+object*
+
+%1object*
+""*
+1
+2*s
+1
+ô" ö(-Z
+X
+
+ö ö(.
+
+%3bool"string.IsNullOrEmpty(string)*
+"
+string*
+
+datostring*
+3
+4*°
+3
+õ õ(<í
+è
+
+õ õ(+
+%4CapaLogica.LogProducto"__id*][*Y,
+*MadereraCarocho.Controllers.HomeController")
+ProductoserviceCapaLogica.LogProductoÑ
+Å
+
+õ õ(<(
+%5"System.Collections.Generic.List<T>"'CapaLogica.LogProducto.ListarProducto()* 
+
+%4CapaLogica.LogProductoo
+m
+
+õ õ(<+
+lista"System.Collections.Generic.List<T>"__id*,*
+(
+%5"System.Collections.Generic.List<T>*
+5*ª
+4
+ù ù(?í
+è
+
+ù ù(+
+%6CapaLogica.LogProducto"__id*][*Y,
+*MadereraCarocho.Controllers.HomeController")
+ProductoserviceCapaLogica.LogProductoû
+õ
+
+ù ù(@(
+%7"System.Collections.Generic.List<T>"-CapaLogica.LogProducto.BuscarProducto(string)* 
+
+%6CapaLogica.LogProducto*
+
+datostringo
+m
+
+ù ù(@+
+lista"System.Collections.Generic.List<T>"__id*,*
+(
+%7"System.Collections.Generic.List<T>*
+5*·
+5
+û û(!∏
+µ
+
+û û("
+
+%8void"capavistaweb/views/home/cliente*
+
+%9*/-
++
+lista"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject∏
+µ
+
+û û("
+%10void"capavistaweb/views/_viewstart*	
+
+%11*/-
++
+lista"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectº
+π
+
+û û("
+%12void"!capavistaweb/views/shared/_layout*	
+
+%13*/-
++
+lista"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+
+û û(#
+
+%12void*Ì
+2
+† †(+û
+õ
+
+† †(,+
+%14$System.Web.Mvc.RedirectToRouteResult"2System.Web.Mvc.Controller.RedirectToAction(string)*
+System.Web.Mvc.Controller*	
+Index";
+
+† †(--
++
+%14$System.Web.Mvc.RedirectToRouteResult*2
+6
+°	 °(	"!
+
+° °(	
+implicit return*ù
+7
+ï0 ï(07
+5
+
+ï ï(#
+%15"__entrypoint*
+
+datostringî
+ë
+
+ì	 ì($
+%16"
+__annotate*\ZX
+VMadereraCarocho.Permisos.PermisosRolAttribute.PermisosRolAttribute(CapaEntidad.entRol)*
+
+datostrings
+q
+
+î	 î(
+%17"
+__annotate*<:8
+6System.Web.Mvc.AuthorizeAttribute.AuthorizeAttribute()*
+
+datostringB
+@
+
+ï$ ï(/
+datostring"__annotation*	
+
+%16*	
+
+%17*
+0:
+
+ï$ ï(/
+datostringB.,
+*MadereraCarocho.Controllers.HomeController

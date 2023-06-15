@@ -1,0 +1,11 @@
+Ù
+CapaAccesoDatos.DatProveedorobject(CapaAccesoDatos.Interfaces.IDatProveedorq
+(CrearProveedor(CapaEntidad.EntProveedor)ECapaAccesoDatos.DatProveedor.CrearProveedor(CapaEntidad.EntProveedor)C
+ListarProveedor().CapaAccesoDatos.DatProveedor.ListarProveedor()K
+SelectListProveedor()2CapaAccesoDatos.DatProveedor.SelectListProveedor(){
+-ActualizarProveedor(CapaEntidad.EntProveedor)JCapaAccesoDatos.DatProveedor.ActualizarProveedor(CapaEntidad.EntProveedor)M
+EliminarProveedor(int)3CapaAccesoDatos.DatProveedor.EliminarProveedor(int)W
+SelectListProveedordat(int)8CapaAccesoDatos.DatProveedor.SelectListProveedordat(int)O
+BuscarProveedor(string)4CapaAccesoDatos.DatProveedor.BuscarProveedor(string)M
+BuscarIdProveedor(int)3CapaAccesoDatos.DatProveedor.BuscarIdProveedor(int)=
+DatProveedor()+CapaAccesoDatos.DatProveedor.DatProveedor()

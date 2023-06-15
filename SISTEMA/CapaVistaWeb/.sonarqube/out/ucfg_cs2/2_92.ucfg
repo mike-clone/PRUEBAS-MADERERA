@@ -1,0 +1,24 @@
+
+,CapaLogica.LogUsuario.BuscarClientes(string)`
+VC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUsuario.cs;  ;(."0*·
+0= =(4š
+—
+= =(!,
+%0&CapaAccesoDatos.Interfaces.IDatUsuario"__id*WU*S
+CapaLogica.LogUsuario"8
+UsuarioService&CapaAccesoDatos.Interfaces.IDatUsuarioÒÏ
+= =(5(
+%1"System.Collections.Generic.List<T>"<CapaAccesoDatos.Interfaces.IDatUsuario.BuscarCliente(string)*0.
+,
+%0&CapaAccesoDatos.Interfaces.IDatUsuario*
+
+datostring2BuscarCliente(string)"6
+= =(6*
+(
+%1"System.Collections.Generic.List<T>*.
+1>	 >(	"
+> >(	
+implicit return:
+;/ ;(:
+datostringB
+CapaLogica.LogUsuario

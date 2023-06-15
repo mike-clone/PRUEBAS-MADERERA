@@ -1,0 +1,20 @@
+
+#CapaLogica.LogUbigeo.ListarUbigeo()_
+UC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogUbigeo.cs   (+"0*è
+0" "(/ñ
+ì
+" "( +
+%0%CapaAccesoDatos.Interfaces.IDatUbigeo"__id*TR*P
+CapaLogica.LogUbigeo"6
+UbigeoService%CapaAccesoDatos.Interfaces.IDatUbigeoÆ´
+" "(/(
+%1"System.Collections.Generic.List<T>"4CapaAccesoDatos.Interfaces.IDatUbigeo.ListarUbigeo()*/-
++
+%0%CapaAccesoDatos.Interfaces.IDatUbigeo2ListarUbigeo()"6
+" "(0*
+(
+%1"System.Collections.Generic.List<T>*.
+1#	 #(	"
+# #(	
+implicit returnB
+CapaLogica.LogUbigeo

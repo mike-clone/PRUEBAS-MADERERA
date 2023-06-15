@@ -1,0 +1,160 @@
+
+-CapaAccesoDatos.DatUbigeo.EliminarUbigeo(int)f
+ZC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatUbigeo.csé é(""0*ê
+0
+ê ë("G
+E
+
+ê ê(!'
+cmd System.Data.SqlClient.SqlCommand"__id*
+""1
+/
+
+ë ë("
+	eliminadobool"__id*
+""*
+1*í
+1
+î ö(v
+t
+
+î# î(5
+%0CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
+CapaAccesoDatos.ConexionÉ
+Ä
+
+î# î(@)
+%1#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
+
+%0CapaAccesoDatos.Conexionn
+l
+
+î î(@)
+cn#System.Data.SqlClient.SqlConnection"__id*-+
+)
+%1#System.Data.SqlClient.SqlConnectionXV
+
+ï ï(<&
+%2 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandË
+Â
+
+ï ï($
+
+%3void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
+&
+%2 System.Data.SqlClient.SqlCommand*
+spEliminarUbigeo*-+
+)
+cn#System.Data.SqlClient.SqlConnectioni
+g
+
+ï ï(<'
+cmd System.Data.SqlClient.SqlCommand"__id**(
+&
+%2 System.Data.SqlClient.SqlCommand$
+"
+
+ñ" ñ(=
+%4"__id*
+""ó
+î
+
+ñ ñ(=
+%5System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
+'
+cmd System.Data.SqlClient.SqlCommand*
+
+%4°
+û
+
+ó ó(2
+%6,System.Data.SqlClient.SqlParameterCollection"/System.Data.SqlClient.SqlCommand.Parameters.get*+)
+'
+cmd System.Data.SqlClient.SqlCommand‘
+—
+
+ó ó(<(
+%7"System.Data.SqlClient.SqlParameter"FSystem.Collections.Generic.ICollection<T>.AddWithValue(string, object)*64
+2
+%6,System.Data.SqlClient.SqlParameterCollection*
+	@idUbigeo*
+""u
+s
+
+ò ò(
+
+%8void"*System.Data.SqlClient.SqlConnection.Open()*-+
+)
+cn#System.Data.SqlClient.SqlConnectionz
+x
+
+ô ô(-	
+%9int"2System.Data.SqlClient.SqlCommand.ExecuteNonQuery()*+)
+'
+cmd System.Data.SqlClient.SqlCommand-
++
+
+ô ô(-
+iint"__id*
+	
+%9int*
+2
+3*G
+2
+ú ú($1
+/
+
+ú ú($
+	eliminadobool"__id*
+""*
+3*
+3
+•	 •(	*
+4
+5*ù
+4
+° °()ca
+
+°  °()
+%10string"System.Exception.Message.get*
+
+eSystem.Exception2Message.get°
+û
+
+° °(*(
+%11!System.Windows.Forms.DialogResult",System.Windows.Forms.MessageBox.Show(string)*%#"!
+System.Windows.Forms.MessageBox*
+
+%10string*
+5*≠
+5
+£ £(,ô
+ñ
+
+£ £($*
+%12#System.Data.SqlClient.SqlConnection"/System.Data.SqlClient.SqlCommand.Connection.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandx
+v
+
+£ £(,
+%13void"+System.Data.SqlClient.SqlConnection.Close()*.,
+*
+%12#System.Data.SqlClient.SqlConnection*
+6
+7*2
+6
+§ §("!
+
+§ §(
+
+	eliminadobool*2
+7
+•	 •(	"!
+
+• •(	
+implicit return:
+
+é# é()	
+idintB
+CapaAccesoDatos.DatUbigeo

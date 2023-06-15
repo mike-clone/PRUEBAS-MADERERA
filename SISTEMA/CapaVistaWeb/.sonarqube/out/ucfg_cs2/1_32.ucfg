@@ -1,0 +1,71 @@
+
+#CapaAccesoDatos.Conexion.Conectar()c
+YC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\Conexion.cs (%"0*Ü
+0 (2\Z
+ (2)
+%0#System.Data.SqlClient.SqlConnection"#System.Data.SqlClient.SqlConnection|
+z
+# (0
+
+%1void"3System.Data.SqlClient.SqlConnection.SqlConnection()*-+
+)
+%0#System.Data.SqlClient.SqlConnectionl
+j
+ (2)
+cn#System.Data.SqlClient.SqlConnection"__id*-+
+)
+%0#System.Data.SqlClient.SqlConnection*
+1*à
+1 (Ý
+Ú
+ (y
+%2string"8System.Data.SqlClient.SqlConnection.ConnectionString.set*-+
+)
+cn#System.Data.SqlClient.SqlConnection*WUS
+QData Source=mike; Initial Catalog=BD_PRUEBAS_MADERERA; User ID=sa;Password=123456s
+q
+ (
+
+%3void"*System.Data.SqlClient.SqlConnection.Open()*-+
+)
+cn#System.Data.SqlClient.SqlConnectiont
+r
+ (
+
+%4void"+System.Data.SqlClient.SqlConnection.Close()*-+
+)
+cn#System.Data.SqlClient.SqlConnection*
+2
+3*Œ
+2 (Pa_
+F (P
+%5string"System.Exception.Message.get*
+
+exSystem.Exception2Message.getq
+o
+$ (P
+%6string"__concat*/
+$ (E#!
+no se pudo conectar al servidor*
+F (P
+
+%5string64
+ (Q
+%7System.Exception"System.Exceptionj
+h
+ (#
+
+%8void""System.Exception.Exception(string)*
+
+%7System.Exception*
+
+%6string*
+4*F
+3 ("7
+ (+
+)
+cn#System.Data.SqlClient.SqlConnection*.
+4	 (	"
+ (	
+implicit returnB
+CapaAccesoDatos.Conexion

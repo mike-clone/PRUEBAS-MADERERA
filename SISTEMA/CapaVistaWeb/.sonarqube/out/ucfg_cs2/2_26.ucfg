@@ -1,0 +1,26 @@
+
+=CapaLogica.LogDetVenta.CrearDetVenta(CapaEntidad.EntDetVenta)a
+WC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogDetVenta.cs (!"0*³
+0 (4ž
+›
+ ("-
+%0'CapaAccesoDatos.Interfaces.IDatDetVenta"__id*ZX*V
+CapaLogica.LogDetVenta":
+DetVentaService'CapaAccesoDatos.Interfaces.IDatDetVentaèå
+ (5
+
+%1bool"NCapaAccesoDatos.Interfaces.IDatDetVenta.CrearDetVenta(CapaEntidad.EntDetVenta)*1/
+-
+%0'CapaAccesoDatos.Interfaces.IDatDetVenta*" 
+
+detCapaEntidad.EntDetVenta2&CrearDetVenta(CapaEntidad.EntDetVenta)"
+ (6
+
+
+%1bool*.
+1	 (	"
+ (	
+implicit return:*
+" (1
+detCapaEntidad.EntDetVentaB
+CapaLogica.LogDetVenta

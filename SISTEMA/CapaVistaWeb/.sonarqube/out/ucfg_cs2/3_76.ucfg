@@ -1,0 +1,74 @@
+
+2MadereraCarocho.Controllers.HomeController.Login()r
+hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs4 4(!"2*ð
+06 6(”
+‘
+6 6(
+
+%0void"capavistaweb/views/home/login*
+
+%1*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject”
+‘
+6 6(
+
+%2void"capavistaweb/views/_viewstart*
+
+%3*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject˜
+•
+6 6(
+
+%4void"!capavistaweb/views/shared/_layout*
+
+%5*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+6 6(
+
+
+%4void*.
+17	 7(	"
+7 7(	
+implicit return*4
+24# 4(# 
+
+4 4(!
+%6"__entrypoint*
+0B.,
+*MadereraCarocho.Controllers.HomeController

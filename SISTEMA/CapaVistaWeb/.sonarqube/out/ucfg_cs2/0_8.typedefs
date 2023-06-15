@@ -1,0 +1,15 @@
+µ
+CapaEntidad.EntCompraobject0
+EntCompra()!CapaEntidad.EntCompra.EntCompra()2
+IdCompra.get"CapaEntidad.EntCompra.IdCompra.get2
+IdCompra.set"CapaEntidad.EntCompra.IdCompra.set,
+	Fecha.getCapaEntidad.EntCompra.Fecha.get,
+	Fecha.setCapaEntidad.EntCompra.Fecha.set,
+	Total.getCapaEntidad.EntCompra.Total.get,
+	Total.setCapaEntidad.EntCompra.Total.set.
+
+Estado.get CapaEntidad.EntCompra.Estado.get.
+
+Estado.set CapaEntidad.EntCompra.Estado.set0
+Usuario.get!CapaEntidad.EntCompra.Usuario.get0
+Usuario.set!CapaEntidad.EntCompra.Usuario.set

@@ -1,0 +1,20 @@
+
+)CapaLogica.LogProveedor.ListarProveedor()b
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.cs>" >(1"0*§
+0@ @(5¢
+Ÿ
+@ @(#.
+%0(CapaAccesoDatos.Interfaces.IDatProveedor"__id*][*Y
+CapaLogica.LogProveedor"<
+ProveedorService(CapaAccesoDatos.Interfaces.IDatProveedorº·
+@ @(5(
+%1"System.Collections.Generic.List<T>":CapaAccesoDatos.Interfaces.IDatProveedor.ListarProveedor()*20
+.
+%0(CapaAccesoDatos.Interfaces.IDatProveedor2ListarProveedor()"6
+@ @(6*
+(
+%1"System.Collections.Generic.List<T>*.
+1A	 A(	"
+A A(	
+implicit returnB
+CapaLogica.LogProveedor

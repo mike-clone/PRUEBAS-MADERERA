@@ -1,0 +1,92 @@
+
+FMadereraCarocho.Controllers.CompraController.MostrarDetalleCompra(int)t
+jC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\CompraController.csk k(0"2*Œ
+
+0m m(H•
+’
+m m((
+%0CapaLogica.LogDetCompra"__id*a_*].
+,MadereraCarocho.Controllers.CompraController"+
+DetCompraServiceCapaLogica.LogDetCompra™
+–
+m m(I(
+%1"System.Collections.Generic.List<T>"3CapaLogica.LogDetCompra.MostrarDetalleCompraId(int)*!
+
+%0CapaLogica.LogDetCompra*
+""Â
+¿
+m m(J
+
+%2void".capavistaweb/views/compra/mostrardetallecompra*
+
+%3*,*
+(
+%1"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject±
+®
+m m(J
+
+%4void"capavistaweb/views/_viewstart*
+
+%5*,*
+(
+%1"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectµ
+²
+m m(J
+
+%6void"!capavistaweb/views/shared/_layout*
+
+%7*,*
+(
+%1"System.Collections.Generic.List<T>*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+m m(K
+
+
+%6void*.
+1n	 n(	"
+n n(	
+implicit return*>
+2k? k(?*
+(
+k k(0
+%8"__entrypoint*
+""*
+0:
+k2 k(>
+idcompraintB0.
+,MadereraCarocho.Controllers.CompraController

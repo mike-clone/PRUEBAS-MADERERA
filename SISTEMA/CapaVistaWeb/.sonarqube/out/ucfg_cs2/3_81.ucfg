@@ -1,0 +1,125 @@
+
+5MadereraCarocho.Controllers.HomeController.Registro()r
+hC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaVistaWeb\Controllers\HomeController.cs8 8($"2*È
+0: =(Š
+‡
+:* :(7
+%0CapaLogica.LogUbigeo"__id*YW*U,
+*MadereraCarocho.Controllers.HomeController"%
+UbigeoserviceCapaLogica.LogUbigeo}
+{
+:* :(H(
+%1"System.Collections.Generic.List<T>"%CapaLogica.LogUbigeo.ListarDistrito()*
+
+%0CapaLogica.LogUbigeos
+q
+: :(H1
+listaUbigeo"System.Collections.Generic.List<T>"__id*,*
+(
+%1"System.Collections.Generic.List<T>HF
+; ;(N
+%2System.Web.Mvc.SelectList"System.Web.Mvc.SelectListë
+è
+; ;()
+
+%3void"TSystem.Web.Mvc.SelectList.SelectList(System.Collections.IEnumerable, string, string)*#!
+
+%2System.Web.Mvc.SelectList*53
+1
+listaUbigeo"System.Collections.Generic.List<T>*
+
+idUbigeo*
+
+distrito^
+\
+; ;(N%
+lsUbigeoSystem.Web.Mvc.SelectList"__id*#!
+
+%2System.Web.Mvc.SelectList/-
+< <(
+%ViewBagDataAllobject"object0.
+< <(
+%ViewBagDataHtmlobject"objecty
+w
+< <(*
+%4"__mapSet*
+
+%ViewBagDataAllobject*
+listaUbigeo*)'
+%
+lsUbigeoSystem.Web.Mvc.SelectListY
+W
+< <(*
+%5"__mapSet*
+
+%ViewBagDataHtmlobject*
+listaUbigeo*
+""—
+”
+= =(
+
+%6void" capavistaweb/views/home/registro*
+
+%7*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject”
+‘
+= =(
+
+%8void"capavistaweb/views/_viewstart*
+
+%9*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobjectš
+—
+= =(
+%10void"!capavistaweb/views/shared/_layout*	
+
+%11*
+	{unknown}*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject*" 
+
+%HttpContextItemsAllobject*#!
+
+%HttpContextItemsHtmlobject"
+= =(
+
+%10void*.
+1>	 >(	"
+> >(	
+implicit return*5
+28& 8(&!
+
+8 8($
+%12"__entrypoint*
+0B.,
+*MadereraCarocho.Controllers.HomeController

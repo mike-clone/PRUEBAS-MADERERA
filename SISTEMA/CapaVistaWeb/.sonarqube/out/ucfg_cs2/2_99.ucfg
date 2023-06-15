@@ -1,0 +1,25 @@
+
+.CapaLogica.LogProveedor.EliminarProveedor(int)b
+XC:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogProveedor.csi i(%"0*ÿ
+0k k(8¢
+Ÿ
+k k(#.
+%0(CapaAccesoDatos.Interfaces.IDatProveedor"__id*][*Y
+CapaLogica.LogProveedor"<
+ProveedorService(CapaAccesoDatos.Interfaces.IDatProveedor°­
+k k(9
+
+%1bool"?CapaAccesoDatos.Interfaces.IDatProveedor.EliminarProveedor(int)*20
+.
+%0(CapaAccesoDatos.Interfaces.IDatProveedor*
+""2EliminarProveedor(int)"
+k k(:
+
+
+%1bool*.
+1l	 l(	"
+l l(	
+implicit return:
+i& i(,	
+idintB
+CapaLogica.LogProveedor

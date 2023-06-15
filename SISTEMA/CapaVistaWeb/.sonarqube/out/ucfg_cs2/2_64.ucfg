@@ -1,0 +1,23 @@
+
+=CapaLogica.LogTemporaryProducts.MostrarTemporaryProducts(int)j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaLogica\LogTemporaryProducts.cs&* &(B"0*ñ
+0( ((Fº
+·
+( ((#6
+%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts"__id*mk*i!
+CapaLogica.LogTemporaryProducts"D
+TemporaryService0CapaAccesoDatos.Interfaces.IDatTemporaryProductsìé
+( ((G(
+%1"System.Collections.Generic.List<T>"NCapaAccesoDatos.Interfaces.IDatTemporaryProducts.MostrarTemporaryProducts(int)*:8
+6
+%00CapaAccesoDatos.Interfaces.IDatTemporaryProducts*
+""2MostrarTemporaryProducts(int)"6
+( ((H*
+(
+%1"System.Collections.Generic.List<T>*.
+1)	 )(	"
+) )(	
+implicit return:
+&C &(P
+	idUsuariointB#!
+CapaLogica.LogTemporaryProducts

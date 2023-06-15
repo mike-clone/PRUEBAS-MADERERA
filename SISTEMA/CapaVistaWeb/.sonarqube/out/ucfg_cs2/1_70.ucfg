@@ -1,0 +1,198 @@
+
+8CapaAccesoDatos.DatTipoProducto.SelectListTipoProducto()j
+`C:\Users\mike\Desktop\Calidad_ofline\PRUEBAS-MADERERA\SISTEMA\CapaAccesoDatos\DatTipoProducto.cs/% /(;"0*ó
+01 2(EE
+C
+1 1(!'
+cmd System.Data.SqlClient.SqlCommand"__id*
+""ZX
+2* 2(E(
+%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>q
+o
+2. 2(C
+
+%1void")System.Collections.Generic.List<T>.List()*,*
+(
+%0"System.Collections.Generic.List<T>m
+k
+2" 2(E+
+lista"System.Collections.Generic.List<T>"__id*,*
+(
+%0"System.Collections.Generic.List<T>*
+1*‰
+
+15 9(6t
+r
+5# 5(5
+%2CapaAccesoDatos.Conexion"&CapaAccesoDatos.Conexion.Instancia.get*"
+CapaAccesoDatos.ConexionÄ
+~
+5# 5(@)
+%3#System.Data.SqlClient.SqlConnection"#CapaAccesoDatos.Conexion.Conectar()*" 
+
+%2CapaAccesoDatos.Conexionl
+j
+5 5(@)
+cn#System.Data.SqlClient.SqlConnection"__id*-+
+)
+%3#System.Data.SqlClient.SqlConnectionVT
+6 6(D&
+%4 System.Data.SqlClient.SqlCommand" System.Data.SqlClient.SqlCommandÓ
+Î
+6 6($
+
+%5void"XSystem.Data.SqlClient.SqlCommand.SqlCommand(string, System.Data.SqlClient.SqlConnection)**(
+&
+%4 System.Data.SqlClient.SqlCommand*
+spSelectListTipoProducto*-+
+)
+cn#System.Data.SqlClient.SqlConnectiong
+e
+6 6(D'
+cmd System.Data.SqlClient.SqlCommand"__id**(
+&
+%4 System.Data.SqlClient.SqlCommand"
+ 
+7" 7(=
+%6"__id*
+""ï
+í
+7 7(=
+%7System.Data.CommandType"0System.Data.SqlClient.SqlCommand.CommandType.set*+)
+'
+cmd System.Data.SqlClient.SqlCommand*
+
+%6s
+q
+8 8(
+
+%8void"*System.Data.SqlClient.SqlConnection.Open()*-+
+)
+cn#System.Data.SqlClient.SqlConnectionó
+î
+9# 9(6)
+%9#System.Data.SqlClient.SqlDataReader"0System.Data.SqlClient.SqlCommand.ExecuteReader()*+)
+'
+cmd System.Data.SqlClient.SqlCommandl
+j
+9 9(6)
+dr#System.Data.SqlClient.SqlDataReader"__id*-+
+)
+%9#System.Data.SqlClient.SqlDataReader*
+2*ì
+2: :( |z
+: :( 
+%10bool"*System.Data.SqlClient.SqlDataReader.Read()*-+
+)
+dr#System.Data.SqlClient.SqlDataReader2Read()*
+3
+4*‚	
+3<$ ?(!MK
+<* <(?"
+%11CapaEntidad.EntTipoProducto"CapaEntidad.EntTipoProductop
+n
+<. <(=
+%12void"-CapaEntidad.EntTipoProducto.EntTipoProducto()*&$
+"
+%11CapaEntidad.EntTipoProducto^
+\
+<$ <(?"
+tipCapaEntidad.EntTipoProducto"__id*&$
+"
+%11CapaEntidad.EntTipoProducto™ß
+=: =(O
+%13object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+idTipo_Producto2this[string].geta
+_
+=* =(P
+
+%14int"System.Convert.ToInt32(object)*"
+System.Convert*
+
+%13objectÅ
+
+= =(P
+
+%15int"/CapaEntidad.EntTipoProducto.IdTipo_producto.set*&$
+"
+tipCapaEntidad.EntTipoProducto*
+
+
+%14int°û
+>! >(-
+%16object"4System.Data.SqlClient.SqlDataReader.this[string].get*-+
+)
+dr#System.Data.SqlClient.SqlDataReader*
+
+nombre2this[string].getMK
+>! >(8
+%17string"object.ToString()*
+
+%16object2
+ToString()~
+|
+> >(8
+%18string"&CapaEntidad.EntTipoProducto.Nombre.set*&$
+"
+tipCapaEntidad.EntTipoProducto*
+
+%17string•
+¢
+? ?("
+%19void"0System.Collections.Generic.ICollection<T>.Add(T)*/-
++
+lista"System.Collections.Generic.List<T>*&$
+"
+tipCapaEntidad.EntTipoProducto*
+2*
+4L	 L(	*
+5
+6*Ó
+5E E(ra_
+E  E()
+%20string"System.Exception.Message.get*
+
+eSystem.Exception2Message.get#
+!
+EH E(\
+%21"__id*
+""#
+!
+E^ E(r
+%22"__id*
+""¨
+©
+E E(s(
+%23!System.Windows.Forms.DialogResult"ÅSystem.Windows.Forms.MessageBox.Show(string, string, System.Windows.Forms.MessageBoxButtons, System.Windows.Forms.MessageBoxIcon)*%#"!
+System.Windows.Forms.MessageBox*
+
+%20string*
+EROR AL MOSTRAR LOS TIPOS*	
+
+%21*	
+
+%22*
+6*ß
+6I I(&ó
+î
+I I(*
+%24#System.Data.SqlClient.SqlConnection"/System.Data.SqlClient.SqlCommand.Connection.get*+)
+'
+cmd System.Data.SqlClient.SqlCommandv
+t
+I I(&
+%25void"+System.Data.SqlClient.SqlConnection.Close()*.,
+*
+%24#System.Data.SqlClient.SqlConnection*
+7
+8*H
+7K K("9
+K K(-
++
+lista"System.Collections.Generic.List<T>*.
+8L	 L(	"
+L L(	
+implicit returnB#!
+CapaAccesoDatos.DatTipoProducto
