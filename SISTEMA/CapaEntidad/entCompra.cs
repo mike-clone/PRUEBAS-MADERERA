@@ -4,36 +4,30 @@ namespace CapaEntidad
 {
     public class EntCompra
     {
-        private int idCompra;
-        private DateTime fecha;
-        private double total;
-        private EntUsuario usuario;
-        private string estado;
-
-
-     
+  
+        public string Estado { get; set; }
+        public EntUsuario Usuario { get; set; }
 
 
         #region Get and Set
         public int IdCompra
         {
-            get { return idCompra; }
-            set { idCompra = value; }
+            get;
+            set;
         }
         public DateTime Fecha
         {
-            get { return fecha; }
-            set { fecha = value; }
+            get;
+            set;
         }
         public double Total
         {
-            get { return total; }
-            set { total = value; }
+            get;
+            set;
         }
 
       
-        public string Estado { get => estado; set => estado = value; }
-        public EntUsuario Usuario { get => usuario; set => usuario = value; }
+       
         #endregion Get and Set
     }
 }
