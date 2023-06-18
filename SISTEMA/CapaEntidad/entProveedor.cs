@@ -5,17 +5,11 @@ namespace CapaEntidad
 {
     public class EntProveedor
     {
-        private readonly string razonSocial;
-        private readonly string descripcion;
-
-
+   
 
         #region Get and Set
 
-        public string NombreCompleto
-        {
-            get { return razonSocial + "::" + descripcion; }
-        }
+       
 
         public int IdProveedor
         {
@@ -65,6 +59,10 @@ namespace CapaEntidad
         {
             get;
             set;
+        }
+        public string NombreCompleto
+        {
+            get { return RazonSocial + "::" + Descripcion; }
         }
         #endregion Get and Set
     }

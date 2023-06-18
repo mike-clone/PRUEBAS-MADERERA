@@ -152,7 +152,7 @@ namespace MadereraCarocho.Controllers
         {
             try
             {
-                ViewBag.producto = new SelectList(Productoservice.ListarProducto(),"idProducto", "NombreCompleto");
+                ViewBag.producto = new SelectList(Productoservice.ListarProducto(),"IdProducto", "NombreCompleto");
                 return View(_ = ProveedorProductoservice.MostrarDetalleProvedorId(idp));
             }
             catch (Exception ex)
@@ -175,7 +175,7 @@ namespace MadereraCarocho.Controllers
                 {
                     IdProducto = Convert.ToInt32(frm["Pr"])
                 },
-                PrecioCompra=precio
+                PrecioCompra= (double)precio
                 
             };
             ProveedorProductoservice.CrearProveedorProducto(PP);

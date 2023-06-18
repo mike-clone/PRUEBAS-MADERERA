@@ -3,14 +3,7 @@
     public class EntProducto
     {
        
-        private readonly string nombre;
-        private readonly double longitud;
-        private readonly double diametro;
-        public string NombreCompleto
-        {
-            get { return nombre + " - " + longitud + "MT - " + diametro + "Ø"; }
-        }
-
+       
         #region Get and Set
         public int IdProducto
         {
@@ -53,6 +46,10 @@
         public bool Activo {
             get;
             set;
+        }
+        public string NombreCompleto
+        {
+            get { return Nombre + " - " + Longitud + "MT - " + Diametro + "Ø"; }
         }
 
         #endregion Get and Set
