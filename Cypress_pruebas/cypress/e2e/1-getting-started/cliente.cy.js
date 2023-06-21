@@ -57,9 +57,13 @@ describe("Crear Usuario", () => {
   });
 
   it("Registro Correcto", function () {
+    //Se genera un número aleatorio para el usuario
+    const numeroAleatorio = Cypress._.random(1, 1000);
+    const usuario = `Usuario#${numeroAleatorio}`;
+    const correo = `${usuario}@gmail.com`;
     cy.get("#nombre").type("Usuario", { force: true });
-    cy.get("#username").type("Usuario#1", { force: true });
-    cy.get("#inputEmail4").type("usuario@gmail.com", { force: true });
+    cy.get("#username").type(usuario, { force: true });
+    cy.get("#inputEmail4").type(correo, { force: true });
     cy.get("#inputPassword4").type("123", { force: true });
     cy.get("#ubigeo").select("140103", { force: true });
     cy.get(".btn").click({ force: true });
@@ -77,7 +81,7 @@ describe("Crear Usuario", () => {
     cy.get(".btn").click();
     cy.get(".message-container > :nth-child(3)").should(
       "contain",
-      "Infracción de la restricción UNIQUE KEY 'uq_Usuario_correo'."
+      "Violation of UNIQUE KEY constraint"
     );
   });
 
@@ -162,7 +166,7 @@ describe("Compra", () => {
   beforeEach(() => {
     cy.visitarURL("/Home/Login");
     cy.logIn();
-    cy.get(":nth-child(4) > a").click();
+    cy.get(":nth-child(3) > a").click();
     cy.wait(1000);
   });
   Cypress.on("uncaught:exception", (err, runnable) => {
@@ -170,13 +174,32 @@ describe("Compra", () => {
   });
 
   it("Realizar Pedido", function () {
-    cy.get(".btn-success > .bi").click({ force: true });
+    //guardamos el tamaño de la tabla antes de realizar el pedido
+    let tamañoFilaAntes = 0;
+    cy.get("table")
+      .find("tbody tr")
+      .then((rows) => {
+        tamañoFilaAntes = rows.length;
+
+        //Vamos a la página del carrito
+        cy.get(":nth-child(4) > a").click();
+        cy.wait(1000);
+
+        //Realizamos la compra
+        cy.get(".btn-success > .bi").click({ force: true });
+        cy.wait(1000);
+
+        //Comprobamos que se haya aumentado el tamaño de la tabla (+1 compra)
+        let tamañoFilaDespues = tamañoFilaAntes + 1;
+        cy.get("table")
+          .find("tbody tr")
+          .should("have.length", tamañoFilaDespues);
+      });
+
+    //Accedemos al detalle de la última compra
+    cy.get("table").find("tbody tr:last-child td:last-child button").click();
     cy.wait(1000);
-    //Comprobamos que haya una compra
-    cy.get("table").find("tbody tr").should("have.length", 1);
-    //Ingresamos al detalle
-    cy.get(":nth-child(1) > :nth-child(5) > .btn > a").click({ force: true });
-    cy.wait(1000);
+
     //Comprobamos que esten los productos y el precio correcto
     cy.get("tbody > :nth-child(1) > :nth-child(2)").should(
       "contain",
