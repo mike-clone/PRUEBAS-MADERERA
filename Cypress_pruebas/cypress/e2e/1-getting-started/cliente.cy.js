@@ -1,14 +1,7 @@
 /*
 Antes de ejecutar estas pruebas, asegúrate de:
 (USUARIO: daniel@gmail.com) 
-- Carrito Vacío
-- Ninguna compra realizada
-
-Solo esten registrado los usuarios cesar, omar, ximena, daniel, nistx
-
-DELETE FROM DETALLE_VENTA
-DELETE FROM VENTA
-DELETE FROM USUARIO WHERE idUsuario > 5
+- Almenos 1 compra realizada
 */
 
 describe("Index", () => {
@@ -67,7 +60,7 @@ describe("Crear Usuario", () => {
     cy.get("#inputPassword4").type("123", { force: true });
     cy.get("#ubigeo").select("140103", { force: true });
     cy.get(".btn").click({ force: true });
-    cy.get("#valid_username").type("usuario@gmail.com");
+    cy.get("#valid_username").type(correo);
     cy.get("#valid_password").type("123");
     cy.get(".btn").click();
     cy.get("ul > :nth-child(3) > a").should("contain", "Mis compras");

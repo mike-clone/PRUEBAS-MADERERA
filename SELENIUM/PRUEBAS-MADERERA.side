@@ -5,7 +5,7 @@
   "url": "https://localhost:44347",
   "tests": [{
     "id": "4145dbf4-80ff-4622-966f-6a240eb9681b",
-    "name": "AbrirAplicacionCorrectamente",
+    "name": "1. AbrirAplicacionCorrectamente",
     "commands": [{
       "id": "b1e7953d-f4db-4736-babc-1d848352194e",
       "comment": "",
@@ -37,7 +37,7 @@
     }]
   }, {
     "id": "a586e9c1-1fc5-4989-9d07-4e7fe92ba1dd",
-    "name": "Login Correcto Cliente",
+    "name": "3. Login Correcto Cliente",
     "commands": [{
       "id": "91f57f0b-3ae7-4d52-9dda-dc69d1ee8f6a",
       "comment": "",
@@ -128,7 +128,7 @@
     }]
   }, {
     "id": "269f4cd6-540a-4c31-8d1b-dc0937c905c5",
-    "name": "Buscar Productos Cliente",
+    "name": "4. Buscar Productos Cliente",
     "commands": [{
       "id": "d262190a-c956-4a6d-ba86-f1242642b62a",
       "comment": "",
@@ -242,6 +242,13 @@
       ],
       "value": ""
     }, {
+      "id": "43dc50fe-f81f-45e4-9e06-bb0d3a940eb2",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "2e6b3c0d-5402-4674-8a5b-74d2e3b8c68f",
       "comment": "",
       "command": "assertText",
@@ -267,7 +274,7 @@
     }]
   }, {
     "id": "ce74397f-e379-4b10-a6c1-9da029c016b8",
-    "name": "Agregar Productos Carrito Cliente",
+    "name": "5. Agregar Productos Carrito Cliente",
     "commands": [{
       "id": "a2482444-4eba-4005-a359-8978ea934885",
       "comment": "",
@@ -366,6 +373,13 @@
       ],
       "value": ""
     }, {
+      "id": "88677894-5851-46ed-bb60-0579c4441590",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "8b708278-5c4a-44a9-8e7c-b55259c1e56e",
       "comment": "",
       "command": "click",
@@ -375,6 +389,13 @@
         ["xpath=//section[@id='products']/div/table/tbody/tr/td[8]/a/i", "xpath:idRelative"],
         ["xpath=//td[8]/a/i", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "5fe77e87-044b-4ba1-af52-dfc1ee01e601",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
       "value": ""
     }, {
       "id": "747de4d4-3686-4451-a854-1e191140a521",
@@ -388,6 +409,13 @@
         ["xpath=//a[contains(@href, '/TemporaryProduct/ListarTempProductClient')]", "xpath:href"],
         ["xpath=//li[4]/a", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "7b61b23b-c45a-42e7-aaa1-415467c98b5d",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
       "value": ""
     }, {
       "id": "dfc4978f-04e3-47a9-9f8a-2db4ae3882d7",
@@ -445,7 +473,7 @@
     }]
   }, {
     "id": "f6ab93c6-c96a-48a6-856e-35e1cbedc13b",
-    "name": "Realizar Compra Carrito Cliente",
+    "name": "6. Realizar Compra Carrito Cliente",
     "commands": [{
       "id": "1ffcafa6-faab-4dd6-b6a8-2f1b45094e2b",
       "comment": "",
@@ -533,31 +561,11 @@
       ],
       "value": "MIS COMPRAS"
     }, {
-      "id": "427ee1b1-9dc4-4238-b5a5-40eb4375ed7f",
-      "comment": "",
-      "command": "//click",
-      "target": "css=tr:nth-child(5) .bi",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "0ffa9708-f329-4a78-af9d-97efdeb7bb16",
-      "comment": "",
-      "command": "//click",
-      "target": "xpath=//section[@id='products']/div/table/tbody/tr/td[8]/a",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "163a644d-34cc-49b5-8101-2f5cbb3f8a98",
       "comment": "",
       "command": "click",
       "target": "css=li:nth-child(4) > a",
-      "targets": [
-        ["css=li:nth-child(4) > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Carrito')]", "xpath:link"],
-        ["xpath=//nav[@id='navbar']/ul/li[4]/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/TemporaryProduct/ListarTempProductClient')]", "xpath:href"],
-        ["xpath=//li[4]/a", "xpath:position"]
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "270d79a1-ad66-420b-be31-e6b23dbece8f",
@@ -599,9 +607,9 @@
       "id": "cbb6adc3-daea-4b95-8a4a-02338e1c0017",
       "comment": "",
       "command": "assertText",
-      "target": "css=td:nth-child(3)",
+      "target": "css=tr:nth-child(1) > td:nth-child(3)",
       "targets": [
-        ["css=td:nth-child(3)", "css:finder"],
+        ["css=tr:nth-child(1) > td:nth-child(3)", "css:finder"],
         ["xpath=//td[3]", "xpath:position"],
         ["xpath=//td[contains(.,'43.5')]", "xpath:innerText"]
       ],
@@ -609,7 +617,7 @@
     }]
   }, {
     "id": "b304bb13-cf9c-4faf-95b7-574dd3fb24a9",
-    "name": "Mostrar Detalle Compra Cliente",
+    "name": "7. Mostrar Detalle Compra Cliente",
     "commands": [{
       "id": "991ac273-89a2-4307-8aed-ae2141e08d1e",
       "comment": "",
@@ -759,7 +767,7 @@
     }]
   }, {
     "id": "7f9c077a-618e-44ae-bc90-bf6c550f282f",
-    "name": "Cerrar Sesión Cliente",
+    "name": "11. Cerrar Sesión Cliente",
     "commands": [{
       "id": "a8d9f9a7-8141-4fc6-acfe-be2dd371bf1b",
       "comment": "",
@@ -886,7 +894,7 @@
     }]
   }, {
     "id": "c20ff214-b3f7-4d36-b143-99b3e4950fae",
-    "name": "Login Incorrecto Cliente",
+    "name": "2. Login Incorrecto Cliente",
     "commands": [{
       "id": "dda5bff8-3bdd-460a-9a0e-36d77b3c2e96",
       "comment": "",
@@ -975,7 +983,7 @@
     }]
   }, {
     "id": "eb34a5d5-7a44-408e-a4a6-ee5ca1caa0de",
-    "name": "Registrar Usuario Cliente Correcto",
+    "name": "10. Registrar Usuario Cliente Correcto",
     "commands": [{
       "id": "3f288cde-e2ce-4279-bdbc-d40a41cf3527",
       "comment": "",
@@ -1120,7 +1128,7 @@
     }]
   }, {
     "id": "eaeef1ff-bfb6-475a-a3ee-7e08aef23ad8",
-    "name": "Registrar Usuario Cliente Incorrecto",
+    "name": "8. Registrar Usuario Cliente Incorrecto",
     "commands": [{
       "id": "f0821fac-ff43-4cc2-986c-7a22e867ea59",
       "comment": "",
@@ -1287,7 +1295,7 @@
     }]
   }, {
     "id": "6e473d9a-0416-4528-bc6e-906170f2cb8e",
-    "name": "Validar que no exista Usuario",
+    "name": "9. Validar que no exista Usuario",
     "commands": [{
       "id": "962a40b2-f72e-42f8-8867-84806c2e0dea",
       "comment": "",
@@ -1432,7 +1440,7 @@
     }]
   }, {
     "id": "b94de2da-1528-44b5-8d74-5c396877fa67",
-    "name": "Cliente sin Permiso",
+    "name": "12. Cliente sin Permiso",
     "commands": [{
       "id": "a3250375-e63f-4e89-8573-618b38e5c711",
       "comment": "",
